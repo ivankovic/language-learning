@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-word-order",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-3",
+  "order": 2,
+  "title": "Basic Word Order & Questions",
+  "prerequisiteIds": ["it-lesson-are-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Italian word order is usually Subject-Verb-Object, same as English. Questions often use the same word order as statements, just with rising intonation (in writing, a question mark), or start with a question word like **dove** (where) or the phrase **quanto costa** (how much does it cost)." },
+    { "type": "exercise", "exerciseId": "it-ex-word-order-1" },
+    { "type": "exercise", "exerciseId": "it-ex-word-order-2" },
+    { "type": "exercise", "exerciseId": "it-ex-word-order-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-word-order-1",
+      "type": "multiple-choice",
+      "prompt": "How do you ask \"Where is the station?\"",
+      "answer": "Dove è la stazione?",
+      "distractors": ["La stazione dove è a?", "È dove la stazione?", "Stazione dove è?"],
+      "relatedItemId": "it-vocab-travel-021"
+    },
+    {
+      "id": "it-ex-word-order-2",
+      "type": "fill-blank",
+      "prompt": "___ costa questo biglietto? (How much does this ticket cost?)",
+      "answer": "Quanto",
+      "relatedItemId": "it-vocab-travel-022"
+    },
+    {
+      "id": "it-ex-word-order-3",
+      "type": "reorder",
+      "prompt": "Put these words in order: è / Dove / l'aeroporto / ?",
+      "answer": ["Dove", "è", "l'aeroporto", "?"],
+      "relatedItemId": "it-vocab-travel-006"
+    }
+  ]
+}

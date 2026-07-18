@@ -1,0 +1,23 @@
+[
+  {
+    "id": "it-unit-1",
+    "courseId": "it-course-a1",
+    "title": "Getting Started",
+    "order": 1,
+    "lessonIds": ["it-lesson-greetings", "it-lesson-articles"]
+  },
+  {
+    "id": "it-unit-2",
+    "courseId": "it-course-a1",
+    "title": "Essere & Avere",
+    "order": 2,
+    "lessonIds": ["it-lesson-essere", "it-lesson-avere", "it-lesson-numbers"]
+  },
+  {
+    "id": "it-unit-3",
+    "courseId": "it-course-a1",
+    "title": "Daily Life",
+    "order": 3,
+    "lessonIds": ["it-lesson-are-verbs", "it-lesson-word-order", "it-lesson-food-travel"]
+  }
+]

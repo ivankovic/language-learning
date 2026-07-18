@@ -1,0 +1,40 @@
+{
+  "id": "it-lesson-articles",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-1",
+  "order": 2,
+  "title": "Definite Articles: il, la, lo, l', i, gli, le",
+  "prerequisiteIds": ["it-lesson-greetings"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Italian nouns have gender and number, and the definite article agrees with both: **il** (masc. sing.), **la** (fem. sing.), **lo** (masc. sing. before s+consonant/z), **l'** (before a vowel), **i** (masc. plural), **gli** (masc. plural before vowel/s+consonant/z), **le** (fem. plural)." },
+    { "type": "exercise", "exerciseId": "it-ex-articles-1" },
+    { "type": "exercise", "exerciseId": "it-ex-articles-2" },
+    { "type": "exercise", "exerciseId": "it-ex-articles-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-articles-1",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct article for \"pane\" (bread — masculine).",
+      "answer": "il",
+      "distractors": ["la", "lo", "l'"],
+      "relatedItemId": "it-vocab-food-001"
+    },
+    {
+      "id": "it-ex-articles-2",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct article for \"acqua\" (water — feminine, starts with a vowel).",
+      "answer": "l'",
+      "distractors": ["il", "la", "lo"],
+      "relatedItemId": "it-vocab-food-002"
+    },
+    {
+      "id": "it-ex-articles-3",
+      "type": "fill-blank",
+      "prompt": "___ scuola è vicina. (school — feminine)",
+      "answer": "La",
+      "relatedItemId": "it-vocab-routine-011"
+    }
+  ]
+}

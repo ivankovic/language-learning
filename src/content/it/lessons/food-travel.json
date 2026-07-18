@@ -1,0 +1,49 @@
+{
+  "id": "it-lesson-food-travel",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-3",
+  "order": 3,
+  "title": "Ordering Food & Asking Directions",
+  "prerequisiteIds": ["it-lesson-word-order"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Vorrei...** (\"I would like...\") is the polite way to order or request something, much softer than \"voglio\" (I want). Combine it with food vocabulary to order at a restaurant, or with travel vocabulary to ask for directions and information." },
+    { "type": "exercise", "exerciseId": "it-ex-food-travel-1" },
+    { "type": "exercise", "exerciseId": "it-ex-food-travel-2" },
+    { "type": "explanation", "markdown": "Travel words like **arrivo** (arrival) and **partenza** (departure) show up constantly on station and airport boards." },
+    { "type": "exercise", "exerciseId": "it-ex-food-travel-3" },
+    { "type": "exercise", "exerciseId": "it-ex-food-travel-4" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-food-travel-1",
+      "type": "multiple-choice",
+      "prompt": "You want to order water at a restaurant. What do you say?",
+      "answer": "Vorrei dell'acqua, per favore.",
+      "distractors": ["Dov'è l'acqua?", "L'acqua è buona.", "Ho l'acqua."],
+      "relatedItemId": "it-vocab-food-002"
+    },
+    {
+      "id": "it-ex-food-travel-2",
+      "type": "multiple-choice",
+      "prompt": "Someone asks \"Dove è l'albergo?\" What are they asking for?",
+      "answer": "hotel",
+      "distractors": ["restaurant", "train station", "airport"],
+      "relatedItemId": "it-vocab-travel-010"
+    },
+    {
+      "id": "it-ex-food-travel-3",
+      "type": "fill-blank",
+      "prompt": "Il treno è in ___ alle nove. (arrival)",
+      "answer": "arrivo",
+      "relatedItemId": "it-vocab-travel-024"
+    },
+    {
+      "id": "it-ex-food-travel-4",
+      "type": "translate",
+      "prompt": "Translate: \"The restaurant is near the station.\"",
+      "answer": ["Il ristorante è vicino alla stazione."],
+      "relatedItemId": "it-vocab-food-024"
+    }
+  ]
+}

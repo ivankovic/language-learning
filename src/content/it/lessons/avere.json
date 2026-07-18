@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-avere",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-2",
+  "order": 2,
+  "title": "Avere (to have) — Present Tense",
+  "prerequisiteIds": ["it-lesson-essere"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Avere** (to have) is also irregular:\n\nio **ho** · tu **hai** · lui/lei **ha** · noi **abbiamo** · voi **avete** · loro **hanno**\n\nItalian uses *avere* idiomatically where English uses \"to be\": **avere fame** (to be hungry), **avere sete** (to be thirsty), **avere caldo/freddo** (to be hot/cold), and **avere ... anni** (to be ... years old)." },
+    { "type": "exercise", "exerciseId": "it-ex-avere-1" },
+    { "type": "exercise", "exerciseId": "it-ex-avere-2" },
+    { "type": "exercise", "exerciseId": "it-ex-avere-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-avere-1",
+      "type": "fill-blank",
+      "prompt": "Io ___ fame. (I'm hungry.)",
+      "answer": "ho",
+      "relatedItemId": "it-vocab-routine-026"
+    },
+    {
+      "id": "it-ex-avere-2",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"I am 20 years old\" (literally \"I have 20 years\")?",
+      "answer": "Ho vent'anni.",
+      "distractors": ["Sono vent'anni.", "Ho vent'anno.", "Sono vent'anno."],
+      "relatedItemId": "it-vocab-routine-030"
+    },
+    {
+      "id": "it-ex-avere-3",
+      "type": "fill-blank",
+      "prompt": "Noi ___ sete. (We're thirsty.)",
+      "answer": "abbiamo",
+      "relatedItemId": "it-vocab-routine-027"
+    }
+  ]
+}

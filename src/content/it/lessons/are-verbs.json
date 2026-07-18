@@ -1,0 +1,47 @@
+{
+  "id": "it-lesson-are-verbs",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-3",
+  "order": 1,
+  "title": "Regular -are Verbs",
+  "prerequisiteIds": ["it-lesson-numbers"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Most Italian verbs ending in **-are** (like *parlare*, *lavorare*, *studiare*, *mangiare*) follow a regular pattern:\n\nio **-o** · tu **-i** · lui/lei **-a** · noi **-iamo** · voi **-ate** · loro **-ano**\n\ne.g. *parlare* → parl**o**, parl**i**, parl**a**, parl**iamo**, parl**ate**, parl**ano**." },
+    { "type": "exercise", "exerciseId": "it-ex-are-1" },
+    { "type": "exercise", "exerciseId": "it-ex-are-2" },
+    { "type": "exercise", "exerciseId": "it-ex-are-3" },
+    { "type": "exercise", "exerciseId": "it-ex-are-4" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-are-1",
+      "type": "fill-blank",
+      "prompt": "Io ___ italiano. (parlare — I speak Italian.)",
+      "answer": "parlo",
+      "relatedItemId": "it-vocab-routine-009"
+    },
+    {
+      "id": "it-ex-are-2",
+      "type": "multiple-choice",
+      "prompt": "Noi ___ la pizza. (mangiare — We eat pizza.)",
+      "answer": "mangiamo",
+      "distractors": ["mangio", "mangi", "mangiano"],
+      "relatedItemId": "it-vocab-routine-004"
+    },
+    {
+      "id": "it-ex-are-3",
+      "type": "fill-blank",
+      "prompt": "Tu ___ molto. (studiare — You study a lot.)",
+      "answer": "studi",
+      "relatedItemId": "it-vocab-routine-007"
+    },
+    {
+      "id": "it-ex-are-4",
+      "type": "translate",
+      "prompt": "Translate: \"They work in the city.\"",
+      "answer": ["Loro lavorano in città.", "Lavorano in città."],
+      "relatedItemId": "it-vocab-routine-006"
+    }
+  ]
+}

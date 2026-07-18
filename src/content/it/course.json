@@ -1,0 +1,7 @@
+{
+  "id": "it-course-a1",
+  "lang": "it",
+  "title": "Italian A1 Foundations",
+  "level": "A1",
+  "unitIds": ["it-unit-1", "it-unit-2", "it-unit-3"]
+}

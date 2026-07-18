@@ -1,0 +1,46 @@
+{
+  "id": "it-lesson-essere",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-2",
+  "order": 1,
+  "title": "Essere (to be) — Present Tense",
+  "prerequisiteIds": ["it-lesson-articles"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Essere** (to be) is irregular and one of the most-used verbs in Italian:\n\nio **sono** · tu **sei** · lui/lei **è** · noi **siamo** · voi **siete** · loro **sono**" },
+    { "type": "exercise", "exerciseId": "it-ex-essere-1" },
+    { "type": "exercise", "exerciseId": "it-ex-essere-2" },
+    { "type": "explanation", "markdown": "**Piacere** literally means \"pleasure\" and is what you say when meeting someone for the first time." },
+    { "type": "exercise", "exerciseId": "it-ex-essere-3" },
+    { "type": "exercise", "exerciseId": "it-ex-essere-4" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-essere-1",
+      "type": "fill-blank",
+      "prompt": "Io ___ italiano. (I am Italian.)",
+      "answer": "sono"
+    },
+    {
+      "id": "it-ex-essere-2",
+      "type": "multiple-choice",
+      "prompt": "Tu ___ stanco. (You are tired.)",
+      "answer": "sei",
+      "distractors": ["sono", "è", "siamo"]
+    },
+    {
+      "id": "it-ex-essere-3",
+      "type": "multiple-choice",
+      "prompt": "How do you respond when meeting someone for the first time?",
+      "answer": "Piacere",
+      "distractors": ["Prego", "Scusa", "Bene"],
+      "relatedItemId": "it-vocab-greet-014"
+    },
+    {
+      "id": "it-ex-essere-4",
+      "type": "translate",
+      "prompt": "Translate: \"She is a teacher.\"",
+      "answer": ["Lei è insegnante.", "Lei è un'insegnante."]
+    }
+  ]
+}

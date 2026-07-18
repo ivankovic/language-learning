@@ -1,0 +1,64 @@
+[
+  {
+    "id": "it-deck-greetings",
+    "lang": "it",
+    "title": "Greetings & Politeness",
+    "courseId": "it-course-a1",
+    "itemIds": [
+      "it-vocab-greet-001", "it-vocab-greet-002", "it-vocab-greet-003", "it-vocab-greet-004", "it-vocab-greet-005",
+      "it-vocab-greet-006", "it-vocab-greet-007", "it-vocab-greet-008", "it-vocab-greet-009", "it-vocab-greet-010",
+      "it-vocab-greet-011", "it-vocab-greet-012", "it-vocab-greet-013", "it-vocab-greet-014", "it-vocab-greet-015"
+    ]
+  },
+  {
+    "id": "it-deck-food",
+    "lang": "it",
+    "title": "Food & Dining",
+    "courseId": "it-course-a1",
+    "itemIds": [
+      "it-vocab-food-001", "it-vocab-food-002", "it-vocab-food-003", "it-vocab-food-004", "it-vocab-food-005",
+      "it-vocab-food-006", "it-vocab-food-007", "it-vocab-food-008", "it-vocab-food-009", "it-vocab-food-010",
+      "it-vocab-food-011", "it-vocab-food-012", "it-vocab-food-013", "it-vocab-food-014", "it-vocab-food-015",
+      "it-vocab-food-016", "it-vocab-food-017", "it-vocab-food-018", "it-vocab-food-019", "it-vocab-food-020",
+      "it-vocab-food-021", "it-vocab-food-022", "it-vocab-food-023", "it-vocab-food-024", "it-vocab-food-025"
+    ]
+  },
+  {
+    "id": "it-deck-travel",
+    "lang": "it",
+    "title": "Travel & Directions",
+    "courseId": "it-course-a1",
+    "itemIds": [
+      "it-vocab-travel-001", "it-vocab-travel-002", "it-vocab-travel-003", "it-vocab-travel-004", "it-vocab-travel-005",
+      "it-vocab-travel-006", "it-vocab-travel-007", "it-vocab-travel-008", "it-vocab-travel-009", "it-vocab-travel-010",
+      "it-vocab-travel-011", "it-vocab-travel-012", "it-vocab-travel-013", "it-vocab-travel-014", "it-vocab-travel-015",
+      "it-vocab-travel-016", "it-vocab-travel-017", "it-vocab-travel-018", "it-vocab-travel-019", "it-vocab-travel-020",
+      "it-vocab-travel-021", "it-vocab-travel-022", "it-vocab-travel-023", "it-vocab-travel-024", "it-vocab-travel-025"
+    ]
+  },
+  {
+    "id": "it-deck-daily-routine",
+    "lang": "it",
+    "title": "Daily Routine & Family",
+    "courseId": "it-course-a1",
+    "itemIds": [
+      "it-vocab-routine-001", "it-vocab-routine-002", "it-vocab-routine-003", "it-vocab-routine-004", "it-vocab-routine-005",
+      "it-vocab-routine-006", "it-vocab-routine-007", "it-vocab-routine-008", "it-vocab-routine-009", "it-vocab-routine-010",
+      "it-vocab-routine-011", "it-vocab-routine-012", "it-vocab-routine-013", "it-vocab-routine-014", "it-vocab-routine-015",
+      "it-vocab-routine-016", "it-vocab-routine-017", "it-vocab-routine-018", "it-vocab-routine-019", "it-vocab-routine-020",
+      "it-vocab-routine-021", "it-vocab-routine-022", "it-vocab-routine-023", "it-vocab-routine-024", "it-vocab-routine-025",
+      "it-vocab-routine-026", "it-vocab-routine-027", "it-vocab-routine-028", "it-vocab-routine-029", "it-vocab-routine-030"
+    ]
+  },
+  {
+    "id": "it-deck-numbers-time",
+    "lang": "it",
+    "title": "Numbers & Time",
+    "courseId": "it-course-a1",
+    "itemIds": [
+      "it-vocab-numtime-001", "it-vocab-numtime-002", "it-vocab-numtime-003", "it-vocab-numtime-004", "it-vocab-numtime-005",
+      "it-vocab-numtime-006", "it-vocab-numtime-007", "it-vocab-numtime-008", "it-vocab-numtime-009", "it-vocab-numtime-010",
+      "it-vocab-numtime-011", "it-vocab-numtime-012", "it-vocab-numtime-013", "it-vocab-numtime-014", "it-vocab-numtime-015"
+    ]
+  }
+]

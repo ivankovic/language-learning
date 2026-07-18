@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-numbers",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-2",
+  "order": 3,
+  "title": "Numbers 1-10 & Telling Time",
+  "prerequisiteIds": ["it-lesson-avere"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Numbers 1-10: **uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci**. To tell time, Italian uses \"Sono le...\" (It is... o'clock), e.g. *Sono le tre* (It's three o'clock)." },
+    { "type": "exercise", "exerciseId": "it-ex-numbers-1" },
+    { "type": "exercise", "exerciseId": "it-ex-numbers-2" },
+    { "type": "exercise", "exerciseId": "it-ex-numbers-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-numbers-1",
+      "type": "multiple-choice",
+      "prompt": "What is \"sette\" in English?",
+      "answer": "seven",
+      "distractors": ["six", "eight", "nine"],
+      "relatedItemId": "it-vocab-numtime-007"
+    },
+    {
+      "id": "it-ex-numbers-2",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"morning\"?",
+      "answer": "mattina",
+      "distractors": ["sera", "pomeriggio", "notte"],
+      "relatedItemId": "it-vocab-numtime-013"
+    },
+    {
+      "id": "it-ex-numbers-3",
+      "type": "reorder",
+      "prompt": "Put these words in order: le / tre / Sono / del / pomeriggio",
+      "answer": ["Sono", "le", "tre", "del", "pomeriggio"]
+    }
+  ]
+}
