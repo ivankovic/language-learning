@@ -30,15 +30,12 @@ export default defineConfig({
         ],
       },
       workbox: {
+        // Content (vocab/decks/lessons) is statically imported into JS chunks
+        // at build time, not fetched as separate JSON over the network — so
+        // it's already covered by the JS/CSS/HTML precache below and needs no
+        // separate runtime-caching rule of its own.
         globPatterns: ["**/*.{js,css,html,svg,png,woff2}"],
         runtimeCaching: [
-          {
-            // Bundled content JSON (vocab/lessons) is stable-ID and rebuildable,
-            // safe to cache aggressively.
-            urlPattern: /\/content\/.*\.json$/,
-            handler: "CacheFirst",
-            options: { cacheName: "content-cache" },
-          },
           {
             urlPattern: ({ request }) => request.mode === "navigate",
             handler: "StaleWhileRevalidate",
