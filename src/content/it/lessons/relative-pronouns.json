@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-relative-pronouns",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-9",
+  "order": 2,
+  "title": "Relative Pronouns: che, cui",
+  "prerequisiteIds": ["it-lesson-ci-ne"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Che** (who/that/which) connects clauses when the relative pronoun is the subject or direct object: *Il libro che leggo è interessante* (The book that I'm reading is interesting).\n\n**Cui** is used instead after a preposition: *La persona a cui scrivo è mia madre* (The person to whom I'm writing is my mother)." },
+    { "type": "exercise", "exerciseId": "it-ex-relpro-1" },
+    { "type": "exercise", "exerciseId": "it-ex-relpro-2" },
+    { "type": "exercise", "exerciseId": "it-ex-relpro-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-relpro-1",
+      "type": "fill-blank",
+      "prompt": "Il libro ___ leggo è interessante. (that)",
+      "answer": "che",
+      "relatedItemId": "it-vocab-work-027"
+    },
+    {
+      "id": "it-ex-relpro-2",
+      "type": "multiple-choice",
+      "prompt": "La persona a ___ scrivo è mia madre. (whom — after a preposition)",
+      "answer": "cui",
+      "distractors": ["che", "chi", "cosa"],
+      "relatedItemId": "it-vocab-routine-015"
+    },
+    {
+      "id": "it-ex-relpro-3",
+      "type": "translate",
+      "prompt": "Translate: \"The film that we watched was beautiful.\"",
+      "answer": ["Il film che abbiamo guardato era bello."],
+      "relatedItemId": "it-vocab-tech-016"
+    }
+  ]
+}

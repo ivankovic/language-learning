@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-condizionale",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-10",
+  "order": 1,
+  "title": "Conditional: vorrei, potrei, dovrei",
+  "prerequisiteIds": ["it-lesson-relative-pronouns"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Condizionale presente** is used for polite requests, wishes, and hypotheticals — like English \"would/could/should\". Formed on the future-tense stem, with endings **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\n\n*Vorrei un caffè* (I would like a coffee — much more polite than \"voglio\"). *Potresti aiutarmi?* (Could you help me?). *Dovresti studiare di più* (You should study more)." },
+    { "type": "exercise", "exerciseId": "it-ex-cond-1" },
+    { "type": "exercise", "exerciseId": "it-ex-cond-2" },
+    { "type": "exercise", "exerciseId": "it-ex-cond-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-cond-1",
+      "type": "fill-blank",
+      "prompt": "___ un caffè, per favore. (volere — I would like, polite)",
+      "answer": "Vorrei",
+      "relatedItemId": "it-vocab-food-016"
+    },
+    {
+      "id": "it-ex-cond-2",
+      "type": "multiple-choice",
+      "prompt": "___ aprire la finestra? (potere — Could you open the window?)",
+      "answer": "Potresti",
+      "distractors": ["Puoi", "Potevi", "Potrai"],
+      "relatedItemId": "it-vocab-home-012"
+    },
+    {
+      "id": "it-ex-cond-3",
+      "type": "translate",
+      "prompt": "Translate: \"You should study more.\" (informal \"you\")",
+      "answer": ["Dovresti studiare di più."],
+      "relatedItemId": "it-vocab-routine-007"
+    }
+  ]
+}

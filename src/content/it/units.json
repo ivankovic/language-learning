@@ -54,5 +54,19 @@
     "title": "Comparing & Pronouns",
     "order": 8,
     "lessonIds": ["it-lesson-comparatives", "it-lesson-direct-object-pronouns", "it-lesson-indirect-object-pronouns"]
+  },
+  {
+    "id": "it-unit-9",
+    "courseId": "it-course-a1",
+    "title": "Particles & Relative Pronouns",
+    "order": 9,
+    "lessonIds": ["it-lesson-ci-ne", "it-lesson-relative-pronouns"]
+  },
+  {
+    "id": "it-unit-10",
+    "courseId": "it-course-a1",
+    "title": "Conditional, Superlatives & Impersonal Si",
+    "order": 10,
+    "lessonIds": ["it-lesson-condizionale", "it-lesson-superlative", "it-lesson-impersonal-si"]
   }
 ]

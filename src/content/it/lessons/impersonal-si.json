@@ -1,0 +1,38 @@
+{
+  "id": "it-lesson-impersonal-si",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-10",
+  "order": 3,
+  "title": "Impersonal Si: si dice, si fa",
+  "prerequisiteIds": ["it-lesson-superlative"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Si** + a verb in the third person expresses a general, impersonal statement — like English \"one says\", \"people say\", \"you do\" (generic \"you\"). *Si dice che...* (People say that...). *In Italia si mangia bene* (In Italy, people eat well / the food is good). If the following noun is plural, the verb becomes plural too: *Si vendono i biglietti qui* (Tickets are sold here)." },
+    { "type": "exercise", "exerciseId": "it-ex-si-1" },
+    { "type": "exercise", "exerciseId": "it-ex-si-2" },
+    { "type": "exercise", "exerciseId": "it-ex-si-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-si-1",
+      "type": "fill-blank",
+      "prompt": "In Italia ___ mangia molto bene. (impersonal si)",
+      "answer": "si"
+    },
+    {
+      "id": "it-ex-si-2",
+      "type": "multiple-choice",
+      "prompt": "Come ___ dice \"thank you\" in italiano? (impersonal — How does one say ...?)",
+      "answer": "si",
+      "distractors": ["ci", "ne", "lo"],
+      "relatedItemId": "it-vocab-greet-007"
+    },
+    {
+      "id": "it-ex-si-3",
+      "type": "translate",
+      "prompt": "Translate: \"Tickets are sold here.\" (impersonal si, plural agreement)",
+      "answer": ["Si vendono i biglietti qui."],
+      "relatedItemId": "it-vocab-travel-007"
+    }
+  ]
+}

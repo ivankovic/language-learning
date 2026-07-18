@@ -1,0 +1,38 @@
+{
+  "id": "it-lesson-ci-ne",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-9",
+  "order": 1,
+  "title": "The Particles Ci and Ne",
+  "prerequisiteIds": ["it-lesson-indirect-object-pronouns"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Ci** replaces \"to/in/at a place\" already mentioned: *Vai al mercato? Sì, ci vado* (Are you going to the market? Yes, I'm going there).\n\n**Ne** replaces \"of/about something\", especially with quantities: *Quanti libri hai? Ne ho tre* (How many books do you have? I have three of them)." },
+    { "type": "exercise", "exerciseId": "it-ex-cine-1" },
+    { "type": "exercise", "exerciseId": "it-ex-cine-2" },
+    { "type": "exercise", "exerciseId": "it-ex-cine-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-cine-1",
+      "type": "fill-blank",
+      "prompt": "Vai in Italia quest'estate? Sì, ___ vado a luglio. (there)",
+      "answer": "ci"
+    },
+    {
+      "id": "it-ex-cine-2",
+      "type": "multiple-choice",
+      "prompt": "Quanti fratelli hai? ___ ho due. (of them)",
+      "answer": "Ne",
+      "distractors": ["Ci", "Lo", "Li"],
+      "relatedItemId": "it-vocab-routine-017"
+    },
+    {
+      "id": "it-ex-cine-3",
+      "type": "translate",
+      "prompt": "Translate: \"I go there every day.\"",
+      "answer": ["Ci vado ogni giorno."],
+      "relatedItemId": "it-vocab-routine-025"
+    }
+  ]
+}

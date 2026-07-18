@@ -36,13 +36,15 @@ Goal: a fully working app skeleton, every mode functional end-to-end, proven wit
 
 Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md`). Growing Italian first before replicating for French/German (explicit choice — see `~/.claude/plans/graceful-giggling-gizmo.md`).
 
-**Italian progress: 450/~2000 words (~23%), 20/~35 lessons (~57%), 15 decks, 8 units.**
+**Italian progress: 570/~2000 words (~29%), 25/~35 lessons (~71%), 19 decks, 10 units.**
 
 - [x] Batch 1: expanded 5 original decks (greetings/food/travel/routine/numbers-time) and added 6 new decks (home, body & clothing, weather/colors/nature, work & education, common verbs, common adjectives) — 110 → 330 words
 - [x] Batch 1: added 7 new grammar lessons (regular -ere/-ire verbs, modal verbs, reflexive verbs, adjective agreement, prepositions, passato prossimo with avere, passato prossimo with essere) across 3 new units — 8 → 15 lessons, 3 → 6 units
 - [x] Batch 2: added 4 new decks (shopping & money, more common verbs, technology & communication, sports & hobbies) — 330 → 450 words
 - [x] Batch 2: added 5 new grammar lessons (imperfetto, futuro semplice, comparatives, direct object pronouns, indirect object pronouns) across 2 new units — 15 → 20 lessons, 6 → 8 units
-- [ ] Continue growing Italian toward ~2000 words / ~35 lessons (many more batches needed — this is intentionally incremental, not a single pass). Natural next batches: emotions/personality, transportation/city places, holidays/celebrations, cooking/kitchen, more A2 grammar (subjunctive intro, ci/ne particles, relative pronouns)
+- [x] Batch 3: added 4 new decks (emotions & personality, city & transportation, holidays & celebrations, cooking & kitchen) — 450 → 570 words
+- [x] Batch 3: added 5 new grammar lessons (ci/ne particles, relative pronouns che/cui, condizionale, superlatives, impersonal si) across 2 new units — 20 → 25 lessons, 8 → 10 units
+- [ ] Continue growing Italian toward ~2000 words / ~35 lessons (many more batches needed — this is intentionally incremental, not a single pass). Core A1-A2 grammar is now largely covered; natural next steps are mostly vocabulary breadth (nature/animals, more food, professions, more idioms) plus a few remaining grammar points (subjunctive intro, passive voice, gerund/progressive tense)
 - [ ] Add French and German content bundles (currently only Italian has seed content) — deferred until Italian is more complete
 - [ ] Run the actual content generation → staging → review → promotion pipeline (currently just scaffolded/empty) — Phase 1-2 content has been hand-authored directly instead
 - [ ] Flesh out the dev content-review UI beyond the placeholder (approve/edit/reject-and-regenerate staged content)

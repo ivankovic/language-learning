@@ -67,6 +67,11 @@ describe("content loader", () => {
       "it-lesson-comparatives",
       "it-lesson-direct-object-pronouns",
       "it-lesson-indirect-object-pronouns",
+      "it-lesson-ci-ne",
+      "it-lesson-relative-pronouns",
+      "it-lesson-condizionale",
+      "it-lesson-superlative",
+      "it-lesson-impersonal-si",
     ]);
   });
 });
