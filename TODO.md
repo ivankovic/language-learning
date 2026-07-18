@@ -32,12 +32,23 @@ Goal: a fully working app skeleton, every mode functional end-to-end, proven wit
 - [x] Journal prompt was re-randomized on every keystroke (called in the render body) — fixed to resolve once from the stored `promptId` (`getPromptById`)
 - [x] Lesson ordering bug: sorting lessons by a per-unit `order` field globally caused ties/misordering across units — fixed to derive order from course→unit→lesson structure; test locks in the correct sequence
 
-## Phase 2 — Content scale-up (not started)
+## Phase 2 — Content scale-up (in progress)
 
-- [ ] Run the actual content generation → staging → review → promotion pipeline (currently just scaffolded/empty) to produce the full "Large" tier: ~2000 words + 30-40 lessons per language
-- [ ] Add French and German content bundles (currently only Italian has seed content)
+Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md`). Growing Italian first before replicating for French/German (explicit choice — see `~/.claude/plans/graceful-giggling-gizmo.md`).
+
+**Italian progress: 330/~2000 words (~17%), 15/~35 lessons (~43%), 11 decks, 6 units.**
+
+- [x] Batch 1: expanded 5 original decks (greetings/food/travel/routine/numbers-time) and added 6 new decks (home, body & clothing, weather/colors/nature, work & education, common verbs, common adjectives) — 110 → 330 words
+- [x] Batch 1: added 7 new grammar lessons (regular -ere/-ire verbs, modal verbs, reflexive verbs, adjective agreement, prepositions, passato prossimo with avere, passato prossimo with essere) across 3 new units — 8 → 15 lessons, 3 → 6 units
+- [ ] Continue growing Italian toward ~2000 words / ~35 lessons (many more batches needed — this is intentionally incremental, not a single pass)
+- [ ] Add French and German content bundles (currently only Italian has seed content) — deferred until Italian is more complete
+- [ ] Run the actual content generation → staging → review → promotion pipeline (currently just scaffolded/empty) — Phase 1-2 content has been hand-authored directly instead
 - [ ] Flesh out the dev content-review UI beyond the placeholder (approve/edit/reject-and-regenerate staged content)
-- [ ] Split `vocab.json`/`decks.json` into per-topic files once content volume grows (noted as a deliberate Phase 1 simplification in `src/content/it/index.ts`)
+- [ ] Split `vocab.json`/`decks.json` into per-topic files once a single file becomes unwieldy to hand-edit (deferred again at 330 words — still a manageable file size; revisit past ~800-1000)
+
+### Bugs found while expanding content
+
+- [x] `MarkdownLite` only supported `**bold**`, not `*italic*` — but most lesson explanation text (including from Phase 1) used single-asterisk italics for Italian example sentences, which rendered as literal asterisks. Extended the renderer to support both; regression test added (`src/features/lessons/MarkdownLite.test.tsx`)
 
 ## Deferred / open items
 

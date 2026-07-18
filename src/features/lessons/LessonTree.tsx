@@ -23,12 +23,6 @@ export function LessonTree() {
   const completedIds = new Set(progress.filter((p) => p.completedAt).map((p) => p.lessonId));
   const lessonsById = new Map(content.lessons.map((l) => [l.id, l]));
 
-  function isUnlocked(lessonId: string): boolean {
-    const lesson = lessonsById.get(lessonId);
-    if (!lesson) return false;
-    return (lesson.prerequisiteIds ?? []).every((id) => completedIds.has(id));
-  }
-
   return (
     <Screen title="Lessons" action={<SettingsLink />}>
       <p className="mb-4 text-sm text-slate-500">{content.course.title} · {content.course.level}</p>
@@ -40,19 +34,15 @@ export function LessonTree() {
               {unit.lessonIds.map((lessonId) => {
                 const lesson = lessonsById.get(lessonId);
                 if (!lesson) return null;
-                const unlocked = isUnlocked(lessonId);
                 const done = completedIds.has(lessonId);
                 return (
                   <button
                     key={lessonId}
-                    disabled={!unlocked}
                     onClick={() => navigate(`/lessons/${lessonId}`)}
-                    className={`flex w-full items-center justify-between rounded-xl px-4 py-3 text-left ${
-                      unlocked ? "bg-slate-900 hover:bg-slate-800" : "bg-slate-950 text-slate-600"
-                    }`}
+                    className="flex w-full items-center justify-between rounded-xl bg-slate-900 px-4 py-3 text-left hover:bg-slate-800"
                   >
                     <span>{lesson.title}</span>
-                    <span>{done ? "✅" : unlocked ? "" : "🔒"}</span>
+                    <span>{done ? "✅" : ""}</span>
                   </button>
                 );
               })}

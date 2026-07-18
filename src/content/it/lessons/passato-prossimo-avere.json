@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-passato-prossimo-avere",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-6",
+  "order": 1,
+  "title": "Past Tense: Passato Prossimo with Avere",
+  "prerequisiteIds": ["it-lesson-prepositions"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Passato prossimo** (the everyday past tense) is formed with the present tense of **avere** or **essere** plus a **past participle**. Most verbs use **avere**. Regular past participles: **-are → -ato** (parlare → parl**ato**), **-ere → -uto** (potere → pot**uto**), **-ire → -ito** (dormire → dorm**ito**).\n\n*Ho mangiato la pizza* (I ate pizza). *Hai parlato con lui?* (Did you talk to him?). The participle doesn't change for gender/number with avere." },
+    { "type": "exercise", "exerciseId": "it-ex-pp-avere-1" },
+    { "type": "exercise", "exerciseId": "it-ex-pp-avere-2" },
+    { "type": "exercise", "exerciseId": "it-ex-pp-avere-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-pp-avere-1",
+      "type": "fill-blank",
+      "prompt": "Ieri io ho ___ la pizza. (mangiare — past participle)",
+      "answer": "mangiato",
+      "relatedItemId": "it-vocab-routine-004"
+    },
+    {
+      "id": "it-ex-pp-avere-2",
+      "type": "multiple-choice",
+      "prompt": "Noi abbiamo ___ italiano per due anni. (studiare — We studied Italian for two years.)",
+      "answer": "studiato",
+      "distractors": ["studiare", "studio", "studiando"],
+      "relatedItemId": "it-vocab-routine-007"
+    },
+    {
+      "id": "it-ex-pp-avere-3",
+      "type": "translate",
+      "prompt": "Translate: \"They read the book.\" (past tense)",
+      "answer": ["Loro hanno letto il libro.", "Hanno letto il libro."],
+      "relatedItemId": "it-vocab-verbs-029"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-reflexive-verbs",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-4",
+  "order": 3,
+  "title": "Reflexive Verbs",
+  "prerequisiteIds": ["it-lesson-modal-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Reflexive verbs (ending in **-si** in the infinitive, like *alzarsi* — to get (oneself) up) describe actions you do to yourself. They need a reflexive pronoun before the verb: **mi** (myself), **ti**, **si**, **ci**, **vi**, **si**.\n\n*Alzarsi*: **mi alzo**, **ti alzi**, **si alza**, **ci alziamo**, **vi alzate**, **si alzano**." },
+    { "type": "exercise", "exerciseId": "it-ex-reflexive-1" },
+    { "type": "exercise", "exerciseId": "it-ex-reflexive-2" },
+    { "type": "exercise", "exerciseId": "it-ex-reflexive-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-reflexive-1",
+      "type": "fill-blank",
+      "prompt": "Io ___ alzo alle sette. (I get up at seven.)",
+      "answer": "mi",
+      "relatedItemId": "it-vocab-routine-001"
+    },
+    {
+      "id": "it-ex-reflexive-2",
+      "type": "multiple-choice",
+      "prompt": "Noi ___ laviamo le mani. (We wash our hands.)",
+      "answer": "ci",
+      "distractors": ["mi", "ti", "si"],
+      "relatedItemId": "it-vocab-routine-002"
+    },
+    {
+      "id": "it-ex-reflexive-3",
+      "type": "translate",
+      "prompt": "Translate: \"She gets dressed quickly.\"",
+      "answer": ["Lei si veste velocemente.", "Si veste velocemente."],
+      "relatedItemId": "it-vocab-routine-003"
+    }
+  ]
+}

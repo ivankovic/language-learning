@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-modal-verbs",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-4",
+  "order": 2,
+  "title": "Modal Verbs: dovere, potere, volere",
+  "prerequisiteIds": ["it-lesson-ere-ire-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Dovere** (must/have to), **potere** (can/may), and **volere** (want) are irregular and are followed directly by another verb in the infinitive: *Devo studiare* (I have to study), *Posso entrare?* (May I come in?), *Voglio mangiare* (I want to eat).\n\nio **devo/posso/voglio** · tu **devi/puoi/vuoi** · lui/lei **deve/può/vuole** · noi **dobbiamo/possiamo/vogliamo** · voi **dovete/potete/volete** · loro **devono/possono/vogliono**." },
+    { "type": "exercise", "exerciseId": "it-ex-modal-1" },
+    { "type": "exercise", "exerciseId": "it-ex-modal-2" },
+    { "type": "exercise", "exerciseId": "it-ex-modal-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-modal-1",
+      "type": "fill-blank",
+      "prompt": "Io ___ andare al lavoro. (dovere — I have to go to work.)",
+      "answer": "devo",
+      "relatedItemId": "it-vocab-verbs-006"
+    },
+    {
+      "id": "it-ex-modal-2",
+      "type": "multiple-choice",
+      "prompt": "___ tu aiutarmi? (potere — Can you help me?)",
+      "answer": "Puoi",
+      "distractors": ["Posso", "Può", "Possiamo"],
+      "relatedItemId": "it-vocab-verbs-005"
+    },
+    {
+      "id": "it-ex-modal-3",
+      "type": "translate",
+      "prompt": "Translate: \"They want to eat pizza.\"",
+      "answer": ["Loro vogliono mangiare la pizza.", "Vogliono mangiare la pizza."],
+      "relatedItemId": "it-vocab-verbs-007"
+    }
+  ]
+}

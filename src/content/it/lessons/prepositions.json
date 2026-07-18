@@ -1,0 +1,38 @@
+{
+  "id": "it-lesson-prepositions",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-5",
+  "order": 2,
+  "title": "Prepositions: di, a, da, in, con, su, per, tra/fra",
+  "prerequisiteIds": ["it-lesson-adjectives"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Common prepositions: **di** (of/from), **a** (to/at), **da** (from/since/at someone's place), **in** (in/into), **con** (with), **su** (on), **per** (for), **tra/fra** (between/among — interchangeable). Several combine with definite articles (*a + il → al*, *in + la → nella*), but the plain forms are the building blocks to learn first." },
+    { "type": "exercise", "exerciseId": "it-ex-prep-1" },
+    { "type": "exercise", "exerciseId": "it-ex-prep-2" },
+    { "type": "exercise", "exerciseId": "it-ex-prep-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-prep-1",
+      "type": "fill-blank",
+      "prompt": "Vado ___ scuola. (to school)",
+      "answer": "a"
+    },
+    {
+      "id": "it-ex-prep-2",
+      "type": "multiple-choice",
+      "prompt": "Il libro è ___ tavolo. (on the table)",
+      "answer": "su",
+      "distractors": ["di", "da", "per"],
+      "relatedItemId": "it-vocab-home-008"
+    },
+    {
+      "id": "it-ex-prep-3",
+      "type": "translate",
+      "prompt": "Translate: \"I'm studying with my friend.\"",
+      "answer": ["Studio con il mio amico.", "Sto studiando con il mio amico."],
+      "relatedItemId": "it-vocab-routine-013"
+    }
+  ]
+}

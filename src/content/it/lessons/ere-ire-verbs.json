@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-ere-ire-verbs",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-4",
+  "order": 1,
+  "title": "Regular -ere and -ire Verbs",
+  "prerequisiteIds": ["it-lesson-are-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**-ere verbs** (like *leggere*, *scrivere*) conjugate: io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ete** · loro **-ono**.\n\n**-ire verbs** mostly follow io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ite** · loro **-ono** (like *dormire*), but some — like *capire* — insert **-isc-** before the ending in all forms except noi/voi: cap**isco**, cap**isci**, cap**isce**, capiamo, capite, cap**iscono**." },
+    { "type": "exercise", "exerciseId": "it-ex-ere-ire-1" },
+    { "type": "exercise", "exerciseId": "it-ex-ere-ire-2" },
+    { "type": "exercise", "exerciseId": "it-ex-ere-ire-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-ere-ire-1",
+      "type": "fill-blank",
+      "prompt": "Io ___ un libro. (leggere — I read a book.)",
+      "answer": "leggo",
+      "relatedItemId": "it-vocab-verbs-029"
+    },
+    {
+      "id": "it-ex-ere-ire-2",
+      "type": "multiple-choice",
+      "prompt": "Noi ___ una lettera. (scrivere — We write a letter.)",
+      "answer": "scriviamo",
+      "distractors": ["scrivo", "scrivi", "scrivono"],
+      "relatedItemId": "it-vocab-verbs-030"
+    },
+    {
+      "id": "it-ex-ere-ire-3",
+      "type": "fill-blank",
+      "prompt": "Lei non ___ l'italiano. (capire — She doesn't understand Italian.)",
+      "answer": "capisce",
+      "relatedItemId": "it-vocab-verbs-012"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-passato-prossimo-essere",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-6",
+  "order": 2,
+  "title": "Past Tense: Passato Prossimo with Essere",
+  "prerequisiteIds": ["it-lesson-passato-prossimo-avere"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Verbs of motion or state (**andare**, **venire**, **partire**, **arrivare**, **tornare**, **uscire**, **entrare**) and all **reflexive verbs** use **essere** instead of avere in the passato prossimo — and with essere, the past participle **agrees in gender and number** with the subject, like an adjective.\n\n*Sono andato al mercato* (I went to the market — masculine speaker) / *Sono andata al mercato* (feminine speaker). *Mi sono alzato/alzata alle sette* (I got up at seven)." },
+    { "type": "exercise", "exerciseId": "it-ex-pp-essere-1" },
+    { "type": "exercise", "exerciseId": "it-ex-pp-essere-2" },
+    { "type": "exercise", "exerciseId": "it-ex-pp-essere-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-pp-essere-1",
+      "type": "multiple-choice",
+      "prompt": "Maria è ___ a casa presto. (tornare — Maria came home early. Participle must agree: feminine subject.)",
+      "answer": "tornata",
+      "distractors": ["tornato", "tornati", "tornate"],
+      "relatedItemId": "it-vocab-home-001"
+    },
+    {
+      "id": "it-ex-pp-essere-2",
+      "type": "fill-blank",
+      "prompt": "I ragazzi sono ___ tardi. (arrivare — masculine plural subject)",
+      "answer": "arrivati",
+      "relatedItemId": "it-vocab-travel-024"
+    },
+    {
+      "id": "it-ex-pp-essere-3",
+      "type": "translate",
+      "prompt": "Translate: \"She got up at eight.\" (reflexive, passato prossimo)",
+      "answer": ["Si è alzata alle otto.", "Lei si è alzata alle otto."],
+      "relatedItemId": "it-vocab-routine-001"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-adjectives",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-5",
+  "order": 1,
+  "title": "Adjective Agreement",
+  "prerequisiteIds": ["it-lesson-reflexive-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Italian adjectives agree in **gender** and **number** with the noun they describe, and usually come **after** the noun. Most adjectives ending in **-o** change to **-a** (feminine), **-i** (masc. plural), **-e** (fem. plural): *piccolo → piccola, piccoli, piccole*. Adjectives ending in **-e** (like *grande*, *veloce*) only change for plural: **-e → -i** for both genders." },
+    { "type": "exercise", "exerciseId": "it-ex-adj-1" },
+    { "type": "exercise", "exerciseId": "it-ex-adj-2" },
+    { "type": "exercise", "exerciseId": "it-ex-adj-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-adj-1",
+      "type": "fill-blank",
+      "prompt": "La casa è ___ . (piccolo, agreeing with \"casa\" — feminine)",
+      "answer": "piccola",
+      "relatedItemId": "it-vocab-adj-002"
+    },
+    {
+      "id": "it-ex-adj-2",
+      "type": "multiple-choice",
+      "prompt": "I libri sono ___ . (nuovo, agreeing with \"libri\" — masculine plural)",
+      "answer": "nuovi",
+      "distractors": ["nuovo", "nuova", "nuove"],
+      "relatedItemId": "it-vocab-adj-007"
+    },
+    {
+      "id": "it-ex-adj-3",
+      "type": "translate",
+      "prompt": "Translate: \"The mountains are tall.\" (montagne — feminine plural)",
+      "answer": ["Le montagne sono alte."],
+      "relatedItemId": "it-vocab-adj-015"
+    }
+  ]
+}

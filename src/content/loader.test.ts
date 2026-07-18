@@ -55,6 +55,13 @@ describe("content loader", () => {
       "it-lesson-are-verbs",
       "it-lesson-word-order",
       "it-lesson-food-travel",
+      "it-lesson-ere-ire-verbs",
+      "it-lesson-modal-verbs",
+      "it-lesson-reflexive-verbs",
+      "it-lesson-adjectives",
+      "it-lesson-prepositions",
+      "it-lesson-passato-prossimo-avere",
+      "it-lesson-passato-prossimo-essere",
     ]);
   });
 });

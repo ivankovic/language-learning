@@ -19,5 +19,26 @@
     "title": "Daily Life",
     "order": 3,
     "lessonIds": ["it-lesson-are-verbs", "it-lesson-word-order", "it-lesson-food-travel"]
+  },
+  {
+    "id": "it-unit-4",
+    "courseId": "it-course-a1",
+    "title": "Verbs in Depth",
+    "order": 4,
+    "lessonIds": ["it-lesson-ere-ire-verbs", "it-lesson-modal-verbs", "it-lesson-reflexive-verbs"]
+  },
+  {
+    "id": "it-unit-5",
+    "courseId": "it-course-a1",
+    "title": "Describing & Connecting",
+    "order": 5,
+    "lessonIds": ["it-lesson-adjectives", "it-lesson-prepositions"]
+  },
+  {
+    "id": "it-unit-6",
+    "courseId": "it-course-a1",
+    "title": "Talking About the Past",
+    "order": 6,
+    "lessonIds": ["it-lesson-passato-prossimo-avere", "it-lesson-passato-prossimo-essere"]
   }
 ]
