@@ -15,8 +15,8 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["icons/icon.svg"],
       manifest: {
-        name: "Lingo — Language Learning",
-        short_name: "Lingo",
+        name: "Language Learning",
+        short_name: "Language Learning",
         description: "Learn languages with flashcards, grammar lessons, and journaling.",
         theme_color: "#0f172a",
         background_color: "#0f172a",

@@ -51,7 +51,7 @@ export function SettingsScreen() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `lingo-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `language-learning-backup-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
   }
@@ -67,7 +67,7 @@ export function SettingsScreen() {
     }
     const requiredKeys: (keyof ExportBundle)[] = ["profile", "cardStates", "lessonProgress", "journalEntries", "dailyActivity"];
     if (!requiredKeys.every((k) => Array.isArray(bundle[k]))) {
-      setImportStatus("That file doesn't look like a Lingo backup.");
+      setImportStatus("That file doesn't look like a Language Learning backup.");
       return;
     }
     const confirmed = window.confirm(

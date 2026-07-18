@@ -45,7 +45,7 @@ export function HomeScreen() {
   const goalProgress = today ? Math.min(100, Math.round((today.reviewsCount / profile.dailyGoal) * 100)) : 0;
 
   return (
-    <Screen title="Lingo" action={<SettingsLink />}>
+    <Screen title="Language Learning" action={<SettingsLink />}>
       <div className="mb-6 flex items-center gap-6">
         <div>
           <p className="text-3xl font-semibold">🔥 {streak ?? "…"}</p>
