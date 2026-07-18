@@ -4,10 +4,14 @@ import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 // `base` is per-deploy-target: "/" works for a custom domain or a host that
-// serves from the root (Netlify, Vercel, Cloudflare Pages). A GitHub Pages
-// *project* page needs "/<repo-name>/" instead — change at deploy time.
+// serves from the root (Netlify, Vercel, Cloudflare Pages). A project page on
+// GitHub Pages or Codeberg Pages serves from "/<repo-name>/" instead. Single
+// source of truth here — start_url/icon paths below derive from it so they
+// can't drift out of sync with a subpath deploy.
+const base = "/language-learning/";
+
 export default defineConfig({
-  base: "/",
+  base,
   plugins: [
     react(),
     tailwindcss(),
@@ -21,12 +25,13 @@ export default defineConfig({
         theme_color: "#0f172a",
         background_color: "#0f172a",
         display: "standalone",
-        start_url: "/",
+        start_url: base,
+        scope: base,
         icons: [
           // A single scalable SVG covers all sizes for Phase 1; swap in real
           // 192/512 PNGs (maskable variants included) before shipping, since
           // iOS/some Android launchers don't rasterize SVG manifest icons.
-          { src: "/icons/icon.svg", sizes: "any", type: "image/svg+xml" },
+          { src: `${base}icons/icon.svg`, sizes: "any", type: "image/svg+xml" },
         ],
       },
       workbox: {
