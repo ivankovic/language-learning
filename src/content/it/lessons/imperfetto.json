@@ -1,0 +1,37 @@
+{
+  "id": "it-lesson-imperfetto",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-7",
+  "order": 1,
+  "title": "Past Tense: Imperfetto",
+  "prerequisiteIds": ["it-lesson-passato-prossimo-essere"],
+  "blocks": [
+    { "type": "explanation", "markdown": "While **passato prossimo** describes a completed action, **imperfetto** describes habitual, ongoing, or descriptive actions in the past — \"used to\" or \"was ...ing\" in English.\n\nRegular endings: **-are → -avo, -avi, -ava, -avamo, -avate, -avano**; **-ere/-ire → -evo/-ivo, -evi/-ivi, -eva/-iva, -evamo/-ivamo, -evate/-ivate, -evano/-ivano**. **Essere** is irregular: **ero, eri, era, eravamo, eravate, erano**." },
+    { "type": "exercise", "exerciseId": "it-ex-imperfetto-1" },
+    { "type": "exercise", "exerciseId": "it-ex-imperfetto-2" },
+    { "type": "exercise", "exerciseId": "it-ex-imperfetto-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-imperfetto-1",
+      "type": "fill-blank",
+      "prompt": "Da bambino, io ___ sempre fuori. (giocare — As a child, I always used to play outside.)",
+      "answer": "giocavo",
+      "relatedItemId": "it-vocab-verbs-025"
+    },
+    {
+      "id": "it-ex-imperfetto-2",
+      "type": "multiple-choice",
+      "prompt": "Da giovane, lei ___ molto timida. (essere — When she was young, she used to be very shy.)",
+      "answer": "era",
+      "distractors": ["è", "sarà", "fu"]
+    },
+    {
+      "id": "it-ex-imperfetto-3",
+      "type": "translate",
+      "prompt": "Translate: \"We used to live in Rome.\" (abitare — to live)",
+      "answer": ["Abitavamo a Roma.", "Noi abitavamo a Roma."]
+    }
+  ]
+}

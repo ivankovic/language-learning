@@ -62,6 +62,11 @@ describe("content loader", () => {
       "it-lesson-prepositions",
       "it-lesson-passato-prossimo-avere",
       "it-lesson-passato-prossimo-essere",
+      "it-lesson-imperfetto",
+      "it-lesson-futuro-semplice",
+      "it-lesson-comparatives",
+      "it-lesson-direct-object-pronouns",
+      "it-lesson-indirect-object-pronouns",
     ]);
   });
 });

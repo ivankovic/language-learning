@@ -1,0 +1,38 @@
+{
+  "id": "it-lesson-direct-object-pronouns",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-8",
+  "order": 2,
+  "title": "Direct Object Pronouns: lo, la, li, le",
+  "prerequisiteIds": ["it-lesson-comparatives"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Direct object pronouns replace a noun that directly receives the action, and go **before** the conjugated verb: **lo** (him/it, masc. sing.), **la** (her/it, fem. sing.), **li** (them, masc. plural), **le** (them, fem. plural).\n\n*Vedo il film* → *Lo vedo*. *Compro le scarpe* → *Le compro*." },
+    { "type": "exercise", "exerciseId": "it-ex-dop-1" },
+    { "type": "exercise", "exerciseId": "it-ex-dop-2" },
+    { "type": "exercise", "exerciseId": "it-ex-dop-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-dop-1",
+      "type": "fill-blank",
+      "prompt": "Vedo il film. ___ vedo. (masculine singular)",
+      "answer": "Lo"
+    },
+    {
+      "id": "it-ex-dop-2",
+      "type": "multiple-choice",
+      "prompt": "Compro le scarpe. ___ compro. (feminine plural)",
+      "answer": "Le",
+      "distractors": ["Lo", "La", "Li"],
+      "relatedItemId": "it-vocab-body-022"
+    },
+    {
+      "id": "it-ex-dop-3",
+      "type": "translate",
+      "prompt": "Translate: \"I read it.\" (referring to \"il libro\", masculine)",
+      "answer": ["Lo leggo."],
+      "relatedItemId": "it-vocab-work-027"
+    }
+  ]
+}

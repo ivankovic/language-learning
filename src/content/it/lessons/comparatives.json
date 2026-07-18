@@ -1,0 +1,38 @@
+{
+  "id": "it-lesson-comparatives",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-8",
+  "order": 1,
+  "title": "Comparatives: più...di, meno...di, come",
+  "prerequisiteIds": ["it-lesson-futuro-semplice"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Più ... di** = more ... than: *Il treno è più veloce dell'autobus* (The train is faster than the bus). **Meno ... di** = less ... than. To say two things are equal, use **(così) ... come** or **(tanto) ... quanto** = as ... as: *Questo esame è difficile come quello* (This exam is as difficult as that one)." },
+    { "type": "exercise", "exerciseId": "it-ex-comp-1" },
+    { "type": "exercise", "exerciseId": "it-ex-comp-2" },
+    { "type": "exercise", "exerciseId": "it-ex-comp-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-comp-1",
+      "type": "fill-blank",
+      "prompt": "Il treno è più ___ dell'autobus. (veloce — faster)",
+      "answer": "veloce",
+      "relatedItemId": "it-vocab-adj-013"
+    },
+    {
+      "id": "it-ex-comp-2",
+      "type": "multiple-choice",
+      "prompt": "La mia casa è ___ grande della tua. (My house is less big than yours.)",
+      "answer": "meno",
+      "distractors": ["più", "come", "tanto"]
+    },
+    {
+      "id": "it-ex-comp-3",
+      "type": "translate",
+      "prompt": "Translate: \"This exam is as difficult as that one.\"",
+      "answer": ["Questo esame è difficile come quello."],
+      "relatedItemId": "it-vocab-work-022"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "it-lesson-futuro-semplice",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-7",
+  "order": 2,
+  "title": "Future Tense: Futuro Semplice",
+  "prerequisiteIds": ["it-lesson-imperfetto"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Regular futuro semplice endings are **-ò, -ai, -à, -emo, -ete, -anno**, added to the infinitive stem (**-are** verbs also change their **a** to **e**): *parlare → parlerò*, *dormire → dormirò*.\n\nSome common verbs have irregular stems: **essere → sarò**, **avere → avrò**, **andare → andrò**, **fare → farò**." },
+    { "type": "exercise", "exerciseId": "it-ex-futuro-1" },
+    { "type": "exercise", "exerciseId": "it-ex-futuro-2" },
+    { "type": "exercise", "exerciseId": "it-ex-futuro-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-futuro-1",
+      "type": "fill-blank",
+      "prompt": "Domani io ___ con il professore. (parlare — Tomorrow I will speak with the professor.)",
+      "answer": "parlerò",
+      "relatedItemId": "it-vocab-routine-009"
+    },
+    {
+      "id": "it-ex-futuro-2",
+      "type": "multiple-choice",
+      "prompt": "Noi ___ in Italia il prossimo anno. (andare — irregular stem)",
+      "answer": "andremo",
+      "distractors": ["andiamo", "andavamo", "andrebbero"],
+      "relatedItemId": "it-vocab-verbs-001"
+    },
+    {
+      "id": "it-ex-futuro-3",
+      "type": "translate",
+      "prompt": "Translate: \"They will arrive tomorrow.\"",
+      "answer": ["Loro arriveranno domani.", "Arriveranno domani."],
+      "relatedItemId": "it-vocab-verbsmore-009"
+    }
+  ]
+}

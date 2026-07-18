@@ -40,5 +40,19 @@
     "title": "Talking About the Past",
     "order": 6,
     "lessonIds": ["it-lesson-passato-prossimo-avere", "it-lesson-passato-prossimo-essere"]
+  },
+  {
+    "id": "it-unit-7",
+    "courseId": "it-course-a1",
+    "title": "More Tenses",
+    "order": 7,
+    "lessonIds": ["it-lesson-imperfetto", "it-lesson-futuro-semplice"]
+  },
+  {
+    "id": "it-unit-8",
+    "courseId": "it-course-a1",
+    "title": "Comparing & Pronouns",
+    "order": 8,
+    "lessonIds": ["it-lesson-comparatives", "it-lesson-direct-object-pronouns", "it-lesson-indirect-object-pronouns"]
   }
 ]

@@ -1,0 +1,38 @@
+{
+  "id": "it-lesson-indirect-object-pronouns",
+  "lang": "it",
+  "courseId": "it-course-a1",
+  "unitId": "it-unit-8",
+  "order": 3,
+  "title": "Indirect Object Pronouns: mi, ti, gli, le, ci, vi",
+  "prerequisiteIds": ["it-lesson-direct-object-pronouns"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Indirect object pronouns replace \"to/for someone\" and also go before the conjugated verb: **mi** (to me), **ti** (to you), **gli** (to him), **le** (to her), **ci** (to us), **vi** (to you plural), **gli** (to them, standard in modern spoken Italian).\n\n*Scrivo una lettera a mia madre* → *Le scrivo una lettera*. *Do le chiavi a loro* → *Gli do le chiavi*." },
+    { "type": "exercise", "exerciseId": "it-ex-iop-1" },
+    { "type": "exercise", "exerciseId": "it-ex-iop-2" },
+    { "type": "exercise", "exerciseId": "it-ex-iop-3" }
+  ],
+  "exercises": [
+    {
+      "id": "it-ex-iop-1",
+      "type": "fill-blank",
+      "prompt": "___ scrivo una lettera a mia madre. (to her)",
+      "answer": "Le",
+      "relatedItemId": "it-vocab-routine-015"
+    },
+    {
+      "id": "it-ex-iop-2",
+      "type": "multiple-choice",
+      "prompt": "Marco ___ dice la verità. (a me — to me)",
+      "answer": "mi",
+      "distractors": ["ti", "gli", "le"]
+    },
+    {
+      "id": "it-ex-iop-3",
+      "type": "translate",
+      "prompt": "Translate: \"I give them the keys.\"",
+      "answer": ["Gli do le chiavi."],
+      "relatedItemId": "it-vocab-home-014"
+    }
+  ]
+}
