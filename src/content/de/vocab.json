@@ -4260,5 +4260,1817 @@
       "work"
     ],
     "frequencyRank": 400
+  },
+  {
+    "id": "de-vocab-music-arts-001",
+    "lang": "de",
+    "term": "Musik",
+    "translations": {
+      "en": [
+        "music"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 401
+  },
+  {
+    "id": "de-vocab-music-arts-002",
+    "lang": "de",
+    "term": "Lied",
+    "translations": {
+      "en": [
+        "song"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 402
+  },
+  {
+    "id": "de-vocab-music-arts-003",
+    "lang": "de",
+    "term": "Sänger",
+    "translations": {
+      "en": [
+        "singer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 403
+  },
+  {
+    "id": "de-vocab-music-arts-004",
+    "lang": "de",
+    "term": "Musiker",
+    "translations": {
+      "en": [
+        "musician"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 404
+  },
+  {
+    "id": "de-vocab-music-arts-005",
+    "lang": "de",
+    "term": "Instrument",
+    "translations": {
+      "en": [
+        "instrument"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 405
+  },
+  {
+    "id": "de-vocab-music-arts-006",
+    "lang": "de",
+    "term": "Gitarre",
+    "translations": {
+      "en": [
+        "guitar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 406
+  },
+  {
+    "id": "de-vocab-music-arts-007",
+    "lang": "de",
+    "term": "Klavier",
+    "translations": {
+      "en": [
+        "piano"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 407
+  },
+  {
+    "id": "de-vocab-music-arts-008",
+    "lang": "de",
+    "term": "Geige",
+    "translations": {
+      "en": [
+        "violin"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 408
+  },
+  {
+    "id": "de-vocab-music-arts-009",
+    "lang": "de",
+    "term": "Schlagzeug",
+    "translations": {
+      "en": [
+        "drums"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 409
+  },
+  {
+    "id": "de-vocab-music-arts-010",
+    "lang": "de",
+    "term": "Konzert",
+    "translations": {
+      "en": [
+        "concert"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 410
+  },
+  {
+    "id": "de-vocab-music-arts-011",
+    "lang": "de",
+    "term": "Album",
+    "translations": {
+      "en": [
+        "album"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 411
+  },
+  {
+    "id": "de-vocab-music-arts-012",
+    "lang": "de",
+    "term": "Orchester",
+    "translations": {
+      "en": [
+        "orchestra"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 412
+  },
+  {
+    "id": "de-vocab-music-arts-013",
+    "lang": "de",
+    "term": "Kunst",
+    "translations": {
+      "en": [
+        "art"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 413
+  },
+  {
+    "id": "de-vocab-music-arts-014",
+    "lang": "de",
+    "term": "Gemälde",
+    "translations": {
+      "en": [
+        "painting"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 414
+  },
+  {
+    "id": "de-vocab-music-arts-015",
+    "lang": "de",
+    "term": "Maler",
+    "translations": {
+      "en": [
+        "painter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 415
+  },
+  {
+    "id": "de-vocab-music-arts-016",
+    "lang": "de",
+    "term": "Zeichnung",
+    "translations": {
+      "en": [
+        "drawing"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 416
+  },
+  {
+    "id": "de-vocab-music-arts-017",
+    "lang": "de",
+    "term": "Skulptur",
+    "translations": {
+      "en": [
+        "sculpture"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 417
+  },
+  {
+    "id": "de-vocab-music-arts-018",
+    "lang": "de",
+    "term": "Museum",
+    "translations": {
+      "en": [
+        "museum"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 418
+  },
+  {
+    "id": "de-vocab-music-arts-019",
+    "lang": "de",
+    "term": "Galerie",
+    "translations": {
+      "en": [
+        "gallery"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 419
+  },
+  {
+    "id": "de-vocab-music-arts-020",
+    "lang": "de",
+    "term": "Ausstellung",
+    "translations": {
+      "en": [
+        "exhibition"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 420
+  },
+  {
+    "id": "de-vocab-music-arts-021",
+    "lang": "de",
+    "term": "Theater",
+    "translations": {
+      "en": [
+        "theater"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 421
+  },
+  {
+    "id": "de-vocab-music-arts-022",
+    "lang": "de",
+    "term": "Film",
+    "translations": {
+      "en": [
+        "film",
+        "movie"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 422
+  },
+  {
+    "id": "de-vocab-music-arts-023",
+    "lang": "de",
+    "term": "Schauspieler",
+    "translations": {
+      "en": [
+        "actor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 423
+  },
+  {
+    "id": "de-vocab-music-arts-024",
+    "lang": "de",
+    "term": "Schauspielerin",
+    "translations": {
+      "en": [
+        "actress"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 424
+  },
+  {
+    "id": "de-vocab-music-arts-025",
+    "lang": "de",
+    "term": "Regisseur",
+    "translations": {
+      "en": [
+        "director"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 425
+  },
+  {
+    "id": "de-vocab-music-arts-026",
+    "lang": "de",
+    "term": "singen",
+    "translations": {
+      "en": [
+        "to sing"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 426
+  },
+  {
+    "id": "de-vocab-music-arts-027",
+    "lang": "de",
+    "term": "spielen",
+    "translations": {
+      "en": [
+        "to play"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 427
+  },
+  {
+    "id": "de-vocab-music-arts-028",
+    "lang": "de",
+    "term": "zeichnen",
+    "translations": {
+      "en": [
+        "to draw"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 428
+  },
+  {
+    "id": "de-vocab-music-arts-029",
+    "lang": "de",
+    "term": "malen",
+    "translations": {
+      "en": [
+        "to paint"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 429
+  },
+  {
+    "id": "de-vocab-music-arts-030",
+    "lang": "de",
+    "term": "kreativ",
+    "translations": {
+      "en": [
+        "creative"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 430
+  },
+  {
+    "id": "de-vocab-technology-001",
+    "lang": "de",
+    "term": "Computer",
+    "translations": {
+      "en": [
+        "computer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 431
+  },
+  {
+    "id": "de-vocab-technology-002",
+    "lang": "de",
+    "term": "Handy",
+    "translations": {
+      "en": [
+        "mobile phone"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 432
+  },
+  {
+    "id": "de-vocab-technology-003",
+    "lang": "de",
+    "term": "Internet",
+    "translations": {
+      "en": [
+        "internet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 433
+  },
+  {
+    "id": "de-vocab-technology-004",
+    "lang": "de",
+    "term": "E-Mail",
+    "translations": {
+      "en": [
+        "email"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 434
+  },
+  {
+    "id": "de-vocab-technology-005",
+    "lang": "de",
+    "term": "Passwort",
+    "translations": {
+      "en": [
+        "password"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 435
+  },
+  {
+    "id": "de-vocab-technology-006",
+    "lang": "de",
+    "term": "Bildschirm",
+    "translations": {
+      "en": [
+        "screen"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 436
+  },
+  {
+    "id": "de-vocab-technology-007",
+    "lang": "de",
+    "term": "Tastatur",
+    "translations": {
+      "en": [
+        "keyboard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 437
+  },
+  {
+    "id": "de-vocab-technology-008",
+    "lang": "de",
+    "term": "Maus",
+    "translations": {
+      "en": [
+        "mouse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 438
+  },
+  {
+    "id": "de-vocab-technology-009",
+    "lang": "de",
+    "term": "Anwendung",
+    "translations": {
+      "en": [
+        "app",
+        "application"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 439
+  },
+  {
+    "id": "de-vocab-technology-010",
+    "lang": "de",
+    "term": "Webseite",
+    "translations": {
+      "en": [
+        "website"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 440
+  },
+  {
+    "id": "de-vocab-technology-011",
+    "lang": "de",
+    "term": "herunterladen",
+    "translations": {
+      "en": [
+        "to download"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 441
+  },
+  {
+    "id": "de-vocab-technology-012",
+    "lang": "de",
+    "term": "hochladen",
+    "translations": {
+      "en": [
+        "to upload"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 442
+  },
+  {
+    "id": "de-vocab-technology-013",
+    "lang": "de",
+    "term": "speichern",
+    "translations": {
+      "en": [
+        "to save"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 443
+  },
+  {
+    "id": "de-vocab-technology-014",
+    "lang": "de",
+    "term": "löschen",
+    "translations": {
+      "en": [
+        "to delete"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 444
+  },
+  {
+    "id": "de-vocab-technology-015",
+    "lang": "de",
+    "term": "drucken",
+    "translations": {
+      "en": [
+        "to print"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 445
+  },
+  {
+    "id": "de-vocab-technology-016",
+    "lang": "de",
+    "term": "WLAN",
+    "translations": {
+      "en": [
+        "WiFi"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 446
+  },
+  {
+    "id": "de-vocab-technology-017",
+    "lang": "de",
+    "term": "Akku",
+    "translations": {
+      "en": [
+        "battery"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 447
+  },
+  {
+    "id": "de-vocab-technology-018",
+    "lang": "de",
+    "term": "aufladen",
+    "translations": {
+      "en": [
+        "to charge (a battery)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 448
+  },
+  {
+    "id": "de-vocab-technology-019",
+    "lang": "de",
+    "term": "Kopfhörer",
+    "translations": {
+      "en": [
+        "headphones"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 449
+  },
+  {
+    "id": "de-vocab-technology-020",
+    "lang": "de",
+    "term": "Kamera",
+    "translations": {
+      "en": [
+        "camera"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 450
+  },
+  {
+    "id": "de-vocab-technology-021",
+    "lang": "de",
+    "term": "Foto",
+    "translations": {
+      "en": [
+        "photo"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 451
+  },
+  {
+    "id": "de-vocab-technology-022",
+    "lang": "de",
+    "term": "Video",
+    "translations": {
+      "en": [
+        "video"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 452
+  },
+  {
+    "id": "de-vocab-technology-023",
+    "lang": "de",
+    "term": "soziale Medien",
+    "translations": {
+      "en": [
+        "social media"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 453
+  },
+  {
+    "id": "de-vocab-technology-024",
+    "lang": "de",
+    "term": "Nachricht",
+    "translations": {
+      "en": [
+        "message"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 454
+  },
+  {
+    "id": "de-vocab-technology-025",
+    "lang": "de",
+    "term": "Anruf",
+    "translations": {
+      "en": [
+        "phone call"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 455
+  },
+  {
+    "id": "de-vocab-technology-026",
+    "lang": "de",
+    "term": "anrufen",
+    "translations": {
+      "en": [
+        "to call (someone)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 456
+  },
+  {
+    "id": "de-vocab-technology-027",
+    "lang": "de",
+    "term": "Software",
+    "translations": {
+      "en": [
+        "software"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 457
+  },
+  {
+    "id": "de-vocab-technology-028",
+    "lang": "de",
+    "term": "Programm",
+    "translations": {
+      "en": [
+        "program"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 458
+  },
+  {
+    "id": "de-vocab-technology-029",
+    "lang": "de",
+    "term": "Daten",
+    "translations": {
+      "en": [
+        "data"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 459
+  },
+  {
+    "id": "de-vocab-technology-030",
+    "lang": "de",
+    "term": "digital",
+    "translations": {
+      "en": [
+        "digital"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 460
+  },
+  {
+    "id": "de-vocab-shopping-001",
+    "lang": "de",
+    "term": "Geschäft",
+    "translations": {
+      "en": [
+        "shop",
+        "store"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 461
+  },
+  {
+    "id": "de-vocab-shopping-002",
+    "lang": "de",
+    "term": "Einkaufszentrum",
+    "translations": {
+      "en": [
+        "shopping mall"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 462
+  },
+  {
+    "id": "de-vocab-shopping-003",
+    "lang": "de",
+    "term": "Kunde",
+    "translations": {
+      "en": [
+        "customer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 463
+  },
+  {
+    "id": "de-vocab-shopping-004",
+    "lang": "de",
+    "term": "Verkäufer",
+    "translations": {
+      "en": [
+        "salesperson"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 464
+  },
+  {
+    "id": "de-vocab-shopping-005",
+    "lang": "de",
+    "term": "Preis",
+    "translations": {
+      "en": [
+        "price"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 465
+  },
+  {
+    "id": "de-vocab-shopping-006",
+    "lang": "de",
+    "term": "Rabatt",
+    "translations": {
+      "en": [
+        "discount"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 466
+  },
+  {
+    "id": "de-vocab-shopping-007",
+    "lang": "de",
+    "term": "Geld",
+    "translations": {
+      "en": [
+        "money"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 467
+  },
+  {
+    "id": "de-vocab-shopping-008",
+    "lang": "de",
+    "term": "Bargeld",
+    "translations": {
+      "en": [
+        "cash"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 468
+  },
+  {
+    "id": "de-vocab-shopping-009",
+    "lang": "de",
+    "term": "Kreditkarte",
+    "translations": {
+      "en": [
+        "credit card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 469
+  },
+  {
+    "id": "de-vocab-shopping-010",
+    "lang": "de",
+    "term": "Quittung",
+    "translations": {
+      "en": [
+        "receipt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 470
+  },
+  {
+    "id": "de-vocab-shopping-011",
+    "lang": "de",
+    "term": "Größe",
+    "translations": {
+      "en": [
+        "size"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 471
+  },
+  {
+    "id": "de-vocab-shopping-012",
+    "lang": "de",
+    "term": "Farbe",
+    "translations": {
+      "en": [
+        "color"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 472
+  },
+  {
+    "id": "de-vocab-shopping-013",
+    "lang": "de",
+    "term": "Kasse",
+    "translations": {
+      "en": [
+        "checkout",
+        "cash register"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 473
+  },
+  {
+    "id": "de-vocab-shopping-014",
+    "lang": "de",
+    "term": "Umtausch",
+    "translations": {
+      "en": [
+        "exchange",
+        "return"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 474
+  },
+  {
+    "id": "de-vocab-shopping-015",
+    "lang": "de",
+    "term": "Öffnungszeiten",
+    "translations": {
+      "en": [
+        "opening hours"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 475
+  },
+  {
+    "id": "de-vocab-shopping-016",
+    "lang": "de",
+    "term": "bezahlen",
+    "translations": {
+      "en": [
+        "to pay"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 476
+  },
+  {
+    "id": "de-vocab-shopping-017",
+    "lang": "de",
+    "term": "kaufen",
+    "translations": {
+      "en": [
+        "to buy"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 477
+  },
+  {
+    "id": "de-vocab-shopping-018",
+    "lang": "de",
+    "term": "verkaufen",
+    "translations": {
+      "en": [
+        "to sell"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 478
+  },
+  {
+    "id": "de-vocab-shopping-019",
+    "lang": "de",
+    "term": "kosten",
+    "translations": {
+      "en": [
+        "to cost"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 479
+  },
+  {
+    "id": "de-vocab-shopping-020",
+    "lang": "de",
+    "term": "anprobieren",
+    "translations": {
+      "en": [
+        "to try on"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 480
+  },
+  {
+    "id": "de-vocab-shopping-021",
+    "lang": "de",
+    "term": "Schuhe",
+    "translations": {
+      "en": [
+        "shoes"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 481
+  },
+  {
+    "id": "de-vocab-shopping-022",
+    "lang": "de",
+    "term": "Kleidung",
+    "translations": {
+      "en": [
+        "clothing"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 482
+  },
+  {
+    "id": "de-vocab-shopping-023",
+    "lang": "de",
+    "term": "Hemd",
+    "translations": {
+      "en": [
+        "shirt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 483
+  },
+  {
+    "id": "de-vocab-shopping-024",
+    "lang": "de",
+    "term": "Hose",
+    "translations": {
+      "en": [
+        "pants"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 484
+  },
+  {
+    "id": "de-vocab-shopping-025",
+    "lang": "de",
+    "term": "Jacke",
+    "translations": {
+      "en": [
+        "jacket"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 485
+  },
+  {
+    "id": "de-vocab-shopping-026",
+    "lang": "de",
+    "term": "günstig",
+    "translations": {
+      "en": [
+        "cheap",
+        "affordable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 486
+  },
+  {
+    "id": "de-vocab-shopping-027",
+    "lang": "de",
+    "term": "teuer",
+    "translations": {
+      "en": [
+        "expensive"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 487
+  },
+  {
+    "id": "de-vocab-shopping-028",
+    "lang": "de",
+    "term": "Marke",
+    "translations": {
+      "en": [
+        "brand"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 488
+  },
+  {
+    "id": "de-vocab-shopping-029",
+    "lang": "de",
+    "term": "Tasche",
+    "translations": {
+      "en": [
+        "bag"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 489
+  },
+  {
+    "id": "de-vocab-shopping-030",
+    "lang": "de",
+    "term": "Portemonnaie",
+    "translations": {
+      "en": [
+        "wallet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 490
+  },
+  {
+    "id": "de-vocab-sports-hobbies-001",
+    "lang": "de",
+    "term": "Sport",
+    "translations": {
+      "en": [
+        "sport"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 491
+  },
+  {
+    "id": "de-vocab-sports-hobbies-002",
+    "lang": "de",
+    "term": "Fußball",
+    "translations": {
+      "en": [
+        "soccer",
+        "football"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 492
+  },
+  {
+    "id": "de-vocab-sports-hobbies-003",
+    "lang": "de",
+    "term": "Basketball",
+    "translations": {
+      "en": [
+        "basketball"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 493
+  },
+  {
+    "id": "de-vocab-sports-hobbies-004",
+    "lang": "de",
+    "term": "Tennis",
+    "translations": {
+      "en": [
+        "tennis"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 494
+  },
+  {
+    "id": "de-vocab-sports-hobbies-005",
+    "lang": "de",
+    "term": "Schwimmen",
+    "translations": {
+      "en": [
+        "swimming"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 495
+  },
+  {
+    "id": "de-vocab-sports-hobbies-006",
+    "lang": "de",
+    "term": "Laufen",
+    "translations": {
+      "en": [
+        "running"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 496
+  },
+  {
+    "id": "de-vocab-sports-hobbies-007",
+    "lang": "de",
+    "term": "Mannschaft",
+    "translations": {
+      "en": [
+        "team"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 497
+  },
+  {
+    "id": "de-vocab-sports-hobbies-008",
+    "lang": "de",
+    "term": "Spieler",
+    "translations": {
+      "en": [
+        "player"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 498
+  },
+  {
+    "id": "de-vocab-sports-hobbies-009",
+    "lang": "de",
+    "term": "Trainer",
+    "translations": {
+      "en": [
+        "coach"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 499
+  },
+  {
+    "id": "de-vocab-sports-hobbies-010",
+    "lang": "de",
+    "term": "Spiel",
+    "translations": {
+      "en": [
+        "game",
+        "match"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 500
+  },
+  {
+    "id": "de-vocab-sports-hobbies-011",
+    "lang": "de",
+    "term": "Sieg",
+    "translations": {
+      "en": [
+        "victory",
+        "win"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 501
+  },
+  {
+    "id": "de-vocab-sports-hobbies-012",
+    "lang": "de",
+    "term": "Niederlage",
+    "translations": {
+      "en": [
+        "defeat",
+        "loss"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 502
+  },
+  {
+    "id": "de-vocab-sports-hobbies-013",
+    "lang": "de",
+    "term": "Fitnessstudio",
+    "translations": {
+      "en": [
+        "gym"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 503
+  },
+  {
+    "id": "de-vocab-sports-hobbies-014",
+    "lang": "de",
+    "term": "Training",
+    "translations": {
+      "en": [
+        "training",
+        "workout"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 504
+  },
+  {
+    "id": "de-vocab-sports-hobbies-015",
+    "lang": "de",
+    "term": "Wettkampf",
+    "translations": {
+      "en": [
+        "competition"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 505
+  },
+  {
+    "id": "de-vocab-sports-hobbies-016",
+    "lang": "de",
+    "term": "Hobby",
+    "translations": {
+      "en": [
+        "hobby"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 506
+  },
+  {
+    "id": "de-vocab-sports-hobbies-017",
+    "lang": "de",
+    "term": "lesen",
+    "translations": {
+      "en": [
+        "to read"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 507
+  },
+  {
+    "id": "de-vocab-sports-hobbies-018",
+    "lang": "de",
+    "term": "wandern",
+    "translations": {
+      "en": [
+        "to hike"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 508
+  },
+  {
+    "id": "de-vocab-sports-hobbies-019",
+    "lang": "de",
+    "term": "radfahren",
+    "translations": {
+      "en": [
+        "to cycle"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 509
+  },
+  {
+    "id": "de-vocab-sports-hobbies-020",
+    "lang": "de",
+    "term": "angeln",
+    "translations": {
+      "en": [
+        "to fish"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 510
+  },
+  {
+    "id": "de-vocab-sports-hobbies-021",
+    "lang": "de",
+    "term": "kochen",
+    "translations": {
+      "en": [
+        "to cook"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 511
+  },
+  {
+    "id": "de-vocab-sports-hobbies-022",
+    "lang": "de",
+    "term": "tanzen",
+    "translations": {
+      "en": [
+        "to dance"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 512
+  },
+  {
+    "id": "de-vocab-sports-hobbies-023",
+    "lang": "de",
+    "term": "fotografieren",
+    "translations": {
+      "en": [
+        "to take photos"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 513
+  },
+  {
+    "id": "de-vocab-sports-hobbies-024",
+    "lang": "de",
+    "term": "sammeln",
+    "translations": {
+      "en": [
+        "to collect"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 514
+  },
+  {
+    "id": "de-vocab-sports-hobbies-025",
+    "lang": "de",
+    "term": "gewinnen",
+    "translations": {
+      "en": [
+        "to win"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 515
+  },
+  {
+    "id": "de-vocab-sports-hobbies-026",
+    "lang": "de",
+    "term": "verlieren",
+    "translations": {
+      "en": [
+        "to lose"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 516
+  },
+  {
+    "id": "de-vocab-sports-hobbies-027",
+    "lang": "de",
+    "term": "trainieren",
+    "translations": {
+      "en": [
+        "to train",
+        "to practice"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 517
+  },
+  {
+    "id": "de-vocab-sports-hobbies-028",
+    "lang": "de",
+    "term": "Fan",
+    "translations": {
+      "en": [
+        "fan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 518
+  },
+  {
+    "id": "de-vocab-sports-hobbies-029",
+    "lang": "de",
+    "term": "Stadion",
+    "translations": {
+      "en": [
+        "stadium"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 519
+  },
+  {
+    "id": "de-vocab-sports-hobbies-030",
+    "lang": "de",
+    "term": "Medaille",
+    "translations": {
+      "en": [
+        "medal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 520
   }
 ]
