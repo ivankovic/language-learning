@@ -67,7 +67,7 @@ export function HomeScreen() {
       </div>
 
       <Button className="w-full text-base" onClick={() => navigate("/practice")}>
-        Start Practice
+        Learn
       </Button>
 
       <button
@@ -75,7 +75,7 @@ export function HomeScreen() {
         disabled={dueCount === 0}
         className="mt-3 flex w-full items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-left disabled:cursor-not-allowed disabled:opacity-50 dark:bg-slate-900"
       >
-        <span>Extra review</span>
+        <span>Review</span>
         <span className="text-sm text-slate-600 dark:text-slate-400">{dueCount ?? "…"} due</span>
       </button>
 
