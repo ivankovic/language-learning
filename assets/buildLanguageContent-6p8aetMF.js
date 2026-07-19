@@ -1,0 +1,1 @@
+function f(a,o,d,c,u){const i=a,n=d,t=c,l=new Map(Object.values(u).map(s=>[s.default.id,s.default])),p=new Map(t.map(s=>[s.id,s])),b=n.unitIds.flatMap(s=>{var e;return((e=p.get(s))==null?void 0:e.lessonIds)??[]}).map(s=>l.get(s)).filter(s=>s!==void 0);return{vocabById:new Map(i.map(s=>[s.id,s])),decks:o,course:n,units:t,lessons:b}}export{f as b};
