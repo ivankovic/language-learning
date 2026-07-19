@@ -11,6 +11,7 @@ import { buildDictionaryFallback } from "../../ai/dictionaryFallback";
 import { pickRandomPrompt, getPromptById } from "../../content/journalPrompts";
 import { loadSession, saveSession } from "../practice/sessionState";
 import { generateId } from "../../lib/generateId";
+import { buildDeepLUrl, buildGoogleTranslateUrl } from "../../lib/translateLinks";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
 import type { JournalEntry } from "../../types/user";
@@ -211,9 +212,31 @@ export function JournalEntryScreen() {
         </Button>
       )}
       {assistant?.capability === "unavailable" && (
-        <p className="mb-4 text-xs text-slate-500">
-          On-device AI isn't available in this browser — use the word helper above for translation assistance.
-        </p>
+        <div className="mb-4">
+          <p className="mb-2 text-xs text-slate-500">
+            On-device AI isn't available in this browser — use the word helper above, or check your attempt with:
+          </p>
+          <div className="flex gap-2">
+            <a
+              href={buildDeepLUrl(entry.knownLang, entry.targetLang, entry.originalText)}
+              target="_blank"
+              rel="noreferrer"
+              aria-disabled={!entry.originalText.trim()}
+              className="flex-1 rounded-xl bg-slate-100 px-4 py-2.5 text-center text-sm text-slate-700 aria-disabled:pointer-events-none aria-disabled:opacity-50 dark:bg-slate-900 dark:text-slate-300"
+            >
+              Open in DeepL
+            </a>
+            <a
+              href={buildGoogleTranslateUrl(entry.knownLang, entry.targetLang, entry.originalText)}
+              target="_blank"
+              rel="noreferrer"
+              aria-disabled={!entry.originalText.trim()}
+              className="flex-1 rounded-xl bg-slate-100 px-4 py-2.5 text-center text-sm text-slate-700 aria-disabled:pointer-events-none aria-disabled:opacity-50 dark:bg-slate-900 dark:text-slate-300"
+            >
+              Open in Google Translate
+            </a>
+          </div>
+        </div>
       )}
 
       {aiFeedback && (
