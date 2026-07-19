@@ -7881,5 +7881,7229 @@
       "cooking"
     ],
     "frequencyRank": 640
+  },
+  {
+    "id": "de-vocab-society-001",
+    "lang": "de",
+    "term": "Regierung",
+    "translations": {
+      "en": [
+        "government"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 641
+  },
+  {
+    "id": "de-vocab-society-002",
+    "lang": "de",
+    "term": "Präsident",
+    "translations": {
+      "en": [
+        "president"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 642
+  },
+  {
+    "id": "de-vocab-society-003",
+    "lang": "de",
+    "term": "Minister",
+    "translations": {
+      "en": [
+        "minister"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 643
+  },
+  {
+    "id": "de-vocab-society-004",
+    "lang": "de",
+    "term": "Staat",
+    "translations": {
+      "en": [
+        "state",
+        "country"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 644
+  },
+  {
+    "id": "de-vocab-society-005",
+    "lang": "de",
+    "term": "Nation",
+    "translations": {
+      "en": [
+        "nation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 645
+  },
+  {
+    "id": "de-vocab-society-006",
+    "lang": "de",
+    "term": "Wahl",
+    "translations": {
+      "en": [
+        "election"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 646
+  },
+  {
+    "id": "de-vocab-society-007",
+    "lang": "de",
+    "term": "wählen",
+    "translations": {
+      "en": [
+        "to vote"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 647
+  },
+  {
+    "id": "de-vocab-society-008",
+    "lang": "de",
+    "term": "Bürger",
+    "translations": {
+      "en": [
+        "citizen"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 648
+  },
+  {
+    "id": "de-vocab-society-009",
+    "lang": "de",
+    "term": "Demokratie",
+    "translations": {
+      "en": [
+        "democracy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 649
+  },
+  {
+    "id": "de-vocab-society-010",
+    "lang": "de",
+    "term": "Verfassung",
+    "translations": {
+      "en": [
+        "constitution"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 650
+  },
+  {
+    "id": "de-vocab-society-011",
+    "lang": "de",
+    "term": "Steuer",
+    "translations": {
+      "en": [
+        "tax"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 651
+  },
+  {
+    "id": "de-vocab-society-012",
+    "lang": "de",
+    "term": "Wirtschaft",
+    "translations": {
+      "en": [
+        "economy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 652
+  },
+  {
+    "id": "de-vocab-society-013",
+    "lang": "de",
+    "term": "Gesellschaft",
+    "translations": {
+      "en": [
+        "society"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 653
+  },
+  {
+    "id": "de-vocab-society-014",
+    "lang": "de",
+    "term": "Kultur",
+    "translations": {
+      "en": [
+        "culture"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 654
+  },
+  {
+    "id": "de-vocab-society-015",
+    "lang": "de",
+    "term": "Gemeinschaft",
+    "translations": {
+      "en": [
+        "community"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 655
+  },
+  {
+    "id": "de-vocab-society-016",
+    "lang": "de",
+    "term": "Bevölkerung",
+    "translations": {
+      "en": [
+        "population"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 656
+  },
+  {
+    "id": "de-vocab-society-017",
+    "lang": "de",
+    "term": "Freiheit",
+    "translations": {
+      "en": [
+        "freedom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 657
+  },
+  {
+    "id": "de-vocab-society-018",
+    "lang": "de",
+    "term": "Gleichheit",
+    "translations": {
+      "en": [
+        "equality"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 658
+  },
+  {
+    "id": "de-vocab-society-019",
+    "lang": "de",
+    "term": "Krieg",
+    "translations": {
+      "en": [
+        "war"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 659
+  },
+  {
+    "id": "de-vocab-society-020",
+    "lang": "de",
+    "term": "Frieden",
+    "translations": {
+      "en": [
+        "peace"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 660
+  },
+  {
+    "id": "de-vocab-society-021",
+    "lang": "de",
+    "term": "Armee",
+    "translations": {
+      "en": [
+        "army"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 661
+  },
+  {
+    "id": "de-vocab-society-022",
+    "lang": "de",
+    "term": "Protest",
+    "translations": {
+      "en": [
+        "protest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 662
+  },
+  {
+    "id": "de-vocab-society-023",
+    "lang": "de",
+    "term": "Demonstration",
+    "translations": {
+      "en": [
+        "demonstration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 663
+  },
+  {
+    "id": "de-vocab-society-024",
+    "lang": "de",
+    "term": "Politiker",
+    "translations": {
+      "en": [
+        "politician"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 664
+  },
+  {
+    "id": "de-vocab-society-025",
+    "lang": "de",
+    "term": "Politik",
+    "translations": {
+      "en": [
+        "politics"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 665
+  },
+  {
+    "id": "de-vocab-society-026",
+    "lang": "de",
+    "term": "Partei",
+    "translations": {
+      "en": [
+        "political party"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 666
+  },
+  {
+    "id": "de-vocab-society-027",
+    "lang": "de",
+    "term": "Vorschrift",
+    "translations": {
+      "en": [
+        "regulation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 667
+  },
+  {
+    "id": "de-vocab-society-028",
+    "lang": "de",
+    "term": "Grenze",
+    "translations": {
+      "en": [
+        "border"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 668
+  },
+  {
+    "id": "de-vocab-society-029",
+    "lang": "de",
+    "term": "Botschaft",
+    "translations": {
+      "en": [
+        "embassy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 669
+  },
+  {
+    "id": "de-vocab-society-030",
+    "lang": "de",
+    "term": "Einwanderung",
+    "translations": {
+      "en": [
+        "immigration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 670
+  },
+  {
+    "id": "de-vocab-countries-001",
+    "lang": "de",
+    "term": "Spanien",
+    "translations": {
+      "en": [
+        "Spain"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 671
+  },
+  {
+    "id": "de-vocab-countries-002",
+    "lang": "de",
+    "term": "Italien",
+    "translations": {
+      "en": [
+        "Italy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 672
+  },
+  {
+    "id": "de-vocab-countries-003",
+    "lang": "de",
+    "term": "Frankreich",
+    "translations": {
+      "en": [
+        "France"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 673
+  },
+  {
+    "id": "de-vocab-countries-004",
+    "lang": "de",
+    "term": "Deutschland",
+    "translations": {
+      "en": [
+        "Germany"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 674
+  },
+  {
+    "id": "de-vocab-countries-005",
+    "lang": "de",
+    "term": "Kroatien",
+    "translations": {
+      "en": [
+        "Croatia"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 675
+  },
+  {
+    "id": "de-vocab-countries-006",
+    "lang": "de",
+    "term": "Portugal",
+    "translations": {
+      "en": [
+        "Portugal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 676
+  },
+  {
+    "id": "de-vocab-countries-007",
+    "lang": "de",
+    "term": "England",
+    "translations": {
+      "en": [
+        "England"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 677
+  },
+  {
+    "id": "de-vocab-countries-008",
+    "lang": "de",
+    "term": "die Vereinigten Staaten",
+    "translations": {
+      "en": [
+        "United States"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 678
+  },
+  {
+    "id": "de-vocab-countries-009",
+    "lang": "de",
+    "term": "Mexiko",
+    "translations": {
+      "en": [
+        "Mexico"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 679
+  },
+  {
+    "id": "de-vocab-countries-010",
+    "lang": "de",
+    "term": "Argentinien",
+    "translations": {
+      "en": [
+        "Argentina"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 680
+  },
+  {
+    "id": "de-vocab-countries-011",
+    "lang": "de",
+    "term": "Brasilien",
+    "translations": {
+      "en": [
+        "Brazil"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 681
+  },
+  {
+    "id": "de-vocab-countries-012",
+    "lang": "de",
+    "term": "China",
+    "translations": {
+      "en": [
+        "China"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 682
+  },
+  {
+    "id": "de-vocab-countries-013",
+    "lang": "de",
+    "term": "Japan",
+    "translations": {
+      "en": [
+        "Japan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 683
+  },
+  {
+    "id": "de-vocab-countries-014",
+    "lang": "de",
+    "term": "Indien",
+    "translations": {
+      "en": [
+        "India"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 684
+  },
+  {
+    "id": "de-vocab-countries-015",
+    "lang": "de",
+    "term": "Russland",
+    "translations": {
+      "en": [
+        "Russia"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 685
+  },
+  {
+    "id": "de-vocab-countries-016",
+    "lang": "de",
+    "term": "spanisch",
+    "translations": {
+      "en": [
+        "Spanish (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 686
+  },
+  {
+    "id": "de-vocab-countries-017",
+    "lang": "de",
+    "term": "italienisch",
+    "translations": {
+      "en": [
+        "Italian (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 687
+  },
+  {
+    "id": "de-vocab-countries-018",
+    "lang": "de",
+    "term": "französisch",
+    "translations": {
+      "en": [
+        "French (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 688
+  },
+  {
+    "id": "de-vocab-countries-019",
+    "lang": "de",
+    "term": "deutsch",
+    "translations": {
+      "en": [
+        "German (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 689
+  },
+  {
+    "id": "de-vocab-countries-020",
+    "lang": "de",
+    "term": "kroatisch",
+    "translations": {
+      "en": [
+        "Croatian (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 690
+  },
+  {
+    "id": "de-vocab-countries-021",
+    "lang": "de",
+    "term": "mexikanisch",
+    "translations": {
+      "en": [
+        "Mexican"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 691
+  },
+  {
+    "id": "de-vocab-countries-022",
+    "lang": "de",
+    "term": "argentinisch",
+    "translations": {
+      "en": [
+        "Argentine"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 692
+  },
+  {
+    "id": "de-vocab-countries-023",
+    "lang": "de",
+    "term": "Ausländer",
+    "translations": {
+      "en": [
+        "foreigner"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 693
+  },
+  {
+    "id": "de-vocab-countries-024",
+    "lang": "de",
+    "term": "Nationalität",
+    "translations": {
+      "en": [
+        "nationality"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 694
+  },
+  {
+    "id": "de-vocab-countries-025",
+    "lang": "de",
+    "term": "Sprache",
+    "translations": {
+      "en": [
+        "language"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 695
+  },
+  {
+    "id": "de-vocab-countries-026",
+    "lang": "de",
+    "term": "Kontinent",
+    "translations": {
+      "en": [
+        "continent"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 696
+  },
+  {
+    "id": "de-vocab-countries-027",
+    "lang": "de",
+    "term": "Europa",
+    "translations": {
+      "en": [
+        "Europe"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 697
+  },
+  {
+    "id": "de-vocab-countries-028",
+    "lang": "de",
+    "term": "Amerika",
+    "translations": {
+      "en": [
+        "America"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 698
+  },
+  {
+    "id": "de-vocab-countries-029",
+    "lang": "de",
+    "term": "Asien",
+    "translations": {
+      "en": [
+        "Asia"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 699
+  },
+  {
+    "id": "de-vocab-countries-030",
+    "lang": "de",
+    "term": "Hauptstadt",
+    "translations": {
+      "en": [
+        "capital city"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 700
+  },
+  {
+    "id": "de-vocab-materials-001",
+    "lang": "de",
+    "term": "Holz",
+    "translations": {
+      "en": [
+        "wood"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 701
+  },
+  {
+    "id": "de-vocab-materials-002",
+    "lang": "de",
+    "term": "Metall",
+    "translations": {
+      "en": [
+        "metal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 702
+  },
+  {
+    "id": "de-vocab-materials-003",
+    "lang": "de",
+    "term": "Eisen",
+    "translations": {
+      "en": [
+        "iron"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 703
+  },
+  {
+    "id": "de-vocab-materials-004",
+    "lang": "de",
+    "term": "Stahl",
+    "translations": {
+      "en": [
+        "steel"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 704
+  },
+  {
+    "id": "de-vocab-materials-005",
+    "lang": "de",
+    "term": "Gold",
+    "translations": {
+      "en": [
+        "gold"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 705
+  },
+  {
+    "id": "de-vocab-materials-006",
+    "lang": "de",
+    "term": "Silber",
+    "translations": {
+      "en": [
+        "silver"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 706
+  },
+  {
+    "id": "de-vocab-materials-007",
+    "lang": "de",
+    "term": "Glas",
+    "translations": {
+      "en": [
+        "glass"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 707
+  },
+  {
+    "id": "de-vocab-materials-008",
+    "lang": "de",
+    "term": "Plastik",
+    "translations": {
+      "en": [
+        "plastic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 708
+  },
+  {
+    "id": "de-vocab-materials-009",
+    "lang": "de",
+    "term": "Papier",
+    "translations": {
+      "en": [
+        "paper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 709
+  },
+  {
+    "id": "de-vocab-materials-010",
+    "lang": "de",
+    "term": "Stoff",
+    "translations": {
+      "en": [
+        "fabric"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 710
+  },
+  {
+    "id": "de-vocab-materials-011",
+    "lang": "de",
+    "term": "Baumwolle",
+    "translations": {
+      "en": [
+        "cotton"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 711
+  },
+  {
+    "id": "de-vocab-materials-012",
+    "lang": "de",
+    "term": "Wolle",
+    "translations": {
+      "en": [
+        "wool"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 712
+  },
+  {
+    "id": "de-vocab-materials-013",
+    "lang": "de",
+    "term": "Leder",
+    "translations": {
+      "en": [
+        "leather"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 713
+  },
+  {
+    "id": "de-vocab-materials-014",
+    "lang": "de",
+    "term": "Stein",
+    "translations": {
+      "en": [
+        "stone (material)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 714
+  },
+  {
+    "id": "de-vocab-materials-015",
+    "lang": "de",
+    "term": "Keramik",
+    "translations": {
+      "en": [
+        "ceramic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 715
+  },
+  {
+    "id": "de-vocab-materials-016",
+    "lang": "de",
+    "term": "Kreis",
+    "translations": {
+      "en": [
+        "circle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 716
+  },
+  {
+    "id": "de-vocab-materials-017",
+    "lang": "de",
+    "term": "Quadrat",
+    "translations": {
+      "en": [
+        "square"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 717
+  },
+  {
+    "id": "de-vocab-materials-018",
+    "lang": "de",
+    "term": "Dreieck",
+    "translations": {
+      "en": [
+        "triangle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 718
+  },
+  {
+    "id": "de-vocab-materials-019",
+    "lang": "de",
+    "term": "Rechteck",
+    "translations": {
+      "en": [
+        "rectangle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 719
+  },
+  {
+    "id": "de-vocab-materials-020",
+    "lang": "de",
+    "term": "Oval",
+    "translations": {
+      "en": [
+        "oval"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 720
+  },
+  {
+    "id": "de-vocab-materials-021",
+    "lang": "de",
+    "term": "rund",
+    "translations": {
+      "en": [
+        "round"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 721
+  },
+  {
+    "id": "de-vocab-materials-022",
+    "lang": "de",
+    "term": "eckig",
+    "translations": {
+      "en": [
+        "angular",
+        "square-shaped"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 722
+  },
+  {
+    "id": "de-vocab-materials-023",
+    "lang": "de",
+    "term": "flach",
+    "translations": {
+      "en": [
+        "flat"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 723
+  },
+  {
+    "id": "de-vocab-materials-024",
+    "lang": "de",
+    "term": "hart",
+    "translations": {
+      "en": [
+        "hard"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 724
+  },
+  {
+    "id": "de-vocab-materials-025",
+    "lang": "de",
+    "term": "weich",
+    "translations": {
+      "en": [
+        "soft"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 725
+  },
+  {
+    "id": "de-vocab-materials-026",
+    "lang": "de",
+    "term": "glatt",
+    "translations": {
+      "en": [
+        "smooth"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 726
+  },
+  {
+    "id": "de-vocab-materials-027",
+    "lang": "de",
+    "term": "rau",
+    "translations": {
+      "en": [
+        "rough"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 727
+  },
+  {
+    "id": "de-vocab-materials-028",
+    "lang": "de",
+    "term": "schwer",
+    "translations": {
+      "en": [
+        "heavy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 728
+  },
+  {
+    "id": "de-vocab-materials-029",
+    "lang": "de",
+    "term": "leicht",
+    "translations": {
+      "en": [
+        "light (weight)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 729
+  },
+  {
+    "id": "de-vocab-materials-030",
+    "lang": "de",
+    "term": "durchsichtig",
+    "translations": {
+      "en": [
+        "transparent"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 730
+  },
+  {
+    "id": "de-vocab-business-001",
+    "lang": "de",
+    "term": "Betrieb",
+    "translations": {
+      "en": [
+        "business",
+        "operation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 731
+  },
+  {
+    "id": "de-vocab-business-002",
+    "lang": "de",
+    "term": "Markt",
+    "translations": {
+      "en": [
+        "market"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 732
+  },
+  {
+    "id": "de-vocab-business-003",
+    "lang": "de",
+    "term": "Partner",
+    "translations": {
+      "en": [
+        "business partner"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 733
+  },
+  {
+    "id": "de-vocab-business-004",
+    "lang": "de",
+    "term": "Investition",
+    "translations": {
+      "en": [
+        "investment"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 734
+  },
+  {
+    "id": "de-vocab-business-005",
+    "lang": "de",
+    "term": "investieren",
+    "translations": {
+      "en": [
+        "to invest"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 735
+  },
+  {
+    "id": "de-vocab-business-006",
+    "lang": "de",
+    "term": "Bank",
+    "translations": {
+      "en": [
+        "bank"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 736
+  },
+  {
+    "id": "de-vocab-business-007",
+    "lang": "de",
+    "term": "Bankkonto",
+    "translations": {
+      "en": [
+        "bank account"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 737
+  },
+  {
+    "id": "de-vocab-business-008",
+    "lang": "de",
+    "term": "Kredit",
+    "translations": {
+      "en": [
+        "loan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 738
+  },
+  {
+    "id": "de-vocab-business-009",
+    "lang": "de",
+    "term": "Schulden",
+    "translations": {
+      "en": [
+        "debt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 739
+  },
+  {
+    "id": "de-vocab-business-010",
+    "lang": "de",
+    "term": "Gewinn",
+    "translations": {
+      "en": [
+        "profit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 740
+  },
+  {
+    "id": "de-vocab-business-011",
+    "lang": "de",
+    "term": "Verlust",
+    "translations": {
+      "en": [
+        "loss"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 741
+  },
+  {
+    "id": "de-vocab-business-012",
+    "lang": "de",
+    "term": "Einkommen",
+    "translations": {
+      "en": [
+        "income"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 742
+  },
+  {
+    "id": "de-vocab-business-013",
+    "lang": "de",
+    "term": "Ausgabe",
+    "translations": {
+      "en": [
+        "expense"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 743
+  },
+  {
+    "id": "de-vocab-business-014",
+    "lang": "de",
+    "term": "Budget",
+    "translations": {
+      "en": [
+        "budget"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 744
+  },
+  {
+    "id": "de-vocab-business-015",
+    "lang": "de",
+    "term": "Rechnung",
+    "translations": {
+      "en": [
+        "invoice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 745
+  },
+  {
+    "id": "de-vocab-business-016",
+    "lang": "de",
+    "term": "Zoll",
+    "translations": {
+      "en": [
+        "tariff"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 746
+  },
+  {
+    "id": "de-vocab-business-017",
+    "lang": "de",
+    "term": "Aktie",
+    "translations": {
+      "en": [
+        "stock",
+        "share"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 747
+  },
+  {
+    "id": "de-vocab-business-018",
+    "lang": "de",
+    "term": "Börse",
+    "translations": {
+      "en": [
+        "stock market"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 748
+  },
+  {
+    "id": "de-vocab-business-019",
+    "lang": "de",
+    "term": "Unternehmen",
+    "translations": {
+      "en": [
+        "company"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 749
+  },
+  {
+    "id": "de-vocab-business-020",
+    "lang": "de",
+    "term": "Unternehmer",
+    "translations": {
+      "en": [
+        "entrepreneur"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 750
+  },
+  {
+    "id": "de-vocab-business-021",
+    "lang": "de",
+    "term": "Startup",
+    "translations": {
+      "en": [
+        "startup"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 751
+  },
+  {
+    "id": "de-vocab-business-022",
+    "lang": "de",
+    "term": "Wettbewerb",
+    "translations": {
+      "en": [
+        "competition (business)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 752
+  },
+  {
+    "id": "de-vocab-business-023",
+    "lang": "de",
+    "term": "Konzern",
+    "translations": {
+      "en": [
+        "corporation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 753
+  },
+  {
+    "id": "de-vocab-business-024",
+    "lang": "de",
+    "term": "Produkt",
+    "translations": {
+      "en": [
+        "product"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 754
+  },
+  {
+    "id": "de-vocab-business-025",
+    "lang": "de",
+    "term": "Dienstleistung",
+    "translations": {
+      "en": [
+        "service"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 755
+  },
+  {
+    "id": "de-vocab-business-026",
+    "lang": "de",
+    "term": "Lieferkette",
+    "translations": {
+      "en": [
+        "supply chain"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 756
+  },
+  {
+    "id": "de-vocab-business-027",
+    "lang": "de",
+    "term": "exportieren",
+    "translations": {
+      "en": [
+        "to export"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 757
+  },
+  {
+    "id": "de-vocab-business-028",
+    "lang": "de",
+    "term": "importieren",
+    "translations": {
+      "en": [
+        "to import"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 758
+  },
+  {
+    "id": "de-vocab-business-029",
+    "lang": "de",
+    "term": "verhandeln",
+    "translations": {
+      "en": [
+        "to negotiate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 759
+  },
+  {
+    "id": "de-vocab-business-030",
+    "lang": "de",
+    "term": "einen Vertrag unterschreiben",
+    "translations": {
+      "en": [
+        "to sign a contract"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 760
+  },
+  {
+    "id": "de-vocab-idioms-001",
+    "lang": "de",
+    "term": "die Daumen drücken",
+    "translations": {
+      "en": [
+        "to keep one's fingers crossed"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 761
+  },
+  {
+    "id": "de-vocab-idioms-002",
+    "lang": "de",
+    "term": "ins Fettnäpfchen treten",
+    "translations": {
+      "en": [
+        "to put one's foot in it"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 762
+  },
+  {
+    "id": "de-vocab-idioms-003",
+    "lang": "de",
+    "term": "den Nagel auf den Kopf treffen",
+    "translations": {
+      "en": [
+        "to hit the nail on the head"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 763
+  },
+  {
+    "id": "de-vocab-idioms-004",
+    "lang": "de",
+    "term": "die Katze im Sack kaufen",
+    "translations": {
+      "en": [
+        "to buy a pig in a poke"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 764
+  },
+  {
+    "id": "de-vocab-idioms-005",
+    "lang": "de",
+    "term": "Schwein haben",
+    "translations": {
+      "en": [
+        "to be lucky"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 765
+  },
+  {
+    "id": "de-vocab-idioms-006",
+    "lang": "de",
+    "term": "ins Wasser fallen",
+    "translations": {
+      "en": [
+        "to fall through (a plan)"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 766
+  },
+  {
+    "id": "de-vocab-idioms-007",
+    "lang": "de",
+    "term": "die Nase voll haben",
+    "translations": {
+      "en": [
+        "to be fed up"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 767
+  },
+  {
+    "id": "de-vocab-idioms-008",
+    "lang": "de",
+    "term": "um den heißen Brei herumreden",
+    "translations": {
+      "en": [
+        "to beat around the bush"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 768
+  },
+  {
+    "id": "de-vocab-idioms-009",
+    "lang": "de",
+    "term": "Hals- und Beinbruch",
+    "translations": {
+      "en": [
+        "break a leg",
+        "good luck"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 769
+  },
+  {
+    "id": "de-vocab-idioms-010",
+    "lang": "de",
+    "term": "unter vier Augen",
+    "translations": {
+      "en": [
+        "privately",
+        "one-on-one"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 770
+  },
+  {
+    "id": "de-vocab-idioms-011",
+    "lang": "de",
+    "term": "ein Auge zudrücken",
+    "translations": {
+      "en": [
+        "to turn a blind eye"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 771
+  },
+  {
+    "id": "de-vocab-idioms-012",
+    "lang": "de",
+    "term": "die Flinte ins Korn werfen",
+    "translations": {
+      "en": [
+        "to give up"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 772
+  },
+  {
+    "id": "de-vocab-idioms-013",
+    "lang": "de",
+    "term": "auf dem Holzweg sein",
+    "translations": {
+      "en": [
+        "to be on the wrong track"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 773
+  },
+  {
+    "id": "de-vocab-idioms-014",
+    "lang": "de",
+    "term": "aus einer Mücke einen Elefanten machen",
+    "translations": {
+      "en": [
+        "to make a mountain out of a molehill"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 774
+  },
+  {
+    "id": "de-vocab-idioms-015",
+    "lang": "de",
+    "term": "das ist mir Wurst",
+    "translations": {
+      "en": [
+        "I don't care"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 775
+  },
+  {
+    "id": "de-vocab-idioms-016",
+    "lang": "de",
+    "term": "Tomaten auf den Augen haben",
+    "translations": {
+      "en": [
+        "to be oblivious"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 776
+  },
+  {
+    "id": "de-vocab-idioms-017",
+    "lang": "de",
+    "term": "ins Gras beißen",
+    "translations": {
+      "en": [
+        "to bite the dust"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 777
+  },
+  {
+    "id": "de-vocab-idioms-018",
+    "lang": "de",
+    "term": "Daumen hoch",
+    "translations": {
+      "en": [
+        "thumbs up"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 778
+  },
+  {
+    "id": "de-vocab-idioms-019",
+    "lang": "de",
+    "term": "jemandem die Daumen halten",
+    "translations": {
+      "en": [
+        "to root for someone"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 779
+  },
+  {
+    "id": "de-vocab-idioms-020",
+    "lang": "de",
+    "term": "den Kürzeren ziehen",
+    "translations": {
+      "en": [
+        "to lose out",
+        "to get the short end"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 780
+  },
+  {
+    "id": "de-vocab-idioms-021",
+    "lang": "de",
+    "term": "alles in Butter",
+    "translations": {
+      "en": [
+        "everything's fine"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 781
+  },
+  {
+    "id": "de-vocab-idioms-022",
+    "lang": "de",
+    "term": "die Kirche im Dorf lassen",
+    "translations": {
+      "en": [
+        "to not overdo it"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 782
+  },
+  {
+    "id": "de-vocab-idioms-023",
+    "lang": "de",
+    "term": "das Handtuch werfen",
+    "translations": {
+      "en": [
+        "to throw in the towel"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 783
+  },
+  {
+    "id": "de-vocab-idioms-024",
+    "lang": "de",
+    "term": "Schwamm drüber",
+    "translations": {
+      "en": [
+        "let's forget about it"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 784
+  },
+  {
+    "id": "de-vocab-idioms-025",
+    "lang": "de",
+    "term": "auf Wolke sieben schweben",
+    "translations": {
+      "en": [
+        "to be on cloud nine"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 785
+  },
+  {
+    "id": "de-vocab-idioms-026",
+    "lang": "de",
+    "term": "ein Dorn im Auge sein",
+    "translations": {
+      "en": [
+        "to be a thorn in one's side"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 786
+  },
+  {
+    "id": "de-vocab-idioms-027",
+    "lang": "de",
+    "term": "zwei Fliegen mit einer Klappe schlagen",
+    "translations": {
+      "en": [
+        "to kill two birds with one stone"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 787
+  },
+  {
+    "id": "de-vocab-idioms-028",
+    "lang": "de",
+    "term": "jemandem einen Bären aufbinden",
+    "translations": {
+      "en": [
+        "to pull someone's leg"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 788
+  },
+  {
+    "id": "de-vocab-idioms-029",
+    "lang": "de",
+    "term": "mit dem linken Fuß aufstehen",
+    "translations": {
+      "en": [
+        "to get up on the wrong side of the bed"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 789
+  },
+  {
+    "id": "de-vocab-idioms-030",
+    "lang": "de",
+    "term": "es ist noch nicht aller Tage Abend",
+    "translations": {
+      "en": [
+        "it's not over yet"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 790
+  },
+  {
+    "id": "de-vocab-connectors-001",
+    "lang": "de",
+    "term": "und",
+    "translations": {
+      "en": [
+        "and"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 791
+  },
+  {
+    "id": "de-vocab-connectors-002",
+    "lang": "de",
+    "term": "aber",
+    "translations": {
+      "en": [
+        "but"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 792
+  },
+  {
+    "id": "de-vocab-connectors-003",
+    "lang": "de",
+    "term": "oder",
+    "translations": {
+      "en": [
+        "or"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 793
+  },
+  {
+    "id": "de-vocab-connectors-004",
+    "lang": "de",
+    "term": "weil",
+    "translations": {
+      "en": [
+        "because"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 794
+  },
+  {
+    "id": "de-vocab-connectors-005",
+    "lang": "de",
+    "term": "obwohl",
+    "translations": {
+      "en": [
+        "although"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 795
+  },
+  {
+    "id": "de-vocab-connectors-006",
+    "lang": "de",
+    "term": "jedoch",
+    "translations": {
+      "en": [
+        "however"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 796
+  },
+  {
+    "id": "de-vocab-connectors-007",
+    "lang": "de",
+    "term": "außerdem",
+    "translations": {
+      "en": [
+        "furthermore",
+        "besides"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 797
+  },
+  {
+    "id": "de-vocab-connectors-008",
+    "lang": "de",
+    "term": "deshalb",
+    "translations": {
+      "en": [
+        "therefore"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 798
+  },
+  {
+    "id": "de-vocab-connectors-009",
+    "lang": "de",
+    "term": "während",
+    "translations": {
+      "en": [
+        "while"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 799
+  },
+  {
+    "id": "de-vocab-connectors-010",
+    "lang": "de",
+    "term": "wenn",
+    "translations": {
+      "en": [
+        "when",
+        "if"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 800
+  },
+  {
+    "id": "de-vocab-connectors-011",
+    "lang": "de",
+    "term": "falls",
+    "translations": {
+      "en": [
+        "in case"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 801
+  },
+  {
+    "id": "de-vocab-connectors-012",
+    "lang": "de",
+    "term": "so seltsam es klingt",
+    "translations": {
+      "en": [
+        "strange as it may seem"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 802
+  },
+  {
+    "id": "de-vocab-connectors-013",
+    "lang": "de",
+    "term": "deswegen",
+    "translations": {
+      "en": [
+        "that's why"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 803
+  },
+  {
+    "id": "de-vocab-connectors-014",
+    "lang": "de",
+    "term": "dagegen",
+    "translations": {
+      "en": [
+        "on the other hand"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 804
+  },
+  {
+    "id": "de-vocab-connectors-015",
+    "lang": "de",
+    "term": "das heißt",
+    "translations": {
+      "en": [
+        "that is to say"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 805
+  },
+  {
+    "id": "de-vocab-connectors-016",
+    "lang": "de",
+    "term": "zum Beispiel",
+    "translations": {
+      "en": [
+        "for example"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 806
+  },
+  {
+    "id": "de-vocab-connectors-017",
+    "lang": "de",
+    "term": "zusammenfassend",
+    "translations": {
+      "en": [
+        "in summary"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 807
+  },
+  {
+    "id": "de-vocab-connectors-018",
+    "lang": "de",
+    "term": "schließlich",
+    "translations": {
+      "en": [
+        "finally"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 808
+  },
+  {
+    "id": "de-vocab-connectors-019",
+    "lang": "de",
+    "term": "zuerst",
+    "translations": {
+      "en": [
+        "first"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 809
+  },
+  {
+    "id": "de-vocab-connectors-020",
+    "lang": "de",
+    "term": "dann",
+    "translations": {
+      "en": [
+        "then"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 810
+  },
+  {
+    "id": "de-vocab-connectors-021",
+    "lang": "de",
+    "term": "danach",
+    "translations": {
+      "en": [
+        "afterward"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 811
+  },
+  {
+    "id": "de-vocab-connectors-022",
+    "lang": "de",
+    "term": "bevor",
+    "translations": {
+      "en": [
+        "before"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 812
+  },
+  {
+    "id": "de-vocab-connectors-023",
+    "lang": "de",
+    "term": "seitdem",
+    "translations": {
+      "en": [
+        "since"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 813
+  },
+  {
+    "id": "de-vocab-connectors-024",
+    "lang": "de",
+    "term": "bis",
+    "translations": {
+      "en": [
+        "until"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 814
+  },
+  {
+    "id": "de-vocab-connectors-025",
+    "lang": "de",
+    "term": "trotz",
+    "translations": {
+      "en": [
+        "despite"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 815
+  },
+  {
+    "id": "de-vocab-connectors-026",
+    "lang": "de",
+    "term": "es sei denn",
+    "translations": {
+      "en": [
+        "unless"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 816
+  },
+  {
+    "id": "de-vocab-connectors-027",
+    "lang": "de",
+    "term": "sowohl...als auch",
+    "translations": {
+      "en": [
+        "both...and"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 817
+  },
+  {
+    "id": "de-vocab-connectors-028",
+    "lang": "de",
+    "term": "weder...noch",
+    "translations": {
+      "en": [
+        "neither...nor"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 818
+  },
+  {
+    "id": "de-vocab-connectors-029",
+    "lang": "de",
+    "term": "trotzdem",
+    "translations": {
+      "en": [
+        "nevertheless"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 819
+  },
+  {
+    "id": "de-vocab-connectors-030",
+    "lang": "de",
+    "term": "tatsächlich",
+    "translations": {
+      "en": [
+        "in fact"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 820
+  },
+  {
+    "id": "de-vocab-clothing-001",
+    "lang": "de",
+    "term": "Kleid",
+    "translations": {
+      "en": [
+        "dress"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 821
+  },
+  {
+    "id": "de-vocab-clothing-002",
+    "lang": "de",
+    "term": "Rock",
+    "translations": {
+      "en": [
+        "skirt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 822
+  },
+  {
+    "id": "de-vocab-clothing-003",
+    "lang": "de",
+    "term": "Anzug",
+    "translations": {
+      "en": [
+        "suit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 823
+  },
+  {
+    "id": "de-vocab-clothing-004",
+    "lang": "de",
+    "term": "Krawatte",
+    "translations": {
+      "en": [
+        "tie"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 824
+  },
+  {
+    "id": "de-vocab-clothing-005",
+    "lang": "de",
+    "term": "Mantel",
+    "translations": {
+      "en": [
+        "coat"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 825
+  },
+  {
+    "id": "de-vocab-clothing-006",
+    "lang": "de",
+    "term": "Pullover",
+    "translations": {
+      "en": [
+        "sweater"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 826
+  },
+  {
+    "id": "de-vocab-clothing-007",
+    "lang": "de",
+    "term": "Schal",
+    "translations": {
+      "en": [
+        "scarf"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 827
+  },
+  {
+    "id": "de-vocab-clothing-008",
+    "lang": "de",
+    "term": "Handschuhe",
+    "translations": {
+      "en": [
+        "gloves"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 828
+  },
+  {
+    "id": "de-vocab-clothing-009",
+    "lang": "de",
+    "term": "Mütze",
+    "translations": {
+      "en": [
+        "hat",
+        "beanie"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 829
+  },
+  {
+    "id": "de-vocab-clothing-010",
+    "lang": "de",
+    "term": "Gürtel",
+    "translations": {
+      "en": [
+        "belt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 830
+  },
+  {
+    "id": "de-vocab-clothing-011",
+    "lang": "de",
+    "term": "Socken",
+    "translations": {
+      "en": [
+        "socks"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 831
+  },
+  {
+    "id": "de-vocab-clothing-012",
+    "lang": "de",
+    "term": "Stiefel",
+    "translations": {
+      "en": [
+        "boots"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 832
+  },
+  {
+    "id": "de-vocab-clothing-013",
+    "lang": "de",
+    "term": "Sandalen",
+    "translations": {
+      "en": [
+        "sandals"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 833
+  },
+  {
+    "id": "de-vocab-clothing-014",
+    "lang": "de",
+    "term": "Schlafanzug",
+    "translations": {
+      "en": [
+        "pajamas"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 834
+  },
+  {
+    "id": "de-vocab-clothing-015",
+    "lang": "de",
+    "term": "Badeanzug",
+    "translations": {
+      "en": [
+        "swimsuit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 835
+  },
+  {
+    "id": "de-vocab-clothing-016",
+    "lang": "de",
+    "term": "Unterwäsche",
+    "translations": {
+      "en": [
+        "underwear"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 836
+  },
+  {
+    "id": "de-vocab-clothing-017",
+    "lang": "de",
+    "term": "T-Shirt",
+    "translations": {
+      "en": [
+        "t-shirt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 837
+  },
+  {
+    "id": "de-vocab-clothing-018",
+    "lang": "de",
+    "term": "Bluse",
+    "translations": {
+      "en": [
+        "blouse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 838
+  },
+  {
+    "id": "de-vocab-clothing-019",
+    "lang": "de",
+    "term": "Brille",
+    "translations": {
+      "en": [
+        "glasses"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 839
+  },
+  {
+    "id": "de-vocab-clothing-020",
+    "lang": "de",
+    "term": "Sonnenbrille",
+    "translations": {
+      "en": [
+        "sunglasses"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 840
+  },
+  {
+    "id": "de-vocab-clothing-021",
+    "lang": "de",
+    "term": "Schmuck",
+    "translations": {
+      "en": [
+        "jewelry"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 841
+  },
+  {
+    "id": "de-vocab-clothing-022",
+    "lang": "de",
+    "term": "Halskette",
+    "translations": {
+      "en": [
+        "necklace"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 842
+  },
+  {
+    "id": "de-vocab-clothing-023",
+    "lang": "de",
+    "term": "Armband",
+    "translations": {
+      "en": [
+        "bracelet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 843
+  },
+  {
+    "id": "de-vocab-clothing-024",
+    "lang": "de",
+    "term": "Mode",
+    "translations": {
+      "en": [
+        "fashion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 844
+  },
+  {
+    "id": "de-vocab-clothing-025",
+    "lang": "de",
+    "term": "Stil",
+    "translations": {
+      "en": [
+        "style"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 845
+  },
+  {
+    "id": "de-vocab-clothing-026",
+    "lang": "de",
+    "term": "modisch",
+    "translations": {
+      "en": [
+        "trendy",
+        "fashionable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 846
+  },
+  {
+    "id": "de-vocab-clothing-027",
+    "lang": "de",
+    "term": "elegant",
+    "translations": {
+      "en": [
+        "elegant"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 847
+  },
+  {
+    "id": "de-vocab-clothing-028",
+    "lang": "de",
+    "term": "bequem",
+    "translations": {
+      "en": [
+        "comfortable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 848
+  },
+  {
+    "id": "de-vocab-clothing-029",
+    "lang": "de",
+    "term": "tragen",
+    "translations": {
+      "en": [
+        "to wear"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 849
+  },
+  {
+    "id": "de-vocab-clothing-030",
+    "lang": "de",
+    "term": "sich ausziehen",
+    "translations": {
+      "en": [
+        "to undress"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 850
+  },
+  {
+    "id": "de-vocab-weather-disasters-001",
+    "lang": "de",
+    "term": "Hurrikan",
+    "translations": {
+      "en": [
+        "hurricane"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 851
+  },
+  {
+    "id": "de-vocab-weather-disasters-002",
+    "lang": "de",
+    "term": "Tornado",
+    "translations": {
+      "en": [
+        "tornado"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 852
+  },
+  {
+    "id": "de-vocab-weather-disasters-003",
+    "lang": "de",
+    "term": "Erdbeben",
+    "translations": {
+      "en": [
+        "earthquake"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 853
+  },
+  {
+    "id": "de-vocab-weather-disasters-004",
+    "lang": "de",
+    "term": "Überschwemmung",
+    "translations": {
+      "en": [
+        "flood"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 854
+  },
+  {
+    "id": "de-vocab-weather-disasters-005",
+    "lang": "de",
+    "term": "Dürre",
+    "translations": {
+      "en": [
+        "drought"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 855
+  },
+  {
+    "id": "de-vocab-weather-disasters-006",
+    "lang": "de",
+    "term": "Waldbrand",
+    "translations": {
+      "en": [
+        "wildfire"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 856
+  },
+  {
+    "id": "de-vocab-weather-disasters-007",
+    "lang": "de",
+    "term": "Sturm",
+    "translations": {
+      "en": [
+        "storm"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 857
+  },
+  {
+    "id": "de-vocab-weather-disasters-008",
+    "lang": "de",
+    "term": "Hagel",
+    "translations": {
+      "en": [
+        "hail"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 858
+  },
+  {
+    "id": "de-vocab-weather-disasters-009",
+    "lang": "de",
+    "term": "Hitzewelle",
+    "translations": {
+      "en": [
+        "heat wave"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 859
+  },
+  {
+    "id": "de-vocab-weather-disasters-010",
+    "lang": "de",
+    "term": "Schneesturm",
+    "translations": {
+      "en": [
+        "blizzard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 860
+  },
+  {
+    "id": "de-vocab-weather-disasters-011",
+    "lang": "de",
+    "term": "Vulkanausbruch",
+    "translations": {
+      "en": [
+        "volcanic eruption"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 861
+  },
+  {
+    "id": "de-vocab-weather-disasters-012",
+    "lang": "de",
+    "term": "Tsunami",
+    "translations": {
+      "en": [
+        "tsunami"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 862
+  },
+  {
+    "id": "de-vocab-weather-disasters-013",
+    "lang": "de",
+    "term": "Naturkatastrophe",
+    "translations": {
+      "en": [
+        "natural disaster"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 863
+  },
+  {
+    "id": "de-vocab-weather-disasters-014",
+    "lang": "de",
+    "term": "Evakuierung",
+    "translations": {
+      "en": [
+        "evacuation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 864
+  },
+  {
+    "id": "de-vocab-weather-disasters-015",
+    "lang": "de",
+    "term": "Notunterkunft",
+    "translations": {
+      "en": [
+        "shelter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 865
+  },
+  {
+    "id": "de-vocab-weather-disasters-016",
+    "lang": "de",
+    "term": "Unwetterwarnung",
+    "translations": {
+      "en": [
+        "weather warning"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 866
+  },
+  {
+    "id": "de-vocab-weather-disasters-017",
+    "lang": "de",
+    "term": "Schaden",
+    "translations": {
+      "en": [
+        "damage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 867
+  },
+  {
+    "id": "de-vocab-weather-disasters-018",
+    "lang": "de",
+    "term": "wiederaufbauen",
+    "translations": {
+      "en": [
+        "to rebuild"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 868
+  },
+  {
+    "id": "de-vocab-weather-disasters-019",
+    "lang": "de",
+    "term": "evakuieren",
+    "translations": {
+      "en": [
+        "to evacuate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 869
+  },
+  {
+    "id": "de-vocab-weather-disasters-020",
+    "lang": "de",
+    "term": "überleben",
+    "translations": {
+      "en": [
+        "to survive"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 870
+  },
+  {
+    "id": "de-vocab-weather-disasters-021",
+    "lang": "de",
+    "term": "katastrophal",
+    "translations": {
+      "en": [
+        "catastrophic"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 871
+  },
+  {
+    "id": "de-vocab-weather-disasters-022",
+    "lang": "de",
+    "term": "heftig",
+    "translations": {
+      "en": [
+        "severe"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 872
+  },
+  {
+    "id": "de-vocab-weather-disasters-023",
+    "lang": "de",
+    "term": "unvorhersehbar",
+    "translations": {
+      "en": [
+        "unpredictable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 873
+  },
+  {
+    "id": "de-vocab-weather-disasters-024",
+    "lang": "de",
+    "term": "Extremwetter",
+    "translations": {
+      "en": [
+        "extreme weather"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 874
+  },
+  {
+    "id": "de-vocab-weather-disasters-025",
+    "lang": "de",
+    "term": "Luftdruck",
+    "translations": {
+      "en": [
+        "atmospheric pressure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 875
+  },
+  {
+    "id": "de-vocab-weather-disasters-026",
+    "lang": "de",
+    "term": "Luftfeuchtigkeit",
+    "translations": {
+      "en": [
+        "humidity"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 876
+  },
+  {
+    "id": "de-vocab-weather-disasters-027",
+    "lang": "de",
+    "term": "Blitzschlag",
+    "translations": {
+      "en": [
+        "lightning strike"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 877
+  },
+  {
+    "id": "de-vocab-weather-disasters-028",
+    "lang": "de",
+    "term": "Erschütterung",
+    "translations": {
+      "en": [
+        "tremor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 878
+  },
+  {
+    "id": "de-vocab-weather-disasters-029",
+    "lang": "de",
+    "term": "Flut",
+    "translations": {
+      "en": [
+        "high tide"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 879
+  },
+  {
+    "id": "de-vocab-weather-disasters-030",
+    "lang": "de",
+    "term": "Ebbe",
+    "translations": {
+      "en": [
+        "low tide"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 880
+  },
+  {
+    "id": "de-vocab-farming-001",
+    "lang": "de",
+    "term": "Bauernhof",
+    "translations": {
+      "en": [
+        "farm"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 881
+  },
+  {
+    "id": "de-vocab-farming-002",
+    "lang": "de",
+    "term": "Landwirt",
+    "translations": {
+      "en": [
+        "farmer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 882
+  },
+  {
+    "id": "de-vocab-farming-003",
+    "lang": "de",
+    "term": "Feld",
+    "translations": {
+      "en": [
+        "field (agricultural)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 883
+  },
+  {
+    "id": "de-vocab-farming-004",
+    "lang": "de",
+    "term": "Ernte",
+    "translations": {
+      "en": [
+        "harvest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 884
+  },
+  {
+    "id": "de-vocab-farming-005",
+    "lang": "de",
+    "term": "anbauen",
+    "translations": {
+      "en": [
+        "to grow",
+        "to cultivate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 885
+  },
+  {
+    "id": "de-vocab-farming-006",
+    "lang": "de",
+    "term": "säen",
+    "translations": {
+      "en": [
+        "to plant",
+        "to sow"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 886
+  },
+  {
+    "id": "de-vocab-farming-007",
+    "lang": "de",
+    "term": "bewässern",
+    "translations": {
+      "en": [
+        "to water"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 887
+  },
+  {
+    "id": "de-vocab-farming-008",
+    "lang": "de",
+    "term": "Traktor",
+    "translations": {
+      "en": [
+        "tractor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 888
+  },
+  {
+    "id": "de-vocab-farming-009",
+    "lang": "de",
+    "term": "Scheune",
+    "translations": {
+      "en": [
+        "barn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 889
+  },
+  {
+    "id": "de-vocab-farming-010",
+    "lang": "de",
+    "term": "Stall",
+    "translations": {
+      "en": [
+        "stable"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 890
+  },
+  {
+    "id": "de-vocab-farming-011",
+    "lang": "de",
+    "term": "Vieh",
+    "translations": {
+      "en": [
+        "livestock",
+        "cattle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 891
+  },
+  {
+    "id": "de-vocab-farming-012",
+    "lang": "de",
+    "term": "Weizen",
+    "translations": {
+      "en": [
+        "wheat"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 892
+  },
+  {
+    "id": "de-vocab-farming-013",
+    "lang": "de",
+    "term": "Mais",
+    "translations": {
+      "en": [
+        "corn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 893
+  },
+  {
+    "id": "de-vocab-farming-014",
+    "lang": "de",
+    "term": "Obstgarten",
+    "translations": {
+      "en": [
+        "orchard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 894
+  },
+  {
+    "id": "de-vocab-farming-015",
+    "lang": "de",
+    "term": "Gewächshaus",
+    "translations": {
+      "en": [
+        "greenhouse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 895
+  },
+  {
+    "id": "de-vocab-farming-016",
+    "lang": "de",
+    "term": "Dünger",
+    "translations": {
+      "en": [
+        "fertilizer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 896
+  },
+  {
+    "id": "de-vocab-farming-017",
+    "lang": "de",
+    "term": "Erde",
+    "translations": {
+      "en": [
+        "soil"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 897
+  },
+  {
+    "id": "de-vocab-farming-018",
+    "lang": "de",
+    "term": "Bewässerung",
+    "translations": {
+      "en": [
+        "irrigation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 898
+  },
+  {
+    "id": "de-vocab-farming-019",
+    "lang": "de",
+    "term": "Schädling",
+    "translations": {
+      "en": [
+        "pest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 899
+  },
+  {
+    "id": "de-vocab-farming-020",
+    "lang": "de",
+    "term": "Pestizid",
+    "translations": {
+      "en": [
+        "pesticide"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 900
+  },
+  {
+    "id": "de-vocab-farming-021",
+    "lang": "de",
+    "term": "biologisch",
+    "translations": {
+      "en": [
+        "organic"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 901
+  },
+  {
+    "id": "de-vocab-farming-022",
+    "lang": "de",
+    "term": "ländlich",
+    "translations": {
+      "en": [
+        "rural"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 902
+  },
+  {
+    "id": "de-vocab-farming-023",
+    "lang": "de",
+    "term": "Imkerei",
+    "translations": {
+      "en": [
+        "beekeeping"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 903
+  },
+  {
+    "id": "de-vocab-farming-024",
+    "lang": "de",
+    "term": "Weinberg",
+    "translations": {
+      "en": [
+        "vineyard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 904
+  },
+  {
+    "id": "de-vocab-farming-025",
+    "lang": "de",
+    "term": "Gehege",
+    "translations": {
+      "en": [
+        "pen",
+        "enclosure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 905
+  },
+  {
+    "id": "de-vocab-farming-026",
+    "lang": "de",
+    "term": "Hirte",
+    "translations": {
+      "en": [
+        "shepherd"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 906
+  },
+  {
+    "id": "de-vocab-farming-027",
+    "lang": "de",
+    "term": "pflügen",
+    "translations": {
+      "en": [
+        "to plow"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 907
+  },
+  {
+    "id": "de-vocab-farming-028",
+    "lang": "de",
+    "term": "Pflanzzeit",
+    "translations": {
+      "en": [
+        "planting season"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 908
+  },
+  {
+    "id": "de-vocab-farming-029",
+    "lang": "de",
+    "term": "Erntezeit",
+    "translations": {
+      "en": [
+        "harvest season"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 909
+  },
+  {
+    "id": "de-vocab-farming-030",
+    "lang": "de",
+    "term": "nachhaltige Landwirtschaft",
+    "translations": {
+      "en": [
+        "sustainable agriculture"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 910
+  },
+  {
+    "id": "de-vocab-diy-001",
+    "lang": "de",
+    "term": "Werkzeug",
+    "translations": {
+      "en": [
+        "tool"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 911
+  },
+  {
+    "id": "de-vocab-diy-002",
+    "lang": "de",
+    "term": "Hammer",
+    "translations": {
+      "en": [
+        "hammer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 912
+  },
+  {
+    "id": "de-vocab-diy-003",
+    "lang": "de",
+    "term": "Schraubenzieher",
+    "translations": {
+      "en": [
+        "screwdriver"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 913
+  },
+  {
+    "id": "de-vocab-diy-004",
+    "lang": "de",
+    "term": "Nagel",
+    "translations": {
+      "en": [
+        "nail"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 914
+  },
+  {
+    "id": "de-vocab-diy-005",
+    "lang": "de",
+    "term": "Schraube",
+    "translations": {
+      "en": [
+        "screw"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 915
+  },
+  {
+    "id": "de-vocab-diy-006",
+    "lang": "de",
+    "term": "Bohrer",
+    "translations": {
+      "en": [
+        "drill"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 916
+  },
+  {
+    "id": "de-vocab-diy-007",
+    "lang": "de",
+    "term": "Säge",
+    "translations": {
+      "en": [
+        "saw"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 917
+  },
+  {
+    "id": "de-vocab-diy-008",
+    "lang": "de",
+    "term": "Maßband",
+    "translations": {
+      "en": [
+        "tape measure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 918
+  },
+  {
+    "id": "de-vocab-diy-009",
+    "lang": "de",
+    "term": "Lack",
+    "translations": {
+      "en": [
+        "enamel paint"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 919
+  },
+  {
+    "id": "de-vocab-diy-010",
+    "lang": "de",
+    "term": "Pinsel",
+    "translations": {
+      "en": [
+        "paintbrush"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 920
+  },
+  {
+    "id": "de-vocab-diy-011",
+    "lang": "de",
+    "term": "Leiter",
+    "translations": {
+      "en": [
+        "ladder"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 921
+  },
+  {
+    "id": "de-vocab-diy-012",
+    "lang": "de",
+    "term": "Kabel",
+    "translations": {
+      "en": [
+        "cable",
+        "wire"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 922
+  },
+  {
+    "id": "de-vocab-diy-013",
+    "lang": "de",
+    "term": "Rohr",
+    "translations": {
+      "en": [
+        "pipe",
+        "plumbing"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 923
+  },
+  {
+    "id": "de-vocab-diy-014",
+    "lang": "de",
+    "term": "Klempner",
+    "translations": {
+      "en": [
+        "plumber"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 924
+  },
+  {
+    "id": "de-vocab-diy-015",
+    "lang": "de",
+    "term": "Elektriker",
+    "translations": {
+      "en": [
+        "electrician"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 925
+  },
+  {
+    "id": "de-vocab-diy-016",
+    "lang": "de",
+    "term": "reparieren",
+    "translations": {
+      "en": [
+        "to repair"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 926
+  },
+  {
+    "id": "de-vocab-diy-017",
+    "lang": "de",
+    "term": "bauen",
+    "translations": {
+      "en": [
+        "to build"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 927
+  },
+  {
+    "id": "de-vocab-diy-018",
+    "lang": "de",
+    "term": "installieren",
+    "translations": {
+      "en": [
+        "to install"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 928
+  },
+  {
+    "id": "de-vocab-diy-019",
+    "lang": "de",
+    "term": "renovieren",
+    "translations": {
+      "en": [
+        "to renovate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 929
+  },
+  {
+    "id": "de-vocab-diy-020",
+    "lang": "de",
+    "term": "nivellieren",
+    "translations": {
+      "en": [
+        "to level"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 930
+  },
+  {
+    "id": "de-vocab-diy-021",
+    "lang": "de",
+    "term": "sägen",
+    "translations": {
+      "en": [
+        "to saw"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 931
+  },
+  {
+    "id": "de-vocab-diy-022",
+    "lang": "de",
+    "term": "festschrauben",
+    "translations": {
+      "en": [
+        "to screw in"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 932
+  },
+  {
+    "id": "de-vocab-diy-023",
+    "lang": "de",
+    "term": "Klebstoff",
+    "translations": {
+      "en": [
+        "glue"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 933
+  },
+  {
+    "id": "de-vocab-diy-024",
+    "lang": "de",
+    "term": "Klebeband",
+    "translations": {
+      "en": [
+        "tape"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 934
+  },
+  {
+    "id": "de-vocab-diy-025",
+    "lang": "de",
+    "term": "Gerüst",
+    "translations": {
+      "en": [
+        "scaffolding"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 935
+  },
+  {
+    "id": "de-vocab-diy-026",
+    "lang": "de",
+    "term": "Bauplan",
+    "translations": {
+      "en": [
+        "blueprint"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 936
+  },
+  {
+    "id": "de-vocab-diy-027",
+    "lang": "de",
+    "term": "Baustelle",
+    "translations": {
+      "en": [
+        "construction site"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 937
+  },
+  {
+    "id": "de-vocab-diy-028",
+    "lang": "de",
+    "term": "Zement",
+    "translations": {
+      "en": [
+        "cement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 938
+  },
+  {
+    "id": "de-vocab-diy-029",
+    "lang": "de",
+    "term": "Ziegel",
+    "translations": {
+      "en": [
+        "brick"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 939
+  },
+  {
+    "id": "de-vocab-diy-030",
+    "lang": "de",
+    "term": "Elektrowerkzeug",
+    "translations": {
+      "en": [
+        "power tool"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 940
+  },
+  {
+    "id": "de-vocab-banking-001",
+    "lang": "de",
+    "term": "Girokonto",
+    "translations": {
+      "en": [
+        "checking account"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 941
+  },
+  {
+    "id": "de-vocab-banking-002",
+    "lang": "de",
+    "term": "Sparkonto",
+    "translations": {
+      "en": [
+        "savings account"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 942
+  },
+  {
+    "id": "de-vocab-banking-003",
+    "lang": "de",
+    "term": "Geldautomat",
+    "translations": {
+      "en": [
+        "ATM"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 943
+  },
+  {
+    "id": "de-vocab-banking-004",
+    "lang": "de",
+    "term": "Kontostand",
+    "translations": {
+      "en": [
+        "balance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 944
+  },
+  {
+    "id": "de-vocab-banking-005",
+    "lang": "de",
+    "term": "Einzahlung",
+    "translations": {
+      "en": [
+        "deposit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 945
+  },
+  {
+    "id": "de-vocab-banking-006",
+    "lang": "de",
+    "term": "Abhebung",
+    "translations": {
+      "en": [
+        "withdrawal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 946
+  },
+  {
+    "id": "de-vocab-banking-007",
+    "lang": "de",
+    "term": "Überweisung",
+    "translations": {
+      "en": [
+        "transfer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 947
+  },
+  {
+    "id": "de-vocab-banking-008",
+    "lang": "de",
+    "term": "Zinsen",
+    "translations": {
+      "en": [
+        "interest (banking)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 948
+  },
+  {
+    "id": "de-vocab-banking-009",
+    "lang": "de",
+    "term": "Hypothek",
+    "translations": {
+      "en": [
+        "mortgage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 949
+  },
+  {
+    "id": "de-vocab-banking-010",
+    "lang": "de",
+    "term": "Versicherung",
+    "translations": {
+      "en": [
+        "insurance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 950
+  },
+  {
+    "id": "de-vocab-banking-011",
+    "lang": "de",
+    "term": "Versicherungspolice",
+    "translations": {
+      "en": [
+        "insurance policy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 951
+  },
+  {
+    "id": "de-vocab-banking-012",
+    "lang": "de",
+    "term": "Versicherungsprämie",
+    "translations": {
+      "en": [
+        "insurance premium"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 952
+  },
+  {
+    "id": "de-vocab-banking-013",
+    "lang": "de",
+    "term": "Schadensmeldung",
+    "translations": {
+      "en": [
+        "claim"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 953
+  },
+  {
+    "id": "de-vocab-banking-014",
+    "lang": "de",
+    "term": "Deckung",
+    "translations": {
+      "en": [
+        "coverage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 954
+  },
+  {
+    "id": "de-vocab-banking-015",
+    "lang": "de",
+    "term": "Versicherungsvertreter",
+    "translations": {
+      "en": [
+        "insurance agent"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 955
+  },
+  {
+    "id": "de-vocab-banking-016",
+    "lang": "de",
+    "term": "Debitkarte",
+    "translations": {
+      "en": [
+        "debit card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 956
+  },
+  {
+    "id": "de-vocab-banking-017",
+    "lang": "de",
+    "term": "Bankfiliale",
+    "translations": {
+      "en": [
+        "bank branch"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 957
+  },
+  {
+    "id": "de-vocab-banking-018",
+    "lang": "de",
+    "term": "Scheck",
+    "translations": {
+      "en": [
+        "check"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 958
+  },
+  {
+    "id": "de-vocab-banking-019",
+    "lang": "de",
+    "term": "Währung",
+    "translations": {
+      "en": [
+        "currency"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 959
+  },
+  {
+    "id": "de-vocab-banking-020",
+    "lang": "de",
+    "term": "Wechselkurs",
+    "translations": {
+      "en": [
+        "exchange rate"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 960
+  },
+  {
+    "id": "de-vocab-banking-021",
+    "lang": "de",
+    "term": "sparen",
+    "translations": {
+      "en": [
+        "to save (money)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 961
+  },
+  {
+    "id": "de-vocab-banking-022",
+    "lang": "de",
+    "term": "sich leihen",
+    "translations": {
+      "en": [
+        "to borrow"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 962
+  },
+  {
+    "id": "de-vocab-banking-023",
+    "lang": "de",
+    "term": "verleihen",
+    "translations": {
+      "en": [
+        "to lend"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 963
+  },
+  {
+    "id": "de-vocab-banking-024",
+    "lang": "de",
+    "term": "versichern",
+    "translations": {
+      "en": [
+        "to insure"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 964
+  },
+  {
+    "id": "de-vocab-banking-025",
+    "lang": "de",
+    "term": "Risiko",
+    "translations": {
+      "en": [
+        "risk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 965
+  },
+  {
+    "id": "de-vocab-banking-026",
+    "lang": "de",
+    "term": "Begünstigter",
+    "translations": {
+      "en": [
+        "beneficiary"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 966
+  },
+  {
+    "id": "de-vocab-banking-027",
+    "lang": "de",
+    "term": "Betrug",
+    "translations": {
+      "en": [
+        "fraud"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 967
+  },
+  {
+    "id": "de-vocab-banking-028",
+    "lang": "de",
+    "term": "Kontoauszug",
+    "translations": {
+      "en": [
+        "bank statement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 968
+  },
+  {
+    "id": "de-vocab-banking-029",
+    "lang": "de",
+    "term": "Bankgebühr",
+    "translations": {
+      "en": [
+        "bank fee"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 969
+  },
+  {
+    "id": "de-vocab-banking-030",
+    "lang": "de",
+    "term": "finanziell",
+    "translations": {
+      "en": [
+        "financial"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 970
+  },
+  {
+    "id": "de-vocab-public-services-001",
+    "lang": "de",
+    "term": "Postamt",
+    "translations": {
+      "en": [
+        "post office"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 971
+  },
+  {
+    "id": "de-vocab-public-services-002",
+    "lang": "de",
+    "term": "Briefträger",
+    "translations": {
+      "en": [
+        "mailman"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 972
+  },
+  {
+    "id": "de-vocab-public-services-003",
+    "lang": "de",
+    "term": "Paket",
+    "translations": {
+      "en": [
+        "package"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 973
+  },
+  {
+    "id": "de-vocab-public-services-004",
+    "lang": "de",
+    "term": "Briefmarke",
+    "translations": {
+      "en": [
+        "stamp"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 974
+  },
+  {
+    "id": "de-vocab-public-services-005",
+    "lang": "de",
+    "term": "Elektrizität",
+    "translations": {
+      "en": [
+        "electricity"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 975
+  },
+  {
+    "id": "de-vocab-public-services-006",
+    "lang": "de",
+    "term": "Stromrechnung",
+    "translations": {
+      "en": [
+        "electricity bill"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 976
+  },
+  {
+    "id": "de-vocab-public-services-007",
+    "lang": "de",
+    "term": "Wasserversorgung",
+    "translations": {
+      "en": [
+        "water utility"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 977
+  },
+  {
+    "id": "de-vocab-public-services-008",
+    "lang": "de",
+    "term": "Gasversorgung",
+    "translations": {
+      "en": [
+        "gas utility"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 978
+  },
+  {
+    "id": "de-vocab-public-services-009",
+    "lang": "de",
+    "term": "Müll",
+    "translations": {
+      "en": [
+        "garbage",
+        "trash"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 979
+  },
+  {
+    "id": "de-vocab-public-services-010",
+    "lang": "de",
+    "term": "Recycling",
+    "translations": {
+      "en": [
+        "recycling"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 980
+  },
+  {
+    "id": "de-vocab-public-services-011",
+    "lang": "de",
+    "term": "öffentliche Bibliothek",
+    "translations": {
+      "en": [
+        "public library"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 981
+  },
+  {
+    "id": "de-vocab-public-services-012",
+    "lang": "de",
+    "term": "Feuerwehrmann",
+    "translations": {
+      "en": [
+        "firefighter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 982
+  },
+  {
+    "id": "de-vocab-public-services-013",
+    "lang": "de",
+    "term": "Feuerwache",
+    "translations": {
+      "en": [
+        "fire station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 983
+  },
+  {
+    "id": "de-vocab-public-services-014",
+    "lang": "de",
+    "term": "Polizeiwache",
+    "translations": {
+      "en": [
+        "police station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 984
+  },
+  {
+    "id": "de-vocab-public-services-015",
+    "lang": "de",
+    "term": "Bürgerzentrum",
+    "translations": {
+      "en": [
+        "civic center"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 985
+  },
+  {
+    "id": "de-vocab-public-services-016",
+    "lang": "de",
+    "term": "öffentlicher Dienst",
+    "translations": {
+      "en": [
+        "public service"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 986
+  },
+  {
+    "id": "de-vocab-public-services-017",
+    "lang": "de",
+    "term": "Gemeindesteuer",
+    "translations": {
+      "en": [
+        "municipal tax"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 987
+  },
+  {
+    "id": "de-vocab-public-services-018",
+    "lang": "de",
+    "term": "Kanalisation",
+    "translations": {
+      "en": [
+        "sewage system"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 988
+  },
+  {
+    "id": "de-vocab-public-services-019",
+    "lang": "de",
+    "term": "öffentlicher Gehweg",
+    "translations": {
+      "en": [
+        "public sidewalk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 989
+  },
+  {
+    "id": "de-vocab-public-services-020",
+    "lang": "de",
+    "term": "Straßenbeleuchtung",
+    "translations": {
+      "en": [
+        "street lighting"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 990
+  },
+  {
+    "id": "de-vocab-public-services-021",
+    "lang": "de",
+    "term": "öffentliche Verkehrsmittel",
+    "translations": {
+      "en": [
+        "public transportation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 991
+  },
+  {
+    "id": "de-vocab-public-services-022",
+    "lang": "de",
+    "term": "Beamter",
+    "translations": {
+      "en": [
+        "civil servant"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 992
+  },
+  {
+    "id": "de-vocab-public-services-023",
+    "lang": "de",
+    "term": "Verfahren",
+    "translations": {
+      "en": [
+        "administrative procedure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 993
+  },
+  {
+    "id": "de-vocab-public-services-024",
+    "lang": "de",
+    "term": "Formular",
+    "translations": {
+      "en": [
+        "form"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 994
+  },
+  {
+    "id": "de-vocab-public-services-025",
+    "lang": "de",
+    "term": "Antrag",
+    "translations": {
+      "en": [
+        "application (request)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 995
+  },
+  {
+    "id": "de-vocab-public-services-026",
+    "lang": "de",
+    "term": "Personalausweis",
+    "translations": {
+      "en": [
+        "ID card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 996
+  },
+  {
+    "id": "de-vocab-public-services-027",
+    "lang": "de",
+    "term": "Standesamt",
+    "translations": {
+      "en": [
+        "civil registry"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 997
+  },
+  {
+    "id": "de-vocab-public-services-028",
+    "lang": "de",
+    "term": "Termin",
+    "translations": {
+      "en": [
+        "appointment (bureaucratic)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 998
+  },
+  {
+    "id": "de-vocab-public-services-029",
+    "lang": "de",
+    "term": "Zuschuss",
+    "translations": {
+      "en": [
+        "subsidy",
+        "grant"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 999
+  },
+  {
+    "id": "de-vocab-public-services-030",
+    "lang": "de",
+    "term": "Gemeindehaushalt",
+    "translations": {
+      "en": [
+        "municipal budget"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 1000
+  },
+  {
+    "id": "de-vocab-relationships-001",
+    "lang": "de",
+    "term": "fester Freund",
+    "translations": {
+      "en": [
+        "boyfriend"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1001
+  },
+  {
+    "id": "de-vocab-relationships-002",
+    "lang": "de",
+    "term": "feste Freundin",
+    "translations": {
+      "en": [
+        "girlfriend"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1002
+  },
+  {
+    "id": "de-vocab-relationships-003",
+    "lang": "de",
+    "term": "romantisches Date",
+    "translations": {
+      "en": [
+        "date (romantic)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1003
+  },
+  {
+    "id": "de-vocab-relationships-004",
+    "lang": "de",
+    "term": "sich verlieben",
+    "translations": {
+      "en": [
+        "to fall in love"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1004
+  },
+  {
+    "id": "de-vocab-relationships-005",
+    "lang": "de",
+    "term": "Hochzeit",
+    "translations": {
+      "en": [
+        "wedding"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1005
+  },
+  {
+    "id": "de-vocab-relationships-006",
+    "lang": "de",
+    "term": "Verlobung",
+    "translations": {
+      "en": [
+        "engagement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1006
+  },
+  {
+    "id": "de-vocab-relationships-007",
+    "lang": "de",
+    "term": "heiraten",
+    "translations": {
+      "en": [
+        "to get married"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1007
+  },
+  {
+    "id": "de-vocab-relationships-008",
+    "lang": "de",
+    "term": "Scheidung",
+    "translations": {
+      "en": [
+        "divorce"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1008
+  },
+  {
+    "id": "de-vocab-relationships-009",
+    "lang": "de",
+    "term": "Jahrestag",
+    "translations": {
+      "en": [
+        "anniversary"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1009
+  },
+  {
+    "id": "de-vocab-relationships-010",
+    "lang": "de",
+    "term": "Geburt",
+    "translations": {
+      "en": [
+        "birth"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1010
+  },
+  {
+    "id": "de-vocab-relationships-011",
+    "lang": "de",
+    "term": "Neugeborenes",
+    "translations": {
+      "en": [
+        "newborn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1011
+  },
+  {
+    "id": "de-vocab-relationships-012",
+    "lang": "de",
+    "term": "Schwangerschaft",
+    "translations": {
+      "en": [
+        "pregnancy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1012
+  },
+  {
+    "id": "de-vocab-relationships-013",
+    "lang": "de",
+    "term": "Beerdigung",
+    "translations": {
+      "en": [
+        "funeral"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1013
+  },
+  {
+    "id": "de-vocab-relationships-014",
+    "lang": "de",
+    "term": "Trauer",
+    "translations": {
+      "en": [
+        "mourning",
+        "grief"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1014
+  },
+  {
+    "id": "de-vocab-relationships-015",
+    "lang": "de",
+    "term": "Beziehung",
+    "translations": {
+      "en": [
+        "relationship"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1015
+  },
+  {
+    "id": "de-vocab-relationships-016",
+    "lang": "de",
+    "term": "Single",
+    "translations": {
+      "en": [
+        "single (unmarried)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1016
+  },
+  {
+    "id": "de-vocab-relationships-017",
+    "lang": "de",
+    "term": "Paar",
+    "translations": {
+      "en": [
+        "couple"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1017
+  },
+  {
+    "id": "de-vocab-relationships-018",
+    "lang": "de",
+    "term": "Zusammenleben",
+    "translations": {
+      "en": [
+        "cohabitation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1018
+  },
+  {
+    "id": "de-vocab-relationships-019",
+    "lang": "de",
+    "term": "Ring",
+    "translations": {
+      "en": [
+        "ring"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1019
+  },
+  {
+    "id": "de-vocab-relationships-020",
+    "lang": "de",
+    "term": "Heiratsantrag",
+    "translations": {
+      "en": [
+        "marriage proposal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1020
+  },
+  {
+    "id": "de-vocab-relationships-021",
+    "lang": "de",
+    "term": "Flitterwochen",
+    "translations": {
+      "en": [
+        "honeymoon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1021
+  },
+  {
+    "id": "de-vocab-relationships-022",
+    "lang": "de",
+    "term": "Witwer",
+    "translations": {
+      "en": [
+        "widower"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1022
+  },
+  {
+    "id": "de-vocab-relationships-023",
+    "lang": "de",
+    "term": "Witwe",
+    "translations": {
+      "en": [
+        "widow"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1023
+  },
+  {
+    "id": "de-vocab-relationships-024",
+    "lang": "de",
+    "term": "Enkelkind",
+    "translations": {
+      "en": [
+        "grandchild"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1024
+  },
+  {
+    "id": "de-vocab-relationships-025",
+    "lang": "de",
+    "term": "Großvater",
+    "translations": {
+      "en": [
+        "grandfather"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1025
+  },
+  {
+    "id": "de-vocab-relationships-026",
+    "lang": "de",
+    "term": "Großmutter",
+    "translations": {
+      "en": [
+        "grandmother"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1026
+  },
+  {
+    "id": "de-vocab-relationships-027",
+    "lang": "de",
+    "term": "Cousin",
+    "translations": {
+      "en": [
+        "cousin"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1027
+  },
+  {
+    "id": "de-vocab-relationships-028",
+    "lang": "de",
+    "term": "Schwiegervater",
+    "translations": {
+      "en": [
+        "father-in-law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1028
+  },
+  {
+    "id": "de-vocab-relationships-029",
+    "lang": "de",
+    "term": "Schwiegermutter",
+    "translations": {
+      "en": [
+        "mother-in-law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1029
+  },
+  {
+    "id": "de-vocab-relationships-030",
+    "lang": "de",
+    "term": "Verwandte",
+    "translations": {
+      "en": [
+        "relatives"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1030
+  },
+  {
+    "id": "de-vocab-media-news-001",
+    "lang": "de",
+    "term": "Neuigkeit",
+    "translations": {
+      "en": [
+        "news"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1031
+  },
+  {
+    "id": "de-vocab-media-news-002",
+    "lang": "de",
+    "term": "Zeitung",
+    "translations": {
+      "en": [
+        "newspaper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1032
+  },
+  {
+    "id": "de-vocab-media-news-003",
+    "lang": "de",
+    "term": "Journalist",
+    "translations": {
+      "en": [
+        "journalist"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1033
+  },
+  {
+    "id": "de-vocab-media-news-004",
+    "lang": "de",
+    "term": "Artikel",
+    "translations": {
+      "en": [
+        "article"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1034
+  },
+  {
+    "id": "de-vocab-media-news-005",
+    "lang": "de",
+    "term": "Schlagzeile",
+    "translations": {
+      "en": [
+        "headline"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1035
+  },
+  {
+    "id": "de-vocab-media-news-006",
+    "lang": "de",
+    "term": "Zeitschrift",
+    "translations": {
+      "en": [
+        "magazine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1036
+  },
+  {
+    "id": "de-vocab-media-news-007",
+    "lang": "de",
+    "term": "Sendung",
+    "translations": {
+      "en": [
+        "broadcast"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1037
+  },
+  {
+    "id": "de-vocab-media-news-008",
+    "lang": "de",
+    "term": "Tagesschau",
+    "translations": {
+      "en": [
+        "TV news"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1038
+  },
+  {
+    "id": "de-vocab-media-news-009",
+    "lang": "de",
+    "term": "Befragung",
+    "translations": {
+      "en": [
+        "interview (media)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1039
+  },
+  {
+    "id": "de-vocab-media-news-010",
+    "lang": "de",
+    "term": "Werbung",
+    "translations": {
+      "en": [
+        "advertisement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1040
+  },
+  {
+    "id": "de-vocab-media-news-011",
+    "lang": "de",
+    "term": "Radio",
+    "translations": {
+      "en": [
+        "radio"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1041
+  },
+  {
+    "id": "de-vocab-media-news-012",
+    "lang": "de",
+    "term": "Podcast",
+    "translations": {
+      "en": [
+        "podcast"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1042
+  },
+  {
+    "id": "de-vocab-media-news-013",
+    "lang": "de",
+    "term": "Leitartikel",
+    "translations": {
+      "en": [
+        "editorial"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1043
+  },
+  {
+    "id": "de-vocab-media-news-014",
+    "lang": "de",
+    "term": "Redaktion",
+    "translations": {
+      "en": [
+        "editorial office",
+        "newsroom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1044
+  },
+  {
+    "id": "de-vocab-media-news-015",
+    "lang": "de",
+    "term": "Quelle",
+    "translations": {
+      "en": [
+        "source"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1045
+  },
+  {
+    "id": "de-vocab-media-news-016",
+    "lang": "de",
+    "term": "Skandal",
+    "translations": {
+      "en": [
+        "scandal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1046
+  },
+  {
+    "id": "de-vocab-media-news-017",
+    "lang": "de",
+    "term": "öffentliche Meinung",
+    "translations": {
+      "en": [
+        "public opinion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1047
+  },
+  {
+    "id": "de-vocab-media-news-018",
+    "lang": "de",
+    "term": "Zensur",
+    "translations": {
+      "en": [
+        "censorship"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1048
+  },
+  {
+    "id": "de-vocab-media-news-019",
+    "lang": "de",
+    "term": "Pressefreiheit",
+    "translations": {
+      "en": [
+        "freedom of the press"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1049
+  },
+  {
+    "id": "de-vocab-media-news-020",
+    "lang": "de",
+    "term": "Aktuelles",
+    "translations": {
+      "en": [
+        "current events"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1050
+  },
+  {
+    "id": "de-vocab-media-news-021",
+    "lang": "de",
+    "term": "veröffentlichen",
+    "translations": {
+      "en": [
+        "to publish"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1051
+  },
+  {
+    "id": "de-vocab-media-news-022",
+    "lang": "de",
+    "term": "berichten",
+    "translations": {
+      "en": [
+        "to report"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1052
+  },
+  {
+    "id": "de-vocab-media-news-023",
+    "lang": "de",
+    "term": "senden",
+    "translations": {
+      "en": [
+        "to broadcast"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1053
+  },
+  {
+    "id": "de-vocab-media-news-024",
+    "lang": "de",
+    "term": "kommentieren",
+    "translations": {
+      "en": [
+        "to comment"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1054
+  },
+  {
+    "id": "de-vocab-media-news-025",
+    "lang": "de",
+    "term": "Abonnement",
+    "translations": {
+      "en": [
+        "subscription"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1055
+  },
+  {
+    "id": "de-vocab-media-news-026",
+    "lang": "de",
+    "term": "Leser",
+    "translations": {
+      "en": [
+        "reader"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1056
+  },
+  {
+    "id": "de-vocab-media-news-027",
+    "lang": "de",
+    "term": "Zuschauer",
+    "translations": {
+      "en": [
+        "viewer",
+        "spectator"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1057
+  },
+  {
+    "id": "de-vocab-media-news-028",
+    "lang": "de",
+    "term": "Aktualisierung",
+    "translations": {
+      "en": [
+        "update"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1058
+  },
+  {
+    "id": "de-vocab-media-news-029",
+    "lang": "de",
+    "term": "Pressemitteilung",
+    "translations": {
+      "en": [
+        "press release"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1059
+  },
+  {
+    "id": "de-vocab-media-news-030",
+    "lang": "de",
+    "term": "Influencer",
+    "translations": {
+      "en": [
+        "influencer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1060
+  },
+  {
+    "id": "de-vocab-science-space-001",
+    "lang": "de",
+    "term": "Wissenschaft",
+    "translations": {
+      "en": [
+        "science"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1061
+  },
+  {
+    "id": "de-vocab-science-space-002",
+    "lang": "de",
+    "term": "Wissenschaftler",
+    "translations": {
+      "en": [
+        "scientist"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1062
+  },
+  {
+    "id": "de-vocab-science-space-003",
+    "lang": "de",
+    "term": "Experiment",
+    "translations": {
+      "en": [
+        "experiment"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1063
+  },
+  {
+    "id": "de-vocab-science-space-004",
+    "lang": "de",
+    "term": "Labor",
+    "translations": {
+      "en": [
+        "laboratory"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1064
+  },
+  {
+    "id": "de-vocab-science-space-005",
+    "lang": "de",
+    "term": "Theorie",
+    "translations": {
+      "en": [
+        "theory"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1065
+  },
+  {
+    "id": "de-vocab-science-space-006",
+    "lang": "de",
+    "term": "Forschung",
+    "translations": {
+      "en": [
+        "research"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1066
+  },
+  {
+    "id": "de-vocab-science-space-007",
+    "lang": "de",
+    "term": "Universum",
+    "translations": {
+      "en": [
+        "universe"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1067
+  },
+  {
+    "id": "de-vocab-science-space-008",
+    "lang": "de",
+    "term": "Stern",
+    "translations": {
+      "en": [
+        "star"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1068
+  },
+  {
+    "id": "de-vocab-science-space-009",
+    "lang": "de",
+    "term": "Galaxie",
+    "translations": {
+      "en": [
+        "galaxy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1069
+  },
+  {
+    "id": "de-vocab-science-space-010",
+    "lang": "de",
+    "term": "Astronaut",
+    "translations": {
+      "en": [
+        "astronaut"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1070
+  },
+  {
+    "id": "de-vocab-science-space-011",
+    "lang": "de",
+    "term": "Rakete",
+    "translations": {
+      "en": [
+        "rocket"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1071
+  },
+  {
+    "id": "de-vocab-science-space-012",
+    "lang": "de",
+    "term": "Satellit",
+    "translations": {
+      "en": [
+        "satellite"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1072
+  },
+  {
+    "id": "de-vocab-science-space-013",
+    "lang": "de",
+    "term": "Teleskop",
+    "translations": {
+      "en": [
+        "telescope"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1073
+  },
+  {
+    "id": "de-vocab-science-space-014",
+    "lang": "de",
+    "term": "Mond",
+    "translations": {
+      "en": [
+        "moon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1074
+  },
+  {
+    "id": "de-vocab-science-space-015",
+    "lang": "de",
+    "term": "Schwerkraft",
+    "translations": {
+      "en": [
+        "gravity"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1075
+  },
+  {
+    "id": "de-vocab-science-space-016",
+    "lang": "de",
+    "term": "Atom",
+    "translations": {
+      "en": [
+        "atom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1076
+  },
+  {
+    "id": "de-vocab-science-space-017",
+    "lang": "de",
+    "term": "Molekül",
+    "translations": {
+      "en": [
+        "molecule"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1077
+  },
+  {
+    "id": "de-vocab-science-space-018",
+    "lang": "de",
+    "term": "Zelle",
+    "translations": {
+      "en": [
+        "cell (biology)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1078
+  },
+  {
+    "id": "de-vocab-science-space-019",
+    "lang": "de",
+    "term": "DNA",
+    "translations": {
+      "en": [
+        "DNA"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1079
+  },
+  {
+    "id": "de-vocab-science-space-020",
+    "lang": "de",
+    "term": "Evolution",
+    "translations": {
+      "en": [
+        "evolution"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1080
+  },
+  {
+    "id": "de-vocab-science-space-021",
+    "lang": "de",
+    "term": "Entdeckung",
+    "translations": {
+      "en": [
+        "discovery"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1081
+  },
+  {
+    "id": "de-vocab-science-space-022",
+    "lang": "de",
+    "term": "Erfindung",
+    "translations": {
+      "en": [
+        "invention"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1082
+  },
+  {
+    "id": "de-vocab-science-space-023",
+    "lang": "de",
+    "term": "Raumfahrttechnik",
+    "translations": {
+      "en": [
+        "space technology"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1083
+  },
+  {
+    "id": "de-vocab-science-space-024",
+    "lang": "de",
+    "term": "entdecken",
+    "translations": {
+      "en": [
+        "to discover"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1084
+  },
+  {
+    "id": "de-vocab-science-space-025",
+    "lang": "de",
+    "term": "beweisen",
+    "translations": {
+      "en": [
+        "to prove"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1085
+  },
+  {
+    "id": "de-vocab-science-space-026",
+    "lang": "de",
+    "term": "beobachten",
+    "translations": {
+      "en": [
+        "to observe"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1086
+  },
+  {
+    "id": "de-vocab-science-space-027",
+    "lang": "de",
+    "term": "messen",
+    "translations": {
+      "en": [
+        "to measure"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1087
+  },
+  {
+    "id": "de-vocab-science-space-028",
+    "lang": "de",
+    "term": "analysieren",
+    "translations": {
+      "en": [
+        "to analyze"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1088
+  },
+  {
+    "id": "de-vocab-science-space-029",
+    "lang": "de",
+    "term": "Hypothese",
+    "translations": {
+      "en": [
+        "hypothesis"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1089
+  },
+  {
+    "id": "de-vocab-science-space-030",
+    "lang": "de",
+    "term": "Weltraum",
+    "translations": {
+      "en": [
+        "outer space"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1090
+  },
+  {
+    "id": "de-vocab-law-crime-001",
+    "lang": "de",
+    "term": "Gesetz",
+    "translations": {
+      "en": [
+        "law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1091
+  },
+  {
+    "id": "de-vocab-law-crime-002",
+    "lang": "de",
+    "term": "Polizei",
+    "translations": {
+      "en": [
+        "police"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1092
+  },
+  {
+    "id": "de-vocab-law-crime-003",
+    "lang": "de",
+    "term": "Polizist",
+    "translations": {
+      "en": [
+        "police officer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1093
+  },
+  {
+    "id": "de-vocab-law-crime-004",
+    "lang": "de",
+    "term": "Verbrechen",
+    "translations": {
+      "en": [
+        "crime"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1094
+  },
+  {
+    "id": "de-vocab-law-crime-005",
+    "lang": "de",
+    "term": "Verbrecher",
+    "translations": {
+      "en": [
+        "criminal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1095
+  },
+  {
+    "id": "de-vocab-law-crime-006",
+    "lang": "de",
+    "term": "Diebstahl",
+    "translations": {
+      "en": [
+        "theft"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1096
+  },
+  {
+    "id": "de-vocab-law-crime-007",
+    "lang": "de",
+    "term": "Dieb",
+    "translations": {
+      "en": [
+        "thief"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1097
+  },
+  {
+    "id": "de-vocab-law-crime-008",
+    "lang": "de",
+    "term": "Opfer",
+    "translations": {
+      "en": [
+        "victim"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1098
+  },
+  {
+    "id": "de-vocab-law-crime-009",
+    "lang": "de",
+    "term": "Zeuge",
+    "translations": {
+      "en": [
+        "witness"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1099
+  },
+  {
+    "id": "de-vocab-law-crime-010",
+    "lang": "de",
+    "term": "Gericht",
+    "translations": {
+      "en": [
+        "court"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1100
+  },
+  {
+    "id": "de-vocab-law-crime-011",
+    "lang": "de",
+    "term": "Richter",
+    "translations": {
+      "en": [
+        "judge"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1101
+  },
+  {
+    "id": "de-vocab-law-crime-012",
+    "lang": "de",
+    "term": "Rechtsanwalt",
+    "translations": {
+      "en": [
+        "lawyer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1102
+  },
+  {
+    "id": "de-vocab-law-crime-013",
+    "lang": "de",
+    "term": "Prozess",
+    "translations": {
+      "en": [
+        "trial"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1103
+  },
+  {
+    "id": "de-vocab-law-crime-014",
+    "lang": "de",
+    "term": "Beweis",
+    "translations": {
+      "en": [
+        "evidence",
+        "proof"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1104
+  },
+  {
+    "id": "de-vocab-law-crime-015",
+    "lang": "de",
+    "term": "Verhaftung",
+    "translations": {
+      "en": [
+        "arrest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1105
+  },
+  {
+    "id": "de-vocab-law-crime-016",
+    "lang": "de",
+    "term": "Gefängnis",
+    "translations": {
+      "en": [
+        "prison"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1106
+  },
+  {
+    "id": "de-vocab-law-crime-017",
+    "lang": "de",
+    "term": "Geldstrafe",
+    "translations": {
+      "en": [
+        "fine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1107
+  },
+  {
+    "id": "de-vocab-law-crime-018",
+    "lang": "de",
+    "term": "Recht",
+    "translations": {
+      "en": [
+        "right",
+        "law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1108
+  },
+  {
+    "id": "de-vocab-law-crime-019",
+    "lang": "de",
+    "term": "Gerechtigkeit",
+    "translations": {
+      "en": [
+        "justice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1109
+  },
+  {
+    "id": "de-vocab-law-crime-020",
+    "lang": "de",
+    "term": "schuldig",
+    "translations": {
+      "en": [
+        "guilty"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1110
+  },
+  {
+    "id": "de-vocab-law-crime-021",
+    "lang": "de",
+    "term": "unschuldig",
+    "translations": {
+      "en": [
+        "innocent"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1111
+  },
+  {
+    "id": "de-vocab-law-crime-022",
+    "lang": "de",
+    "term": "legal",
+    "translations": {
+      "en": [
+        "legal"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1112
+  },
+  {
+    "id": "de-vocab-law-crime-023",
+    "lang": "de",
+    "term": "illegal",
+    "translations": {
+      "en": [
+        "illegal"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1113
+  },
+  {
+    "id": "de-vocab-law-crime-024",
+    "lang": "de",
+    "term": "verhaften",
+    "translations": {
+      "en": [
+        "to arrest"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1114
+  },
+  {
+    "id": "de-vocab-law-crime-025",
+    "lang": "de",
+    "term": "stehlen",
+    "translations": {
+      "en": [
+        "to steal"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1115
+  },
+  {
+    "id": "de-vocab-law-crime-026",
+    "lang": "de",
+    "term": "beschuldigen",
+    "translations": {
+      "en": [
+        "to accuse"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1116
+  },
+  {
+    "id": "de-vocab-law-crime-027",
+    "lang": "de",
+    "term": "anzeigen",
+    "translations": {
+      "en": [
+        "to report (a crime)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1117
+  },
+  {
+    "id": "de-vocab-law-crime-028",
+    "lang": "de",
+    "term": "aussagen",
+    "translations": {
+      "en": [
+        "to testify"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1118
+  },
+  {
+    "id": "de-vocab-law-crime-029",
+    "lang": "de",
+    "term": "Klage",
+    "translations": {
+      "en": [
+        "lawsuit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1119
+  },
+  {
+    "id": "de-vocab-law-crime-030",
+    "lang": "de",
+    "term": "Urteil",
+    "translations": {
+      "en": [
+        "verdict"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1120
   }
 ]
