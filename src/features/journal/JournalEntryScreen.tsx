@@ -10,6 +10,7 @@ import { detectAssistant, type JournalAssistant } from "../../ai/assistant";
 import { buildDictionaryFallback } from "../../ai/dictionaryFallback";
 import { pickRandomPrompt, getPromptById } from "../../content/journalPrompts";
 import { loadSession, saveSession } from "../practice/sessionState";
+import { generateId } from "../../lib/generateId";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
 import type { JournalEntry } from "../../types/user";
@@ -17,7 +18,7 @@ import type { VocabItem } from "../../types/content";
 
 function newDraft(knownLang: string, targetLang: string): JournalEntry {
   return {
-    id: crypto.randomUUID(),
+    id: generateId(),
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
     status: "draft",
