@@ -10,7 +10,7 @@ const tabs = [
 export function BottomTabBar() {
   return (
     <nav
-      className="fixed inset-x-0 bottom-0 z-10 flex border-t border-slate-800 bg-slate-950/95 backdrop-blur"
+      className="fixed inset-x-0 bottom-0 z-10 flex border-t border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95"
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
     >
       {tabs.map((tab) => (
@@ -20,7 +20,7 @@ export function BottomTabBar() {
           end={tab.end}
           className={({ isActive }) =>
             `flex flex-1 flex-col items-center gap-0.5 py-2 text-xs ${
-              isActive ? "text-sky-400" : "text-slate-500"
+              isActive ? "text-sky-600 dark:text-sky-400" : "text-slate-500"
             }`
           }
         >

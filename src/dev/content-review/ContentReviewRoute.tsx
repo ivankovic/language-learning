@@ -14,12 +14,12 @@ export function ContentReviewRoute() {
   return (
     <Screen title="Content Review (dev)">
       {entries.length === 0 ? (
-        <p className="text-slate-400">
+        <p className="text-slate-600 dark:text-slate-400">
           No staged content yet. Generated content will appear here once the content-generation pipeline drops
           files into <code>content-staging/</code>.
         </p>
       ) : (
-        <pre className="overflow-auto rounded-xl bg-slate-900 p-4 text-xs">
+        <pre className="overflow-auto rounded-xl bg-slate-100 p-4 text-xs dark:bg-slate-900">
           {JSON.stringify(entries, null, 2)}
         </pre>
       )}

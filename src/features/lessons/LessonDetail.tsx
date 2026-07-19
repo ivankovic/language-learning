@@ -35,7 +35,7 @@ export function LessonDetail() {
   if (!content || !lesson) {
     return (
       <Screen title="Lesson">
-        <p className="text-slate-400">Loading…</p>
+        <p className="text-slate-600 dark:text-slate-400">Loading…</p>
       </Screen>
     );
   }
@@ -79,7 +79,7 @@ export function LessonDetail() {
         if (!exercise) return null;
         const answered = exercise.id in results;
         return (
-          <div key={i} className="mb-6 rounded-xl bg-slate-900/50 p-4">
+          <div key={i} className="mb-6 rounded-xl bg-slate-100 dark:bg-slate-900/50 p-4">
             <p className="mb-3 font-medium">{exercise.prompt}</p>
             {exercise.type === "multiple-choice" && (
               <MultipleChoice exercise={exercise} onAnswer={(correct) => handleAnswer(exercise, correct)} />
@@ -94,7 +94,7 @@ export function LessonDetail() {
               <TranslateExercise exercise={exercise} onAnswer={(correct) => handleAnswer(exercise, correct)} />
             )}
             {answered && (
-              <p className={`mt-2 text-sm ${results[exercise.id] ? "text-emerald-400" : "text-rose-400"}`}>
+              <p className={`mt-2 text-sm ${results[exercise.id] ? "text-emerald-600 dark:text-emerald-400" : "text-rose-600 dark:text-rose-400"}`}>
                 {results[exercise.id] ? "Correct!" : "Not quite — added to your review deck."}
               </p>
             )}

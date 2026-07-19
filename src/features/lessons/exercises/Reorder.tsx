@@ -36,13 +36,13 @@ export function Reorder({
 
   return (
     <div className="space-y-4">
-      <div className="flex min-h-12 flex-wrap gap-2 rounded-xl bg-slate-900 p-3">
+      <div className="flex min-h-12 flex-wrap gap-2 rounded-xl bg-slate-100 p-3 dark:bg-slate-900">
         {selectedKeys.map((key) => (
           <button
             key={key}
             disabled={submitted}
             onClick={() => setSelectedKeys((keys) => keys.filter((k) => k !== key))}
-            className="rounded-lg bg-sky-500/20 px-3 py-1.5 text-sky-200"
+            className="rounded-lg bg-sky-100 px-3 py-1.5 text-sky-700 dark:bg-sky-500/20 dark:text-sky-200"
           >
             {bank.find((b) => b.key === key)!.token}
           </button>
@@ -54,7 +54,7 @@ export function Reorder({
             key={key}
             disabled={submitted}
             onClick={() => setSelectedKeys((keys) => [...keys, key])}
-            className="rounded-lg bg-slate-800 px-3 py-1.5"
+            className="rounded-lg bg-slate-200 px-3 py-1.5 dark:bg-slate-800"
           >
             {token}
           </button>

@@ -138,7 +138,7 @@ export function JournalEntryScreen() {
   if (!entry || !content) {
     return (
       <Screen title="Journal">
-        <p className="text-slate-400">Loading…</p>
+        <p className="text-slate-600 dark:text-slate-400">Loading…</p>
       </Screen>
     );
   }
@@ -150,7 +150,7 @@ export function JournalEntryScreen() {
 
   return (
     <Screen title={isNew ? "New Entry" : "Journal Entry"}>
-      <p className="mb-4 rounded-xl bg-slate-900 px-4 py-3 text-sm text-slate-300">{prompt.text}</p>
+      <p className="mb-4 rounded-xl bg-slate-100 px-4 py-3 text-sm text-slate-700 dark:bg-slate-900 dark:text-slate-300">{prompt.text}</p>
 
       <label className="mb-1 block text-xs text-slate-500">Write in {entry.knownLang.toUpperCase()}</label>
       <textarea
@@ -158,7 +158,7 @@ export function JournalEntryScreen() {
         onChange={(e) => updateField({ originalText: e.target.value })}
         disabled={isComplete}
         rows={4}
-        className="mb-4 w-full rounded-xl bg-slate-900 px-4 py-3 text-slate-100 outline-none ring-1 ring-slate-800 focus:ring-sky-500"
+        className="mb-4 w-full rounded-xl bg-white px-4 py-3 text-slate-900 outline-none ring-1 ring-slate-300 focus:ring-sky-500 dark:bg-slate-900 dark:text-slate-100 dark:ring-slate-800"
       />
 
       {recognizedWords.length > 0 && (
@@ -176,7 +176,7 @@ export function JournalEntryScreen() {
                   })
                 }
                 className={`rounded-lg px-3 py-1 text-sm ${
-                  flagged.has(item.id) ? "bg-sky-500/20 text-sky-300" : "bg-slate-800 text-slate-300"
+                  flagged.has(item.id) ? "bg-sky-100 text-sky-700 dark:bg-sky-500/20 dark:text-sky-300" : "bg-slate-200 text-slate-700 dark:bg-slate-800 dark:text-slate-300"
                 }`}
               >
                 {word} → {item.term}
@@ -194,7 +194,7 @@ export function JournalEntryScreen() {
         onChange={(e) => updateField({ translationAttempt: e.target.value })}
         disabled={isComplete}
         rows={4}
-        className="mb-4 w-full rounded-xl bg-slate-900 px-4 py-3 text-slate-100 outline-none ring-1 ring-slate-800 focus:ring-sky-500"
+        className="mb-4 w-full rounded-xl bg-white px-4 py-3 text-slate-900 outline-none ring-1 ring-slate-300 focus:ring-sky-500 dark:bg-slate-900 dark:text-slate-100 dark:ring-slate-800"
       />
 
       {assistant?.capability === "chrome-builtin" && !isComplete && (
@@ -209,7 +209,7 @@ export function JournalEntryScreen() {
       )}
 
       {aiFeedback && (
-        <div className="mb-4 rounded-xl bg-sky-500/10 px-4 py-3 text-sm text-sky-200">{aiFeedback}</div>
+        <div className="mb-4 rounded-xl bg-sky-50 px-4 py-3 text-sm text-sky-800 dark:bg-sky-500/10 dark:text-sky-200">{aiFeedback}</div>
       )}
 
       {!isComplete && (

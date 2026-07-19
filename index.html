@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#0f172a" />
     <title>Language Learning</title>
+    <script>
+      // Applies the theme class before first paint, to avoid a flash of the
+      // wrong theme. Must stay a synchronous, dependency-free inline script
+      // (runs before any bundle loads) — kept in sync by hand with
+      // src/theme/theme.ts, which the rest of the app uses.
+      (function () {
+        try {
+          var pref = localStorage.getItem("theme-preference") || "system";
+          var isDark =
+            pref === "dark" ||
+            (pref === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+          document.documentElement.classList.toggle("dark", isDark);
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -11,7 +11,7 @@ export function Screen({
   children: ReactNode;
 }) {
   return (
-    <div className="min-h-dvh bg-slate-950 pb-20 text-slate-100">
+    <div className="min-h-dvh bg-slate-50 pb-20 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
       <header className="flex items-center justify-between px-4 pt-6 pb-3">
         <h1 className="text-xl font-semibold">{title}</h1>
         {action}
@@ -25,7 +25,7 @@ export function SettingsLink() {
   return (
     <Link
       to="/settings"
-      className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-900 text-lg"
+      className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-200 text-lg dark:bg-slate-900"
       aria-label="Settings"
     >
       ⚙️

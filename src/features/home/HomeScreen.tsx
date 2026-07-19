@@ -32,7 +32,7 @@ export function HomeScreen() {
   if (!profile || !content) {
     return (
       <Screen title="Home">
-        <p className="text-slate-400">Loading…</p>
+        <p className="text-slate-600 dark:text-slate-400">Loading…</p>
       </Screen>
     );
   }
@@ -52,7 +52,7 @@ export function HomeScreen() {
           <p className="text-xs text-slate-500">day streak</p>
         </div>
         <div className="flex-1">
-          <div className="h-2 overflow-hidden rounded-full bg-slate-800">
+          <div className="h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
             <div className="h-full bg-sky-500" style={{ width: `${goalProgress}%` }} />
           </div>
           <p className="mt-1 text-xs text-slate-500">
@@ -67,16 +67,16 @@ export function HomeScreen() {
 
       <button
         onClick={() => navigate("/review")}
-        className="mt-3 flex w-full items-center justify-between rounded-xl bg-slate-900 px-4 py-3 text-left"
+        className="mt-3 flex w-full items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900"
       >
         <span>Extra review</span>
-        <span className="text-sm text-slate-400">{dueCount ?? "…"} due</span>
+        <span className="text-sm text-slate-600 dark:text-slate-400">{dueCount ?? "…"} due</span>
       </button>
 
       {lessonTitle && (
         <button
           onClick={() => navigate("/lessons")}
-          className="mt-3 w-full rounded-xl bg-slate-900 px-4 py-3 text-left"
+          className="mt-3 w-full rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900"
         >
           <p className="text-xs text-slate-500">{content.course.title}</p>
           <p>{lessonTitle}</p>

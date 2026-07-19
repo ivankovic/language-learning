@@ -83,7 +83,7 @@ export function PracticeSession() {
   if (!session || !content) {
     return (
       <Screen title="Practice">
-        <p className="text-slate-400">Preparing your session…</p>
+        <p className="text-slate-600 dark:text-slate-400">Preparing your session…</p>
       </Screen>
     );
   }
@@ -178,7 +178,7 @@ function SessionSummary({
     <Screen title="Session Complete">
       <div className="flex min-h-[60vh] flex-col items-center justify-center text-center">
         <p className="mb-2 text-5xl">🎉</p>
-        <p className="mb-6 text-lg text-slate-300">Nice work!</p>
+        <p className="mb-6 text-lg text-slate-700 dark:text-slate-300">Nice work!</p>
         <div className="mb-8 grid w-full grid-cols-3 gap-3">
           <Stat label="Cards" value={session.reviewedCount} />
           <Stat label="Lesson" value={session.lessonCompleted ? "✅" : "—"} />
@@ -194,7 +194,7 @@ function SessionSummary({
 
 function Stat({ label, value }: { label: string; value: string | number }) {
   return (
-    <div className="rounded-xl bg-slate-900 py-4">
+    <div className="rounded-xl bg-slate-100 py-4 dark:bg-slate-900">
       <p className="text-xl font-semibold">{value}</p>
       <p className="text-xs text-slate-500">{label}</p>
     </div>

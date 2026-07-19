@@ -24,11 +24,11 @@ export function JournalList() {
           <button
             key={entry.id}
             onClick={() => navigate(`/journal/${entry.id}`)}
-            className="w-full rounded-xl bg-slate-900 px-4 py-3 text-left"
+            className="w-full rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900"
           >
             <p className="text-xs text-slate-500">{new Date(entry.createdAt).toLocaleDateString()}</p>
             <p className="truncate">{entry.originalText}</p>
-            {entry.aiFeedback && <p className="mt-1 text-xs text-sky-400">Has AI feedback</p>}
+            {entry.aiFeedback && <p className="mt-1 text-xs text-sky-600 dark:text-sky-400">Has AI feedback</p>}
           </button>
         ))}
       </div>

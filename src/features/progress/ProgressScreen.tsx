@@ -9,7 +9,7 @@ import { Screen, SettingsLink } from "../../components/Screen";
 import type { CardLifecycleState } from "../../types/user";
 
 const STATE_COLORS: Record<CardLifecycleState, string> = {
-  new: "bg-slate-700",
+  new: "bg-slate-300 dark:bg-slate-700",
   learning: "bg-amber-500",
   relearning: "bg-rose-500",
   review: "bg-emerald-500",
@@ -56,7 +56,7 @@ export function ProgressScreen() {
   if (!content || !activity || !cardStates) {
     return (
       <Screen title="Progress" action={<SettingsLink />}>
-        <p className="text-slate-400">Loading…</p>
+        <p className="text-slate-600 dark:text-slate-400">Loading…</p>
       </Screen>
     );
   }
@@ -64,7 +64,7 @@ export function ProgressScreen() {
   return (
     <Screen title="Progress" action={<SettingsLink />}>
       <section className="mb-8">
-        <h2 className="mb-2 text-sm font-medium text-slate-400">Last 28 days</h2>
+        <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">Last 28 days</h2>
         <div className="grid grid-cols-7 gap-1.5">
           {activity.map((day) => {
             const active = day.reviewsCount + day.lessonsCompleted + day.journalEntriesCompleted > 0;
@@ -72,7 +72,7 @@ export function ProgressScreen() {
               <div
                 key={day.date}
                 title={day.date}
-                className={`aspect-square rounded ${active ? "bg-sky-500" : "bg-slate-900"}`}
+                className={`aspect-square rounded ${active ? "bg-sky-500" : "bg-slate-200 dark:bg-slate-900"}`}
               />
             );
           })}
@@ -80,7 +80,7 @@ export function ProgressScreen() {
       </section>
 
       <section className="mb-8">
-        <h2 className="mb-2 text-sm font-medium text-slate-400">Review forecast</h2>
+        <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">Review forecast</h2>
         <div className="flex items-end gap-2" style={{ height: 80 }}>
           {forecast.map((d) => (
             <div key={d.label} className="flex flex-1 flex-col items-center gap-1">
@@ -95,12 +95,12 @@ export function ProgressScreen() {
       </section>
 
       <section className="mb-8">
-        <h2 className="mb-2 text-sm font-medium text-slate-400">Deck mastery</h2>
+        <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">Deck mastery</h2>
         <div className="space-y-3">
           {deckStats.map(({ deck, counts, total }) => (
             <div key={deck.id}>
               <p className="mb-1 text-sm">{deck.title}</p>
-              <div className="flex h-2 overflow-hidden rounded-full bg-slate-900">
+              <div className="flex h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-900">
                 {(Object.keys(counts) as CardLifecycleState[]).map((state) => (
                   <div
                     key={state}
@@ -115,8 +115,8 @@ export function ProgressScreen() {
       </section>
 
       <section>
-        <h2 className="mb-2 text-sm font-medium text-slate-400">Journal</h2>
-        <p className="text-slate-300">{journalEntries?.length ?? 0} entries written</p>
+        <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">Journal</h2>
+        <p className="text-slate-700 dark:text-slate-300">{journalEntries?.length ?? 0} entries written</p>
       </section>
     </Screen>
   );

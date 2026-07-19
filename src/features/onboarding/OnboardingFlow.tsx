@@ -43,17 +43,17 @@ export function OnboardingFlow() {
   }
 
   return (
-    <div className="flex min-h-dvh flex-col justify-between bg-slate-950 px-6 py-10 text-slate-100">
+    <div className="flex min-h-dvh flex-col justify-between bg-slate-50 px-6 py-10 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
       <div>
         <p className="mb-8 text-sm text-slate-500">Step {["known", "target", "course", "explainer"].indexOf(step) + 1} of 4</p>
 
         {step === "known" && (
           <div>
             <h1 className="mb-2 text-2xl font-semibold">Which language(s) do you already know?</h1>
-            <p className="mb-6 text-sm text-slate-400">This is what we'll translate into and explain grammar in.</p>
+            <p className="mb-6 text-sm text-slate-600 dark:text-slate-400">This is what we'll translate into and explain grammar in.</p>
             <div className="space-y-2">
               {languages.map((lang) => (
-                <label key={lang.code} className="flex items-center gap-3 rounded-xl bg-slate-900 px-4 py-3">
+                <label key={lang.code} className="flex items-center gap-3 rounded-xl bg-slate-100 px-4 py-3 dark:bg-slate-900">
                   <input
                     type="checkbox"
                     checked={knownLangs.includes(lang.code)}
@@ -73,13 +73,13 @@ export function OnboardingFlow() {
         {step === "target" && (
           <div>
             <h1 className="mb-2 text-2xl font-semibold">Which language do you want to learn?</h1>
-            <p className="mb-6 text-sm text-slate-400">Content is available for the languages below.</p>
+            <p className="mb-6 text-sm text-slate-600 dark:text-slate-400">Content is available for the languages below.</p>
             <div className="space-y-2">
               {targetOptions.map((lang) => (
                 <button
                   key={lang.code}
                   onClick={() => selectTarget(lang.code)}
-                  className="w-full rounded-xl bg-slate-900 px-4 py-3 text-left hover:bg-slate-800"
+                  className="w-full rounded-xl bg-slate-100 px-4 py-3 text-left hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800"
                 >
                   {lang.name}
                 </button>
@@ -100,7 +100,7 @@ export function OnboardingFlow() {
                   setStartWithCourse(true);
                   setStep("explainer");
                 }}
-                className="w-full rounded-xl bg-sky-500/10 border border-sky-500 px-4 py-3 text-left text-sky-300"
+                className="w-full rounded-xl bg-sky-50 border border-sky-500 px-4 py-3 text-left text-sky-700 dark:bg-sky-500/10 dark:text-sky-300"
               >
                 Start with <strong>{courseTitle}</strong>
               </button>
@@ -109,7 +109,7 @@ export function OnboardingFlow() {
                   setStartWithCourse(false);
                   setStep("explainer");
                 }}
-                className="w-full rounded-xl bg-slate-900 px-4 py-3 text-left hover:bg-slate-800"
+                className="w-full rounded-xl bg-slate-100 px-4 py-3 text-left hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800"
               >
                 Start from scratch (browse decks/lessons myself)
               </button>
@@ -120,7 +120,7 @@ export function OnboardingFlow() {
         {step === "explainer" && (
           <div>
             <h1 className="mb-2 text-2xl font-semibold">Your data stays on this device</h1>
-            <p className="text-sm text-slate-400">
+            <p className="text-sm text-slate-600 dark:text-slate-400">
               There's no account and no server — everything you do is stored locally in this browser. Back up
               your progress anytime from Settings by exporting it to a file, and restore it the same way on
               another device.

@@ -7,7 +7,7 @@ export default function App() {
 
   if (profile === undefined) {
     return (
-      <div className="flex min-h-dvh items-center justify-center bg-slate-950 text-slate-400">
+      <div className="flex min-h-dvh items-center justify-center bg-slate-50 text-slate-600 dark:bg-slate-950 dark:text-slate-400">
         Loading…
       </div>
     );

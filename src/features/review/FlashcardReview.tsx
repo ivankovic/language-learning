@@ -79,7 +79,7 @@ export function FlashcardReview(props: Props) {
   if (!lang || !content || !queue) {
     return (
       <Screen title="Review">
-        <p className="text-slate-400">Loading…</p>
+        <p className="text-slate-600 dark:text-slate-400">Loading…</p>
       </Screen>
     );
   }
@@ -89,7 +89,7 @@ export function FlashcardReview(props: Props) {
     if (props.mode === "extra") {
       return (
         <Screen title="Review">
-          <p className="mb-4 text-slate-400">Nothing left to review right now.</p>
+          <p className="mb-4 text-slate-600 dark:text-slate-400">Nothing left to review right now.</p>
           <Button onClick={() => navigate("/")}>Back to Home</Button>
         </Screen>
       );
@@ -124,7 +124,7 @@ export function FlashcardReview(props: Props) {
       <div className="mb-4 text-sm text-slate-500">
         {index + 1} / {queue.length}
       </div>
-      <div className="flex min-h-[40vh] flex-col items-center justify-center rounded-2xl bg-slate-900 p-8 text-center">
+      <div className="flex min-h-[40vh] flex-col items-center justify-center rounded-2xl bg-slate-100 p-8 dark:bg-slate-900 text-center">
         <p className="text-3xl font-semibold">{vocabItem.term}</p>
         {isTtsAvailable() && (
           <button
@@ -135,7 +135,7 @@ export function FlashcardReview(props: Props) {
             🔊
           </button>
         )}
-        {revealed && <p className="mt-6 text-xl text-sky-300">{back}</p>}
+        {revealed && <p className="mt-6 text-xl text-sky-700 dark:text-sky-300">{back}</p>}
       </div>
 
       <div className="mt-6">

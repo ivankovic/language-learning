@@ -15,7 +15,7 @@ export function LessonTree() {
   if (!content || !progress) {
     return (
       <Screen title="Lessons" action={<SettingsLink />}>
-        <p className="text-slate-400">Loading…</p>
+        <p className="text-slate-600 dark:text-slate-400">Loading…</p>
       </Screen>
     );
   }
@@ -29,7 +29,7 @@ export function LessonTree() {
       <div className="space-y-6">
         {content.units.map((unit) => (
           <div key={unit.id}>
-            <h2 className="mb-2 text-sm font-medium text-slate-400">{unit.title}</h2>
+            <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">{unit.title}</h2>
             <div className="space-y-2">
               {unit.lessonIds.map((lessonId) => {
                 const lesson = lessonsById.get(lessonId);
@@ -39,7 +39,7 @@ export function LessonTree() {
                   <button
                     key={lessonId}
                     onClick={() => navigate(`/lessons/${lessonId}`)}
-                    className="flex w-full items-center justify-between rounded-xl bg-slate-900 px-4 py-3 text-left hover:bg-slate-800"
+                    className="flex w-full items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-left hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800"
                   >
                     <span>{lesson.title}</span>
                     <span>{done ? "✅" : ""}</span>

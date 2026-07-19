@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/* Class-based dark mode instead of Tailwind v4's default media-query
+   strategy — needed so the manual Light/Dark/System override in Settings
+   can win over (or agree with) the OS preference. The `.dark` class is set
+   on <html> by the inline script in index.html (pre-paint, to avoid a
+   flash of the wrong theme) and kept in sync by src/theme/useTheme.ts. */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }

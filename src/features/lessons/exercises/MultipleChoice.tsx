@@ -42,7 +42,7 @@ export function MultipleChoice({
             variant={
               showState && option === selected ? (isCorrectAnswer ? "primary" : "secondary") : "secondary"
             }
-            className={`w-full text-left ${showState && isCorrectAnswer ? "ring-2 ring-emerald-400" : ""}`}
+            className={`w-full text-left ${showState && isCorrectAnswer ? "ring-2 ring-emerald-500 dark:ring-emerald-400" : ""}`}
             onClick={() => choose(option)}
             disabled={selected !== null}
           >
