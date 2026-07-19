@@ -12,7 +12,7 @@ Goal: a fully working app skeleton, every mode functional end-to-end, proven wit
 - [x] Configure Tailwind, Vitest, PWA (manifest, service worker, Workbox caching)
 - [x] Write content and user data types (`src/types/content.ts`, `src/types/user.ts`)
 - [x] Build Dexie schema and query modules (`src/db/`)
-- [x] Author Italian seed content (~110 vocab words, 5 decks, 1 A1 course, 3 units, 8 grammar lessons with exercises)
+- [x] Author Italian seed content (~110 vocab words, 5 decks, 1 course, 3 units, 8 grammar lessons with exercises)
 - [x] Build content loader (per-language dynamic import + `validateContentBundle()`)
 - [x] Build FSRS wrapper and queue logic (`src/srs/`), with tests confirming native short-term scheduling and relearning-recovers-faster-than-new
 - [x] Build on-device AI assistant abstraction + dictionary fallback (`src/ai/`) + TTS wrapper (`src/speech/`)
@@ -44,7 +44,7 @@ Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md
 - [x] Batch 2: added 5 new grammar lessons (imperfetto, futuro semplice, comparatives, direct object pronouns, indirect object pronouns) across 2 new units — 15 → 20 lessons, 6 → 8 units
 - [x] Batch 3: added 4 new decks (emotions & personality, city & transportation, holidays & celebrations, cooking & kitchen) — 450 → 570 words
 - [x] Batch 3: added 5 new grammar lessons (ci/ne particles, relative pronouns che/cui, condizionale, superlatives, impersonal si) across 2 new units — 20 → 25 lessons, 8 → 10 units
-- [x] Batch 4: vocab-only — added 4 new decks (animals, nature & outdoors, society & government, common expressions/idioms) — 570 → 690 words, 23 decks. No new lessons this batch; core A1-A2 grammar is now largely covered by the existing 25.
+- [x] Batch 4: vocab-only — added 4 new decks (animals, nature & outdoors, society & government, common expressions/idioms) — 570 → 690 words, 23 decks. No new lessons this batch; core beginner-to-intermediate grammar is now largely covered by the existing 25.
 - [x] Batch 5: vocab-only — added 4 new decks (countries & nationalities, materials & shapes, business & finance, conjunctions & connectors) — 690 → 810 words, 27 decks.
 - [ ] Continue growing Italian toward ~2000 words / ~35 lessons (many more batches needed — this is intentionally incremental, not a single pass). Remaining vocab breadth ideas: more specific food/cooking terms, more professions, formal register phrases, regional expressions, hobbies extended (art, gardening, collecting). Remaining grammar ideas (fewer needed): subjunctive mood intro, passive voice, gerund/progressive (stare + gerundio)
 - [ ] Add French and German content bundles (currently only Italian has seed content) — deferred until Italian is more complete

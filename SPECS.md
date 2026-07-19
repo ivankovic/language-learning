@@ -127,7 +127,6 @@ type Course = {
   id: string;
   lang: string;
   title: string;
-  level: "A1" | "A2" | "B1" | ...;
   unitIds: string[];
 };
 ```
@@ -203,7 +202,7 @@ Content authoring is a **dev-side workflow**, not bound by the app's own "no ser
 
 ### Generation → review → promotion pipeline
 
-1. **Course outline** — per-language config: units, CEFR level, topics, grammar points in order.
+1. **Course outline** — per-language config: units, topics, grammar points in order.
 2. **Generation** — content drafted against the schema above (lessons, exercises, vocab items, example sentences), optionally informed by open data.
 3. **Staging** — generated output lands in `content-staging/`, never directly in the shipped `content/` folder.
 4. **Review UI** — a dev-only screen (excluded from the production build) rendering staged content exactly as the end-user app would, allowing approve / inline edit / reject-and-regenerate.
@@ -214,7 +213,7 @@ Content authoring is a **dev-side workflow**, not bound by the app's own "no ser
 Target tier: **Large**, per target language (Italian, French, German):
 
 - **~2000 core vocabulary words**, prioritized by frequency rank, organized into topic decks (~30-40 decks at ~50-60 words each)
-- **30-40+ grammar lessons**, spanning A1 through A2 (vs. a bare-essentials A1-only set)
+- **30-40+ grammar lessons**, spanning beginner through intermediate (vs. a bare-essentials beginner-only set)
 - Each lesson carries several inline exercises (multiple-choice, fill-blank, reorder) per the `GrammarLesson`/`Exercise` schema
 
 This is a meaningfully larger generation/review workload than a minimal validation slice (~3x the vocab, ~3-4x the lessons of the smallest tier considered) — expect the content generation → staging → review → promotion pipeline to run over many batches per language rather than a single pass.

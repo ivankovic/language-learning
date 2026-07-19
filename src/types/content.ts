@@ -70,13 +70,10 @@ export type GrammarLesson = {
   exercises: Exercise[]; // referenced by id from `blocks`
 };
 
-export type CefrLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
-
 export type Course = {
   id: string;
   lang: string;
   title: string;
-  level: CefrLevel;
   unitIds: string[];
 };
 

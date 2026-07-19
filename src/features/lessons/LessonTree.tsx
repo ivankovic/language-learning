@@ -25,7 +25,7 @@ export function LessonTree() {
 
   return (
     <Screen title="Lessons" action={<SettingsLink />}>
-      <p className="mb-4 text-sm text-slate-500">{content.course.title} · {content.course.level}</p>
+      <p className="mb-4 text-sm text-slate-500">{content.course.title}</p>
       <div className="space-y-6">
         {content.units.map((unit) => (
           <div key={unit.id}>
