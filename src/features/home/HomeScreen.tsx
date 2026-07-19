@@ -8,6 +8,7 @@ import { getDueCardStates } from "../../db/queries/cardStates";
 import { getLessonProgressByLang } from "../../db/queries/lessonProgress";
 import { Screen, SettingsLink } from "../../components/Screen";
 import { Button } from "../../components/Button";
+import { ContentDisclaimerBanner } from "../../components/ContentDisclaimerBanner";
 
 export function HomeScreen() {
   const navigate = useNavigate();
@@ -46,6 +47,7 @@ export function HomeScreen() {
 
   return (
     <Screen title="Language Learning" action={<SettingsLink />}>
+      <ContentDisclaimerBanner />
       <div className="mb-6 flex items-center gap-6">
         <div>
           <p className="text-3xl font-semibold">🔥 {streak ?? "…"}</p>
