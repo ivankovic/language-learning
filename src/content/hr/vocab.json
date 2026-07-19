@@ -6037,5 +6037,9035 @@
       "sports-hobbies"
     ],
     "frequencyRank": 400
+  },
+  {
+    "id": "hr-vocab-emotions-001",
+    "lang": "hr",
+    "term": "osjećaj",
+    "translations": {
+      "en": [
+        "feeling",
+        "emotion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 401
+  },
+  {
+    "id": "hr-vocab-emotions-002",
+    "lang": "hr",
+    "term": "sretan",
+    "translations": {
+      "en": [
+        "happy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 402
+  },
+  {
+    "id": "hr-vocab-emotions-003",
+    "lang": "hr",
+    "term": "tužan",
+    "translations": {
+      "en": [
+        "sad"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 403
+  },
+  {
+    "id": "hr-vocab-emotions-004",
+    "lang": "hr",
+    "term": "ljut",
+    "translations": {
+      "en": [
+        "angry"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 404
+  },
+  {
+    "id": "hr-vocab-emotions-005",
+    "lang": "hr",
+    "term": "uplašen",
+    "translations": {
+      "en": [
+        "afraid",
+        "scared"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 405
+  },
+  {
+    "id": "hr-vocab-emotions-006",
+    "lang": "hr",
+    "term": "iznenađen",
+    "translations": {
+      "en": [
+        "surprised"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 406
+  },
+  {
+    "id": "hr-vocab-emotions-007",
+    "lang": "hr",
+    "term": "dosadan",
+    "translations": {
+      "en": [
+        "bored"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 407
+  },
+  {
+    "id": "hr-vocab-emotions-008",
+    "lang": "hr",
+    "term": "uzbuđen",
+    "translations": {
+      "en": [
+        "excited"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 408
+  },
+  {
+    "id": "hr-vocab-emotions-009",
+    "lang": "hr",
+    "term": "nervozan",
+    "translations": {
+      "en": [
+        "nervous"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 409
+  },
+  {
+    "id": "hr-vocab-emotions-010",
+    "lang": "hr",
+    "term": "ponosan",
+    "translations": {
+      "en": [
+        "proud"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 410
+  },
+  {
+    "id": "hr-vocab-emotions-011",
+    "lang": "hr",
+    "term": "ljubomoran",
+    "translations": {
+      "en": [
+        "jealous"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 411
+  },
+  {
+    "id": "hr-vocab-emotions-012",
+    "lang": "hr",
+    "term": "zbunjen",
+    "translations": {
+      "en": [
+        "confused"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 412
+  },
+  {
+    "id": "hr-vocab-emotions-013",
+    "lang": "hr",
+    "term": "opušten",
+    "translations": {
+      "en": [
+        "relaxed"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 413
+  },
+  {
+    "id": "hr-vocab-emotions-014",
+    "lang": "hr",
+    "term": "razočaran",
+    "translations": {
+      "en": [
+        "disappointed"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 414
+  },
+  {
+    "id": "hr-vocab-emotions-015",
+    "lang": "hr",
+    "term": "zahvalan",
+    "translations": {
+      "en": [
+        "grateful"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 415
+  },
+  {
+    "id": "hr-vocab-emotions-016",
+    "lang": "hr",
+    "term": "prijateljski",
+    "translations": {
+      "en": [
+        "friendly"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 416
+  },
+  {
+    "id": "hr-vocab-emotions-017",
+    "lang": "hr",
+    "term": "stidljiv",
+    "translations": {
+      "en": [
+        "shy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 417
+  },
+  {
+    "id": "hr-vocab-emotions-018",
+    "lang": "hr",
+    "term": "hrabar",
+    "translations": {
+      "en": [
+        "brave"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 418
+  },
+  {
+    "id": "hr-vocab-emotions-019",
+    "lang": "hr",
+    "term": "iskren",
+    "translations": {
+      "en": [
+        "honest"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 419
+  },
+  {
+    "id": "hr-vocab-emotions-020",
+    "lang": "hr",
+    "term": "strpljiv",
+    "translations": {
+      "en": [
+        "patient"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 420
+  },
+  {
+    "id": "hr-vocab-emotions-021",
+    "lang": "hr",
+    "term": "velikodušan",
+    "translations": {
+      "en": [
+        "generous"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 421
+  },
+  {
+    "id": "hr-vocab-emotions-022",
+    "lang": "hr",
+    "term": "sebičan",
+    "translations": {
+      "en": [
+        "selfish"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 422
+  },
+  {
+    "id": "hr-vocab-emotions-023",
+    "lang": "hr",
+    "term": "znatiželjan",
+    "translations": {
+      "en": [
+        "curious"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 423
+  },
+  {
+    "id": "hr-vocab-emotions-024",
+    "lang": "hr",
+    "term": "lijen",
+    "translations": {
+      "en": [
+        "lazy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 424
+  },
+  {
+    "id": "hr-vocab-emotions-025",
+    "lang": "hr",
+    "term": "vrijedan",
+    "translations": {
+      "en": [
+        "hardworking"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 425
+  },
+  {
+    "id": "hr-vocab-emotions-026",
+    "lang": "hr",
+    "term": "smiješiti se",
+    "translations": {
+      "en": [
+        "to smile"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 426
+  },
+  {
+    "id": "hr-vocab-emotions-027",
+    "lang": "hr",
+    "term": "plakati",
+    "translations": {
+      "en": [
+        "to cry"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 427
+  },
+  {
+    "id": "hr-vocab-emotions-028",
+    "lang": "hr",
+    "term": "smijati se",
+    "translations": {
+      "en": [
+        "to laugh"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 428
+  },
+  {
+    "id": "hr-vocab-emotions-029",
+    "lang": "hr",
+    "term": "osjećati se",
+    "translations": {
+      "en": [
+        "to feel"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 429
+  },
+  {
+    "id": "hr-vocab-emotions-030",
+    "lang": "hr",
+    "term": "brinuti se",
+    "translations": {
+      "en": [
+        "to worry"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 430
+  },
+  {
+    "id": "hr-vocab-city-transport-001",
+    "lang": "hr",
+    "term": "centar grada",
+    "translations": {
+      "en": [
+        "city center",
+        "downtown"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 431
+  },
+  {
+    "id": "hr-vocab-city-transport-002",
+    "lang": "hr",
+    "term": "predgrađe",
+    "translations": {
+      "en": [
+        "suburb"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 432
+  },
+  {
+    "id": "hr-vocab-city-transport-003",
+    "lang": "hr",
+    "term": "četvrt",
+    "translations": {
+      "en": [
+        "neighborhood"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 433
+  },
+  {
+    "id": "hr-vocab-city-transport-004",
+    "lang": "hr",
+    "term": "zgrada",
+    "translations": {
+      "en": [
+        "building"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 434
+  },
+  {
+    "id": "hr-vocab-city-transport-005",
+    "lang": "hr",
+    "term": "neboder",
+    "translations": {
+      "en": [
+        "skyscraper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 435
+  },
+  {
+    "id": "hr-vocab-city-transport-006",
+    "lang": "hr",
+    "term": "park",
+    "translations": {
+      "en": [
+        "park"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 436
+  },
+  {
+    "id": "hr-vocab-city-transport-007",
+    "lang": "hr",
+    "term": "trg",
+    "translations": {
+      "en": [
+        "square",
+        "plaza"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 437
+  },
+  {
+    "id": "hr-vocab-city-transport-008",
+    "lang": "hr",
+    "term": "pločnik",
+    "translations": {
+      "en": [
+        "sidewalk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 438
+  },
+  {
+    "id": "hr-vocab-city-transport-009",
+    "lang": "hr",
+    "term": "tramvaj",
+    "translations": {
+      "en": [
+        "tram"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 439
+  },
+  {
+    "id": "hr-vocab-city-transport-010",
+    "lang": "hr",
+    "term": "podzemna željeznica",
+    "translations": {
+      "en": [
+        "subway"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 440
+  },
+  {
+    "id": "hr-vocab-city-transport-011",
+    "lang": "hr",
+    "term": "postaja podzemne željeznice",
+    "translations": {
+      "en": [
+        "subway station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 441
+  },
+  {
+    "id": "hr-vocab-city-transport-012",
+    "lang": "hr",
+    "term": "autobusna postaja",
+    "translations": {
+      "en": [
+        "bus stop"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 442
+  },
+  {
+    "id": "hr-vocab-city-transport-013",
+    "lang": "hr",
+    "term": "raspored",
+    "translations": {
+      "en": [
+        "schedule",
+        "timetable"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 443
+  },
+  {
+    "id": "hr-vocab-city-transport-014",
+    "lang": "hr",
+    "term": "putnik",
+    "translations": {
+      "en": [
+        "passenger"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 444
+  },
+  {
+    "id": "hr-vocab-city-transport-015",
+    "lang": "hr",
+    "term": "vozač",
+    "translations": {
+      "en": [
+        "driver"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 445
+  },
+  {
+    "id": "hr-vocab-city-transport-016",
+    "lang": "hr",
+    "term": "promet",
+    "translations": {
+      "en": [
+        "traffic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 446
+  },
+  {
+    "id": "hr-vocab-city-transport-017",
+    "lang": "hr",
+    "term": "gužva u prometu",
+    "translations": {
+      "en": [
+        "traffic jam"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 447
+  },
+  {
+    "id": "hr-vocab-city-transport-018",
+    "lang": "hr",
+    "term": "prometni znak",
+    "translations": {
+      "en": [
+        "traffic sign"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 448
+  },
+  {
+    "id": "hr-vocab-city-transport-019",
+    "lang": "hr",
+    "term": "pješački prijelaz",
+    "translations": {
+      "en": [
+        "crosswalk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 449
+  },
+  {
+    "id": "hr-vocab-city-transport-020",
+    "lang": "hr",
+    "term": "gradska vijećnica",
+    "translations": {
+      "en": [
+        "city hall"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 450
+  },
+  {
+    "id": "hr-vocab-city-transport-021",
+    "lang": "hr",
+    "term": "crkva",
+    "translations": {
+      "en": [
+        "church"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 451
+  },
+  {
+    "id": "hr-vocab-city-transport-022",
+    "lang": "hr",
+    "term": "spomenik",
+    "translations": {
+      "en": [
+        "monument"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 452
+  },
+  {
+    "id": "hr-vocab-city-transport-023",
+    "lang": "hr",
+    "term": "pješačka zona",
+    "translations": {
+      "en": [
+        "pedestrian zone"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 453
+  },
+  {
+    "id": "hr-vocab-city-transport-024",
+    "lang": "hr",
+    "term": "ući",
+    "translations": {
+      "en": [
+        "to get on (a vehicle)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 454
+  },
+  {
+    "id": "hr-vocab-city-transport-025",
+    "lang": "hr",
+    "term": "izaći",
+    "translations": {
+      "en": [
+        "to get off (a vehicle)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 455
+  },
+  {
+    "id": "hr-vocab-city-transport-026",
+    "lang": "hr",
+    "term": "presjesti",
+    "translations": {
+      "en": [
+        "to transfer",
+        "to change (trains)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 456
+  },
+  {
+    "id": "hr-vocab-city-transport-027",
+    "lang": "hr",
+    "term": "hodati",
+    "translations": {
+      "en": [
+        "to walk"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 457
+  },
+  {
+    "id": "hr-vocab-city-transport-028",
+    "lang": "hr",
+    "term": "prijeći ulicu",
+    "translations": {
+      "en": [
+        "to cross the street"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 458
+  },
+  {
+    "id": "hr-vocab-city-transport-029",
+    "lang": "hr",
+    "term": "bicikl",
+    "translations": {
+      "en": [
+        "bicycle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 459
+  },
+  {
+    "id": "hr-vocab-city-transport-030",
+    "lang": "hr",
+    "term": "skuter",
+    "translations": {
+      "en": [
+        "scooter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 460
+  },
+  {
+    "id": "hr-vocab-holidays-001",
+    "lang": "hr",
+    "term": "blagdan",
+    "translations": {
+      "en": [
+        "holiday"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 461
+  },
+  {
+    "id": "hr-vocab-holidays-002",
+    "lang": "hr",
+    "term": "Božić",
+    "translations": {
+      "en": [
+        "Christmas"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 462
+  },
+  {
+    "id": "hr-vocab-holidays-003",
+    "lang": "hr",
+    "term": "Nova godina",
+    "translations": {
+      "en": [
+        "New Year"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 463
+  },
+  {
+    "id": "hr-vocab-holidays-004",
+    "lang": "hr",
+    "term": "Uskrs",
+    "translations": {
+      "en": [
+        "Easter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 464
+  },
+  {
+    "id": "hr-vocab-holidays-005",
+    "lang": "hr",
+    "term": "rođendan",
+    "translations": {
+      "en": [
+        "birthday"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 465
+  },
+  {
+    "id": "hr-vocab-holidays-006",
+    "lang": "hr",
+    "term": "proslava",
+    "translations": {
+      "en": [
+        "celebration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 466
+  },
+  {
+    "id": "hr-vocab-holidays-007",
+    "lang": "hr",
+    "term": "poklon",
+    "translations": {
+      "en": [
+        "gift"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 467
+  },
+  {
+    "id": "hr-vocab-holidays-008",
+    "lang": "hr",
+    "term": "čestitka",
+    "translations": {
+      "en": [
+        "greeting card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 468
+  },
+  {
+    "id": "hr-vocab-holidays-009",
+    "lang": "hr",
+    "term": "ukras",
+    "translations": {
+      "en": [
+        "decoration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 469
+  },
+  {
+    "id": "hr-vocab-holidays-010",
+    "lang": "hr",
+    "term": "svijeća",
+    "translations": {
+      "en": [
+        "candle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 470
+  },
+  {
+    "id": "hr-vocab-holidays-011",
+    "lang": "hr",
+    "term": "vatromet",
+    "translations": {
+      "en": [
+        "fireworks"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 471
+  },
+  {
+    "id": "hr-vocab-holidays-012",
+    "lang": "hr",
+    "term": "tradicija",
+    "translations": {
+      "en": [
+        "tradition"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 472
+  },
+  {
+    "id": "hr-vocab-holidays-013",
+    "lang": "hr",
+    "term": "običaj",
+    "translations": {
+      "en": [
+        "custom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 473
+  },
+  {
+    "id": "hr-vocab-holidays-014",
+    "lang": "hr",
+    "term": "kalendar",
+    "translations": {
+      "en": [
+        "calendar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 474
+  },
+  {
+    "id": "hr-vocab-holidays-015",
+    "lang": "hr",
+    "term": "godišnji odmor",
+    "translations": {
+      "en": [
+        "vacation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 475
+  },
+  {
+    "id": "hr-vocab-holidays-016",
+    "lang": "hr",
+    "term": "slaviti",
+    "translations": {
+      "en": [
+        "to celebrate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 476
+  },
+  {
+    "id": "hr-vocab-holidays-017",
+    "lang": "hr",
+    "term": "pozvati",
+    "translations": {
+      "en": [
+        "to invite"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 477
+  },
+  {
+    "id": "hr-vocab-holidays-018",
+    "lang": "hr",
+    "term": "darivati",
+    "translations": {
+      "en": [
+        "to give (a gift)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 478
+  },
+  {
+    "id": "hr-vocab-holidays-019",
+    "lang": "hr",
+    "term": "ukrasiti",
+    "translations": {
+      "en": [
+        "to decorate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 479
+  },
+  {
+    "id": "hr-vocab-holidays-020",
+    "lang": "hr",
+    "term": "domaćin",
+    "translations": {
+      "en": [
+        "host"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 480
+  },
+  {
+    "id": "hr-vocab-holidays-021",
+    "lang": "hr",
+    "term": "gost",
+    "translations": {
+      "en": [
+        "guest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 481
+  },
+  {
+    "id": "hr-vocab-holidays-022",
+    "lang": "hr",
+    "term": "zabava",
+    "translations": {
+      "en": [
+        "party"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 482
+  },
+  {
+    "id": "hr-vocab-holidays-023",
+    "lang": "hr",
+    "term": "torta",
+    "translations": {
+      "en": [
+        "cake"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 483
+  },
+  {
+    "id": "hr-vocab-holidays-024",
+    "lang": "hr",
+    "term": "upaliti svijeće",
+    "translations": {
+      "en": [
+        "to light candles"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 484
+  },
+  {
+    "id": "hr-vocab-holidays-025",
+    "lang": "hr",
+    "term": "čestitam",
+    "translations": {
+      "en": [
+        "congratulations"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 485
+  },
+  {
+    "id": "hr-vocab-holidays-026",
+    "lang": "hr",
+    "term": "sretan Božić",
+    "translations": {
+      "en": [
+        "Merry Christmas"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 486
+  },
+  {
+    "id": "hr-vocab-holidays-027",
+    "lang": "hr",
+    "term": "sretna nova godina",
+    "translations": {
+      "en": [
+        "Happy New Year"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 487
+  },
+  {
+    "id": "hr-vocab-holidays-028",
+    "lang": "hr",
+    "term": "obljetnica braka",
+    "translations": {
+      "en": [
+        "wedding anniversary"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 488
+  },
+  {
+    "id": "hr-vocab-holidays-029",
+    "lang": "hr",
+    "term": "hodočašće",
+    "translations": {
+      "en": [
+        "pilgrimage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 489
+  },
+  {
+    "id": "hr-vocab-holidays-030",
+    "lang": "hr",
+    "term": "festival",
+    "translations": {
+      "en": [
+        "festival"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 490
+  },
+  {
+    "id": "hr-vocab-cooking-001",
+    "lang": "hr",
+    "term": "recept",
+    "translations": {
+      "en": [
+        "recipe"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 491
+  },
+  {
+    "id": "hr-vocab-cooking-002",
+    "lang": "hr",
+    "term": "sastojak",
+    "translations": {
+      "en": [
+        "ingredient"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 492
+  },
+  {
+    "id": "hr-vocab-cooking-003",
+    "lang": "hr",
+    "term": "lonac",
+    "translations": {
+      "en": [
+        "pot"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 493
+  },
+  {
+    "id": "hr-vocab-cooking-004",
+    "lang": "hr",
+    "term": "tava",
+    "translations": {
+      "en": [
+        "pan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 494
+  },
+  {
+    "id": "hr-vocab-cooking-005",
+    "lang": "hr",
+    "term": "nož",
+    "translations": {
+      "en": [
+        "knife"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 495
+  },
+  {
+    "id": "hr-vocab-cooking-006",
+    "lang": "hr",
+    "term": "vilica",
+    "translations": {
+      "en": [
+        "fork"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 496
+  },
+  {
+    "id": "hr-vocab-cooking-007",
+    "lang": "hr",
+    "term": "žlica",
+    "translations": {
+      "en": [
+        "spoon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 497
+  },
+  {
+    "id": "hr-vocab-cooking-008",
+    "lang": "hr",
+    "term": "tanjur",
+    "translations": {
+      "en": [
+        "plate"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 498
+  },
+  {
+    "id": "hr-vocab-cooking-009",
+    "lang": "hr",
+    "term": "zdjela",
+    "translations": {
+      "en": [
+        "bowl"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 499
+  },
+  {
+    "id": "hr-vocab-cooking-010",
+    "lang": "hr",
+    "term": "pećnica",
+    "translations": {
+      "en": [
+        "oven"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 500
+  },
+  {
+    "id": "hr-vocab-cooking-011",
+    "lang": "hr",
+    "term": "rezati",
+    "translations": {
+      "en": [
+        "to cut"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 501
+  },
+  {
+    "id": "hr-vocab-cooking-012",
+    "lang": "hr",
+    "term": "pržiti",
+    "translations": {
+      "en": [
+        "to fry"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 502
+  },
+  {
+    "id": "hr-vocab-cooking-013",
+    "lang": "hr",
+    "term": "peći",
+    "translations": {
+      "en": [
+        "to bake"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 503
+  },
+  {
+    "id": "hr-vocab-cooking-014",
+    "lang": "hr",
+    "term": "prokuhati",
+    "translations": {
+      "en": [
+        "to boil"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 504
+  },
+  {
+    "id": "hr-vocab-cooking-015",
+    "lang": "hr",
+    "term": "miješati",
+    "translations": {
+      "en": [
+        "to stir"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 505
+  },
+  {
+    "id": "hr-vocab-cooking-016",
+    "lang": "hr",
+    "term": "pomiješati",
+    "translations": {
+      "en": [
+        "to mix"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 506
+  },
+  {
+    "id": "hr-vocab-cooking-017",
+    "lang": "hr",
+    "term": "dodati",
+    "translations": {
+      "en": [
+        "to add"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 507
+  },
+  {
+    "id": "hr-vocab-cooking-018",
+    "lang": "hr",
+    "term": "guliti",
+    "translations": {
+      "en": [
+        "to peel"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 508
+  },
+  {
+    "id": "hr-vocab-cooking-019",
+    "lang": "hr",
+    "term": "začiniti",
+    "translations": {
+      "en": [
+        "to season"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 509
+  },
+  {
+    "id": "hr-vocab-cooking-020",
+    "lang": "hr",
+    "term": "poslužiti",
+    "translations": {
+      "en": [
+        "to serve"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 510
+  },
+  {
+    "id": "hr-vocab-cooking-021",
+    "lang": "hr",
+    "term": "začin",
+    "translations": {
+      "en": [
+        "spice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 511
+  },
+  {
+    "id": "hr-vocab-cooking-022",
+    "lang": "hr",
+    "term": "bilje",
+    "translations": {
+      "en": [
+        "herbs"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 512
+  },
+  {
+    "id": "hr-vocab-cooking-023",
+    "lang": "hr",
+    "term": "cimet",
+    "translations": {
+      "en": [
+        "cinnamon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 513
+  },
+  {
+    "id": "hr-vocab-cooking-024",
+    "lang": "hr",
+    "term": "bosiljak",
+    "translations": {
+      "en": [
+        "basil"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 514
+  },
+  {
+    "id": "hr-vocab-cooking-025",
+    "lang": "hr",
+    "term": "ocat",
+    "translations": {
+      "en": [
+        "vinegar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 515
+  },
+  {
+    "id": "hr-vocab-cooking-026",
+    "lang": "hr",
+    "term": "brašno",
+    "translations": {
+      "en": [
+        "flour"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 516
+  },
+  {
+    "id": "hr-vocab-cooking-027",
+    "lang": "hr",
+    "term": "tijesto",
+    "translations": {
+      "en": [
+        "dough"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 517
+  },
+  {
+    "id": "hr-vocab-cooking-028",
+    "lang": "hr",
+    "term": "porcija",
+    "translations": {
+      "en": [
+        "portion",
+        "serving"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 518
+  },
+  {
+    "id": "hr-vocab-cooking-029",
+    "lang": "hr",
+    "term": "zagrijati pećnicu",
+    "translations": {
+      "en": [
+        "to preheat the oven"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 519
+  },
+  {
+    "id": "hr-vocab-cooking-030",
+    "lang": "hr",
+    "term": "slijediti recept",
+    "translations": {
+      "en": [
+        "to follow a recipe"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 520
+  },
+  {
+    "id": "hr-vocab-society-001",
+    "lang": "hr",
+    "term": "vlada",
+    "translations": {
+      "en": [
+        "government"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 521
+  },
+  {
+    "id": "hr-vocab-society-002",
+    "lang": "hr",
+    "term": "predsjednik",
+    "translations": {
+      "en": [
+        "president"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 522
+  },
+  {
+    "id": "hr-vocab-society-003",
+    "lang": "hr",
+    "term": "ministar",
+    "translations": {
+      "en": [
+        "minister"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 523
+  },
+  {
+    "id": "hr-vocab-society-004",
+    "lang": "hr",
+    "term": "država",
+    "translations": {
+      "en": [
+        "country",
+        "state"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 524
+  },
+  {
+    "id": "hr-vocab-society-005",
+    "lang": "hr",
+    "term": "nacija",
+    "translations": {
+      "en": [
+        "nation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 525
+  },
+  {
+    "id": "hr-vocab-society-006",
+    "lang": "hr",
+    "term": "izbori",
+    "translations": {
+      "en": [
+        "election"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 526
+  },
+  {
+    "id": "hr-vocab-society-007",
+    "lang": "hr",
+    "term": "glasati",
+    "translations": {
+      "en": [
+        "to vote"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 527
+  },
+  {
+    "id": "hr-vocab-society-008",
+    "lang": "hr",
+    "term": "građanin",
+    "translations": {
+      "en": [
+        "citizen"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 528
+  },
+  {
+    "id": "hr-vocab-society-009",
+    "lang": "hr",
+    "term": "demokracija",
+    "translations": {
+      "en": [
+        "democracy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 529
+  },
+  {
+    "id": "hr-vocab-society-010",
+    "lang": "hr",
+    "term": "ustav",
+    "translations": {
+      "en": [
+        "constitution"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 530
+  },
+  {
+    "id": "hr-vocab-society-011",
+    "lang": "hr",
+    "term": "porez",
+    "translations": {
+      "en": [
+        "tax"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 531
+  },
+  {
+    "id": "hr-vocab-society-012",
+    "lang": "hr",
+    "term": "gospodarstvo",
+    "translations": {
+      "en": [
+        "economy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 532
+  },
+  {
+    "id": "hr-vocab-society-013",
+    "lang": "hr",
+    "term": "društvo",
+    "translations": {
+      "en": [
+        "society"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 533
+  },
+  {
+    "id": "hr-vocab-society-014",
+    "lang": "hr",
+    "term": "kultura",
+    "translations": {
+      "en": [
+        "culture"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 534
+  },
+  {
+    "id": "hr-vocab-society-015",
+    "lang": "hr",
+    "term": "zajednica",
+    "translations": {
+      "en": [
+        "community"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 535
+  },
+  {
+    "id": "hr-vocab-society-016",
+    "lang": "hr",
+    "term": "stanovništvo",
+    "translations": {
+      "en": [
+        "population"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 536
+  },
+  {
+    "id": "hr-vocab-society-017",
+    "lang": "hr",
+    "term": "sloboda",
+    "translations": {
+      "en": [
+        "freedom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 537
+  },
+  {
+    "id": "hr-vocab-society-018",
+    "lang": "hr",
+    "term": "jednakost",
+    "translations": {
+      "en": [
+        "equality"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 538
+  },
+  {
+    "id": "hr-vocab-society-019",
+    "lang": "hr",
+    "term": "rat",
+    "translations": {
+      "en": [
+        "war"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 539
+  },
+  {
+    "id": "hr-vocab-society-020",
+    "lang": "hr",
+    "term": "mir",
+    "translations": {
+      "en": [
+        "peace"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 540
+  },
+  {
+    "id": "hr-vocab-society-021",
+    "lang": "hr",
+    "term": "vojska",
+    "translations": {
+      "en": [
+        "army"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 541
+  },
+  {
+    "id": "hr-vocab-society-022",
+    "lang": "hr",
+    "term": "prosvjed",
+    "translations": {
+      "en": [
+        "protest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 542
+  },
+  {
+    "id": "hr-vocab-society-023",
+    "lang": "hr",
+    "term": "demonstracija",
+    "translations": {
+      "en": [
+        "demonstration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 543
+  },
+  {
+    "id": "hr-vocab-society-024",
+    "lang": "hr",
+    "term": "političar",
+    "translations": {
+      "en": [
+        "politician"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 544
+  },
+  {
+    "id": "hr-vocab-society-025",
+    "lang": "hr",
+    "term": "politika",
+    "translations": {
+      "en": [
+        "politics"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 545
+  },
+  {
+    "id": "hr-vocab-society-026",
+    "lang": "hr",
+    "term": "politička stranka",
+    "translations": {
+      "en": [
+        "political party"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 546
+  },
+  {
+    "id": "hr-vocab-society-027",
+    "lang": "hr",
+    "term": "propis",
+    "translations": {
+      "en": [
+        "regulation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 547
+  },
+  {
+    "id": "hr-vocab-society-028",
+    "lang": "hr",
+    "term": "granica",
+    "translations": {
+      "en": [
+        "border"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 548
+  },
+  {
+    "id": "hr-vocab-society-029",
+    "lang": "hr",
+    "term": "veleposlanstvo",
+    "translations": {
+      "en": [
+        "embassy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 549
+  },
+  {
+    "id": "hr-vocab-society-030",
+    "lang": "hr",
+    "term": "useljavanje",
+    "translations": {
+      "en": [
+        "immigration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 550
+  },
+  {
+    "id": "hr-vocab-countries-001",
+    "lang": "hr",
+    "term": "Španjolska",
+    "translations": {
+      "en": [
+        "Spain"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 551
+  },
+  {
+    "id": "hr-vocab-countries-002",
+    "lang": "hr",
+    "term": "Italija",
+    "translations": {
+      "en": [
+        "Italy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 552
+  },
+  {
+    "id": "hr-vocab-countries-003",
+    "lang": "hr",
+    "term": "Francuska",
+    "translations": {
+      "en": [
+        "France"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 553
+  },
+  {
+    "id": "hr-vocab-countries-004",
+    "lang": "hr",
+    "term": "Njemačka",
+    "translations": {
+      "en": [
+        "Germany"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 554
+  },
+  {
+    "id": "hr-vocab-countries-005",
+    "lang": "hr",
+    "term": "Portugal",
+    "translations": {
+      "en": [
+        "Portugal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 555
+  },
+  {
+    "id": "hr-vocab-countries-006",
+    "lang": "hr",
+    "term": "Engleska",
+    "translations": {
+      "en": [
+        "England"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 556
+  },
+  {
+    "id": "hr-vocab-countries-007",
+    "lang": "hr",
+    "term": "Sjedinjene Američke Države",
+    "translations": {
+      "en": [
+        "United States"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 557
+  },
+  {
+    "id": "hr-vocab-countries-008",
+    "lang": "hr",
+    "term": "Meksiko",
+    "translations": {
+      "en": [
+        "Mexico"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 558
+  },
+  {
+    "id": "hr-vocab-countries-009",
+    "lang": "hr",
+    "term": "Argentina",
+    "translations": {
+      "en": [
+        "Argentina"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 559
+  },
+  {
+    "id": "hr-vocab-countries-010",
+    "lang": "hr",
+    "term": "Brazil",
+    "translations": {
+      "en": [
+        "Brazil"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 560
+  },
+  {
+    "id": "hr-vocab-countries-011",
+    "lang": "hr",
+    "term": "Kina",
+    "translations": {
+      "en": [
+        "China"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 561
+  },
+  {
+    "id": "hr-vocab-countries-012",
+    "lang": "hr",
+    "term": "Japan",
+    "translations": {
+      "en": [
+        "Japan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 562
+  },
+  {
+    "id": "hr-vocab-countries-013",
+    "lang": "hr",
+    "term": "Indija",
+    "translations": {
+      "en": [
+        "India"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 563
+  },
+  {
+    "id": "hr-vocab-countries-014",
+    "lang": "hr",
+    "term": "Rusija",
+    "translations": {
+      "en": [
+        "Russia"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 564
+  },
+  {
+    "id": "hr-vocab-countries-015",
+    "lang": "hr",
+    "term": "španjolski",
+    "translations": {
+      "en": [
+        "Spanish (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 565
+  },
+  {
+    "id": "hr-vocab-countries-016",
+    "lang": "hr",
+    "term": "talijanski",
+    "translations": {
+      "en": [
+        "Italian (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 566
+  },
+  {
+    "id": "hr-vocab-countries-017",
+    "lang": "hr",
+    "term": "francuski",
+    "translations": {
+      "en": [
+        "French (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 567
+  },
+  {
+    "id": "hr-vocab-countries-018",
+    "lang": "hr",
+    "term": "njemački",
+    "translations": {
+      "en": [
+        "German (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 568
+  },
+  {
+    "id": "hr-vocab-countries-019",
+    "lang": "hr",
+    "term": "meksički",
+    "translations": {
+      "en": [
+        "Mexican"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 569
+  },
+  {
+    "id": "hr-vocab-countries-020",
+    "lang": "hr",
+    "term": "argentinski",
+    "translations": {
+      "en": [
+        "Argentine"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 570
+  },
+  {
+    "id": "hr-vocab-countries-021",
+    "lang": "hr",
+    "term": "stranac",
+    "translations": {
+      "en": [
+        "foreigner"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 571
+  },
+  {
+    "id": "hr-vocab-countries-022",
+    "lang": "hr",
+    "term": "državljanstvo",
+    "translations": {
+      "en": [
+        "nationality"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 572
+  },
+  {
+    "id": "hr-vocab-countries-023",
+    "lang": "hr",
+    "term": "jezik",
+    "translations": {
+      "en": [
+        "language"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 573
+  },
+  {
+    "id": "hr-vocab-countries-024",
+    "lang": "hr",
+    "term": "kontinent",
+    "translations": {
+      "en": [
+        "continent"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 574
+  },
+  {
+    "id": "hr-vocab-countries-025",
+    "lang": "hr",
+    "term": "Europa",
+    "translations": {
+      "en": [
+        "Europe"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 575
+  },
+  {
+    "id": "hr-vocab-countries-026",
+    "lang": "hr",
+    "term": "Amerika",
+    "translations": {
+      "en": [
+        "America"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 576
+  },
+  {
+    "id": "hr-vocab-countries-027",
+    "lang": "hr",
+    "term": "Azija",
+    "translations": {
+      "en": [
+        "Asia"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 577
+  },
+  {
+    "id": "hr-vocab-countries-028",
+    "lang": "hr",
+    "term": "glavni grad",
+    "translations": {
+      "en": [
+        "capital city"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 578
+  },
+  {
+    "id": "hr-vocab-countries-029",
+    "lang": "hr",
+    "term": "zastava",
+    "translations": {
+      "en": [
+        "flag"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 579
+  },
+  {
+    "id": "hr-vocab-countries-030",
+    "lang": "hr",
+    "term": "diplomatska putovnica",
+    "translations": {
+      "en": [
+        "diplomatic passport"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 580
+  },
+  {
+    "id": "hr-vocab-materials-001",
+    "lang": "hr",
+    "term": "drvena građa",
+    "translations": {
+      "en": [
+        "lumber",
+        "wood (material)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 581
+  },
+  {
+    "id": "hr-vocab-materials-002",
+    "lang": "hr",
+    "term": "metal",
+    "translations": {
+      "en": [
+        "metal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 582
+  },
+  {
+    "id": "hr-vocab-materials-003",
+    "lang": "hr",
+    "term": "željezo",
+    "translations": {
+      "en": [
+        "iron"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 583
+  },
+  {
+    "id": "hr-vocab-materials-004",
+    "lang": "hr",
+    "term": "čelik",
+    "translations": {
+      "en": [
+        "steel"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 584
+  },
+  {
+    "id": "hr-vocab-materials-005",
+    "lang": "hr",
+    "term": "zlato",
+    "translations": {
+      "en": [
+        "gold"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 585
+  },
+  {
+    "id": "hr-vocab-materials-006",
+    "lang": "hr",
+    "term": "srebro",
+    "translations": {
+      "en": [
+        "silver"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 586
+  },
+  {
+    "id": "hr-vocab-materials-007",
+    "lang": "hr",
+    "term": "staklo",
+    "translations": {
+      "en": [
+        "glass"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 587
+  },
+  {
+    "id": "hr-vocab-materials-008",
+    "lang": "hr",
+    "term": "plastika",
+    "translations": {
+      "en": [
+        "plastic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 588
+  },
+  {
+    "id": "hr-vocab-materials-009",
+    "lang": "hr",
+    "term": "papir",
+    "translations": {
+      "en": [
+        "paper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 589
+  },
+  {
+    "id": "hr-vocab-materials-010",
+    "lang": "hr",
+    "term": "tkanina",
+    "translations": {
+      "en": [
+        "fabric"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 590
+  },
+  {
+    "id": "hr-vocab-materials-011",
+    "lang": "hr",
+    "term": "pamuk",
+    "translations": {
+      "en": [
+        "cotton"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 591
+  },
+  {
+    "id": "hr-vocab-materials-012",
+    "lang": "hr",
+    "term": "vuna",
+    "translations": {
+      "en": [
+        "wool"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 592
+  },
+  {
+    "id": "hr-vocab-materials-013",
+    "lang": "hr",
+    "term": "krzno",
+    "translations": {
+      "en": [
+        "fur"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 593
+  },
+  {
+    "id": "hr-vocab-materials-014",
+    "lang": "hr",
+    "term": "kamen",
+    "translations": {
+      "en": [
+        "stone (material)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 594
+  },
+  {
+    "id": "hr-vocab-materials-015",
+    "lang": "hr",
+    "term": "keramika",
+    "translations": {
+      "en": [
+        "ceramic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 595
+  },
+  {
+    "id": "hr-vocab-materials-016",
+    "lang": "hr",
+    "term": "krug",
+    "translations": {
+      "en": [
+        "circle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 596
+  },
+  {
+    "id": "hr-vocab-materials-017",
+    "lang": "hr",
+    "term": "kvadrat",
+    "translations": {
+      "en": [
+        "square"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 597
+  },
+  {
+    "id": "hr-vocab-materials-018",
+    "lang": "hr",
+    "term": "trokut",
+    "translations": {
+      "en": [
+        "triangle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 598
+  },
+  {
+    "id": "hr-vocab-materials-019",
+    "lang": "hr",
+    "term": "pravokutnik",
+    "translations": {
+      "en": [
+        "rectangle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 599
+  },
+  {
+    "id": "hr-vocab-materials-020",
+    "lang": "hr",
+    "term": "oval",
+    "translations": {
+      "en": [
+        "oval"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 600
+  },
+  {
+    "id": "hr-vocab-materials-021",
+    "lang": "hr",
+    "term": "okrugao",
+    "translations": {
+      "en": [
+        "round"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 601
+  },
+  {
+    "id": "hr-vocab-materials-022",
+    "lang": "hr",
+    "term": "uglat",
+    "translations": {
+      "en": [
+        "angular",
+        "square-shaped"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 602
+  },
+  {
+    "id": "hr-vocab-materials-023",
+    "lang": "hr",
+    "term": "ravan",
+    "translations": {
+      "en": [
+        "flat"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 603
+  },
+  {
+    "id": "hr-vocab-materials-024",
+    "lang": "hr",
+    "term": "tvrd",
+    "translations": {
+      "en": [
+        "hard"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 604
+  },
+  {
+    "id": "hr-vocab-materials-025",
+    "lang": "hr",
+    "term": "mekan",
+    "translations": {
+      "en": [
+        "soft"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 605
+  },
+  {
+    "id": "hr-vocab-materials-026",
+    "lang": "hr",
+    "term": "gladak",
+    "translations": {
+      "en": [
+        "smooth"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 606
+  },
+  {
+    "id": "hr-vocab-materials-027",
+    "lang": "hr",
+    "term": "hrapav",
+    "translations": {
+      "en": [
+        "rough"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 607
+  },
+  {
+    "id": "hr-vocab-materials-028",
+    "lang": "hr",
+    "term": "težak",
+    "translations": {
+      "en": [
+        "heavy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 608
+  },
+  {
+    "id": "hr-vocab-materials-029",
+    "lang": "hr",
+    "term": "lagan",
+    "translations": {
+      "en": [
+        "light (weight)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 609
+  },
+  {
+    "id": "hr-vocab-materials-030",
+    "lang": "hr",
+    "term": "proziran",
+    "translations": {
+      "en": [
+        "transparent"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 610
+  },
+  {
+    "id": "hr-vocab-business-001",
+    "lang": "hr",
+    "term": "biznis",
+    "translations": {
+      "en": [
+        "business"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 611
+  },
+  {
+    "id": "hr-vocab-business-002",
+    "lang": "hr",
+    "term": "tržište",
+    "translations": {
+      "en": [
+        "market"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 612
+  },
+  {
+    "id": "hr-vocab-business-003",
+    "lang": "hr",
+    "term": "poslovni partner",
+    "translations": {
+      "en": [
+        "business partner"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 613
+  },
+  {
+    "id": "hr-vocab-business-004",
+    "lang": "hr",
+    "term": "investicija",
+    "translations": {
+      "en": [
+        "investment"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 614
+  },
+  {
+    "id": "hr-vocab-business-005",
+    "lang": "hr",
+    "term": "investirati",
+    "translations": {
+      "en": [
+        "to invest"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 615
+  },
+  {
+    "id": "hr-vocab-business-006",
+    "lang": "hr",
+    "term": "banka",
+    "translations": {
+      "en": [
+        "bank"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 616
+  },
+  {
+    "id": "hr-vocab-business-007",
+    "lang": "hr",
+    "term": "bankovni račun",
+    "translations": {
+      "en": [
+        "bank account"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 617
+  },
+  {
+    "id": "hr-vocab-business-008",
+    "lang": "hr",
+    "term": "zajam",
+    "translations": {
+      "en": [
+        "loan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 618
+  },
+  {
+    "id": "hr-vocab-business-009",
+    "lang": "hr",
+    "term": "dug",
+    "translations": {
+      "en": [
+        "debt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 619
+  },
+  {
+    "id": "hr-vocab-business-010",
+    "lang": "hr",
+    "term": "dobit",
+    "translations": {
+      "en": [
+        "profit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 620
+  },
+  {
+    "id": "hr-vocab-business-011",
+    "lang": "hr",
+    "term": "gubitak",
+    "translations": {
+      "en": [
+        "loss"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 621
+  },
+  {
+    "id": "hr-vocab-business-012",
+    "lang": "hr",
+    "term": "prihod",
+    "translations": {
+      "en": [
+        "income"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 622
+  },
+  {
+    "id": "hr-vocab-business-013",
+    "lang": "hr",
+    "term": "trošak",
+    "translations": {
+      "en": [
+        "expense"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 623
+  },
+  {
+    "id": "hr-vocab-business-014",
+    "lang": "hr",
+    "term": "proračun",
+    "translations": {
+      "en": [
+        "budget"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 624
+  },
+  {
+    "id": "hr-vocab-business-015",
+    "lang": "hr",
+    "term": "faktura",
+    "translations": {
+      "en": [
+        "invoice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 625
+  },
+  {
+    "id": "hr-vocab-business-016",
+    "lang": "hr",
+    "term": "carina",
+    "translations": {
+      "en": [
+        "tariff"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 626
+  },
+  {
+    "id": "hr-vocab-business-017",
+    "lang": "hr",
+    "term": "dionica",
+    "translations": {
+      "en": [
+        "stock",
+        "share"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 627
+  },
+  {
+    "id": "hr-vocab-business-018",
+    "lang": "hr",
+    "term": "burza",
+    "translations": {
+      "en": [
+        "stock market"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 628
+  },
+  {
+    "id": "hr-vocab-business-019",
+    "lang": "hr",
+    "term": "poduzeće",
+    "translations": {
+      "en": [
+        "company"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 629
+  },
+  {
+    "id": "hr-vocab-business-020",
+    "lang": "hr",
+    "term": "poduzetnik",
+    "translations": {
+      "en": [
+        "entrepreneur"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 630
+  },
+  {
+    "id": "hr-vocab-business-021",
+    "lang": "hr",
+    "term": "startup",
+    "translations": {
+      "en": [
+        "startup"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 631
+  },
+  {
+    "id": "hr-vocab-business-022",
+    "lang": "hr",
+    "term": "konkurencija",
+    "translations": {
+      "en": [
+        "competition (business)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 632
+  },
+  {
+    "id": "hr-vocab-business-023",
+    "lang": "hr",
+    "term": "korporacija",
+    "translations": {
+      "en": [
+        "corporation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 633
+  },
+  {
+    "id": "hr-vocab-business-024",
+    "lang": "hr",
+    "term": "proizvod",
+    "translations": {
+      "en": [
+        "product"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 634
+  },
+  {
+    "id": "hr-vocab-business-025",
+    "lang": "hr",
+    "term": "usluga",
+    "translations": {
+      "en": [
+        "service"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 635
+  },
+  {
+    "id": "hr-vocab-business-026",
+    "lang": "hr",
+    "term": "opskrbni lanac",
+    "translations": {
+      "en": [
+        "supply chain"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 636
+  },
+  {
+    "id": "hr-vocab-business-027",
+    "lang": "hr",
+    "term": "izvoziti",
+    "translations": {
+      "en": [
+        "to export"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 637
+  },
+  {
+    "id": "hr-vocab-business-028",
+    "lang": "hr",
+    "term": "uvoziti",
+    "translations": {
+      "en": [
+        "to import"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 638
+  },
+  {
+    "id": "hr-vocab-business-029",
+    "lang": "hr",
+    "term": "pregovarati",
+    "translations": {
+      "en": [
+        "to negotiate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 639
+  },
+  {
+    "id": "hr-vocab-business-030",
+    "lang": "hr",
+    "term": "potpisati ugovor",
+    "translations": {
+      "en": [
+        "to sign a contract"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 640
+  },
+  {
+    "id": "hr-vocab-idioms-001",
+    "lang": "hr",
+    "term": "držati fige",
+    "translations": {
+      "en": [
+        "to keep one's fingers crossed"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 641
+  },
+  {
+    "id": "hr-vocab-idioms-002",
+    "lang": "hr",
+    "term": "upasti u nevolju",
+    "translations": {
+      "en": [
+        "to get into trouble"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 642
+  },
+  {
+    "id": "hr-vocab-idioms-003",
+    "lang": "hr",
+    "term": "pogoditi u sridu",
+    "translations": {
+      "en": [
+        "to hit the nail on the head"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 643
+  },
+  {
+    "id": "hr-vocab-idioms-004",
+    "lang": "hr",
+    "term": "kupiti mačku u vreći",
+    "translations": {
+      "en": [
+        "to buy a pig in a poke"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 644
+  },
+  {
+    "id": "hr-vocab-idioms-005",
+    "lang": "hr",
+    "term": "imati sreće",
+    "translations": {
+      "en": [
+        "to be lucky"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 645
+  },
+  {
+    "id": "hr-vocab-idioms-006",
+    "lang": "hr",
+    "term": "pasti u vodu",
+    "translations": {
+      "en": [
+        "to fall through (a plan)"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 646
+  },
+  {
+    "id": "hr-vocab-idioms-007",
+    "lang": "hr",
+    "term": "biti sit nečega",
+    "translations": {
+      "en": [
+        "to be fed up"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 647
+  },
+  {
+    "id": "hr-vocab-idioms-008",
+    "lang": "hr",
+    "term": "okolišati",
+    "translations": {
+      "en": [
+        "to beat around the bush"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 648
+  },
+  {
+    "id": "hr-vocab-idioms-009",
+    "lang": "hr",
+    "term": "sretno",
+    "translations": {
+      "en": [
+        "good luck"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 649
+  },
+  {
+    "id": "hr-vocab-idioms-010",
+    "lang": "hr",
+    "term": "nasamo",
+    "translations": {
+      "en": [
+        "privately",
+        "one-on-one"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 650
+  },
+  {
+    "id": "hr-vocab-idioms-011",
+    "lang": "hr",
+    "term": "praviti se slijep",
+    "translations": {
+      "en": [
+        "to turn a blind eye"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 651
+  },
+  {
+    "id": "hr-vocab-idioms-012",
+    "lang": "hr",
+    "term": "odustati",
+    "translations": {
+      "en": [
+        "to give up"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 652
+  },
+  {
+    "id": "hr-vocab-idioms-013",
+    "lang": "hr",
+    "term": "biti na krivom putu",
+    "translations": {
+      "en": [
+        "to be on the wrong track"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 653
+  },
+  {
+    "id": "hr-vocab-idioms-014",
+    "lang": "hr",
+    "term": "praviti od muhe slona",
+    "translations": {
+      "en": [
+        "to make a mountain out of a molehill"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 654
+  },
+  {
+    "id": "hr-vocab-idioms-015",
+    "lang": "hr",
+    "term": "svejedno mi je",
+    "translations": {
+      "en": [
+        "I don't care"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 655
+  },
+  {
+    "id": "hr-vocab-idioms-016",
+    "lang": "hr",
+    "term": "ne primjećivati ništa",
+    "translations": {
+      "en": [
+        "to be oblivious"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 656
+  },
+  {
+    "id": "hr-vocab-idioms-017",
+    "lang": "hr",
+    "term": "umrijeti",
+    "translations": {
+      "en": [
+        "to bite the dust"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 657
+  },
+  {
+    "id": "hr-vocab-idioms-018",
+    "lang": "hr",
+    "term": "palac gore",
+    "translations": {
+      "en": [
+        "thumbs up"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 658
+  },
+  {
+    "id": "hr-vocab-idioms-019",
+    "lang": "hr",
+    "term": "navijati za nekoga",
+    "translations": {
+      "en": [
+        "to root for someone"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 659
+  },
+  {
+    "id": "hr-vocab-idioms-020",
+    "lang": "hr",
+    "term": "izvući deblji kraj",
+    "translations": {
+      "en": [
+        "to lose out",
+        "to get the short end"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 660
+  },
+  {
+    "id": "hr-vocab-idioms-021",
+    "lang": "hr",
+    "term": "sve je u redu",
+    "translations": {
+      "en": [
+        "everything's fine"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 661
+  },
+  {
+    "id": "hr-vocab-idioms-022",
+    "lang": "hr",
+    "term": "ne pretjerivati",
+    "translations": {
+      "en": [
+        "to not overdo it"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 662
+  },
+  {
+    "id": "hr-vocab-idioms-023",
+    "lang": "hr",
+    "term": "baciti ručnik",
+    "translations": {
+      "en": [
+        "to throw in the towel"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 663
+  },
+  {
+    "id": "hr-vocab-idioms-024",
+    "lang": "hr",
+    "term": "zaboraviti na to",
+    "translations": {
+      "en": [
+        "let's forget about it"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 664
+  },
+  {
+    "id": "hr-vocab-idioms-025",
+    "lang": "hr",
+    "term": "biti presretan",
+    "translations": {
+      "en": [
+        "to be on cloud nine"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 665
+  },
+  {
+    "id": "hr-vocab-idioms-026",
+    "lang": "hr",
+    "term": "biti trn u oku",
+    "translations": {
+      "en": [
+        "to be a thorn in one's side"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 666
+  },
+  {
+    "id": "hr-vocab-idioms-027",
+    "lang": "hr",
+    "term": "ubiti dvije muhe jednim udarcem",
+    "translations": {
+      "en": [
+        "to kill two birds with one stone"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 667
+  },
+  {
+    "id": "hr-vocab-idioms-028",
+    "lang": "hr",
+    "term": "zavaravati nekoga",
+    "translations": {
+      "en": [
+        "to pull someone's leg"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 668
+  },
+  {
+    "id": "hr-vocab-idioms-029",
+    "lang": "hr",
+    "term": "ustati na lijevu nogu",
+    "translations": {
+      "en": [
+        "to get up on the wrong side of the bed"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 669
+  },
+  {
+    "id": "hr-vocab-idioms-030",
+    "lang": "hr",
+    "term": "nije još gotovo",
+    "translations": {
+      "en": [
+        "it's not over yet"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 670
+  },
+  {
+    "id": "hr-vocab-connectors-001",
+    "lang": "hr",
+    "term": "i",
+    "translations": {
+      "en": [
+        "and"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 671
+  },
+  {
+    "id": "hr-vocab-connectors-002",
+    "lang": "hr",
+    "term": "ali",
+    "translations": {
+      "en": [
+        "but"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 672
+  },
+  {
+    "id": "hr-vocab-connectors-003",
+    "lang": "hr",
+    "term": "ili",
+    "translations": {
+      "en": [
+        "or"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 673
+  },
+  {
+    "id": "hr-vocab-connectors-004",
+    "lang": "hr",
+    "term": "jer",
+    "translations": {
+      "en": [
+        "because"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 674
+  },
+  {
+    "id": "hr-vocab-connectors-005",
+    "lang": "hr",
+    "term": "iako",
+    "translations": {
+      "en": [
+        "although"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 675
+  },
+  {
+    "id": "hr-vocab-connectors-006",
+    "lang": "hr",
+    "term": "međutim",
+    "translations": {
+      "en": [
+        "however"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 676
+  },
+  {
+    "id": "hr-vocab-connectors-007",
+    "lang": "hr",
+    "term": "osim toga",
+    "translations": {
+      "en": [
+        "furthermore",
+        "besides"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 677
+  },
+  {
+    "id": "hr-vocab-connectors-008",
+    "lang": "hr",
+    "term": "stoga",
+    "translations": {
+      "en": [
+        "therefore"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 678
+  },
+  {
+    "id": "hr-vocab-connectors-009",
+    "lang": "hr",
+    "term": "dok",
+    "translations": {
+      "en": [
+        "while"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 679
+  },
+  {
+    "id": "hr-vocab-connectors-010",
+    "lang": "hr",
+    "term": "kad",
+    "translations": {
+      "en": [
+        "when"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 680
+  },
+  {
+    "id": "hr-vocab-connectors-011",
+    "lang": "hr",
+    "term": "ako",
+    "translations": {
+      "en": [
+        "if"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 681
+  },
+  {
+    "id": "hr-vocab-connectors-012",
+    "lang": "hr",
+    "term": "koliko god čudno zvučalo",
+    "translations": {
+      "en": [
+        "strange as it may seem"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 682
+  },
+  {
+    "id": "hr-vocab-connectors-013",
+    "lang": "hr",
+    "term": "zato",
+    "translations": {
+      "en": [
+        "that's why"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 683
+  },
+  {
+    "id": "hr-vocab-connectors-014",
+    "lang": "hr",
+    "term": "s druge strane",
+    "translations": {
+      "en": [
+        "on the other hand"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 684
+  },
+  {
+    "id": "hr-vocab-connectors-015",
+    "lang": "hr",
+    "term": "to jest",
+    "translations": {
+      "en": [
+        "that is to say"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 685
+  },
+  {
+    "id": "hr-vocab-connectors-016",
+    "lang": "hr",
+    "term": "na primjer",
+    "translations": {
+      "en": [
+        "for example"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 686
+  },
+  {
+    "id": "hr-vocab-connectors-017",
+    "lang": "hr",
+    "term": "ukratko",
+    "translations": {
+      "en": [
+        "in summary"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 687
+  },
+  {
+    "id": "hr-vocab-connectors-018",
+    "lang": "hr",
+    "term": "konačno",
+    "translations": {
+      "en": [
+        "finally"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 688
+  },
+  {
+    "id": "hr-vocab-connectors-019",
+    "lang": "hr",
+    "term": "prvo",
+    "translations": {
+      "en": [
+        "first"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 689
+  },
+  {
+    "id": "hr-vocab-connectors-020",
+    "lang": "hr",
+    "term": "zatim",
+    "translations": {
+      "en": [
+        "then"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 690
+  },
+  {
+    "id": "hr-vocab-connectors-021",
+    "lang": "hr",
+    "term": "nakon toga",
+    "translations": {
+      "en": [
+        "afterward"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 691
+  },
+  {
+    "id": "hr-vocab-connectors-022",
+    "lang": "hr",
+    "term": "prije nego što",
+    "translations": {
+      "en": [
+        "before"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 692
+  },
+  {
+    "id": "hr-vocab-connectors-023",
+    "lang": "hr",
+    "term": "otkad",
+    "translations": {
+      "en": [
+        "since"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 693
+  },
+  {
+    "id": "hr-vocab-connectors-024",
+    "lang": "hr",
+    "term": "dok ne",
+    "translations": {
+      "en": [
+        "until"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 694
+  },
+  {
+    "id": "hr-vocab-connectors-025",
+    "lang": "hr",
+    "term": "unatoč",
+    "translations": {
+      "en": [
+        "despite"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 695
+  },
+  {
+    "id": "hr-vocab-connectors-026",
+    "lang": "hr",
+    "term": "osim ako",
+    "translations": {
+      "en": [
+        "unless"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 696
+  },
+  {
+    "id": "hr-vocab-connectors-027",
+    "lang": "hr",
+    "term": "i...i",
+    "translations": {
+      "en": [
+        "both...and"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 697
+  },
+  {
+    "id": "hr-vocab-connectors-028",
+    "lang": "hr",
+    "term": "ni...ni",
+    "translations": {
+      "en": [
+        "neither...nor"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 698
+  },
+  {
+    "id": "hr-vocab-connectors-029",
+    "lang": "hr",
+    "term": "ipak",
+    "translations": {
+      "en": [
+        "nevertheless"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 699
+  },
+  {
+    "id": "hr-vocab-connectors-030",
+    "lang": "hr",
+    "term": "zapravo",
+    "translations": {
+      "en": [
+        "in fact"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 700
+  },
+  {
+    "id": "hr-vocab-clothing-001",
+    "lang": "hr",
+    "term": "haljina",
+    "translations": {
+      "en": [
+        "dress"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 701
+  },
+  {
+    "id": "hr-vocab-clothing-002",
+    "lang": "hr",
+    "term": "suknja",
+    "translations": {
+      "en": [
+        "skirt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 702
+  },
+  {
+    "id": "hr-vocab-clothing-003",
+    "lang": "hr",
+    "term": "odijelo",
+    "translations": {
+      "en": [
+        "suit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 703
+  },
+  {
+    "id": "hr-vocab-clothing-004",
+    "lang": "hr",
+    "term": "kravata",
+    "translations": {
+      "en": [
+        "tie"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 704
+  },
+  {
+    "id": "hr-vocab-clothing-005",
+    "lang": "hr",
+    "term": "kaput",
+    "translations": {
+      "en": [
+        "coat"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 705
+  },
+  {
+    "id": "hr-vocab-clothing-006",
+    "lang": "hr",
+    "term": "džemper",
+    "translations": {
+      "en": [
+        "sweater"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 706
+  },
+  {
+    "id": "hr-vocab-clothing-007",
+    "lang": "hr",
+    "term": "šal",
+    "translations": {
+      "en": [
+        "scarf"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 707
+  },
+  {
+    "id": "hr-vocab-clothing-008",
+    "lang": "hr",
+    "term": "rukavice",
+    "translations": {
+      "en": [
+        "gloves"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 708
+  },
+  {
+    "id": "hr-vocab-clothing-009",
+    "lang": "hr",
+    "term": "kapa",
+    "translations": {
+      "en": [
+        "hat",
+        "beanie"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 709
+  },
+  {
+    "id": "hr-vocab-clothing-010",
+    "lang": "hr",
+    "term": "remen",
+    "translations": {
+      "en": [
+        "belt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 710
+  },
+  {
+    "id": "hr-vocab-clothing-011",
+    "lang": "hr",
+    "term": "čarape",
+    "translations": {
+      "en": [
+        "socks"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 711
+  },
+  {
+    "id": "hr-vocab-clothing-012",
+    "lang": "hr",
+    "term": "čizme",
+    "translations": {
+      "en": [
+        "boots"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 712
+  },
+  {
+    "id": "hr-vocab-clothing-013",
+    "lang": "hr",
+    "term": "sandale",
+    "translations": {
+      "en": [
+        "sandals"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 713
+  },
+  {
+    "id": "hr-vocab-clothing-014",
+    "lang": "hr",
+    "term": "pidžama",
+    "translations": {
+      "en": [
+        "pajamas"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 714
+  },
+  {
+    "id": "hr-vocab-clothing-015",
+    "lang": "hr",
+    "term": "kupaći kostim",
+    "translations": {
+      "en": [
+        "swimsuit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 715
+  },
+  {
+    "id": "hr-vocab-clothing-016",
+    "lang": "hr",
+    "term": "donje rublje",
+    "translations": {
+      "en": [
+        "underwear"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 716
+  },
+  {
+    "id": "hr-vocab-clothing-017",
+    "lang": "hr",
+    "term": "majica",
+    "translations": {
+      "en": [
+        "t-shirt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 717
+  },
+  {
+    "id": "hr-vocab-clothing-018",
+    "lang": "hr",
+    "term": "bluza",
+    "translations": {
+      "en": [
+        "blouse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 718
+  },
+  {
+    "id": "hr-vocab-clothing-019",
+    "lang": "hr",
+    "term": "naočale",
+    "translations": {
+      "en": [
+        "glasses"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 719
+  },
+  {
+    "id": "hr-vocab-clothing-020",
+    "lang": "hr",
+    "term": "sunčane naočale",
+    "translations": {
+      "en": [
+        "sunglasses"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 720
+  },
+  {
+    "id": "hr-vocab-clothing-021",
+    "lang": "hr",
+    "term": "nakit",
+    "translations": {
+      "en": [
+        "jewelry"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 721
+  },
+  {
+    "id": "hr-vocab-clothing-022",
+    "lang": "hr",
+    "term": "ogrlica",
+    "translations": {
+      "en": [
+        "necklace"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 722
+  },
+  {
+    "id": "hr-vocab-clothing-023",
+    "lang": "hr",
+    "term": "narukvica",
+    "translations": {
+      "en": [
+        "bracelet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 723
+  },
+  {
+    "id": "hr-vocab-clothing-024",
+    "lang": "hr",
+    "term": "moda",
+    "translations": {
+      "en": [
+        "fashion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 724
+  },
+  {
+    "id": "hr-vocab-clothing-025",
+    "lang": "hr",
+    "term": "stil",
+    "translations": {
+      "en": [
+        "style"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 725
+  },
+  {
+    "id": "hr-vocab-clothing-026",
+    "lang": "hr",
+    "term": "moderan",
+    "translations": {
+      "en": [
+        "trendy",
+        "fashionable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 726
+  },
+  {
+    "id": "hr-vocab-clothing-027",
+    "lang": "hr",
+    "term": "elegantan",
+    "translations": {
+      "en": [
+        "elegant"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 727
+  },
+  {
+    "id": "hr-vocab-clothing-028",
+    "lang": "hr",
+    "term": "udoban",
+    "translations": {
+      "en": [
+        "comfortable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 728
+  },
+  {
+    "id": "hr-vocab-clothing-029",
+    "lang": "hr",
+    "term": "nositi",
+    "translations": {
+      "en": [
+        "to wear"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 729
+  },
+  {
+    "id": "hr-vocab-clothing-030",
+    "lang": "hr",
+    "term": "svući se",
+    "translations": {
+      "en": [
+        "to undress"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 730
+  },
+  {
+    "id": "hr-vocab-weather-disasters-001",
+    "lang": "hr",
+    "term": "uragan",
+    "translations": {
+      "en": [
+        "hurricane"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 731
+  },
+  {
+    "id": "hr-vocab-weather-disasters-002",
+    "lang": "hr",
+    "term": "tornado",
+    "translations": {
+      "en": [
+        "tornado"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 732
+  },
+  {
+    "id": "hr-vocab-weather-disasters-003",
+    "lang": "hr",
+    "term": "potres",
+    "translations": {
+      "en": [
+        "earthquake"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 733
+  },
+  {
+    "id": "hr-vocab-weather-disasters-004",
+    "lang": "hr",
+    "term": "poplava",
+    "translations": {
+      "en": [
+        "flood"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 734
+  },
+  {
+    "id": "hr-vocab-weather-disasters-005",
+    "lang": "hr",
+    "term": "suša",
+    "translations": {
+      "en": [
+        "drought"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 735
+  },
+  {
+    "id": "hr-vocab-weather-disasters-006",
+    "lang": "hr",
+    "term": "šumski požar",
+    "translations": {
+      "en": [
+        "wildfire"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 736
+  },
+  {
+    "id": "hr-vocab-weather-disasters-007",
+    "lang": "hr",
+    "term": "oluja",
+    "translations": {
+      "en": [
+        "storm"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 737
+  },
+  {
+    "id": "hr-vocab-weather-disasters-008",
+    "lang": "hr",
+    "term": "tuča",
+    "translations": {
+      "en": [
+        "hail"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 738
+  },
+  {
+    "id": "hr-vocab-weather-disasters-009",
+    "lang": "hr",
+    "term": "toplinski val",
+    "translations": {
+      "en": [
+        "heat wave"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 739
+  },
+  {
+    "id": "hr-vocab-weather-disasters-010",
+    "lang": "hr",
+    "term": "snježna mećava",
+    "translations": {
+      "en": [
+        "blizzard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 740
+  },
+  {
+    "id": "hr-vocab-weather-disasters-011",
+    "lang": "hr",
+    "term": "vulkanska erupcija",
+    "translations": {
+      "en": [
+        "volcanic eruption"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 741
+  },
+  {
+    "id": "hr-vocab-weather-disasters-012",
+    "lang": "hr",
+    "term": "cunami",
+    "translations": {
+      "en": [
+        "tsunami"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 742
+  },
+  {
+    "id": "hr-vocab-weather-disasters-013",
+    "lang": "hr",
+    "term": "prirodna katastrofa",
+    "translations": {
+      "en": [
+        "natural disaster"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 743
+  },
+  {
+    "id": "hr-vocab-weather-disasters-014",
+    "lang": "hr",
+    "term": "evakuacija",
+    "translations": {
+      "en": [
+        "evacuation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 744
+  },
+  {
+    "id": "hr-vocab-weather-disasters-015",
+    "lang": "hr",
+    "term": "sklonište",
+    "translations": {
+      "en": [
+        "shelter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 745
+  },
+  {
+    "id": "hr-vocab-weather-disasters-016",
+    "lang": "hr",
+    "term": "meteorološko upozorenje",
+    "translations": {
+      "en": [
+        "weather warning"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 746
+  },
+  {
+    "id": "hr-vocab-weather-disasters-017",
+    "lang": "hr",
+    "term": "šteta",
+    "translations": {
+      "en": [
+        "damage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 747
+  },
+  {
+    "id": "hr-vocab-weather-disasters-018",
+    "lang": "hr",
+    "term": "obnoviti",
+    "translations": {
+      "en": [
+        "to rebuild"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 748
+  },
+  {
+    "id": "hr-vocab-weather-disasters-019",
+    "lang": "hr",
+    "term": "evakuirati",
+    "translations": {
+      "en": [
+        "to evacuate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 749
+  },
+  {
+    "id": "hr-vocab-weather-disasters-020",
+    "lang": "hr",
+    "term": "preživjeti",
+    "translations": {
+      "en": [
+        "to survive"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 750
+  },
+  {
+    "id": "hr-vocab-weather-disasters-021",
+    "lang": "hr",
+    "term": "katastrofalan",
+    "translations": {
+      "en": [
+        "catastrophic"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 751
+  },
+  {
+    "id": "hr-vocab-weather-disasters-022",
+    "lang": "hr",
+    "term": "žestok",
+    "translations": {
+      "en": [
+        "severe"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 752
+  },
+  {
+    "id": "hr-vocab-weather-disasters-023",
+    "lang": "hr",
+    "term": "nepredvidiv",
+    "translations": {
+      "en": [
+        "unpredictable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 753
+  },
+  {
+    "id": "hr-vocab-weather-disasters-024",
+    "lang": "hr",
+    "term": "ekstremno vrijeme",
+    "translations": {
+      "en": [
+        "extreme weather"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 754
+  },
+  {
+    "id": "hr-vocab-weather-disasters-025",
+    "lang": "hr",
+    "term": "atmosferski tlak",
+    "translations": {
+      "en": [
+        "atmospheric pressure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 755
+  },
+  {
+    "id": "hr-vocab-weather-disasters-026",
+    "lang": "hr",
+    "term": "vlažnost",
+    "translations": {
+      "en": [
+        "humidity"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 756
+  },
+  {
+    "id": "hr-vocab-weather-disasters-027",
+    "lang": "hr",
+    "term": "grmljavina",
+    "translations": {
+      "en": [
+        "thunderstorm"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 757
+  },
+  {
+    "id": "hr-vocab-weather-disasters-028",
+    "lang": "hr",
+    "term": "podrhtavanje tla",
+    "translations": {
+      "en": [
+        "tremor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 758
+  },
+  {
+    "id": "hr-vocab-weather-disasters-029",
+    "lang": "hr",
+    "term": "plima",
+    "translations": {
+      "en": [
+        "high tide"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 759
+  },
+  {
+    "id": "hr-vocab-weather-disasters-030",
+    "lang": "hr",
+    "term": "oseka",
+    "translations": {
+      "en": [
+        "low tide"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 760
+  },
+  {
+    "id": "hr-vocab-farming-001",
+    "lang": "hr",
+    "term": "farma",
+    "translations": {
+      "en": [
+        "farm"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 761
+  },
+  {
+    "id": "hr-vocab-farming-002",
+    "lang": "hr",
+    "term": "poljoprivrednik",
+    "translations": {
+      "en": [
+        "farmer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 762
+  },
+  {
+    "id": "hr-vocab-farming-003",
+    "lang": "hr",
+    "term": "polje",
+    "translations": {
+      "en": [
+        "field (agricultural)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 763
+  },
+  {
+    "id": "hr-vocab-farming-004",
+    "lang": "hr",
+    "term": "žetva",
+    "translations": {
+      "en": [
+        "harvest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 764
+  },
+  {
+    "id": "hr-vocab-farming-005",
+    "lang": "hr",
+    "term": "uzgajati",
+    "translations": {
+      "en": [
+        "to grow",
+        "to cultivate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 765
+  },
+  {
+    "id": "hr-vocab-farming-006",
+    "lang": "hr",
+    "term": "sijati",
+    "translations": {
+      "en": [
+        "to plant",
+        "to sow"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 766
+  },
+  {
+    "id": "hr-vocab-farming-007",
+    "lang": "hr",
+    "term": "zalijevati",
+    "translations": {
+      "en": [
+        "to water"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 767
+  },
+  {
+    "id": "hr-vocab-farming-008",
+    "lang": "hr",
+    "term": "traktor",
+    "translations": {
+      "en": [
+        "tractor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 768
+  },
+  {
+    "id": "hr-vocab-farming-009",
+    "lang": "hr",
+    "term": "štagalj",
+    "translations": {
+      "en": [
+        "barn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 769
+  },
+  {
+    "id": "hr-vocab-farming-010",
+    "lang": "hr",
+    "term": "staja",
+    "translations": {
+      "en": [
+        "stable"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 770
+  },
+  {
+    "id": "hr-vocab-farming-011",
+    "lang": "hr",
+    "term": "stoka",
+    "translations": {
+      "en": [
+        "livestock",
+        "cattle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 771
+  },
+  {
+    "id": "hr-vocab-farming-012",
+    "lang": "hr",
+    "term": "pšenica",
+    "translations": {
+      "en": [
+        "wheat"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 772
+  },
+  {
+    "id": "hr-vocab-farming-013",
+    "lang": "hr",
+    "term": "kukuruz",
+    "translations": {
+      "en": [
+        "corn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 773
+  },
+  {
+    "id": "hr-vocab-farming-014",
+    "lang": "hr",
+    "term": "voćnjak",
+    "translations": {
+      "en": [
+        "orchard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 774
+  },
+  {
+    "id": "hr-vocab-farming-015",
+    "lang": "hr",
+    "term": "staklenik",
+    "translations": {
+      "en": [
+        "greenhouse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 775
+  },
+  {
+    "id": "hr-vocab-farming-016",
+    "lang": "hr",
+    "term": "gnojivo",
+    "translations": {
+      "en": [
+        "fertilizer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 776
+  },
+  {
+    "id": "hr-vocab-farming-017",
+    "lang": "hr",
+    "term": "tlo",
+    "translations": {
+      "en": [
+        "soil"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 777
+  },
+  {
+    "id": "hr-vocab-farming-018",
+    "lang": "hr",
+    "term": "navodnjavanje",
+    "translations": {
+      "en": [
+        "irrigation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 778
+  },
+  {
+    "id": "hr-vocab-farming-019",
+    "lang": "hr",
+    "term": "štetnik",
+    "translations": {
+      "en": [
+        "pest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 779
+  },
+  {
+    "id": "hr-vocab-farming-020",
+    "lang": "hr",
+    "term": "pesticid",
+    "translations": {
+      "en": [
+        "pesticide"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 780
+  },
+  {
+    "id": "hr-vocab-farming-021",
+    "lang": "hr",
+    "term": "organski",
+    "translations": {
+      "en": [
+        "organic"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 781
+  },
+  {
+    "id": "hr-vocab-farming-022",
+    "lang": "hr",
+    "term": "seoski",
+    "translations": {
+      "en": [
+        "rural"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 782
+  },
+  {
+    "id": "hr-vocab-farming-023",
+    "lang": "hr",
+    "term": "pčelarstvo",
+    "translations": {
+      "en": [
+        "beekeeping"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 783
+  },
+  {
+    "id": "hr-vocab-farming-024",
+    "lang": "hr",
+    "term": "vinograd",
+    "translations": {
+      "en": [
+        "vineyard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 784
+  },
+  {
+    "id": "hr-vocab-farming-025",
+    "lang": "hr",
+    "term": "obor",
+    "translations": {
+      "en": [
+        "pen",
+        "enclosure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 785
+  },
+  {
+    "id": "hr-vocab-farming-026",
+    "lang": "hr",
+    "term": "pastir",
+    "translations": {
+      "en": [
+        "shepherd"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 786
+  },
+  {
+    "id": "hr-vocab-farming-027",
+    "lang": "hr",
+    "term": "orati",
+    "translations": {
+      "en": [
+        "to plow"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 787
+  },
+  {
+    "id": "hr-vocab-farming-028",
+    "lang": "hr",
+    "term": "sjetva",
+    "translations": {
+      "en": [
+        "planting season"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 788
+  },
+  {
+    "id": "hr-vocab-farming-029",
+    "lang": "hr",
+    "term": "berba",
+    "translations": {
+      "en": [
+        "harvest season"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 789
+  },
+  {
+    "id": "hr-vocab-farming-030",
+    "lang": "hr",
+    "term": "održivo poljoprivreda",
+    "translations": {
+      "en": [
+        "sustainable agriculture"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 790
+  },
+  {
+    "id": "hr-vocab-diy-001",
+    "lang": "hr",
+    "term": "alat",
+    "translations": {
+      "en": [
+        "tool"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 791
+  },
+  {
+    "id": "hr-vocab-diy-002",
+    "lang": "hr",
+    "term": "čekić",
+    "translations": {
+      "en": [
+        "hammer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 792
+  },
+  {
+    "id": "hr-vocab-diy-003",
+    "lang": "hr",
+    "term": "odvijač",
+    "translations": {
+      "en": [
+        "screwdriver"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 793
+  },
+  {
+    "id": "hr-vocab-diy-004",
+    "lang": "hr",
+    "term": "čavao",
+    "translations": {
+      "en": [
+        "nail"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 794
+  },
+  {
+    "id": "hr-vocab-diy-005",
+    "lang": "hr",
+    "term": "vijak",
+    "translations": {
+      "en": [
+        "screw"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 795
+  },
+  {
+    "id": "hr-vocab-diy-006",
+    "lang": "hr",
+    "term": "bušilica",
+    "translations": {
+      "en": [
+        "drill"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 796
+  },
+  {
+    "id": "hr-vocab-diy-007",
+    "lang": "hr",
+    "term": "pila",
+    "translations": {
+      "en": [
+        "saw"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 797
+  },
+  {
+    "id": "hr-vocab-diy-008",
+    "lang": "hr",
+    "term": "metar",
+    "translations": {
+      "en": [
+        "tape measure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 798
+  },
+  {
+    "id": "hr-vocab-diy-009",
+    "lang": "hr",
+    "term": "lak",
+    "translations": {
+      "en": [
+        "enamel paint"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 799
+  },
+  {
+    "id": "hr-vocab-diy-010",
+    "lang": "hr",
+    "term": "kist",
+    "translations": {
+      "en": [
+        "paintbrush"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 800
+  },
+  {
+    "id": "hr-vocab-diy-011",
+    "lang": "hr",
+    "term": "ljestve",
+    "translations": {
+      "en": [
+        "ladder"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 801
+  },
+  {
+    "id": "hr-vocab-diy-012",
+    "lang": "hr",
+    "term": "kabel",
+    "translations": {
+      "en": [
+        "cable",
+        "wire"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 802
+  },
+  {
+    "id": "hr-vocab-diy-013",
+    "lang": "hr",
+    "term": "cijev",
+    "translations": {
+      "en": [
+        "pipe",
+        "plumbing"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 803
+  },
+  {
+    "id": "hr-vocab-diy-014",
+    "lang": "hr",
+    "term": "vodoinstalater",
+    "translations": {
+      "en": [
+        "plumber"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 804
+  },
+  {
+    "id": "hr-vocab-diy-015",
+    "lang": "hr",
+    "term": "električar",
+    "translations": {
+      "en": [
+        "electrician"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 805
+  },
+  {
+    "id": "hr-vocab-diy-016",
+    "lang": "hr",
+    "term": "popraviti",
+    "translations": {
+      "en": [
+        "to repair"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 806
+  },
+  {
+    "id": "hr-vocab-diy-017",
+    "lang": "hr",
+    "term": "graditi",
+    "translations": {
+      "en": [
+        "to build"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 807
+  },
+  {
+    "id": "hr-vocab-diy-018",
+    "lang": "hr",
+    "term": "instalirati",
+    "translations": {
+      "en": [
+        "to install"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 808
+  },
+  {
+    "id": "hr-vocab-diy-019",
+    "lang": "hr",
+    "term": "renovirati",
+    "translations": {
+      "en": [
+        "to renovate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 809
+  },
+  {
+    "id": "hr-vocab-diy-020",
+    "lang": "hr",
+    "term": "izravnati",
+    "translations": {
+      "en": [
+        "to level"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 810
+  },
+  {
+    "id": "hr-vocab-diy-021",
+    "lang": "hr",
+    "term": "piliti",
+    "translations": {
+      "en": [
+        "to saw"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 811
+  },
+  {
+    "id": "hr-vocab-diy-022",
+    "lang": "hr",
+    "term": "zavrnuti vijak",
+    "translations": {
+      "en": [
+        "to screw in"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 812
+  },
+  {
+    "id": "hr-vocab-diy-023",
+    "lang": "hr",
+    "term": "ljepilo",
+    "translations": {
+      "en": [
+        "glue"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 813
+  },
+  {
+    "id": "hr-vocab-diy-024",
+    "lang": "hr",
+    "term": "ljepljiva traka",
+    "translations": {
+      "en": [
+        "tape"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 814
+  },
+  {
+    "id": "hr-vocab-diy-025",
+    "lang": "hr",
+    "term": "skela",
+    "translations": {
+      "en": [
+        "scaffolding"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 815
+  },
+  {
+    "id": "hr-vocab-diy-026",
+    "lang": "hr",
+    "term": "nacrt",
+    "translations": {
+      "en": [
+        "blueprint"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 816
+  },
+  {
+    "id": "hr-vocab-diy-027",
+    "lang": "hr",
+    "term": "gradilište",
+    "translations": {
+      "en": [
+        "construction site"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 817
+  },
+  {
+    "id": "hr-vocab-diy-028",
+    "lang": "hr",
+    "term": "cement",
+    "translations": {
+      "en": [
+        "cement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 818
+  },
+  {
+    "id": "hr-vocab-diy-029",
+    "lang": "hr",
+    "term": "cigla",
+    "translations": {
+      "en": [
+        "brick"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 819
+  },
+  {
+    "id": "hr-vocab-diy-030",
+    "lang": "hr",
+    "term": "električni alat",
+    "translations": {
+      "en": [
+        "power tool"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 820
+  },
+  {
+    "id": "hr-vocab-banking-001",
+    "lang": "hr",
+    "term": "tekući račun",
+    "translations": {
+      "en": [
+        "checking account"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 821
+  },
+  {
+    "id": "hr-vocab-banking-002",
+    "lang": "hr",
+    "term": "štedni račun",
+    "translations": {
+      "en": [
+        "savings account"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 822
+  },
+  {
+    "id": "hr-vocab-banking-003",
+    "lang": "hr",
+    "term": "bankomat",
+    "translations": {
+      "en": [
+        "ATM"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 823
+  },
+  {
+    "id": "hr-vocab-banking-004",
+    "lang": "hr",
+    "term": "stanje računa",
+    "translations": {
+      "en": [
+        "balance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 824
+  },
+  {
+    "id": "hr-vocab-banking-005",
+    "lang": "hr",
+    "term": "uplata",
+    "translations": {
+      "en": [
+        "deposit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 825
+  },
+  {
+    "id": "hr-vocab-banking-006",
+    "lang": "hr",
+    "term": "isplata",
+    "translations": {
+      "en": [
+        "withdrawal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 826
+  },
+  {
+    "id": "hr-vocab-banking-007",
+    "lang": "hr",
+    "term": "prijenos novca",
+    "translations": {
+      "en": [
+        "transfer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 827
+  },
+  {
+    "id": "hr-vocab-banking-008",
+    "lang": "hr",
+    "term": "kamata",
+    "translations": {
+      "en": [
+        "interest (banking)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 828
+  },
+  {
+    "id": "hr-vocab-banking-009",
+    "lang": "hr",
+    "term": "hipoteka",
+    "translations": {
+      "en": [
+        "mortgage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 829
+  },
+  {
+    "id": "hr-vocab-banking-010",
+    "lang": "hr",
+    "term": "osiguranje",
+    "translations": {
+      "en": [
+        "insurance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 830
+  },
+  {
+    "id": "hr-vocab-banking-011",
+    "lang": "hr",
+    "term": "polica osiguranja",
+    "translations": {
+      "en": [
+        "insurance policy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 831
+  },
+  {
+    "id": "hr-vocab-banking-012",
+    "lang": "hr",
+    "term": "premija osiguranja",
+    "translations": {
+      "en": [
+        "insurance premium"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 832
+  },
+  {
+    "id": "hr-vocab-banking-013",
+    "lang": "hr",
+    "term": "odštetni zahtjev",
+    "translations": {
+      "en": [
+        "claim"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 833
+  },
+  {
+    "id": "hr-vocab-banking-014",
+    "lang": "hr",
+    "term": "pokriće",
+    "translations": {
+      "en": [
+        "coverage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 834
+  },
+  {
+    "id": "hr-vocab-banking-015",
+    "lang": "hr",
+    "term": "agent osiguranja",
+    "translations": {
+      "en": [
+        "insurance agent"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 835
+  },
+  {
+    "id": "hr-vocab-banking-016",
+    "lang": "hr",
+    "term": "debitna kartica",
+    "translations": {
+      "en": [
+        "debit card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 836
+  },
+  {
+    "id": "hr-vocab-banking-017",
+    "lang": "hr",
+    "term": "poslovnica banke",
+    "translations": {
+      "en": [
+        "bank branch"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 837
+  },
+  {
+    "id": "hr-vocab-banking-018",
+    "lang": "hr",
+    "term": "ček",
+    "translations": {
+      "en": [
+        "check"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 838
+  },
+  {
+    "id": "hr-vocab-banking-019",
+    "lang": "hr",
+    "term": "valuta",
+    "translations": {
+      "en": [
+        "currency"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 839
+  },
+  {
+    "id": "hr-vocab-banking-020",
+    "lang": "hr",
+    "term": "devizni tečaj",
+    "translations": {
+      "en": [
+        "exchange rate"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 840
+  },
+  {
+    "id": "hr-vocab-banking-021",
+    "lang": "hr",
+    "term": "štedjeti",
+    "translations": {
+      "en": [
+        "to save (money)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 841
+  },
+  {
+    "id": "hr-vocab-banking-022",
+    "lang": "hr",
+    "term": "zadužiti se",
+    "translations": {
+      "en": [
+        "to borrow"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 842
+  },
+  {
+    "id": "hr-vocab-banking-023",
+    "lang": "hr",
+    "term": "posuditi",
+    "translations": {
+      "en": [
+        "to lend"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 843
+  },
+  {
+    "id": "hr-vocab-banking-024",
+    "lang": "hr",
+    "term": "osigurati",
+    "translations": {
+      "en": [
+        "to insure"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 844
+  },
+  {
+    "id": "hr-vocab-banking-025",
+    "lang": "hr",
+    "term": "rizik",
+    "translations": {
+      "en": [
+        "risk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 845
+  },
+  {
+    "id": "hr-vocab-banking-026",
+    "lang": "hr",
+    "term": "korisnik police",
+    "translations": {
+      "en": [
+        "beneficiary"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 846
+  },
+  {
+    "id": "hr-vocab-banking-027",
+    "lang": "hr",
+    "term": "prijevara",
+    "translations": {
+      "en": [
+        "fraud"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 847
+  },
+  {
+    "id": "hr-vocab-banking-028",
+    "lang": "hr",
+    "term": "izvod s računa",
+    "translations": {
+      "en": [
+        "bank statement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 848
+  },
+  {
+    "id": "hr-vocab-banking-029",
+    "lang": "hr",
+    "term": "bankovna naknada",
+    "translations": {
+      "en": [
+        "bank fee"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 849
+  },
+  {
+    "id": "hr-vocab-banking-030",
+    "lang": "hr",
+    "term": "financijski",
+    "translations": {
+      "en": [
+        "financial"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 850
+  },
+  {
+    "id": "hr-vocab-public-services-001",
+    "lang": "hr",
+    "term": "pošta",
+    "translations": {
+      "en": [
+        "post office"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 851
+  },
+  {
+    "id": "hr-vocab-public-services-002",
+    "lang": "hr",
+    "term": "poštar",
+    "translations": {
+      "en": [
+        "mailman"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 852
+  },
+  {
+    "id": "hr-vocab-public-services-003",
+    "lang": "hr",
+    "term": "paket",
+    "translations": {
+      "en": [
+        "package"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 853
+  },
+  {
+    "id": "hr-vocab-public-services-004",
+    "lang": "hr",
+    "term": "poštanska marka",
+    "translations": {
+      "en": [
+        "stamp"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 854
+  },
+  {
+    "id": "hr-vocab-public-services-005",
+    "lang": "hr",
+    "term": "električna energija",
+    "translations": {
+      "en": [
+        "electricity"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 855
+  },
+  {
+    "id": "hr-vocab-public-services-006",
+    "lang": "hr",
+    "term": "račun za struju",
+    "translations": {
+      "en": [
+        "electricity bill"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 856
+  },
+  {
+    "id": "hr-vocab-public-services-007",
+    "lang": "hr",
+    "term": "vodoopskrba",
+    "translations": {
+      "en": [
+        "water utility"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 857
+  },
+  {
+    "id": "hr-vocab-public-services-008",
+    "lang": "hr",
+    "term": "opskrba plinom",
+    "translations": {
+      "en": [
+        "gas utility"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 858
+  },
+  {
+    "id": "hr-vocab-public-services-009",
+    "lang": "hr",
+    "term": "smeće",
+    "translations": {
+      "en": [
+        "garbage",
+        "trash"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 859
+  },
+  {
+    "id": "hr-vocab-public-services-010",
+    "lang": "hr",
+    "term": "recikliranje",
+    "translations": {
+      "en": [
+        "recycling"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 860
+  },
+  {
+    "id": "hr-vocab-public-services-011",
+    "lang": "hr",
+    "term": "javna knjižnica",
+    "translations": {
+      "en": [
+        "public library"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 861
+  },
+  {
+    "id": "hr-vocab-public-services-012",
+    "lang": "hr",
+    "term": "vatrogasac",
+    "translations": {
+      "en": [
+        "firefighter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 862
+  },
+  {
+    "id": "hr-vocab-public-services-013",
+    "lang": "hr",
+    "term": "vatrogasna postaja",
+    "translations": {
+      "en": [
+        "fire station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 863
+  },
+  {
+    "id": "hr-vocab-public-services-014",
+    "lang": "hr",
+    "term": "policijska postaja",
+    "translations": {
+      "en": [
+        "police station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 864
+  },
+  {
+    "id": "hr-vocab-public-services-015",
+    "lang": "hr",
+    "term": "gradski centar",
+    "translations": {
+      "en": [
+        "civic center"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 865
+  },
+  {
+    "id": "hr-vocab-public-services-016",
+    "lang": "hr",
+    "term": "javna usluga",
+    "translations": {
+      "en": [
+        "public service"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 866
+  },
+  {
+    "id": "hr-vocab-public-services-017",
+    "lang": "hr",
+    "term": "gradski porez",
+    "translations": {
+      "en": [
+        "municipal tax"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 867
+  },
+  {
+    "id": "hr-vocab-public-services-018",
+    "lang": "hr",
+    "term": "kanalizacija",
+    "translations": {
+      "en": [
+        "sewage system"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 868
+  },
+  {
+    "id": "hr-vocab-public-services-019",
+    "lang": "hr",
+    "term": "javni pločnik",
+    "translations": {
+      "en": [
+        "public sidewalk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 869
+  },
+  {
+    "id": "hr-vocab-public-services-020",
+    "lang": "hr",
+    "term": "javna rasvjeta",
+    "translations": {
+      "en": [
+        "street lighting"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 870
+  },
+  {
+    "id": "hr-vocab-public-services-021",
+    "lang": "hr",
+    "term": "javni prijevoz",
+    "translations": {
+      "en": [
+        "public transportation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 871
+  },
+  {
+    "id": "hr-vocab-public-services-022",
+    "lang": "hr",
+    "term": "državni službenik",
+    "translations": {
+      "en": [
+        "civil servant"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 872
+  },
+  {
+    "id": "hr-vocab-public-services-023",
+    "lang": "hr",
+    "term": "upravni postupak",
+    "translations": {
+      "en": [
+        "administrative procedure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 873
+  },
+  {
+    "id": "hr-vocab-public-services-024",
+    "lang": "hr",
+    "term": "obrazac",
+    "translations": {
+      "en": [
+        "form"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 874
+  },
+  {
+    "id": "hr-vocab-public-services-025",
+    "lang": "hr",
+    "term": "zahtjev",
+    "translations": {
+      "en": [
+        "application (request)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 875
+  },
+  {
+    "id": "hr-vocab-public-services-026",
+    "lang": "hr",
+    "term": "osobna iskaznica",
+    "translations": {
+      "en": [
+        "ID card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 876
+  },
+  {
+    "id": "hr-vocab-public-services-027",
+    "lang": "hr",
+    "term": "matični ured",
+    "translations": {
+      "en": [
+        "civil registry"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 877
+  },
+  {
+    "id": "hr-vocab-public-services-028",
+    "lang": "hr",
+    "term": "zakazani termin",
+    "translations": {
+      "en": [
+        "appointment (bureaucratic)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 878
+  },
+  {
+    "id": "hr-vocab-public-services-029",
+    "lang": "hr",
+    "term": "subvencija",
+    "translations": {
+      "en": [
+        "subsidy",
+        "grant"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 879
+  },
+  {
+    "id": "hr-vocab-public-services-030",
+    "lang": "hr",
+    "term": "gradski proračun",
+    "translations": {
+      "en": [
+        "municipal budget"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 880
+  },
+  {
+    "id": "hr-vocab-relationships-001",
+    "lang": "hr",
+    "term": "dečko",
+    "translations": {
+      "en": [
+        "boyfriend"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 881
+  },
+  {
+    "id": "hr-vocab-relationships-002",
+    "lang": "hr",
+    "term": "cura",
+    "translations": {
+      "en": [
+        "girlfriend"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 882
+  },
+  {
+    "id": "hr-vocab-relationships-003",
+    "lang": "hr",
+    "term": "romantični spoj",
+    "translations": {
+      "en": [
+        "date (romantic)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 883
+  },
+  {
+    "id": "hr-vocab-relationships-004",
+    "lang": "hr",
+    "term": "zaljubiti se",
+    "translations": {
+      "en": [
+        "to fall in love"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 884
+  },
+  {
+    "id": "hr-vocab-relationships-005",
+    "lang": "hr",
+    "term": "vjenčanje",
+    "translations": {
+      "en": [
+        "wedding"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 885
+  },
+  {
+    "id": "hr-vocab-relationships-006",
+    "lang": "hr",
+    "term": "zaruke",
+    "translations": {
+      "en": [
+        "engagement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 886
+  },
+  {
+    "id": "hr-vocab-relationships-007",
+    "lang": "hr",
+    "term": "vjenčati se",
+    "translations": {
+      "en": [
+        "to get married"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 887
+  },
+  {
+    "id": "hr-vocab-relationships-008",
+    "lang": "hr",
+    "term": "razvod",
+    "translations": {
+      "en": [
+        "divorce"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 888
+  },
+  {
+    "id": "hr-vocab-relationships-009",
+    "lang": "hr",
+    "term": "obljetnica",
+    "translations": {
+      "en": [
+        "anniversary"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 889
+  },
+  {
+    "id": "hr-vocab-relationships-010",
+    "lang": "hr",
+    "term": "rođenje",
+    "translations": {
+      "en": [
+        "birth"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 890
+  },
+  {
+    "id": "hr-vocab-relationships-011",
+    "lang": "hr",
+    "term": "novorođenče",
+    "translations": {
+      "en": [
+        "newborn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 891
+  },
+  {
+    "id": "hr-vocab-relationships-012",
+    "lang": "hr",
+    "term": "trudnoća",
+    "translations": {
+      "en": [
+        "pregnancy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 892
+  },
+  {
+    "id": "hr-vocab-relationships-013",
+    "lang": "hr",
+    "term": "pogreb",
+    "translations": {
+      "en": [
+        "funeral"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 893
+  },
+  {
+    "id": "hr-vocab-relationships-014",
+    "lang": "hr",
+    "term": "tuga",
+    "translations": {
+      "en": [
+        "mourning",
+        "grief"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 894
+  },
+  {
+    "id": "hr-vocab-relationships-015",
+    "lang": "hr",
+    "term": "veza",
+    "translations": {
+      "en": [
+        "relationship"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 895
+  },
+  {
+    "id": "hr-vocab-relationships-016",
+    "lang": "hr",
+    "term": "samac",
+    "translations": {
+      "en": [
+        "single (unmarried)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 896
+  },
+  {
+    "id": "hr-vocab-relationships-017",
+    "lang": "hr",
+    "term": "par",
+    "translations": {
+      "en": [
+        "couple"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 897
+  },
+  {
+    "id": "hr-vocab-relationships-018",
+    "lang": "hr",
+    "term": "zajednički život",
+    "translations": {
+      "en": [
+        "cohabitation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 898
+  },
+  {
+    "id": "hr-vocab-relationships-019",
+    "lang": "hr",
+    "term": "prsten",
+    "translations": {
+      "en": [
+        "ring"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 899
+  },
+  {
+    "id": "hr-vocab-relationships-020",
+    "lang": "hr",
+    "term": "bračna ponuda",
+    "translations": {
+      "en": [
+        "marriage proposal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 900
+  },
+  {
+    "id": "hr-vocab-relationships-021",
+    "lang": "hr",
+    "term": "medeni mjesec",
+    "translations": {
+      "en": [
+        "honeymoon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 901
+  },
+  {
+    "id": "hr-vocab-relationships-022",
+    "lang": "hr",
+    "term": "udovac",
+    "translations": {
+      "en": [
+        "widower"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 902
+  },
+  {
+    "id": "hr-vocab-relationships-023",
+    "lang": "hr",
+    "term": "udovica",
+    "translations": {
+      "en": [
+        "widow"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 903
+  },
+  {
+    "id": "hr-vocab-relationships-024",
+    "lang": "hr",
+    "term": "unuk",
+    "translations": {
+      "en": [
+        "grandchild"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 904
+  },
+  {
+    "id": "hr-vocab-relationships-025",
+    "lang": "hr",
+    "term": "djed",
+    "translations": {
+      "en": [
+        "grandfather"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 905
+  },
+  {
+    "id": "hr-vocab-relationships-026",
+    "lang": "hr",
+    "term": "baka",
+    "translations": {
+      "en": [
+        "grandmother"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 906
+  },
+  {
+    "id": "hr-vocab-relationships-027",
+    "lang": "hr",
+    "term": "rođak",
+    "translations": {
+      "en": [
+        "cousin"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 907
+  },
+  {
+    "id": "hr-vocab-relationships-028",
+    "lang": "hr",
+    "term": "tast",
+    "translations": {
+      "en": [
+        "father-in-law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 908
+  },
+  {
+    "id": "hr-vocab-relationships-029",
+    "lang": "hr",
+    "term": "punica",
+    "translations": {
+      "en": [
+        "mother-in-law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 909
+  },
+  {
+    "id": "hr-vocab-relationships-030",
+    "lang": "hr",
+    "term": "rodbina",
+    "translations": {
+      "en": [
+        "relatives"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 910
+  },
+  {
+    "id": "hr-vocab-media-news-001",
+    "lang": "hr",
+    "term": "vijest",
+    "translations": {
+      "en": [
+        "news"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 911
+  },
+  {
+    "id": "hr-vocab-media-news-002",
+    "lang": "hr",
+    "term": "novine",
+    "translations": {
+      "en": [
+        "newspaper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 912
+  },
+  {
+    "id": "hr-vocab-media-news-003",
+    "lang": "hr",
+    "term": "novinar",
+    "translations": {
+      "en": [
+        "journalist"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 913
+  },
+  {
+    "id": "hr-vocab-media-news-004",
+    "lang": "hr",
+    "term": "članak",
+    "translations": {
+      "en": [
+        "article"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 914
+  },
+  {
+    "id": "hr-vocab-media-news-005",
+    "lang": "hr",
+    "term": "naslov",
+    "translations": {
+      "en": [
+        "headline"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 915
+  },
+  {
+    "id": "hr-vocab-media-news-006",
+    "lang": "hr",
+    "term": "časopis",
+    "translations": {
+      "en": [
+        "magazine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 916
+  },
+  {
+    "id": "hr-vocab-media-news-007",
+    "lang": "hr",
+    "term": "emisija",
+    "translations": {
+      "en": [
+        "broadcast"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 917
+  },
+  {
+    "id": "hr-vocab-media-news-008",
+    "lang": "hr",
+    "term": "dnevnik",
+    "translations": {
+      "en": [
+        "TV news"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 918
+  },
+  {
+    "id": "hr-vocab-media-news-009",
+    "lang": "hr",
+    "term": "razgovor za medije",
+    "translations": {
+      "en": [
+        "interview (media)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 919
+  },
+  {
+    "id": "hr-vocab-media-news-010",
+    "lang": "hr",
+    "term": "reklama",
+    "translations": {
+      "en": [
+        "advertisement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 920
+  },
+  {
+    "id": "hr-vocab-media-news-011",
+    "lang": "hr",
+    "term": "radio",
+    "translations": {
+      "en": [
+        "radio"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 921
+  },
+  {
+    "id": "hr-vocab-media-news-012",
+    "lang": "hr",
+    "term": "podcast",
+    "translations": {
+      "en": [
+        "podcast"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 922
+  },
+  {
+    "id": "hr-vocab-media-news-013",
+    "lang": "hr",
+    "term": "uvodnik",
+    "translations": {
+      "en": [
+        "editorial"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 923
+  },
+  {
+    "id": "hr-vocab-media-news-014",
+    "lang": "hr",
+    "term": "redakcija",
+    "translations": {
+      "en": [
+        "editorial office",
+        "newsroom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 924
+  },
+  {
+    "id": "hr-vocab-media-news-015",
+    "lang": "hr",
+    "term": "izvor",
+    "translations": {
+      "en": [
+        "source"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 925
+  },
+  {
+    "id": "hr-vocab-media-news-016",
+    "lang": "hr",
+    "term": "skandal",
+    "translations": {
+      "en": [
+        "scandal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 926
+  },
+  {
+    "id": "hr-vocab-media-news-017",
+    "lang": "hr",
+    "term": "javno mnijenje",
+    "translations": {
+      "en": [
+        "public opinion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 927
+  },
+  {
+    "id": "hr-vocab-media-news-018",
+    "lang": "hr",
+    "term": "cenzura",
+    "translations": {
+      "en": [
+        "censorship"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 928
+  },
+  {
+    "id": "hr-vocab-media-news-019",
+    "lang": "hr",
+    "term": "sloboda tiska",
+    "translations": {
+      "en": [
+        "freedom of the press"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 929
+  },
+  {
+    "id": "hr-vocab-media-news-020",
+    "lang": "hr",
+    "term": "aktualnosti",
+    "translations": {
+      "en": [
+        "current events"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 930
+  },
+  {
+    "id": "hr-vocab-media-news-021",
+    "lang": "hr",
+    "term": "objaviti",
+    "translations": {
+      "en": [
+        "to publish"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 931
+  },
+  {
+    "id": "hr-vocab-media-news-022",
+    "lang": "hr",
+    "term": "izvijestiti",
+    "translations": {
+      "en": [
+        "to report"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 932
+  },
+  {
+    "id": "hr-vocab-media-news-023",
+    "lang": "hr",
+    "term": "emitirati",
+    "translations": {
+      "en": [
+        "to broadcast"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 933
+  },
+  {
+    "id": "hr-vocab-media-news-024",
+    "lang": "hr",
+    "term": "komentirati",
+    "translations": {
+      "en": [
+        "to comment"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 934
+  },
+  {
+    "id": "hr-vocab-media-news-025",
+    "lang": "hr",
+    "term": "pretplata",
+    "translations": {
+      "en": [
+        "subscription"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 935
+  },
+  {
+    "id": "hr-vocab-media-news-026",
+    "lang": "hr",
+    "term": "čitatelj",
+    "translations": {
+      "en": [
+        "reader"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 936
+  },
+  {
+    "id": "hr-vocab-media-news-027",
+    "lang": "hr",
+    "term": "gledatelj",
+    "translations": {
+      "en": [
+        "viewer",
+        "spectator"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 937
+  },
+  {
+    "id": "hr-vocab-media-news-028",
+    "lang": "hr",
+    "term": "ažuriranje",
+    "translations": {
+      "en": [
+        "update"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 938
+  },
+  {
+    "id": "hr-vocab-media-news-029",
+    "lang": "hr",
+    "term": "priopćenje za medije",
+    "translations": {
+      "en": [
+        "press release"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 939
+  },
+  {
+    "id": "hr-vocab-media-news-030",
+    "lang": "hr",
+    "term": "influencer",
+    "translations": {
+      "en": [
+        "influencer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 940
+  },
+  {
+    "id": "hr-vocab-science-space-001",
+    "lang": "hr",
+    "term": "znanost",
+    "translations": {
+      "en": [
+        "science"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 941
+  },
+  {
+    "id": "hr-vocab-science-space-002",
+    "lang": "hr",
+    "term": "znanstvenik",
+    "translations": {
+      "en": [
+        "scientist"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 942
+  },
+  {
+    "id": "hr-vocab-science-space-003",
+    "lang": "hr",
+    "term": "eksperiment",
+    "translations": {
+      "en": [
+        "experiment"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 943
+  },
+  {
+    "id": "hr-vocab-science-space-004",
+    "lang": "hr",
+    "term": "laboratorij",
+    "translations": {
+      "en": [
+        "laboratory"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 944
+  },
+  {
+    "id": "hr-vocab-science-space-005",
+    "lang": "hr",
+    "term": "teorija",
+    "translations": {
+      "en": [
+        "theory"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 945
+  },
+  {
+    "id": "hr-vocab-science-space-006",
+    "lang": "hr",
+    "term": "istraživanje",
+    "translations": {
+      "en": [
+        "research"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 946
+  },
+  {
+    "id": "hr-vocab-science-space-007",
+    "lang": "hr",
+    "term": "svemir",
+    "translations": {
+      "en": [
+        "universe",
+        "outer space"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 947
+  },
+  {
+    "id": "hr-vocab-science-space-008",
+    "lang": "hr",
+    "term": "planet",
+    "translations": {
+      "en": [
+        "planet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 948
+  },
+  {
+    "id": "hr-vocab-science-space-009",
+    "lang": "hr",
+    "term": "zvijezda",
+    "translations": {
+      "en": [
+        "star"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 949
+  },
+  {
+    "id": "hr-vocab-science-space-010",
+    "lang": "hr",
+    "term": "galaksija",
+    "translations": {
+      "en": [
+        "galaxy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 950
+  },
+  {
+    "id": "hr-vocab-science-space-011",
+    "lang": "hr",
+    "term": "astronaut",
+    "translations": {
+      "en": [
+        "astronaut"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 951
+  },
+  {
+    "id": "hr-vocab-science-space-012",
+    "lang": "hr",
+    "term": "raketa",
+    "translations": {
+      "en": [
+        "rocket"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 952
+  },
+  {
+    "id": "hr-vocab-science-space-013",
+    "lang": "hr",
+    "term": "satelit",
+    "translations": {
+      "en": [
+        "satellite"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 953
+  },
+  {
+    "id": "hr-vocab-science-space-014",
+    "lang": "hr",
+    "term": "teleskop",
+    "translations": {
+      "en": [
+        "telescope"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 954
+  },
+  {
+    "id": "hr-vocab-science-space-015",
+    "lang": "hr",
+    "term": "kisik",
+    "translations": {
+      "en": [
+        "oxygen"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 955
+  },
+  {
+    "id": "hr-vocab-science-space-016",
+    "lang": "hr",
+    "term": "gravitacija",
+    "translations": {
+      "en": [
+        "gravity"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 956
+  },
+  {
+    "id": "hr-vocab-science-space-017",
+    "lang": "hr",
+    "term": "atom",
+    "translations": {
+      "en": [
+        "atom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 957
+  },
+  {
+    "id": "hr-vocab-science-space-018",
+    "lang": "hr",
+    "term": "molekula",
+    "translations": {
+      "en": [
+        "molecule"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 958
+  },
+  {
+    "id": "hr-vocab-science-space-019",
+    "lang": "hr",
+    "term": "stanica",
+    "translations": {
+      "en": [
+        "cell (biology)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 959
+  },
+  {
+    "id": "hr-vocab-science-space-020",
+    "lang": "hr",
+    "term": "DNK",
+    "translations": {
+      "en": [
+        "DNA"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 960
+  },
+  {
+    "id": "hr-vocab-science-space-021",
+    "lang": "hr",
+    "term": "evolucija",
+    "translations": {
+      "en": [
+        "evolution"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 961
+  },
+  {
+    "id": "hr-vocab-science-space-022",
+    "lang": "hr",
+    "term": "otkriće",
+    "translations": {
+      "en": [
+        "discovery"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 962
+  },
+  {
+    "id": "hr-vocab-science-space-023",
+    "lang": "hr",
+    "term": "izum",
+    "translations": {
+      "en": [
+        "invention"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 963
+  },
+  {
+    "id": "hr-vocab-science-space-024",
+    "lang": "hr",
+    "term": "svemirska tehnologija",
+    "translations": {
+      "en": [
+        "space technology"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 964
+  },
+  {
+    "id": "hr-vocab-science-space-025",
+    "lang": "hr",
+    "term": "otkriti",
+    "translations": {
+      "en": [
+        "to discover"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 965
+  },
+  {
+    "id": "hr-vocab-science-space-026",
+    "lang": "hr",
+    "term": "dokazati",
+    "translations": {
+      "en": [
+        "to prove"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 966
+  },
+  {
+    "id": "hr-vocab-science-space-027",
+    "lang": "hr",
+    "term": "promatrati",
+    "translations": {
+      "en": [
+        "to observe"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 967
+  },
+  {
+    "id": "hr-vocab-science-space-028",
+    "lang": "hr",
+    "term": "mjeriti",
+    "translations": {
+      "en": [
+        "to measure"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 968
+  },
+  {
+    "id": "hr-vocab-science-space-029",
+    "lang": "hr",
+    "term": "analizirati",
+    "translations": {
+      "en": [
+        "to analyze"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 969
+  },
+  {
+    "id": "hr-vocab-science-space-030",
+    "lang": "hr",
+    "term": "hipoteza",
+    "translations": {
+      "en": [
+        "hypothesis"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 970
+  },
+  {
+    "id": "hr-vocab-law-crime-001",
+    "lang": "hr",
+    "term": "zakon",
+    "translations": {
+      "en": [
+        "law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 971
+  },
+  {
+    "id": "hr-vocab-law-crime-002",
+    "lang": "hr",
+    "term": "policija",
+    "translations": {
+      "en": [
+        "police"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 972
+  },
+  {
+    "id": "hr-vocab-law-crime-003",
+    "lang": "hr",
+    "term": "policajac",
+    "translations": {
+      "en": [
+        "police officer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 973
+  },
+  {
+    "id": "hr-vocab-law-crime-004",
+    "lang": "hr",
+    "term": "zločin",
+    "translations": {
+      "en": [
+        "crime"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 974
+  },
+  {
+    "id": "hr-vocab-law-crime-005",
+    "lang": "hr",
+    "term": "zločinac",
+    "translations": {
+      "en": [
+        "criminal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 975
+  },
+  {
+    "id": "hr-vocab-law-crime-006",
+    "lang": "hr",
+    "term": "krađa",
+    "translations": {
+      "en": [
+        "theft"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 976
+  },
+  {
+    "id": "hr-vocab-law-crime-007",
+    "lang": "hr",
+    "term": "lopov",
+    "translations": {
+      "en": [
+        "thief"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 977
+  },
+  {
+    "id": "hr-vocab-law-crime-008",
+    "lang": "hr",
+    "term": "žrtva",
+    "translations": {
+      "en": [
+        "victim"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 978
+  },
+  {
+    "id": "hr-vocab-law-crime-009",
+    "lang": "hr",
+    "term": "svjedok",
+    "translations": {
+      "en": [
+        "witness"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 979
+  },
+  {
+    "id": "hr-vocab-law-crime-010",
+    "lang": "hr",
+    "term": "sud",
+    "translations": {
+      "en": [
+        "court"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 980
+  },
+  {
+    "id": "hr-vocab-law-crime-011",
+    "lang": "hr",
+    "term": "sudac",
+    "translations": {
+      "en": [
+        "judge"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 981
+  },
+  {
+    "id": "hr-vocab-law-crime-012",
+    "lang": "hr",
+    "term": "odvjetnik",
+    "translations": {
+      "en": [
+        "lawyer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 982
+  },
+  {
+    "id": "hr-vocab-law-crime-013",
+    "lang": "hr",
+    "term": "suđenje",
+    "translations": {
+      "en": [
+        "trial"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 983
+  },
+  {
+    "id": "hr-vocab-law-crime-014",
+    "lang": "hr",
+    "term": "dokaz",
+    "translations": {
+      "en": [
+        "evidence",
+        "proof"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 984
+  },
+  {
+    "id": "hr-vocab-law-crime-015",
+    "lang": "hr",
+    "term": "uhićenje",
+    "translations": {
+      "en": [
+        "arrest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 985
+  },
+  {
+    "id": "hr-vocab-law-crime-016",
+    "lang": "hr",
+    "term": "zatvor",
+    "translations": {
+      "en": [
+        "prison"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 986
+  },
+  {
+    "id": "hr-vocab-law-crime-017",
+    "lang": "hr",
+    "term": "novčana kazna",
+    "translations": {
+      "en": [
+        "fine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 987
+  },
+  {
+    "id": "hr-vocab-law-crime-018",
+    "lang": "hr",
+    "term": "pravo",
+    "translations": {
+      "en": [
+        "right",
+        "law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 988
+  },
+  {
+    "id": "hr-vocab-law-crime-019",
+    "lang": "hr",
+    "term": "pravda",
+    "translations": {
+      "en": [
+        "justice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 989
+  },
+  {
+    "id": "hr-vocab-law-crime-020",
+    "lang": "hr",
+    "term": "kriv",
+    "translations": {
+      "en": [
+        "guilty"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 990
+  },
+  {
+    "id": "hr-vocab-law-crime-021",
+    "lang": "hr",
+    "term": "nevin",
+    "translations": {
+      "en": [
+        "innocent"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 991
+  },
+  {
+    "id": "hr-vocab-law-crime-022",
+    "lang": "hr",
+    "term": "zakonit",
+    "translations": {
+      "en": [
+        "legal"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 992
+  },
+  {
+    "id": "hr-vocab-law-crime-023",
+    "lang": "hr",
+    "term": "nezakonit",
+    "translations": {
+      "en": [
+        "illegal"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 993
+  },
+  {
+    "id": "hr-vocab-law-crime-024",
+    "lang": "hr",
+    "term": "uhititi",
+    "translations": {
+      "en": [
+        "to arrest"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 994
+  },
+  {
+    "id": "hr-vocab-law-crime-025",
+    "lang": "hr",
+    "term": "ukrasti",
+    "translations": {
+      "en": [
+        "to steal"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 995
+  },
+  {
+    "id": "hr-vocab-law-crime-026",
+    "lang": "hr",
+    "term": "optužiti",
+    "translations": {
+      "en": [
+        "to accuse"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 996
+  },
+  {
+    "id": "hr-vocab-law-crime-027",
+    "lang": "hr",
+    "term": "prijaviti",
+    "translations": {
+      "en": [
+        "to report (a crime)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 997
+  },
+  {
+    "id": "hr-vocab-law-crime-028",
+    "lang": "hr",
+    "term": "svjedočiti",
+    "translations": {
+      "en": [
+        "to testify"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 998
+  },
+  {
+    "id": "hr-vocab-law-crime-029",
+    "lang": "hr",
+    "term": "tužba",
+    "translations": {
+      "en": [
+        "lawsuit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 999
+  },
+  {
+    "id": "hr-vocab-law-crime-030",
+    "lang": "hr",
+    "term": "presuda",
+    "translations": {
+      "en": [
+        "verdict"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 1000
   }
 ]
