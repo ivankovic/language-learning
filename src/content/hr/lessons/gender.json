@@ -1,0 +1,50 @@
+{
+  "id": "hr-lesson-gender",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-1",
+  "order": 2,
+  "title": "Noun Gender & Plurals",
+  "prerequisiteIds": ["hr-lesson-greetings"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Croatian has **no articles at all** — no \"the\" or \"a\". Instead, every noun has one of three genders, usually predictable from its ending: a noun ending in a **consonant** is masculine (**grad**, city), ending in **-a** is feminine (**kuća**, house), and ending in **-o** or **-e** is neuter (**more**, sea)." },
+    { "type": "exercise", "exerciseId": "hr-ex-gender-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-gender-2" },
+    { "type": "explanation", "markdown": "Plurals follow the gender: masculine nouns usually add **-i** (**prijatelj → prijatelji**), feminine nouns ending in **-a** change it to **-e** (**kuća → kuće**), and neuter nouns ending in **-o/-e** change to **-a** (**more → mora**)." },
+    { "type": "exercise", "exerciseId": "hr-ex-gender-3" },
+    { "type": "exercise", "exerciseId": "hr-ex-gender-4" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-gender-1",
+      "type": "multiple-choice",
+      "prompt": "What gender is \"grad\" (city — ends in a consonant)?",
+      "answer": "masculine",
+      "distractors": ["feminine", "neuter"],
+      "relatedItemId": "hr-vocab-travel-010"
+    },
+    {
+      "id": "hr-ex-gender-2",
+      "type": "multiple-choice",
+      "prompt": "What gender is \"kuća\" (house — ends in -a)?",
+      "answer": "feminine",
+      "distractors": ["masculine", "neuter"],
+      "relatedItemId": "hr-vocab-routine-028"
+    },
+    {
+      "id": "hr-ex-gender-3",
+      "type": "multiple-choice",
+      "prompt": "What gender is \"more\" (sea — ends in -e)?",
+      "answer": "neuter",
+      "distractors": ["masculine", "feminine"],
+      "relatedItemId": "hr-vocab-travel-030"
+    },
+    {
+      "id": "hr-ex-gender-4",
+      "type": "fill-blank",
+      "prompt": "What is the plural of \"prijatelj\" (friend)?",
+      "answer": "prijatelji",
+      "relatedItemId": "hr-vocab-greet-024"
+    }
+  ]
+}

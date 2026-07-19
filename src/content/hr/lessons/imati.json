@@ -1,0 +1,47 @@
+{
+  "id": "hr-lesson-imati",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-2",
+  "order": 2,
+  "title": "Imati (to have) — Present Tense",
+  "prerequisiteIds": ["hr-lesson-biti"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Imati** (to have) is regular in the present tense:\n\nja **imam** · ti **imaš** · on/ona/ono **ima** · mi **imamo** · vi **imate** · oni/one/ona **imaju**\n\nLike Italian **avere** and French **avoir** (and unlike German **sein**), Croatian uses *imati* for age: **Imam ... godina** (I am ... years old — literally \"I have ... years\")." },
+    { "type": "exercise", "exerciseId": "hr-ex-imati-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-imati-2" },
+    { "type": "explanation", "markdown": "One genuine irregularity: negating *imati* isn't \"ne\" + *imam* — the two fuse into a single irregular verb, **nemati**: **nemam, nemaš, nema, nemamo, nemate, nemaju**. **Nemam vremena** means \"I don't have time.\"" },
+    { "type": "exercise", "exerciseId": "hr-ex-imati-3" },
+    { "type": "exercise", "exerciseId": "hr-ex-imati-4" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-imati-1",
+      "type": "fill-blank",
+      "prompt": "___ dvadeset godina. (I am 20 years old — literally \"I have 20 years\".)",
+      "answer": "Imam",
+      "relatedItemId": "hr-vocab-numtime-016"
+    },
+    {
+      "id": "hr-ex-imati-2",
+      "type": "multiple-choice",
+      "prompt": "Koliko godina ___? (How old are you? — informal \"ti\")",
+      "answer": "imaš",
+      "distractors": ["imam", "ima", "imate"]
+    },
+    {
+      "id": "hr-ex-imati-3",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"I don't have time\"?",
+      "answer": "Nemam vremena.",
+      "distractors": ["Ne imam vremena.", "Imam ne vremena.", "Nisam vremena."]
+    },
+    {
+      "id": "hr-ex-imati-4",
+      "type": "translate",
+      "prompt": "Translate: \"We have a room.\"",
+      "answer": ["Imamo sobu."],
+      "relatedItemId": "hr-vocab-travel-008"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "hr-lesson-biti",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-2",
+  "order": 1,
+  "title": "Biti (to be) — Present Tense",
+  "prerequisiteIds": ["hr-lesson-gender"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Biti** (to be) is irregular and one of the most-used verbs in Croatian:\n\nja **sam** · ti **si** · on/ona/ono **je** · mi **smo** · vi **ste** · oni/one/ona **su**\n\nLike Italian and French (and unlike German), Croatian pronouns are usually dropped since the verb ending already shows who's doing the action — you'd normally just say **Umoran sam** (I'm tired), not **Ja sam umoran**, unless you want to emphasize \"I\"." },
+    { "type": "exercise", "exerciseId": "hr-ex-biti-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-biti-2" },
+    { "type": "explanation", "markdown": "**Drago mi je** literally means \"[it] is pleasing to me\" and is what you say when meeting someone for the first time." },
+    { "type": "exercise", "exerciseId": "hr-ex-biti-3" },
+    { "type": "exercise", "exerciseId": "hr-ex-biti-4" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-biti-1",
+      "type": "fill-blank",
+      "prompt": "Umoran ___. (I am tired.)",
+      "answer": "sam",
+      "relatedItemId": "hr-vocab-routine-030"
+    },
+    {
+      "id": "hr-ex-biti-2",
+      "type": "multiple-choice",
+      "prompt": "Kako ___ ti? (How are you? — informal)",
+      "answer": "si",
+      "distractors": ["sam", "je", "ste"],
+      "relatedItemId": "hr-vocab-greet-015"
+    },
+    {
+      "id": "hr-ex-biti-3",
+      "type": "multiple-choice",
+      "prompt": "How do you respond when meeting someone for the first time?",
+      "answer": "Drago mi je",
+      "distractors": ["Nema na čemu", "Oprostite", "Dobro sam"],
+      "relatedItemId": "hr-vocab-greet-018"
+    },
+    {
+      "id": "hr-ex-biti-4",
+      "type": "translate",
+      "prompt": "Translate: \"We are friends.\"",
+      "answer": ["Mi smo prijatelji.", "Prijatelji smo."],
+      "relatedItemId": "hr-vocab-greet-024"
+    }
+  ]
+}

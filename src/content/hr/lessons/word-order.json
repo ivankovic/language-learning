@@ -1,0 +1,40 @@
+{
+  "id": "hr-lesson-word-order",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-3",
+  "order": 2,
+  "title": "Word Order & Clitics",
+  "prerequisiteIds": ["hr-lesson-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Croatian word order is fairly flexible (usually subject-verb-object), but short unstressed \"clitic\" words — like **sam/si/je** (forms of *biti*), or the yes/no question word **li** — have a strict rule: they must sit in the **second position** of the clause, no matter what comes first. *Danas sam umoran* (Today I'm tired) puts **sam** right after *Danas*, not at the end." },
+    { "type": "exercise", "exerciseId": "hr-ex-word-order-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-word-order-2" },
+    { "type": "explanation", "markdown": "To turn a statement into a yes/no question, add **li** right after the verb: *Jesi li umoran?* (Are you tired?). **Gdje** (where) works like other question words — it simply starts the sentence, with the verb right behind it: *Gdje je kolodvor?* (Where is the station?)." },
+    { "type": "exercise", "exerciseId": "hr-ex-word-order-3" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-word-order-1",
+      "type": "multiple-choice",
+      "prompt": "How do you ask \"Where is the station?\"",
+      "answer": "Gdje je kolodvor?",
+      "distractors": ["Kolodvor gdje je?", "Je gdje kolodvor?", "Kolodvor je gdje?"],
+      "relatedItemId": "hr-vocab-travel-001"
+    },
+    {
+      "id": "hr-ex-word-order-2",
+      "type": "fill-blank",
+      "prompt": "Koliko ___? (How much does it cost?)",
+      "answer": "košta",
+      "relatedItemId": "hr-vocab-travel-022"
+    },
+    {
+      "id": "hr-ex-word-order-3",
+      "type": "reorder",
+      "prompt": "Put these words in order: li / umoran / Jesi / ?",
+      "answer": ["Jesi", "li", "umoran", "?"],
+      "relatedItemId": "hr-vocab-routine-030"
+    }
+  ]
+}

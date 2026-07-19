@@ -7,6 +7,7 @@ describe("content loader", () => {
     expect(hasContentBundle("it")).toBe(true);
     expect(hasContentBundle("fr")).toBe(true);
     expect(hasContentBundle("de")).toBe(true);
+    expect(hasContentBundle("hr")).toBe(true);
   });
 
   it("resolves the Italian bundle with the expected shape", async () => {
@@ -31,6 +32,14 @@ describe("content loader", () => {
     expect(content.decks.length).toBeGreaterThanOrEqual(4);
     expect(content.lessons.length).toBeGreaterThanOrEqual(5);
     expect(content.course.id).toBe("de-course-a1");
+  });
+
+  it("resolves the Croatian bundle with the expected shape", async () => {
+    const content = await loadLanguageContent("hr");
+    expect(content.vocabById.size).toBeGreaterThanOrEqual(100);
+    expect(content.decks.length).toBeGreaterThanOrEqual(4);
+    expect(content.lessons.length).toBeGreaterThanOrEqual(5);
+    expect(content.course.id).toBe("hr-course-a1");
   });
 
   it("caches the bundle across repeated loads", async () => {
@@ -61,8 +70,14 @@ describe("content loader", () => {
     expect(issues).toEqual([]);
   });
 
+  it("the Croatian seed content passes referential-integrity validation", async () => {
+    const content = await loadLanguageContent("hr");
+    const issues = validateContentBundle(content);
+    expect(issues).toEqual([]);
+  });
+
   it("every lesson's prerequisite chain terminates (no cycles) and unit->course wiring is complete", async () => {
-    for (const lang of ["it", "fr", "de"]) {
+    for (const lang of ["it", "fr", "de", "hr"]) {
       const content = await loadLanguageContent(lang);
       expect(content.units.every((u) => content.course.unitIds.includes(u.id))).toBe(true);
       const allLessonIdsInUnits = content.units.flatMap((u) => u.lessonIds);
@@ -134,6 +149,21 @@ describe("content loader", () => {
       "de-lesson-en-verbs",
       "de-lesson-word-order",
       "de-lesson-food-travel",
+    ]);
+  });
+
+  it("Croatian lessons are ordered globally by course -> unit -> lesson", async () => {
+    const content = await loadLanguageContent("hr");
+    const order = content.lessons.map((l) => l.id);
+    expect(order).toEqual([
+      "hr-lesson-greetings",
+      "hr-lesson-gender",
+      "hr-lesson-biti",
+      "hr-lesson-imati",
+      "hr-lesson-numbers",
+      "hr-lesson-verbs",
+      "hr-lesson-word-order",
+      "hr-lesson-food-travel",
     ]);
   });
 });

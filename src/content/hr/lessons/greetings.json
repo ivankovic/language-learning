@@ -1,0 +1,40 @@
+{
+  "id": "hr-lesson-greetings",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-1",
+  "order": 1,
+  "title": "Greetings & Politeness",
+  "prerequisiteIds": [],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Bok** works both as \"hi\" and \"bye\" with people you know well. For a more formal or time-specific greeting, use **dobro jutro** (morning), **dobar dan** (all-purpose formal greeting, any time of day), or **dobra večer** (evening). **Laku noć** is only said when parting for the night, never as a greeting." },
+    { "type": "exercise", "exerciseId": "hr-ex-greetings-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-greetings-2" },
+    { "type": "explanation", "markdown": "Politeness words: **molim** (please — also doubles as \"you're welcome\" or \"pardon?\"), **hvala** (thank you), and **nema na čemu** (you're welcome)." },
+    { "type": "exercise", "exerciseId": "hr-ex-greetings-3" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-greetings-1",
+      "type": "multiple-choice",
+      "prompt": "Which greeting would you use in the evening?",
+      "answer": "dobra večer",
+      "distractors": ["dobro jutro", "laku noć", "doviđenja"]
+    },
+    {
+      "id": "hr-ex-greetings-2",
+      "type": "fill-blank",
+      "prompt": "___, kako si? (informal \"hi\")",
+      "answer": "Bok",
+      "relatedItemId": "hr-vocab-greet-001"
+    },
+    {
+      "id": "hr-ex-greetings-3",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"thank you\" in Croatian?",
+      "answer": "hvala",
+      "distractors": ["molim", "oprostite", "drago mi je"],
+      "relatedItemId": "hr-vocab-greet-008"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "hr-course-a1",
+  "lang": "hr",
+  "title": "Croatian Foundations",
+  "unitIds": [
+    "hr-unit-1",
+    "hr-unit-2",
+    "hr-unit-3"
+  ]
+}

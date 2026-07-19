@@ -1,0 +1,34 @@
+[
+  {
+    "id": "hr-unit-1",
+    "courseId": "hr-course-a1",
+    "title": "Getting Started",
+    "order": 1,
+    "lessonIds": [
+      "hr-lesson-greetings",
+      "hr-lesson-gender"
+    ]
+  },
+  {
+    "id": "hr-unit-2",
+    "courseId": "hr-course-a1",
+    "title": "Biti & Imati",
+    "order": 2,
+    "lessonIds": [
+      "hr-lesson-biti",
+      "hr-lesson-imati",
+      "hr-lesson-numbers"
+    ]
+  },
+  {
+    "id": "hr-unit-3",
+    "courseId": "hr-course-a1",
+    "title": "Daily Life",
+    "order": 3,
+    "lessonIds": [
+      "hr-lesson-verbs",
+      "hr-lesson-word-order",
+      "hr-lesson-food-travel"
+    ]
+  }
+]

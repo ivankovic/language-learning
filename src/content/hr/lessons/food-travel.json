@@ -1,0 +1,49 @@
+{
+  "id": "hr-lesson-food-travel",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-3",
+  "order": 3,
+  "title": "Ordering Food & Asking Directions",
+  "prerequisiteIds": ["hr-lesson-word-order"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Htio bih...** (\"I would like...\") is the polite way to order or request something. Unlike Italian's *vorrei* or German's *ich möchte*, this phrase changes with the speaker's gender: a man says **htio bih**, a woman says **htjela bih**. Combine it with food vocabulary to order at a restaurant, or with travel vocabulary to ask for directions." },
+    { "type": "exercise", "exerciseId": "hr-ex-food-travel-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-food-travel-2" },
+    { "type": "explanation", "markdown": "Travel words like **dolazak** (arrival) and **odlazak** (departure) show up constantly on station and airport boards." },
+    { "type": "exercise", "exerciseId": "hr-ex-food-travel-3" },
+    { "type": "exercise", "exerciseId": "hr-ex-food-travel-4" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-food-travel-1",
+      "type": "multiple-choice",
+      "prompt": "You're a woman ordering water at a restaurant. What do you say?",
+      "answer": "Htjela bih vodu, molim.",
+      "distractors": ["Htio bih vodu, molim.", "Gdje je voda?", "Imam vodu."],
+      "relatedItemId": "hr-vocab-food-001"
+    },
+    {
+      "id": "hr-ex-food-travel-2",
+      "type": "multiple-choice",
+      "prompt": "Someone asks \"Gdje je hotel?\" What are they asking for?",
+      "answer": "hotel",
+      "distractors": ["restaurant", "train station", "airport"],
+      "relatedItemId": "hr-vocab-travel-007"
+    },
+    {
+      "id": "hr-ex-food-travel-3",
+      "type": "fill-blank",
+      "prompt": "Vlak ima ___ u devet sati. (arrival)",
+      "answer": "dolazak",
+      "relatedItemId": "hr-vocab-travel-017"
+    },
+    {
+      "id": "hr-ex-food-travel-4",
+      "type": "translate",
+      "prompt": "Translate: \"The restaurant is near the station.\"",
+      "answer": ["Restoran je blizu kolodvora."],
+      "relatedItemId": "hr-vocab-food-031"
+    }
+  ]
+}

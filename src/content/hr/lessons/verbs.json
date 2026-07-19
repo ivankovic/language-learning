@@ -1,0 +1,47 @@
+{
+  "id": "hr-lesson-verbs",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-3",
+  "order": 1,
+  "title": "Regular Verbs (-ati)",
+  "prerequisiteIds": ["hr-lesson-numbers"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Most Croatian verbs ending in **-ati** (like *gledati*, *slušati*, *kuhati*) follow a regular pattern in the present tense:\n\nja **-am** · ti **-aš** · on/ona/ono **-a** · mi **-amo** · vi **-ate** · oni/one/ona **-aju**\n\ne.g. *gledati* → gled**am**, gled**aš**, gled**a**, gled**amo**, gled**ate**, gled**aju**." },
+    { "type": "exercise", "exerciseId": "hr-ex-verbs-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-verbs-2" },
+    { "type": "exercise", "exerciseId": "hr-ex-verbs-3" },
+    { "type": "exercise", "exerciseId": "hr-ex-verbs-4" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-verbs-1",
+      "type": "fill-blank",
+      "prompt": "Ja ___ televiziju. (gledati — I watch TV.)",
+      "answer": "gledam",
+      "relatedItemId": "hr-vocab-routine-019"
+    },
+    {
+      "id": "hr-ex-verbs-2",
+      "type": "multiple-choice",
+      "prompt": "Mi ___ večeru. (kuhati — We cook dinner.)",
+      "answer": "kuhamo",
+      "distractors": ["kuham", "kuhaš", "kuhaju"],
+      "relatedItemId": "hr-vocab-routine-021"
+    },
+    {
+      "id": "hr-ex-verbs-3",
+      "type": "fill-blank",
+      "prompt": "Ti ___ osam sati. (spavati — You sleep eight hours.)",
+      "answer": "spavaš",
+      "relatedItemId": "hr-vocab-routine-013"
+    },
+    {
+      "id": "hr-ex-verbs-4",
+      "type": "translate",
+      "prompt": "Translate: \"They speak Croatian.\"",
+      "answer": ["Oni govore hrvatski.", "Govore hrvatski."],
+      "relatedItemId": "hr-vocab-routine-016"
+    }
+  ]
+}

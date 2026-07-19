@@ -1,0 +1,39 @@
+{
+  "id": "hr-lesson-numbers",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-2",
+  "order": 3,
+  "title": "Numbers 1-10 & Telling Time",
+  "prerequisiteIds": ["hr-lesson-imati"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Numbers 1-10: **jedan, dva, tri, četiri, pet, šest, sedam, osam, devet, deset**. To tell time, Croatian says \"Sada je...\" (It is now...), e.g. *Sada je tri sata* (It's three o'clock now)." },
+    { "type": "exercise", "exerciseId": "hr-ex-numbers-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-numbers-2" },
+    { "type": "exercise", "exerciseId": "hr-ex-numbers-3" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-numbers-1",
+      "type": "multiple-choice",
+      "prompt": "What is \"sedam\" in English?",
+      "answer": "seven",
+      "distractors": ["six", "eight", "nine"],
+      "relatedItemId": "hr-vocab-numtime-007"
+    },
+    {
+      "id": "hr-ex-numbers-2",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"morning\"?",
+      "answer": "jutro",
+      "distractors": ["večer", "popodne", "noć"],
+      "relatedItemId": "hr-vocab-numtime-020"
+    },
+    {
+      "id": "hr-ex-numbers-3",
+      "type": "reorder",
+      "prompt": "Put these words in order: sata / tri / je / Sada",
+      "answer": ["Sada", "je", "tri", "sata"]
+    }
+  ]
+}
