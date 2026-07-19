@@ -1,0 +1,40 @@
+{
+  "id": "es-lesson-articles",
+  "lang": "es",
+  "courseId": "es-course-a1",
+  "unitId": "es-unit-1",
+  "order": 2,
+  "title": "Definite Articles: el, la, los, las",
+  "prerequisiteIds": ["es-lesson-greetings"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Spanish nouns have two genders — masculine and feminine — each with a singular and plural article: **el** (masc. singular), **la** (fem. singular), **los** (masc. plural), **las** (fem. plural). Most nouns ending in **-o** are masculine and most ending in **-a** are feminine, though there are exceptions worth learning individually." },
+    { "type": "exercise", "exerciseId": "es-ex-articles-1" },
+    { "type": "exercise", "exerciseId": "es-ex-articles-2" },
+    { "type": "exercise", "exerciseId": "es-ex-articles-3" }
+  ],
+  "exercises": [
+    {
+      "id": "es-ex-articles-1",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct article for \"pan\" (bread — masculine: el pan).",
+      "answer": "el",
+      "distractors": ["la", "los", "las"],
+      "relatedItemId": "es-vocab-food-004"
+    },
+    {
+      "id": "es-ex-articles-2",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct article for \"ciudad\" (city — feminine: la ciudad).",
+      "answer": "la",
+      "distractors": ["el", "los", "las"],
+      "relatedItemId": "es-vocab-travel-010"
+    },
+    {
+      "id": "es-ex-articles-3",
+      "type": "fill-blank",
+      "prompt": "___ amigos son simpáticos. (friends — masculine plural: los amigos)",
+      "answer": "Los",
+      "relatedItemId": "es-vocab-greet-025"
+    }
+  ]
+}

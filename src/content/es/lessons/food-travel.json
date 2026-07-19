@@ -1,0 +1,49 @@
+{
+  "id": "es-lesson-food-travel",
+  "lang": "es",
+  "courseId": "es-course-a1",
+  "unitId": "es-unit-3",
+  "order": 3,
+  "title": "Ordering Food & Asking Directions",
+  "prerequisiteIds": ["es-lesson-gustar"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Quisiera...** (\"I would like...\") is the polite way to order or request something, softer than \"quiero\" (I want). Combine it with food vocabulary to order at a restaurant, or with travel vocabulary to ask for directions and information." },
+    { "type": "exercise", "exerciseId": "es-ex-food-travel-1" },
+    { "type": "exercise", "exerciseId": "es-ex-food-travel-2" },
+    { "type": "explanation", "markdown": "Travel words like **llegada** (arrival) and **salida** (departure) show up constantly on station and airport boards." },
+    { "type": "exercise", "exerciseId": "es-ex-food-travel-3" },
+    { "type": "exercise", "exerciseId": "es-ex-food-travel-4" }
+  ],
+  "exercises": [
+    {
+      "id": "es-ex-food-travel-1",
+      "type": "multiple-choice",
+      "prompt": "You want to order water at a restaurant. What do you say?",
+      "answer": "Quisiera agua, por favor.",
+      "distractors": ["¿Dónde está el agua?", "El agua es buena.", "Tengo agua."],
+      "relatedItemId": "es-vocab-food-001"
+    },
+    {
+      "id": "es-ex-food-travel-2",
+      "type": "multiple-choice",
+      "prompt": "Someone asks \"¿Dónde está el hotel?\" What are they asking for?",
+      "answer": "hotel",
+      "distractors": ["restaurant", "train station", "airport"],
+      "relatedItemId": "es-vocab-travel-007"
+    },
+    {
+      "id": "es-ex-food-travel-3",
+      "type": "fill-blank",
+      "prompt": "El tren tiene su ___ a las nueve. (arrival)",
+      "answer": "llegada",
+      "relatedItemId": "es-vocab-travel-017"
+    },
+    {
+      "id": "es-ex-food-travel-4",
+      "type": "translate",
+      "prompt": "Translate: \"The restaurant is near the station.\"",
+      "answer": ["El restaurante está cerca de la estación de tren.", "El restaurante está cerca de la estación."],
+      "relatedItemId": "es-vocab-food-031"
+    }
+  ]
+}

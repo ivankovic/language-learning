@@ -1,0 +1,40 @@
+{
+  "id": "es-lesson-gustar",
+  "lang": "es",
+  "courseId": "es-course-a1",
+  "unitId": "es-unit-3",
+  "order": 2,
+  "title": "Gustar (\"to like\") — A Backwards Verb",
+  "prerequisiteIds": ["es-lesson-ar-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Spanish doesn't have a normal verb \"to like\" — instead, **gustar** literally means \"to be pleasing to\", and the grammatical subject is the *thing liked*, not the person. **Me gusta el café** literally means \"Coffee is pleasing to me\", even though it translates as \"I like coffee\". The pronoun in front (**me**, **te**, **le**, **nos**, **os**, **les**) marks *who* is doing the liking." },
+    { "type": "exercise", "exerciseId": "es-ex-gustar-1" },
+    { "type": "exercise", "exerciseId": "es-ex-gustar-2" },
+    { "type": "explanation", "markdown": "The verb itself only ever agrees with the *thing liked*: **gusta** for one thing (*Me gusta el café*), **gustan** for more than one (*Me gustan las manzanas* — \"Apples are pleasing to me\"/\"I like apples\")." },
+    { "type": "exercise", "exerciseId": "es-ex-gustar-3" }
+  ],
+  "exercises": [
+    {
+      "id": "es-ex-gustar-1",
+      "type": "fill-blank",
+      "prompt": "___ gusta el café. (me — I like coffee.)",
+      "answer": "Me",
+      "relatedItemId": "es-vocab-food-002"
+    },
+    {
+      "id": "es-ex-gustar-2",
+      "type": "multiple-choice",
+      "prompt": "¿Te ___ el vino? (gustar — Do you like wine? — singular thing liked)",
+      "answer": "gusta",
+      "distractors": ["gustan", "gustas", "gusto"],
+      "relatedItemId": "es-vocab-food-025"
+    },
+    {
+      "id": "es-ex-gustar-3",
+      "type": "translate",
+      "prompt": "Translate: \"I like apples.\" (plural thing liked — gustan)",
+      "answer": ["Me gustan las manzanas."],
+      "relatedItemId": "es-vocab-food-014"
+    }
+  ]
+}

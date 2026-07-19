@@ -1,0 +1,10 @@
+{
+  "id": "es-course-a1",
+  "lang": "es",
+  "title": "Spanish Foundations",
+  "unitIds": [
+    "es-unit-1",
+    "es-unit-2",
+    "es-unit-3"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "es-lesson-greetings",
+  "lang": "es",
+  "courseId": "es-course-a1",
+  "unitId": "es-unit-1",
+  "order": 1,
+  "title": "Greetings & Politeness",
+  "prerequisiteIds": [],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Hola** works any time of day and in almost any setting. For time-of-day greetings, use **buenos días** (morning), **buenas tardes** (afternoon), or **buenas noches** (evening/night — also used as \"good night\" when parting)." },
+    { "type": "exercise", "exerciseId": "es-ex-greetings-1" },
+    { "type": "exercise", "exerciseId": "es-ex-greetings-2" },
+    { "type": "explanation", "markdown": "Politeness words: **por favor** (please), **gracias** (thank you), and **de nada** (you're welcome)." },
+    { "type": "exercise", "exerciseId": "es-ex-greetings-3" }
+  ],
+  "exercises": [
+    {
+      "id": "es-ex-greetings-1",
+      "type": "multiple-choice",
+      "prompt": "Which greeting would you use in the morning?",
+      "answer": "buenos días",
+      "distractors": ["buenas tardes", "buenas noches", "adiós"]
+    },
+    {
+      "id": "es-ex-greetings-2",
+      "type": "fill-blank",
+      "prompt": "___, ¿cómo estás? (informal \"hi\")",
+      "answer": "Hola",
+      "relatedItemId": "es-vocab-greet-001"
+    },
+    {
+      "id": "es-ex-greetings-3",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"thank you\" in Spanish?",
+      "answer": "gracias",
+      "distractors": ["por favor", "de nada", "perdón"],
+      "relatedItemId": "es-vocab-greet-009"
+    }
+  ]
+}

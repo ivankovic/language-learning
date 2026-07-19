@@ -1,0 +1,39 @@
+{
+  "id": "es-lesson-tener",
+  "lang": "es",
+  "courseId": "es-course-a1",
+  "unitId": "es-unit-2",
+  "order": 3,
+  "title": "Tener (to have) — Present Tense",
+  "prerequisiteIds": ["es-lesson-estar"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Tener** (to have) is irregular:\n\nyo **tengo** · tú **tienes** · él/ella/usted **tiene** · nosotros **tenemos** · vosotros **tenéis** · ellos/ustedes **tienen**\n\nLike Italian **avere**, French **avoir**, and Croatian **imati** — and unlike German's **sein** — Spanish uses *tener* for age: **Tengo ... años** (I am ... years old — literally \"I have ... years\")." },
+    { "type": "exercise", "exerciseId": "es-ex-tener-1" },
+    { "type": "exercise", "exerciseId": "es-ex-tener-2" },
+    { "type": "explanation", "markdown": "*Tener* also covers hunger and thirst, which English expresses with \"to be\": **tener hambre** (to be hungry — literally \"to have hunger\"), **tener sed** (to be thirsty)." },
+    { "type": "exercise", "exerciseId": "es-ex-tener-3" }
+  ],
+  "exercises": [
+    {
+      "id": "es-ex-tener-1",
+      "type": "fill-blank",
+      "prompt": "___ veinte años. (tener — I am 20 years old — literally \"I have 20 years\".)",
+      "answer": "Tengo",
+      "relatedItemId": "es-vocab-numtime-016"
+    },
+    {
+      "id": "es-ex-tener-2",
+      "type": "multiple-choice",
+      "prompt": "¿Cuántos años ___? (tener — How old are you? — informal \"tú\")",
+      "answer": "tienes",
+      "distractors": ["tengo", "tiene", "tenemos"]
+    },
+    {
+      "id": "es-ex-tener-3",
+      "type": "translate",
+      "prompt": "Translate: \"I am hungry.\" (literally \"I have hunger\")",
+      "answer": ["Tengo hambre."],
+      "relatedItemId": "es-vocab-food-035"
+    }
+  ]
+}

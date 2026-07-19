@@ -8,6 +8,7 @@ export const languages: Language[] = [
   { code: "fr", name: "French", script: "latin", direction: "ltr", ttsVoiceHint: "fr-FR", flag: "🇫🇷" },
   { code: "de", name: "German", script: "latin", direction: "ltr", ttsVoiceHint: "de-DE", flag: "🇩🇪" },
   { code: "hr", name: "Croatian", script: "latin", direction: "ltr", ttsVoiceHint: "hr-HR", flag: "🇭🇷" },
+  { code: "es", name: "Spanish", script: "latin", direction: "ltr", ttsVoiceHint: "es-ES", flag: "🇪🇸" },
 ];
 
 export function getLanguage(code: string): Language | undefined {

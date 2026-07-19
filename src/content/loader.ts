@@ -13,6 +13,7 @@ const registry: Record<string, () => Promise<LoadedLanguageContent>> = {
   fr: () => import("./fr/index").then((m) => m.loadFrenchContent()),
   de: () => import("./de/index").then((m) => m.loadGermanContent()),
   hr: () => import("./hr/index").then((m) => m.loadCroatianContent()),
+  es: () => import("./es/index").then((m) => m.loadSpanishContent()),
 };
 
 const cache = new Map<string, Promise<LoadedLanguageContent>>();

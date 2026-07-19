@@ -1,0 +1,37 @@
+{
+  "id": "es-lesson-ser",
+  "lang": "es",
+  "courseId": "es-course-a1",
+  "unitId": "es-unit-2",
+  "order": 1,
+  "title": "Ser (to be) — Permanent Traits",
+  "prerequisiteIds": ["es-lesson-articles"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Spanish has **two** verbs for \"to be\" — a genuine split that Italian, French, German, and Croatian don't have. **Ser** covers things that are stable or defining: identity, origin, profession, and inherent characteristics.\n\nyo **soy** · tú **eres** · él/ella/usted **es** · nosotros **somos** · vosotros **sois** · ellos/ustedes **son**\n\n*Soy de España* (I'm from Spain), *Ella es médica* (She is a doctor), *El café es caliente* (Coffee [as a category] is hot)." },
+    { "type": "exercise", "exerciseId": "es-ex-ser-1" },
+    { "type": "exercise", "exerciseId": "es-ex-ser-2" },
+    { "type": "exercise", "exerciseId": "es-ex-ser-3" }
+  ],
+  "exercises": [
+    {
+      "id": "es-ex-ser-1",
+      "type": "fill-blank",
+      "prompt": "Yo ___ de Italia. (ser — I am from Italy.)",
+      "answer": "soy"
+    },
+    {
+      "id": "es-ex-ser-2",
+      "type": "multiple-choice",
+      "prompt": "¿De dónde ___ tú? (ser — Where are you from?)",
+      "answer": "eres",
+      "distractors": ["soy", "es", "son"]
+    },
+    {
+      "id": "es-ex-ser-3",
+      "type": "translate",
+      "prompt": "Translate: \"We are friends.\" (ser — a stable, defining relationship)",
+      "answer": ["Somos amigos."],
+      "relatedItemId": "es-vocab-greet-025"
+    }
+  ]
+}

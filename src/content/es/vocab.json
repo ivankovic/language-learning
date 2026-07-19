@@ -1,0 +1,2414 @@
+[
+  {
+    "id": "es-vocab-greet-001",
+    "lang": "es",
+    "term": "hola",
+    "translations": {
+      "en": [
+        "hi",
+        "hello"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 1
+  },
+  {
+    "id": "es-vocab-greet-002",
+    "lang": "es",
+    "term": "buenos días",
+    "translations": {
+      "en": [
+        "good morning"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 2
+  },
+  {
+    "id": "es-vocab-greet-003",
+    "lang": "es",
+    "term": "buenas tardes",
+    "translations": {
+      "en": [
+        "good afternoon"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 3
+  },
+  {
+    "id": "es-vocab-greet-004",
+    "lang": "es",
+    "term": "buenas noches",
+    "translations": {
+      "en": [
+        "good evening",
+        "good night"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 4
+  },
+  {
+    "id": "es-vocab-greet-005",
+    "lang": "es",
+    "term": "adiós",
+    "translations": {
+      "en": [
+        "goodbye"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 5
+  },
+  {
+    "id": "es-vocab-greet-006",
+    "lang": "es",
+    "term": "hasta luego",
+    "translations": {
+      "en": [
+        "see you later"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 6
+  },
+  {
+    "id": "es-vocab-greet-007",
+    "lang": "es",
+    "term": "hasta pronto",
+    "translations": {
+      "en": [
+        "see you soon"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 7
+  },
+  {
+    "id": "es-vocab-greet-008",
+    "lang": "es",
+    "term": "por favor",
+    "translations": {
+      "en": [
+        "please"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 8
+  },
+  {
+    "id": "es-vocab-greet-009",
+    "lang": "es",
+    "term": "gracias",
+    "translations": {
+      "en": [
+        "thank you"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 9
+  },
+  {
+    "id": "es-vocab-greet-010",
+    "lang": "es",
+    "term": "muchas gracias",
+    "translations": {
+      "en": [
+        "thank you very much"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 10
+  },
+  {
+    "id": "es-vocab-greet-011",
+    "lang": "es",
+    "term": "de nada",
+    "translations": {
+      "en": [
+        "you're welcome"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 11
+  },
+  {
+    "id": "es-vocab-greet-012",
+    "lang": "es",
+    "term": "perdón",
+    "translations": {
+      "en": [
+        "excuse me",
+        "sorry"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 12
+  },
+  {
+    "id": "es-vocab-greet-013",
+    "lang": "es",
+    "term": "lo siento",
+    "translations": {
+      "en": [
+        "I'm sorry"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 13
+  },
+  {
+    "id": "es-vocab-greet-014",
+    "lang": "es",
+    "term": "sí",
+    "translations": {
+      "en": [
+        "yes"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 14
+  },
+  {
+    "id": "es-vocab-greet-015",
+    "lang": "es",
+    "term": "no",
+    "translations": {
+      "en": [
+        "no"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 15
+  },
+  {
+    "id": "es-vocab-greet-016",
+    "lang": "es",
+    "term": "cómo estás",
+    "translations": {
+      "en": [
+        "how are you"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 16
+  },
+  {
+    "id": "es-vocab-greet-017",
+    "lang": "es",
+    "term": "cómo está usted",
+    "translations": {
+      "en": [
+        "how are you (formal)"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 17
+  },
+  {
+    "id": "es-vocab-greet-018",
+    "lang": "es",
+    "term": "estoy bien",
+    "translations": {
+      "en": [
+        "I'm fine"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 18
+  },
+  {
+    "id": "es-vocab-greet-019",
+    "lang": "es",
+    "term": "mucho gusto",
+    "translations": {
+      "en": [
+        "nice to meet you"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 19
+  },
+  {
+    "id": "es-vocab-greet-020",
+    "lang": "es",
+    "term": "cómo te llamas",
+    "translations": {
+      "en": [
+        "what's your name"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 20
+  },
+  {
+    "id": "es-vocab-greet-021",
+    "lang": "es",
+    "term": "me llamo",
+    "translations": {
+      "en": [
+        "my name is"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 21
+  },
+  {
+    "id": "es-vocab-greet-022",
+    "lang": "es",
+    "term": "señor",
+    "translations": {
+      "en": [
+        "Mr.",
+        "sir"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 22
+  },
+  {
+    "id": "es-vocab-greet-023",
+    "lang": "es",
+    "term": "señora",
+    "translations": {
+      "en": [
+        "Mrs.",
+        "madam"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 23
+  },
+  {
+    "id": "es-vocab-greet-024",
+    "lang": "es",
+    "term": "señorita",
+    "translations": {
+      "en": [
+        "Miss"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 24
+  },
+  {
+    "id": "es-vocab-greet-025",
+    "lang": "es",
+    "term": "amigo",
+    "translations": {
+      "en": [
+        "friend"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 25
+  },
+  {
+    "id": "es-vocab-greet-026",
+    "lang": "es",
+    "term": "amiga",
+    "translations": {
+      "en": [
+        "friend"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 26
+  },
+  {
+    "id": "es-vocab-greet-027",
+    "lang": "es",
+    "term": "bienvenido",
+    "translations": {
+      "en": [
+        "welcome"
+      ]
+    },
+    "pos": "interjection",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 27
+  },
+  {
+    "id": "es-vocab-greet-028",
+    "lang": "es",
+    "term": "nos vemos",
+    "translations": {
+      "en": [
+        "see you"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 28
+  },
+  {
+    "id": "es-vocab-greet-029",
+    "lang": "es",
+    "term": "hasta mañana",
+    "translations": {
+      "en": [
+        "see you tomorrow"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 29
+  },
+  {
+    "id": "es-vocab-greet-030",
+    "lang": "es",
+    "term": "no hay problema",
+    "translations": {
+      "en": [
+        "no problem"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "greet"
+    ],
+    "frequencyRank": 30
+  },
+  {
+    "id": "es-vocab-food-001",
+    "lang": "es",
+    "term": "agua",
+    "translations": {
+      "en": [
+        "water"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 31
+  },
+  {
+    "id": "es-vocab-food-002",
+    "lang": "es",
+    "term": "café",
+    "translations": {
+      "en": [
+        "coffee"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 32
+  },
+  {
+    "id": "es-vocab-food-003",
+    "lang": "es",
+    "term": "té",
+    "translations": {
+      "en": [
+        "tea"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 33
+  },
+  {
+    "id": "es-vocab-food-004",
+    "lang": "es",
+    "term": "pan",
+    "translations": {
+      "en": [
+        "bread"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 34
+  },
+  {
+    "id": "es-vocab-food-005",
+    "lang": "es",
+    "term": "mantequilla",
+    "translations": {
+      "en": [
+        "butter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 35
+  },
+  {
+    "id": "es-vocab-food-006",
+    "lang": "es",
+    "term": "queso",
+    "translations": {
+      "en": [
+        "cheese"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 36
+  },
+  {
+    "id": "es-vocab-food-007",
+    "lang": "es",
+    "term": "leche",
+    "translations": {
+      "en": [
+        "milk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 37
+  },
+  {
+    "id": "es-vocab-food-008",
+    "lang": "es",
+    "term": "huevo",
+    "translations": {
+      "en": [
+        "egg"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 38
+  },
+  {
+    "id": "es-vocab-food-009",
+    "lang": "es",
+    "term": "carne",
+    "translations": {
+      "en": [
+        "meat"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 39
+  },
+  {
+    "id": "es-vocab-food-010",
+    "lang": "es",
+    "term": "pollo",
+    "translations": {
+      "en": [
+        "chicken"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 40
+  },
+  {
+    "id": "es-vocab-food-011",
+    "lang": "es",
+    "term": "pescado",
+    "translations": {
+      "en": [
+        "fish"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 41
+  },
+  {
+    "id": "es-vocab-food-012",
+    "lang": "es",
+    "term": "verduras",
+    "translations": {
+      "en": [
+        "vegetables"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 42
+  },
+  {
+    "id": "es-vocab-food-013",
+    "lang": "es",
+    "term": "fruta",
+    "translations": {
+      "en": [
+        "fruit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 43
+  },
+  {
+    "id": "es-vocab-food-014",
+    "lang": "es",
+    "term": "manzana",
+    "translations": {
+      "en": [
+        "apple"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 44
+  },
+  {
+    "id": "es-vocab-food-015",
+    "lang": "es",
+    "term": "tomate",
+    "translations": {
+      "en": [
+        "tomato"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 45
+  },
+  {
+    "id": "es-vocab-food-016",
+    "lang": "es",
+    "term": "patata",
+    "translations": {
+      "en": [
+        "potato"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 46
+  },
+  {
+    "id": "es-vocab-food-017",
+    "lang": "es",
+    "term": "arroz",
+    "translations": {
+      "en": [
+        "rice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 47
+  },
+  {
+    "id": "es-vocab-food-018",
+    "lang": "es",
+    "term": "pasta",
+    "translations": {
+      "en": [
+        "pasta"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 48
+  },
+  {
+    "id": "es-vocab-food-019",
+    "lang": "es",
+    "term": "sopa",
+    "translations": {
+      "en": [
+        "soup"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 49
+  },
+  {
+    "id": "es-vocab-food-020",
+    "lang": "es",
+    "term": "ensalada",
+    "translations": {
+      "en": [
+        "salad"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 50
+  },
+  {
+    "id": "es-vocab-food-021",
+    "lang": "es",
+    "term": "postre",
+    "translations": {
+      "en": [
+        "dessert"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 51
+  },
+  {
+    "id": "es-vocab-food-022",
+    "lang": "es",
+    "term": "sal",
+    "translations": {
+      "en": [
+        "salt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 52
+  },
+  {
+    "id": "es-vocab-food-023",
+    "lang": "es",
+    "term": "pimienta",
+    "translations": {
+      "en": [
+        "pepper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 53
+  },
+  {
+    "id": "es-vocab-food-024",
+    "lang": "es",
+    "term": "azúcar",
+    "translations": {
+      "en": [
+        "sugar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 54
+  },
+  {
+    "id": "es-vocab-food-025",
+    "lang": "es",
+    "term": "vino",
+    "translations": {
+      "en": [
+        "wine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 55
+  },
+  {
+    "id": "es-vocab-food-026",
+    "lang": "es",
+    "term": "cerveza",
+    "translations": {
+      "en": [
+        "beer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 56
+  },
+  {
+    "id": "es-vocab-food-027",
+    "lang": "es",
+    "term": "jugo",
+    "translations": {
+      "en": [
+        "juice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 57
+  },
+  {
+    "id": "es-vocab-food-028",
+    "lang": "es",
+    "term": "desayuno",
+    "translations": {
+      "en": [
+        "breakfast"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 58
+  },
+  {
+    "id": "es-vocab-food-029",
+    "lang": "es",
+    "term": "almuerzo",
+    "translations": {
+      "en": [
+        "lunch"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 59
+  },
+  {
+    "id": "es-vocab-food-030",
+    "lang": "es",
+    "term": "cena",
+    "translations": {
+      "en": [
+        "dinner"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 60
+  },
+  {
+    "id": "es-vocab-food-031",
+    "lang": "es",
+    "term": "restaurante",
+    "translations": {
+      "en": [
+        "restaurant"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 61
+  },
+  {
+    "id": "es-vocab-food-032",
+    "lang": "es",
+    "term": "camarero",
+    "translations": {
+      "en": [
+        "waiter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 62
+  },
+  {
+    "id": "es-vocab-food-033",
+    "lang": "es",
+    "term": "cuenta",
+    "translations": {
+      "en": [
+        "bill",
+        "check"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 63
+  },
+  {
+    "id": "es-vocab-food-034",
+    "lang": "es",
+    "term": "delicioso",
+    "translations": {
+      "en": [
+        "delicious"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 64
+  },
+  {
+    "id": "es-vocab-food-035",
+    "lang": "es",
+    "term": "hambre",
+    "translations": {
+      "en": [
+        "hunger"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "frequencyRank": 65
+  },
+  {
+    "id": "es-vocab-travel-001",
+    "lang": "es",
+    "term": "estación de tren",
+    "translations": {
+      "en": [
+        "train station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 66
+  },
+  {
+    "id": "es-vocab-travel-002",
+    "lang": "es",
+    "term": "aeropuerto",
+    "translations": {
+      "en": [
+        "airport"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 67
+  },
+  {
+    "id": "es-vocab-travel-003",
+    "lang": "es",
+    "term": "autobús",
+    "translations": {
+      "en": [
+        "bus"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 68
+  },
+  {
+    "id": "es-vocab-travel-004",
+    "lang": "es",
+    "term": "tren",
+    "translations": {
+      "en": [
+        "train"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 69
+  },
+  {
+    "id": "es-vocab-travel-005",
+    "lang": "es",
+    "term": "taxi",
+    "translations": {
+      "en": [
+        "taxi"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 70
+  },
+  {
+    "id": "es-vocab-travel-006",
+    "lang": "es",
+    "term": "billete",
+    "translations": {
+      "en": [
+        "ticket"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 71
+  },
+  {
+    "id": "es-vocab-travel-007",
+    "lang": "es",
+    "term": "hotel",
+    "translations": {
+      "en": [
+        "hotel"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 72
+  },
+  {
+    "id": "es-vocab-travel-008",
+    "lang": "es",
+    "term": "habitación",
+    "translations": {
+      "en": [
+        "room"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 73
+  },
+  {
+    "id": "es-vocab-travel-009",
+    "lang": "es",
+    "term": "calle",
+    "translations": {
+      "en": [
+        "street"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 74
+  },
+  {
+    "id": "es-vocab-travel-010",
+    "lang": "es",
+    "term": "ciudad",
+    "translations": {
+      "en": [
+        "city"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 75
+  },
+  {
+    "id": "es-vocab-travel-011",
+    "lang": "es",
+    "term": "izquierda",
+    "translations": {
+      "en": [
+        "left"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 76
+  },
+  {
+    "id": "es-vocab-travel-012",
+    "lang": "es",
+    "term": "derecha",
+    "translations": {
+      "en": [
+        "right"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 77
+  },
+  {
+    "id": "es-vocab-travel-013",
+    "lang": "es",
+    "term": "todo recto",
+    "translations": {
+      "en": [
+        "straight ahead"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 78
+  },
+  {
+    "id": "es-vocab-travel-014",
+    "lang": "es",
+    "term": "cerca",
+    "translations": {
+      "en": [
+        "near"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 79
+  },
+  {
+    "id": "es-vocab-travel-015",
+    "lang": "es",
+    "term": "lejos",
+    "translations": {
+      "en": [
+        "far"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 80
+  },
+  {
+    "id": "es-vocab-travel-016",
+    "lang": "es",
+    "term": "dónde",
+    "translations": {
+      "en": [
+        "where"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 81
+  },
+  {
+    "id": "es-vocab-travel-017",
+    "lang": "es",
+    "term": "llegada",
+    "translations": {
+      "en": [
+        "arrival"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 82
+  },
+  {
+    "id": "es-vocab-travel-018",
+    "lang": "es",
+    "term": "salida",
+    "translations": {
+      "en": [
+        "departure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 83
+  },
+  {
+    "id": "es-vocab-travel-019",
+    "lang": "es",
+    "term": "pasaporte",
+    "translations": {
+      "en": [
+        "passport"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 84
+  },
+  {
+    "id": "es-vocab-travel-020",
+    "lang": "es",
+    "term": "equipaje",
+    "translations": {
+      "en": [
+        "luggage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 85
+  },
+  {
+    "id": "es-vocab-travel-021",
+    "lang": "es",
+    "term": "mapa",
+    "translations": {
+      "en": [
+        "map"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 86
+  },
+  {
+    "id": "es-vocab-travel-022",
+    "lang": "es",
+    "term": "cuánto cuesta",
+    "translations": {
+      "en": [
+        "how much does it cost"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 87
+  },
+  {
+    "id": "es-vocab-travel-023",
+    "lang": "es",
+    "term": "barato",
+    "translations": {
+      "en": [
+        "cheap"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 88
+  },
+  {
+    "id": "es-vocab-travel-024",
+    "lang": "es",
+    "term": "caro",
+    "translations": {
+      "en": [
+        "expensive"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 89
+  },
+  {
+    "id": "es-vocab-travel-025",
+    "lang": "es",
+    "term": "reserva",
+    "translations": {
+      "en": [
+        "reservation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 90
+  },
+  {
+    "id": "es-vocab-travel-026",
+    "lang": "es",
+    "term": "entrada",
+    "translations": {
+      "en": [
+        "entrance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 91
+  },
+  {
+    "id": "es-vocab-travel-027",
+    "lang": "es",
+    "term": "plataforma",
+    "translations": {
+      "en": [
+        "platform"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 92
+  },
+  {
+    "id": "es-vocab-travel-028",
+    "lang": "es",
+    "term": "playa",
+    "translations": {
+      "en": [
+        "beach"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 93
+  },
+  {
+    "id": "es-vocab-travel-029",
+    "lang": "es",
+    "term": "mar",
+    "translations": {
+      "en": [
+        "sea"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 94
+  },
+  {
+    "id": "es-vocab-travel-030",
+    "lang": "es",
+    "term": "montaña",
+    "translations": {
+      "en": [
+        "mountain"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 95
+  },
+  {
+    "id": "es-vocab-travel-031",
+    "lang": "es",
+    "term": "viaje",
+    "translations": {
+      "en": [
+        "trip",
+        "journey"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 96
+  },
+  {
+    "id": "es-vocab-travel-032",
+    "lang": "es",
+    "term": "viajar",
+    "translations": {
+      "en": [
+        "to travel"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 97
+  },
+  {
+    "id": "es-vocab-travel-033",
+    "lang": "es",
+    "term": "coche",
+    "translations": {
+      "en": [
+        "car"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 98
+  },
+  {
+    "id": "es-vocab-travel-034",
+    "lang": "es",
+    "term": "barco",
+    "translations": {
+      "en": [
+        "boat",
+        "ship"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 99
+  },
+  {
+    "id": "es-vocab-travel-035",
+    "lang": "es",
+    "term": "cruce",
+    "translations": {
+      "en": [
+        "intersection"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "travel"
+    ],
+    "frequencyRank": 100
+  },
+  {
+    "id": "es-vocab-routine-001",
+    "lang": "es",
+    "term": "familia",
+    "translations": {
+      "en": [
+        "family"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 101
+  },
+  {
+    "id": "es-vocab-routine-002",
+    "lang": "es",
+    "term": "madre",
+    "translations": {
+      "en": [
+        "mother"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 102
+  },
+  {
+    "id": "es-vocab-routine-003",
+    "lang": "es",
+    "term": "padre",
+    "translations": {
+      "en": [
+        "father"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 103
+  },
+  {
+    "id": "es-vocab-routine-004",
+    "lang": "es",
+    "term": "hermano",
+    "translations": {
+      "en": [
+        "brother"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 104
+  },
+  {
+    "id": "es-vocab-routine-005",
+    "lang": "es",
+    "term": "hermana",
+    "translations": {
+      "en": [
+        "sister"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 105
+  },
+  {
+    "id": "es-vocab-routine-006",
+    "lang": "es",
+    "term": "hijo",
+    "translations": {
+      "en": [
+        "son"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 106
+  },
+  {
+    "id": "es-vocab-routine-007",
+    "lang": "es",
+    "term": "hija",
+    "translations": {
+      "en": [
+        "daughter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 107
+  },
+  {
+    "id": "es-vocab-routine-008",
+    "lang": "es",
+    "term": "niño",
+    "translations": {
+      "en": [
+        "child"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 108
+  },
+  {
+    "id": "es-vocab-routine-009",
+    "lang": "es",
+    "term": "esposo",
+    "translations": {
+      "en": [
+        "husband"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 109
+  },
+  {
+    "id": "es-vocab-routine-010",
+    "lang": "es",
+    "term": "esposa",
+    "translations": {
+      "en": [
+        "wife"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 110
+  },
+  {
+    "id": "es-vocab-routine-011",
+    "lang": "es",
+    "term": "trabajar",
+    "translations": {
+      "en": [
+        "to work"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 111
+  },
+  {
+    "id": "es-vocab-routine-012",
+    "lang": "es",
+    "term": "estudiar",
+    "translations": {
+      "en": [
+        "to learn",
+        "to study"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 112
+  },
+  {
+    "id": "es-vocab-routine-013",
+    "lang": "es",
+    "term": "dormir",
+    "translations": {
+      "en": [
+        "to sleep"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 113
+  },
+  {
+    "id": "es-vocab-routine-014",
+    "lang": "es",
+    "term": "comer",
+    "translations": {
+      "en": [
+        "to eat"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 114
+  },
+  {
+    "id": "es-vocab-routine-015",
+    "lang": "es",
+    "term": "beber",
+    "translations": {
+      "en": [
+        "to drink"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 115
+  },
+  {
+    "id": "es-vocab-routine-016",
+    "lang": "es",
+    "term": "hablar",
+    "translations": {
+      "en": [
+        "to speak"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 116
+  },
+  {
+    "id": "es-vocab-routine-017",
+    "lang": "es",
+    "term": "vivir",
+    "translations": {
+      "en": [
+        "to live"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 117
+  },
+  {
+    "id": "es-vocab-routine-018",
+    "lang": "es",
+    "term": "amar",
+    "translations": {
+      "en": [
+        "to love"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 118
+  },
+  {
+    "id": "es-vocab-routine-019",
+    "lang": "es",
+    "term": "mirar",
+    "translations": {
+      "en": [
+        "to watch"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 119
+  },
+  {
+    "id": "es-vocab-routine-020",
+    "lang": "es",
+    "term": "escuchar",
+    "translations": {
+      "en": [
+        "to listen"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 120
+  },
+  {
+    "id": "es-vocab-routine-021",
+    "lang": "es",
+    "term": "cocinar",
+    "translations": {
+      "en": [
+        "to cook"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 121
+  },
+  {
+    "id": "es-vocab-routine-022",
+    "lang": "es",
+    "term": "limpiar",
+    "translations": {
+      "en": [
+        "to clean"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 122
+  },
+  {
+    "id": "es-vocab-routine-023",
+    "lang": "es",
+    "term": "comprar",
+    "translations": {
+      "en": [
+        "to buy"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 123
+  },
+  {
+    "id": "es-vocab-routine-024",
+    "lang": "es",
+    "term": "jugar",
+    "translations": {
+      "en": [
+        "to play"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 124
+  },
+  {
+    "id": "es-vocab-routine-025",
+    "lang": "es",
+    "term": "levantarse",
+    "translations": {
+      "en": [
+        "to get up"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 125
+  },
+  {
+    "id": "es-vocab-routine-026",
+    "lang": "es",
+    "term": "trabajo",
+    "translations": {
+      "en": [
+        "job",
+        "work"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 126
+  },
+  {
+    "id": "es-vocab-routine-027",
+    "lang": "es",
+    "term": "escuela",
+    "translations": {
+      "en": [
+        "school"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 127
+  },
+  {
+    "id": "es-vocab-routine-028",
+    "lang": "es",
+    "term": "casa",
+    "translations": {
+      "en": [
+        "house"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 128
+  },
+  {
+    "id": "es-vocab-routine-029",
+    "lang": "es",
+    "term": "apartamento",
+    "translations": {
+      "en": [
+        "apartment"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 129
+  },
+  {
+    "id": "es-vocab-routine-030",
+    "lang": "es",
+    "term": "cansado",
+    "translations": {
+      "en": [
+        "tired"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "routine"
+    ],
+    "frequencyRank": 130
+  },
+  {
+    "id": "es-vocab-numtime-001",
+    "lang": "es",
+    "term": "uno",
+    "translations": {
+      "en": [
+        "one"
+      ]
+    },
+    "pos": "number",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 131
+  },
+  {
+    "id": "es-vocab-numtime-002",
+    "lang": "es",
+    "term": "dos",
+    "translations": {
+      "en": [
+        "two"
+      ]
+    },
+    "pos": "number",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 132
+  },
+  {
+    "id": "es-vocab-numtime-003",
+    "lang": "es",
+    "term": "tres",
+    "translations": {
+      "en": [
+        "three"
+      ]
+    },
+    "pos": "number",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 133
+  },
+  {
+    "id": "es-vocab-numtime-004",
+    "lang": "es",
+    "term": "cuatro",
+    "translations": {
+      "en": [
+        "four"
+      ]
+    },
+    "pos": "number",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 134
+  },
+  {
+    "id": "es-vocab-numtime-005",
+    "lang": "es",
+    "term": "cinco",
+    "translations": {
+      "en": [
+        "five"
+      ]
+    },
+    "pos": "number",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 135
+  },
+  {
+    "id": "es-vocab-numtime-006",
+    "lang": "es",
+    "term": "seis",
+    "translations": {
+      "en": [
+        "six"
+      ]
+    },
+    "pos": "number",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 136
+  },
+  {
+    "id": "es-vocab-numtime-007",
+    "lang": "es",
+    "term": "siete",
+    "translations": {
+      "en": [
+        "seven"
+      ]
+    },
+    "pos": "number",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 137
+  },
+  {
+    "id": "es-vocab-numtime-008",
+    "lang": "es",
+    "term": "ocho",
+    "translations": {
+      "en": [
+        "eight"
+      ]
+    },
+    "pos": "number",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 138
+  },
+  {
+    "id": "es-vocab-numtime-009",
+    "lang": "es",
+    "term": "nueve",
+    "translations": {
+      "en": [
+        "nine"
+      ]
+    },
+    "pos": "number",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 139
+  },
+  {
+    "id": "es-vocab-numtime-010",
+    "lang": "es",
+    "term": "diez",
+    "translations": {
+      "en": [
+        "ten"
+      ]
+    },
+    "pos": "number",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 140
+  },
+  {
+    "id": "es-vocab-numtime-011",
+    "lang": "es",
+    "term": "hora",
+    "translations": {
+      "en": [
+        "hour"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 141
+  },
+  {
+    "id": "es-vocab-numtime-012",
+    "lang": "es",
+    "term": "minuto",
+    "translations": {
+      "en": [
+        "minute"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 142
+  },
+  {
+    "id": "es-vocab-numtime-013",
+    "lang": "es",
+    "term": "día",
+    "translations": {
+      "en": [
+        "day"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 143
+  },
+  {
+    "id": "es-vocab-numtime-014",
+    "lang": "es",
+    "term": "semana",
+    "translations": {
+      "en": [
+        "week"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 144
+  },
+  {
+    "id": "es-vocab-numtime-015",
+    "lang": "es",
+    "term": "mes",
+    "translations": {
+      "en": [
+        "month"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 145
+  },
+  {
+    "id": "es-vocab-numtime-016",
+    "lang": "es",
+    "term": "año",
+    "translations": {
+      "en": [
+        "year"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 146
+  },
+  {
+    "id": "es-vocab-numtime-017",
+    "lang": "es",
+    "term": "hoy",
+    "translations": {
+      "en": [
+        "today"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 147
+  },
+  {
+    "id": "es-vocab-numtime-018",
+    "lang": "es",
+    "term": "mañana",
+    "translations": {
+      "en": [
+        "tomorrow",
+        "morning"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 148
+  },
+  {
+    "id": "es-vocab-numtime-019",
+    "lang": "es",
+    "term": "ayer",
+    "translations": {
+      "en": [
+        "yesterday"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 149
+  },
+  {
+    "id": "es-vocab-numtime-020",
+    "lang": "es",
+    "term": "tarde",
+    "translations": {
+      "en": [
+        "afternoon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 150
+  },
+  {
+    "id": "es-vocab-numtime-021",
+    "lang": "es",
+    "term": "noche",
+    "translations": {
+      "en": [
+        "night"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 151
+  },
+  {
+    "id": "es-vocab-numtime-022",
+    "lang": "es",
+    "term": "ahora",
+    "translations": {
+      "en": [
+        "now"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 152
+  },
+  {
+    "id": "es-vocab-numtime-023",
+    "lang": "es",
+    "term": "más tarde",
+    "translations": {
+      "en": [
+        "later"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 153
+  },
+  {
+    "id": "es-vocab-numtime-024",
+    "lang": "es",
+    "term": "siempre",
+    "translations": {
+      "en": [
+        "always"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 154
+  },
+  {
+    "id": "es-vocab-numtime-025",
+    "lang": "es",
+    "term": "nunca",
+    "translations": {
+      "en": [
+        "never"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 155
+  },
+  {
+    "id": "es-vocab-numtime-026",
+    "lang": "es",
+    "term": "a veces",
+    "translations": {
+      "en": [
+        "sometimes"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 156
+  },
+  {
+    "id": "es-vocab-numtime-027",
+    "lang": "es",
+    "term": "temprano",
+    "translations": {
+      "en": [
+        "early"
+      ]
+    },
+    "pos": "adverb",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 157
+  },
+  {
+    "id": "es-vocab-numtime-028",
+    "lang": "es",
+    "term": "atrasado",
+    "translations": {
+      "en": [
+        "late",
+        "delayed"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 158
+  },
+  {
+    "id": "es-vocab-numtime-029",
+    "lang": "es",
+    "term": "mediodía",
+    "translations": {
+      "en": [
+        "noon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 159
+  },
+  {
+    "id": "es-vocab-numtime-030",
+    "lang": "es",
+    "term": "medianoche",
+    "translations": {
+      "en": [
+        "midnight"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "time"
+    ],
+    "frequencyRank": 160
+  }
+]

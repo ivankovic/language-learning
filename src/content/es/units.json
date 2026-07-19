@@ -1,0 +1,34 @@
+[
+  {
+    "id": "es-unit-1",
+    "courseId": "es-course-a1",
+    "title": "Getting Started",
+    "order": 1,
+    "lessonIds": [
+      "es-lesson-greetings",
+      "es-lesson-articles"
+    ]
+  },
+  {
+    "id": "es-unit-2",
+    "courseId": "es-course-a1",
+    "title": "Ser, Estar & Tener",
+    "order": 2,
+    "lessonIds": [
+      "es-lesson-ser",
+      "es-lesson-estar",
+      "es-lesson-tener"
+    ]
+  },
+  {
+    "id": "es-unit-3",
+    "courseId": "es-course-a1",
+    "title": "Daily Life",
+    "order": 3,
+    "lessonIds": [
+      "es-lesson-ar-verbs",
+      "es-lesson-gustar",
+      "es-lesson-food-travel"
+    ]
+  }
+]

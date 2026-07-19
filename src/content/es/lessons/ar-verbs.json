@@ -1,0 +1,46 @@
+{
+  "id": "es-lesson-ar-verbs",
+  "lang": "es",
+  "courseId": "es-course-a1",
+  "unitId": "es-unit-3",
+  "order": 1,
+  "title": "Regular Verbs (-ar)",
+  "prerequisiteIds": ["es-lesson-tener"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Most Spanish verbs ending in **-ar** (like *trabajar*, *estudiar*, *hablar*) follow a regular pattern in the present tense:\n\nyo **-o** · tú **-as** · él/ella/usted **-a** · nosotros **-amos** · vosotros **-áis** · ellos/ustedes **-an**\n\ne.g. *hablar* → habl**o**, habl**as**, habl**a**, habl**amos**, habl**áis**, habl**an**." },
+    { "type": "exercise", "exerciseId": "es-ex-ar-1" },
+    { "type": "exercise", "exerciseId": "es-ex-ar-2" },
+    { "type": "exercise", "exerciseId": "es-ex-ar-3" },
+    { "type": "exercise", "exerciseId": "es-ex-ar-4" }
+  ],
+  "exercises": [
+    {
+      "id": "es-ex-ar-1",
+      "type": "fill-blank",
+      "prompt": "Yo ___ español. (hablar — I speak Spanish.)",
+      "answer": "hablo"
+    },
+    {
+      "id": "es-ex-ar-2",
+      "type": "multiple-choice",
+      "prompt": "Nosotros ___ en Madrid. (trabajar — We work in Madrid.)",
+      "answer": "trabajamos",
+      "distractors": ["trabajo", "trabajas", "trabajan"],
+      "relatedItemId": "es-vocab-routine-011"
+    },
+    {
+      "id": "es-ex-ar-3",
+      "type": "fill-blank",
+      "prompt": "Tú ___ español. (estudiar — You study Spanish.)",
+      "answer": "estudias",
+      "relatedItemId": "es-vocab-routine-012"
+    },
+    {
+      "id": "es-ex-ar-4",
+      "type": "translate",
+      "prompt": "Translate: \"They buy bread.\"",
+      "answer": ["Ellos compran pan.", "Compran pan."],
+      "relatedItemId": "es-vocab-food-004"
+    }
+  ]
+}

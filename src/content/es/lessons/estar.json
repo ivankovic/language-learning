@@ -1,0 +1,39 @@
+{
+  "id": "es-lesson-estar",
+  "lang": "es",
+  "courseId": "es-course-a1",
+  "unitId": "es-unit-2",
+  "order": 2,
+  "title": "Estar (to be) — Location & Temporary States",
+  "prerequisiteIds": ["es-lesson-ser"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Estar** covers location and temporary or changeable states — how something *is right now*, not what it fundamentally *is*.\n\nyo **estoy** · tú **estás** · él/ella/usted **está** · nosotros **estamos** · vosotros **estáis** · ellos/ustedes **están**\n\n*Estoy cansado* (I'm tired — a temporary state), *El café está caliente* (The coffee is hot [right now] — compare to *ser* for coffee-as-a-category-being-hot-by-nature), *Madrid está en España* (Madrid is in Spain — location always uses estar, even though \"being in a country\" sounds permanent)." },
+    { "type": "exercise", "exerciseId": "es-ex-estar-1" },
+    { "type": "exercise", "exerciseId": "es-ex-estar-2" },
+    { "type": "exercise", "exerciseId": "es-ex-estar-3" }
+  ],
+  "exercises": [
+    {
+      "id": "es-ex-estar-1",
+      "type": "fill-blank",
+      "prompt": "Yo ___ cansado. (estar — I am tired.)",
+      "answer": "estoy",
+      "relatedItemId": "es-vocab-routine-030"
+    },
+    {
+      "id": "es-ex-estar-2",
+      "type": "multiple-choice",
+      "prompt": "La playa ___ cerca. (estar — The beach is nearby — location.)",
+      "answer": "está",
+      "distractors": ["es", "eres", "están"],
+      "relatedItemId": "es-vocab-travel-028"
+    },
+    {
+      "id": "es-ex-estar-3",
+      "type": "multiple-choice",
+      "prompt": "Which verb would you use to say where a city is located?",
+      "answer": "estar",
+      "distractors": ["ser", "tener", "haber"]
+    }
+  ]
+}
