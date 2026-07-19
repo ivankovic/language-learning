@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
+import { useLiveQuery } from "dexie-react-hooks";
 import { useProfile } from "../../hooks/useProfile";
 import { useLanguageContent } from "../../hooks/useLanguageContent";
-import { getEntry, saveDraft, completeEntry, deleteEntry } from "../../db/queries/journal";
+import { getEntry, saveDraft, completeEntry, deleteEntry, listCompleteEntries } from "../../db/queries/journal";
 import { incrementToday } from "../../db/queries/activity";
 import { upsertCardState, getCardState } from "../../db/queries/cardStates";
 import { newCardState } from "../../srs/fsrs";
@@ -48,6 +49,13 @@ export function JournalEntryScreen() {
   const [flagged, setFlagged] = useState<Set<string>>(new Set());
   const [loadingFeedback, setLoadingFeedback] = useState(false);
   const draftTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // For prev/next paging between past entries, newest-first (same order as
+  // JournalList) — only needed once viewing a saved entry, not while drafting.
+  const siblingEntries = useLiveQuery(() => (!isNew && lang ? listCompleteEntries(lang) : undefined), [isNew, lang]);
+  const siblingIndex = siblingEntries?.findIndex((e) => e.id === entryId) ?? -1;
+  const newerEntry = siblingIndex > 0 ? siblingEntries?.[siblingIndex - 1] : undefined;
+  const olderEntry = siblingEntries && siblingIndex >= 0 && siblingIndex < siblingEntries.length - 1 ? siblingEntries[siblingIndex + 1] : undefined;
 
   useEffect(() => {
     detectAssistant().then(setAssistant);
@@ -159,6 +167,25 @@ export function JournalEntryScreen() {
 
   return (
     <Screen title={isNew ? "New Entry" : "Journal Entry"}>
+      {!isNew && (newerEntry || olderEntry) && (
+        <div className="mb-4 flex items-center justify-between text-sm">
+          <button
+            onClick={() => newerEntry && navigate(`/journal/${newerEntry.id}`)}
+            disabled={!newerEntry}
+            className="text-sky-600 disabled:opacity-30 dark:text-sky-400"
+          >
+            ← Previous
+          </button>
+          <button
+            onClick={() => olderEntry && navigate(`/journal/${olderEntry.id}`)}
+            disabled={!olderEntry}
+            className="text-sky-600 disabled:opacity-30 dark:text-sky-400"
+          >
+            Next →
+          </button>
+        </div>
+      )}
+
       <p className="mb-4 rounded-xl bg-slate-100 px-4 py-3 text-sm text-slate-700 dark:bg-slate-900 dark:text-slate-300">{prompt.text}</p>
 
       <label className="mb-1 block text-xs text-slate-500">Write in {entry.knownLang.toUpperCase()}</label>

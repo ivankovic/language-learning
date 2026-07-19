@@ -5,6 +5,7 @@ import { LessonTree } from "./features/lessons/LessonTree";
 import { LessonDetail } from "./features/lessons/LessonDetail";
 import { JournalList } from "./features/journal/JournalList";
 import { JournalEntryScreen } from "./features/journal/JournalEntryScreen";
+import { RememberScreen } from "./features/journal/RememberScreen";
 import { ProgressScreen } from "./features/progress/ProgressScreen";
 import { SettingsScreen } from "./features/settings/SettingsScreen";
 import { AboutScreen } from "./features/about/AboutScreen";
@@ -32,6 +33,7 @@ export function AppRouter() {
         </Route>
         <Route path="/lessons/:lessonId" element={<LessonDetail />} />
         <Route path="/journal/new" element={<JournalEntryScreen />} />
+        <Route path="/journal/remember" element={<RememberScreen />} />
         <Route path="/journal/:entryId" element={<JournalEntryScreen />} />
         <Route path="/settings" element={<SettingsScreen />} />
         <Route path="/about" element={<AboutScreen />} />

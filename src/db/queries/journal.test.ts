@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { db } from "../index";
-import { completeEntry, listCompleteEntries, getEntry, deleteEntry } from "./journal";
+import { completeEntry, listCompleteEntries, getEntry, deleteEntry, getRandomCompleteEntry } from "./journal";
 import type { JournalEntry } from "../../types/user";
 
 function draft(overrides: Partial<JournalEntry> = {}): JournalEntry {
@@ -70,5 +70,39 @@ describe("deleteEntry", () => {
 
   it("is a no-op for an id that doesn't exist", async () => {
     await expect(deleteEntry("nonexistent-id")).resolves.not.toThrow();
+  });
+});
+
+describe("getRandomCompleteEntry", () => {
+  beforeEach(async () => {
+    await db.journalEntries.clear();
+  });
+
+  it("returns undefined when there are no complete entries", async () => {
+    expect(await getRandomCompleteEntry("it")).toBeUndefined();
+  });
+
+  it("returns the only entry, even when it matches excludeId", async () => {
+    const entry = draft();
+    await completeEntry(entry, { translationAttempt: "x", aiFeedback: undefined, extractedVocabIds: [] });
+    const result = await getRandomCompleteEntry("it", entry.id);
+    expect(result?.id).toBe(entry.id);
+  });
+
+  it("never returns excludeId when other entries exist", async () => {
+    const a = draft({ id: "entry-a" });
+    const b = draft({ id: "entry-b" });
+    await completeEntry(a, { translationAttempt: "x", aiFeedback: undefined, extractedVocabIds: [] });
+    await completeEntry(b, { translationAttempt: "y", aiFeedback: undefined, extractedVocabIds: [] });
+    for (let i = 0; i < 10; i++) {
+      const result = await getRandomCompleteEntry("it", "entry-a");
+      expect(result?.id).toBe("entry-b");
+    }
+  });
+
+  it("ignores draft entries", async () => {
+    const d = draft({ id: "draft-only" });
+    await db.journalEntries.put(d);
+    expect(await getRandomCompleteEntry("it")).toBeUndefined();
   });
 });

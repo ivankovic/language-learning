@@ -38,6 +38,14 @@ export async function getMostRecentCompleteEntry(targetLang: string): Promise<Jo
   return entries[0];
 }
 
+/** A random complete entry, for "Remember" mode. Excludes `excludeId` (the currently shown entry) so reshuffling doesn't just redraw the same one — unless it's the only entry, in which case it's returned anyway. */
+export async function getRandomCompleteEntry(targetLang: string, excludeId?: string): Promise<JournalEntry | undefined> {
+  const entries = await listCompleteEntries(targetLang);
+  if (entries.length === 0) return undefined;
+  const pool = entries.length > 1 ? entries.filter((e) => e.id !== excludeId) : entries;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
 /** Vocab flagged from journal entries in the last `withinDays` days, most recent first, deduped. */
 export async function getRecentFlaggedVocabIds(targetLang: string, withinDays: number): Promise<string[]> {
   const entries = await listCompleteEntries(targetLang);

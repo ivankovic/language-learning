@@ -20,8 +20,11 @@ export function JournalList() {
   return (
     <Screen title="Journal" action={<SettingsLink />}>
       <LanguageSwitcher />
-      <Button className="mb-6 w-full" onClick={() => navigate("/journal/new")}>
+      <Button className="mb-3 w-full" onClick={() => navigate("/journal/new")}>
         Write journal entry
+      </Button>
+      <Button variant="secondary" className="mb-6 w-full" onClick={() => navigate("/journal/remember")}>
+        Remember
       </Button>
 
       {entries?.length === 0 && <p className="text-slate-500">No entries yet — write your first one above.</p>}
