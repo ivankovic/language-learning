@@ -4,6 +4,7 @@ import type { JournalPrompt } from "../types/content";
 // machinery the vocab/lesson content uses.
 export const journalPrompts: JournalPrompt[] = [
   { id: "prompt-your-day", text: "What did you do today? Write 4-5 sentences." },
+  { id: "prompt-sentences-used", text: "What sentences did you use?" },
   { id: "prompt-yesterday", text: "What happened yesterday that stuck with you?" },
   { id: "prompt-weekend", text: "What are your plans for the weekend?" },
 ];
