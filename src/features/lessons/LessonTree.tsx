@@ -4,6 +4,7 @@ import { useProfile } from "../../hooks/useProfile";
 import { useLanguageContent } from "../../hooks/useLanguageContent";
 import { getLessonProgressByLang } from "../../db/queries/lessonProgress";
 import { Screen, SettingsLink } from "../../components/Screen";
+import { LanguageSwitcher } from "../../components/LanguageSwitcher";
 
 export function LessonTree() {
   const navigate = useNavigate();
@@ -15,6 +16,7 @@ export function LessonTree() {
   if (!content || !progress) {
     return (
       <Screen title="Lessons" action={<SettingsLink />}>
+        <LanguageSwitcher />
         <p className="text-slate-600 dark:text-slate-400">Loading…</p>
       </Screen>
     );
@@ -25,6 +27,7 @@ export function LessonTree() {
 
   return (
     <Screen title="Lessons" action={<SettingsLink />}>
+      <LanguageSwitcher />
       <p className="mb-4 text-sm text-slate-500">{content.course.title}</p>
       <div className="space-y-6">
         {content.units.map((unit) => (

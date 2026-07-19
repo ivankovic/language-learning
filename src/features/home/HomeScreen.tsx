@@ -9,6 +9,7 @@ import { getLessonProgressByLang } from "../../db/queries/lessonProgress";
 import { Screen, SettingsLink } from "../../components/Screen";
 import { Button } from "../../components/Button";
 import { ContentDisclaimerBanner } from "../../components/ContentDisclaimerBanner";
+import { LanguageSwitcher } from "../../components/LanguageSwitcher";
 
 export function HomeScreen() {
   const navigate = useNavigate();
@@ -16,14 +17,15 @@ export function HomeScreen() {
   const lang = profile?.activeTargetLang;
   const content = useLanguageContent(lang);
 
-  const today = useLiveQuery(() => getToday(), [], undefined);
+  const today = useLiveQuery(() => (lang ? getToday(lang) : undefined), [lang], undefined);
   const [streak, setStreak] = useState<number | null>(null);
   const [dueCount, setDueCount] = useState<number | null>(null);
   const lessonProgress = useLiveQuery(() => (lang ? getLessonProgressByLang(lang) : undefined), [lang]);
 
   useEffect(() => {
-    computeStreak().then(setStreak);
-  }, [today]);
+    if (!lang) return;
+    computeStreak(lang).then(setStreak);
+  }, [lang, today]);
 
   useEffect(() => {
     if (!lang) return;
@@ -48,6 +50,7 @@ export function HomeScreen() {
   return (
     <Screen title="Language Learning" action={<SettingsLink />}>
       <ContentDisclaimerBanner />
+      <LanguageSwitcher />
       <div className="mb-6 flex items-center gap-6">
         <div>
           <p className="text-3xl font-semibold">🔥 {streak ?? "…"}</p>

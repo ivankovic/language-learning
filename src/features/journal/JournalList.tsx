@@ -4,6 +4,7 @@ import { useProfile } from "../../hooks/useProfile";
 import { listCompleteEntries } from "../../db/queries/journal";
 import { Screen, SettingsLink } from "../../components/Screen";
 import { Button } from "../../components/Button";
+import { LanguageSwitcher } from "../../components/LanguageSwitcher";
 
 export function JournalList() {
   const navigate = useNavigate();
@@ -13,6 +14,7 @@ export function JournalList() {
 
   return (
     <Screen title="Journal" action={<SettingsLink />}>
+      <LanguageSwitcher />
       <Button className="mb-6 w-full" onClick={() => navigate("/journal/new")}>
         Write journal entry
       </Button>

@@ -56,9 +56,9 @@ export function LessonDetail() {
   }
 
   async function finishLesson() {
-    if (!lessonId) return;
+    if (!lessonId || !lang) return;
     await completeLesson(lessonId);
-    await incrementToday({ lessonsCompleted: 1 });
+    await incrementToday(lang, { lessonsCompleted: 1 });
 
     if (fromPractice) {
       const session = loadSession();

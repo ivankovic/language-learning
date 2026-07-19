@@ -6,8 +6,10 @@ import { db } from "../../db";
 import { detectAssistant } from "../../ai/assistant";
 import { useTheme } from "../../theme/useTheme";
 import type { ThemePreference } from "../../theme/theme";
+import { languages } from "../../content/languages";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
+import { LanguageSwitcher } from "../../components/LanguageSwitcher";
 
 const INTERVAL_OPTIONS: { value: 1 | 3 | 7 | null; label: string }[] = [
   { value: 1, label: "Every day" },
@@ -119,10 +121,14 @@ export function SettingsScreen() {
 
       <section className="mb-8">
         <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">Languages</h2>
-        <p className="text-slate-700 dark:text-slate-300">
-          Learning <strong>{profile.activeTargetLang.toUpperCase()}</strong> from{" "}
-          <strong>{profile.knownLangs.join(", ").toUpperCase()}</strong>
+        <p className="mb-3 text-slate-700 dark:text-slate-300">
+          Learning{" "}
+          <strong>
+            {profile.targetLangs.map((code) => languages.find((l) => l.code === code)?.name ?? code).join(", ")}
+          </strong>{" "}
+          from <strong>{profile.knownLangs.map((code) => languages.find((l) => l.code === code)?.name ?? code).join(", ")}</strong>
         </p>
+        <LanguageSwitcher />
       </section>
 
       <section className="mb-8">

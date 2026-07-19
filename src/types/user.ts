@@ -61,8 +61,16 @@ export type JournalEntry = {
 // Not present in the original design doc: the single source of truth for
 // streaks, the Progress calendar, session summaries, and "how many new cards
 // were introduced today" (needed by the SRS daily limit).
+//
+// Keyed by [date, lang] (compound primary key), not date alone — added when
+// parallel multi-language support landed. A single global date key would
+// conflate two languages studied on the same day into one counter, and
+// would make "streak" meaningless once someone studies Italian on Monday
+// and French on Tuesday (schema v2 migration in db/schema.ts backfills
+// existing rows with the profile's activeTargetLang at the time).
 export type DailyActivity = {
   date: string; // "YYYY-MM-DD", local time
+  lang: string;
   reviewsCount: number;
   newCardsIntroduced: number;
   lessonsCompleted: number;

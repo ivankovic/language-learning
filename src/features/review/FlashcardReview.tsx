@@ -110,11 +110,11 @@ export function FlashcardReview(props: Props) {
   const intervals = revealed ? previewIntervals(current) : null;
 
   async function grade(g: Grade) {
-    if (!current) return;
+    if (!current || !lang) return;
     const wasNew = current.state === "new" && current.reps === 0;
     const updated = gradeCard(current, g);
     await upsertCardState(updated);
-    await incrementToday({ reviewsCount: 1, newCardsIntroduced: wasNew ? 1 : 0 });
+    await incrementToday(lang, { reviewsCount: 1, newCardsIntroduced: wasNew ? 1 : 0 });
     setReviewedCount((c) => c + 1);
     setIndex((i) => i + 1);
   }

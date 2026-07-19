@@ -9,7 +9,7 @@ export async function assembleQueue(
   content: LoadedLanguageContent,
   opts?: { limit?: number; priorityItemIds?: string[]; dailyNewCardLimit?: number },
 ): Promise<QueueItem[]> {
-  const [due, tracked, today] = await Promise.all([getDueCardStates(lang), getTrackedItemIds(lang), getToday()]);
+  const [due, tracked, today] = await Promise.all([getDueCardStates(lang), getTrackedItemIds(lang), getToday(lang)]);
 
   const candidateNewItemIds = [...content.vocabById.values()]
     .filter((v) => !tracked.has(v.id))

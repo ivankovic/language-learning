@@ -9,23 +9,24 @@ export function dateKey(d = new Date()): string {
   return `${y}-${m}-${day}`;
 }
 
-function emptyActivity(date: string): DailyActivity {
-  return { date, reviewsCount: 0, newCardsIntroduced: 0, lessonsCompleted: 0, journalEntriesCompleted: 0 };
+function emptyActivity(date: string, lang: string): DailyActivity {
+  return { date, lang, reviewsCount: 0, newCardsIntroduced: 0, lessonsCompleted: 0, journalEntriesCompleted: 0 };
 }
 
-export async function getActivity(date: string): Promise<DailyActivity> {
-  return (await db.dailyActivity.get(date)) ?? emptyActivity(date);
+export async function getActivity(date: string, lang: string): Promise<DailyActivity> {
+  return (await db.dailyActivity.get([date, lang])) ?? emptyActivity(date, lang);
 }
 
-export function getToday(): Promise<DailyActivity> {
-  return getActivity(dateKey());
+export function getToday(lang: string): Promise<DailyActivity> {
+  return getActivity(dateKey(), lang);
 }
 
-export async function incrementToday(delta: Partial<Omit<DailyActivity, "date">>): Promise<DailyActivity> {
+export async function incrementToday(lang: string, delta: Partial<Omit<DailyActivity, "date" | "lang">>): Promise<DailyActivity> {
   const today = dateKey();
-  const current = await getActivity(today);
+  const current = await getActivity(today, lang);
   const updated: DailyActivity = {
     date: today,
+    lang,
     reviewsCount: current.reviewsCount + (delta.reviewsCount ?? 0),
     newCardsIntroduced: current.newCardsIntroduced + (delta.newCardsIntroduced ?? 0),
     lessonsCompleted: current.lessonsCompleted + (delta.lessonsCompleted ?? 0),
@@ -35,20 +36,20 @@ export async function incrementToday(delta: Partial<Omit<DailyActivity, "date">>
   return updated;
 }
 
-export async function getActivityRange(days: number, end = new Date()): Promise<DailyActivity[]> {
+export async function getActivityRange(lang: string, days: number, end = new Date()): Promise<DailyActivity[]> {
   const keys: string[] = [];
   for (let i = days - 1; i >= 0; i--) {
     const d = new Date(end);
     d.setDate(d.getDate() - i);
     keys.push(dateKey(d));
   }
-  const rows = await db.dailyActivity.bulkGet(keys);
-  return keys.map((key, i) => rows[i] ?? emptyActivity(key));
+  const rows = await db.dailyActivity.bulkGet(keys.map((key) => [key, lang]));
+  return keys.map((key, i) => rows[i] ?? emptyActivity(key, lang));
 }
 
-/** Consecutive days (ending today or yesterday) with at least one review/lesson/journal action. */
-export async function computeStreak(): Promise<number> {
-  const recent = await getActivityRange(365);
+/** Consecutive days (ending today or yesterday) with at least one review/lesson/journal action, for a given language. */
+export async function computeStreak(lang: string): Promise<number> {
+  const recent = await getActivityRange(lang, 365);
   const isActive = (a: DailyActivity) => a.reviewsCount + a.lessonsCompleted + a.journalEntriesCompleted > 0;
   let streak = 0;
   for (let i = recent.length - 1; i >= 0; i--) {

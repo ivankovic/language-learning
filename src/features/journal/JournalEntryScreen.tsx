@@ -125,7 +125,7 @@ export function JournalEntryScreen() {
       const existing = await getCardState(itemId);
       if (!existing) await upsertCardState(newCardState(itemId, lang));
     }
-    await incrementToday({ journalEntriesCompleted: 1 });
+    await incrementToday(lang, { journalEntriesCompleted: 1 });
 
     if (fromPractice) {
       const session = loadSession();

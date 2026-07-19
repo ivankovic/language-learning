@@ -149,7 +149,7 @@ export function PracticeSession() {
     <SessionSummary
       session={session}
       streak={streak}
-      onLoadStreak={() => computeStreak().then(setStreak)}
+      onLoadStreak={() => computeStreak(session.lang).then(setStreak)}
       onDone={() => {
         clearSession();
         navigate("/");

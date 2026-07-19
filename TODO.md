@@ -54,7 +54,6 @@ Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md
 - [ ] Continue growing French toward parity with Italian in future batches (same pattern: vocab decks first, grammar lessons interleaved)
 - [x] Added German: same pattern as French — 160 words across the same 5 core decks, 8 grammar lessons across 3 units (greetings, articles [der/die/das — 3 genders, more than Italian/French], sein, haben, numbers, regular verbs, word order, food & travel). Handled real German-specific grammar accurately rather than mechanically mirroring Italian/French: age uses **sein**, not haben (`Ich bin ... Jahre alt`, unlike Italian/French which use avere/avoir); word-order lesson explains the V2 rule instead of claiming SVO-like-English; caught and fixed a bug where I'd used the irregular verb *essen* as a "regular verb" example. Also required a case-*sensitive* vocab dedup check specifically for German, since capitalization is grammatically load-bearing there (e.g. "Morgen" morning-noun vs "morgen" tomorrow-adverb are legitimately different words). Verified end-to-end in a real browser; all 58 tests pass.
 - [ ] Continue growing German toward parity with Italian in future batches
-- [ ] Add French and German content bundles (currently only Italian has seed content) — deferred until Italian is more complete
 - [ ] Run the actual content generation → staging → review → promotion pipeline (currently just scaffolded/empty) — Phase 1-2 content has been hand-authored directly instead
 - [ ] Flesh out the dev content-review UI beyond the placeholder (approve/edit/reject-and-regenerate staged content)
 - [ ] Split `vocab.json`/`decks.json` into per-topic files once a single file becomes unwieldy to hand-edit (deferred again at 330 words — still a manageable file size; revisit past ~800-1000)
@@ -62,6 +61,18 @@ Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md
 ### Bugs found while expanding content
 
 - [x] `MarkdownLite` only supported `**bold**`, not `*italic*` — but most lesson explanation text (including from Phase 1) used single-asterisk italics for Italian example sentences, which rendered as literal asterisks. Extended the renderer to support both; regression test added (`src/features/lessons/MarkdownLite.test.tsx`)
+
+## Parallel multi-language support (complete)
+
+Previously `activeTargetLang` was set once at onboarding with no way to change it. Now `targetLangs` is a genuinely growable, switchable set — users can learn Italian, French, and German in parallel and switch between them from a `LanguageSwitcher` chip row (Home, Lessons, Journal, Progress, Settings).
+
+- [x] `LanguageSwitcher` component: chips for each `targetLangs` entry (tap to switch `activeTargetLang`) + "+" to add another language not yet being learned (loads its content, seeds the first lesson's progress, appends to `targetLangs`, switches to it)
+- [x] `db/queries/profile.ts`: added `setActiveTargetLang()` and `addTargetLang()`
+- [x] **Schema migration** (v1 → v2 → v3): `DailyActivity` was keyed by `date` alone, conflating two languages studied on the same day into one streak/counter. Changed to a compound `[date+lang]` primary key. Dexie does not support changing a primary key in place ("Not yet support for changing primary key") — used the documented two-version workaround (delete + stage under a temp name in v2, delete the temp + recreate under the original name in v3), backfilling existing rows with the profile's `activeTargetLang` since pre-migration data never recorded which language it was for.
+- [x] `db/queries/activity.ts` (`getToday`, `incrementToday`, `getActivityRange`, `computeStreak`) and every caller (Home, Progress, FlashcardReview, LessonDetail, JournalEntryScreen, PracticeSession) updated to take `lang`
+- [x] Verified the schema migration explicitly: seeded a raw IndexedDB v1 database (simulating a real returning user, since this machine's own browser had accumulated real v1 data from earlier testing this session), reloaded the app, confirmed the profile survived, `dailyActivity` rows were backfilled with the correct `lang`, counts were preserved, and unrelated tables (`cardStates`) were untouched
+- [x] Verified the full flow in a real browser: onboard with Italian → add French via the switcher → French streak starts independently at 0 → grade cards in French → switch back to Italian → Italian's daily count is unaffected by French activity → Settings lists both languages
+- [x] All 60 tests pass, typecheck clean, production build succeeds
 
 ## Deferred / open items
 

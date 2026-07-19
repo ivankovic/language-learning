@@ -6,6 +6,7 @@ import { getActivityRange } from "../../db/queries/activity";
 import { getCardStatesByLang } from "../../db/queries/cardStates";
 import { listCompleteEntries } from "../../db/queries/journal";
 import { Screen, SettingsLink } from "../../components/Screen";
+import { LanguageSwitcher } from "../../components/LanguageSwitcher";
 import type { CardLifecycleState } from "../../types/user";
 
 const STATE_COLORS: Record<CardLifecycleState, string> = {
@@ -20,7 +21,7 @@ export function ProgressScreen() {
   const lang = profile?.activeTargetLang;
   const content = useLanguageContent(lang);
 
-  const activity = useLiveQuery(() => getActivityRange(28), [], undefined);
+  const activity = useLiveQuery(() => (lang ? getActivityRange(lang, 28) : undefined), [lang], undefined);
   const cardStates = useLiveQuery(() => (lang ? getCardStatesByLang(lang) : undefined), [lang]);
   const journalEntries = useLiveQuery(() => (lang ? listCompleteEntries(lang) : undefined), [lang]);
 
@@ -63,6 +64,7 @@ export function ProgressScreen() {
 
   return (
     <Screen title="Progress" action={<SettingsLink />}>
+      <LanguageSwitcher />
       <section className="mb-8">
         <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">Last 28 days</h2>
         <div className="grid grid-cols-7 gap-1.5">
