@@ -2410,5 +2410,7243 @@
       "time"
     ],
     "frequencyRank": 160
+  },
+  {
+    "id": "es-vocab-music-arts-001",
+    "lang": "es",
+    "term": "música",
+    "translations": {
+      "en": [
+        "music"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 161
+  },
+  {
+    "id": "es-vocab-music-arts-002",
+    "lang": "es",
+    "term": "canción",
+    "translations": {
+      "en": [
+        "song"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 162
+  },
+  {
+    "id": "es-vocab-music-arts-003",
+    "lang": "es",
+    "term": "cantante",
+    "translations": {
+      "en": [
+        "singer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 163
+  },
+  {
+    "id": "es-vocab-music-arts-004",
+    "lang": "es",
+    "term": "músico",
+    "translations": {
+      "en": [
+        "musician"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 164
+  },
+  {
+    "id": "es-vocab-music-arts-005",
+    "lang": "es",
+    "term": "instrumento",
+    "translations": {
+      "en": [
+        "instrument"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 165
+  },
+  {
+    "id": "es-vocab-music-arts-006",
+    "lang": "es",
+    "term": "guitarra",
+    "translations": {
+      "en": [
+        "guitar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 166
+  },
+  {
+    "id": "es-vocab-music-arts-007",
+    "lang": "es",
+    "term": "piano",
+    "translations": {
+      "en": [
+        "piano"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 167
+  },
+  {
+    "id": "es-vocab-music-arts-008",
+    "lang": "es",
+    "term": "violín",
+    "translations": {
+      "en": [
+        "violin"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 168
+  },
+  {
+    "id": "es-vocab-music-arts-009",
+    "lang": "es",
+    "term": "batería",
+    "translations": {
+      "en": [
+        "drums"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 169
+  },
+  {
+    "id": "es-vocab-music-arts-010",
+    "lang": "es",
+    "term": "concierto",
+    "translations": {
+      "en": [
+        "concert"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 170
+  },
+  {
+    "id": "es-vocab-music-arts-011",
+    "lang": "es",
+    "term": "álbum",
+    "translations": {
+      "en": [
+        "album"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 171
+  },
+  {
+    "id": "es-vocab-music-arts-012",
+    "lang": "es",
+    "term": "orquesta",
+    "translations": {
+      "en": [
+        "orchestra"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 172
+  },
+  {
+    "id": "es-vocab-music-arts-013",
+    "lang": "es",
+    "term": "arte",
+    "translations": {
+      "en": [
+        "art"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 173
+  },
+  {
+    "id": "es-vocab-music-arts-014",
+    "lang": "es",
+    "term": "pintura",
+    "translations": {
+      "en": [
+        "painting"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 174
+  },
+  {
+    "id": "es-vocab-music-arts-015",
+    "lang": "es",
+    "term": "pintor",
+    "translations": {
+      "en": [
+        "painter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 175
+  },
+  {
+    "id": "es-vocab-music-arts-016",
+    "lang": "es",
+    "term": "dibujo",
+    "translations": {
+      "en": [
+        "drawing"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 176
+  },
+  {
+    "id": "es-vocab-music-arts-017",
+    "lang": "es",
+    "term": "escultura",
+    "translations": {
+      "en": [
+        "sculpture"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 177
+  },
+  {
+    "id": "es-vocab-music-arts-018",
+    "lang": "es",
+    "term": "museo",
+    "translations": {
+      "en": [
+        "museum"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 178
+  },
+  {
+    "id": "es-vocab-music-arts-019",
+    "lang": "es",
+    "term": "galería",
+    "translations": {
+      "en": [
+        "gallery"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 179
+  },
+  {
+    "id": "es-vocab-music-arts-020",
+    "lang": "es",
+    "term": "exposición",
+    "translations": {
+      "en": [
+        "exhibition"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 180
+  },
+  {
+    "id": "es-vocab-music-arts-021",
+    "lang": "es",
+    "term": "teatro",
+    "translations": {
+      "en": [
+        "theater"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 181
+  },
+  {
+    "id": "es-vocab-music-arts-022",
+    "lang": "es",
+    "term": "película",
+    "translations": {
+      "en": [
+        "film",
+        "movie"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 182
+  },
+  {
+    "id": "es-vocab-music-arts-023",
+    "lang": "es",
+    "term": "actor",
+    "translations": {
+      "en": [
+        "actor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 183
+  },
+  {
+    "id": "es-vocab-music-arts-024",
+    "lang": "es",
+    "term": "actriz",
+    "translations": {
+      "en": [
+        "actress"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 184
+  },
+  {
+    "id": "es-vocab-music-arts-025",
+    "lang": "es",
+    "term": "director",
+    "translations": {
+      "en": [
+        "director"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 185
+  },
+  {
+    "id": "es-vocab-music-arts-026",
+    "lang": "es",
+    "term": "cantar",
+    "translations": {
+      "en": [
+        "to sing"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 186
+  },
+  {
+    "id": "es-vocab-music-arts-027",
+    "lang": "es",
+    "term": "tocar",
+    "translations": {
+      "en": [
+        "to play (an instrument)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 187
+  },
+  {
+    "id": "es-vocab-music-arts-028",
+    "lang": "es",
+    "term": "dibujar",
+    "translations": {
+      "en": [
+        "to draw"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 188
+  },
+  {
+    "id": "es-vocab-music-arts-029",
+    "lang": "es",
+    "term": "pintar",
+    "translations": {
+      "en": [
+        "to paint"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 189
+  },
+  {
+    "id": "es-vocab-music-arts-030",
+    "lang": "es",
+    "term": "creativo",
+    "translations": {
+      "en": [
+        "creative"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 190
+  },
+  {
+    "id": "es-vocab-technology-001",
+    "lang": "es",
+    "term": "ordenador",
+    "translations": {
+      "en": [
+        "computer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 191
+  },
+  {
+    "id": "es-vocab-technology-002",
+    "lang": "es",
+    "term": "móvil",
+    "translations": {
+      "en": [
+        "mobile phone"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 192
+  },
+  {
+    "id": "es-vocab-technology-003",
+    "lang": "es",
+    "term": "internet",
+    "translations": {
+      "en": [
+        "internet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 193
+  },
+  {
+    "id": "es-vocab-technology-004",
+    "lang": "es",
+    "term": "correo electrónico",
+    "translations": {
+      "en": [
+        "email"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 194
+  },
+  {
+    "id": "es-vocab-technology-005",
+    "lang": "es",
+    "term": "contraseña",
+    "translations": {
+      "en": [
+        "password"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 195
+  },
+  {
+    "id": "es-vocab-technology-006",
+    "lang": "es",
+    "term": "pantalla",
+    "translations": {
+      "en": [
+        "screen"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 196
+  },
+  {
+    "id": "es-vocab-technology-007",
+    "lang": "es",
+    "term": "teclado",
+    "translations": {
+      "en": [
+        "keyboard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 197
+  },
+  {
+    "id": "es-vocab-technology-008",
+    "lang": "es",
+    "term": "ratón",
+    "translations": {
+      "en": [
+        "mouse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 198
+  },
+  {
+    "id": "es-vocab-technology-009",
+    "lang": "es",
+    "term": "aplicación",
+    "translations": {
+      "en": [
+        "app",
+        "application"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 199
+  },
+  {
+    "id": "es-vocab-technology-010",
+    "lang": "es",
+    "term": "sitio web",
+    "translations": {
+      "en": [
+        "website"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 200
+  },
+  {
+    "id": "es-vocab-technology-011",
+    "lang": "es",
+    "term": "descargar",
+    "translations": {
+      "en": [
+        "to download"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 201
+  },
+  {
+    "id": "es-vocab-technology-012",
+    "lang": "es",
+    "term": "subir",
+    "translations": {
+      "en": [
+        "to upload"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 202
+  },
+  {
+    "id": "es-vocab-technology-013",
+    "lang": "es",
+    "term": "guardar",
+    "translations": {
+      "en": [
+        "to save"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 203
+  },
+  {
+    "id": "es-vocab-technology-014",
+    "lang": "es",
+    "term": "borrar",
+    "translations": {
+      "en": [
+        "to delete"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 204
+  },
+  {
+    "id": "es-vocab-technology-015",
+    "lang": "es",
+    "term": "imprimir",
+    "translations": {
+      "en": [
+        "to print"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 205
+  },
+  {
+    "id": "es-vocab-technology-016",
+    "lang": "es",
+    "term": "wifi",
+    "translations": {
+      "en": [
+        "WiFi"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 206
+  },
+  {
+    "id": "es-vocab-technology-017",
+    "lang": "es",
+    "term": "pila",
+    "translations": {
+      "en": [
+        "battery"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 207
+  },
+  {
+    "id": "es-vocab-technology-018",
+    "lang": "es",
+    "term": "cargar",
+    "translations": {
+      "en": [
+        "to charge (a battery)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 208
+  },
+  {
+    "id": "es-vocab-technology-019",
+    "lang": "es",
+    "term": "auriculares",
+    "translations": {
+      "en": [
+        "headphones"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 209
+  },
+  {
+    "id": "es-vocab-technology-020",
+    "lang": "es",
+    "term": "cámara",
+    "translations": {
+      "en": [
+        "camera"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 210
+  },
+  {
+    "id": "es-vocab-technology-021",
+    "lang": "es",
+    "term": "foto",
+    "translations": {
+      "en": [
+        "photo"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 211
+  },
+  {
+    "id": "es-vocab-technology-022",
+    "lang": "es",
+    "term": "vídeo",
+    "translations": {
+      "en": [
+        "video"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 212
+  },
+  {
+    "id": "es-vocab-technology-023",
+    "lang": "es",
+    "term": "redes sociales",
+    "translations": {
+      "en": [
+        "social media"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 213
+  },
+  {
+    "id": "es-vocab-technology-024",
+    "lang": "es",
+    "term": "mensaje",
+    "translations": {
+      "en": [
+        "message"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 214
+  },
+  {
+    "id": "es-vocab-technology-025",
+    "lang": "es",
+    "term": "llamada",
+    "translations": {
+      "en": [
+        "phone call"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 215
+  },
+  {
+    "id": "es-vocab-technology-026",
+    "lang": "es",
+    "term": "llamar",
+    "translations": {
+      "en": [
+        "to call (someone)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 216
+  },
+  {
+    "id": "es-vocab-technology-027",
+    "lang": "es",
+    "term": "software",
+    "translations": {
+      "en": [
+        "software"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 217
+  },
+  {
+    "id": "es-vocab-technology-028",
+    "lang": "es",
+    "term": "programa",
+    "translations": {
+      "en": [
+        "program"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 218
+  },
+  {
+    "id": "es-vocab-technology-029",
+    "lang": "es",
+    "term": "datos",
+    "translations": {
+      "en": [
+        "data"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 219
+  },
+  {
+    "id": "es-vocab-technology-030",
+    "lang": "es",
+    "term": "digital",
+    "translations": {
+      "en": [
+        "digital"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 220
+  },
+  {
+    "id": "es-vocab-shopping-001",
+    "lang": "es",
+    "term": "tienda",
+    "translations": {
+      "en": [
+        "shop",
+        "store"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 221
+  },
+  {
+    "id": "es-vocab-shopping-002",
+    "lang": "es",
+    "term": "centro comercial",
+    "translations": {
+      "en": [
+        "shopping mall"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 222
+  },
+  {
+    "id": "es-vocab-shopping-003",
+    "lang": "es",
+    "term": "cliente",
+    "translations": {
+      "en": [
+        "customer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 223
+  },
+  {
+    "id": "es-vocab-shopping-004",
+    "lang": "es",
+    "term": "vendedor",
+    "translations": {
+      "en": [
+        "salesperson"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 224
+  },
+  {
+    "id": "es-vocab-shopping-005",
+    "lang": "es",
+    "term": "precio",
+    "translations": {
+      "en": [
+        "price"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 225
+  },
+  {
+    "id": "es-vocab-shopping-006",
+    "lang": "es",
+    "term": "descuento",
+    "translations": {
+      "en": [
+        "discount"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 226
+  },
+  {
+    "id": "es-vocab-shopping-007",
+    "lang": "es",
+    "term": "dinero",
+    "translations": {
+      "en": [
+        "money"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 227
+  },
+  {
+    "id": "es-vocab-shopping-008",
+    "lang": "es",
+    "term": "efectivo",
+    "translations": {
+      "en": [
+        "cash"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 228
+  },
+  {
+    "id": "es-vocab-shopping-009",
+    "lang": "es",
+    "term": "tarjeta de crédito",
+    "translations": {
+      "en": [
+        "credit card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 229
+  },
+  {
+    "id": "es-vocab-shopping-010",
+    "lang": "es",
+    "term": "recibo",
+    "translations": {
+      "en": [
+        "receipt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 230
+  },
+  {
+    "id": "es-vocab-shopping-011",
+    "lang": "es",
+    "term": "talla",
+    "translations": {
+      "en": [
+        "size"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 231
+  },
+  {
+    "id": "es-vocab-shopping-012",
+    "lang": "es",
+    "term": "color",
+    "translations": {
+      "en": [
+        "color"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 232
+  },
+  {
+    "id": "es-vocab-shopping-013",
+    "lang": "es",
+    "term": "caja",
+    "translations": {
+      "en": [
+        "checkout",
+        "cash register"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 233
+  },
+  {
+    "id": "es-vocab-shopping-014",
+    "lang": "es",
+    "term": "cambio",
+    "translations": {
+      "en": [
+        "exchange",
+        "return"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 234
+  },
+  {
+    "id": "es-vocab-shopping-015",
+    "lang": "es",
+    "term": "horario de apertura",
+    "translations": {
+      "en": [
+        "opening hours"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 235
+  },
+  {
+    "id": "es-vocab-shopping-016",
+    "lang": "es",
+    "term": "pagar",
+    "translations": {
+      "en": [
+        "to pay"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 236
+  },
+  {
+    "id": "es-vocab-shopping-017",
+    "lang": "es",
+    "term": "adquirir",
+    "translations": {
+      "en": [
+        "to purchase",
+        "to acquire"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 237
+  },
+  {
+    "id": "es-vocab-shopping-018",
+    "lang": "es",
+    "term": "vender",
+    "translations": {
+      "en": [
+        "to sell"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 238
+  },
+  {
+    "id": "es-vocab-shopping-019",
+    "lang": "es",
+    "term": "costar",
+    "translations": {
+      "en": [
+        "to cost"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 239
+  },
+  {
+    "id": "es-vocab-shopping-020",
+    "lang": "es",
+    "term": "probarse",
+    "translations": {
+      "en": [
+        "to try on"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 240
+  },
+  {
+    "id": "es-vocab-shopping-021",
+    "lang": "es",
+    "term": "zapatos",
+    "translations": {
+      "en": [
+        "shoes"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 241
+  },
+  {
+    "id": "es-vocab-shopping-022",
+    "lang": "es",
+    "term": "ropa",
+    "translations": {
+      "en": [
+        "clothing"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 242
+  },
+  {
+    "id": "es-vocab-shopping-023",
+    "lang": "es",
+    "term": "camisa",
+    "translations": {
+      "en": [
+        "shirt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 243
+  },
+  {
+    "id": "es-vocab-shopping-024",
+    "lang": "es",
+    "term": "pantalones",
+    "translations": {
+      "en": [
+        "pants"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 244
+  },
+  {
+    "id": "es-vocab-shopping-025",
+    "lang": "es",
+    "term": "chaqueta",
+    "translations": {
+      "en": [
+        "jacket"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 245
+  },
+  {
+    "id": "es-vocab-shopping-026",
+    "lang": "es",
+    "term": "asequible",
+    "translations": {
+      "en": [
+        "affordable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 246
+  },
+  {
+    "id": "es-vocab-shopping-027",
+    "lang": "es",
+    "term": "costoso",
+    "translations": {
+      "en": [
+        "expensive",
+        "costly"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 247
+  },
+  {
+    "id": "es-vocab-shopping-028",
+    "lang": "es",
+    "term": "marca",
+    "translations": {
+      "en": [
+        "brand"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 248
+  },
+  {
+    "id": "es-vocab-shopping-029",
+    "lang": "es",
+    "term": "bolso",
+    "translations": {
+      "en": [
+        "bag"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 249
+  },
+  {
+    "id": "es-vocab-shopping-030",
+    "lang": "es",
+    "term": "cartera",
+    "translations": {
+      "en": [
+        "wallet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 250
+  },
+  {
+    "id": "es-vocab-sports-hobbies-001",
+    "lang": "es",
+    "term": "deporte",
+    "translations": {
+      "en": [
+        "sport"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 251
+  },
+  {
+    "id": "es-vocab-sports-hobbies-002",
+    "lang": "es",
+    "term": "fútbol",
+    "translations": {
+      "en": [
+        "soccer",
+        "football"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 252
+  },
+  {
+    "id": "es-vocab-sports-hobbies-003",
+    "lang": "es",
+    "term": "baloncesto",
+    "translations": {
+      "en": [
+        "basketball"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 253
+  },
+  {
+    "id": "es-vocab-sports-hobbies-004",
+    "lang": "es",
+    "term": "tenis",
+    "translations": {
+      "en": [
+        "tennis"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 254
+  },
+  {
+    "id": "es-vocab-sports-hobbies-005",
+    "lang": "es",
+    "term": "natación",
+    "translations": {
+      "en": [
+        "swimming"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 255
+  },
+  {
+    "id": "es-vocab-sports-hobbies-006",
+    "lang": "es",
+    "term": "correr",
+    "translations": {
+      "en": [
+        "running",
+        "to run"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 256
+  },
+  {
+    "id": "es-vocab-sports-hobbies-007",
+    "lang": "es",
+    "term": "equipo",
+    "translations": {
+      "en": [
+        "team"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 257
+  },
+  {
+    "id": "es-vocab-sports-hobbies-008",
+    "lang": "es",
+    "term": "jugador",
+    "translations": {
+      "en": [
+        "player"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 258
+  },
+  {
+    "id": "es-vocab-sports-hobbies-009",
+    "lang": "es",
+    "term": "entrenador",
+    "translations": {
+      "en": [
+        "coach"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 259
+  },
+  {
+    "id": "es-vocab-sports-hobbies-010",
+    "lang": "es",
+    "term": "partido",
+    "translations": {
+      "en": [
+        "game",
+        "match"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 260
+  },
+  {
+    "id": "es-vocab-sports-hobbies-011",
+    "lang": "es",
+    "term": "victoria",
+    "translations": {
+      "en": [
+        "victory",
+        "win"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 261
+  },
+  {
+    "id": "es-vocab-sports-hobbies-012",
+    "lang": "es",
+    "term": "derrota",
+    "translations": {
+      "en": [
+        "defeat",
+        "loss"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 262
+  },
+  {
+    "id": "es-vocab-sports-hobbies-013",
+    "lang": "es",
+    "term": "gimnasio",
+    "translations": {
+      "en": [
+        "gym"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 263
+  },
+  {
+    "id": "es-vocab-sports-hobbies-014",
+    "lang": "es",
+    "term": "entrenamiento",
+    "translations": {
+      "en": [
+        "training",
+        "workout"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 264
+  },
+  {
+    "id": "es-vocab-sports-hobbies-015",
+    "lang": "es",
+    "term": "competición",
+    "translations": {
+      "en": [
+        "competition"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 265
+  },
+  {
+    "id": "es-vocab-sports-hobbies-016",
+    "lang": "es",
+    "term": "afición",
+    "translations": {
+      "en": [
+        "hobby"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 266
+  },
+  {
+    "id": "es-vocab-sports-hobbies-017",
+    "lang": "es",
+    "term": "leer",
+    "translations": {
+      "en": [
+        "to read"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 267
+  },
+  {
+    "id": "es-vocab-sports-hobbies-018",
+    "lang": "es",
+    "term": "hacer senderismo",
+    "translations": {
+      "en": [
+        "to hike"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 268
+  },
+  {
+    "id": "es-vocab-sports-hobbies-019",
+    "lang": "es",
+    "term": "montar en bicicleta",
+    "translations": {
+      "en": [
+        "to cycle"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 269
+  },
+  {
+    "id": "es-vocab-sports-hobbies-020",
+    "lang": "es",
+    "term": "pescar",
+    "translations": {
+      "en": [
+        "to fish"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 270
+  },
+  {
+    "id": "es-vocab-sports-hobbies-021",
+    "lang": "es",
+    "term": "bailar",
+    "translations": {
+      "en": [
+        "to dance"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 271
+  },
+  {
+    "id": "es-vocab-sports-hobbies-022",
+    "lang": "es",
+    "term": "fotografiar",
+    "translations": {
+      "en": [
+        "to take photos"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 272
+  },
+  {
+    "id": "es-vocab-sports-hobbies-023",
+    "lang": "es",
+    "term": "coleccionar",
+    "translations": {
+      "en": [
+        "to collect"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 273
+  },
+  {
+    "id": "es-vocab-sports-hobbies-024",
+    "lang": "es",
+    "term": "ganar",
+    "translations": {
+      "en": [
+        "to win"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 274
+  },
+  {
+    "id": "es-vocab-sports-hobbies-025",
+    "lang": "es",
+    "term": "perder",
+    "translations": {
+      "en": [
+        "to lose"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 275
+  },
+  {
+    "id": "es-vocab-sports-hobbies-026",
+    "lang": "es",
+    "term": "entrenar",
+    "translations": {
+      "en": [
+        "to train",
+        "to practice"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 276
+  },
+  {
+    "id": "es-vocab-sports-hobbies-027",
+    "lang": "es",
+    "term": "aficionado",
+    "translations": {
+      "en": [
+        "fan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 277
+  },
+  {
+    "id": "es-vocab-sports-hobbies-028",
+    "lang": "es",
+    "term": "estadio",
+    "translations": {
+      "en": [
+        "stadium"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 278
+  },
+  {
+    "id": "es-vocab-sports-hobbies-029",
+    "lang": "es",
+    "term": "medalla",
+    "translations": {
+      "en": [
+        "medal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 279
+  },
+  {
+    "id": "es-vocab-sports-hobbies-030",
+    "lang": "es",
+    "term": "campeón",
+    "translations": {
+      "en": [
+        "champion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 280
+  },
+  {
+    "id": "es-vocab-emotions-001",
+    "lang": "es",
+    "term": "sentimiento",
+    "translations": {
+      "en": [
+        "feeling",
+        "emotion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 281
+  },
+  {
+    "id": "es-vocab-emotions-002",
+    "lang": "es",
+    "term": "feliz",
+    "translations": {
+      "en": [
+        "happy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 282
+  },
+  {
+    "id": "es-vocab-emotions-003",
+    "lang": "es",
+    "term": "triste",
+    "translations": {
+      "en": [
+        "sad"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 283
+  },
+  {
+    "id": "es-vocab-emotions-004",
+    "lang": "es",
+    "term": "enfadado",
+    "translations": {
+      "en": [
+        "angry"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 284
+  },
+  {
+    "id": "es-vocab-emotions-005",
+    "lang": "es",
+    "term": "asustado",
+    "translations": {
+      "en": [
+        "afraid",
+        "scared"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 285
+  },
+  {
+    "id": "es-vocab-emotions-006",
+    "lang": "es",
+    "term": "sorprendido",
+    "translations": {
+      "en": [
+        "surprised"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 286
+  },
+  {
+    "id": "es-vocab-emotions-007",
+    "lang": "es",
+    "term": "aburrido",
+    "translations": {
+      "en": [
+        "bored"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 287
+  },
+  {
+    "id": "es-vocab-emotions-008",
+    "lang": "es",
+    "term": "emocionado",
+    "translations": {
+      "en": [
+        "excited"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 288
+  },
+  {
+    "id": "es-vocab-emotions-009",
+    "lang": "es",
+    "term": "nervioso",
+    "translations": {
+      "en": [
+        "nervous"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 289
+  },
+  {
+    "id": "es-vocab-emotions-010",
+    "lang": "es",
+    "term": "orgulloso",
+    "translations": {
+      "en": [
+        "proud"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 290
+  },
+  {
+    "id": "es-vocab-emotions-011",
+    "lang": "es",
+    "term": "celoso",
+    "translations": {
+      "en": [
+        "jealous"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 291
+  },
+  {
+    "id": "es-vocab-emotions-012",
+    "lang": "es",
+    "term": "confundido",
+    "translations": {
+      "en": [
+        "confused"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 292
+  },
+  {
+    "id": "es-vocab-emotions-013",
+    "lang": "es",
+    "term": "relajado",
+    "translations": {
+      "en": [
+        "relaxed"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 293
+  },
+  {
+    "id": "es-vocab-emotions-014",
+    "lang": "es",
+    "term": "decepcionado",
+    "translations": {
+      "en": [
+        "disappointed"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 294
+  },
+  {
+    "id": "es-vocab-emotions-015",
+    "lang": "es",
+    "term": "agradecido",
+    "translations": {
+      "en": [
+        "grateful"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 295
+  },
+  {
+    "id": "es-vocab-emotions-016",
+    "lang": "es",
+    "term": "simpático",
+    "translations": {
+      "en": [
+        "friendly"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 296
+  },
+  {
+    "id": "es-vocab-emotions-017",
+    "lang": "es",
+    "term": "tímido",
+    "translations": {
+      "en": [
+        "shy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 297
+  },
+  {
+    "id": "es-vocab-emotions-018",
+    "lang": "es",
+    "term": "valiente",
+    "translations": {
+      "en": [
+        "brave"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 298
+  },
+  {
+    "id": "es-vocab-emotions-019",
+    "lang": "es",
+    "term": "honesto",
+    "translations": {
+      "en": [
+        "honest"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 299
+  },
+  {
+    "id": "es-vocab-emotions-020",
+    "lang": "es",
+    "term": "paciente",
+    "translations": {
+      "en": [
+        "patient"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 300
+  },
+  {
+    "id": "es-vocab-emotions-021",
+    "lang": "es",
+    "term": "generoso",
+    "translations": {
+      "en": [
+        "generous"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 301
+  },
+  {
+    "id": "es-vocab-emotions-022",
+    "lang": "es",
+    "term": "egoísta",
+    "translations": {
+      "en": [
+        "selfish"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 302
+  },
+  {
+    "id": "es-vocab-emotions-023",
+    "lang": "es",
+    "term": "curioso",
+    "translations": {
+      "en": [
+        "curious"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 303
+  },
+  {
+    "id": "es-vocab-emotions-024",
+    "lang": "es",
+    "term": "perezoso",
+    "translations": {
+      "en": [
+        "lazy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 304
+  },
+  {
+    "id": "es-vocab-emotions-025",
+    "lang": "es",
+    "term": "trabajador",
+    "translations": {
+      "en": [
+        "hardworking"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 305
+  },
+  {
+    "id": "es-vocab-emotions-026",
+    "lang": "es",
+    "term": "sonreír",
+    "translations": {
+      "en": [
+        "to smile"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 306
+  },
+  {
+    "id": "es-vocab-emotions-027",
+    "lang": "es",
+    "term": "llorar",
+    "translations": {
+      "en": [
+        "to cry"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 307
+  },
+  {
+    "id": "es-vocab-emotions-028",
+    "lang": "es",
+    "term": "reír",
+    "translations": {
+      "en": [
+        "to laugh"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 308
+  },
+  {
+    "id": "es-vocab-emotions-029",
+    "lang": "es",
+    "term": "sentirse",
+    "translations": {
+      "en": [
+        "to feel"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 309
+  },
+  {
+    "id": "es-vocab-emotions-030",
+    "lang": "es",
+    "term": "preocuparse",
+    "translations": {
+      "en": [
+        "to worry"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 310
+  },
+  {
+    "id": "es-vocab-city-transport-001",
+    "lang": "es",
+    "term": "centro de la ciudad",
+    "translations": {
+      "en": [
+        "city center",
+        "downtown"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 311
+  },
+  {
+    "id": "es-vocab-city-transport-002",
+    "lang": "es",
+    "term": "barrio residencial",
+    "translations": {
+      "en": [
+        "suburb"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 312
+  },
+  {
+    "id": "es-vocab-city-transport-003",
+    "lang": "es",
+    "term": "barrio",
+    "translations": {
+      "en": [
+        "neighborhood"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 313
+  },
+  {
+    "id": "es-vocab-city-transport-004",
+    "lang": "es",
+    "term": "edificio",
+    "translations": {
+      "en": [
+        "building"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 314
+  },
+  {
+    "id": "es-vocab-city-transport-005",
+    "lang": "es",
+    "term": "rascacielos",
+    "translations": {
+      "en": [
+        "skyscraper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 315
+  },
+  {
+    "id": "es-vocab-city-transport-006",
+    "lang": "es",
+    "term": "parque",
+    "translations": {
+      "en": [
+        "park"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 316
+  },
+  {
+    "id": "es-vocab-city-transport-007",
+    "lang": "es",
+    "term": "plaza",
+    "translations": {
+      "en": [
+        "square",
+        "plaza"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 317
+  },
+  {
+    "id": "es-vocab-city-transport-008",
+    "lang": "es",
+    "term": "acera",
+    "translations": {
+      "en": [
+        "sidewalk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 318
+  },
+  {
+    "id": "es-vocab-city-transport-009",
+    "lang": "es",
+    "term": "tranvía",
+    "translations": {
+      "en": [
+        "tram"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 319
+  },
+  {
+    "id": "es-vocab-city-transport-010",
+    "lang": "es",
+    "term": "metro",
+    "translations": {
+      "en": [
+        "subway"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 320
+  },
+  {
+    "id": "es-vocab-city-transport-011",
+    "lang": "es",
+    "term": "estación de metro",
+    "translations": {
+      "en": [
+        "subway station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 321
+  },
+  {
+    "id": "es-vocab-city-transport-012",
+    "lang": "es",
+    "term": "parada de autobús",
+    "translations": {
+      "en": [
+        "bus stop"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 322
+  },
+  {
+    "id": "es-vocab-city-transport-013",
+    "lang": "es",
+    "term": "horario",
+    "translations": {
+      "en": [
+        "schedule",
+        "timetable"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 323
+  },
+  {
+    "id": "es-vocab-city-transport-014",
+    "lang": "es",
+    "term": "pasajero",
+    "translations": {
+      "en": [
+        "passenger"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 324
+  },
+  {
+    "id": "es-vocab-city-transport-015",
+    "lang": "es",
+    "term": "conductor",
+    "translations": {
+      "en": [
+        "driver"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 325
+  },
+  {
+    "id": "es-vocab-city-transport-016",
+    "lang": "es",
+    "term": "tráfico",
+    "translations": {
+      "en": [
+        "traffic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 326
+  },
+  {
+    "id": "es-vocab-city-transport-017",
+    "lang": "es",
+    "term": "atasco",
+    "translations": {
+      "en": [
+        "traffic jam"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 327
+  },
+  {
+    "id": "es-vocab-city-transport-018",
+    "lang": "es",
+    "term": "señal de tráfico",
+    "translations": {
+      "en": [
+        "traffic sign"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 328
+  },
+  {
+    "id": "es-vocab-city-transport-019",
+    "lang": "es",
+    "term": "paso de peatones",
+    "translations": {
+      "en": [
+        "crosswalk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 329
+  },
+  {
+    "id": "es-vocab-city-transport-020",
+    "lang": "es",
+    "term": "ayuntamiento",
+    "translations": {
+      "en": [
+        "city hall"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 330
+  },
+  {
+    "id": "es-vocab-city-transport-021",
+    "lang": "es",
+    "term": "iglesia",
+    "translations": {
+      "en": [
+        "church"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 331
+  },
+  {
+    "id": "es-vocab-city-transport-022",
+    "lang": "es",
+    "term": "monumento",
+    "translations": {
+      "en": [
+        "monument"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 332
+  },
+  {
+    "id": "es-vocab-city-transport-023",
+    "lang": "es",
+    "term": "zona peatonal",
+    "translations": {
+      "en": [
+        "pedestrian zone"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 333
+  },
+  {
+    "id": "es-vocab-city-transport-024",
+    "lang": "es",
+    "term": "subir (transporte)",
+    "translations": {
+      "en": [
+        "to get on (a vehicle)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 334
+  },
+  {
+    "id": "es-vocab-city-transport-025",
+    "lang": "es",
+    "term": "bajar (transporte)",
+    "translations": {
+      "en": [
+        "to get off (a vehicle)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 335
+  },
+  {
+    "id": "es-vocab-city-transport-026",
+    "lang": "es",
+    "term": "hacer transbordo",
+    "translations": {
+      "en": [
+        "to transfer",
+        "to change (trains)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 336
+  },
+  {
+    "id": "es-vocab-city-transport-027",
+    "lang": "es",
+    "term": "caminar",
+    "translations": {
+      "en": [
+        "to walk"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 337
+  },
+  {
+    "id": "es-vocab-city-transport-028",
+    "lang": "es",
+    "term": "cruzar",
+    "translations": {
+      "en": [
+        "to cross"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 338
+  },
+  {
+    "id": "es-vocab-city-transport-029",
+    "lang": "es",
+    "term": "bicicleta",
+    "translations": {
+      "en": [
+        "bicycle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 339
+  },
+  {
+    "id": "es-vocab-city-transport-030",
+    "lang": "es",
+    "term": "moto",
+    "translations": {
+      "en": [
+        "scooter",
+        "motorbike"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 340
+  },
+  {
+    "id": "es-vocab-holidays-001",
+    "lang": "es",
+    "term": "día festivo",
+    "translations": {
+      "en": [
+        "holiday"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 341
+  },
+  {
+    "id": "es-vocab-holidays-002",
+    "lang": "es",
+    "term": "Navidad",
+    "translations": {
+      "en": [
+        "Christmas"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 342
+  },
+  {
+    "id": "es-vocab-holidays-003",
+    "lang": "es",
+    "term": "Año Nuevo",
+    "translations": {
+      "en": [
+        "New Year"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 343
+  },
+  {
+    "id": "es-vocab-holidays-004",
+    "lang": "es",
+    "term": "Pascua",
+    "translations": {
+      "en": [
+        "Easter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 344
+  },
+  {
+    "id": "es-vocab-holidays-005",
+    "lang": "es",
+    "term": "cumpleaños",
+    "translations": {
+      "en": [
+        "birthday"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 345
+  },
+  {
+    "id": "es-vocab-holidays-006",
+    "lang": "es",
+    "term": "celebración",
+    "translations": {
+      "en": [
+        "celebration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 346
+  },
+  {
+    "id": "es-vocab-holidays-007",
+    "lang": "es",
+    "term": "regalo",
+    "translations": {
+      "en": [
+        "gift"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 347
+  },
+  {
+    "id": "es-vocab-holidays-008",
+    "lang": "es",
+    "term": "tarjeta de felicitación",
+    "translations": {
+      "en": [
+        "greeting card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 348
+  },
+  {
+    "id": "es-vocab-holidays-009",
+    "lang": "es",
+    "term": "decoración",
+    "translations": {
+      "en": [
+        "decoration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 349
+  },
+  {
+    "id": "es-vocab-holidays-010",
+    "lang": "es",
+    "term": "vela",
+    "translations": {
+      "en": [
+        "candle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 350
+  },
+  {
+    "id": "es-vocab-holidays-011",
+    "lang": "es",
+    "term": "fuegos artificiales",
+    "translations": {
+      "en": [
+        "fireworks"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 351
+  },
+  {
+    "id": "es-vocab-holidays-012",
+    "lang": "es",
+    "term": "tradición",
+    "translations": {
+      "en": [
+        "tradition"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 352
+  },
+  {
+    "id": "es-vocab-holidays-013",
+    "lang": "es",
+    "term": "costumbre",
+    "translations": {
+      "en": [
+        "custom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 353
+  },
+  {
+    "id": "es-vocab-holidays-014",
+    "lang": "es",
+    "term": "calendario",
+    "translations": {
+      "en": [
+        "calendar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 354
+  },
+  {
+    "id": "es-vocab-holidays-015",
+    "lang": "es",
+    "term": "vacaciones",
+    "translations": {
+      "en": [
+        "vacation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 355
+  },
+  {
+    "id": "es-vocab-holidays-016",
+    "lang": "es",
+    "term": "celebrar",
+    "translations": {
+      "en": [
+        "to celebrate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 356
+  },
+  {
+    "id": "es-vocab-holidays-017",
+    "lang": "es",
+    "term": "invitar",
+    "translations": {
+      "en": [
+        "to invite"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 357
+  },
+  {
+    "id": "es-vocab-holidays-018",
+    "lang": "es",
+    "term": "regalar",
+    "translations": {
+      "en": [
+        "to give (a gift)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 358
+  },
+  {
+    "id": "es-vocab-holidays-019",
+    "lang": "es",
+    "term": "decorar",
+    "translations": {
+      "en": [
+        "to decorate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 359
+  },
+  {
+    "id": "es-vocab-holidays-020",
+    "lang": "es",
+    "term": "anfitrión",
+    "translations": {
+      "en": [
+        "host"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 360
+  },
+  {
+    "id": "es-vocab-holidays-021",
+    "lang": "es",
+    "term": "invitado",
+    "translations": {
+      "en": [
+        "guest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 361
+  },
+  {
+    "id": "es-vocab-holidays-022",
+    "lang": "es",
+    "term": "fiesta",
+    "translations": {
+      "en": [
+        "party"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 362
+  },
+  {
+    "id": "es-vocab-holidays-023",
+    "lang": "es",
+    "term": "tarta",
+    "translations": {
+      "en": [
+        "cake"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 363
+  },
+  {
+    "id": "es-vocab-holidays-024",
+    "lang": "es",
+    "term": "encender velas",
+    "translations": {
+      "en": [
+        "to light candles"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 364
+  },
+  {
+    "id": "es-vocab-holidays-025",
+    "lang": "es",
+    "term": "felicidades",
+    "translations": {
+      "en": [
+        "congratulations"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 365
+  },
+  {
+    "id": "es-vocab-holidays-026",
+    "lang": "es",
+    "term": "feliz Navidad",
+    "translations": {
+      "en": [
+        "Merry Christmas"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 366
+  },
+  {
+    "id": "es-vocab-holidays-027",
+    "lang": "es",
+    "term": "feliz año nuevo",
+    "translations": {
+      "en": [
+        "Happy New Year"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 367
+  },
+  {
+    "id": "es-vocab-holidays-028",
+    "lang": "es",
+    "term": "aniversario de boda",
+    "translations": {
+      "en": [
+        "wedding anniversary"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 368
+  },
+  {
+    "id": "es-vocab-holidays-029",
+    "lang": "es",
+    "term": "peregrinación",
+    "translations": {
+      "en": [
+        "pilgrimage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 369
+  },
+  {
+    "id": "es-vocab-holidays-030",
+    "lang": "es",
+    "term": "festival",
+    "translations": {
+      "en": [
+        "festival"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 370
+  },
+  {
+    "id": "es-vocab-cooking-001",
+    "lang": "es",
+    "term": "receta",
+    "translations": {
+      "en": [
+        "recipe"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 371
+  },
+  {
+    "id": "es-vocab-cooking-002",
+    "lang": "es",
+    "term": "ingrediente",
+    "translations": {
+      "en": [
+        "ingredient"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 372
+  },
+  {
+    "id": "es-vocab-cooking-003",
+    "lang": "es",
+    "term": "olla",
+    "translations": {
+      "en": [
+        "pot"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 373
+  },
+  {
+    "id": "es-vocab-cooking-004",
+    "lang": "es",
+    "term": "sartén",
+    "translations": {
+      "en": [
+        "pan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 374
+  },
+  {
+    "id": "es-vocab-cooking-005",
+    "lang": "es",
+    "term": "cuchillo",
+    "translations": {
+      "en": [
+        "knife"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 375
+  },
+  {
+    "id": "es-vocab-cooking-006",
+    "lang": "es",
+    "term": "tenedor",
+    "translations": {
+      "en": [
+        "fork"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 376
+  },
+  {
+    "id": "es-vocab-cooking-007",
+    "lang": "es",
+    "term": "cuchara",
+    "translations": {
+      "en": [
+        "spoon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 377
+  },
+  {
+    "id": "es-vocab-cooking-008",
+    "lang": "es",
+    "term": "plato",
+    "translations": {
+      "en": [
+        "plate"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 378
+  },
+  {
+    "id": "es-vocab-cooking-009",
+    "lang": "es",
+    "term": "bol",
+    "translations": {
+      "en": [
+        "bowl"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 379
+  },
+  {
+    "id": "es-vocab-cooking-010",
+    "lang": "es",
+    "term": "horno",
+    "translations": {
+      "en": [
+        "oven"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 380
+  },
+  {
+    "id": "es-vocab-cooking-011",
+    "lang": "es",
+    "term": "cortar",
+    "translations": {
+      "en": [
+        "to cut"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 381
+  },
+  {
+    "id": "es-vocab-cooking-012",
+    "lang": "es",
+    "term": "freír",
+    "translations": {
+      "en": [
+        "to fry"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 382
+  },
+  {
+    "id": "es-vocab-cooking-013",
+    "lang": "es",
+    "term": "hornear",
+    "translations": {
+      "en": [
+        "to bake"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 383
+  },
+  {
+    "id": "es-vocab-cooking-014",
+    "lang": "es",
+    "term": "hervir",
+    "translations": {
+      "en": [
+        "to boil"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 384
+  },
+  {
+    "id": "es-vocab-cooking-015",
+    "lang": "es",
+    "term": "remover",
+    "translations": {
+      "en": [
+        "to stir"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 385
+  },
+  {
+    "id": "es-vocab-cooking-016",
+    "lang": "es",
+    "term": "mezclar",
+    "translations": {
+      "en": [
+        "to mix"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 386
+  },
+  {
+    "id": "es-vocab-cooking-017",
+    "lang": "es",
+    "term": "añadir",
+    "translations": {
+      "en": [
+        "to add"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 387
+  },
+  {
+    "id": "es-vocab-cooking-018",
+    "lang": "es",
+    "term": "pelar",
+    "translations": {
+      "en": [
+        "to peel"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 388
+  },
+  {
+    "id": "es-vocab-cooking-019",
+    "lang": "es",
+    "term": "sazonar",
+    "translations": {
+      "en": [
+        "to season"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 389
+  },
+  {
+    "id": "es-vocab-cooking-020",
+    "lang": "es",
+    "term": "servir",
+    "translations": {
+      "en": [
+        "to serve"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 390
+  },
+  {
+    "id": "es-vocab-cooking-021",
+    "lang": "es",
+    "term": "especia",
+    "translations": {
+      "en": [
+        "spice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 391
+  },
+  {
+    "id": "es-vocab-cooking-022",
+    "lang": "es",
+    "term": "hierbas",
+    "translations": {
+      "en": [
+        "herbs"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 392
+  },
+  {
+    "id": "es-vocab-cooking-023",
+    "lang": "es",
+    "term": "canela",
+    "translations": {
+      "en": [
+        "cinnamon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 393
+  },
+  {
+    "id": "es-vocab-cooking-024",
+    "lang": "es",
+    "term": "albahaca",
+    "translations": {
+      "en": [
+        "basil"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 394
+  },
+  {
+    "id": "es-vocab-cooking-025",
+    "lang": "es",
+    "term": "vinagre",
+    "translations": {
+      "en": [
+        "vinegar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 395
+  },
+  {
+    "id": "es-vocab-cooking-026",
+    "lang": "es",
+    "term": "harina",
+    "translations": {
+      "en": [
+        "flour"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 396
+  },
+  {
+    "id": "es-vocab-cooking-027",
+    "lang": "es",
+    "term": "masa",
+    "translations": {
+      "en": [
+        "dough"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 397
+  },
+  {
+    "id": "es-vocab-cooking-028",
+    "lang": "es",
+    "term": "ración",
+    "translations": {
+      "en": [
+        "portion",
+        "serving"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 398
+  },
+  {
+    "id": "es-vocab-cooking-029",
+    "lang": "es",
+    "term": "precalentar el horno",
+    "translations": {
+      "en": [
+        "to preheat the oven"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 399
+  },
+  {
+    "id": "es-vocab-cooking-030",
+    "lang": "es",
+    "term": "seguir una receta",
+    "translations": {
+      "en": [
+        "to follow a recipe"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 400
+  },
+  {
+    "id": "es-vocab-health-001",
+    "lang": "es",
+    "term": "doctor",
+    "translations": {
+      "en": [
+        "doctor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 401
+  },
+  {
+    "id": "es-vocab-health-002",
+    "lang": "es",
+    "term": "enfermera",
+    "translations": {
+      "en": [
+        "nurse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 402
+  },
+  {
+    "id": "es-vocab-health-003",
+    "lang": "es",
+    "term": "hospital",
+    "translations": {
+      "en": [
+        "hospital"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 403
+  },
+  {
+    "id": "es-vocab-health-004",
+    "lang": "es",
+    "term": "farmacia",
+    "translations": {
+      "en": [
+        "pharmacy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 404
+  },
+  {
+    "id": "es-vocab-health-005",
+    "lang": "es",
+    "term": "medicina",
+    "translations": {
+      "en": [
+        "medicine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 405
+  },
+  {
+    "id": "es-vocab-health-006",
+    "lang": "es",
+    "term": "receta médica",
+    "translations": {
+      "en": [
+        "prescription"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 406
+  },
+  {
+    "id": "es-vocab-health-007",
+    "lang": "es",
+    "term": "síntoma",
+    "translations": {
+      "en": [
+        "symptom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 407
+  },
+  {
+    "id": "es-vocab-health-008",
+    "lang": "es",
+    "term": "fiebre",
+    "translations": {
+      "en": [
+        "fever"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 408
+  },
+  {
+    "id": "es-vocab-health-009",
+    "lang": "es",
+    "term": "tos",
+    "translations": {
+      "en": [
+        "cough"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 409
+  },
+  {
+    "id": "es-vocab-health-010",
+    "lang": "es",
+    "term": "dolor de cabeza",
+    "translations": {
+      "en": [
+        "headache"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 410
+  },
+  {
+    "id": "es-vocab-health-011",
+    "lang": "es",
+    "term": "dolor de garganta",
+    "translations": {
+      "en": [
+        "sore throat"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 411
+  },
+  {
+    "id": "es-vocab-health-012",
+    "lang": "es",
+    "term": "resfriado",
+    "translations": {
+      "en": [
+        "cold (illness)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 412
+  },
+  {
+    "id": "es-vocab-health-013",
+    "lang": "es",
+    "term": "gripe",
+    "translations": {
+      "en": [
+        "flu"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 413
+  },
+  {
+    "id": "es-vocab-health-014",
+    "lang": "es",
+    "term": "alergia",
+    "translations": {
+      "en": [
+        "allergy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 414
+  },
+  {
+    "id": "es-vocab-health-015",
+    "lang": "es",
+    "term": "herida",
+    "translations": {
+      "en": [
+        "wound",
+        "injury"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 415
+  },
+  {
+    "id": "es-vocab-health-016",
+    "lang": "es",
+    "term": "tirita",
+    "translations": {
+      "en": [
+        "band-aid"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 416
+  },
+  {
+    "id": "es-vocab-health-017",
+    "lang": "es",
+    "term": "cita médica",
+    "translations": {
+      "en": [
+        "medical appointment"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 417
+  },
+  {
+    "id": "es-vocab-health-018",
+    "lang": "es",
+    "term": "chequeo médico",
+    "translations": {
+      "en": [
+        "medical checkup"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 418
+  },
+  {
+    "id": "es-vocab-health-019",
+    "lang": "es",
+    "term": "urgencias",
+    "translations": {
+      "en": [
+        "emergency room"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 419
+  },
+  {
+    "id": "es-vocab-health-020",
+    "lang": "es",
+    "term": "ambulancia",
+    "translations": {
+      "en": [
+        "ambulance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 420
+  },
+  {
+    "id": "es-vocab-health-021",
+    "lang": "es",
+    "term": "vacuna",
+    "translations": {
+      "en": [
+        "vaccine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 421
+  },
+  {
+    "id": "es-vocab-health-022",
+    "lang": "es",
+    "term": "dolor",
+    "translations": {
+      "en": [
+        "pain"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 422
+  },
+  {
+    "id": "es-vocab-health-023",
+    "lang": "es",
+    "term": "enfermedad",
+    "translations": {
+      "en": [
+        "illness",
+        "disease"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 423
+  },
+  {
+    "id": "es-vocab-health-024",
+    "lang": "es",
+    "term": "curarse",
+    "translations": {
+      "en": [
+        "to recover",
+        "to heal"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 424
+  },
+  {
+    "id": "es-vocab-health-025",
+    "lang": "es",
+    "term": "enfermarse",
+    "translations": {
+      "en": [
+        "to get sick"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 425
+  },
+  {
+    "id": "es-vocab-health-026",
+    "lang": "es",
+    "term": "respirar",
+    "translations": {
+      "en": [
+        "to breathe"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 426
+  },
+  {
+    "id": "es-vocab-health-027",
+    "lang": "es",
+    "term": "tratar",
+    "translations": {
+      "en": [
+        "to treat"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 427
+  },
+  {
+    "id": "es-vocab-health-028",
+    "lang": "es",
+    "term": "sano",
+    "translations": {
+      "en": [
+        "healthy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 428
+  },
+  {
+    "id": "es-vocab-health-029",
+    "lang": "es",
+    "term": "enfermo",
+    "translations": {
+      "en": [
+        "sick"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 429
+  },
+  {
+    "id": "es-vocab-health-030",
+    "lang": "es",
+    "term": "seguro médico",
+    "translations": {
+      "en": [
+        "health insurance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "health"
+    ],
+    "frequencyRank": 430
+  },
+  {
+    "id": "es-vocab-science-space-001",
+    "lang": "es",
+    "term": "ciencia",
+    "translations": {
+      "en": [
+        "science"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 431
+  },
+  {
+    "id": "es-vocab-science-space-002",
+    "lang": "es",
+    "term": "científico",
+    "translations": {
+      "en": [
+        "scientist"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 432
+  },
+  {
+    "id": "es-vocab-science-space-003",
+    "lang": "es",
+    "term": "experimento",
+    "translations": {
+      "en": [
+        "experiment"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 433
+  },
+  {
+    "id": "es-vocab-science-space-004",
+    "lang": "es",
+    "term": "laboratorio",
+    "translations": {
+      "en": [
+        "laboratory"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 434
+  },
+  {
+    "id": "es-vocab-science-space-005",
+    "lang": "es",
+    "term": "teoría",
+    "translations": {
+      "en": [
+        "theory"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 435
+  },
+  {
+    "id": "es-vocab-science-space-006",
+    "lang": "es",
+    "term": "investigación",
+    "translations": {
+      "en": [
+        "research"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 436
+  },
+  {
+    "id": "es-vocab-science-space-007",
+    "lang": "es",
+    "term": "universo",
+    "translations": {
+      "en": [
+        "universe"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 437
+  },
+  {
+    "id": "es-vocab-science-space-008",
+    "lang": "es",
+    "term": "planeta",
+    "translations": {
+      "en": [
+        "planet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 438
+  },
+  {
+    "id": "es-vocab-science-space-009",
+    "lang": "es",
+    "term": "estrella",
+    "translations": {
+      "en": [
+        "star"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 439
+  },
+  {
+    "id": "es-vocab-science-space-010",
+    "lang": "es",
+    "term": "galaxia",
+    "translations": {
+      "en": [
+        "galaxy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 440
+  },
+  {
+    "id": "es-vocab-science-space-011",
+    "lang": "es",
+    "term": "astronauta",
+    "translations": {
+      "en": [
+        "astronaut"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 441
+  },
+  {
+    "id": "es-vocab-science-space-012",
+    "lang": "es",
+    "term": "cohete",
+    "translations": {
+      "en": [
+        "rocket"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 442
+  },
+  {
+    "id": "es-vocab-science-space-013",
+    "lang": "es",
+    "term": "satélite",
+    "translations": {
+      "en": [
+        "satellite"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 443
+  },
+  {
+    "id": "es-vocab-science-space-014",
+    "lang": "es",
+    "term": "telescopio",
+    "translations": {
+      "en": [
+        "telescope"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 444
+  },
+  {
+    "id": "es-vocab-science-space-015",
+    "lang": "es",
+    "term": "luna",
+    "translations": {
+      "en": [
+        "moon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 445
+  },
+  {
+    "id": "es-vocab-science-space-016",
+    "lang": "es",
+    "term": "gravedad",
+    "translations": {
+      "en": [
+        "gravity"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 446
+  },
+  {
+    "id": "es-vocab-science-space-017",
+    "lang": "es",
+    "term": "átomo",
+    "translations": {
+      "en": [
+        "atom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 447
+  },
+  {
+    "id": "es-vocab-science-space-018",
+    "lang": "es",
+    "term": "molécula",
+    "translations": {
+      "en": [
+        "molecule"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 448
+  },
+  {
+    "id": "es-vocab-science-space-019",
+    "lang": "es",
+    "term": "célula",
+    "translations": {
+      "en": [
+        "cell"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 449
+  },
+  {
+    "id": "es-vocab-science-space-020",
+    "lang": "es",
+    "term": "ADN",
+    "translations": {
+      "en": [
+        "DNA"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 450
+  },
+  {
+    "id": "es-vocab-science-space-021",
+    "lang": "es",
+    "term": "evolución",
+    "translations": {
+      "en": [
+        "evolution"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 451
+  },
+  {
+    "id": "es-vocab-science-space-022",
+    "lang": "es",
+    "term": "descubrimiento",
+    "translations": {
+      "en": [
+        "discovery"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 452
+  },
+  {
+    "id": "es-vocab-science-space-023",
+    "lang": "es",
+    "term": "invento",
+    "translations": {
+      "en": [
+        "invention"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 453
+  },
+  {
+    "id": "es-vocab-science-space-024",
+    "lang": "es",
+    "term": "tecnología espacial",
+    "translations": {
+      "en": [
+        "space technology"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 454
+  },
+  {
+    "id": "es-vocab-science-space-025",
+    "lang": "es",
+    "term": "descubrir",
+    "translations": {
+      "en": [
+        "to discover"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 455
+  },
+  {
+    "id": "es-vocab-science-space-026",
+    "lang": "es",
+    "term": "demostrar",
+    "translations": {
+      "en": [
+        "to prove",
+        "to demonstrate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 456
+  },
+  {
+    "id": "es-vocab-science-space-027",
+    "lang": "es",
+    "term": "observar",
+    "translations": {
+      "en": [
+        "to observe"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 457
+  },
+  {
+    "id": "es-vocab-science-space-028",
+    "lang": "es",
+    "term": "medir",
+    "translations": {
+      "en": [
+        "to measure"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 458
+  },
+  {
+    "id": "es-vocab-science-space-029",
+    "lang": "es",
+    "term": "analizar",
+    "translations": {
+      "en": [
+        "to analyze"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 459
+  },
+  {
+    "id": "es-vocab-science-space-030",
+    "lang": "es",
+    "term": "hipótesis",
+    "translations": {
+      "en": [
+        "hypothesis"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 460
+  },
+  {
+    "id": "es-vocab-relationships-001",
+    "lang": "es",
+    "term": "novio",
+    "translations": {
+      "en": [
+        "boyfriend",
+        "fiancé"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 461
+  },
+  {
+    "id": "es-vocab-relationships-002",
+    "lang": "es",
+    "term": "novia",
+    "translations": {
+      "en": [
+        "girlfriend",
+        "fiancée"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 462
+  },
+  {
+    "id": "es-vocab-relationships-003",
+    "lang": "es",
+    "term": "cita romántica",
+    "translations": {
+      "en": [
+        "date (romantic)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 463
+  },
+  {
+    "id": "es-vocab-relationships-004",
+    "lang": "es",
+    "term": "enamorarse",
+    "translations": {
+      "en": [
+        "to fall in love"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 464
+  },
+  {
+    "id": "es-vocab-relationships-005",
+    "lang": "es",
+    "term": "boda",
+    "translations": {
+      "en": [
+        "wedding"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 465
+  },
+  {
+    "id": "es-vocab-relationships-006",
+    "lang": "es",
+    "term": "matrimonio",
+    "translations": {
+      "en": [
+        "marriage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 466
+  },
+  {
+    "id": "es-vocab-relationships-007",
+    "lang": "es",
+    "term": "compromiso",
+    "translations": {
+      "en": [
+        "engagement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 467
+  },
+  {
+    "id": "es-vocab-relationships-008",
+    "lang": "es",
+    "term": "casarse",
+    "translations": {
+      "en": [
+        "to get married"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 468
+  },
+  {
+    "id": "es-vocab-relationships-009",
+    "lang": "es",
+    "term": "divorcio",
+    "translations": {
+      "en": [
+        "divorce"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 469
+  },
+  {
+    "id": "es-vocab-relationships-010",
+    "lang": "es",
+    "term": "aniversario",
+    "translations": {
+      "en": [
+        "anniversary"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 470
+  },
+  {
+    "id": "es-vocab-relationships-011",
+    "lang": "es",
+    "term": "nacimiento",
+    "translations": {
+      "en": [
+        "birth"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 471
+  },
+  {
+    "id": "es-vocab-relationships-012",
+    "lang": "es",
+    "term": "recién nacido",
+    "translations": {
+      "en": [
+        "newborn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 472
+  },
+  {
+    "id": "es-vocab-relationships-013",
+    "lang": "es",
+    "term": "embarazo",
+    "translations": {
+      "en": [
+        "pregnancy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 473
+  },
+  {
+    "id": "es-vocab-relationships-014",
+    "lang": "es",
+    "term": "funeral",
+    "translations": {
+      "en": [
+        "funeral"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 474
+  },
+  {
+    "id": "es-vocab-relationships-015",
+    "lang": "es",
+    "term": "duelo",
+    "translations": {
+      "en": [
+        "mourning",
+        "grief"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 475
+  },
+  {
+    "id": "es-vocab-relationships-016",
+    "lang": "es",
+    "term": "relación",
+    "translations": {
+      "en": [
+        "relationship"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 476
+  },
+  {
+    "id": "es-vocab-relationships-017",
+    "lang": "es",
+    "term": "soltero",
+    "translations": {
+      "en": [
+        "single (unmarried)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 477
+  },
+  {
+    "id": "es-vocab-relationships-018",
+    "lang": "es",
+    "term": "pareja",
+    "translations": {
+      "en": [
+        "couple"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 478
+  },
+  {
+    "id": "es-vocab-relationships-019",
+    "lang": "es",
+    "term": "convivencia",
+    "translations": {
+      "en": [
+        "cohabitation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 479
+  },
+  {
+    "id": "es-vocab-relationships-020",
+    "lang": "es",
+    "term": "anillo",
+    "translations": {
+      "en": [
+        "ring"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 480
+  },
+  {
+    "id": "es-vocab-relationships-021",
+    "lang": "es",
+    "term": "propuesta de matrimonio",
+    "translations": {
+      "en": [
+        "marriage proposal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 481
+  },
+  {
+    "id": "es-vocab-relationships-022",
+    "lang": "es",
+    "term": "luna de miel",
+    "translations": {
+      "en": [
+        "honeymoon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 482
+  },
+  {
+    "id": "es-vocab-relationships-023",
+    "lang": "es",
+    "term": "viudo",
+    "translations": {
+      "en": [
+        "widower"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 483
+  },
+  {
+    "id": "es-vocab-relationships-024",
+    "lang": "es",
+    "term": "viuda",
+    "translations": {
+      "en": [
+        "widow"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 484
+  },
+  {
+    "id": "es-vocab-relationships-025",
+    "lang": "es",
+    "term": "nieto",
+    "translations": {
+      "en": [
+        "grandchild"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 485
+  },
+  {
+    "id": "es-vocab-relationships-026",
+    "lang": "es",
+    "term": "abuelo",
+    "translations": {
+      "en": [
+        "grandfather"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 486
+  },
+  {
+    "id": "es-vocab-relationships-027",
+    "lang": "es",
+    "term": "abuela",
+    "translations": {
+      "en": [
+        "grandmother"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 487
+  },
+  {
+    "id": "es-vocab-relationships-028",
+    "lang": "es",
+    "term": "primo",
+    "translations": {
+      "en": [
+        "cousin"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 488
+  },
+  {
+    "id": "es-vocab-relationships-029",
+    "lang": "es",
+    "term": "suegro",
+    "translations": {
+      "en": [
+        "father-in-law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 489
+  },
+  {
+    "id": "es-vocab-relationships-030",
+    "lang": "es",
+    "term": "suegra",
+    "translations": {
+      "en": [
+        "mother-in-law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 490
+  },
+  {
+    "id": "es-vocab-media-news-001",
+    "lang": "es",
+    "term": "noticia",
+    "translations": {
+      "en": [
+        "news"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 491
+  },
+  {
+    "id": "es-vocab-media-news-002",
+    "lang": "es",
+    "term": "periódico",
+    "translations": {
+      "en": [
+        "newspaper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 492
+  },
+  {
+    "id": "es-vocab-media-news-003",
+    "lang": "es",
+    "term": "periodista",
+    "translations": {
+      "en": [
+        "journalist"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 493
+  },
+  {
+    "id": "es-vocab-media-news-004",
+    "lang": "es",
+    "term": "artículo",
+    "translations": {
+      "en": [
+        "article"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 494
+  },
+  {
+    "id": "es-vocab-media-news-005",
+    "lang": "es",
+    "term": "titular",
+    "translations": {
+      "en": [
+        "headline"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 495
+  },
+  {
+    "id": "es-vocab-media-news-006",
+    "lang": "es",
+    "term": "revista",
+    "translations": {
+      "en": [
+        "magazine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 496
+  },
+  {
+    "id": "es-vocab-media-news-007",
+    "lang": "es",
+    "term": "emisión",
+    "translations": {
+      "en": [
+        "broadcast"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 497
+  },
+  {
+    "id": "es-vocab-media-news-008",
+    "lang": "es",
+    "term": "telediario",
+    "translations": {
+      "en": [
+        "TV news"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 498
+  },
+  {
+    "id": "es-vocab-media-news-009",
+    "lang": "es",
+    "term": "entrevista",
+    "translations": {
+      "en": [
+        "interview"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 499
+  },
+  {
+    "id": "es-vocab-media-news-010",
+    "lang": "es",
+    "term": "anuncio",
+    "translations": {
+      "en": [
+        "advertisement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 500
+  },
+  {
+    "id": "es-vocab-media-news-011",
+    "lang": "es",
+    "term": "radio",
+    "translations": {
+      "en": [
+        "radio"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 501
+  },
+  {
+    "id": "es-vocab-media-news-012",
+    "lang": "es",
+    "term": "podcast",
+    "translations": {
+      "en": [
+        "podcast"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 502
+  },
+  {
+    "id": "es-vocab-media-news-013",
+    "lang": "es",
+    "term": "editorial",
+    "translations": {
+      "en": [
+        "editorial"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 503
+  },
+  {
+    "id": "es-vocab-media-news-014",
+    "lang": "es",
+    "term": "redacción",
+    "translations": {
+      "en": [
+        "editorial office",
+        "newsroom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 504
+  },
+  {
+    "id": "es-vocab-media-news-015",
+    "lang": "es",
+    "term": "fuente",
+    "translations": {
+      "en": [
+        "source"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 505
+  },
+  {
+    "id": "es-vocab-media-news-016",
+    "lang": "es",
+    "term": "escándalo",
+    "translations": {
+      "en": [
+        "scandal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 506
+  },
+  {
+    "id": "es-vocab-media-news-017",
+    "lang": "es",
+    "term": "opinión pública",
+    "translations": {
+      "en": [
+        "public opinion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 507
+  },
+  {
+    "id": "es-vocab-media-news-018",
+    "lang": "es",
+    "term": "censura",
+    "translations": {
+      "en": [
+        "censorship"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 508
+  },
+  {
+    "id": "es-vocab-media-news-019",
+    "lang": "es",
+    "term": "libertad de prensa",
+    "translations": {
+      "en": [
+        "freedom of the press"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 509
+  },
+  {
+    "id": "es-vocab-media-news-020",
+    "lang": "es",
+    "term": "actualidad",
+    "translations": {
+      "en": [
+        "current events"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 510
+  },
+  {
+    "id": "es-vocab-media-news-021",
+    "lang": "es",
+    "term": "publicar",
+    "translations": {
+      "en": [
+        "to publish"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 511
+  },
+  {
+    "id": "es-vocab-media-news-022",
+    "lang": "es",
+    "term": "informar",
+    "translations": {
+      "en": [
+        "to report"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 512
+  },
+  {
+    "id": "es-vocab-media-news-023",
+    "lang": "es",
+    "term": "emitir",
+    "translations": {
+      "en": [
+        "to broadcast"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 513
+  },
+  {
+    "id": "es-vocab-media-news-024",
+    "lang": "es",
+    "term": "comentar",
+    "translations": {
+      "en": [
+        "to comment"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 514
+  },
+  {
+    "id": "es-vocab-media-news-025",
+    "lang": "es",
+    "term": "suscripción",
+    "translations": {
+      "en": [
+        "subscription"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 515
+  },
+  {
+    "id": "es-vocab-media-news-026",
+    "lang": "es",
+    "term": "lector",
+    "translations": {
+      "en": [
+        "reader"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 516
+  },
+  {
+    "id": "es-vocab-media-news-027",
+    "lang": "es",
+    "term": "espectador",
+    "translations": {
+      "en": [
+        "viewer",
+        "spectator"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 517
+  },
+  {
+    "id": "es-vocab-media-news-028",
+    "lang": "es",
+    "term": "actualización",
+    "translations": {
+      "en": [
+        "update"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 518
+  },
+  {
+    "id": "es-vocab-media-news-029",
+    "lang": "es",
+    "term": "comunicado de prensa",
+    "translations": {
+      "en": [
+        "press release"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 519
+  },
+  {
+    "id": "es-vocab-media-news-030",
+    "lang": "es",
+    "term": "influencer",
+    "translations": {
+      "en": [
+        "influencer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 520
+  },
+  {
+    "id": "es-vocab-cars-driving-001",
+    "lang": "es",
+    "term": "automóvil",
+    "translations": {
+      "en": [
+        "car"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 521
+  },
+  {
+    "id": "es-vocab-cars-driving-002",
+    "lang": "es",
+    "term": "carné de conducir",
+    "translations": {
+      "en": [
+        "driver's license"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 522
+  },
+  {
+    "id": "es-vocab-cars-driving-003",
+    "lang": "es",
+    "term": "volante",
+    "translations": {
+      "en": [
+        "steering wheel"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 523
+  },
+  {
+    "id": "es-vocab-cars-driving-004",
+    "lang": "es",
+    "term": "motor",
+    "translations": {
+      "en": [
+        "engine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 524
+  },
+  {
+    "id": "es-vocab-cars-driving-005",
+    "lang": "es",
+    "term": "freno",
+    "translations": {
+      "en": [
+        "brake"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 525
+  },
+  {
+    "id": "es-vocab-cars-driving-006",
+    "lang": "es",
+    "term": "acelerador",
+    "translations": {
+      "en": [
+        "accelerator"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 526
+  },
+  {
+    "id": "es-vocab-cars-driving-007",
+    "lang": "es",
+    "term": "tubo de escape",
+    "translations": {
+      "en": [
+        "exhaust pipe",
+        "muffler"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 527
+  },
+  {
+    "id": "es-vocab-cars-driving-008",
+    "lang": "es",
+    "term": "neumático",
+    "translations": {
+      "en": [
+        "tire"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 528
+  },
+  {
+    "id": "es-vocab-cars-driving-009",
+    "lang": "es",
+    "term": "gasolina",
+    "translations": {
+      "en": [
+        "gasoline"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 529
+  },
+  {
+    "id": "es-vocab-cars-driving-010",
+    "lang": "es",
+    "term": "gasolinera",
+    "translations": {
+      "en": [
+        "gas station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 530
+  },
+  {
+    "id": "es-vocab-cars-driving-011",
+    "lang": "es",
+    "term": "aparcamiento",
+    "translations": {
+      "en": [
+        "parking lot"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 531
+  },
+  {
+    "id": "es-vocab-cars-driving-012",
+    "lang": "es",
+    "term": "aparcar",
+    "translations": {
+      "en": [
+        "to park"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 532
+  },
+  {
+    "id": "es-vocab-cars-driving-013",
+    "lang": "es",
+    "term": "conducir",
+    "translations": {
+      "en": [
+        "to drive"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 533
+  },
+  {
+    "id": "es-vocab-cars-driving-014",
+    "lang": "es",
+    "term": "cinturón de seguridad",
+    "translations": {
+      "en": [
+        "seatbelt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 534
+  },
+  {
+    "id": "es-vocab-cars-driving-015",
+    "lang": "es",
+    "term": "espejo retrovisor",
+    "translations": {
+      "en": [
+        "rearview mirror"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 535
+  },
+  {
+    "id": "es-vocab-cars-driving-016",
+    "lang": "es",
+    "term": "bocina",
+    "translations": {
+      "en": [
+        "horn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 536
+  },
+  {
+    "id": "es-vocab-cars-driving-017",
+    "lang": "es",
+    "term": "matrícula",
+    "translations": {
+      "en": [
+        "license plate"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 537
+  },
+  {
+    "id": "es-vocab-cars-driving-018",
+    "lang": "es",
+    "term": "circulación",
+    "translations": {
+      "en": [
+        "traffic flow"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 538
+  },
+  {
+    "id": "es-vocab-cars-driving-019",
+    "lang": "es",
+    "term": "congestión vial",
+    "translations": {
+      "en": [
+        "traffic jam"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 539
+  },
+  {
+    "id": "es-vocab-cars-driving-020",
+    "lang": "es",
+    "term": "autopista",
+    "translations": {
+      "en": [
+        "highway"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 540
+  },
+  {
+    "id": "es-vocab-cars-driving-021",
+    "lang": "es",
+    "term": "peaje",
+    "translations": {
+      "en": [
+        "toll"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 541
+  },
+  {
+    "id": "es-vocab-cars-driving-022",
+    "lang": "es",
+    "term": "multa por exceso de velocidad",
+    "translations": {
+      "en": [
+        "speeding ticket"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 542
+  },
+  {
+    "id": "es-vocab-cars-driving-023",
+    "lang": "es",
+    "term": "accidente de tráfico",
+    "translations": {
+      "en": [
+        "car accident"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 543
+  },
+  {
+    "id": "es-vocab-cars-driving-024",
+    "lang": "es",
+    "term": "taller mecánico",
+    "translations": {
+      "en": [
+        "auto repair shop"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 544
+  },
+  {
+    "id": "es-vocab-cars-driving-025",
+    "lang": "es",
+    "term": "mecánico",
+    "translations": {
+      "en": [
+        "mechanic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 545
+  },
+  {
+    "id": "es-vocab-cars-driving-026",
+    "lang": "es",
+    "term": "seguro del coche",
+    "translations": {
+      "en": [
+        "car insurance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 546
+  },
+  {
+    "id": "es-vocab-cars-driving-027",
+    "lang": "es",
+    "term": "alquiler de coches",
+    "translations": {
+      "en": [
+        "car rental"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 547
+  },
+  {
+    "id": "es-vocab-cars-driving-028",
+    "lang": "es",
+    "term": "velocidad",
+    "translations": {
+      "en": [
+        "speed"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 548
+  },
+  {
+    "id": "es-vocab-cars-driving-029",
+    "lang": "es",
+    "term": "adelantar",
+    "translations": {
+      "en": [
+        "to overtake",
+        "to pass"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 549
+  },
+  {
+    "id": "es-vocab-cars-driving-030",
+    "lang": "es",
+    "term": "frenar",
+    "translations": {
+      "en": [
+        "to brake"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 550
+  },
+  {
+    "id": "es-vocab-law-crime-001",
+    "lang": "es",
+    "term": "ley",
+    "translations": {
+      "en": [
+        "law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 551
+  },
+  {
+    "id": "es-vocab-law-crime-002",
+    "lang": "es",
+    "term": "policía",
+    "translations": {
+      "en": [
+        "police"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 552
+  },
+  {
+    "id": "es-vocab-law-crime-003",
+    "lang": "es",
+    "term": "agente de policía",
+    "translations": {
+      "en": [
+        "police officer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 553
+  },
+  {
+    "id": "es-vocab-law-crime-004",
+    "lang": "es",
+    "term": "crimen",
+    "translations": {
+      "en": [
+        "crime"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 554
+  },
+  {
+    "id": "es-vocab-law-crime-005",
+    "lang": "es",
+    "term": "criminal",
+    "translations": {
+      "en": [
+        "criminal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 555
+  },
+  {
+    "id": "es-vocab-law-crime-006",
+    "lang": "es",
+    "term": "robo",
+    "translations": {
+      "en": [
+        "theft"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 556
+  },
+  {
+    "id": "es-vocab-law-crime-007",
+    "lang": "es",
+    "term": "ladrón",
+    "translations": {
+      "en": [
+        "thief"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 557
+  },
+  {
+    "id": "es-vocab-law-crime-008",
+    "lang": "es",
+    "term": "víctima",
+    "translations": {
+      "en": [
+        "victim"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 558
+  },
+  {
+    "id": "es-vocab-law-crime-009",
+    "lang": "es",
+    "term": "testigo",
+    "translations": {
+      "en": [
+        "witness"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 559
+  },
+  {
+    "id": "es-vocab-law-crime-010",
+    "lang": "es",
+    "term": "tribunal",
+    "translations": {
+      "en": [
+        "court"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 560
+  },
+  {
+    "id": "es-vocab-law-crime-011",
+    "lang": "es",
+    "term": "juez",
+    "translations": {
+      "en": [
+        "judge"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 561
+  },
+  {
+    "id": "es-vocab-law-crime-012",
+    "lang": "es",
+    "term": "abogado",
+    "translations": {
+      "en": [
+        "lawyer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 562
+  },
+  {
+    "id": "es-vocab-law-crime-013",
+    "lang": "es",
+    "term": "juicio",
+    "translations": {
+      "en": [
+        "trial"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 563
+  },
+  {
+    "id": "es-vocab-law-crime-014",
+    "lang": "es",
+    "term": "prueba",
+    "translations": {
+      "en": [
+        "evidence",
+        "proof"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 564
+  },
+  {
+    "id": "es-vocab-law-crime-015",
+    "lang": "es",
+    "term": "arresto",
+    "translations": {
+      "en": [
+        "arrest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 565
+  },
+  {
+    "id": "es-vocab-law-crime-016",
+    "lang": "es",
+    "term": "cárcel",
+    "translations": {
+      "en": [
+        "prison"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 566
+  },
+  {
+    "id": "es-vocab-law-crime-017",
+    "lang": "es",
+    "term": "multa",
+    "translations": {
+      "en": [
+        "fine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 567
+  },
+  {
+    "id": "es-vocab-law-crime-018",
+    "lang": "es",
+    "term": "derecho",
+    "translations": {
+      "en": [
+        "right",
+        "law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 568
+  },
+  {
+    "id": "es-vocab-law-crime-019",
+    "lang": "es",
+    "term": "justicia",
+    "translations": {
+      "en": [
+        "justice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 569
+  },
+  {
+    "id": "es-vocab-law-crime-020",
+    "lang": "es",
+    "term": "culpable",
+    "translations": {
+      "en": [
+        "guilty"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 570
+  },
+  {
+    "id": "es-vocab-law-crime-021",
+    "lang": "es",
+    "term": "inocente",
+    "translations": {
+      "en": [
+        "innocent"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 571
+  },
+  {
+    "id": "es-vocab-law-crime-022",
+    "lang": "es",
+    "term": "legal",
+    "translations": {
+      "en": [
+        "legal"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 572
+  },
+  {
+    "id": "es-vocab-law-crime-023",
+    "lang": "es",
+    "term": "ilegal",
+    "translations": {
+      "en": [
+        "illegal"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 573
+  },
+  {
+    "id": "es-vocab-law-crime-024",
+    "lang": "es",
+    "term": "arrestar",
+    "translations": {
+      "en": [
+        "to arrest"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 574
+  },
+  {
+    "id": "es-vocab-law-crime-025",
+    "lang": "es",
+    "term": "robar",
+    "translations": {
+      "en": [
+        "to steal"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 575
+  },
+  {
+    "id": "es-vocab-law-crime-026",
+    "lang": "es",
+    "term": "acusar",
+    "translations": {
+      "en": [
+        "to accuse"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 576
+  },
+  {
+    "id": "es-vocab-law-crime-027",
+    "lang": "es",
+    "term": "denunciar",
+    "translations": {
+      "en": [
+        "to report (a crime)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 577
+  },
+  {
+    "id": "es-vocab-law-crime-028",
+    "lang": "es",
+    "term": "testificar",
+    "translations": {
+      "en": [
+        "to testify"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 578
+  },
+  {
+    "id": "es-vocab-law-crime-029",
+    "lang": "es",
+    "term": "demanda",
+    "translations": {
+      "en": [
+        "lawsuit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 579
+  },
+  {
+    "id": "es-vocab-law-crime-030",
+    "lang": "es",
+    "term": "veredicto",
+    "translations": {
+      "en": [
+        "verdict"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "law-crime"
+    ],
+    "frequencyRank": 580
+  },
+  {
+    "id": "es-vocab-animals-001",
+    "lang": "es",
+    "term": "animal",
+    "translations": {
+      "en": [
+        "animal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 581
+  },
+  {
+    "id": "es-vocab-animals-002",
+    "lang": "es",
+    "term": "perro",
+    "translations": {
+      "en": [
+        "dog"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 582
+  },
+  {
+    "id": "es-vocab-animals-003",
+    "lang": "es",
+    "term": "gato",
+    "translations": {
+      "en": [
+        "cat"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 583
+  },
+  {
+    "id": "es-vocab-animals-004",
+    "lang": "es",
+    "term": "pájaro",
+    "translations": {
+      "en": [
+        "bird"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 584
+  },
+  {
+    "id": "es-vocab-animals-005",
+    "lang": "es",
+    "term": "caballo",
+    "translations": {
+      "en": [
+        "horse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 585
+  },
+  {
+    "id": "es-vocab-animals-006",
+    "lang": "es",
+    "term": "vaca",
+    "translations": {
+      "en": [
+        "cow"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 586
+  },
+  {
+    "id": "es-vocab-animals-007",
+    "lang": "es",
+    "term": "cerdo",
+    "translations": {
+      "en": [
+        "pig"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 587
+  },
+  {
+    "id": "es-vocab-animals-008",
+    "lang": "es",
+    "term": "oveja",
+    "translations": {
+      "en": [
+        "sheep"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 588
+  },
+  {
+    "id": "es-vocab-animals-009",
+    "lang": "es",
+    "term": "gallina",
+    "translations": {
+      "en": [
+        "hen",
+        "chicken"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 589
+  },
+  {
+    "id": "es-vocab-animals-010",
+    "lang": "es",
+    "term": "pato",
+    "translations": {
+      "en": [
+        "duck"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 590
+  },
+  {
+    "id": "es-vocab-animals-011",
+    "lang": "es",
+    "term": "león",
+    "translations": {
+      "en": [
+        "lion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 591
+  },
+  {
+    "id": "es-vocab-animals-012",
+    "lang": "es",
+    "term": "tigre",
+    "translations": {
+      "en": [
+        "tiger"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 592
+  },
+  {
+    "id": "es-vocab-animals-013",
+    "lang": "es",
+    "term": "elefante",
+    "translations": {
+      "en": [
+        "elephant"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 593
+  },
+  {
+    "id": "es-vocab-animals-014",
+    "lang": "es",
+    "term": "oso",
+    "translations": {
+      "en": [
+        "bear"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 594
+  },
+  {
+    "id": "es-vocab-animals-015",
+    "lang": "es",
+    "term": "lobo",
+    "translations": {
+      "en": [
+        "wolf"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 595
+  },
+  {
+    "id": "es-vocab-animals-016",
+    "lang": "es",
+    "term": "zorro",
+    "translations": {
+      "en": [
+        "fox"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 596
+  },
+  {
+    "id": "es-vocab-animals-017",
+    "lang": "es",
+    "term": "conejo",
+    "translations": {
+      "en": [
+        "rabbit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 597
+  },
+  {
+    "id": "es-vocab-animals-018",
+    "lang": "es",
+    "term": "búho",
+    "translations": {
+      "en": [
+        "owl"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 598
+  },
+  {
+    "id": "es-vocab-animals-019",
+    "lang": "es",
+    "term": "serpiente",
+    "translations": {
+      "en": [
+        "snake"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 599
+  },
+  {
+    "id": "es-vocab-animals-020",
+    "lang": "es",
+    "term": "rana",
+    "translations": {
+      "en": [
+        "frog"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 600
+  },
+  {
+    "id": "es-vocab-animals-021",
+    "lang": "es",
+    "term": "tortuga",
+    "translations": {
+      "en": [
+        "turtle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 601
+  },
+  {
+    "id": "es-vocab-animals-022",
+    "lang": "es",
+    "term": "tiburón",
+    "translations": {
+      "en": [
+        "shark"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 602
+  },
+  {
+    "id": "es-vocab-animals-023",
+    "lang": "es",
+    "term": "ballena",
+    "translations": {
+      "en": [
+        "whale"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 603
+  },
+  {
+    "id": "es-vocab-animals-024",
+    "lang": "es",
+    "term": "delfín",
+    "translations": {
+      "en": [
+        "dolphin"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 604
+  },
+  {
+    "id": "es-vocab-animals-025",
+    "lang": "es",
+    "term": "mono",
+    "translations": {
+      "en": [
+        "monkey"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 605
+  },
+  {
+    "id": "es-vocab-animals-026",
+    "lang": "es",
+    "term": "araña",
+    "translations": {
+      "en": [
+        "spider"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 606
+  },
+  {
+    "id": "es-vocab-animals-027",
+    "lang": "es",
+    "term": "abeja",
+    "translations": {
+      "en": [
+        "bee"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 607
+  },
+  {
+    "id": "es-vocab-animals-028",
+    "lang": "es",
+    "term": "mariposa",
+    "translations": {
+      "en": [
+        "butterfly"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 608
+  },
+  {
+    "id": "es-vocab-animals-029",
+    "lang": "es",
+    "term": "hormiga",
+    "translations": {
+      "en": [
+        "ant"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 609
+  },
+  {
+    "id": "es-vocab-animals-030",
+    "lang": "es",
+    "term": "mosca",
+    "translations": {
+      "en": [
+        "fly (insect)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "frequencyRank": 610
+  },
+  {
+    "id": "es-vocab-nature-outdoors-001",
+    "lang": "es",
+    "term": "naturaleza",
+    "translations": {
+      "en": [
+        "nature"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 611
+  },
+  {
+    "id": "es-vocab-nature-outdoors-002",
+    "lang": "es",
+    "term": "cordillera",
+    "translations": {
+      "en": [
+        "mountain range"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 612
+  },
+  {
+    "id": "es-vocab-nature-outdoors-003",
+    "lang": "es",
+    "term": "valle",
+    "translations": {
+      "en": [
+        "valley"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 613
+  },
+  {
+    "id": "es-vocab-nature-outdoors-004",
+    "lang": "es",
+    "term": "colina",
+    "translations": {
+      "en": [
+        "hill"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 614
+  },
+  {
+    "id": "es-vocab-nature-outdoors-005",
+    "lang": "es",
+    "term": "río",
+    "translations": {
+      "en": [
+        "river"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 615
+  },
+  {
+    "id": "es-vocab-nature-outdoors-006",
+    "lang": "es",
+    "term": "cascada",
+    "translations": {
+      "en": [
+        "waterfall"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 616
+  },
+  {
+    "id": "es-vocab-nature-outdoors-007",
+    "lang": "es",
+    "term": "isla",
+    "translations": {
+      "en": [
+        "island"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 617
+  },
+  {
+    "id": "es-vocab-nature-outdoors-008",
+    "lang": "es",
+    "term": "costa",
+    "translations": {
+      "en": [
+        "coast"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 618
+  },
+  {
+    "id": "es-vocab-nature-outdoors-009",
+    "lang": "es",
+    "term": "roca",
+    "translations": {
+      "en": [
+        "rock"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 619
+  },
+  {
+    "id": "es-vocab-nature-outdoors-010",
+    "lang": "es",
+    "term": "piedra",
+    "translations": {
+      "en": [
+        "stone"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 620
+  },
+  {
+    "id": "es-vocab-nature-outdoors-011",
+    "lang": "es",
+    "term": "arena",
+    "translations": {
+      "en": [
+        "sand"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 621
+  },
+  {
+    "id": "es-vocab-nature-outdoors-012",
+    "lang": "es",
+    "term": "hoja",
+    "translations": {
+      "en": [
+        "leaf"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 622
+  },
+  {
+    "id": "es-vocab-nature-outdoors-013",
+    "lang": "es",
+    "term": "rama",
+    "translations": {
+      "en": [
+        "branch"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 623
+  },
+  {
+    "id": "es-vocab-nature-outdoors-014",
+    "lang": "es",
+    "term": "raíz",
+    "translations": {
+      "en": [
+        "root"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 624
+  },
+  {
+    "id": "es-vocab-nature-outdoors-015",
+    "lang": "es",
+    "term": "semilla",
+    "translations": {
+      "en": [
+        "seed"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 625
+  },
+  {
+    "id": "es-vocab-nature-outdoors-016",
+    "lang": "es",
+    "term": "acampar",
+    "translations": {
+      "en": [
+        "to camp"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 626
+  },
+  {
+    "id": "es-vocab-nature-outdoors-017",
+    "lang": "es",
+    "term": "tienda de campaña",
+    "translations": {
+      "en": [
+        "tent"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 627
+  },
+  {
+    "id": "es-vocab-nature-outdoors-018",
+    "lang": "es",
+    "term": "saco de dormir",
+    "translations": {
+      "en": [
+        "sleeping bag"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 628
+  },
+  {
+    "id": "es-vocab-nature-outdoors-019",
+    "lang": "es",
+    "term": "mochila",
+    "translations": {
+      "en": [
+        "backpack"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 629
+  },
+  {
+    "id": "es-vocab-nature-outdoors-020",
+    "lang": "es",
+    "term": "sendero",
+    "translations": {
+      "en": [
+        "trail",
+        "path"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 630
+  },
+  {
+    "id": "es-vocab-nature-outdoors-021",
+    "lang": "es",
+    "term": "brújula",
+    "translations": {
+      "en": [
+        "compass"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 631
+  },
+  {
+    "id": "es-vocab-nature-outdoors-022",
+    "lang": "es",
+    "term": "linterna",
+    "translations": {
+      "en": [
+        "flashlight"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 632
+  },
+  {
+    "id": "es-vocab-nature-outdoors-023",
+    "lang": "es",
+    "term": "hoguera",
+    "translations": {
+      "en": [
+        "campfire"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 633
+  },
+  {
+    "id": "es-vocab-nature-outdoors-024",
+    "lang": "es",
+    "term": "acantilado",
+    "translations": {
+      "en": [
+        "cliff"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 634
+  },
+  {
+    "id": "es-vocab-nature-outdoors-025",
+    "lang": "es",
+    "term": "cueva",
+    "translations": {
+      "en": [
+        "cave"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 635
+  },
+  {
+    "id": "es-vocab-nature-outdoors-026",
+    "lang": "es",
+    "term": "aire libre",
+    "translations": {
+      "en": [
+        "outdoors",
+        "open air"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 636
+  },
+  {
+    "id": "es-vocab-nature-outdoors-027",
+    "lang": "es",
+    "term": "silvestre",
+    "translations": {
+      "en": [
+        "wild"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 637
+  },
+  {
+    "id": "es-vocab-nature-outdoors-028",
+    "lang": "es",
+    "term": "explorar",
+    "translations": {
+      "en": [
+        "to explore"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 638
+  },
+  {
+    "id": "es-vocab-nature-outdoors-029",
+    "lang": "es",
+    "term": "escalar",
+    "translations": {
+      "en": [
+        "to climb"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 639
+  },
+  {
+    "id": "es-vocab-nature-outdoors-030",
+    "lang": "es",
+    "term": "respirar aire fresco",
+    "translations": {
+      "en": [
+        "to breathe fresh air"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "nature-outdoors"
+    ],
+    "frequencyRank": 640
   }
 ]
