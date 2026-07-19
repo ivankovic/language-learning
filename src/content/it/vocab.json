@@ -14217,5 +14217,1819 @@
       "law-crime"
     ],
     "frequencyRank": 1400
+  },
+  {
+    "id": "it-vocab-relationships-001",
+    "lang": "it",
+    "term": "compagno",
+    "translations": {
+      "en": [
+        "partner",
+        "boyfriend"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1401
+  },
+  {
+    "id": "it-vocab-relationships-002",
+    "lang": "it",
+    "term": "compagna",
+    "translations": {
+      "en": [
+        "partner",
+        "girlfriend"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1402
+  },
+  {
+    "id": "it-vocab-relationships-003",
+    "lang": "it",
+    "term": "appuntamento romantico",
+    "translations": {
+      "en": [
+        "date (romantic)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1403
+  },
+  {
+    "id": "it-vocab-relationships-004",
+    "lang": "it",
+    "term": "innamorarsi",
+    "translations": {
+      "en": [
+        "to fall in love"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1404
+  },
+  {
+    "id": "it-vocab-relationships-005",
+    "lang": "it",
+    "term": "cerimonia nuziale",
+    "translations": {
+      "en": [
+        "wedding ceremony"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1405
+  },
+  {
+    "id": "it-vocab-relationships-006",
+    "lang": "it",
+    "term": "sposo",
+    "translations": {
+      "en": [
+        "groom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1406
+  },
+  {
+    "id": "it-vocab-relationships-007",
+    "lang": "it",
+    "term": "sposa",
+    "translations": {
+      "en": [
+        "bride"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1407
+  },
+  {
+    "id": "it-vocab-relationships-008",
+    "lang": "it",
+    "term": "sposarsi",
+    "translations": {
+      "en": [
+        "to get married"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1408
+  },
+  {
+    "id": "it-vocab-relationships-009",
+    "lang": "it",
+    "term": "divorzio",
+    "translations": {
+      "en": [
+        "divorce"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1409
+  },
+  {
+    "id": "it-vocab-relationships-010",
+    "lang": "it",
+    "term": "ricorrenza",
+    "translations": {
+      "en": [
+        "anniversary",
+        "occasion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1410
+  },
+  {
+    "id": "it-vocab-relationships-011",
+    "lang": "it",
+    "term": "nascita",
+    "translations": {
+      "en": [
+        "birth"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1411
+  },
+  {
+    "id": "it-vocab-relationships-012",
+    "lang": "it",
+    "term": "neonato",
+    "translations": {
+      "en": [
+        "newborn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1412
+  },
+  {
+    "id": "it-vocab-relationships-013",
+    "lang": "it",
+    "term": "gravidanza",
+    "translations": {
+      "en": [
+        "pregnancy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1413
+  },
+  {
+    "id": "it-vocab-relationships-014",
+    "lang": "it",
+    "term": "funerale",
+    "translations": {
+      "en": [
+        "funeral"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1414
+  },
+  {
+    "id": "it-vocab-relationships-015",
+    "lang": "it",
+    "term": "lutto",
+    "translations": {
+      "en": [
+        "mourning",
+        "grief"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1415
+  },
+  {
+    "id": "it-vocab-relationships-016",
+    "lang": "it",
+    "term": "relazione",
+    "translations": {
+      "en": [
+        "relationship"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1416
+  },
+  {
+    "id": "it-vocab-relationships-017",
+    "lang": "it",
+    "term": "single",
+    "translations": {
+      "en": [
+        "single (unmarried)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1417
+  },
+  {
+    "id": "it-vocab-relationships-018",
+    "lang": "it",
+    "term": "coppia",
+    "translations": {
+      "en": [
+        "couple"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1418
+  },
+  {
+    "id": "it-vocab-relationships-019",
+    "lang": "it",
+    "term": "convivenza",
+    "translations": {
+      "en": [
+        "cohabitation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1419
+  },
+  {
+    "id": "it-vocab-relationships-020",
+    "lang": "it",
+    "term": "anello",
+    "translations": {
+      "en": [
+        "ring"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1420
+  },
+  {
+    "id": "it-vocab-relationships-021",
+    "lang": "it",
+    "term": "proposta di matrimonio",
+    "translations": {
+      "en": [
+        "marriage proposal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1421
+  },
+  {
+    "id": "it-vocab-relationships-022",
+    "lang": "it",
+    "term": "luna di miele",
+    "translations": {
+      "en": [
+        "honeymoon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1422
+  },
+  {
+    "id": "it-vocab-relationships-023",
+    "lang": "it",
+    "term": "vedovo",
+    "translations": {
+      "en": [
+        "widower"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1423
+  },
+  {
+    "id": "it-vocab-relationships-024",
+    "lang": "it",
+    "term": "vedova",
+    "translations": {
+      "en": [
+        "widow"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1424
+  },
+  {
+    "id": "it-vocab-relationships-025",
+    "lang": "it",
+    "term": "nipote",
+    "translations": {
+      "en": [
+        "grandchild",
+        "nephew/niece"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1425
+  },
+  {
+    "id": "it-vocab-relationships-026",
+    "lang": "it",
+    "term": "nonno",
+    "translations": {
+      "en": [
+        "grandfather"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1426
+  },
+  {
+    "id": "it-vocab-relationships-027",
+    "lang": "it",
+    "term": "nonna",
+    "translations": {
+      "en": [
+        "grandmother"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1427
+  },
+  {
+    "id": "it-vocab-relationships-028",
+    "lang": "it",
+    "term": "cugino",
+    "translations": {
+      "en": [
+        "cousin"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1428
+  },
+  {
+    "id": "it-vocab-relationships-029",
+    "lang": "it",
+    "term": "suocero",
+    "translations": {
+      "en": [
+        "father-in-law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1429
+  },
+  {
+    "id": "it-vocab-relationships-030",
+    "lang": "it",
+    "term": "suocera",
+    "translations": {
+      "en": [
+        "mother-in-law"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "relationships"
+    ],
+    "frequencyRank": 1430
+  },
+  {
+    "id": "it-vocab-media-news-001",
+    "lang": "it",
+    "term": "notizia",
+    "translations": {
+      "en": [
+        "news"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1431
+  },
+  {
+    "id": "it-vocab-media-news-002",
+    "lang": "it",
+    "term": "quotidiano",
+    "translations": {
+      "en": [
+        "daily newspaper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1432
+  },
+  {
+    "id": "it-vocab-media-news-003",
+    "lang": "it",
+    "term": "giornalista",
+    "translations": {
+      "en": [
+        "journalist"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1433
+  },
+  {
+    "id": "it-vocab-media-news-004",
+    "lang": "it",
+    "term": "articolo",
+    "translations": {
+      "en": [
+        "article"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1434
+  },
+  {
+    "id": "it-vocab-media-news-005",
+    "lang": "it",
+    "term": "titolo",
+    "translations": {
+      "en": [
+        "headline",
+        "title"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1435
+  },
+  {
+    "id": "it-vocab-media-news-006",
+    "lang": "it",
+    "term": "periodico",
+    "translations": {
+      "en": [
+        "magazine",
+        "periodical"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1436
+  },
+  {
+    "id": "it-vocab-media-news-007",
+    "lang": "it",
+    "term": "trasmissione",
+    "translations": {
+      "en": [
+        "broadcast"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1437
+  },
+  {
+    "id": "it-vocab-media-news-008",
+    "lang": "it",
+    "term": "telegiornale",
+    "translations": {
+      "en": [
+        "TV news"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1438
+  },
+  {
+    "id": "it-vocab-media-news-009",
+    "lang": "it",
+    "term": "intervista",
+    "translations": {
+      "en": [
+        "interview"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1439
+  },
+  {
+    "id": "it-vocab-media-news-010",
+    "lang": "it",
+    "term": "spot pubblicitario",
+    "translations": {
+      "en": [
+        "advertisement",
+        "commercial"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1440
+  },
+  {
+    "id": "it-vocab-media-news-011",
+    "lang": "it",
+    "term": "radio",
+    "translations": {
+      "en": [
+        "radio"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1441
+  },
+  {
+    "id": "it-vocab-media-news-012",
+    "lang": "it",
+    "term": "podcast",
+    "translations": {
+      "en": [
+        "podcast"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1442
+  },
+  {
+    "id": "it-vocab-media-news-013",
+    "lang": "it",
+    "term": "editoriale",
+    "translations": {
+      "en": [
+        "editorial"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1443
+  },
+  {
+    "id": "it-vocab-media-news-014",
+    "lang": "it",
+    "term": "redazione",
+    "translations": {
+      "en": [
+        "editorial office",
+        "newsroom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1444
+  },
+  {
+    "id": "it-vocab-media-news-015",
+    "lang": "it",
+    "term": "fonte",
+    "translations": {
+      "en": [
+        "source"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1445
+  },
+  {
+    "id": "it-vocab-media-news-016",
+    "lang": "it",
+    "term": "scandalo",
+    "translations": {
+      "en": [
+        "scandal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1446
+  },
+  {
+    "id": "it-vocab-media-news-017",
+    "lang": "it",
+    "term": "opinione pubblica",
+    "translations": {
+      "en": [
+        "public opinion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1447
+  },
+  {
+    "id": "it-vocab-media-news-018",
+    "lang": "it",
+    "term": "censura",
+    "translations": {
+      "en": [
+        "censorship"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1448
+  },
+  {
+    "id": "it-vocab-media-news-019",
+    "lang": "it",
+    "term": "libertà di stampa",
+    "translations": {
+      "en": [
+        "freedom of the press"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1449
+  },
+  {
+    "id": "it-vocab-media-news-020",
+    "lang": "it",
+    "term": "attualità",
+    "translations": {
+      "en": [
+        "current events"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1450
+  },
+  {
+    "id": "it-vocab-media-news-021",
+    "lang": "it",
+    "term": "pubblicare",
+    "translations": {
+      "en": [
+        "to publish"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1451
+  },
+  {
+    "id": "it-vocab-media-news-022",
+    "lang": "it",
+    "term": "riportare",
+    "translations": {
+      "en": [
+        "to report"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1452
+  },
+  {
+    "id": "it-vocab-media-news-023",
+    "lang": "it",
+    "term": "trasmettere",
+    "translations": {
+      "en": [
+        "to broadcast"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1453
+  },
+  {
+    "id": "it-vocab-media-news-024",
+    "lang": "it",
+    "term": "commentare",
+    "translations": {
+      "en": [
+        "to comment"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1454
+  },
+  {
+    "id": "it-vocab-media-news-025",
+    "lang": "it",
+    "term": "abbonamento",
+    "translations": {
+      "en": [
+        "subscription"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1455
+  },
+  {
+    "id": "it-vocab-media-news-026",
+    "lang": "it",
+    "term": "lettore",
+    "translations": {
+      "en": [
+        "reader"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1456
+  },
+  {
+    "id": "it-vocab-media-news-027",
+    "lang": "it",
+    "term": "spettatore",
+    "translations": {
+      "en": [
+        "viewer",
+        "spectator"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1457
+  },
+  {
+    "id": "it-vocab-media-news-028",
+    "lang": "it",
+    "term": "aggiornamento",
+    "translations": {
+      "en": [
+        "update"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1458
+  },
+  {
+    "id": "it-vocab-media-news-029",
+    "lang": "it",
+    "term": "comunicato stampa",
+    "translations": {
+      "en": [
+        "press release"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1459
+  },
+  {
+    "id": "it-vocab-media-news-030",
+    "lang": "it",
+    "term": "influencer",
+    "translations": {
+      "en": [
+        "influencer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "media-news"
+    ],
+    "frequencyRank": 1460
+  },
+  {
+    "id": "it-vocab-science-space-001",
+    "lang": "it",
+    "term": "scienza",
+    "translations": {
+      "en": [
+        "science"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1461
+  },
+  {
+    "id": "it-vocab-science-space-002",
+    "lang": "it",
+    "term": "scienziato",
+    "translations": {
+      "en": [
+        "scientist"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1462
+  },
+  {
+    "id": "it-vocab-science-space-003",
+    "lang": "it",
+    "term": "esperimento",
+    "translations": {
+      "en": [
+        "experiment"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1463
+  },
+  {
+    "id": "it-vocab-science-space-004",
+    "lang": "it",
+    "term": "laboratorio",
+    "translations": {
+      "en": [
+        "laboratory"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1464
+  },
+  {
+    "id": "it-vocab-science-space-005",
+    "lang": "it",
+    "term": "teoria",
+    "translations": {
+      "en": [
+        "theory"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1465
+  },
+  {
+    "id": "it-vocab-science-space-006",
+    "lang": "it",
+    "term": "ricerca",
+    "translations": {
+      "en": [
+        "research"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1466
+  },
+  {
+    "id": "it-vocab-science-space-007",
+    "lang": "it",
+    "term": "universo",
+    "translations": {
+      "en": [
+        "universe"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1467
+  },
+  {
+    "id": "it-vocab-science-space-008",
+    "lang": "it",
+    "term": "corpo celeste",
+    "translations": {
+      "en": [
+        "celestial body"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1468
+  },
+  {
+    "id": "it-vocab-science-space-009",
+    "lang": "it",
+    "term": "costellazione",
+    "translations": {
+      "en": [
+        "constellation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1469
+  },
+  {
+    "id": "it-vocab-science-space-010",
+    "lang": "it",
+    "term": "galassia",
+    "translations": {
+      "en": [
+        "galaxy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1470
+  },
+  {
+    "id": "it-vocab-science-space-011",
+    "lang": "it",
+    "term": "astronauta",
+    "translations": {
+      "en": [
+        "astronaut"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1471
+  },
+  {
+    "id": "it-vocab-science-space-012",
+    "lang": "it",
+    "term": "razzo",
+    "translations": {
+      "en": [
+        "rocket"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1472
+  },
+  {
+    "id": "it-vocab-science-space-013",
+    "lang": "it",
+    "term": "satellite",
+    "translations": {
+      "en": [
+        "satellite"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1473
+  },
+  {
+    "id": "it-vocab-science-space-014",
+    "lang": "it",
+    "term": "telescopio",
+    "translations": {
+      "en": [
+        "telescope"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1474
+  },
+  {
+    "id": "it-vocab-science-space-015",
+    "lang": "it",
+    "term": "eclissi",
+    "translations": {
+      "en": [
+        "eclipse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1475
+  },
+  {
+    "id": "it-vocab-science-space-016",
+    "lang": "it",
+    "term": "gravità",
+    "translations": {
+      "en": [
+        "gravity"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1476
+  },
+  {
+    "id": "it-vocab-science-space-017",
+    "lang": "it",
+    "term": "atomo",
+    "translations": {
+      "en": [
+        "atom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1477
+  },
+  {
+    "id": "it-vocab-science-space-018",
+    "lang": "it",
+    "term": "molecola",
+    "translations": {
+      "en": [
+        "molecule"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1478
+  },
+  {
+    "id": "it-vocab-science-space-019",
+    "lang": "it",
+    "term": "cellula",
+    "translations": {
+      "en": [
+        "cell"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1479
+  },
+  {
+    "id": "it-vocab-science-space-020",
+    "lang": "it",
+    "term": "dna",
+    "translations": {
+      "en": [
+        "DNA"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1480
+  },
+  {
+    "id": "it-vocab-science-space-021",
+    "lang": "it",
+    "term": "evoluzione",
+    "translations": {
+      "en": [
+        "evolution"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1481
+  },
+  {
+    "id": "it-vocab-science-space-022",
+    "lang": "it",
+    "term": "scoperta",
+    "translations": {
+      "en": [
+        "discovery"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1482
+  },
+  {
+    "id": "it-vocab-science-space-023",
+    "lang": "it",
+    "term": "invenzione",
+    "translations": {
+      "en": [
+        "invention"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1483
+  },
+  {
+    "id": "it-vocab-science-space-024",
+    "lang": "it",
+    "term": "tecnologia spaziale",
+    "translations": {
+      "en": [
+        "space technology"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1484
+  },
+  {
+    "id": "it-vocab-science-space-025",
+    "lang": "it",
+    "term": "scoprire",
+    "translations": {
+      "en": [
+        "to discover"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1485
+  },
+  {
+    "id": "it-vocab-science-space-026",
+    "lang": "it",
+    "term": "dimostrare",
+    "translations": {
+      "en": [
+        "to prove",
+        "to demonstrate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1486
+  },
+  {
+    "id": "it-vocab-science-space-027",
+    "lang": "it",
+    "term": "osservare",
+    "translations": {
+      "en": [
+        "to observe"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1487
+  },
+  {
+    "id": "it-vocab-science-space-028",
+    "lang": "it",
+    "term": "misurare",
+    "translations": {
+      "en": [
+        "to measure"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1488
+  },
+  {
+    "id": "it-vocab-science-space-029",
+    "lang": "it",
+    "term": "analizzare",
+    "translations": {
+      "en": [
+        "to analyze"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1489
+  },
+  {
+    "id": "it-vocab-science-space-030",
+    "lang": "it",
+    "term": "scientifico",
+    "translations": {
+      "en": [
+        "scientific"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "science-space"
+    ],
+    "frequencyRank": 1490
+  },
+  {
+    "id": "it-vocab-cars-driving-001",
+    "lang": "it",
+    "term": "automobile",
+    "translations": {
+      "en": [
+        "car"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1491
+  },
+  {
+    "id": "it-vocab-cars-driving-002",
+    "lang": "it",
+    "term": "patente di guida",
+    "translations": {
+      "en": [
+        "driver's license"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1492
+  },
+  {
+    "id": "it-vocab-cars-driving-003",
+    "lang": "it",
+    "term": "volante",
+    "translations": {
+      "en": [
+        "steering wheel"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1493
+  },
+  {
+    "id": "it-vocab-cars-driving-004",
+    "lang": "it",
+    "term": "motore",
+    "translations": {
+      "en": [
+        "engine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1494
+  },
+  {
+    "id": "it-vocab-cars-driving-005",
+    "lang": "it",
+    "term": "freno",
+    "translations": {
+      "en": [
+        "brake"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1495
+  },
+  {
+    "id": "it-vocab-cars-driving-006",
+    "lang": "it",
+    "term": "acceleratore",
+    "translations": {
+      "en": [
+        "accelerator"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1496
+  },
+  {
+    "id": "it-vocab-cars-driving-007",
+    "lang": "it",
+    "term": "marmitta",
+    "translations": {
+      "en": [
+        "exhaust pipe",
+        "muffler"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1497
+  },
+  {
+    "id": "it-vocab-cars-driving-008",
+    "lang": "it",
+    "term": "pneumatico",
+    "translations": {
+      "en": [
+        "tire"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1498
+  },
+  {
+    "id": "it-vocab-cars-driving-009",
+    "lang": "it",
+    "term": "carburante",
+    "translations": {
+      "en": [
+        "fuel"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1499
+  },
+  {
+    "id": "it-vocab-cars-driving-010",
+    "lang": "it",
+    "term": "distributore di benzina",
+    "translations": {
+      "en": [
+        "gas station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1500
+  },
+  {
+    "id": "it-vocab-cars-driving-011",
+    "lang": "it",
+    "term": "posteggio",
+    "translations": {
+      "en": [
+        "parking spot"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1501
+  },
+  {
+    "id": "it-vocab-cars-driving-012",
+    "lang": "it",
+    "term": "parcheggiare",
+    "translations": {
+      "en": [
+        "to park"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1502
+  },
+  {
+    "id": "it-vocab-cars-driving-013",
+    "lang": "it",
+    "term": "guidare",
+    "translations": {
+      "en": [
+        "to drive"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1503
+  },
+  {
+    "id": "it-vocab-cars-driving-014",
+    "lang": "it",
+    "term": "cintura di sicurezza",
+    "translations": {
+      "en": [
+        "seatbelt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1504
+  },
+  {
+    "id": "it-vocab-cars-driving-015",
+    "lang": "it",
+    "term": "specchietto retrovisore",
+    "translations": {
+      "en": [
+        "rearview mirror"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1505
+  },
+  {
+    "id": "it-vocab-cars-driving-016",
+    "lang": "it",
+    "term": "clacson",
+    "translations": {
+      "en": [
+        "horn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1506
+  },
+  {
+    "id": "it-vocab-cars-driving-017",
+    "lang": "it",
+    "term": "targa",
+    "translations": {
+      "en": [
+        "license plate"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1507
+  },
+  {
+    "id": "it-vocab-cars-driving-018",
+    "lang": "it",
+    "term": "traffico",
+    "translations": {
+      "en": [
+        "traffic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1508
+  },
+  {
+    "id": "it-vocab-cars-driving-019",
+    "lang": "it",
+    "term": "ingorgo",
+    "translations": {
+      "en": [
+        "traffic jam"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1509
+  },
+  {
+    "id": "it-vocab-cars-driving-020",
+    "lang": "it",
+    "term": "tangenziale",
+    "translations": {
+      "en": [
+        "ring road",
+        "bypass"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1510
+  },
+  {
+    "id": "it-vocab-cars-driving-021",
+    "lang": "it",
+    "term": "pedaggio",
+    "translations": {
+      "en": [
+        "toll"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1511
+  },
+  {
+    "id": "it-vocab-cars-driving-022",
+    "lang": "it",
+    "term": "multa per eccesso di velocità",
+    "translations": {
+      "en": [
+        "speeding ticket"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1512
+  },
+  {
+    "id": "it-vocab-cars-driving-023",
+    "lang": "it",
+    "term": "incidente stradale",
+    "translations": {
+      "en": [
+        "car accident"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1513
+  },
+  {
+    "id": "it-vocab-cars-driving-024",
+    "lang": "it",
+    "term": "officina meccanica",
+    "translations": {
+      "en": [
+        "auto repair shop"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1514
+  },
+  {
+    "id": "it-vocab-cars-driving-025",
+    "lang": "it",
+    "term": "meccanico",
+    "translations": {
+      "en": [
+        "mechanic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1515
+  },
+  {
+    "id": "it-vocab-cars-driving-026",
+    "lang": "it",
+    "term": "assicurazione auto",
+    "translations": {
+      "en": [
+        "car insurance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1516
+  },
+  {
+    "id": "it-vocab-cars-driving-027",
+    "lang": "it",
+    "term": "noleggio auto",
+    "translations": {
+      "en": [
+        "car rental"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1517
+  },
+  {
+    "id": "it-vocab-cars-driving-028",
+    "lang": "it",
+    "term": "velocità",
+    "translations": {
+      "en": [
+        "speed"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1518
+  },
+  {
+    "id": "it-vocab-cars-driving-029",
+    "lang": "it",
+    "term": "sorpassare",
+    "translations": {
+      "en": [
+        "to overtake",
+        "to pass"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1519
+  },
+  {
+    "id": "it-vocab-cars-driving-030",
+    "lang": "it",
+    "term": "frenare",
+    "translations": {
+      "en": [
+        "to brake"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cars-driving"
+    ],
+    "frequencyRank": 1520
   }
 ]
