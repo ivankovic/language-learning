@@ -5028,7 +5028,7 @@
   {
     "id": "es-vocab-city-transport-024",
     "lang": "es",
-    "term": "subir (transporte)",
+    "term": "montarse",
     "translations": {
       "en": [
         "to get on (a vehicle)"
@@ -5043,7 +5043,7 @@
   {
     "id": "es-vocab-city-transport-025",
     "lang": "es",
-    "term": "bajar (transporte)",
+    "term": "bajarse",
     "translations": {
       "en": [
         "to get off (a vehicle)"
@@ -9648,5 +9648,5425 @@
       "nature-outdoors"
     ],
     "frequencyRank": 640
+  },
+  {
+    "id": "es-vocab-society-001",
+    "lang": "es",
+    "term": "gobierno",
+    "translations": {
+      "en": [
+        "government"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 641
+  },
+  {
+    "id": "es-vocab-society-002",
+    "lang": "es",
+    "term": "presidente",
+    "translations": {
+      "en": [
+        "president"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 642
+  },
+  {
+    "id": "es-vocab-society-003",
+    "lang": "es",
+    "term": "ministro",
+    "translations": {
+      "en": [
+        "minister"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 643
+  },
+  {
+    "id": "es-vocab-society-004",
+    "lang": "es",
+    "term": "país",
+    "translations": {
+      "en": [
+        "country"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 644
+  },
+  {
+    "id": "es-vocab-society-005",
+    "lang": "es",
+    "term": "nación",
+    "translations": {
+      "en": [
+        "nation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 645
+  },
+  {
+    "id": "es-vocab-society-006",
+    "lang": "es",
+    "term": "elección",
+    "translations": {
+      "en": [
+        "election"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 646
+  },
+  {
+    "id": "es-vocab-society-007",
+    "lang": "es",
+    "term": "votar",
+    "translations": {
+      "en": [
+        "to vote"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 647
+  },
+  {
+    "id": "es-vocab-society-008",
+    "lang": "es",
+    "term": "ciudadano",
+    "translations": {
+      "en": [
+        "citizen"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 648
+  },
+  {
+    "id": "es-vocab-society-009",
+    "lang": "es",
+    "term": "democracia",
+    "translations": {
+      "en": [
+        "democracy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 649
+  },
+  {
+    "id": "es-vocab-society-010",
+    "lang": "es",
+    "term": "constitución",
+    "translations": {
+      "en": [
+        "constitution"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 650
+  },
+  {
+    "id": "es-vocab-society-011",
+    "lang": "es",
+    "term": "impuesto",
+    "translations": {
+      "en": [
+        "tax"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 651
+  },
+  {
+    "id": "es-vocab-society-012",
+    "lang": "es",
+    "term": "economía",
+    "translations": {
+      "en": [
+        "economy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 652
+  },
+  {
+    "id": "es-vocab-society-013",
+    "lang": "es",
+    "term": "sociedad",
+    "translations": {
+      "en": [
+        "society"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 653
+  },
+  {
+    "id": "es-vocab-society-014",
+    "lang": "es",
+    "term": "cultura",
+    "translations": {
+      "en": [
+        "culture"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 654
+  },
+  {
+    "id": "es-vocab-society-015",
+    "lang": "es",
+    "term": "comunidad",
+    "translations": {
+      "en": [
+        "community"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 655
+  },
+  {
+    "id": "es-vocab-society-016",
+    "lang": "es",
+    "term": "población",
+    "translations": {
+      "en": [
+        "population"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 656
+  },
+  {
+    "id": "es-vocab-society-017",
+    "lang": "es",
+    "term": "libertad",
+    "translations": {
+      "en": [
+        "freedom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 657
+  },
+  {
+    "id": "es-vocab-society-018",
+    "lang": "es",
+    "term": "igualdad",
+    "translations": {
+      "en": [
+        "equality"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 658
+  },
+  {
+    "id": "es-vocab-society-019",
+    "lang": "es",
+    "term": "guerra",
+    "translations": {
+      "en": [
+        "war"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 659
+  },
+  {
+    "id": "es-vocab-society-020",
+    "lang": "es",
+    "term": "paz",
+    "translations": {
+      "en": [
+        "peace"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 660
+  },
+  {
+    "id": "es-vocab-society-021",
+    "lang": "es",
+    "term": "ejército",
+    "translations": {
+      "en": [
+        "army"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 661
+  },
+  {
+    "id": "es-vocab-society-022",
+    "lang": "es",
+    "term": "protesta",
+    "translations": {
+      "en": [
+        "protest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 662
+  },
+  {
+    "id": "es-vocab-society-023",
+    "lang": "es",
+    "term": "manifestación",
+    "translations": {
+      "en": [
+        "demonstration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 663
+  },
+  {
+    "id": "es-vocab-society-024",
+    "lang": "es",
+    "term": "político",
+    "translations": {
+      "en": [
+        "politician"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 664
+  },
+  {
+    "id": "es-vocab-society-025",
+    "lang": "es",
+    "term": "política",
+    "translations": {
+      "en": [
+        "politics"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 665
+  },
+  {
+    "id": "es-vocab-society-026",
+    "lang": "es",
+    "term": "partido político",
+    "translations": {
+      "en": [
+        "political party"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 666
+  },
+  {
+    "id": "es-vocab-society-027",
+    "lang": "es",
+    "term": "normativa",
+    "translations": {
+      "en": [
+        "regulation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 667
+  },
+  {
+    "id": "es-vocab-society-028",
+    "lang": "es",
+    "term": "frontera",
+    "translations": {
+      "en": [
+        "border"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 668
+  },
+  {
+    "id": "es-vocab-society-029",
+    "lang": "es",
+    "term": "embajada",
+    "translations": {
+      "en": [
+        "embassy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 669
+  },
+  {
+    "id": "es-vocab-society-030",
+    "lang": "es",
+    "term": "inmigración",
+    "translations": {
+      "en": [
+        "immigration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "society"
+    ],
+    "frequencyRank": 670
+  },
+  {
+    "id": "es-vocab-countries-001",
+    "lang": "es",
+    "term": "España",
+    "translations": {
+      "en": [
+        "Spain"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 671
+  },
+  {
+    "id": "es-vocab-countries-002",
+    "lang": "es",
+    "term": "Italia",
+    "translations": {
+      "en": [
+        "Italy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 672
+  },
+  {
+    "id": "es-vocab-countries-003",
+    "lang": "es",
+    "term": "Francia",
+    "translations": {
+      "en": [
+        "France"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 673
+  },
+  {
+    "id": "es-vocab-countries-004",
+    "lang": "es",
+    "term": "Alemania",
+    "translations": {
+      "en": [
+        "Germany"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 674
+  },
+  {
+    "id": "es-vocab-countries-005",
+    "lang": "es",
+    "term": "Croacia",
+    "translations": {
+      "en": [
+        "Croatia"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 675
+  },
+  {
+    "id": "es-vocab-countries-006",
+    "lang": "es",
+    "term": "Portugal",
+    "translations": {
+      "en": [
+        "Portugal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 676
+  },
+  {
+    "id": "es-vocab-countries-007",
+    "lang": "es",
+    "term": "Inglaterra",
+    "translations": {
+      "en": [
+        "England"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 677
+  },
+  {
+    "id": "es-vocab-countries-008",
+    "lang": "es",
+    "term": "Estados Unidos",
+    "translations": {
+      "en": [
+        "United States"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 678
+  },
+  {
+    "id": "es-vocab-countries-009",
+    "lang": "es",
+    "term": "México",
+    "translations": {
+      "en": [
+        "Mexico"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 679
+  },
+  {
+    "id": "es-vocab-countries-010",
+    "lang": "es",
+    "term": "Argentina",
+    "translations": {
+      "en": [
+        "Argentina"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 680
+  },
+  {
+    "id": "es-vocab-countries-011",
+    "lang": "es",
+    "term": "Brasil",
+    "translations": {
+      "en": [
+        "Brazil"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 681
+  },
+  {
+    "id": "es-vocab-countries-012",
+    "lang": "es",
+    "term": "China",
+    "translations": {
+      "en": [
+        "China"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 682
+  },
+  {
+    "id": "es-vocab-countries-013",
+    "lang": "es",
+    "term": "Japón",
+    "translations": {
+      "en": [
+        "Japan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 683
+  },
+  {
+    "id": "es-vocab-countries-014",
+    "lang": "es",
+    "term": "India",
+    "translations": {
+      "en": [
+        "India"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 684
+  },
+  {
+    "id": "es-vocab-countries-015",
+    "lang": "es",
+    "term": "Rusia",
+    "translations": {
+      "en": [
+        "Russia"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 685
+  },
+  {
+    "id": "es-vocab-countries-016",
+    "lang": "es",
+    "term": "español",
+    "translations": {
+      "en": [
+        "Spanish (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 686
+  },
+  {
+    "id": "es-vocab-countries-017",
+    "lang": "es",
+    "term": "italiano",
+    "translations": {
+      "en": [
+        "Italian (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 687
+  },
+  {
+    "id": "es-vocab-countries-018",
+    "lang": "es",
+    "term": "francés",
+    "translations": {
+      "en": [
+        "French (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 688
+  },
+  {
+    "id": "es-vocab-countries-019",
+    "lang": "es",
+    "term": "alemán",
+    "translations": {
+      "en": [
+        "German (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 689
+  },
+  {
+    "id": "es-vocab-countries-020",
+    "lang": "es",
+    "term": "croata",
+    "translations": {
+      "en": [
+        "Croatian (nationality)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 690
+  },
+  {
+    "id": "es-vocab-countries-021",
+    "lang": "es",
+    "term": "mexicano",
+    "translations": {
+      "en": [
+        "Mexican"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 691
+  },
+  {
+    "id": "es-vocab-countries-022",
+    "lang": "es",
+    "term": "argentino",
+    "translations": {
+      "en": [
+        "Argentine"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 692
+  },
+  {
+    "id": "es-vocab-countries-023",
+    "lang": "es",
+    "term": "extranjero",
+    "translations": {
+      "en": [
+        "foreigner",
+        "foreign"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 693
+  },
+  {
+    "id": "es-vocab-countries-024",
+    "lang": "es",
+    "term": "nacionalidad",
+    "translations": {
+      "en": [
+        "nationality"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 694
+  },
+  {
+    "id": "es-vocab-countries-025",
+    "lang": "es",
+    "term": "idioma",
+    "translations": {
+      "en": [
+        "language"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 695
+  },
+  {
+    "id": "es-vocab-countries-026",
+    "lang": "es",
+    "term": "continente",
+    "translations": {
+      "en": [
+        "continent"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 696
+  },
+  {
+    "id": "es-vocab-countries-027",
+    "lang": "es",
+    "term": "Europa",
+    "translations": {
+      "en": [
+        "Europe"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 697
+  },
+  {
+    "id": "es-vocab-countries-028",
+    "lang": "es",
+    "term": "América",
+    "translations": {
+      "en": [
+        "America"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 698
+  },
+  {
+    "id": "es-vocab-countries-029",
+    "lang": "es",
+    "term": "Asia",
+    "translations": {
+      "en": [
+        "Asia"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 699
+  },
+  {
+    "id": "es-vocab-countries-030",
+    "lang": "es",
+    "term": "capital",
+    "translations": {
+      "en": [
+        "capital city"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "countries"
+    ],
+    "frequencyRank": 700
+  },
+  {
+    "id": "es-vocab-materials-001",
+    "lang": "es",
+    "term": "madera",
+    "translations": {
+      "en": [
+        "wood"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 701
+  },
+  {
+    "id": "es-vocab-materials-002",
+    "lang": "es",
+    "term": "metal",
+    "translations": {
+      "en": [
+        "metal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 702
+  },
+  {
+    "id": "es-vocab-materials-003",
+    "lang": "es",
+    "term": "hierro",
+    "translations": {
+      "en": [
+        "iron"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 703
+  },
+  {
+    "id": "es-vocab-materials-004",
+    "lang": "es",
+    "term": "acero",
+    "translations": {
+      "en": [
+        "steel"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 704
+  },
+  {
+    "id": "es-vocab-materials-005",
+    "lang": "es",
+    "term": "oro",
+    "translations": {
+      "en": [
+        "gold"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 705
+  },
+  {
+    "id": "es-vocab-materials-006",
+    "lang": "es",
+    "term": "plata",
+    "translations": {
+      "en": [
+        "silver"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 706
+  },
+  {
+    "id": "es-vocab-materials-007",
+    "lang": "es",
+    "term": "vidrio",
+    "translations": {
+      "en": [
+        "glass"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 707
+  },
+  {
+    "id": "es-vocab-materials-008",
+    "lang": "es",
+    "term": "plástico",
+    "translations": {
+      "en": [
+        "plastic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 708
+  },
+  {
+    "id": "es-vocab-materials-009",
+    "lang": "es",
+    "term": "papel",
+    "translations": {
+      "en": [
+        "paper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 709
+  },
+  {
+    "id": "es-vocab-materials-010",
+    "lang": "es",
+    "term": "tela",
+    "translations": {
+      "en": [
+        "fabric"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 710
+  },
+  {
+    "id": "es-vocab-materials-011",
+    "lang": "es",
+    "term": "algodón",
+    "translations": {
+      "en": [
+        "cotton"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 711
+  },
+  {
+    "id": "es-vocab-materials-012",
+    "lang": "es",
+    "term": "lana",
+    "translations": {
+      "en": [
+        "wool"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 712
+  },
+  {
+    "id": "es-vocab-materials-013",
+    "lang": "es",
+    "term": "cuero",
+    "translations": {
+      "en": [
+        "leather"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 713
+  },
+  {
+    "id": "es-vocab-materials-014",
+    "lang": "es",
+    "term": "arcilla",
+    "translations": {
+      "en": [
+        "clay"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 714
+  },
+  {
+    "id": "es-vocab-materials-015",
+    "lang": "es",
+    "term": "cerámica",
+    "translations": {
+      "en": [
+        "ceramic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 715
+  },
+  {
+    "id": "es-vocab-materials-016",
+    "lang": "es",
+    "term": "círculo",
+    "translations": {
+      "en": [
+        "circle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 716
+  },
+  {
+    "id": "es-vocab-materials-017",
+    "lang": "es",
+    "term": "cuadrado",
+    "translations": {
+      "en": [
+        "square"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 717
+  },
+  {
+    "id": "es-vocab-materials-018",
+    "lang": "es",
+    "term": "triángulo",
+    "translations": {
+      "en": [
+        "triangle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 718
+  },
+  {
+    "id": "es-vocab-materials-019",
+    "lang": "es",
+    "term": "rectángulo",
+    "translations": {
+      "en": [
+        "rectangle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 719
+  },
+  {
+    "id": "es-vocab-materials-020",
+    "lang": "es",
+    "term": "óvalo",
+    "translations": {
+      "en": [
+        "oval"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 720
+  },
+  {
+    "id": "es-vocab-materials-021",
+    "lang": "es",
+    "term": "redondo",
+    "translations": {
+      "en": [
+        "round"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 721
+  },
+  {
+    "id": "es-vocab-materials-022",
+    "lang": "es",
+    "term": "opaco",
+    "translations": {
+      "en": [
+        "opaque"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 722
+  },
+  {
+    "id": "es-vocab-materials-023",
+    "lang": "es",
+    "term": "plano",
+    "translations": {
+      "en": [
+        "flat"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 723
+  },
+  {
+    "id": "es-vocab-materials-024",
+    "lang": "es",
+    "term": "duro",
+    "translations": {
+      "en": [
+        "hard"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 724
+  },
+  {
+    "id": "es-vocab-materials-025",
+    "lang": "es",
+    "term": "blando",
+    "translations": {
+      "en": [
+        "soft"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 725
+  },
+  {
+    "id": "es-vocab-materials-026",
+    "lang": "es",
+    "term": "liso",
+    "translations": {
+      "en": [
+        "smooth"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 726
+  },
+  {
+    "id": "es-vocab-materials-027",
+    "lang": "es",
+    "term": "áspero",
+    "translations": {
+      "en": [
+        "rough"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 727
+  },
+  {
+    "id": "es-vocab-materials-028",
+    "lang": "es",
+    "term": "pesado",
+    "translations": {
+      "en": [
+        "heavy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 728
+  },
+  {
+    "id": "es-vocab-materials-029",
+    "lang": "es",
+    "term": "ligero",
+    "translations": {
+      "en": [
+        "light (weight)"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 729
+  },
+  {
+    "id": "es-vocab-materials-030",
+    "lang": "es",
+    "term": "transparente",
+    "translations": {
+      "en": [
+        "transparent"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "materials"
+    ],
+    "frequencyRank": 730
+  },
+  {
+    "id": "es-vocab-business-001",
+    "lang": "es",
+    "term": "negocio",
+    "translations": {
+      "en": [
+        "business"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 731
+  },
+  {
+    "id": "es-vocab-business-002",
+    "lang": "es",
+    "term": "mercado",
+    "translations": {
+      "en": [
+        "market"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 732
+  },
+  {
+    "id": "es-vocab-business-003",
+    "lang": "es",
+    "term": "socio",
+    "translations": {
+      "en": [
+        "business partner"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 733
+  },
+  {
+    "id": "es-vocab-business-004",
+    "lang": "es",
+    "term": "inversión",
+    "translations": {
+      "en": [
+        "investment"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 734
+  },
+  {
+    "id": "es-vocab-business-005",
+    "lang": "es",
+    "term": "invertir",
+    "translations": {
+      "en": [
+        "to invest"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 735
+  },
+  {
+    "id": "es-vocab-business-006",
+    "lang": "es",
+    "term": "banco",
+    "translations": {
+      "en": [
+        "bank"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 736
+  },
+  {
+    "id": "es-vocab-business-007",
+    "lang": "es",
+    "term": "cuenta bancaria",
+    "translations": {
+      "en": [
+        "bank account"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 737
+  },
+  {
+    "id": "es-vocab-business-008",
+    "lang": "es",
+    "term": "préstamo",
+    "translations": {
+      "en": [
+        "loan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 738
+  },
+  {
+    "id": "es-vocab-business-009",
+    "lang": "es",
+    "term": "deuda",
+    "translations": {
+      "en": [
+        "debt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 739
+  },
+  {
+    "id": "es-vocab-business-010",
+    "lang": "es",
+    "term": "beneficio",
+    "translations": {
+      "en": [
+        "profit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 740
+  },
+  {
+    "id": "es-vocab-business-011",
+    "lang": "es",
+    "term": "pérdida",
+    "translations": {
+      "en": [
+        "loss"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 741
+  },
+  {
+    "id": "es-vocab-business-012",
+    "lang": "es",
+    "term": "ingresos",
+    "translations": {
+      "en": [
+        "income"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 742
+  },
+  {
+    "id": "es-vocab-business-013",
+    "lang": "es",
+    "term": "gasto",
+    "translations": {
+      "en": [
+        "expense"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 743
+  },
+  {
+    "id": "es-vocab-business-014",
+    "lang": "es",
+    "term": "presupuesto",
+    "translations": {
+      "en": [
+        "budget"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 744
+  },
+  {
+    "id": "es-vocab-business-015",
+    "lang": "es",
+    "term": "factura",
+    "translations": {
+      "en": [
+        "invoice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 745
+  },
+  {
+    "id": "es-vocab-business-016",
+    "lang": "es",
+    "term": "arancel",
+    "translations": {
+      "en": [
+        "tariff"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 746
+  },
+  {
+    "id": "es-vocab-business-017",
+    "lang": "es",
+    "term": "acción",
+    "translations": {
+      "en": [
+        "stock",
+        "share"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 747
+  },
+  {
+    "id": "es-vocab-business-018",
+    "lang": "es",
+    "term": "bolsa de valores",
+    "translations": {
+      "en": [
+        "stock market"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 748
+  },
+  {
+    "id": "es-vocab-business-019",
+    "lang": "es",
+    "term": "empresa",
+    "translations": {
+      "en": [
+        "company"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 749
+  },
+  {
+    "id": "es-vocab-business-020",
+    "lang": "es",
+    "term": "emprendedor",
+    "translations": {
+      "en": [
+        "entrepreneur"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 750
+  },
+  {
+    "id": "es-vocab-business-021",
+    "lang": "es",
+    "term": "startup",
+    "translations": {
+      "en": [
+        "startup"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 751
+  },
+  {
+    "id": "es-vocab-business-022",
+    "lang": "es",
+    "term": "competencia",
+    "translations": {
+      "en": [
+        "competition (business)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 752
+  },
+  {
+    "id": "es-vocab-business-023",
+    "lang": "es",
+    "term": "corporación",
+    "translations": {
+      "en": [
+        "corporation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 753
+  },
+  {
+    "id": "es-vocab-business-024",
+    "lang": "es",
+    "term": "producto",
+    "translations": {
+      "en": [
+        "product"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 754
+  },
+  {
+    "id": "es-vocab-business-025",
+    "lang": "es",
+    "term": "servicio",
+    "translations": {
+      "en": [
+        "service"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 755
+  },
+  {
+    "id": "es-vocab-business-026",
+    "lang": "es",
+    "term": "cadena de suministro",
+    "translations": {
+      "en": [
+        "supply chain"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 756
+  },
+  {
+    "id": "es-vocab-business-027",
+    "lang": "es",
+    "term": "exportar",
+    "translations": {
+      "en": [
+        "to export"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 757
+  },
+  {
+    "id": "es-vocab-business-028",
+    "lang": "es",
+    "term": "importar",
+    "translations": {
+      "en": [
+        "to import"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 758
+  },
+  {
+    "id": "es-vocab-business-029",
+    "lang": "es",
+    "term": "negociar",
+    "translations": {
+      "en": [
+        "to negotiate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 759
+  },
+  {
+    "id": "es-vocab-business-030",
+    "lang": "es",
+    "term": "firmar un contrato",
+    "translations": {
+      "en": [
+        "to sign a contract"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "business"
+    ],
+    "frequencyRank": 760
+  },
+  {
+    "id": "es-vocab-idioms-001",
+    "lang": "es",
+    "term": "estar en las nubes",
+    "translations": {
+      "en": [
+        "to daydream",
+        "to have your head in the clouds"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 761
+  },
+  {
+    "id": "es-vocab-idioms-002",
+    "lang": "es",
+    "term": "costar un ojo de la cara",
+    "translations": {
+      "en": [
+        "to cost an arm and a leg"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 762
+  },
+  {
+    "id": "es-vocab-idioms-003",
+    "lang": "es",
+    "term": "no tener pelos en la lengua",
+    "translations": {
+      "en": [
+        "to speak one's mind bluntly"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 763
+  },
+  {
+    "id": "es-vocab-idioms-004",
+    "lang": "es",
+    "term": "dar en el clavo",
+    "translations": {
+      "en": [
+        "to hit the nail on the head"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 764
+  },
+  {
+    "id": "es-vocab-idioms-005",
+    "lang": "es",
+    "term": "meter la pata",
+    "translations": {
+      "en": [
+        "to make a blunder"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 765
+  },
+  {
+    "id": "es-vocab-idioms-006",
+    "lang": "es",
+    "term": "tomar el pelo",
+    "translations": {
+      "en": [
+        "to pull someone's leg",
+        "to tease"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 766
+  },
+  {
+    "id": "es-vocab-idioms-007",
+    "lang": "es",
+    "term": "ser pan comido",
+    "translations": {
+      "en": [
+        "to be a piece of cake",
+        "to be easy"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 767
+  },
+  {
+    "id": "es-vocab-idioms-008",
+    "lang": "es",
+    "term": "estar como una cabra",
+    "translations": {
+      "en": [
+        "to be crazy"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 768
+  },
+  {
+    "id": "es-vocab-idioms-009",
+    "lang": "es",
+    "term": "no dar pie con bola",
+    "translations": {
+      "en": [
+        "to get everything wrong"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 769
+  },
+  {
+    "id": "es-vocab-idioms-010",
+    "lang": "es",
+    "term": "ponerse las pilas",
+    "translations": {
+      "en": [
+        "to get one's act together"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 770
+  },
+  {
+    "id": "es-vocab-idioms-011",
+    "lang": "es",
+    "term": "cuesta arriba",
+    "translations": {
+      "en": [
+        "uphill",
+        "difficult"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 771
+  },
+  {
+    "id": "es-vocab-idioms-012",
+    "lang": "es",
+    "term": "por si acaso",
+    "translations": {
+      "en": [
+        "just in case"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 772
+  },
+  {
+    "id": "es-vocab-idioms-013",
+    "lang": "es",
+    "term": "de vez en cuando",
+    "translations": {
+      "en": [
+        "from time to time"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 773
+  },
+  {
+    "id": "es-vocab-idioms-014",
+    "lang": "es",
+    "term": "en un abrir y cerrar de ojos",
+    "translations": {
+      "en": [
+        "in the blink of an eye"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 774
+  },
+  {
+    "id": "es-vocab-idioms-015",
+    "lang": "es",
+    "term": "hablando del rey de Roma",
+    "translations": {
+      "en": [
+        "speak of the devil"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 775
+  },
+  {
+    "id": "es-vocab-idioms-016",
+    "lang": "es",
+    "term": "a lo hecho, pecho",
+    "translations": {
+      "en": [
+        "what's done is done"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 776
+  },
+  {
+    "id": "es-vocab-idioms-017",
+    "lang": "es",
+    "term": "más vale tarde que nunca",
+    "translations": {
+      "en": [
+        "better late than never"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 777
+  },
+  {
+    "id": "es-vocab-idioms-018",
+    "lang": "es",
+    "term": "no hay mal que por bien no venga",
+    "translations": {
+      "en": [
+        "every cloud has a silver lining"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 778
+  },
+  {
+    "id": "es-vocab-idioms-019",
+    "lang": "es",
+    "term": "estar en el ajo",
+    "translations": {
+      "en": [
+        "to be in on it"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 779
+  },
+  {
+    "id": "es-vocab-idioms-020",
+    "lang": "es",
+    "term": "dorar la píldora",
+    "translations": {
+      "en": [
+        "to sugarcoat"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 780
+  },
+  {
+    "id": "es-vocab-idioms-021",
+    "lang": "es",
+    "term": "echar una mano",
+    "translations": {
+      "en": [
+        "to lend a hand"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 781
+  },
+  {
+    "id": "es-vocab-idioms-022",
+    "lang": "es",
+    "term": "pasarlo bien",
+    "translations": {
+      "en": [
+        "to have a good time"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 782
+  },
+  {
+    "id": "es-vocab-idioms-023",
+    "lang": "es",
+    "term": "dar la lata",
+    "translations": {
+      "en": [
+        "to be annoying"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 783
+  },
+  {
+    "id": "es-vocab-idioms-024",
+    "lang": "es",
+    "term": "estar hasta las narices",
+    "translations": {
+      "en": [
+        "to be fed up"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 784
+  },
+  {
+    "id": "es-vocab-idioms-025",
+    "lang": "es",
+    "term": "no ver tres en un burro",
+    "translations": {
+      "en": [
+        "to have terrible eyesight"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 785
+  },
+  {
+    "id": "es-vocab-idioms-026",
+    "lang": "es",
+    "term": "ser uña y carne",
+    "translations": {
+      "en": [
+        "to be inseparable (friends)"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 786
+  },
+  {
+    "id": "es-vocab-idioms-027",
+    "lang": "es",
+    "term": "irse por las ramas",
+    "translations": {
+      "en": [
+        "to beat around the bush"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 787
+  },
+  {
+    "id": "es-vocab-idioms-028",
+    "lang": "es",
+    "term": "tirar la toalla",
+    "translations": {
+      "en": [
+        "to throw in the towel"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 788
+  },
+  {
+    "id": "es-vocab-idioms-029",
+    "lang": "es",
+    "term": "estar en pañales",
+    "translations": {
+      "en": [
+        "to be in its infancy"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 789
+  },
+  {
+    "id": "es-vocab-idioms-030",
+    "lang": "es",
+    "term": "cada dos por tres",
+    "translations": {
+      "en": [
+        "very often",
+        "all the time"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "idioms"
+    ],
+    "frequencyRank": 790
+  },
+  {
+    "id": "es-vocab-connectors-001",
+    "lang": "es",
+    "term": "y",
+    "translations": {
+      "en": [
+        "and"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 791
+  },
+  {
+    "id": "es-vocab-connectors-002",
+    "lang": "es",
+    "term": "pero",
+    "translations": {
+      "en": [
+        "but"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 792
+  },
+  {
+    "id": "es-vocab-connectors-003",
+    "lang": "es",
+    "term": "o",
+    "translations": {
+      "en": [
+        "or"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 793
+  },
+  {
+    "id": "es-vocab-connectors-004",
+    "lang": "es",
+    "term": "porque",
+    "translations": {
+      "en": [
+        "because"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 794
+  },
+  {
+    "id": "es-vocab-connectors-005",
+    "lang": "es",
+    "term": "aunque",
+    "translations": {
+      "en": [
+        "although"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 795
+  },
+  {
+    "id": "es-vocab-connectors-006",
+    "lang": "es",
+    "term": "sin embargo",
+    "translations": {
+      "en": [
+        "however"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 796
+  },
+  {
+    "id": "es-vocab-connectors-007",
+    "lang": "es",
+    "term": "además",
+    "translations": {
+      "en": [
+        "furthermore",
+        "besides"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 797
+  },
+  {
+    "id": "es-vocab-connectors-008",
+    "lang": "es",
+    "term": "por lo tanto",
+    "translations": {
+      "en": [
+        "therefore"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 798
+  },
+  {
+    "id": "es-vocab-connectors-009",
+    "lang": "es",
+    "term": "mientras",
+    "translations": {
+      "en": [
+        "while"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 799
+  },
+  {
+    "id": "es-vocab-connectors-010",
+    "lang": "es",
+    "term": "cuando",
+    "translations": {
+      "en": [
+        "when"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 800
+  },
+  {
+    "id": "es-vocab-connectors-011",
+    "lang": "es",
+    "term": "si",
+    "translations": {
+      "en": [
+        "if"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 801
+  },
+  {
+    "id": "es-vocab-connectors-012",
+    "lang": "es",
+    "term": "aunque parezca extraño",
+    "translations": {
+      "en": [
+        "strange as it may seem"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 802
+  },
+  {
+    "id": "es-vocab-connectors-013",
+    "lang": "es",
+    "term": "por eso",
+    "translations": {
+      "en": [
+        "that's why"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 803
+  },
+  {
+    "id": "es-vocab-connectors-014",
+    "lang": "es",
+    "term": "en cambio",
+    "translations": {
+      "en": [
+        "on the other hand"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 804
+  },
+  {
+    "id": "es-vocab-connectors-015",
+    "lang": "es",
+    "term": "es decir",
+    "translations": {
+      "en": [
+        "that is to say"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 805
+  },
+  {
+    "id": "es-vocab-connectors-016",
+    "lang": "es",
+    "term": "por ejemplo",
+    "translations": {
+      "en": [
+        "for example"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 806
+  },
+  {
+    "id": "es-vocab-connectors-017",
+    "lang": "es",
+    "term": "en resumen",
+    "translations": {
+      "en": [
+        "in summary"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 807
+  },
+  {
+    "id": "es-vocab-connectors-018",
+    "lang": "es",
+    "term": "finalmente",
+    "translations": {
+      "en": [
+        "finally"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 808
+  },
+  {
+    "id": "es-vocab-connectors-019",
+    "lang": "es",
+    "term": "primero",
+    "translations": {
+      "en": [
+        "first"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 809
+  },
+  {
+    "id": "es-vocab-connectors-020",
+    "lang": "es",
+    "term": "luego",
+    "translations": {
+      "en": [
+        "then"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 810
+  },
+  {
+    "id": "es-vocab-connectors-021",
+    "lang": "es",
+    "term": "después",
+    "translations": {
+      "en": [
+        "afterward"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 811
+  },
+  {
+    "id": "es-vocab-connectors-022",
+    "lang": "es",
+    "term": "antes de",
+    "translations": {
+      "en": [
+        "before"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 812
+  },
+  {
+    "id": "es-vocab-connectors-023",
+    "lang": "es",
+    "term": "desde que",
+    "translations": {
+      "en": [
+        "since"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 813
+  },
+  {
+    "id": "es-vocab-connectors-024",
+    "lang": "es",
+    "term": "hasta que",
+    "translations": {
+      "en": [
+        "until"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 814
+  },
+  {
+    "id": "es-vocab-connectors-025",
+    "lang": "es",
+    "term": "a pesar de",
+    "translations": {
+      "en": [
+        "despite"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 815
+  },
+  {
+    "id": "es-vocab-connectors-026",
+    "lang": "es",
+    "term": "a menos que",
+    "translations": {
+      "en": [
+        "unless"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 816
+  },
+  {
+    "id": "es-vocab-connectors-027",
+    "lang": "es",
+    "term": "tanto...como",
+    "translations": {
+      "en": [
+        "both...and"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 817
+  },
+  {
+    "id": "es-vocab-connectors-028",
+    "lang": "es",
+    "term": "ni...ni",
+    "translations": {
+      "en": [
+        "neither...nor"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 818
+  },
+  {
+    "id": "es-vocab-connectors-029",
+    "lang": "es",
+    "term": "no obstante",
+    "translations": {
+      "en": [
+        "nevertheless"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 819
+  },
+  {
+    "id": "es-vocab-connectors-030",
+    "lang": "es",
+    "term": "de hecho",
+    "translations": {
+      "en": [
+        "in fact"
+      ]
+    },
+    "pos": "conjunction",
+    "tags": [
+      "connectors"
+    ],
+    "frequencyRank": 820
+  },
+  {
+    "id": "es-vocab-clothing-001",
+    "lang": "es",
+    "term": "vestido",
+    "translations": {
+      "en": [
+        "dress"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 821
+  },
+  {
+    "id": "es-vocab-clothing-002",
+    "lang": "es",
+    "term": "falda",
+    "translations": {
+      "en": [
+        "skirt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 822
+  },
+  {
+    "id": "es-vocab-clothing-003",
+    "lang": "es",
+    "term": "traje",
+    "translations": {
+      "en": [
+        "suit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 823
+  },
+  {
+    "id": "es-vocab-clothing-004",
+    "lang": "es",
+    "term": "corbata",
+    "translations": {
+      "en": [
+        "tie"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 824
+  },
+  {
+    "id": "es-vocab-clothing-005",
+    "lang": "es",
+    "term": "abrigo",
+    "translations": {
+      "en": [
+        "coat"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 825
+  },
+  {
+    "id": "es-vocab-clothing-006",
+    "lang": "es",
+    "term": "suéter",
+    "translations": {
+      "en": [
+        "sweater"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 826
+  },
+  {
+    "id": "es-vocab-clothing-007",
+    "lang": "es",
+    "term": "bufanda",
+    "translations": {
+      "en": [
+        "scarf"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 827
+  },
+  {
+    "id": "es-vocab-clothing-008",
+    "lang": "es",
+    "term": "guantes",
+    "translations": {
+      "en": [
+        "gloves"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 828
+  },
+  {
+    "id": "es-vocab-clothing-009",
+    "lang": "es",
+    "term": "gorro",
+    "translations": {
+      "en": [
+        "hat",
+        "beanie"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 829
+  },
+  {
+    "id": "es-vocab-clothing-010",
+    "lang": "es",
+    "term": "cinturón",
+    "translations": {
+      "en": [
+        "belt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 830
+  },
+  {
+    "id": "es-vocab-clothing-011",
+    "lang": "es",
+    "term": "calcetines",
+    "translations": {
+      "en": [
+        "socks"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 831
+  },
+  {
+    "id": "es-vocab-clothing-012",
+    "lang": "es",
+    "term": "botas",
+    "translations": {
+      "en": [
+        "boots"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 832
+  },
+  {
+    "id": "es-vocab-clothing-013",
+    "lang": "es",
+    "term": "sandalias",
+    "translations": {
+      "en": [
+        "sandals"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 833
+  },
+  {
+    "id": "es-vocab-clothing-014",
+    "lang": "es",
+    "term": "pijama",
+    "translations": {
+      "en": [
+        "pajamas"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 834
+  },
+  {
+    "id": "es-vocab-clothing-015",
+    "lang": "es",
+    "term": "traje de baño",
+    "translations": {
+      "en": [
+        "swimsuit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 835
+  },
+  {
+    "id": "es-vocab-clothing-016",
+    "lang": "es",
+    "term": "ropa interior",
+    "translations": {
+      "en": [
+        "underwear"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 836
+  },
+  {
+    "id": "es-vocab-clothing-017",
+    "lang": "es",
+    "term": "camiseta",
+    "translations": {
+      "en": [
+        "t-shirt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 837
+  },
+  {
+    "id": "es-vocab-clothing-018",
+    "lang": "es",
+    "term": "blusa",
+    "translations": {
+      "en": [
+        "blouse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 838
+  },
+  {
+    "id": "es-vocab-clothing-019",
+    "lang": "es",
+    "term": "gafas",
+    "translations": {
+      "en": [
+        "glasses"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 839
+  },
+  {
+    "id": "es-vocab-clothing-020",
+    "lang": "es",
+    "term": "gafas de sol",
+    "translations": {
+      "en": [
+        "sunglasses"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 840
+  },
+  {
+    "id": "es-vocab-clothing-021",
+    "lang": "es",
+    "term": "joyas",
+    "translations": {
+      "en": [
+        "jewelry"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 841
+  },
+  {
+    "id": "es-vocab-clothing-022",
+    "lang": "es",
+    "term": "collar",
+    "translations": {
+      "en": [
+        "necklace"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 842
+  },
+  {
+    "id": "es-vocab-clothing-023",
+    "lang": "es",
+    "term": "pulsera",
+    "translations": {
+      "en": [
+        "bracelet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 843
+  },
+  {
+    "id": "es-vocab-clothing-024",
+    "lang": "es",
+    "term": "moda",
+    "translations": {
+      "en": [
+        "fashion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 844
+  },
+  {
+    "id": "es-vocab-clothing-025",
+    "lang": "es",
+    "term": "estilo",
+    "translations": {
+      "en": [
+        "style"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 845
+  },
+  {
+    "id": "es-vocab-clothing-026",
+    "lang": "es",
+    "term": "de moda",
+    "translations": {
+      "en": [
+        "trendy",
+        "fashionable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 846
+  },
+  {
+    "id": "es-vocab-clothing-027",
+    "lang": "es",
+    "term": "elegante",
+    "translations": {
+      "en": [
+        "elegant"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 847
+  },
+  {
+    "id": "es-vocab-clothing-028",
+    "lang": "es",
+    "term": "cómodo",
+    "translations": {
+      "en": [
+        "comfortable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 848
+  },
+  {
+    "id": "es-vocab-clothing-029",
+    "lang": "es",
+    "term": "vestirse",
+    "translations": {
+      "en": [
+        "to get dressed"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 849
+  },
+  {
+    "id": "es-vocab-clothing-030",
+    "lang": "es",
+    "term": "quitarse la ropa",
+    "translations": {
+      "en": [
+        "to undress"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "clothing"
+    ],
+    "frequencyRank": 850
+  },
+  {
+    "id": "es-vocab-weather-disasters-001",
+    "lang": "es",
+    "term": "huracán",
+    "translations": {
+      "en": [
+        "hurricane"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 851
+  },
+  {
+    "id": "es-vocab-weather-disasters-002",
+    "lang": "es",
+    "term": "tornado",
+    "translations": {
+      "en": [
+        "tornado"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 852
+  },
+  {
+    "id": "es-vocab-weather-disasters-003",
+    "lang": "es",
+    "term": "terremoto",
+    "translations": {
+      "en": [
+        "earthquake"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 853
+  },
+  {
+    "id": "es-vocab-weather-disasters-004",
+    "lang": "es",
+    "term": "inundación",
+    "translations": {
+      "en": [
+        "flood"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 854
+  },
+  {
+    "id": "es-vocab-weather-disasters-005",
+    "lang": "es",
+    "term": "sequía",
+    "translations": {
+      "en": [
+        "drought"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 855
+  },
+  {
+    "id": "es-vocab-weather-disasters-006",
+    "lang": "es",
+    "term": "incendio forestal",
+    "translations": {
+      "en": [
+        "wildfire"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 856
+  },
+  {
+    "id": "es-vocab-weather-disasters-007",
+    "lang": "es",
+    "term": "tormenta",
+    "translations": {
+      "en": [
+        "storm"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 857
+  },
+  {
+    "id": "es-vocab-weather-disasters-008",
+    "lang": "es",
+    "term": "granizo",
+    "translations": {
+      "en": [
+        "hail"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 858
+  },
+  {
+    "id": "es-vocab-weather-disasters-009",
+    "lang": "es",
+    "term": "ola de calor",
+    "translations": {
+      "en": [
+        "heat wave"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 859
+  },
+  {
+    "id": "es-vocab-weather-disasters-010",
+    "lang": "es",
+    "term": "ventisca",
+    "translations": {
+      "en": [
+        "blizzard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 860
+  },
+  {
+    "id": "es-vocab-weather-disasters-011",
+    "lang": "es",
+    "term": "erupción volcánica",
+    "translations": {
+      "en": [
+        "volcanic eruption"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 861
+  },
+  {
+    "id": "es-vocab-weather-disasters-012",
+    "lang": "es",
+    "term": "tsunami",
+    "translations": {
+      "en": [
+        "tsunami"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 862
+  },
+  {
+    "id": "es-vocab-weather-disasters-013",
+    "lang": "es",
+    "term": "desastre natural",
+    "translations": {
+      "en": [
+        "natural disaster"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 863
+  },
+  {
+    "id": "es-vocab-weather-disasters-014",
+    "lang": "es",
+    "term": "evacuación",
+    "translations": {
+      "en": [
+        "evacuation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 864
+  },
+  {
+    "id": "es-vocab-weather-disasters-015",
+    "lang": "es",
+    "term": "refugio",
+    "translations": {
+      "en": [
+        "shelter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 865
+  },
+  {
+    "id": "es-vocab-weather-disasters-016",
+    "lang": "es",
+    "term": "alerta meteorológica",
+    "translations": {
+      "en": [
+        "weather warning"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 866
+  },
+  {
+    "id": "es-vocab-weather-disasters-017",
+    "lang": "es",
+    "term": "daño",
+    "translations": {
+      "en": [
+        "damage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 867
+  },
+  {
+    "id": "es-vocab-weather-disasters-018",
+    "lang": "es",
+    "term": "reconstruir",
+    "translations": {
+      "en": [
+        "to rebuild"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 868
+  },
+  {
+    "id": "es-vocab-weather-disasters-019",
+    "lang": "es",
+    "term": "evacuar",
+    "translations": {
+      "en": [
+        "to evacuate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 869
+  },
+  {
+    "id": "es-vocab-weather-disasters-020",
+    "lang": "es",
+    "term": "sobrevivir",
+    "translations": {
+      "en": [
+        "to survive"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 870
+  },
+  {
+    "id": "es-vocab-weather-disasters-021",
+    "lang": "es",
+    "term": "catastrófico",
+    "translations": {
+      "en": [
+        "catastrophic"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 871
+  },
+  {
+    "id": "es-vocab-weather-disasters-022",
+    "lang": "es",
+    "term": "severo",
+    "translations": {
+      "en": [
+        "severe"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 872
+  },
+  {
+    "id": "es-vocab-weather-disasters-023",
+    "lang": "es",
+    "term": "imprevisible",
+    "translations": {
+      "en": [
+        "unpredictable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 873
+  },
+  {
+    "id": "es-vocab-weather-disasters-024",
+    "lang": "es",
+    "term": "clima extremo",
+    "translations": {
+      "en": [
+        "extreme weather"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 874
+  },
+  {
+    "id": "es-vocab-weather-disasters-025",
+    "lang": "es",
+    "term": "presión atmosférica",
+    "translations": {
+      "en": [
+        "atmospheric pressure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 875
+  },
+  {
+    "id": "es-vocab-weather-disasters-026",
+    "lang": "es",
+    "term": "humedad",
+    "translations": {
+      "en": [
+        "humidity"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 876
+  },
+  {
+    "id": "es-vocab-weather-disasters-027",
+    "lang": "es",
+    "term": "relámpago",
+    "translations": {
+      "en": [
+        "lightning flash"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 877
+  },
+  {
+    "id": "es-vocab-weather-disasters-028",
+    "lang": "es",
+    "term": "temblor",
+    "translations": {
+      "en": [
+        "tremor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 878
+  },
+  {
+    "id": "es-vocab-weather-disasters-029",
+    "lang": "es",
+    "term": "marea alta",
+    "translations": {
+      "en": [
+        "high tide"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 879
+  },
+  {
+    "id": "es-vocab-weather-disasters-030",
+    "lang": "es",
+    "term": "marea baja",
+    "translations": {
+      "en": [
+        "low tide"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather-disasters"
+    ],
+    "frequencyRank": 880
+  },
+  {
+    "id": "es-vocab-farming-001",
+    "lang": "es",
+    "term": "granja",
+    "translations": {
+      "en": [
+        "farm"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 881
+  },
+  {
+    "id": "es-vocab-farming-002",
+    "lang": "es",
+    "term": "agricultor",
+    "translations": {
+      "en": [
+        "farmer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 882
+  },
+  {
+    "id": "es-vocab-farming-003",
+    "lang": "es",
+    "term": "campo",
+    "translations": {
+      "en": [
+        "field (agricultural)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 883
+  },
+  {
+    "id": "es-vocab-farming-004",
+    "lang": "es",
+    "term": "cosecha",
+    "translations": {
+      "en": [
+        "harvest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 884
+  },
+  {
+    "id": "es-vocab-farming-005",
+    "lang": "es",
+    "term": "cultivar",
+    "translations": {
+      "en": [
+        "to grow",
+        "to cultivate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 885
+  },
+  {
+    "id": "es-vocab-farming-006",
+    "lang": "es",
+    "term": "sembrar",
+    "translations": {
+      "en": [
+        "to plant",
+        "to sow"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 886
+  },
+  {
+    "id": "es-vocab-farming-007",
+    "lang": "es",
+    "term": "regar",
+    "translations": {
+      "en": [
+        "to water"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 887
+  },
+  {
+    "id": "es-vocab-farming-008",
+    "lang": "es",
+    "term": "tractor",
+    "translations": {
+      "en": [
+        "tractor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 888
+  },
+  {
+    "id": "es-vocab-farming-009",
+    "lang": "es",
+    "term": "granero",
+    "translations": {
+      "en": [
+        "barn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 889
+  },
+  {
+    "id": "es-vocab-farming-010",
+    "lang": "es",
+    "term": "establo",
+    "translations": {
+      "en": [
+        "stable"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 890
+  },
+  {
+    "id": "es-vocab-farming-011",
+    "lang": "es",
+    "term": "ganado",
+    "translations": {
+      "en": [
+        "livestock",
+        "cattle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 891
+  },
+  {
+    "id": "es-vocab-farming-012",
+    "lang": "es",
+    "term": "trigo",
+    "translations": {
+      "en": [
+        "wheat"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 892
+  },
+  {
+    "id": "es-vocab-farming-013",
+    "lang": "es",
+    "term": "maíz",
+    "translations": {
+      "en": [
+        "corn"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 893
+  },
+  {
+    "id": "es-vocab-farming-014",
+    "lang": "es",
+    "term": "huerto",
+    "translations": {
+      "en": [
+        "orchard",
+        "vegetable garden"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 894
+  },
+  {
+    "id": "es-vocab-farming-015",
+    "lang": "es",
+    "term": "invernadero",
+    "translations": {
+      "en": [
+        "greenhouse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 895
+  },
+  {
+    "id": "es-vocab-farming-016",
+    "lang": "es",
+    "term": "fertilizante",
+    "translations": {
+      "en": [
+        "fertilizer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 896
+  },
+  {
+    "id": "es-vocab-farming-017",
+    "lang": "es",
+    "term": "suelo",
+    "translations": {
+      "en": [
+        "soil"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 897
+  },
+  {
+    "id": "es-vocab-farming-018",
+    "lang": "es",
+    "term": "riego",
+    "translations": {
+      "en": [
+        "irrigation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 898
+  },
+  {
+    "id": "es-vocab-farming-019",
+    "lang": "es",
+    "term": "plaga",
+    "translations": {
+      "en": [
+        "pest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 899
+  },
+  {
+    "id": "es-vocab-farming-020",
+    "lang": "es",
+    "term": "pesticida",
+    "translations": {
+      "en": [
+        "pesticide"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 900
+  },
+  {
+    "id": "es-vocab-farming-021",
+    "lang": "es",
+    "term": "orgánico",
+    "translations": {
+      "en": [
+        "organic"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 901
+  },
+  {
+    "id": "es-vocab-farming-022",
+    "lang": "es",
+    "term": "rural",
+    "translations": {
+      "en": [
+        "rural"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 902
+  },
+  {
+    "id": "es-vocab-farming-023",
+    "lang": "es",
+    "term": "apicultura",
+    "translations": {
+      "en": [
+        "beekeeping"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 903
+  },
+  {
+    "id": "es-vocab-farming-024",
+    "lang": "es",
+    "term": "viñedo",
+    "translations": {
+      "en": [
+        "vineyard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 904
+  },
+  {
+    "id": "es-vocab-farming-025",
+    "lang": "es",
+    "term": "corral",
+    "translations": {
+      "en": [
+        "pen",
+        "corral"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 905
+  },
+  {
+    "id": "es-vocab-farming-026",
+    "lang": "es",
+    "term": "pastor",
+    "translations": {
+      "en": [
+        "shepherd"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 906
+  },
+  {
+    "id": "es-vocab-farming-027",
+    "lang": "es",
+    "term": "arar",
+    "translations": {
+      "en": [
+        "to plow"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 907
+  },
+  {
+    "id": "es-vocab-farming-028",
+    "lang": "es",
+    "term": "estación de siembra",
+    "translations": {
+      "en": [
+        "planting season"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 908
+  },
+  {
+    "id": "es-vocab-farming-029",
+    "lang": "es",
+    "term": "temporada de cosecha",
+    "translations": {
+      "en": [
+        "harvest season"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 909
+  },
+  {
+    "id": "es-vocab-farming-030",
+    "lang": "es",
+    "term": "agricultura sostenible",
+    "translations": {
+      "en": [
+        "sustainable agriculture"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "farming"
+    ],
+    "frequencyRank": 910
+  },
+  {
+    "id": "es-vocab-diy-001",
+    "lang": "es",
+    "term": "herramienta",
+    "translations": {
+      "en": [
+        "tool"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 911
+  },
+  {
+    "id": "es-vocab-diy-002",
+    "lang": "es",
+    "term": "martillo",
+    "translations": {
+      "en": [
+        "hammer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 912
+  },
+  {
+    "id": "es-vocab-diy-003",
+    "lang": "es",
+    "term": "destornillador",
+    "translations": {
+      "en": [
+        "screwdriver"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 913
+  },
+  {
+    "id": "es-vocab-diy-004",
+    "lang": "es",
+    "term": "clavo",
+    "translations": {
+      "en": [
+        "nail"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 914
+  },
+  {
+    "id": "es-vocab-diy-005",
+    "lang": "es",
+    "term": "tornillo",
+    "translations": {
+      "en": [
+        "screw"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 915
+  },
+  {
+    "id": "es-vocab-diy-006",
+    "lang": "es",
+    "term": "taladro",
+    "translations": {
+      "en": [
+        "drill"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 916
+  },
+  {
+    "id": "es-vocab-diy-007",
+    "lang": "es",
+    "term": "sierra",
+    "translations": {
+      "en": [
+        "saw"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 917
+  },
+  {
+    "id": "es-vocab-diy-008",
+    "lang": "es",
+    "term": "cinta métrica",
+    "translations": {
+      "en": [
+        "tape measure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 918
+  },
+  {
+    "id": "es-vocab-diy-009",
+    "lang": "es",
+    "term": "esmalte",
+    "translations": {
+      "en": [
+        "enamel paint"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 919
+  },
+  {
+    "id": "es-vocab-diy-010",
+    "lang": "es",
+    "term": "brocha",
+    "translations": {
+      "en": [
+        "paintbrush"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 920
+  },
+  {
+    "id": "es-vocab-diy-011",
+    "lang": "es",
+    "term": "escalera",
+    "translations": {
+      "en": [
+        "ladder"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 921
+  },
+  {
+    "id": "es-vocab-diy-012",
+    "lang": "es",
+    "term": "cable",
+    "translations": {
+      "en": [
+        "cable",
+        "wire"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 922
+  },
+  {
+    "id": "es-vocab-diy-013",
+    "lang": "es",
+    "term": "tubería",
+    "translations": {
+      "en": [
+        "pipe",
+        "plumbing"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 923
+  },
+  {
+    "id": "es-vocab-diy-014",
+    "lang": "es",
+    "term": "fontanero",
+    "translations": {
+      "en": [
+        "plumber"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 924
+  },
+  {
+    "id": "es-vocab-diy-015",
+    "lang": "es",
+    "term": "electricista",
+    "translations": {
+      "en": [
+        "electrician"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 925
+  },
+  {
+    "id": "es-vocab-diy-016",
+    "lang": "es",
+    "term": "reparar",
+    "translations": {
+      "en": [
+        "to repair"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 926
+  },
+  {
+    "id": "es-vocab-diy-017",
+    "lang": "es",
+    "term": "construir",
+    "translations": {
+      "en": [
+        "to build"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 927
+  },
+  {
+    "id": "es-vocab-diy-018",
+    "lang": "es",
+    "term": "instalar",
+    "translations": {
+      "en": [
+        "to install"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 928
+  },
+  {
+    "id": "es-vocab-diy-019",
+    "lang": "es",
+    "term": "renovar",
+    "translations": {
+      "en": [
+        "to renovate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 929
+  },
+  {
+    "id": "es-vocab-diy-020",
+    "lang": "es",
+    "term": "nivelar",
+    "translations": {
+      "en": [
+        "to level"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 930
+  },
+  {
+    "id": "es-vocab-diy-021",
+    "lang": "es",
+    "term": "serrar",
+    "translations": {
+      "en": [
+        "to saw"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 931
+  },
+  {
+    "id": "es-vocab-diy-022",
+    "lang": "es",
+    "term": "atornillar",
+    "translations": {
+      "en": [
+        "to screw in"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 932
+  },
+  {
+    "id": "es-vocab-diy-023",
+    "lang": "es",
+    "term": "pegamento",
+    "translations": {
+      "en": [
+        "glue"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 933
+  },
+  {
+    "id": "es-vocab-diy-024",
+    "lang": "es",
+    "term": "cinta adhesiva",
+    "translations": {
+      "en": [
+        "tape"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 934
+  },
+  {
+    "id": "es-vocab-diy-025",
+    "lang": "es",
+    "term": "andamio",
+    "translations": {
+      "en": [
+        "scaffolding"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 935
+  },
+  {
+    "id": "es-vocab-diy-026",
+    "lang": "es",
+    "term": "esquema",
+    "translations": {
+      "en": [
+        "blueprint",
+        "schematic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 936
+  },
+  {
+    "id": "es-vocab-diy-027",
+    "lang": "es",
+    "term": "obra",
+    "translations": {
+      "en": [
+        "construction work"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 937
+  },
+  {
+    "id": "es-vocab-diy-028",
+    "lang": "es",
+    "term": "cemento",
+    "translations": {
+      "en": [
+        "cement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 938
+  },
+  {
+    "id": "es-vocab-diy-029",
+    "lang": "es",
+    "term": "ladrillo",
+    "translations": {
+      "en": [
+        "brick"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 939
+  },
+  {
+    "id": "es-vocab-diy-030",
+    "lang": "es",
+    "term": "herramienta eléctrica",
+    "translations": {
+      "en": [
+        "power tool"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "diy"
+    ],
+    "frequencyRank": 940
+  },
+  {
+    "id": "es-vocab-banking-001",
+    "lang": "es",
+    "term": "cuenta corriente",
+    "translations": {
+      "en": [
+        "checking account"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 941
+  },
+  {
+    "id": "es-vocab-banking-002",
+    "lang": "es",
+    "term": "cuenta de ahorros",
+    "translations": {
+      "en": [
+        "savings account"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 942
+  },
+  {
+    "id": "es-vocab-banking-003",
+    "lang": "es",
+    "term": "cajero automático",
+    "translations": {
+      "en": [
+        "ATM"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 943
+  },
+  {
+    "id": "es-vocab-banking-004",
+    "lang": "es",
+    "term": "saldo",
+    "translations": {
+      "en": [
+        "balance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 944
+  },
+  {
+    "id": "es-vocab-banking-005",
+    "lang": "es",
+    "term": "depósito",
+    "translations": {
+      "en": [
+        "deposit"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 945
+  },
+  {
+    "id": "es-vocab-banking-006",
+    "lang": "es",
+    "term": "extracción",
+    "translations": {
+      "en": [
+        "withdrawal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 946
+  },
+  {
+    "id": "es-vocab-banking-007",
+    "lang": "es",
+    "term": "transferencia",
+    "translations": {
+      "en": [
+        "transfer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 947
+  },
+  {
+    "id": "es-vocab-banking-008",
+    "lang": "es",
+    "term": "interés",
+    "translations": {
+      "en": [
+        "interest (banking)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 948
+  },
+  {
+    "id": "es-vocab-banking-009",
+    "lang": "es",
+    "term": "hipoteca",
+    "translations": {
+      "en": [
+        "mortgage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 949
+  },
+  {
+    "id": "es-vocab-banking-010",
+    "lang": "es",
+    "term": "seguro",
+    "translations": {
+      "en": [
+        "insurance"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 950
+  },
+  {
+    "id": "es-vocab-banking-011",
+    "lang": "es",
+    "term": "póliza de seguro",
+    "translations": {
+      "en": [
+        "insurance policy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 951
+  },
+  {
+    "id": "es-vocab-banking-012",
+    "lang": "es",
+    "term": "cuota de seguro",
+    "translations": {
+      "en": [
+        "insurance premium"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 952
+  },
+  {
+    "id": "es-vocab-banking-013",
+    "lang": "es",
+    "term": "reclamación",
+    "translations": {
+      "en": [
+        "claim"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 953
+  },
+  {
+    "id": "es-vocab-banking-014",
+    "lang": "es",
+    "term": "cobertura",
+    "translations": {
+      "en": [
+        "coverage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 954
+  },
+  {
+    "id": "es-vocab-banking-015",
+    "lang": "es",
+    "term": "agente de seguros",
+    "translations": {
+      "en": [
+        "insurance agent"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 955
+  },
+  {
+    "id": "es-vocab-banking-016",
+    "lang": "es",
+    "term": "tarjeta de débito",
+    "translations": {
+      "en": [
+        "debit card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 956
+  },
+  {
+    "id": "es-vocab-banking-017",
+    "lang": "es",
+    "term": "sucursal bancaria",
+    "translations": {
+      "en": [
+        "bank branch"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 957
+  },
+  {
+    "id": "es-vocab-banking-018",
+    "lang": "es",
+    "term": "cheque",
+    "translations": {
+      "en": [
+        "check"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 958
+  },
+  {
+    "id": "es-vocab-banking-019",
+    "lang": "es",
+    "term": "moneda",
+    "translations": {
+      "en": [
+        "currency"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 959
+  },
+  {
+    "id": "es-vocab-banking-020",
+    "lang": "es",
+    "term": "tipo de cambio",
+    "translations": {
+      "en": [
+        "exchange rate"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 960
+  },
+  {
+    "id": "es-vocab-banking-021",
+    "lang": "es",
+    "term": "ahorrar",
+    "translations": {
+      "en": [
+        "to save (money)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 961
+  },
+  {
+    "id": "es-vocab-banking-022",
+    "lang": "es",
+    "term": "pedir prestado",
+    "translations": {
+      "en": [
+        "to borrow"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 962
+  },
+  {
+    "id": "es-vocab-banking-023",
+    "lang": "es",
+    "term": "prestar",
+    "translations": {
+      "en": [
+        "to lend"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 963
+  },
+  {
+    "id": "es-vocab-banking-024",
+    "lang": "es",
+    "term": "asegurar",
+    "translations": {
+      "en": [
+        "to insure"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 964
+  },
+  {
+    "id": "es-vocab-banking-025",
+    "lang": "es",
+    "term": "riesgo",
+    "translations": {
+      "en": [
+        "risk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 965
+  },
+  {
+    "id": "es-vocab-banking-026",
+    "lang": "es",
+    "term": "beneficiario",
+    "translations": {
+      "en": [
+        "beneficiary"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 966
+  },
+  {
+    "id": "es-vocab-banking-027",
+    "lang": "es",
+    "term": "fraude",
+    "translations": {
+      "en": [
+        "fraud"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 967
+  },
+  {
+    "id": "es-vocab-banking-028",
+    "lang": "es",
+    "term": "estado de cuenta",
+    "translations": {
+      "en": [
+        "bank statement"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 968
+  },
+  {
+    "id": "es-vocab-banking-029",
+    "lang": "es",
+    "term": "comisión bancaria",
+    "translations": {
+      "en": [
+        "bank fee"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 969
+  },
+  {
+    "id": "es-vocab-banking-030",
+    "lang": "es",
+    "term": "financiero",
+    "translations": {
+      "en": [
+        "financial"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "banking"
+    ],
+    "frequencyRank": 970
+  },
+  {
+    "id": "es-vocab-public-services-001",
+    "lang": "es",
+    "term": "oficina de correos",
+    "translations": {
+      "en": [
+        "post office"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 971
+  },
+  {
+    "id": "es-vocab-public-services-002",
+    "lang": "es",
+    "term": "cartero",
+    "translations": {
+      "en": [
+        "mailman"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 972
+  },
+  {
+    "id": "es-vocab-public-services-003",
+    "lang": "es",
+    "term": "paquete",
+    "translations": {
+      "en": [
+        "package"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 973
+  },
+  {
+    "id": "es-vocab-public-services-004",
+    "lang": "es",
+    "term": "sello",
+    "translations": {
+      "en": [
+        "stamp"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 974
+  },
+  {
+    "id": "es-vocab-public-services-005",
+    "lang": "es",
+    "term": "electricidad",
+    "translations": {
+      "en": [
+        "electricity"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 975
+  },
+  {
+    "id": "es-vocab-public-services-006",
+    "lang": "es",
+    "term": "factura de la luz",
+    "translations": {
+      "en": [
+        "electricity bill"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 976
+  },
+  {
+    "id": "es-vocab-public-services-007",
+    "lang": "es",
+    "term": "suministro de agua",
+    "translations": {
+      "en": [
+        "water utility"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 977
+  },
+  {
+    "id": "es-vocab-public-services-008",
+    "lang": "es",
+    "term": "gas",
+    "translations": {
+      "en": [
+        "gas utility"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 978
+  },
+  {
+    "id": "es-vocab-public-services-009",
+    "lang": "es",
+    "term": "basura",
+    "translations": {
+      "en": [
+        "garbage",
+        "trash"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 979
+  },
+  {
+    "id": "es-vocab-public-services-010",
+    "lang": "es",
+    "term": "reciclaje",
+    "translations": {
+      "en": [
+        "recycling service"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 980
+  },
+  {
+    "id": "es-vocab-public-services-011",
+    "lang": "es",
+    "term": "biblioteca pública",
+    "translations": {
+      "en": [
+        "public library"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 981
+  },
+  {
+    "id": "es-vocab-public-services-012",
+    "lang": "es",
+    "term": "bombero",
+    "translations": {
+      "en": [
+        "firefighter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 982
+  },
+  {
+    "id": "es-vocab-public-services-013",
+    "lang": "es",
+    "term": "estación de bomberos",
+    "translations": {
+      "en": [
+        "fire station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 983
+  },
+  {
+    "id": "es-vocab-public-services-014",
+    "lang": "es",
+    "term": "comisaría",
+    "translations": {
+      "en": [
+        "police station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 984
+  },
+  {
+    "id": "es-vocab-public-services-015",
+    "lang": "es",
+    "term": "centro cívico",
+    "translations": {
+      "en": [
+        "civic center"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 985
+  },
+  {
+    "id": "es-vocab-public-services-016",
+    "lang": "es",
+    "term": "servicio público",
+    "translations": {
+      "en": [
+        "public service"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 986
+  },
+  {
+    "id": "es-vocab-public-services-017",
+    "lang": "es",
+    "term": "impuesto municipal",
+    "translations": {
+      "en": [
+        "municipal tax"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 987
+  },
+  {
+    "id": "es-vocab-public-services-018",
+    "lang": "es",
+    "term": "alcantarillado",
+    "translations": {
+      "en": [
+        "sewage system"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 988
+  },
+  {
+    "id": "es-vocab-public-services-019",
+    "lang": "es",
+    "term": "acera pública",
+    "translations": {
+      "en": [
+        "public sidewalk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 989
+  },
+  {
+    "id": "es-vocab-public-services-020",
+    "lang": "es",
+    "term": "alumbrado público",
+    "translations": {
+      "en": [
+        "street lighting"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 990
+  },
+  {
+    "id": "es-vocab-public-services-021",
+    "lang": "es",
+    "term": "transporte público",
+    "translations": {
+      "en": [
+        "public transportation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 991
+  },
+  {
+    "id": "es-vocab-public-services-022",
+    "lang": "es",
+    "term": "funcionario",
+    "translations": {
+      "en": [
+        "civil servant"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 992
+  },
+  {
+    "id": "es-vocab-public-services-023",
+    "lang": "es",
+    "term": "trámite",
+    "translations": {
+      "en": [
+        "administrative procedure"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 993
+  },
+  {
+    "id": "es-vocab-public-services-024",
+    "lang": "es",
+    "term": "formulario",
+    "translations": {
+      "en": [
+        "form"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 994
+  },
+  {
+    "id": "es-vocab-public-services-025",
+    "lang": "es",
+    "term": "solicitud",
+    "translations": {
+      "en": [
+        "application (request)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 995
+  },
+  {
+    "id": "es-vocab-public-services-026",
+    "lang": "es",
+    "term": "carné de identidad",
+    "translations": {
+      "en": [
+        "ID card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 996
+  },
+  {
+    "id": "es-vocab-public-services-027",
+    "lang": "es",
+    "term": "registro civil",
+    "translations": {
+      "en": [
+        "civil registry"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 997
+  },
+  {
+    "id": "es-vocab-public-services-028",
+    "lang": "es",
+    "term": "cita previa",
+    "translations": {
+      "en": [
+        "appointment (bureaucratic)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 998
+  },
+  {
+    "id": "es-vocab-public-services-029",
+    "lang": "es",
+    "term": "subvención",
+    "translations": {
+      "en": [
+        "subsidy",
+        "grant"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 999
+  },
+  {
+    "id": "es-vocab-public-services-030",
+    "lang": "es",
+    "term": "presupuesto municipal",
+    "translations": {
+      "en": [
+        "municipal budget"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "public-services"
+    ],
+    "frequencyRank": 1000
   }
 ]
