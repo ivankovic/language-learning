@@ -1,0 +1,48 @@
+{
+  "id": "de-lesson-perfekt-haben",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-5",
+  "order": 1,
+  "title": "Perfekt (Past Tense) with Haben",
+  "prerequisiteIds": ["de-lesson-dative-prepositions"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Germans use the **Perfekt** tense, not a simple past, for almost all spoken-language storytelling — unlike Italian's passato prossimo, which behaves similarly, or English's simple past. It's built from **haben** (conjugated) + a **past participle** at the end of the sentence: **Ich habe Pizza gegessen** (I ate pizza). Most participles follow **ge-...-t**: *machen* → **gemacht**, *lernen* → **gelernt**." },
+    { "type": "exercise", "exerciseId": "de-ex-perfekt-haben-1" },
+    { "type": "exercise", "exerciseId": "de-ex-perfekt-haben-2" },
+    { "type": "explanation", "markdown": "Some common verbs have irregular participles that must be memorized: *essen* → **gegessen**, *trinken* → **getrunken**, *sprechen* → **gesprochen**." },
+    { "type": "exercise", "exerciseId": "de-ex-perfekt-haben-3" },
+    { "type": "exercise", "exerciseId": "de-ex-perfekt-haben-4" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-perfekt-haben-1",
+      "type": "fill-blank",
+      "prompt": "Ich ___ Deutsch gelernt. (haben — I learned German.)",
+      "answer": "habe",
+      "relatedItemId": "de-vocab-routine-007"
+    },
+    {
+      "id": "de-ex-perfekt-haben-2",
+      "type": "multiple-choice",
+      "prompt": "What is the past participle of \"machen\" (to do/make)?",
+      "answer": "gemacht",
+      "distractors": ["gemacht habe", "machen", "gemachen"]
+    },
+    {
+      "id": "de-ex-perfekt-haben-3",
+      "type": "multiple-choice",
+      "prompt": "What is the past participle of \"trinken\" (to drink)?",
+      "answer": "getrunken",
+      "distractors": ["getrinkt", "trinkt", "gedrunken"],
+      "relatedItemId": "de-vocab-routine-005"
+    },
+    {
+      "id": "de-ex-perfekt-haben-4",
+      "type": "translate",
+      "prompt": "Translate: \"We ate fish.\"",
+      "answer": ["Wir haben Fisch gegessen."],
+      "relatedItemId": "de-vocab-routine-004"
+    }
+  ]
+}

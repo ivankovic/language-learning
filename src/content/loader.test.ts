@@ -149,6 +149,12 @@ describe("content loader", () => {
       "de-lesson-en-verbs",
       "de-lesson-word-order",
       "de-lesson-food-travel",
+      "de-lesson-modal-verbs",
+      "de-lesson-separable-verbs",
+      "de-lesson-dative-prepositions",
+      "de-lesson-perfekt-haben",
+      "de-lesson-perfekt-sein",
+      "de-lesson-reflexive-verbs",
     ]);
   });
 

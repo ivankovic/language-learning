@@ -1,0 +1,45 @@
+{
+  "id": "de-lesson-modal-verbs",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-4",
+  "order": 1,
+  "title": "Modal Verbs",
+  "prerequisiteIds": ["de-lesson-food-travel"],
+  "blocks": [
+    { "type": "explanation", "markdown": "German's six modal verbs — **können** (can), **müssen** (must), **wollen** (want to), **dürfen** (may/be allowed to), **sollen** (should), **mögen** (like) — are irregular and change their stem vowel in the singular: ich **kann**, du **kannst**, er/sie/es **kann**, wir **können**, ihr **könnt**, sie/Sie **können**." },
+    { "type": "exercise", "exerciseId": "de-ex-modal-1" },
+    { "type": "exercise", "exerciseId": "de-ex-modal-2" },
+    { "type": "explanation", "markdown": "A modal verb sends the main verb to the **very end** of the sentence, in its plain infinitive form: **Ich muss heute arbeiten** (I have to work today) — *muss* stays in second position, *arbeiten* goes last." },
+    { "type": "exercise", "exerciseId": "de-ex-modal-3" },
+    { "type": "exercise", "exerciseId": "de-ex-modal-4" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-modal-1",
+      "type": "multiple-choice",
+      "prompt": "Ich ___ gut Deutsch sprechen. (können — I can speak German well.)",
+      "answer": "kann",
+      "distractors": ["kannst", "könnt", "können"]
+    },
+    {
+      "id": "de-ex-modal-2",
+      "type": "fill-blank",
+      "prompt": "Du ___ jetzt gehen. (müssen — You have to go now.)",
+      "answer": "musst"
+    },
+    {
+      "id": "de-ex-modal-3",
+      "type": "reorder",
+      "prompt": "Put these words in order: arbeiten / heute / muss / Ich",
+      "answer": ["Ich", "muss", "heute", "arbeiten"]
+    },
+    {
+      "id": "de-ex-modal-4",
+      "type": "translate",
+      "prompt": "Translate: \"We want to eat pizza.\"",
+      "answer": ["Wir wollen Pizza essen."],
+      "relatedItemId": "de-vocab-routine-004"
+    }
+  ]
+}

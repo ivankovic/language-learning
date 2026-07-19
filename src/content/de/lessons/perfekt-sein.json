@@ -1,0 +1,38 @@
+{
+  "id": "de-lesson-perfekt-sein",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-5",
+  "order": 2,
+  "title": "Perfekt (Past Tense) with Sein",
+  "prerequisiteIds": ["de-lesson-perfekt-haben"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Verbs of **motion or change of state** — like *gehen* (to go), *fahren* (to drive/travel), *kommen* (to come) — form the Perfekt with **sein** instead of haben: **Ich bin nach Hause gegangen** (I went home). This is a genuine two-auxiliary system, similar to Italian's essere/avere split for passato prossimo, but the specific verb list differs between the two languages." },
+    { "type": "exercise", "exerciseId": "de-ex-perfekt-sein-1" },
+    { "type": "exercise", "exerciseId": "de-ex-perfekt-sein-2" },
+    { "type": "explanation", "markdown": "Separable verbs of motion keep both rules at once: **aufstehen** → **Ich bin früh aufgestanden** (I got up early) — sein as the auxiliary, and the participle **aufgestanden** keeps the prefix attached at the front, unlike in the present tense where it detaches." },
+    { "type": "exercise", "exerciseId": "de-ex-perfekt-sein-3" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-perfekt-sein-1",
+      "type": "fill-blank",
+      "prompt": "Sie ___ nach Berlin gefahren. (sein — She traveled to Berlin.)",
+      "answer": "ist"
+    },
+    {
+      "id": "de-ex-perfekt-sein-2",
+      "type": "multiple-choice",
+      "prompt": "Which auxiliary does \"gehen\" (to go) use in the Perfekt?",
+      "answer": "sein",
+      "distractors": ["haben", "werden", "können"]
+    },
+    {
+      "id": "de-ex-perfekt-sein-3",
+      "type": "translate",
+      "prompt": "Translate: \"I got up early.\" (aufstehen — uses sein)",
+      "answer": ["Ich bin früh aufgestanden."],
+      "relatedItemId": "de-vocab-routine-001"
+    }
+  ]
+}

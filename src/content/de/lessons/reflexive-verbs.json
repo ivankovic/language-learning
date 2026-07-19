@@ -1,0 +1,40 @@
+{
+  "id": "de-lesson-reflexive-verbs",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-5",
+  "order": 3,
+  "title": "Reflexive Verbs",
+  "prerequisiteIds": ["de-lesson-perfekt-sein"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Reflexive verbs like **sich waschen** (to wash oneself) and **sich anziehen** (to get dressed) need a reflexive pronoun that matches the subject: **ich wasche mich**, **du wäschst dich**, **er/sie/es wäscht sich**, **wir waschen uns**, **ihr wascht euch**, **sie/Sie waschen sich**." },
+    { "type": "exercise", "exerciseId": "de-ex-reflexive-1" },
+    { "type": "exercise", "exerciseId": "de-ex-reflexive-2" },
+    { "type": "explanation", "markdown": "In the Perfekt, reflexive verbs always take **haben**, and the reflexive pronoun goes right after it: **Ich habe mich gewaschen** (I washed myself)." },
+    { "type": "exercise", "exerciseId": "de-ex-reflexive-3" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-reflexive-1",
+      "type": "fill-blank",
+      "prompt": "Ich wasche ___. (I wash myself.)",
+      "answer": "mich",
+      "relatedItemId": "de-vocab-routine-002"
+    },
+    {
+      "id": "de-ex-reflexive-2",
+      "type": "multiple-choice",
+      "prompt": "Wir ziehen ___ an. (We get dressed.)",
+      "answer": "uns",
+      "distractors": ["mich", "euch", "sich"],
+      "relatedItemId": "de-vocab-routine-003"
+    },
+    {
+      "id": "de-ex-reflexive-3",
+      "type": "translate",
+      "prompt": "Translate: \"She washed herself.\" (Perfekt tense)",
+      "answer": ["Sie hat sich gewaschen."],
+      "relatedItemId": "de-vocab-routine-002"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "de-lesson-dative-prepositions",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-4",
+  "order": 3,
+  "title": "Dative Prepositions",
+  "prerequisiteIds": ["de-lesson-separable-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Unlike Italian or French, German nouns change form (\"case\") depending on their role in the sentence. A fixed set of prepositions always take the **dative case**: **mit** (with), **bei** (at/near), **nach** (after/to), **aus** (from/out of), **von** (from/of), **zu** (to). In the dative, **der/das** becomes **dem** and **die** becomes **der**: *der Arzt* → **mit dem Arzt** (with the doctor)." },
+    { "type": "exercise", "exerciseId": "de-ex-dative-1" },
+    { "type": "exercise", "exerciseId": "de-ex-dative-2" },
+    { "type": "explanation", "markdown": "**Nach** means \"to\" for cities and countries without an article (*nach Berlin*), while **zu** is used for people and specific places (*zum Arzt* — a fusion of *zu dem*)." },
+    { "type": "exercise", "exerciseId": "de-ex-dative-3" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-dative-1",
+      "type": "multiple-choice",
+      "prompt": "Ich gehe ___ Arzt. (zu + dem → I'm going to the doctor.)",
+      "answer": "zum",
+      "distractors": ["zur", "nach", "bei"],
+      "relatedItemId": "de-vocab-body-025"
+    },
+    {
+      "id": "de-ex-dative-2",
+      "type": "fill-blank",
+      "prompt": "Er arbeitet ___ meiner Kollegin. (mit — He works with my colleague.)",
+      "answer": "mit",
+      "relatedItemId": "de-vocab-work-002"
+    },
+    {
+      "id": "de-ex-dative-3",
+      "type": "translate",
+      "prompt": "Translate: \"I'm coming from the office.\"",
+      "answer": ["Ich komme aus dem Büro."],
+      "relatedItemId": "de-vocab-work-007"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "de-lesson-separable-verbs",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-4",
+  "order": 2,
+  "title": "Separable Verbs",
+  "prerequisiteIds": ["de-lesson-modal-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Many German verbs have a detachable prefix that carries most of the meaning — like **aufstehen** (auf + stehen, \"to get up\"). In a simple present-tense sentence, the prefix breaks off and moves to the **very end**: **Ich stehe um sieben Uhr auf** (I get up at seven o'clock) — *stehe* stays in second position, *auf* goes last. In the infinitive (e.g. after a modal verb), the two stay joined: **Ich muss früh aufstehen**." },
+    { "type": "exercise", "exerciseId": "de-ex-separable-1" },
+    { "type": "exercise", "exerciseId": "de-ex-separable-2" },
+    { "type": "explanation", "markdown": "Other common separable verbs: **anrufen** (an + rufen, to call [someone]), **einkaufen** (ein + kaufen, to shop), **fernsehen** (fern + sehen, to watch TV)." },
+    { "type": "exercise", "exerciseId": "de-ex-separable-3" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-separable-1",
+      "type": "fill-blank",
+      "prompt": "Ich stehe um sieben Uhr ___. (aufstehen — I get up at seven o'clock.)",
+      "answer": "auf",
+      "relatedItemId": "de-vocab-routine-001"
+    },
+    {
+      "id": "de-ex-separable-2",
+      "type": "reorder",
+      "prompt": "Put these words in order: auf / früh / Sie / steht",
+      "answer": ["Sie", "steht", "früh", "auf"],
+      "relatedItemId": "de-vocab-routine-001"
+    },
+    {
+      "id": "de-ex-separable-3",
+      "type": "translate",
+      "prompt": "Translate: \"He calls his mother.\" (anrufen — separates: ruft ... an)",
+      "answer": ["Er ruft seine Mutter an."]
+    }
+  ]
+}
