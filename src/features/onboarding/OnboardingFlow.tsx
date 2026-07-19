@@ -63,6 +63,7 @@ export function OnboardingFlow() {
                       )
                     }
                   />
+                  {lang.flag ? `${lang.flag} ` : ""}
                   {lang.name}
                 </label>
               ))}
@@ -81,6 +82,7 @@ export function OnboardingFlow() {
                   onClick={() => selectTarget(lang.code)}
                   className="w-full rounded-xl bg-slate-100 px-4 py-3 text-left hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800"
                 >
+                  {lang.flag ? `${lang.flag} ` : ""}
                   {lang.name}
                 </button>
               ))}

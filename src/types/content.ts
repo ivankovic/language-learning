@@ -10,6 +10,7 @@ export type Language = {
   script: ScriptKind;
   direction: "ltr" | "rtl";
   ttsVoiceHint?: string; // hint for picking a Web Speech API voice
+  flag?: string; // emoji shown next to the name in language pickers
 };
 
 export type VocabItem = {
