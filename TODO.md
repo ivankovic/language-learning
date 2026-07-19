@@ -36,7 +36,7 @@ Goal: a fully working app skeleton, every mode functional end-to-end, proven wit
 
 Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md`).
 
-**Italian progress: 810/~2000 words (~41%), 25/~35 lessons (~71%), 27 decks, 10 units.**
+**Italian progress: 930/~2000 words (~47%), 25/~35 lessons (~71%), 31 decks, 10 units.**
 **French progress: 280/~2000 words (~14%), 14/~35 lessons (~40%), 9 decks, 5 units.**
 **German progress: 280/~2000 words (~14%), 14/~35 lessons (~40%), 9 decks, 5 units.**
 **Croatian progress: 280/~2000 words (~14%), 14/~35 lessons (~40%), 9 decks, 5 units.**
@@ -49,6 +49,7 @@ Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md
 - [x] Batch 3: added 5 new grammar lessons (ci/ne particles, relative pronouns che/cui, condizionale, superlatives, impersonal si) across 2 new units — 20 → 25 lessons, 8 → 10 units
 - [x] Batch 4: vocab-only — added 4 new decks (animals, nature & outdoors, society & government, common expressions/idioms) — 570 → 690 words, 23 decks. No new lessons this batch; core beginner-to-intermediate grammar is now largely covered by the existing 25.
 - [x] Batch 5: vocab-only — added 4 new decks (countries & nationalities, materials & shapes, business & finance, conjunctions & connectors) — 690 → 810 words, 27 decks.
+- [x] Batch 6: vocab-only — added 4 new decks (health & medicine, music & arts, environment & sustainability, law & crime) — 810 → 930 words, 31 decks. Several planned terms collided with existing vocabulary from earlier batches (e.g. "medico", "museo", "legge" were already present via body-clothing/sports-hobbies/society decks) — caught by the dedup script and swapped for genuinely distinct synonyms/related terms (dottore, collezione, codice penale, etc.) rather than silently duplicating. No new lessons this batch; grammar coverage remains comprehensive from prior batches.
 - [ ] Continue growing Italian toward ~2000 words / ~35 lessons (many more batches needed — this is intentionally incremental, not a single pass). Remaining vocab breadth ideas: more specific food/cooking terms, more professions, formal register phrases, regional expressions, hobbies extended (art, gardening, collecting). Remaining grammar ideas (fewer needed): subjunctive mood intro, passive voice, gerund/progressive (stare + gerundio)
 - [x] Added French: infrastructure (registered in `languages.ts` and `loader.ts`'s registry, appears automatically in onboarding since target-language options are derived from `hasContentBundle()`) + an initial content batch mirroring Italian's original scope — 160 words across the same 5 core decks (greetings, food, travel, daily routine, numbers & time), 8 grammar lessons across 3 units (greetings, articles, être, avoir, numbers, regular -er verbs, word order, food & travel). Verified end-to-end in a real browser: onboarding, lessons, flashcard review with FSRS, all 55 tests pass.
 - [x] Factored out `src/content/buildLanguageContent.ts`, shared by every per-language `index.ts` — avoids the course→unit→lesson flattening logic drifting out of sync now that there are 3 languages.
