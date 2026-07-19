@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { db } from "../index";
-import { completeEntry, listCompleteEntries, getEntry } from "./journal";
+import { completeEntry, listCompleteEntries, getEntry, deleteEntry } from "./journal";
 import type { JournalEntry } from "../../types/user";
 
 function draft(overrides: Partial<JournalEntry> = {}): JournalEntry {
@@ -49,5 +49,26 @@ describe("completeEntry", () => {
     expect(saved?.aiFeedback).toBe("Nice job!");
     expect(saved?.extractedVocabIds).toEqual(["it-vocab-food-005"]);
     expect(saved?.originalText).toBe("I ate pizza"); // untouched fields preserved
+  });
+});
+
+describe("deleteEntry", () => {
+  beforeEach(async () => {
+    await db.journalEntries.clear();
+  });
+
+  it("removes the entry so it no longer appears in listCompleteEntries or getEntry", async () => {
+    const entry = draft();
+    await completeEntry(entry, { translationAttempt: "Ho mangiato la pizza", aiFeedback: undefined, extractedVocabIds: [] });
+    expect(await listCompleteEntries("it")).toHaveLength(1);
+
+    await deleteEntry(entry.id);
+
+    expect(await getEntry(entry.id)).toBeUndefined();
+    expect(await listCompleteEntries("it")).toHaveLength(0);
+  });
+
+  it("is a no-op for an id that doesn't exist", async () => {
+    await expect(deleteEntry("nonexistent-id")).resolves.not.toThrow();
   });
 });

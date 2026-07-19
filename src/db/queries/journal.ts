@@ -10,6 +10,10 @@ export function getEntry(id: string): Promise<JournalEntry | undefined> {
   return db.journalEntries.get(id);
 }
 
+export function deleteEntry(id: string): Promise<void> {
+  return db.journalEntries.delete(id);
+}
+
 export async function saveDraft(entry: JournalEntry): Promise<void> {
   await db.journalEntries.put({ ...entry, status: "draft", updatedAt: new Date().toISOString() });
 }

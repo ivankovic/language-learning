@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useProfile } from "../../hooks/useProfile";
 import { useLanguageContent } from "../../hooks/useLanguageContent";
-import { getEntry, saveDraft, completeEntry } from "../../db/queries/journal";
+import { getEntry, saveDraft, completeEntry, deleteEntry } from "../../db/queries/journal";
 import { incrementToday } from "../../db/queries/activity";
 import { upsertCardState, getCardState } from "../../db/queries/cardStates";
 import { newCardState } from "../../srs/fsrs";
@@ -136,6 +136,13 @@ export function JournalEntryScreen() {
     }
   }
 
+  async function remove() {
+    if (!entry) return;
+    if (!window.confirm("Delete this journal entry? This can't be undone.")) return;
+    await deleteEntry(entry.id);
+    navigate("/journal");
+  }
+
   if (!entry || !content) {
     return (
       <Screen title="Journal">
@@ -217,6 +224,15 @@ export function JournalEntryScreen() {
         <Button className="w-full" onClick={save} disabled={!entry.originalText.trim() || !entry.translationAttempt.trim()}>
           Save Entry
         </Button>
+      )}
+
+      {!isNew && (
+        <button
+          onClick={remove}
+          className="mt-4 w-full text-center text-sm text-rose-600 dark:text-rose-400"
+        >
+          Delete entry
+        </button>
       )}
     </Screen>
   );
