@@ -74,6 +74,20 @@ Previously `activeTargetLang` was set once at onboarding with no way to change i
 - [x] Verified the full flow in a real browser: onboard with Italian → add French via the switcher → French streak starts independently at 0 → grade cards in French → switch back to Italian → Italian's daily count is unaffected by French activity → Settings lists both languages
 - [x] All 60 tests pass, typecheck clean, production build succeeds
 
+## About page (complete)
+
+- [x] New `/about` route, reachable from Settings — explains the app is free (no cost/account, AGPLv3), private (no server, on-device only), and LLM-assisted (with a pointer to open an issue/PR for corrections), plus a link to the Codeberg repo
+
+## Quick vocabulary practice by deck (complete)
+
+Previously decks were only ever used for the Progress screen's mastery heatmap — there was no way to browse them or drill a specific topic on demand. "Extra review" existed but only pulls FSRS due+new cards across the whole language, so it could show "nothing to review" even when you just want to cram a specific deck.
+
+- [x] Lessons screen gains a "Quick vocabulary practice" section: a horizontally-scrolling row of deck chips (title + word count) above the Grammar section
+- [x] `srs/assemble.ts`: added `buildDeckQueue(deck)` — every word in the deck, shuffled, deliberately bypassing the daily new-card limit and due-date gating that `assembleQueue()` applies (an explicit, user-initiated cram session, not the auto-paced daily queue — like Anki's manual deck browser)
+- [x] `FlashcardReview` (mode `"extra"`) now reads an optional `?deck=<deckId>` query param: when present, builds the queue from that one deck instead of the global due+new algorithm, and shows the deck's title as the screen title instead of generic "Review"
+- [x] Verified in a real browser: deck chips render with correct word counts, tapping one navigates to a deck-scoped review with the right title and full word count queued, grading persists real `CardState`/FSRS rows, and the original due-based "Extra review" (no `deck` param) is unaffected
+- [x] All 63 tests pass (3 new for `buildDeckQueue`), typecheck clean, production build succeeds
+
 ## Deferred / open items
 
 - [ ] FSRS per-user weight optimization (using library defaults; needs ~1000+ reviews of real history to be worth fitting — noted in `SPECS.md`)

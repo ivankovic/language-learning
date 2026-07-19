@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { useProfile } from "../../hooks/useProfile";
 import { useLanguageContent } from "../../hooks/useLanguageContent";
-import { assembleQueue } from "../../srs/assemble";
+import { assembleQueue, buildDeckQueue } from "../../srs/assemble";
 import { newCardState, gradeCard, previewIntervals } from "../../srs/fsrs";
 import { formatInterval } from "../../srs/formatInterval";
 import { getCardState, upsertCardState } from "../../db/queries/cardStates";
@@ -28,6 +28,8 @@ const GRADES: { grade: Grade; label: string; variant: "secondary" | "primary" }[
 
 export function FlashcardReview(props: Props) {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const deckId = props.mode === "extra" ? searchParams.get("deck") : null;
   const profile = useProfile();
   const lang = profile?.activeTargetLang;
   const content = useLanguageContent(lang);
@@ -39,9 +41,15 @@ export function FlashcardReview(props: Props) {
   const [reviewedCount, setReviewedCount] = useState(0);
 
   useEffect(() => {
-    if (props.mode !== "extra" || !lang || !content) return;
+    if (props.mode !== "extra" || !content) return;
+    if (deckId) {
+      const deck = content.decks.find((d) => d.id === deckId);
+      setQueue(deck ? buildDeckQueue(deck) : []);
+      return;
+    }
+    if (!lang) return;
     assembleQueue(lang, content, { limit: 50 }).then(setQueue);
-  }, [props.mode, lang, content]);
+  }, [props.mode, lang, content, deckId]);
 
   useEffect(() => {
     if (!queue || !lang) return;
@@ -84,12 +92,17 @@ export function FlashcardReview(props: Props) {
     );
   }
 
+  const deckTitle = deckId ? content.decks.find((d) => d.id === deckId)?.title : undefined;
+  const screenTitle = deckTitle ?? "Review";
+
   const item = queue[index];
   if (!item || !current) {
     if (props.mode === "extra") {
       return (
-        <Screen title="Review">
-          <p className="mb-4 text-slate-600 dark:text-slate-400">Nothing left to review right now.</p>
+        <Screen title={screenTitle}>
+          <p className="mb-4 text-slate-600 dark:text-slate-400">
+            {deckId ? "Nothing in this deck yet." : "Nothing left to review right now."}
+          </p>
           <Button onClick={() => navigate("/")}>Back to Home</Button>
         </Screen>
       );
@@ -120,7 +133,7 @@ export function FlashcardReview(props: Props) {
   }
 
   return (
-    <Screen title={props.mode === "extra" ? "Review" : "Warm-up"}>
+    <Screen title={props.mode === "extra" ? screenTitle : "Warm-up"}>
       <div className="mb-4 text-sm text-slate-500">
         {index + 1} / {queue.length}
       </div>

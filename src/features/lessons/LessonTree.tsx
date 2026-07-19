@@ -29,10 +29,28 @@ export function LessonTree() {
     <Screen title="Lessons" action={<SettingsLink />}>
       <LanguageSwitcher />
       <p className="mb-4 text-sm text-slate-500">{content.course.title}</p>
+
+      <section className="mb-8">
+        <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">Quick vocabulary practice</h2>
+        <div className="flex gap-2 overflow-x-auto pb-1">
+          {content.decks.map((deck) => (
+            <button
+              key={deck.id}
+              onClick={() => navigate(`/review?deck=${deck.id}`)}
+              className="shrink-0 rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900"
+            >
+              <p className="text-sm font-medium">{deck.title}</p>
+              <p className="text-xs text-slate-500">{deck.itemIds.length} words</p>
+            </button>
+          ))}
+        </div>
+      </section>
+
+      <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">Grammar</h2>
       <div className="space-y-6">
         {content.units.map((unit) => (
           <div key={unit.id}>
-            <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">{unit.title}</h2>
+            <h3 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">{unit.title}</h3>
             <div className="space-y-2">
               {unit.lessonIds.map((lessonId) => {
                 const lesson = lessonsById.get(lessonId);
