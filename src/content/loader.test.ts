@@ -3,8 +3,9 @@ import { loadLanguageContent, validateContentBundle, hasContentBundle } from "./
 
 describe("content loader", () => {
   it("reports no bundle for an unregistered language", () => {
-    expect(hasContentBundle("fr")).toBe(false);
+    expect(hasContentBundle("de")).toBe(false);
     expect(hasContentBundle("it")).toBe(true);
+    expect(hasContentBundle("fr")).toBe(true);
   });
 
   it("resolves the Italian bundle with the expected shape", async () => {
@@ -15,6 +16,14 @@ describe("content loader", () => {
     expect(content.course.id).toBe("it-course-a1");
   });
 
+  it("resolves the French bundle with the expected shape", async () => {
+    const content = await loadLanguageContent("fr");
+    expect(content.vocabById.size).toBeGreaterThanOrEqual(100);
+    expect(content.decks.length).toBeGreaterThanOrEqual(4);
+    expect(content.lessons.length).toBeGreaterThanOrEqual(5);
+    expect(content.course.id).toBe("fr-course-a1");
+  });
+
   it("caches the bundle across repeated loads", async () => {
     const a = await loadLanguageContent("it");
     const b = await loadLanguageContent("it");
@@ -22,7 +31,7 @@ describe("content loader", () => {
   });
 
   it("rejects for an unregistered language", async () => {
-    await expect(loadLanguageContent("fr")).rejects.toThrow(/No content bundle/);
+    await expect(loadLanguageContent("de")).rejects.toThrow(/No content bundle/);
   });
 
   it("the Italian seed content passes referential-integrity validation", async () => {
@@ -31,11 +40,19 @@ describe("content loader", () => {
     expect(issues).toEqual([]);
   });
 
+  it("the French seed content passes referential-integrity validation", async () => {
+    const content = await loadLanguageContent("fr");
+    const issues = validateContentBundle(content);
+    expect(issues).toEqual([]);
+  });
+
   it("every lesson's prerequisite chain terminates (no cycles) and unit->course wiring is complete", async () => {
-    const content = await loadLanguageContent("it");
-    expect(content.units.every((u) => content.course.unitIds.includes(u.id))).toBe(true);
-    const allLessonIdsInUnits = content.units.flatMap((u) => u.lessonIds);
-    expect(new Set(allLessonIdsInUnits).size).toBe(content.lessons.length);
+    for (const lang of ["it", "fr"]) {
+      const content = await loadLanguageContent(lang);
+      expect(content.units.every((u) => content.course.unitIds.includes(u.id))).toBe(true);
+      const allLessonIdsInUnits = content.units.flatMap((u) => u.lessonIds);
+      expect(new Set(allLessonIdsInUnits).size).toBe(content.lessons.length);
+    }
   });
 
   it("lessons are ordered globally by course -> unit -> lesson, not by each lesson's per-unit order field alone", async () => {
@@ -72,6 +89,21 @@ describe("content loader", () => {
       "it-lesson-condizionale",
       "it-lesson-superlative",
       "it-lesson-impersonal-si",
+    ]);
+  });
+
+  it("French lessons are ordered globally by course -> unit -> lesson", async () => {
+    const content = await loadLanguageContent("fr");
+    const order = content.lessons.map((l) => l.id);
+    expect(order).toEqual([
+      "fr-lesson-greetings",
+      "fr-lesson-articles",
+      "fr-lesson-etre",
+      "fr-lesson-avoir",
+      "fr-lesson-numbers",
+      "fr-lesson-er-verbs",
+      "fr-lesson-word-order",
+      "fr-lesson-food-travel",
     ]);
   });
 });

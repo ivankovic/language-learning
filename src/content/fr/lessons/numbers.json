@@ -1,0 +1,39 @@
+{
+  "id": "fr-lesson-numbers",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-2",
+  "order": 3,
+  "title": "Numbers 1-10 & Telling Time",
+  "prerequisiteIds": ["fr-lesson-avoir"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Numbers 1-10: **un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix**. To tell time, French uses \"Il est...\" (It is...), e.g. *Il est trois heures* (It's three o'clock)." },
+    { "type": "exercise", "exerciseId": "fr-ex-numbers-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-numbers-2" },
+    { "type": "exercise", "exerciseId": "fr-ex-numbers-3" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-numbers-1",
+      "type": "multiple-choice",
+      "prompt": "What is \"sept\" in English?",
+      "answer": "seven",
+      "distractors": ["six", "eight", "nine"],
+      "relatedItemId": "fr-vocab-numtime-007"
+    },
+    {
+      "id": "fr-ex-numbers-2",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"morning\"?",
+      "answer": "matin",
+      "distractors": ["soir", "après-midi", "nuit"],
+      "relatedItemId": "fr-vocab-numtime-013"
+    },
+    {
+      "id": "fr-ex-numbers-3",
+      "type": "reorder",
+      "prompt": "Put these words in order: heures / trois / est / Il",
+      "answer": ["Il", "est", "trois", "heures"]
+    }
+  ]
+}

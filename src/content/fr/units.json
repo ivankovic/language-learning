@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fr-unit-1",
+    "courseId": "fr-course-a1",
+    "title": "Getting Started",
+    "order": 1,
+    "lessonIds": ["fr-lesson-greetings", "fr-lesson-articles"]
+  },
+  {
+    "id": "fr-unit-2",
+    "courseId": "fr-course-a1",
+    "title": "Être & Avoir",
+    "order": 2,
+    "lessonIds": ["fr-lesson-etre", "fr-lesson-avoir", "fr-lesson-numbers"]
+  },
+  {
+    "id": "fr-unit-3",
+    "courseId": "fr-course-a1",
+    "title": "Daily Life",
+    "order": 3,
+    "lessonIds": ["fr-lesson-er-verbs", "fr-lesson-word-order", "fr-lesson-food-travel"]
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "id": "fr-lesson-food-travel",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-3",
+  "order": 3,
+  "title": "Ordering Food & Asking Directions",
+  "prerequisiteIds": ["fr-lesson-word-order"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Je voudrais...** (\"I would like...\") is the polite way to order or request something, much softer than \"je veux\" (I want). Combine it with food vocabulary to order at a restaurant, or with travel vocabulary to ask for directions and information." },
+    { "type": "exercise", "exerciseId": "fr-ex-food-travel-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-food-travel-2" },
+    { "type": "explanation", "markdown": "Travel words like **arrivée** (arrival) and **départ** (departure) show up constantly on station and airport boards." },
+    { "type": "exercise", "exerciseId": "fr-ex-food-travel-3" },
+    { "type": "exercise", "exerciseId": "fr-ex-food-travel-4" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-food-travel-1",
+      "type": "multiple-choice",
+      "prompt": "You want to order water at a restaurant. What do you say?",
+      "answer": "Je voudrais de l'eau, s'il vous plaît.",
+      "distractors": ["Où est l'eau ?", "L'eau est bonne.", "J'ai de l'eau."],
+      "relatedItemId": "fr-vocab-food-002"
+    },
+    {
+      "id": "fr-ex-food-travel-2",
+      "type": "multiple-choice",
+      "prompt": "Someone asks \"Où est l'hôtel ?\" What are they asking for?",
+      "answer": "hotel",
+      "distractors": ["restaurant", "train station", "airport"],
+      "relatedItemId": "fr-vocab-travel-010"
+    },
+    {
+      "id": "fr-ex-food-travel-3",
+      "type": "fill-blank",
+      "prompt": "Le train est en ___ à neuf heures. (arrival)",
+      "answer": "arrivée",
+      "relatedItemId": "fr-vocab-travel-024"
+    },
+    {
+      "id": "fr-ex-food-travel-4",
+      "type": "translate",
+      "prompt": "Translate: \"The restaurant is near the station.\"",
+      "answer": ["Le restaurant est proche de la gare.", "Le restaurant est près de la gare."],
+      "relatedItemId": "fr-vocab-food-024"
+    }
+  ]
+}

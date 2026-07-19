@@ -1,0 +1,40 @@
+{
+  "id": "fr-lesson-articles",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-1",
+  "order": 2,
+  "title": "Definite Articles: le, la, l', les",
+  "prerequisiteIds": ["fr-lesson-greetings"],
+  "blocks": [
+    { "type": "explanation", "markdown": "French nouns have gender, and the definite article agrees: **le** (masc. singular), **la** (fem. singular), **l'** (before a vowel or silent h, either gender), **les** (plural, both genders)." },
+    { "type": "exercise", "exerciseId": "fr-ex-articles-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-articles-2" },
+    { "type": "exercise", "exerciseId": "fr-ex-articles-3" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-articles-1",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct article for \"pain\" (bread — masculine).",
+      "answer": "le",
+      "distractors": ["la", "l'", "les"],
+      "relatedItemId": "fr-vocab-food-001"
+    },
+    {
+      "id": "fr-ex-articles-2",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct article for \"eau\" (water — feminine, starts with a vowel).",
+      "answer": "l'",
+      "distractors": ["le", "la", "les"],
+      "relatedItemId": "fr-vocab-food-002"
+    },
+    {
+      "id": "fr-ex-articles-3",
+      "type": "fill-blank",
+      "prompt": "___ école est proche. (school — feminine, starts with a vowel)",
+      "answer": "L'",
+      "relatedItemId": "fr-vocab-routine-011"
+    }
+  ]
+}

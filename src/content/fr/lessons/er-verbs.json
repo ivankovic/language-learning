@@ -1,0 +1,47 @@
+{
+  "id": "fr-lesson-er-verbs",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-3",
+  "order": 1,
+  "title": "Regular -er Verbs",
+  "prerequisiteIds": ["fr-lesson-numbers"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Most French verbs ending in **-er** (like *parler*, *travailler*, *étudier*, *manger*) follow a regular pattern:\n\nje **-e** · tu **-es** · il/elle **-e** · nous **-ons** · vous **-ez** · ils/elles **-ent**\n\ne.g. *parler* → parl**e**, parl**es**, parl**e**, parl**ons**, parl**ez**, parl**ent**." },
+    { "type": "exercise", "exerciseId": "fr-ex-er-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-er-2" },
+    { "type": "exercise", "exerciseId": "fr-ex-er-3" },
+    { "type": "exercise", "exerciseId": "fr-ex-er-4" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-er-1",
+      "type": "fill-blank",
+      "prompt": "Je ___ français. (parler — I speak French.)",
+      "answer": "parle",
+      "relatedItemId": "fr-vocab-routine-009"
+    },
+    {
+      "id": "fr-ex-er-2",
+      "type": "multiple-choice",
+      "prompt": "Nous ___ la pizza. (manger — We eat pizza.)",
+      "answer": "mangeons",
+      "distractors": ["mange", "manges", "mangent"],
+      "relatedItemId": "fr-vocab-routine-004"
+    },
+    {
+      "id": "fr-ex-er-3",
+      "type": "fill-blank",
+      "prompt": "Tu ___ beaucoup. (étudier — You study a lot.)",
+      "answer": "étudies",
+      "relatedItemId": "fr-vocab-routine-007"
+    },
+    {
+      "id": "fr-ex-er-4",
+      "type": "translate",
+      "prompt": "Translate: \"They work in the city.\"",
+      "answer": ["Ils travaillent dans la ville.", "Ils travaillent en ville."],
+      "relatedItemId": "fr-vocab-routine-006"
+    }
+  ]
+}

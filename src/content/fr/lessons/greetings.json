@@ -1,0 +1,40 @@
+{
+  "id": "fr-lesson-greetings",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-1",
+  "order": 1,
+  "title": "Greetings & Politeness",
+  "prerequisiteIds": [],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Salut** is casual — hi or bye, only with people you know well. For time-of-day greetings, use **bonjour** (morning/day) or **bonsoir** (evening). **Bonne nuit** is only said when parting for the night, never as a greeting." },
+    { "type": "exercise", "exerciseId": "fr-ex-greetings-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-greetings-2" },
+    { "type": "explanation", "markdown": "Politeness words: **s'il vous plaît** (please), **merci** (thank you), and **je vous en prie** (you're welcome — also used to say \"please, go ahead\")." },
+    { "type": "exercise", "exerciseId": "fr-ex-greetings-3" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-greetings-1",
+      "type": "multiple-choice",
+      "prompt": "Which greeting would you use in the evening?",
+      "answer": "bonsoir",
+      "distractors": ["bonjour", "bonne nuit", "au revoir"]
+    },
+    {
+      "id": "fr-ex-greetings-2",
+      "type": "fill-blank",
+      "prompt": "___, comment ça va ? (informal \"hi\")",
+      "answer": "Salut",
+      "relatedItemId": "fr-vocab-greet-001"
+    },
+    {
+      "id": "fr-ex-greetings-3",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"thank you\" in French?",
+      "answer": "merci",
+      "distractors": ["je vous en prie", "pardon", "enchanté"],
+      "relatedItemId": "fr-vocab-greet-007"
+    }
+  ]
+}

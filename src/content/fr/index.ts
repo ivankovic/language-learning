@@ -6,11 +6,8 @@ import unitsData from "./units.json";
 import type { LoadedLanguageContent } from "../loader";
 import { buildLanguageContent } from "../buildLanguageContent";
 
-// Single file per content type is fine at this content scale. Once this
-// grows much further toward the "Large tier" (~2000 words), split vocab/
-// decks into per-topic files the same way lessons already are.
 const lessonModules = import.meta.glob<{ default: GrammarLesson }>("./lessons/*.json", { eager: true });
 
-export function loadItalianContent(): LoadedLanguageContent {
+export function loadFrenchContent(): LoadedLanguageContent {
   return buildLanguageContent(vocabData, decksData, courseData, unitsData, lessonModules);
 }

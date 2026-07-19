@@ -1,0 +1,39 @@
+{
+  "id": "fr-lesson-word-order",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-3",
+  "order": 2,
+  "title": "Basic Word Order & Questions",
+  "prerequisiteIds": ["fr-lesson-er-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "French word order is usually Subject-Verb-Object, same as English. Questions can be formed by adding **est-ce que** before a statement, by rising intonation, or by starting with a question word like **où** (where) or the phrase **combien ça coûte** (how much does it cost)." },
+    { "type": "exercise", "exerciseId": "fr-ex-word-order-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-word-order-2" },
+    { "type": "exercise", "exerciseId": "fr-ex-word-order-3" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-word-order-1",
+      "type": "multiple-choice",
+      "prompt": "How do you ask \"Where is the station?\"",
+      "answer": "Où est la gare ?",
+      "distractors": ["La gare où est ?", "Est où la gare ?", "Gare où est ?"],
+      "relatedItemId": "fr-vocab-travel-021"
+    },
+    {
+      "id": "fr-ex-word-order-2",
+      "type": "fill-blank",
+      "prompt": "___ ça coûte, ce billet ? (How much does this ticket cost?)",
+      "answer": "Combien",
+      "relatedItemId": "fr-vocab-travel-022"
+    },
+    {
+      "id": "fr-ex-word-order-3",
+      "type": "reorder",
+      "prompt": "Put these words in order: est / l'aéroport / où / ?",
+      "answer": ["Où", "est", "l'aéroport", "?"],
+      "relatedItemId": "fr-vocab-travel-006"
+    }
+  ]
+}

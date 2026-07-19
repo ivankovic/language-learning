@@ -34,9 +34,10 @@ Goal: a fully working app skeleton, every mode functional end-to-end, proven wit
 
 ## Phase 2 — Content scale-up (in progress)
 
-Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md`). Growing Italian first before replicating for French/German (explicit choice — see `~/.claude/plans/graceful-giggling-gizmo.md`).
+Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md`).
 
 **Italian progress: 810/~2000 words (~41%), 25/~35 lessons (~71%), 27 decks, 10 units.**
+**French progress: 160/~2000 words (~8%), 8/~35 lessons (~23%), 5 decks, 3 units.**
 
 - [x] Batch 1: expanded 5 original decks (greetings/food/travel/routine/numbers-time) and added 6 new decks (home, body & clothing, weather/colors/nature, work & education, common verbs, common adjectives) — 110 → 330 words
 - [x] Batch 1: added 7 new grammar lessons (regular -ere/-ire verbs, modal verbs, reflexive verbs, adjective agreement, prepositions, passato prossimo with avere, passato prossimo with essere) across 3 new units — 8 → 15 lessons, 3 → 6 units
@@ -47,6 +48,10 @@ Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md
 - [x] Batch 4: vocab-only — added 4 new decks (animals, nature & outdoors, society & government, common expressions/idioms) — 570 → 690 words, 23 decks. No new lessons this batch; core beginner-to-intermediate grammar is now largely covered by the existing 25.
 - [x] Batch 5: vocab-only — added 4 new decks (countries & nationalities, materials & shapes, business & finance, conjunctions & connectors) — 690 → 810 words, 27 decks.
 - [ ] Continue growing Italian toward ~2000 words / ~35 lessons (many more batches needed — this is intentionally incremental, not a single pass). Remaining vocab breadth ideas: more specific food/cooking terms, more professions, formal register phrases, regional expressions, hobbies extended (art, gardening, collecting). Remaining grammar ideas (fewer needed): subjunctive mood intro, passive voice, gerund/progressive (stare + gerundio)
+- [x] Added French: infrastructure (registered in `languages.ts` and `loader.ts`'s registry, appears automatically in onboarding since target-language options are derived from `hasContentBundle()`) + an initial content batch mirroring Italian's original scope — 160 words across the same 5 core decks (greetings, food, travel, daily routine, numbers & time), 8 grammar lessons across 3 units (greetings, articles, être, avoir, numbers, regular -er verbs, word order, food & travel). Verified end-to-end in a real browser: onboarding, lessons, flashcard review with FSRS, all 55 tests pass.
+- [x] Factored out `src/content/buildLanguageContent.ts`, shared by every per-language `index.ts` — avoids the course→unit→lesson flattening logic drifting out of sync now that there are 2+ languages (German is next).
+- [ ] Continue growing French toward parity with Italian in future batches (same pattern: vocab decks first, grammar lessons interleaved)
+- [ ] Add German (not started — same pattern as French)
 - [ ] Add French and German content bundles (currently only Italian has seed content) — deferred until Italian is more complete
 - [ ] Run the actual content generation → staging → review → promotion pipeline (currently just scaffolded/empty) — Phase 1-2 content has been hand-authored directly instead
 - [ ] Flesh out the dev content-review UI beyond the placeholder (approve/edit/reject-and-regenerate staged content)

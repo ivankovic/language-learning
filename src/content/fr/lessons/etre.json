@@ -1,0 +1,46 @@
+{
+  "id": "fr-lesson-etre",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-2",
+  "order": 1,
+  "title": "Être (to be) — Present Tense",
+  "prerequisiteIds": ["fr-lesson-articles"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Être** (to be) is irregular and one of the most-used verbs in French:\n\nje **suis** · tu **es** · il/elle **est** · nous **sommes** · vous **êtes** · ils/elles **sont**" },
+    { "type": "exercise", "exerciseId": "fr-ex-etre-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-etre-2" },
+    { "type": "explanation", "markdown": "**Enchanté** literally means \"delighted\" and is what you say when meeting someone for the first time." },
+    { "type": "exercise", "exerciseId": "fr-ex-etre-3" },
+    { "type": "exercise", "exerciseId": "fr-ex-etre-4" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-etre-1",
+      "type": "fill-blank",
+      "prompt": "Je ___ française. (I am French — feminine speaker)",
+      "answer": "suis"
+    },
+    {
+      "id": "fr-ex-etre-2",
+      "type": "multiple-choice",
+      "prompt": "Tu ___ fatigué. (You are tired.)",
+      "answer": "es",
+      "distractors": ["suis", "est", "sommes"]
+    },
+    {
+      "id": "fr-ex-etre-3",
+      "type": "multiple-choice",
+      "prompt": "How do you respond when meeting someone for the first time?",
+      "answer": "Enchanté",
+      "distractors": ["Je vous en prie", "Pardon", "Bien"],
+      "relatedItemId": "fr-vocab-greet-014"
+    },
+    {
+      "id": "fr-ex-etre-4",
+      "type": "translate",
+      "prompt": "Translate: \"She is a teacher.\"",
+      "answer": ["Elle est professeure.", "Elle est enseignante."]
+    }
+  ]
+}
