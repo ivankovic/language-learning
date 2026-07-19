@@ -176,6 +176,12 @@ describe("content loader", () => {
       "hr-lesson-verbs",
       "hr-lesson-word-order",
       "hr-lesson-food-travel",
+      "hr-lesson-accusative-case",
+      "hr-lesson-genitive-case",
+      "hr-lesson-locative-case",
+      "hr-lesson-past-tense",
+      "hr-lesson-numbers-with-nouns",
+      "hr-lesson-reflexive-verbs",
     ]);
   });
 });

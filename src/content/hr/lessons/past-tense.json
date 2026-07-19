@@ -1,0 +1,40 @@
+{
+  "id": "hr-lesson-past-tense",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-5",
+  "order": 1,
+  "title": "Past Tense (Perfekt)",
+  "prerequisiteIds": ["hr-lesson-locative-case"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Croatian's everyday past tense combines a short form of **biti** (sam, si, je, smo, ste, su) with an **l-participle** that agrees with the subject's gender: **radio** (masc.), **radila** (fem.), **radilo** (neut.), **radili** (masc./mixed plural), **radile** (fem. plural). *Radio sam* (I worked — said by a man) vs. *Radila sam* (I worked — said by a woman)." },
+    { "type": "exercise", "exerciseId": "hr-ex-past-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-past-2" },
+    { "type": "explanation", "markdown": "The l-participle comes from the infinitive stem: *raditi* → **radio/radila**, *učiti* → **učio/učila**. The **biti** clitic (sam/si/je...) follows Croatian's second-position rule, just like in statements with *biti* alone." },
+    { "type": "exercise", "exerciseId": "hr-ex-past-3" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-past-1",
+      "type": "fill-blank",
+      "prompt": "A woman says: Cijeli dan ___ radila. (biti — She worked all day.)",
+      "answer": "je",
+      "relatedItemId": "hr-vocab-routine-011"
+    },
+    {
+      "id": "hr-ex-past-2",
+      "type": "multiple-choice",
+      "prompt": "A man says \"I worked\". Which form is correct?",
+      "answer": "Radio sam.",
+      "distractors": ["Radila sam.", "Radilo sam.", "Radili sam."],
+      "relatedItemId": "hr-vocab-routine-011"
+    },
+    {
+      "id": "hr-ex-past-3",
+      "type": "translate",
+      "prompt": "Translate: \"We studied.\" (učiti — plural, mixed/masculine group)",
+      "answer": ["Učili smo."],
+      "relatedItemId": "hr-vocab-routine-012"
+    }
+  ]
+}

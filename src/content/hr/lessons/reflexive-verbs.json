@@ -1,0 +1,39 @@
+{
+  "id": "hr-lesson-reflexive-verbs",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-5",
+  "order": 3,
+  "title": "Reflexive Verbs",
+  "prerequisiteIds": ["hr-lesson-numbers-with-nouns"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Some Croatian verbs always appear with the small reflexive particle **se**, which — unlike Italian or French reflexive pronouns — never changes for person or number: **zvati se** (to be called), **igrati se** (to play), **radovati se** (to look forward to / be happy about)." },
+    { "type": "exercise", "exerciseId": "hr-ex-reflexive-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-reflexive-2" },
+    { "type": "explanation", "markdown": "Like other clitics, **se** follows the second-position rule: it sits right after the first stressed word or the verb, not necessarily at the end. **Djeca se igraju** (The children are playing) — *se* comes right after the subject *djeca*." },
+    { "type": "exercise", "exerciseId": "hr-ex-reflexive-3" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-reflexive-1",
+      "type": "fill-blank",
+      "prompt": "Kako ___ zoveš? (se — What's your name? — informal)",
+      "answer": "se",
+      "relatedItemId": "hr-vocab-greet-019"
+    },
+    {
+      "id": "hr-ex-reflexive-2",
+      "type": "multiple-choice",
+      "prompt": "Which particle never changes form, regardless of the subject?",
+      "answer": "se",
+      "distractors": ["sam", "si", "smo"]
+    },
+    {
+      "id": "hr-ex-reflexive-3",
+      "type": "translate",
+      "prompt": "Translate: \"The children are playing.\" (igrati se — se follows the subject)",
+      "answer": ["Djeca se igraju."],
+      "relatedItemId": "hr-vocab-routine-024"
+    }
+  ]
+}

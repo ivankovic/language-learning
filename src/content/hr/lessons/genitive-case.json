@@ -1,0 +1,40 @@
+{
+  "id": "hr-lesson-genitive-case",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-4",
+  "order": 2,
+  "title": "The Genitive Case",
+  "prerequisiteIds": ["hr-lesson-accusative-case"],
+  "blocks": [
+    { "type": "explanation", "markdown": "The **genitive** case marks possession — Croatian has no word for \"of\" or an apostrophe-s; the noun itself changes instead. Feminine **-a** becomes **-e**: *kuća* → **vrata kuće** (the door of the house). Masculine nouns add **-a**: *grad* → **centar grada** (the center of the city)." },
+    { "type": "exercise", "exerciseId": "hr-ex-genitive-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-genitive-2" },
+    { "type": "explanation", "markdown": "The genitive is also used after most negated verbs, instead of the accusative: **Nemam kruha** (I don't have [any] bread) — *kruh* shifts from its plain form to the genitive **kruha** once the sentence is negated." },
+    { "type": "exercise", "exerciseId": "hr-ex-genitive-3" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-genitive-1",
+      "type": "fill-blank",
+      "prompt": "vrata ___. (kuća → genitive: kuće — the door of the house)",
+      "answer": "kuće",
+      "relatedItemId": "hr-vocab-routine-028"
+    },
+    {
+      "id": "hr-ex-genitive-2",
+      "type": "multiple-choice",
+      "prompt": "centar ___. (grad → genitive — the center of the city)",
+      "answer": "grada",
+      "distractors": ["grad", "gradu", "gradom"],
+      "relatedItemId": "hr-vocab-travel-010"
+    },
+    {
+      "id": "hr-ex-genitive-3",
+      "type": "translate",
+      "prompt": "Translate: \"I don't have bread.\" (negation triggers the genitive: kruha)",
+      "answer": ["Nemam kruha."],
+      "relatedItemId": "hr-vocab-food-004"
+    }
+  ]
+}

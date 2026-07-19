@@ -1,0 +1,40 @@
+{
+  "id": "hr-lesson-numbers-with-nouns",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-5",
+  "order": 2,
+  "title": "Numbers with Nouns",
+  "prerequisiteIds": ["hr-lesson-past-tense"],
+  "blocks": [
+    { "type": "explanation", "markdown": "The noun after a number changes form depending on the number itself — a rule with no equivalent in Italian, French, or German. **Jedan** (1) takes the plain form: *jedna knjiga* (one book). **Dva/tri/četiri** (2-4) take a special \"paucal\" form, usually identical to the genitive singular: *dvije knjige* (two books)." },
+    { "type": "exercise", "exerciseId": "hr-ex-numnoun-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-numnoun-2" },
+    { "type": "explanation", "markdown": "**Pet** and higher (5+) take the **genitive plural**: *pet knjiga* (five books) — note that for many feminine nouns like *knjiga*, the genitive plural looks identical to the singular form you already know, so *pet knjiga* and *jedna knjiga* share a spelling despite meaning \"five\" vs. \"one\"." },
+    { "type": "exercise", "exerciseId": "hr-ex-numnoun-3" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-numnoun-1",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"two cities\"? (grad → paucal: grada)",
+      "answer": "dva grada",
+      "distractors": ["dva grad", "dva gradova", "dva gradu"],
+      "relatedItemId": "hr-vocab-travel-010"
+    },
+    {
+      "id": "hr-ex-numnoun-2",
+      "type": "fill-blank",
+      "prompt": "pet ___. (grad → genitive plural: gradova — five cities)",
+      "answer": "gradova",
+      "relatedItemId": "hr-vocab-travel-010"
+    },
+    {
+      "id": "hr-ex-numnoun-3",
+      "type": "translate",
+      "prompt": "Translate: \"five books\" (knjiga → genitive plural, same spelling as the singular)",
+      "answer": ["pet knjiga"],
+      "relatedItemId": "hr-vocab-work-026"
+    }
+  ]
+}

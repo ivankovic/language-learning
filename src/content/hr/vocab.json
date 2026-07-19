@@ -2414,5 +2414,1816 @@
       "time"
     ],
     "frequencyRank": 160
+  },
+  {
+    "id": "hr-vocab-home-001",
+    "lang": "hr",
+    "term": "kuhinja",
+    "translations": {
+      "en": [
+        "kitchen"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 161
+  },
+  {
+    "id": "hr-vocab-home-002",
+    "lang": "hr",
+    "term": "kupaonica",
+    "translations": {
+      "en": [
+        "bathroom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 162
+  },
+  {
+    "id": "hr-vocab-home-003",
+    "lang": "hr",
+    "term": "dnevni boravak",
+    "translations": {
+      "en": [
+        "living room"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 163
+  },
+  {
+    "id": "hr-vocab-home-004",
+    "lang": "hr",
+    "term": "spavaća soba",
+    "translations": {
+      "en": [
+        "bedroom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 164
+  },
+  {
+    "id": "hr-vocab-home-005",
+    "lang": "hr",
+    "term": "vrata",
+    "translations": {
+      "en": [
+        "door"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 165
+  },
+  {
+    "id": "hr-vocab-home-006",
+    "lang": "hr",
+    "term": "prozor",
+    "translations": {
+      "en": [
+        "window"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 166
+  },
+  {
+    "id": "hr-vocab-home-007",
+    "lang": "hr",
+    "term": "zid",
+    "translations": {
+      "en": [
+        "wall"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 167
+  },
+  {
+    "id": "hr-vocab-home-008",
+    "lang": "hr",
+    "term": "pod",
+    "translations": {
+      "en": [
+        "floor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 168
+  },
+  {
+    "id": "hr-vocab-home-009",
+    "lang": "hr",
+    "term": "namještaj",
+    "translations": {
+      "en": [
+        "furniture"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 169
+  },
+  {
+    "id": "hr-vocab-home-010",
+    "lang": "hr",
+    "term": "stol",
+    "translations": {
+      "en": [
+        "table"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 170
+  },
+  {
+    "id": "hr-vocab-home-011",
+    "lang": "hr",
+    "term": "stolica",
+    "translations": {
+      "en": [
+        "chair"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 171
+  },
+  {
+    "id": "hr-vocab-home-012",
+    "lang": "hr",
+    "term": "krevet",
+    "translations": {
+      "en": [
+        "bed"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 172
+  },
+  {
+    "id": "hr-vocab-home-013",
+    "lang": "hr",
+    "term": "kauč",
+    "translations": {
+      "en": [
+        "sofa",
+        "couch"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 173
+  },
+  {
+    "id": "hr-vocab-home-014",
+    "lang": "hr",
+    "term": "ormar",
+    "translations": {
+      "en": [
+        "closet",
+        "wardrobe"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 174
+  },
+  {
+    "id": "hr-vocab-home-015",
+    "lang": "hr",
+    "term": "lampa",
+    "translations": {
+      "en": [
+        "lamp"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 175
+  },
+  {
+    "id": "hr-vocab-home-016",
+    "lang": "hr",
+    "term": "tepih",
+    "translations": {
+      "en": [
+        "carpet",
+        "rug"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 176
+  },
+  {
+    "id": "hr-vocab-home-017",
+    "lang": "hr",
+    "term": "ogledalo",
+    "translations": {
+      "en": [
+        "mirror"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 177
+  },
+  {
+    "id": "hr-vocab-home-018",
+    "lang": "hr",
+    "term": "tuš",
+    "translations": {
+      "en": [
+        "shower"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 178
+  },
+  {
+    "id": "hr-vocab-home-019",
+    "lang": "hr",
+    "term": "kada",
+    "translations": {
+      "en": [
+        "bathtub"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 179
+  },
+  {
+    "id": "hr-vocab-home-020",
+    "lang": "hr",
+    "term": "štednjak",
+    "translations": {
+      "en": [
+        "stove"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 180
+  },
+  {
+    "id": "hr-vocab-home-021",
+    "lang": "hr",
+    "term": "hladnjak",
+    "translations": {
+      "en": [
+        "refrigerator"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 181
+  },
+  {
+    "id": "hr-vocab-home-022",
+    "lang": "hr",
+    "term": "perilica rublja",
+    "translations": {
+      "en": [
+        "washing machine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 182
+  },
+  {
+    "id": "hr-vocab-home-023",
+    "lang": "hr",
+    "term": "balkon",
+    "translations": {
+      "en": [
+        "balcony"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 183
+  },
+  {
+    "id": "hr-vocab-home-024",
+    "lang": "hr",
+    "term": "vrt",
+    "translations": {
+      "en": [
+        "garden"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 184
+  },
+  {
+    "id": "hr-vocab-home-025",
+    "lang": "hr",
+    "term": "podrum",
+    "translations": {
+      "en": [
+        "basement",
+        "cellar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 185
+  },
+  {
+    "id": "hr-vocab-home-026",
+    "lang": "hr",
+    "term": "krov",
+    "translations": {
+      "en": [
+        "roof"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 186
+  },
+  {
+    "id": "hr-vocab-home-027",
+    "lang": "hr",
+    "term": "najamnina",
+    "translations": {
+      "en": [
+        "rent"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 187
+  },
+  {
+    "id": "hr-vocab-home-028",
+    "lang": "hr",
+    "term": "susjed",
+    "translations": {
+      "en": [
+        "neighbor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 188
+  },
+  {
+    "id": "hr-vocab-home-029",
+    "lang": "hr",
+    "term": "vlasnik",
+    "translations": {
+      "en": [
+        "owner",
+        "landlord"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 189
+  },
+  {
+    "id": "hr-vocab-home-030",
+    "lang": "hr",
+    "term": "stubište",
+    "translations": {
+      "en": [
+        "staircase"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "home"
+    ],
+    "frequencyRank": 190
+  },
+  {
+    "id": "hr-vocab-body-001",
+    "lang": "hr",
+    "term": "glava",
+    "translations": {
+      "en": [
+        "head"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 191
+  },
+  {
+    "id": "hr-vocab-body-002",
+    "lang": "hr",
+    "term": "kosa",
+    "translations": {
+      "en": [
+        "hair"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 192
+  },
+  {
+    "id": "hr-vocab-body-003",
+    "lang": "hr",
+    "term": "oko",
+    "translations": {
+      "en": [
+        "eye"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 193
+  },
+  {
+    "id": "hr-vocab-body-004",
+    "lang": "hr",
+    "term": "uho",
+    "translations": {
+      "en": [
+        "ear"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 194
+  },
+  {
+    "id": "hr-vocab-body-005",
+    "lang": "hr",
+    "term": "nos",
+    "translations": {
+      "en": [
+        "nose"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 195
+  },
+  {
+    "id": "hr-vocab-body-006",
+    "lang": "hr",
+    "term": "usta",
+    "translations": {
+      "en": [
+        "mouth"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 196
+  },
+  {
+    "id": "hr-vocab-body-007",
+    "lang": "hr",
+    "term": "zub",
+    "translations": {
+      "en": [
+        "tooth"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 197
+  },
+  {
+    "id": "hr-vocab-body-008",
+    "lang": "hr",
+    "term": "vrat",
+    "translations": {
+      "en": [
+        "neck"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 198
+  },
+  {
+    "id": "hr-vocab-body-009",
+    "lang": "hr",
+    "term": "rame",
+    "translations": {
+      "en": [
+        "shoulder"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 199
+  },
+  {
+    "id": "hr-vocab-body-010",
+    "lang": "hr",
+    "term": "ruka",
+    "translations": {
+      "en": [
+        "arm"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 200
+  },
+  {
+    "id": "hr-vocab-body-011",
+    "lang": "hr",
+    "term": "šaka",
+    "translations": {
+      "en": [
+        "hand"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 201
+  },
+  {
+    "id": "hr-vocab-body-012",
+    "lang": "hr",
+    "term": "prst",
+    "translations": {
+      "en": [
+        "finger"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 202
+  },
+  {
+    "id": "hr-vocab-body-013",
+    "lang": "hr",
+    "term": "noga",
+    "translations": {
+      "en": [
+        "leg"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 203
+  },
+  {
+    "id": "hr-vocab-body-014",
+    "lang": "hr",
+    "term": "koljeno",
+    "translations": {
+      "en": [
+        "knee"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 204
+  },
+  {
+    "id": "hr-vocab-body-015",
+    "lang": "hr",
+    "term": "stopalo",
+    "translations": {
+      "en": [
+        "foot"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 205
+  },
+  {
+    "id": "hr-vocab-body-016",
+    "lang": "hr",
+    "term": "leđa",
+    "translations": {
+      "en": [
+        "back"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 206
+  },
+  {
+    "id": "hr-vocab-body-017",
+    "lang": "hr",
+    "term": "trbuh",
+    "translations": {
+      "en": [
+        "stomach",
+        "belly"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 207
+  },
+  {
+    "id": "hr-vocab-body-018",
+    "lang": "hr",
+    "term": "srce",
+    "translations": {
+      "en": [
+        "heart"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 208
+  },
+  {
+    "id": "hr-vocab-body-019",
+    "lang": "hr",
+    "term": "koža",
+    "translations": {
+      "en": [
+        "skin"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 209
+  },
+  {
+    "id": "hr-vocab-body-020",
+    "lang": "hr",
+    "term": "bolestan",
+    "translations": {
+      "en": [
+        "sick",
+        "ill"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 210
+  },
+  {
+    "id": "hr-vocab-body-021",
+    "lang": "hr",
+    "term": "zdrav",
+    "translations": {
+      "en": [
+        "healthy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 211
+  },
+  {
+    "id": "hr-vocab-body-022",
+    "lang": "hr",
+    "term": "bol",
+    "translations": {
+      "en": [
+        "pain"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 212
+  },
+  {
+    "id": "hr-vocab-body-023",
+    "lang": "hr",
+    "term": "glavobolja",
+    "translations": {
+      "en": [
+        "headache"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 213
+  },
+  {
+    "id": "hr-vocab-body-024",
+    "lang": "hr",
+    "term": "vrućica",
+    "translations": {
+      "en": [
+        "fever"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 214
+  },
+  {
+    "id": "hr-vocab-body-025",
+    "lang": "hr",
+    "term": "liječnik",
+    "translations": {
+      "en": [
+        "doctor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 215
+  },
+  {
+    "id": "hr-vocab-body-026",
+    "lang": "hr",
+    "term": "liječnica",
+    "translations": {
+      "en": [
+        "doctor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 216
+  },
+  {
+    "id": "hr-vocab-body-027",
+    "lang": "hr",
+    "term": "bolnica",
+    "translations": {
+      "en": [
+        "hospital"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 217
+  },
+  {
+    "id": "hr-vocab-body-028",
+    "lang": "hr",
+    "term": "ljekarna",
+    "translations": {
+      "en": [
+        "pharmacy"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 218
+  },
+  {
+    "id": "hr-vocab-body-029",
+    "lang": "hr",
+    "term": "lijek",
+    "translations": {
+      "en": [
+        "medicine"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 219
+  },
+  {
+    "id": "hr-vocab-body-030",
+    "lang": "hr",
+    "term": "prehlada",
+    "translations": {
+      "en": [
+        "cold (illness)"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "frequencyRank": 220
+  },
+  {
+    "id": "hr-vocab-weather-001",
+    "lang": "hr",
+    "term": "vrijeme",
+    "translations": {
+      "en": [
+        "weather"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 221
+  },
+  {
+    "id": "hr-vocab-weather-002",
+    "lang": "hr",
+    "term": "sunce",
+    "translations": {
+      "en": [
+        "sun"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 222
+  },
+  {
+    "id": "hr-vocab-weather-003",
+    "lang": "hr",
+    "term": "kiša",
+    "translations": {
+      "en": [
+        "rain"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 223
+  },
+  {
+    "id": "hr-vocab-weather-004",
+    "lang": "hr",
+    "term": "snijeg",
+    "translations": {
+      "en": [
+        "snow"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 224
+  },
+  {
+    "id": "hr-vocab-weather-005",
+    "lang": "hr",
+    "term": "vjetar",
+    "translations": {
+      "en": [
+        "wind"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 225
+  },
+  {
+    "id": "hr-vocab-weather-006",
+    "lang": "hr",
+    "term": "oblak",
+    "translations": {
+      "en": [
+        "cloud"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 226
+  },
+  {
+    "id": "hr-vocab-weather-007",
+    "lang": "hr",
+    "term": "nebo",
+    "translations": {
+      "en": [
+        "sky"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 227
+  },
+  {
+    "id": "hr-vocab-weather-008",
+    "lang": "hr",
+    "term": "munja",
+    "translations": {
+      "en": [
+        "lightning"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 228
+  },
+  {
+    "id": "hr-vocab-weather-009",
+    "lang": "hr",
+    "term": "grom",
+    "translations": {
+      "en": [
+        "thunder"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 229
+  },
+  {
+    "id": "hr-vocab-weather-010",
+    "lang": "hr",
+    "term": "magla",
+    "translations": {
+      "en": [
+        "fog"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 230
+  },
+  {
+    "id": "hr-vocab-weather-011",
+    "lang": "hr",
+    "term": "toplo",
+    "translations": {
+      "en": [
+        "warm"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 231
+  },
+  {
+    "id": "hr-vocab-weather-012",
+    "lang": "hr",
+    "term": "sunčano",
+    "translations": {
+      "en": [
+        "sunny"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 232
+  },
+  {
+    "id": "hr-vocab-weather-013",
+    "lang": "hr",
+    "term": "kišovito",
+    "translations": {
+      "en": [
+        "rainy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 233
+  },
+  {
+    "id": "hr-vocab-weather-014",
+    "lang": "hr",
+    "term": "šuma",
+    "translations": {
+      "en": [
+        "forest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 234
+  },
+  {
+    "id": "hr-vocab-weather-015",
+    "lang": "hr",
+    "term": "drvo",
+    "translations": {
+      "en": [
+        "tree"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 235
+  },
+  {
+    "id": "hr-vocab-weather-016",
+    "lang": "hr",
+    "term": "cvijet",
+    "translations": {
+      "en": [
+        "flower"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 236
+  },
+  {
+    "id": "hr-vocab-weather-017",
+    "lang": "hr",
+    "term": "trava",
+    "translations": {
+      "en": [
+        "grass"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 237
+  },
+  {
+    "id": "hr-vocab-weather-018",
+    "lang": "hr",
+    "term": "jezero",
+    "translations": {
+      "en": [
+        "lake"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 238
+  },
+  {
+    "id": "hr-vocab-weather-019",
+    "lang": "hr",
+    "term": "pustinja",
+    "translations": {
+      "en": [
+        "desert"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 239
+  },
+  {
+    "id": "hr-vocab-weather-020",
+    "lang": "hr",
+    "term": "životinja",
+    "translations": {
+      "en": [
+        "animal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 240
+  },
+  {
+    "id": "hr-vocab-weather-021",
+    "lang": "hr",
+    "term": "pas",
+    "translations": {
+      "en": [
+        "dog"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 241
+  },
+  {
+    "id": "hr-vocab-weather-022",
+    "lang": "hr",
+    "term": "mačka",
+    "translations": {
+      "en": [
+        "cat"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 242
+  },
+  {
+    "id": "hr-vocab-weather-023",
+    "lang": "hr",
+    "term": "ptica",
+    "translations": {
+      "en": [
+        "bird"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 243
+  },
+  {
+    "id": "hr-vocab-weather-024",
+    "lang": "hr",
+    "term": "priroda",
+    "translations": {
+      "en": [
+        "nature"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 244
+  },
+  {
+    "id": "hr-vocab-weather-025",
+    "lang": "hr",
+    "term": "krajolik",
+    "translations": {
+      "en": [
+        "landscape"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 245
+  },
+  {
+    "id": "hr-vocab-weather-026",
+    "lang": "hr",
+    "term": "godišnje doba",
+    "translations": {
+      "en": [
+        "season"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 246
+  },
+  {
+    "id": "hr-vocab-weather-027",
+    "lang": "hr",
+    "term": "proljeće",
+    "translations": {
+      "en": [
+        "spring"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 247
+  },
+  {
+    "id": "hr-vocab-weather-028",
+    "lang": "hr",
+    "term": "ljeto",
+    "translations": {
+      "en": [
+        "summer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 248
+  },
+  {
+    "id": "hr-vocab-weather-029",
+    "lang": "hr",
+    "term": "jesen",
+    "translations": {
+      "en": [
+        "autumn",
+        "fall"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 249
+  },
+  {
+    "id": "hr-vocab-weather-030",
+    "lang": "hr",
+    "term": "zima",
+    "translations": {
+      "en": [
+        "winter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "weather"
+    ],
+    "frequencyRank": 250
+  },
+  {
+    "id": "hr-vocab-work-001",
+    "lang": "hr",
+    "term": "zanimanje",
+    "translations": {
+      "en": [
+        "profession",
+        "occupation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 251
+  },
+  {
+    "id": "hr-vocab-work-002",
+    "lang": "hr",
+    "term": "kolega",
+    "translations": {
+      "en": [
+        "colleague"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 252
+  },
+  {
+    "id": "hr-vocab-work-003",
+    "lang": "hr",
+    "term": "kolegica",
+    "translations": {
+      "en": [
+        "colleague"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 253
+  },
+  {
+    "id": "hr-vocab-work-004",
+    "lang": "hr",
+    "term": "šef",
+    "translations": {
+      "en": [
+        "boss"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 254
+  },
+  {
+    "id": "hr-vocab-work-005",
+    "lang": "hr",
+    "term": "šefica",
+    "translations": {
+      "en": [
+        "boss"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 255
+  },
+  {
+    "id": "hr-vocab-work-006",
+    "lang": "hr",
+    "term": "tvrtka",
+    "translations": {
+      "en": [
+        "company"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 256
+  },
+  {
+    "id": "hr-vocab-work-007",
+    "lang": "hr",
+    "term": "ured",
+    "translations": {
+      "en": [
+        "office"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 257
+  },
+  {
+    "id": "hr-vocab-work-008",
+    "lang": "hr",
+    "term": "sastanak",
+    "translations": {
+      "en": [
+        "meeting"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 258
+  },
+  {
+    "id": "hr-vocab-work-009",
+    "lang": "hr",
+    "term": "projekt",
+    "translations": {
+      "en": [
+        "project"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 259
+  },
+  {
+    "id": "hr-vocab-work-010",
+    "lang": "hr",
+    "term": "zadatak",
+    "translations": {
+      "en": [
+        "task"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 260
+  },
+  {
+    "id": "hr-vocab-work-011",
+    "lang": "hr",
+    "term": "plaća",
+    "translations": {
+      "en": [
+        "salary"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 261
+  },
+  {
+    "id": "hr-vocab-work-012",
+    "lang": "hr",
+    "term": "ugovor",
+    "translations": {
+      "en": [
+        "contract"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 262
+  },
+  {
+    "id": "hr-vocab-work-013",
+    "lang": "hr",
+    "term": "prijava",
+    "translations": {
+      "en": [
+        "application"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 263
+  },
+  {
+    "id": "hr-vocab-work-014",
+    "lang": "hr",
+    "term": "životopis",
+    "translations": {
+      "en": [
+        "resume",
+        "CV"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 264
+  },
+  {
+    "id": "hr-vocab-work-015",
+    "lang": "hr",
+    "term": "razgovor za posao",
+    "translations": {
+      "en": [
+        "job interview"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 265
+  },
+  {
+    "id": "hr-vocab-work-016",
+    "lang": "hr",
+    "term": "sveučilište",
+    "translations": {
+      "en": [
+        "university"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 266
+  },
+  {
+    "id": "hr-vocab-work-017",
+    "lang": "hr",
+    "term": "student",
+    "translations": {
+      "en": [
+        "student"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 267
+  },
+  {
+    "id": "hr-vocab-work-018",
+    "lang": "hr",
+    "term": "studentica",
+    "translations": {
+      "en": [
+        "student"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 268
+  },
+  {
+    "id": "hr-vocab-work-019",
+    "lang": "hr",
+    "term": "nastavnik",
+    "translations": {
+      "en": [
+        "teacher"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 269
+  },
+  {
+    "id": "hr-vocab-work-020",
+    "lang": "hr",
+    "term": "nastavnica",
+    "translations": {
+      "en": [
+        "teacher"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 270
+  },
+  {
+    "id": "hr-vocab-work-021",
+    "lang": "hr",
+    "term": "razred",
+    "translations": {
+      "en": [
+        "class"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 271
+  },
+  {
+    "id": "hr-vocab-work-022",
+    "lang": "hr",
+    "term": "ispit",
+    "translations": {
+      "en": [
+        "exam"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 272
+  },
+  {
+    "id": "hr-vocab-work-023",
+    "lang": "hr",
+    "term": "ocjena",
+    "translations": {
+      "en": [
+        "grade"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 273
+  },
+  {
+    "id": "hr-vocab-work-024",
+    "lang": "hr",
+    "term": "zadaća",
+    "translations": {
+      "en": [
+        "homework"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 274
+  },
+  {
+    "id": "hr-vocab-work-025",
+    "lang": "hr",
+    "term": "knjižnica",
+    "translations": {
+      "en": [
+        "library"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 275
+  },
+  {
+    "id": "hr-vocab-work-026",
+    "lang": "hr",
+    "term": "knjiga",
+    "translations": {
+      "en": [
+        "book"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 276
+  },
+  {
+    "id": "hr-vocab-work-027",
+    "lang": "hr",
+    "term": "olovka",
+    "translations": {
+      "en": [
+        "pen"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 277
+  },
+  {
+    "id": "hr-vocab-work-028",
+    "lang": "hr",
+    "term": "bilježnica",
+    "translations": {
+      "en": [
+        "notebook"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 278
+  },
+  {
+    "id": "hr-vocab-work-029",
+    "lang": "hr",
+    "term": "tečaj",
+    "translations": {
+      "en": [
+        "course"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 279
+  },
+  {
+    "id": "hr-vocab-work-030",
+    "lang": "hr",
+    "term": "diploma",
+    "translations": {
+      "en": [
+        "diploma",
+        "certificate"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "work"
+    ],
+    "frequencyRank": 280
   }
 ]

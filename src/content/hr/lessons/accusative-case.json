@@ -1,0 +1,40 @@
+{
+  "id": "hr-lesson-accusative-case",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-4",
+  "order": 1,
+  "title": "The Accusative Case",
+  "prerequisiteIds": ["hr-lesson-food-travel"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Croatian nouns change their ending depending on their role in the sentence — a system of **cases**, unlike Italian, French, or German. The **accusative** marks the direct object. Feminine nouns ending in **-a** change it to **-u**: *voda* → **Pijem vodu** (I'm drinking water). Masculine and neuter nouns usually stay the same in the accusative when they refer to things (not people)." },
+    { "type": "exercise", "exerciseId": "hr-ex-accusative-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-accusative-2" },
+    { "type": "explanation", "markdown": "For masculine nouns referring to a **person or animal**, the accusative adds **-a**: *prijatelj* → **Vidim prijatelj**a (I see a friend). This person/thing distinction (\"animacy\") doesn't exist in Italian, French, or German." },
+    { "type": "exercise", "exerciseId": "hr-ex-accusative-3" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-accusative-1",
+      "type": "fill-blank",
+      "prompt": "Pijem ___. (voda → accusative: vodu — I'm drinking water.)",
+      "answer": "vodu",
+      "relatedItemId": "hr-vocab-food-001"
+    },
+    {
+      "id": "hr-ex-accusative-2",
+      "type": "multiple-choice",
+      "prompt": "Kupujem ___. (kruh — I'm buying bread. Masculine object noun stays the same in the accusative.)",
+      "answer": "kruh",
+      "distractors": ["kruha", "kruhu", "kruhom"],
+      "relatedItemId": "hr-vocab-food-004"
+    },
+    {
+      "id": "hr-ex-accusative-3",
+      "type": "translate",
+      "prompt": "Translate: \"I see a friend.\" (prijatelj is a person — accusative adds -a)",
+      "answer": ["Vidim prijatelja."],
+      "relatedItemId": "hr-vocab-greet-024"
+    }
+  ]
+}

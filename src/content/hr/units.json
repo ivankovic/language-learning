@@ -30,5 +30,27 @@
       "hr-lesson-word-order",
       "hr-lesson-food-travel"
     ]
+  },
+  {
+    "id": "hr-unit-4",
+    "courseId": "hr-course-a1",
+    "title": "Cases",
+    "order": 4,
+    "lessonIds": [
+      "hr-lesson-accusative-case",
+      "hr-lesson-genitive-case",
+      "hr-lesson-locative-case"
+    ]
+  },
+  {
+    "id": "hr-unit-5",
+    "courseId": "hr-course-a1",
+    "title": "Past Tense & More Grammar",
+    "order": 5,
+    "lessonIds": [
+      "hr-lesson-past-tense",
+      "hr-lesson-numbers-with-nouns",
+      "hr-lesson-reflexive-verbs"
+    ]
   }
 ]

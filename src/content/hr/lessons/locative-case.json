@@ -1,0 +1,40 @@
+{
+  "id": "hr-lesson-locative-case",
+  "lang": "hr",
+  "courseId": "hr-course-a1",
+  "unitId": "hr-unit-4",
+  "order": 3,
+  "title": "The Locative Case",
+  "prerequisiteIds": ["hr-lesson-genitive-case"],
+  "blocks": [
+    { "type": "explanation", "markdown": "The **locative** case is used after **u** (in) and **na** (on/at) to describe a fixed location — never motion. Feminine **-a** becomes **-i**: *kuća* → **u kući** (in the house). This case only ever follows a preposition; it's never used on its own." },
+    { "type": "exercise", "exerciseId": "hr-ex-locative-1" },
+    { "type": "exercise", "exerciseId": "hr-ex-locative-2" },
+    { "type": "explanation", "markdown": "The same preposition **u** can also take the **accusative** instead, but with a completely different meaning: **u grad** (into the city — motion, accusative) vs. **u gradu** (in the city — location, locative). The case ending is what signals whether you're going somewhere or already there." },
+    { "type": "exercise", "exerciseId": "hr-ex-locative-3" }
+  ],
+  "exercises": [
+    {
+      "id": "hr-ex-locative-1",
+      "type": "fill-blank",
+      "prompt": "Živim u ___. (kuća → locative: kući — I live in the house.)",
+      "answer": "kući",
+      "relatedItemId": "hr-vocab-routine-028"
+    },
+    {
+      "id": "hr-ex-locative-2",
+      "type": "multiple-choice",
+      "prompt": "Radim u ___. (grad → locative — I work in the city.)",
+      "answer": "gradu",
+      "distractors": ["grad", "grada", "gradom"],
+      "relatedItemId": "hr-vocab-travel-010"
+    },
+    {
+      "id": "hr-ex-locative-3",
+      "type": "multiple-choice",
+      "prompt": "\"u gradu\" means location (in the city). What does \"u grad\" (accusative) signal instead?",
+      "answer": "motion into the city",
+      "distractors": ["a bigger city", "a past location", "possession of the city"]
+    }
+  ]
+}
