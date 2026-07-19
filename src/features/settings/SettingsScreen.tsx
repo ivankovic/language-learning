@@ -199,6 +199,15 @@ export function SettingsScreen() {
         />
         {importStatus && <p className="mt-2 text-xs text-slate-600 dark:text-slate-400">{importStatus}</p>}
       </section>
+
+      <section className="mt-8">
+        <button
+          onClick={() => navigate("/about")}
+          className="w-full rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900"
+        >
+          About this app
+        </button>
+      </section>
     </Screen>
   );
 }

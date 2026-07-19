@@ -7,6 +7,7 @@ import { JournalList } from "./features/journal/JournalList";
 import { JournalEntryScreen } from "./features/journal/JournalEntryScreen";
 import { ProgressScreen } from "./features/progress/ProgressScreen";
 import { SettingsScreen } from "./features/settings/SettingsScreen";
+import { AboutScreen } from "./features/about/AboutScreen";
 import { PracticeSession } from "./features/practice/PracticeSession";
 import { FlashcardReview } from "./features/review/FlashcardReview";
 
@@ -33,6 +34,7 @@ export function AppRouter() {
         <Route path="/journal/new" element={<JournalEntryScreen />} />
         <Route path="/journal/:entryId" element={<JournalEntryScreen />} />
         <Route path="/settings" element={<SettingsScreen />} />
+        <Route path="/about" element={<AboutScreen />} />
         <Route path="/practice" element={<PracticeSession />} />
         <Route path="/review" element={<FlashcardReview mode="extra" />} />
         {import.meta.env.DEV && (
