@@ -6072,5 +6072,1814 @@
       "sports-hobbies"
     ],
     "frequencyRank": 520
+  },
+  {
+    "id": "de-vocab-emotions-001",
+    "lang": "de",
+    "term": "Gefühl",
+    "translations": {
+      "en": [
+        "feeling",
+        "emotion"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 521
+  },
+  {
+    "id": "de-vocab-emotions-002",
+    "lang": "de",
+    "term": "glücklich",
+    "translations": {
+      "en": [
+        "happy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 522
+  },
+  {
+    "id": "de-vocab-emotions-003",
+    "lang": "de",
+    "term": "traurig",
+    "translations": {
+      "en": [
+        "sad"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 523
+  },
+  {
+    "id": "de-vocab-emotions-004",
+    "lang": "de",
+    "term": "wütend",
+    "translations": {
+      "en": [
+        "angry"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 524
+  },
+  {
+    "id": "de-vocab-emotions-005",
+    "lang": "de",
+    "term": "ängstlich",
+    "translations": {
+      "en": [
+        "afraid",
+        "anxious"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 525
+  },
+  {
+    "id": "de-vocab-emotions-006",
+    "lang": "de",
+    "term": "überrascht",
+    "translations": {
+      "en": [
+        "surprised"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 526
+  },
+  {
+    "id": "de-vocab-emotions-007",
+    "lang": "de",
+    "term": "gelangweilt",
+    "translations": {
+      "en": [
+        "bored"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 527
+  },
+  {
+    "id": "de-vocab-emotions-008",
+    "lang": "de",
+    "term": "aufgeregt",
+    "translations": {
+      "en": [
+        "excited"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 528
+  },
+  {
+    "id": "de-vocab-emotions-009",
+    "lang": "de",
+    "term": "nervös",
+    "translations": {
+      "en": [
+        "nervous"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 529
+  },
+  {
+    "id": "de-vocab-emotions-010",
+    "lang": "de",
+    "term": "stolz",
+    "translations": {
+      "en": [
+        "proud"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 530
+  },
+  {
+    "id": "de-vocab-emotions-011",
+    "lang": "de",
+    "term": "eifersüchtig",
+    "translations": {
+      "en": [
+        "jealous"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 531
+  },
+  {
+    "id": "de-vocab-emotions-012",
+    "lang": "de",
+    "term": "verwirrt",
+    "translations": {
+      "en": [
+        "confused"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 532
+  },
+  {
+    "id": "de-vocab-emotions-013",
+    "lang": "de",
+    "term": "entspannt",
+    "translations": {
+      "en": [
+        "relaxed"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 533
+  },
+  {
+    "id": "de-vocab-emotions-014",
+    "lang": "de",
+    "term": "enttäuscht",
+    "translations": {
+      "en": [
+        "disappointed"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 534
+  },
+  {
+    "id": "de-vocab-emotions-015",
+    "lang": "de",
+    "term": "dankbar",
+    "translations": {
+      "en": [
+        "grateful"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 535
+  },
+  {
+    "id": "de-vocab-emotions-016",
+    "lang": "de",
+    "term": "freundlich",
+    "translations": {
+      "en": [
+        "friendly"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 536
+  },
+  {
+    "id": "de-vocab-emotions-017",
+    "lang": "de",
+    "term": "schüchtern",
+    "translations": {
+      "en": [
+        "shy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 537
+  },
+  {
+    "id": "de-vocab-emotions-018",
+    "lang": "de",
+    "term": "mutig",
+    "translations": {
+      "en": [
+        "brave"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 538
+  },
+  {
+    "id": "de-vocab-emotions-019",
+    "lang": "de",
+    "term": "ehrlich",
+    "translations": {
+      "en": [
+        "honest"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 539
+  },
+  {
+    "id": "de-vocab-emotions-020",
+    "lang": "de",
+    "term": "geduldig",
+    "translations": {
+      "en": [
+        "patient"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 540
+  },
+  {
+    "id": "de-vocab-emotions-021",
+    "lang": "de",
+    "term": "großzügig",
+    "translations": {
+      "en": [
+        "generous"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 541
+  },
+  {
+    "id": "de-vocab-emotions-022",
+    "lang": "de",
+    "term": "egoistisch",
+    "translations": {
+      "en": [
+        "selfish"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 542
+  },
+  {
+    "id": "de-vocab-emotions-023",
+    "lang": "de",
+    "term": "neugierig",
+    "translations": {
+      "en": [
+        "curious"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 543
+  },
+  {
+    "id": "de-vocab-emotions-024",
+    "lang": "de",
+    "term": "faul",
+    "translations": {
+      "en": [
+        "lazy"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 544
+  },
+  {
+    "id": "de-vocab-emotions-025",
+    "lang": "de",
+    "term": "fleißig",
+    "translations": {
+      "en": [
+        "hardworking"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 545
+  },
+  {
+    "id": "de-vocab-emotions-026",
+    "lang": "de",
+    "term": "lächeln",
+    "translations": {
+      "en": [
+        "to smile"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 546
+  },
+  {
+    "id": "de-vocab-emotions-027",
+    "lang": "de",
+    "term": "weinen",
+    "translations": {
+      "en": [
+        "to cry"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 547
+  },
+  {
+    "id": "de-vocab-emotions-028",
+    "lang": "de",
+    "term": "lachen",
+    "translations": {
+      "en": [
+        "to laugh"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 548
+  },
+  {
+    "id": "de-vocab-emotions-029",
+    "lang": "de",
+    "term": "sich fühlen",
+    "translations": {
+      "en": [
+        "to feel"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 549
+  },
+  {
+    "id": "de-vocab-emotions-030",
+    "lang": "de",
+    "term": "sich sorgen",
+    "translations": {
+      "en": [
+        "to worry"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "emotions"
+    ],
+    "frequencyRank": 550
+  },
+  {
+    "id": "de-vocab-city-transport-001",
+    "lang": "de",
+    "term": "Stadtzentrum",
+    "translations": {
+      "en": [
+        "city center"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 551
+  },
+  {
+    "id": "de-vocab-city-transport-002",
+    "lang": "de",
+    "term": "Vorort",
+    "translations": {
+      "en": [
+        "suburb"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 552
+  },
+  {
+    "id": "de-vocab-city-transport-003",
+    "lang": "de",
+    "term": "Nachbarschaft",
+    "translations": {
+      "en": [
+        "neighborhood"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 553
+  },
+  {
+    "id": "de-vocab-city-transport-004",
+    "lang": "de",
+    "term": "Gebäude",
+    "translations": {
+      "en": [
+        "building"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 554
+  },
+  {
+    "id": "de-vocab-city-transport-005",
+    "lang": "de",
+    "term": "Wolkenkratzer",
+    "translations": {
+      "en": [
+        "skyscraper"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 555
+  },
+  {
+    "id": "de-vocab-city-transport-006",
+    "lang": "de",
+    "term": "Park",
+    "translations": {
+      "en": [
+        "park"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 556
+  },
+  {
+    "id": "de-vocab-city-transport-007",
+    "lang": "de",
+    "term": "Platz",
+    "translations": {
+      "en": [
+        "square",
+        "plaza"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 557
+  },
+  {
+    "id": "de-vocab-city-transport-008",
+    "lang": "de",
+    "term": "Bürgersteig",
+    "translations": {
+      "en": [
+        "sidewalk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 558
+  },
+  {
+    "id": "de-vocab-city-transport-009",
+    "lang": "de",
+    "term": "Straßenbahn",
+    "translations": {
+      "en": [
+        "tram"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 559
+  },
+  {
+    "id": "de-vocab-city-transport-010",
+    "lang": "de",
+    "term": "U-Bahn",
+    "translations": {
+      "en": [
+        "subway"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 560
+  },
+  {
+    "id": "de-vocab-city-transport-011",
+    "lang": "de",
+    "term": "U-Bahn-Station",
+    "translations": {
+      "en": [
+        "subway station"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 561
+  },
+  {
+    "id": "de-vocab-city-transport-012",
+    "lang": "de",
+    "term": "Bushaltestelle",
+    "translations": {
+      "en": [
+        "bus stop"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 562
+  },
+  {
+    "id": "de-vocab-city-transport-013",
+    "lang": "de",
+    "term": "Fahrplan",
+    "translations": {
+      "en": [
+        "schedule",
+        "timetable"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 563
+  },
+  {
+    "id": "de-vocab-city-transport-014",
+    "lang": "de",
+    "term": "Fahrgast",
+    "translations": {
+      "en": [
+        "passenger"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 564
+  },
+  {
+    "id": "de-vocab-city-transport-015",
+    "lang": "de",
+    "term": "Fahrer",
+    "translations": {
+      "en": [
+        "driver"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 565
+  },
+  {
+    "id": "de-vocab-city-transport-016",
+    "lang": "de",
+    "term": "Verkehr",
+    "translations": {
+      "en": [
+        "traffic"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 566
+  },
+  {
+    "id": "de-vocab-city-transport-017",
+    "lang": "de",
+    "term": "Stau",
+    "translations": {
+      "en": [
+        "traffic jam"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 567
+  },
+  {
+    "id": "de-vocab-city-transport-018",
+    "lang": "de",
+    "term": "Wegweiser",
+    "translations": {
+      "en": [
+        "signpost"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 568
+  },
+  {
+    "id": "de-vocab-city-transport-019",
+    "lang": "de",
+    "term": "Zebrastreifen",
+    "translations": {
+      "en": [
+        "crosswalk"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 569
+  },
+  {
+    "id": "de-vocab-city-transport-020",
+    "lang": "de",
+    "term": "Rathaus",
+    "translations": {
+      "en": [
+        "city hall"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 570
+  },
+  {
+    "id": "de-vocab-city-transport-021",
+    "lang": "de",
+    "term": "Kirche",
+    "translations": {
+      "en": [
+        "church"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 571
+  },
+  {
+    "id": "de-vocab-city-transport-022",
+    "lang": "de",
+    "term": "Denkmal",
+    "translations": {
+      "en": [
+        "monument"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 572
+  },
+  {
+    "id": "de-vocab-city-transport-023",
+    "lang": "de",
+    "term": "Fußgängerzone",
+    "translations": {
+      "en": [
+        "pedestrian zone"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 573
+  },
+  {
+    "id": "de-vocab-city-transport-024",
+    "lang": "de",
+    "term": "Bürgersteig überqueren",
+    "translations": {
+      "en": [
+        "to cross the sidewalk"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 574
+  },
+  {
+    "id": "de-vocab-city-transport-025",
+    "lang": "de",
+    "term": "einsteigen",
+    "translations": {
+      "en": [
+        "to get on (a vehicle)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 575
+  },
+  {
+    "id": "de-vocab-city-transport-026",
+    "lang": "de",
+    "term": "aussteigen",
+    "translations": {
+      "en": [
+        "to get off (a vehicle)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 576
+  },
+  {
+    "id": "de-vocab-city-transport-027",
+    "lang": "de",
+    "term": "umsteigen",
+    "translations": {
+      "en": [
+        "to transfer",
+        "to change (trains)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 577
+  },
+  {
+    "id": "de-vocab-city-transport-028",
+    "lang": "de",
+    "term": "laufen",
+    "translations": {
+      "en": [
+        "to walk",
+        "to run"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 578
+  },
+  {
+    "id": "de-vocab-city-transport-029",
+    "lang": "de",
+    "term": "überqueren",
+    "translations": {
+      "en": [
+        "to cross"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 579
+  },
+  {
+    "id": "de-vocab-city-transport-030",
+    "lang": "de",
+    "term": "Fahrrad",
+    "translations": {
+      "en": [
+        "bicycle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "city-transport"
+    ],
+    "frequencyRank": 580
+  },
+  {
+    "id": "de-vocab-holidays-001",
+    "lang": "de",
+    "term": "Feiertag",
+    "translations": {
+      "en": [
+        "holiday"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 581
+  },
+  {
+    "id": "de-vocab-holidays-002",
+    "lang": "de",
+    "term": "Weihnachten",
+    "translations": {
+      "en": [
+        "Christmas"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 582
+  },
+  {
+    "id": "de-vocab-holidays-003",
+    "lang": "de",
+    "term": "Neujahr",
+    "translations": {
+      "en": [
+        "New Year"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 583
+  },
+  {
+    "id": "de-vocab-holidays-004",
+    "lang": "de",
+    "term": "Ostern",
+    "translations": {
+      "en": [
+        "Easter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 584
+  },
+  {
+    "id": "de-vocab-holidays-005",
+    "lang": "de",
+    "term": "Geburtstag",
+    "translations": {
+      "en": [
+        "birthday"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 585
+  },
+  {
+    "id": "de-vocab-holidays-006",
+    "lang": "de",
+    "term": "Feier",
+    "translations": {
+      "en": [
+        "celebration",
+        "party"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 586
+  },
+  {
+    "id": "de-vocab-holidays-007",
+    "lang": "de",
+    "term": "Geschenk",
+    "translations": {
+      "en": [
+        "gift"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 587
+  },
+  {
+    "id": "de-vocab-holidays-008",
+    "lang": "de",
+    "term": "Grußkarte",
+    "translations": {
+      "en": [
+        "greeting card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 588
+  },
+  {
+    "id": "de-vocab-holidays-009",
+    "lang": "de",
+    "term": "Dekoration",
+    "translations": {
+      "en": [
+        "decoration"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 589
+  },
+  {
+    "id": "de-vocab-holidays-010",
+    "lang": "de",
+    "term": "Kerze",
+    "translations": {
+      "en": [
+        "candle"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 590
+  },
+  {
+    "id": "de-vocab-holidays-011",
+    "lang": "de",
+    "term": "Feuerwerk",
+    "translations": {
+      "en": [
+        "fireworks"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 591
+  },
+  {
+    "id": "de-vocab-holidays-012",
+    "lang": "de",
+    "term": "Tradition",
+    "translations": {
+      "en": [
+        "tradition"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 592
+  },
+  {
+    "id": "de-vocab-holidays-013",
+    "lang": "de",
+    "term": "Brauch",
+    "translations": {
+      "en": [
+        "custom"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 593
+  },
+  {
+    "id": "de-vocab-holidays-014",
+    "lang": "de",
+    "term": "Kalender",
+    "translations": {
+      "en": [
+        "calendar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 594
+  },
+  {
+    "id": "de-vocab-holidays-015",
+    "lang": "de",
+    "term": "Urlaub",
+    "translations": {
+      "en": [
+        "vacation"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 595
+  },
+  {
+    "id": "de-vocab-holidays-016",
+    "lang": "de",
+    "term": "feiern",
+    "translations": {
+      "en": [
+        "to celebrate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 596
+  },
+  {
+    "id": "de-vocab-holidays-017",
+    "lang": "de",
+    "term": "einladen",
+    "translations": {
+      "en": [
+        "to invite"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 597
+  },
+  {
+    "id": "de-vocab-holidays-018",
+    "lang": "de",
+    "term": "schenken",
+    "translations": {
+      "en": [
+        "to give (a gift)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 598
+  },
+  {
+    "id": "de-vocab-holidays-019",
+    "lang": "de",
+    "term": "dekorieren",
+    "translations": {
+      "en": [
+        "to decorate"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 599
+  },
+  {
+    "id": "de-vocab-holidays-020",
+    "lang": "de",
+    "term": "Gastgeber",
+    "translations": {
+      "en": [
+        "host"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 600
+  },
+  {
+    "id": "de-vocab-holidays-021",
+    "lang": "de",
+    "term": "Gast",
+    "translations": {
+      "en": [
+        "guest"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 601
+  },
+  {
+    "id": "de-vocab-holidays-022",
+    "lang": "de",
+    "term": "Party",
+    "translations": {
+      "en": [
+        "party"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 602
+  },
+  {
+    "id": "de-vocab-holidays-023",
+    "lang": "de",
+    "term": "Torte",
+    "translations": {
+      "en": [
+        "cake"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 603
+  },
+  {
+    "id": "de-vocab-holidays-024",
+    "lang": "de",
+    "term": "Kerzen anzünden",
+    "translations": {
+      "en": [
+        "to light candles"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 604
+  },
+  {
+    "id": "de-vocab-holidays-025",
+    "lang": "de",
+    "term": "Herzlichen Glückwunsch",
+    "translations": {
+      "en": [
+        "congratulations"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 605
+  },
+  {
+    "id": "de-vocab-holidays-026",
+    "lang": "de",
+    "term": "Frohe Weihnachten",
+    "translations": {
+      "en": [
+        "Merry Christmas"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 606
+  },
+  {
+    "id": "de-vocab-holidays-027",
+    "lang": "de",
+    "term": "Frohes neues Jahr",
+    "translations": {
+      "en": [
+        "Happy New Year"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 607
+  },
+  {
+    "id": "de-vocab-holidays-028",
+    "lang": "de",
+    "term": "Hochzeitstag",
+    "translations": {
+      "en": [
+        "wedding anniversary"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 608
+  },
+  {
+    "id": "de-vocab-holidays-029",
+    "lang": "de",
+    "term": "Pilgerfahrt",
+    "translations": {
+      "en": [
+        "pilgrimage"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 609
+  },
+  {
+    "id": "de-vocab-holidays-030",
+    "lang": "de",
+    "term": "Festival",
+    "translations": {
+      "en": [
+        "festival"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "holidays"
+    ],
+    "frequencyRank": 610
+  },
+  {
+    "id": "de-vocab-cooking-001",
+    "lang": "de",
+    "term": "Rezept",
+    "translations": {
+      "en": [
+        "recipe"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 611
+  },
+  {
+    "id": "de-vocab-cooking-002",
+    "lang": "de",
+    "term": "Zutat",
+    "translations": {
+      "en": [
+        "ingredient"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 612
+  },
+  {
+    "id": "de-vocab-cooking-003",
+    "lang": "de",
+    "term": "Topf",
+    "translations": {
+      "en": [
+        "pot"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 613
+  },
+  {
+    "id": "de-vocab-cooking-004",
+    "lang": "de",
+    "term": "Pfanne",
+    "translations": {
+      "en": [
+        "pan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 614
+  },
+  {
+    "id": "de-vocab-cooking-005",
+    "lang": "de",
+    "term": "Messer",
+    "translations": {
+      "en": [
+        "knife"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 615
+  },
+  {
+    "id": "de-vocab-cooking-006",
+    "lang": "de",
+    "term": "Gabel",
+    "translations": {
+      "en": [
+        "fork"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 616
+  },
+  {
+    "id": "de-vocab-cooking-007",
+    "lang": "de",
+    "term": "Löffel",
+    "translations": {
+      "en": [
+        "spoon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 617
+  },
+  {
+    "id": "de-vocab-cooking-008",
+    "lang": "de",
+    "term": "Teller",
+    "translations": {
+      "en": [
+        "plate"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 618
+  },
+  {
+    "id": "de-vocab-cooking-009",
+    "lang": "de",
+    "term": "Schüssel",
+    "translations": {
+      "en": [
+        "bowl"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 619
+  },
+  {
+    "id": "de-vocab-cooking-010",
+    "lang": "de",
+    "term": "Backofen",
+    "translations": {
+      "en": [
+        "oven"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 620
+  },
+  {
+    "id": "de-vocab-cooking-011",
+    "lang": "de",
+    "term": "schneiden",
+    "translations": {
+      "en": [
+        "to cut"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 621
+  },
+  {
+    "id": "de-vocab-cooking-012",
+    "lang": "de",
+    "term": "braten",
+    "translations": {
+      "en": [
+        "to fry"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 622
+  },
+  {
+    "id": "de-vocab-cooking-013",
+    "lang": "de",
+    "term": "backen",
+    "translations": {
+      "en": [
+        "to bake"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 623
+  },
+  {
+    "id": "de-vocab-cooking-014",
+    "lang": "de",
+    "term": "garen",
+    "translations": {
+      "en": [
+        "to boil",
+        "to cook (gently)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 624
+  },
+  {
+    "id": "de-vocab-cooking-015",
+    "lang": "de",
+    "term": "rühren",
+    "translations": {
+      "en": [
+        "to stir"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 625
+  },
+  {
+    "id": "de-vocab-cooking-016",
+    "lang": "de",
+    "term": "mischen",
+    "translations": {
+      "en": [
+        "to mix"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 626
+  },
+  {
+    "id": "de-vocab-cooking-017",
+    "lang": "de",
+    "term": "hinzufügen",
+    "translations": {
+      "en": [
+        "to add"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 627
+  },
+  {
+    "id": "de-vocab-cooking-018",
+    "lang": "de",
+    "term": "schälen",
+    "translations": {
+      "en": [
+        "to peel"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 628
+  },
+  {
+    "id": "de-vocab-cooking-019",
+    "lang": "de",
+    "term": "würzen",
+    "translations": {
+      "en": [
+        "to season"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 629
+  },
+  {
+    "id": "de-vocab-cooking-020",
+    "lang": "de",
+    "term": "servieren",
+    "translations": {
+      "en": [
+        "to serve"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 630
+  },
+  {
+    "id": "de-vocab-cooking-021",
+    "lang": "de",
+    "term": "Gewürz",
+    "translations": {
+      "en": [
+        "spice"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 631
+  },
+  {
+    "id": "de-vocab-cooking-022",
+    "lang": "de",
+    "term": "Kräuter",
+    "translations": {
+      "en": [
+        "herbs"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 632
+  },
+  {
+    "id": "de-vocab-cooking-023",
+    "lang": "de",
+    "term": "Zimt",
+    "translations": {
+      "en": [
+        "cinnamon"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 633
+  },
+  {
+    "id": "de-vocab-cooking-024",
+    "lang": "de",
+    "term": "Basilikum",
+    "translations": {
+      "en": [
+        "basil"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 634
+  },
+  {
+    "id": "de-vocab-cooking-025",
+    "lang": "de",
+    "term": "Essig",
+    "translations": {
+      "en": [
+        "vinegar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 635
+  },
+  {
+    "id": "de-vocab-cooking-026",
+    "lang": "de",
+    "term": "Mehl",
+    "translations": {
+      "en": [
+        "flour"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 636
+  },
+  {
+    "id": "de-vocab-cooking-027",
+    "lang": "de",
+    "term": "Teig",
+    "translations": {
+      "en": [
+        "dough"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 637
+  },
+  {
+    "id": "de-vocab-cooking-028",
+    "lang": "de",
+    "term": "Portion",
+    "translations": {
+      "en": [
+        "portion",
+        "serving"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 638
+  },
+  {
+    "id": "de-vocab-cooking-029",
+    "lang": "de",
+    "term": "Ofen vorheizen",
+    "translations": {
+      "en": [
+        "to preheat the oven"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 639
+  },
+  {
+    "id": "de-vocab-cooking-030",
+    "lang": "de",
+    "term": "Rezept befolgen",
+    "translations": {
+      "en": [
+        "to follow a recipe"
+      ]
+    },
+    "pos": "phrase",
+    "tags": [
+      "cooking"
+    ],
+    "frequencyRank": 640
   }
 ]
