@@ -1,0 +1,49 @@
+{
+  "id": "de-lesson-food-travel",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-3",
+  "order": 3,
+  "title": "Ordering Food & Asking Directions",
+  "prerequisiteIds": ["de-lesson-word-order"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Ich möchte...** (\"I would like...\") is the polite way to order or request something, much softer than \"ich will\" (I want). Combine it with food vocabulary to order at a restaurant, or with travel vocabulary to ask for directions and information." },
+    { "type": "exercise", "exerciseId": "de-ex-food-travel-1" },
+    { "type": "exercise", "exerciseId": "de-ex-food-travel-2" },
+    { "type": "explanation", "markdown": "Travel words like **Ankunft** (arrival) and **Abfahrt** (departure) show up constantly on station and airport boards." },
+    { "type": "exercise", "exerciseId": "de-ex-food-travel-3" },
+    { "type": "exercise", "exerciseId": "de-ex-food-travel-4" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-food-travel-1",
+      "type": "multiple-choice",
+      "prompt": "You want to order water at a restaurant. What do you say?",
+      "answer": "Ich möchte Wasser, bitte.",
+      "distractors": ["Wo ist das Wasser?", "Das Wasser ist gut.", "Ich habe Wasser."],
+      "relatedItemId": "de-vocab-food-002"
+    },
+    {
+      "id": "de-ex-food-travel-2",
+      "type": "multiple-choice",
+      "prompt": "Someone asks \"Wo ist das Hotel?\" What are they asking for?",
+      "answer": "hotel",
+      "distractors": ["restaurant", "train station", "airport"],
+      "relatedItemId": "de-vocab-travel-010"
+    },
+    {
+      "id": "de-ex-food-travel-3",
+      "type": "fill-blank",
+      "prompt": "Der Zug hat um neun Uhr ___ . (arrival)",
+      "answer": "Ankunft",
+      "relatedItemId": "de-vocab-travel-024"
+    },
+    {
+      "id": "de-ex-food-travel-4",
+      "type": "translate",
+      "prompt": "Translate: \"The restaurant is near the station.\"",
+      "answer": ["Das Restaurant ist nah am Bahnhof.", "Das Restaurant ist in der Nähe vom Bahnhof."],
+      "relatedItemId": "de-vocab-food-024"
+    }
+  ]
+}

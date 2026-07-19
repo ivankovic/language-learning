@@ -1,0 +1,23 @@
+[
+  {
+    "id": "de-unit-1",
+    "courseId": "de-course-a1",
+    "title": "Getting Started",
+    "order": 1,
+    "lessonIds": ["de-lesson-greetings", "de-lesson-articles"]
+  },
+  {
+    "id": "de-unit-2",
+    "courseId": "de-course-a1",
+    "title": "Sein & Haben",
+    "order": 2,
+    "lessonIds": ["de-lesson-sein", "de-lesson-haben", "de-lesson-numbers"]
+  },
+  {
+    "id": "de-unit-3",
+    "courseId": "de-course-a1",
+    "title": "Daily Life",
+    "order": 3,
+    "lessonIds": ["de-lesson-en-verbs", "de-lesson-word-order", "de-lesson-food-travel"]
+  }
+]

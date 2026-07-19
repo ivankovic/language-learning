@@ -1,0 +1,39 @@
+{
+  "id": "de-lesson-haben",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-2",
+  "order": 2,
+  "title": "Haben (to have) — Present Tense",
+  "prerequisiteIds": ["de-lesson-sein"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Haben** (to have) is also irregular:\n\nich **habe** · du **hast** · er/sie/es **hat** · wir **haben** · ihr **habt** · sie/Sie **haben**\n\nGerman uses *haben* idiomatically for hunger and thirst — **Hunger haben** (to be hungry), **Durst haben** (to be thirsty) — but *not* for age, unlike Italian or French (German uses **sein** for that instead, as you saw in the previous lesson)." },
+    { "type": "exercise", "exerciseId": "de-ex-haben-1" },
+    { "type": "exercise", "exerciseId": "de-ex-haben-2" },
+    { "type": "exercise", "exerciseId": "de-ex-haben-3" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-haben-1",
+      "type": "fill-blank",
+      "prompt": "Ich ___ Hunger. (I'm hungry.)",
+      "answer": "habe",
+      "relatedItemId": "de-vocab-routine-026"
+    },
+    {
+      "id": "de-ex-haben-2",
+      "type": "multiple-choice",
+      "prompt": "___ du Durst? (Are you thirsty? — informal)",
+      "answer": "Hast",
+      "distractors": ["Habe", "Hat", "Habt"],
+      "relatedItemId": "de-vocab-routine-027"
+    },
+    {
+      "id": "de-ex-haben-3",
+      "type": "fill-blank",
+      "prompt": "Wir ___ ein Zimmer. (We have a room.)",
+      "answer": "haben",
+      "relatedItemId": "de-vocab-travel-011"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "de-lesson-word-order",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-3",
+  "order": 2,
+  "title": "Basic Word Order & Questions",
+  "prerequisiteIds": ["de-lesson-en-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "German's key rule: the conjugated verb is always the **second element** of a statement, even if something other than the subject comes first. In a question with a question word like **wo** (where), the verb comes immediately after it, then the subject: *Wo ist der Bahnhof?* (Where is the station? — literally \"Where is the station\", verb second)." },
+    { "type": "exercise", "exerciseId": "de-ex-word-order-1" },
+    { "type": "exercise", "exerciseId": "de-ex-word-order-2" },
+    { "type": "exercise", "exerciseId": "de-ex-word-order-3" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-word-order-1",
+      "type": "multiple-choice",
+      "prompt": "How do you ask \"Where is the station?\"",
+      "answer": "Wo ist der Bahnhof?",
+      "distractors": ["Der Bahnhof wo ist?", "Ist wo der Bahnhof?", "Bahnhof ist wo?"],
+      "relatedItemId": "de-vocab-travel-005"
+    },
+    {
+      "id": "de-ex-word-order-2",
+      "type": "fill-blank",
+      "prompt": "___ kostet das? (How much does that cost?)",
+      "answer": "Wie viel",
+      "relatedItemId": "de-vocab-travel-022"
+    },
+    {
+      "id": "de-ex-word-order-3",
+      "type": "reorder",
+      "prompt": "Put these words in order: ist / der / wo / Flughafen / ?",
+      "answer": ["Wo", "ist", "der", "Flughafen", "?"],
+      "relatedItemId": "de-vocab-travel-006"
+    }
+  ]
+}

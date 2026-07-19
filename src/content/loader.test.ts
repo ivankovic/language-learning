@@ -3,9 +3,10 @@ import { loadLanguageContent, validateContentBundle, hasContentBundle } from "./
 
 describe("content loader", () => {
   it("reports no bundle for an unregistered language", () => {
-    expect(hasContentBundle("de")).toBe(false);
+    expect(hasContentBundle("es")).toBe(false);
     expect(hasContentBundle("it")).toBe(true);
     expect(hasContentBundle("fr")).toBe(true);
+    expect(hasContentBundle("de")).toBe(true);
   });
 
   it("resolves the Italian bundle with the expected shape", async () => {
@@ -24,6 +25,14 @@ describe("content loader", () => {
     expect(content.course.id).toBe("fr-course-a1");
   });
 
+  it("resolves the German bundle with the expected shape", async () => {
+    const content = await loadLanguageContent("de");
+    expect(content.vocabById.size).toBeGreaterThanOrEqual(100);
+    expect(content.decks.length).toBeGreaterThanOrEqual(4);
+    expect(content.lessons.length).toBeGreaterThanOrEqual(5);
+    expect(content.course.id).toBe("de-course-a1");
+  });
+
   it("caches the bundle across repeated loads", async () => {
     const a = await loadLanguageContent("it");
     const b = await loadLanguageContent("it");
@@ -31,7 +40,7 @@ describe("content loader", () => {
   });
 
   it("rejects for an unregistered language", async () => {
-    await expect(loadLanguageContent("de")).rejects.toThrow(/No content bundle/);
+    await expect(loadLanguageContent("es")).rejects.toThrow(/No content bundle/);
   });
 
   it("the Italian seed content passes referential-integrity validation", async () => {
@@ -46,8 +55,14 @@ describe("content loader", () => {
     expect(issues).toEqual([]);
   });
 
+  it("the German seed content passes referential-integrity validation", async () => {
+    const content = await loadLanguageContent("de");
+    const issues = validateContentBundle(content);
+    expect(issues).toEqual([]);
+  });
+
   it("every lesson's prerequisite chain terminates (no cycles) and unit->course wiring is complete", async () => {
-    for (const lang of ["it", "fr"]) {
+    for (const lang of ["it", "fr", "de"]) {
       const content = await loadLanguageContent(lang);
       expect(content.units.every((u) => content.course.unitIds.includes(u.id))).toBe(true);
       const allLessonIdsInUnits = content.units.flatMap((u) => u.lessonIds);
@@ -104,6 +119,21 @@ describe("content loader", () => {
       "fr-lesson-er-verbs",
       "fr-lesson-word-order",
       "fr-lesson-food-travel",
+    ]);
+  });
+
+  it("German lessons are ordered globally by course -> unit -> lesson", async () => {
+    const content = await loadLanguageContent("de");
+    const order = content.lessons.map((l) => l.id);
+    expect(order).toEqual([
+      "de-lesson-greetings",
+      "de-lesson-articles",
+      "de-lesson-sein",
+      "de-lesson-haben",
+      "de-lesson-numbers",
+      "de-lesson-en-verbs",
+      "de-lesson-word-order",
+      "de-lesson-food-travel",
     ]);
   });
 });

@@ -11,6 +11,7 @@ export type LoadedLanguageContent = {
 const registry: Record<string, () => Promise<LoadedLanguageContent>> = {
   it: () => import("./it/index").then((m) => m.loadItalianContent()),
   fr: () => import("./fr/index").then((m) => m.loadFrenchContent()),
+  de: () => import("./de/index").then((m) => m.loadGermanContent()),
 };
 
 const cache = new Map<string, Promise<LoadedLanguageContent>>();

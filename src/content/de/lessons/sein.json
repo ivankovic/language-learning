@@ -1,0 +1,48 @@
+{
+  "id": "de-lesson-sein",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-2",
+  "order": 1,
+  "title": "Sein (to be) — Present Tense",
+  "prerequisiteIds": ["de-lesson-articles"],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Sein** (to be) is irregular and one of the most-used verbs in German:\n\nich **bin** · du **bist** · er/sie/es **ist** · wir **sind** · ihr **seid** · sie/Sie **sind**\n\nUnlike Italian or French, German uses **sein** (not \"to have\") for age: **Ich bin ... Jahre alt** (I am ... years old — literally \"I am ... years old\")." },
+    { "type": "exercise", "exerciseId": "de-ex-sein-1" },
+    { "type": "exercise", "exerciseId": "de-ex-sein-2" },
+    { "type": "explanation", "markdown": "**Freut mich** literally means \"[it] pleases me\" and is what you say when meeting someone for the first time." },
+    { "type": "exercise", "exerciseId": "de-ex-sein-3" },
+    { "type": "exercise", "exerciseId": "de-ex-sein-4" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-sein-1",
+      "type": "fill-blank",
+      "prompt": "Ich ___ müde. (I am tired.)",
+      "answer": "bin"
+    },
+    {
+      "id": "de-ex-sein-2",
+      "type": "multiple-choice",
+      "prompt": "Wie alt ___ du? (How old are you?)",
+      "answer": "bist",
+      "distractors": ["bin", "ist", "sind"],
+      "relatedItemId": "de-vocab-routine-030"
+    },
+    {
+      "id": "de-ex-sein-3",
+      "type": "multiple-choice",
+      "prompt": "How do you respond when meeting someone for the first time?",
+      "answer": "Freut mich",
+      "distractors": ["Bitte schön", "Entschuldigung", "Gut"],
+      "relatedItemId": "de-vocab-greet-014"
+    },
+    {
+      "id": "de-ex-sein-4",
+      "type": "translate",
+      "prompt": "Translate: \"I am 20 years old.\"",
+      "answer": ["Ich bin zwanzig Jahre alt."],
+      "relatedItemId": "de-vocab-numtime-019"
+    }
+  ]
+}

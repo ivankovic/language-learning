@@ -1,0 +1,47 @@
+{
+  "id": "de-lesson-en-verbs",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-3",
+  "order": 1,
+  "title": "Regular Verbs",
+  "prerequisiteIds": ["de-lesson-numbers"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Most German verbs ending in **-en** (like *lernen*, *arbeiten*, *machen*) follow a regular pattern:\n\nich **-e** · du **-st** · er/sie/es **-t** · wir **-en** · ihr **-t** · sie/Sie **-en**\n\ne.g. *lernen* → lern**e**, lern**st**, lern**t**, lern**en**, lern**t**, lern**en**." },
+    { "type": "exercise", "exerciseId": "de-ex-en-1" },
+    { "type": "exercise", "exerciseId": "de-ex-en-2" },
+    { "type": "exercise", "exerciseId": "de-ex-en-3" },
+    { "type": "exercise", "exerciseId": "de-ex-en-4" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-en-1",
+      "type": "fill-blank",
+      "prompt": "Ich ___ Deutsch. (lernen — I'm learning German.)",
+      "answer": "lerne",
+      "relatedItemId": "de-vocab-routine-007"
+    },
+    {
+      "id": "de-ex-en-2",
+      "type": "multiple-choice",
+      "prompt": "Wir ___ in Berlin. (arbeiten — We work in Berlin.)",
+      "answer": "arbeiten",
+      "distractors": ["arbeite", "arbeitest", "arbeitet"],
+      "relatedItemId": "de-vocab-routine-006"
+    },
+    {
+      "id": "de-ex-en-3",
+      "type": "fill-blank",
+      "prompt": "Du ___ Wasser. (trinken — You drink water.)",
+      "answer": "trinkst",
+      "relatedItemId": "de-vocab-routine-005"
+    },
+    {
+      "id": "de-ex-en-4",
+      "type": "translate",
+      "prompt": "Translate: \"They speak German.\"",
+      "answer": ["Sie sprechen Deutsch."],
+      "relatedItemId": "de-vocab-routine-009"
+    }
+  ]
+}

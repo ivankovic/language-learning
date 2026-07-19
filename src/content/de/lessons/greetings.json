@@ -1,0 +1,40 @@
+{
+  "id": "de-lesson-greetings",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-1",
+  "order": 1,
+  "title": "Greetings & Politeness",
+  "prerequisiteIds": [],
+  "blocks": [
+    { "type": "explanation", "markdown": "**Hallo** works any time of day and in most settings. For time-of-day greetings, use **guten Morgen** (morning), **guten Abend** (evening). **Gute Nacht** is only said when parting for the night, never as a greeting." },
+    { "type": "exercise", "exerciseId": "de-ex-greetings-1" },
+    { "type": "exercise", "exerciseId": "de-ex-greetings-2" },
+    { "type": "explanation", "markdown": "Politeness words: **bitte** (please), **danke** (thank you), and **bitte schön** (you're welcome — also used to say \"here you go\")." },
+    { "type": "exercise", "exerciseId": "de-ex-greetings-3" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-greetings-1",
+      "type": "multiple-choice",
+      "prompt": "Which greeting would you use in the evening?",
+      "answer": "guten Abend",
+      "distractors": ["guten Morgen", "gute Nacht", "auf Wiedersehen"]
+    },
+    {
+      "id": "de-ex-greetings-2",
+      "type": "fill-blank",
+      "prompt": "___, wie geht's? (informal \"hi\")",
+      "answer": "Hallo",
+      "relatedItemId": "de-vocab-greet-001"
+    },
+    {
+      "id": "de-ex-greetings-3",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"thank you\" in German?",
+      "answer": "danke",
+      "distractors": ["bitte schön", "Entschuldigung", "freut mich"],
+      "relatedItemId": "de-vocab-greet-007"
+    }
+  ]
+}

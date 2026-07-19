@@ -1,0 +1,40 @@
+{
+  "id": "de-lesson-articles",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-1",
+  "order": 2,
+  "title": "Definite Articles: der, die, das",
+  "prerequisiteIds": ["de-lesson-greetings"],
+  "blocks": [
+    { "type": "explanation", "markdown": "German nouns have **three** genders (more than Italian or French): **der** (masculine), **die** (feminine), **das** (neuter). The plural article is **die** for all genders. There's no reliable shortcut for guessing gender — it's worth learning each noun together with its article." },
+    { "type": "exercise", "exerciseId": "de-ex-articles-1" },
+    { "type": "exercise", "exerciseId": "de-ex-articles-2" },
+    { "type": "exercise", "exerciseId": "de-ex-articles-3" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-articles-1",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct article for \"Brot\" (bread — neuter: das Brot).",
+      "answer": "das",
+      "distractors": ["der", "die", "den"],
+      "relatedItemId": "de-vocab-food-001"
+    },
+    {
+      "id": "de-ex-articles-2",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct article for \"Schule\" (school — feminine: die Schule).",
+      "answer": "die",
+      "distractors": ["der", "das", "dem"],
+      "relatedItemId": "de-vocab-routine-011"
+    },
+    {
+      "id": "de-ex-articles-3",
+      "type": "fill-blank",
+      "prompt": "___ Zug ist da. (train — masculine: der Zug)",
+      "answer": "Der",
+      "relatedItemId": "de-vocab-travel-001"
+    }
+  ]
+}

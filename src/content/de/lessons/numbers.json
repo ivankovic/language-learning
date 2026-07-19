@@ -1,0 +1,39 @@
+{
+  "id": "de-lesson-numbers",
+  "lang": "de",
+  "courseId": "de-course-a1",
+  "unitId": "de-unit-2",
+  "order": 3,
+  "title": "Numbers 1-10 & Telling Time",
+  "prerequisiteIds": ["de-lesson-haben"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Numbers 1-10: **eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn**. To tell time, German uses \"Es ist...\" (It is...), e.g. *Es ist drei Uhr* (It's three o'clock)." },
+    { "type": "exercise", "exerciseId": "de-ex-numbers-1" },
+    { "type": "exercise", "exerciseId": "de-ex-numbers-2" },
+    { "type": "exercise", "exerciseId": "de-ex-numbers-3" }
+  ],
+  "exercises": [
+    {
+      "id": "de-ex-numbers-1",
+      "type": "multiple-choice",
+      "prompt": "What is \"sieben\" in English?",
+      "answer": "seven",
+      "distractors": ["six", "eight", "nine"],
+      "relatedItemId": "de-vocab-numtime-007"
+    },
+    {
+      "id": "de-ex-numbers-2",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"morning\"?",
+      "answer": "Morgen",
+      "distractors": ["Abend", "Nachmittag", "Nacht"],
+      "relatedItemId": "de-vocab-numtime-013"
+    },
+    {
+      "id": "de-ex-numbers-3",
+      "type": "reorder",
+      "prompt": "Put these words in order: Uhr / drei / ist / Es",
+      "answer": ["Es", "ist", "drei", "Uhr"]
+    }
+  ]
+}

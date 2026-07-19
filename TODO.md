@@ -38,6 +38,7 @@ Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md
 
 **Italian progress: 810/~2000 words (~41%), 25/~35 lessons (~71%), 27 decks, 10 units.**
 **French progress: 160/~2000 words (~8%), 8/~35 lessons (~23%), 5 decks, 3 units.**
+**German progress: 160/~2000 words (~8%), 8/~35 lessons (~23%), 5 decks, 3 units.**
 
 - [x] Batch 1: expanded 5 original decks (greetings/food/travel/routine/numbers-time) and added 6 new decks (home, body & clothing, weather/colors/nature, work & education, common verbs, common adjectives) — 110 → 330 words
 - [x] Batch 1: added 7 new grammar lessons (regular -ere/-ire verbs, modal verbs, reflexive verbs, adjective agreement, prepositions, passato prossimo with avere, passato prossimo with essere) across 3 new units — 8 → 15 lessons, 3 → 6 units
@@ -49,9 +50,10 @@ Target: "Large" tier per language — ~2000 words / 30-40 lessons (see `SPECS.md
 - [x] Batch 5: vocab-only — added 4 new decks (countries & nationalities, materials & shapes, business & finance, conjunctions & connectors) — 690 → 810 words, 27 decks.
 - [ ] Continue growing Italian toward ~2000 words / ~35 lessons (many more batches needed — this is intentionally incremental, not a single pass). Remaining vocab breadth ideas: more specific food/cooking terms, more professions, formal register phrases, regional expressions, hobbies extended (art, gardening, collecting). Remaining grammar ideas (fewer needed): subjunctive mood intro, passive voice, gerund/progressive (stare + gerundio)
 - [x] Added French: infrastructure (registered in `languages.ts` and `loader.ts`'s registry, appears automatically in onboarding since target-language options are derived from `hasContentBundle()`) + an initial content batch mirroring Italian's original scope — 160 words across the same 5 core decks (greetings, food, travel, daily routine, numbers & time), 8 grammar lessons across 3 units (greetings, articles, être, avoir, numbers, regular -er verbs, word order, food & travel). Verified end-to-end in a real browser: onboarding, lessons, flashcard review with FSRS, all 55 tests pass.
-- [x] Factored out `src/content/buildLanguageContent.ts`, shared by every per-language `index.ts` — avoids the course→unit→lesson flattening logic drifting out of sync now that there are 2+ languages (German is next).
+- [x] Factored out `src/content/buildLanguageContent.ts`, shared by every per-language `index.ts` — avoids the course→unit→lesson flattening logic drifting out of sync now that there are 3 languages.
 - [ ] Continue growing French toward parity with Italian in future batches (same pattern: vocab decks first, grammar lessons interleaved)
-- [ ] Add German (not started — same pattern as French)
+- [x] Added German: same pattern as French — 160 words across the same 5 core decks, 8 grammar lessons across 3 units (greetings, articles [der/die/das — 3 genders, more than Italian/French], sein, haben, numbers, regular verbs, word order, food & travel). Handled real German-specific grammar accurately rather than mechanically mirroring Italian/French: age uses **sein**, not haben (`Ich bin ... Jahre alt`, unlike Italian/French which use avere/avoir); word-order lesson explains the V2 rule instead of claiming SVO-like-English; caught and fixed a bug where I'd used the irregular verb *essen* as a "regular verb" example. Also required a case-*sensitive* vocab dedup check specifically for German, since capitalization is grammatically load-bearing there (e.g. "Morgen" morning-noun vs "morgen" tomorrow-adverb are legitimately different words). Verified end-to-end in a real browser; all 58 tests pass.
+- [ ] Continue growing German toward parity with Italian in future batches
 - [ ] Add French and German content bundles (currently only Italian has seed content) — deferred until Italian is more complete
 - [ ] Run the actual content generation → staging → review → promotion pipeline (currently just scaffolded/empty) — Phase 1-2 content has been hand-authored directly instead
 - [ ] Flesh out the dev content-review UI beyond the placeholder (approve/edit/reject-and-regenerate staged content)
