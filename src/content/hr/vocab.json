@@ -4225,5 +4225,1817 @@
       "work"
     ],
     "frequencyRank": 280
+  },
+  {
+    "id": "hr-vocab-music-arts-001",
+    "lang": "hr",
+    "term": "glazba",
+    "translations": {
+      "en": [
+        "music"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 281
+  },
+  {
+    "id": "hr-vocab-music-arts-002",
+    "lang": "hr",
+    "term": "pjesma",
+    "translations": {
+      "en": [
+        "song"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 282
+  },
+  {
+    "id": "hr-vocab-music-arts-003",
+    "lang": "hr",
+    "term": "pjevač",
+    "translations": {
+      "en": [
+        "singer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 283
+  },
+  {
+    "id": "hr-vocab-music-arts-004",
+    "lang": "hr",
+    "term": "glazbenik",
+    "translations": {
+      "en": [
+        "musician"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 284
+  },
+  {
+    "id": "hr-vocab-music-arts-005",
+    "lang": "hr",
+    "term": "instrument",
+    "translations": {
+      "en": [
+        "instrument"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 285
+  },
+  {
+    "id": "hr-vocab-music-arts-006",
+    "lang": "hr",
+    "term": "gitara",
+    "translations": {
+      "en": [
+        "guitar"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 286
+  },
+  {
+    "id": "hr-vocab-music-arts-007",
+    "lang": "hr",
+    "term": "klavir",
+    "translations": {
+      "en": [
+        "piano"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 287
+  },
+  {
+    "id": "hr-vocab-music-arts-008",
+    "lang": "hr",
+    "term": "violina",
+    "translations": {
+      "en": [
+        "violin"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 288
+  },
+  {
+    "id": "hr-vocab-music-arts-009",
+    "lang": "hr",
+    "term": "bubnjevi",
+    "translations": {
+      "en": [
+        "drums"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 289
+  },
+  {
+    "id": "hr-vocab-music-arts-010",
+    "lang": "hr",
+    "term": "koncert",
+    "translations": {
+      "en": [
+        "concert"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 290
+  },
+  {
+    "id": "hr-vocab-music-arts-011",
+    "lang": "hr",
+    "term": "album",
+    "translations": {
+      "en": [
+        "album"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 291
+  },
+  {
+    "id": "hr-vocab-music-arts-012",
+    "lang": "hr",
+    "term": "orkestar",
+    "translations": {
+      "en": [
+        "orchestra"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 292
+  },
+  {
+    "id": "hr-vocab-music-arts-013",
+    "lang": "hr",
+    "term": "umjetnost",
+    "translations": {
+      "en": [
+        "art"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 293
+  },
+  {
+    "id": "hr-vocab-music-arts-014",
+    "lang": "hr",
+    "term": "slika",
+    "translations": {
+      "en": [
+        "painting"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 294
+  },
+  {
+    "id": "hr-vocab-music-arts-015",
+    "lang": "hr",
+    "term": "slikar",
+    "translations": {
+      "en": [
+        "painter"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 295
+  },
+  {
+    "id": "hr-vocab-music-arts-016",
+    "lang": "hr",
+    "term": "crtež",
+    "translations": {
+      "en": [
+        "drawing"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 296
+  },
+  {
+    "id": "hr-vocab-music-arts-017",
+    "lang": "hr",
+    "term": "kip",
+    "translations": {
+      "en": [
+        "sculpture"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 297
+  },
+  {
+    "id": "hr-vocab-music-arts-018",
+    "lang": "hr",
+    "term": "muzej",
+    "translations": {
+      "en": [
+        "museum"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 298
+  },
+  {
+    "id": "hr-vocab-music-arts-019",
+    "lang": "hr",
+    "term": "galerija",
+    "translations": {
+      "en": [
+        "gallery"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 299
+  },
+  {
+    "id": "hr-vocab-music-arts-020",
+    "lang": "hr",
+    "term": "izložba",
+    "translations": {
+      "en": [
+        "exhibition"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 300
+  },
+  {
+    "id": "hr-vocab-music-arts-021",
+    "lang": "hr",
+    "term": "kazalište",
+    "translations": {
+      "en": [
+        "theater"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 301
+  },
+  {
+    "id": "hr-vocab-music-arts-022",
+    "lang": "hr",
+    "term": "film",
+    "translations": {
+      "en": [
+        "film",
+        "movie"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 302
+  },
+  {
+    "id": "hr-vocab-music-arts-023",
+    "lang": "hr",
+    "term": "glumac",
+    "translations": {
+      "en": [
+        "actor"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 303
+  },
+  {
+    "id": "hr-vocab-music-arts-024",
+    "lang": "hr",
+    "term": "glumica",
+    "translations": {
+      "en": [
+        "actress"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 304
+  },
+  {
+    "id": "hr-vocab-music-arts-025",
+    "lang": "hr",
+    "term": "redatelj",
+    "translations": {
+      "en": [
+        "director"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 305
+  },
+  {
+    "id": "hr-vocab-music-arts-026",
+    "lang": "hr",
+    "term": "pjevati",
+    "translations": {
+      "en": [
+        "to sing"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 306
+  },
+  {
+    "id": "hr-vocab-music-arts-027",
+    "lang": "hr",
+    "term": "svirati",
+    "translations": {
+      "en": [
+        "to play (an instrument)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 307
+  },
+  {
+    "id": "hr-vocab-music-arts-028",
+    "lang": "hr",
+    "term": "crtati",
+    "translations": {
+      "en": [
+        "to draw"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 308
+  },
+  {
+    "id": "hr-vocab-music-arts-029",
+    "lang": "hr",
+    "term": "slikati",
+    "translations": {
+      "en": [
+        "to paint"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 309
+  },
+  {
+    "id": "hr-vocab-music-arts-030",
+    "lang": "hr",
+    "term": "kreativan",
+    "translations": {
+      "en": [
+        "creative"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "music-arts"
+    ],
+    "frequencyRank": 310
+  },
+  {
+    "id": "hr-vocab-technology-001",
+    "lang": "hr",
+    "term": "računalo",
+    "translations": {
+      "en": [
+        "computer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 311
+  },
+  {
+    "id": "hr-vocab-technology-002",
+    "lang": "hr",
+    "term": "mobitel",
+    "translations": {
+      "en": [
+        "mobile phone"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 312
+  },
+  {
+    "id": "hr-vocab-technology-003",
+    "lang": "hr",
+    "term": "internet",
+    "translations": {
+      "en": [
+        "internet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 313
+  },
+  {
+    "id": "hr-vocab-technology-004",
+    "lang": "hr",
+    "term": "e-mail",
+    "translations": {
+      "en": [
+        "email"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 314
+  },
+  {
+    "id": "hr-vocab-technology-005",
+    "lang": "hr",
+    "term": "lozinka",
+    "translations": {
+      "en": [
+        "password"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 315
+  },
+  {
+    "id": "hr-vocab-technology-006",
+    "lang": "hr",
+    "term": "zaslon",
+    "translations": {
+      "en": [
+        "screen"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 316
+  },
+  {
+    "id": "hr-vocab-technology-007",
+    "lang": "hr",
+    "term": "tipkovnica",
+    "translations": {
+      "en": [
+        "keyboard"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 317
+  },
+  {
+    "id": "hr-vocab-technology-008",
+    "lang": "hr",
+    "term": "miš",
+    "translations": {
+      "en": [
+        "mouse"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 318
+  },
+  {
+    "id": "hr-vocab-technology-009",
+    "lang": "hr",
+    "term": "aplikacija",
+    "translations": {
+      "en": [
+        "app",
+        "application"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 319
+  },
+  {
+    "id": "hr-vocab-technology-010",
+    "lang": "hr",
+    "term": "web-stranica",
+    "translations": {
+      "en": [
+        "website"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 320
+  },
+  {
+    "id": "hr-vocab-technology-011",
+    "lang": "hr",
+    "term": "preuzeti",
+    "translations": {
+      "en": [
+        "to download"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 321
+  },
+  {
+    "id": "hr-vocab-technology-012",
+    "lang": "hr",
+    "term": "poslati",
+    "translations": {
+      "en": [
+        "to upload",
+        "to send"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 322
+  },
+  {
+    "id": "hr-vocab-technology-013",
+    "lang": "hr",
+    "term": "spremiti",
+    "translations": {
+      "en": [
+        "to save"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 323
+  },
+  {
+    "id": "hr-vocab-technology-014",
+    "lang": "hr",
+    "term": "izbrisati",
+    "translations": {
+      "en": [
+        "to delete"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 324
+  },
+  {
+    "id": "hr-vocab-technology-015",
+    "lang": "hr",
+    "term": "ispisati",
+    "translations": {
+      "en": [
+        "to print"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 325
+  },
+  {
+    "id": "hr-vocab-technology-016",
+    "lang": "hr",
+    "term": "wifi",
+    "translations": {
+      "en": [
+        "WiFi"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 326
+  },
+  {
+    "id": "hr-vocab-technology-017",
+    "lang": "hr",
+    "term": "baterija",
+    "translations": {
+      "en": [
+        "battery"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 327
+  },
+  {
+    "id": "hr-vocab-technology-018",
+    "lang": "hr",
+    "term": "napuniti",
+    "translations": {
+      "en": [
+        "to charge (a battery)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 328
+  },
+  {
+    "id": "hr-vocab-technology-019",
+    "lang": "hr",
+    "term": "slušalice",
+    "translations": {
+      "en": [
+        "headphones"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 329
+  },
+  {
+    "id": "hr-vocab-technology-020",
+    "lang": "hr",
+    "term": "fotoaparat",
+    "translations": {
+      "en": [
+        "camera"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 330
+  },
+  {
+    "id": "hr-vocab-technology-021",
+    "lang": "hr",
+    "term": "fotografija",
+    "translations": {
+      "en": [
+        "photo"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 331
+  },
+  {
+    "id": "hr-vocab-technology-022",
+    "lang": "hr",
+    "term": "video",
+    "translations": {
+      "en": [
+        "video"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 332
+  },
+  {
+    "id": "hr-vocab-technology-023",
+    "lang": "hr",
+    "term": "društvene mreže",
+    "translations": {
+      "en": [
+        "social media"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 333
+  },
+  {
+    "id": "hr-vocab-technology-024",
+    "lang": "hr",
+    "term": "poruka",
+    "translations": {
+      "en": [
+        "message"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 334
+  },
+  {
+    "id": "hr-vocab-technology-025",
+    "lang": "hr",
+    "term": "poziv",
+    "translations": {
+      "en": [
+        "phone call"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 335
+  },
+  {
+    "id": "hr-vocab-technology-026",
+    "lang": "hr",
+    "term": "nazvati",
+    "translations": {
+      "en": [
+        "to call (someone)"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 336
+  },
+  {
+    "id": "hr-vocab-technology-027",
+    "lang": "hr",
+    "term": "softver",
+    "translations": {
+      "en": [
+        "software"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 337
+  },
+  {
+    "id": "hr-vocab-technology-028",
+    "lang": "hr",
+    "term": "program",
+    "translations": {
+      "en": [
+        "program"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 338
+  },
+  {
+    "id": "hr-vocab-technology-029",
+    "lang": "hr",
+    "term": "podaci",
+    "translations": {
+      "en": [
+        "data"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 339
+  },
+  {
+    "id": "hr-vocab-technology-030",
+    "lang": "hr",
+    "term": "digitalan",
+    "translations": {
+      "en": [
+        "digital"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "technology"
+    ],
+    "frequencyRank": 340
+  },
+  {
+    "id": "hr-vocab-shopping-001",
+    "lang": "hr",
+    "term": "trgovina",
+    "translations": {
+      "en": [
+        "shop",
+        "store"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 341
+  },
+  {
+    "id": "hr-vocab-shopping-002",
+    "lang": "hr",
+    "term": "trgovački centar",
+    "translations": {
+      "en": [
+        "shopping mall"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 342
+  },
+  {
+    "id": "hr-vocab-shopping-003",
+    "lang": "hr",
+    "term": "kupac",
+    "translations": {
+      "en": [
+        "customer"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 343
+  },
+  {
+    "id": "hr-vocab-shopping-004",
+    "lang": "hr",
+    "term": "prodavač",
+    "translations": {
+      "en": [
+        "salesperson"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 344
+  },
+  {
+    "id": "hr-vocab-shopping-005",
+    "lang": "hr",
+    "term": "cijena",
+    "translations": {
+      "en": [
+        "price"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 345
+  },
+  {
+    "id": "hr-vocab-shopping-006",
+    "lang": "hr",
+    "term": "popust",
+    "translations": {
+      "en": [
+        "discount"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 346
+  },
+  {
+    "id": "hr-vocab-shopping-007",
+    "lang": "hr",
+    "term": "novac",
+    "translations": {
+      "en": [
+        "money"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 347
+  },
+  {
+    "id": "hr-vocab-shopping-008",
+    "lang": "hr",
+    "term": "gotovina",
+    "translations": {
+      "en": [
+        "cash"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 348
+  },
+  {
+    "id": "hr-vocab-shopping-009",
+    "lang": "hr",
+    "term": "kreditna kartica",
+    "translations": {
+      "en": [
+        "credit card"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 349
+  },
+  {
+    "id": "hr-vocab-shopping-010",
+    "lang": "hr",
+    "term": "priznanica",
+    "translations": {
+      "en": [
+        "receipt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 350
+  },
+  {
+    "id": "hr-vocab-shopping-011",
+    "lang": "hr",
+    "term": "veličina",
+    "translations": {
+      "en": [
+        "size"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 351
+  },
+  {
+    "id": "hr-vocab-shopping-012",
+    "lang": "hr",
+    "term": "boja",
+    "translations": {
+      "en": [
+        "color"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 352
+  },
+  {
+    "id": "hr-vocab-shopping-013",
+    "lang": "hr",
+    "term": "blagajna",
+    "translations": {
+      "en": [
+        "checkout",
+        "cash register"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 353
+  },
+  {
+    "id": "hr-vocab-shopping-014",
+    "lang": "hr",
+    "term": "zamjena",
+    "translations": {
+      "en": [
+        "exchange",
+        "return"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 354
+  },
+  {
+    "id": "hr-vocab-shopping-015",
+    "lang": "hr",
+    "term": "radno vrijeme",
+    "translations": {
+      "en": [
+        "opening hours"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 355
+  },
+  {
+    "id": "hr-vocab-shopping-016",
+    "lang": "hr",
+    "term": "platiti",
+    "translations": {
+      "en": [
+        "to pay"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 356
+  },
+  {
+    "id": "hr-vocab-shopping-017",
+    "lang": "hr",
+    "term": "kupiti",
+    "translations": {
+      "en": [
+        "to buy"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 357
+  },
+  {
+    "id": "hr-vocab-shopping-018",
+    "lang": "hr",
+    "term": "prodati",
+    "translations": {
+      "en": [
+        "to sell"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 358
+  },
+  {
+    "id": "hr-vocab-shopping-019",
+    "lang": "hr",
+    "term": "koštati",
+    "translations": {
+      "en": [
+        "to cost"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 359
+  },
+  {
+    "id": "hr-vocab-shopping-020",
+    "lang": "hr",
+    "term": "isprobati",
+    "translations": {
+      "en": [
+        "to try on"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 360
+  },
+  {
+    "id": "hr-vocab-shopping-021",
+    "lang": "hr",
+    "term": "cipele",
+    "translations": {
+      "en": [
+        "shoes"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 361
+  },
+  {
+    "id": "hr-vocab-shopping-022",
+    "lang": "hr",
+    "term": "odjeća",
+    "translations": {
+      "en": [
+        "clothing"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 362
+  },
+  {
+    "id": "hr-vocab-shopping-023",
+    "lang": "hr",
+    "term": "košulja",
+    "translations": {
+      "en": [
+        "shirt"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 363
+  },
+  {
+    "id": "hr-vocab-shopping-024",
+    "lang": "hr",
+    "term": "hlače",
+    "translations": {
+      "en": [
+        "pants"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 364
+  },
+  {
+    "id": "hr-vocab-shopping-025",
+    "lang": "hr",
+    "term": "jakna",
+    "translations": {
+      "en": [
+        "jacket"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 365
+  },
+  {
+    "id": "hr-vocab-shopping-026",
+    "lang": "hr",
+    "term": "povoljno",
+    "translations": {
+      "en": [
+        "affordable"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 366
+  },
+  {
+    "id": "hr-vocab-shopping-027",
+    "lang": "hr",
+    "term": "preskupo",
+    "translations": {
+      "en": [
+        "too expensive"
+      ]
+    },
+    "pos": "adjective",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 367
+  },
+  {
+    "id": "hr-vocab-shopping-028",
+    "lang": "hr",
+    "term": "marka",
+    "translations": {
+      "en": [
+        "brand"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 368
+  },
+  {
+    "id": "hr-vocab-shopping-029",
+    "lang": "hr",
+    "term": "torba",
+    "translations": {
+      "en": [
+        "bag"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 369
+  },
+  {
+    "id": "hr-vocab-shopping-030",
+    "lang": "hr",
+    "term": "novčanik",
+    "translations": {
+      "en": [
+        "wallet"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "shopping"
+    ],
+    "frequencyRank": 370
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-001",
+    "lang": "hr",
+    "term": "sport",
+    "translations": {
+      "en": [
+        "sport"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 371
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-002",
+    "lang": "hr",
+    "term": "nogomet",
+    "translations": {
+      "en": [
+        "soccer",
+        "football"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 372
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-003",
+    "lang": "hr",
+    "term": "košarka",
+    "translations": {
+      "en": [
+        "basketball"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 373
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-004",
+    "lang": "hr",
+    "term": "tenis",
+    "translations": {
+      "en": [
+        "tennis"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 374
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-005",
+    "lang": "hr",
+    "term": "plivanje",
+    "translations": {
+      "en": [
+        "swimming"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 375
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-006",
+    "lang": "hr",
+    "term": "trčanje",
+    "translations": {
+      "en": [
+        "running"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 376
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-007",
+    "lang": "hr",
+    "term": "momčad",
+    "translations": {
+      "en": [
+        "team"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 377
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-008",
+    "lang": "hr",
+    "term": "igrač",
+    "translations": {
+      "en": [
+        "player"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 378
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-009",
+    "lang": "hr",
+    "term": "trener",
+    "translations": {
+      "en": [
+        "coach"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 379
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-010",
+    "lang": "hr",
+    "term": "utakmica",
+    "translations": {
+      "en": [
+        "game",
+        "match"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 380
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-011",
+    "lang": "hr",
+    "term": "pobjeda",
+    "translations": {
+      "en": [
+        "victory",
+        "win"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 381
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-012",
+    "lang": "hr",
+    "term": "poraz",
+    "translations": {
+      "en": [
+        "defeat",
+        "loss"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 382
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-013",
+    "lang": "hr",
+    "term": "teretana",
+    "translations": {
+      "en": [
+        "gym"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 383
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-014",
+    "lang": "hr",
+    "term": "trening",
+    "translations": {
+      "en": [
+        "training",
+        "workout"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 384
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-015",
+    "lang": "hr",
+    "term": "natjecanje",
+    "translations": {
+      "en": [
+        "competition"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 385
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-016",
+    "lang": "hr",
+    "term": "hobi",
+    "translations": {
+      "en": [
+        "hobby"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 386
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-017",
+    "lang": "hr",
+    "term": "čitati",
+    "translations": {
+      "en": [
+        "to read"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 387
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-018",
+    "lang": "hr",
+    "term": "planinariti",
+    "translations": {
+      "en": [
+        "to hike"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 388
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-019",
+    "lang": "hr",
+    "term": "voziti bicikl",
+    "translations": {
+      "en": [
+        "to cycle"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 389
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-020",
+    "lang": "hr",
+    "term": "pecati",
+    "translations": {
+      "en": [
+        "to fish"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 390
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-021",
+    "lang": "hr",
+    "term": "vrtlariti",
+    "translations": {
+      "en": [
+        "to garden"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 391
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-022",
+    "lang": "hr",
+    "term": "plesati",
+    "translations": {
+      "en": [
+        "to dance"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 392
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-023",
+    "lang": "hr",
+    "term": "fotografirati",
+    "translations": {
+      "en": [
+        "to take photos"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 393
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-024",
+    "lang": "hr",
+    "term": "skupljati",
+    "translations": {
+      "en": [
+        "to collect"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 394
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-025",
+    "lang": "hr",
+    "term": "pobijediti",
+    "translations": {
+      "en": [
+        "to win"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 395
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-026",
+    "lang": "hr",
+    "term": "izgubiti",
+    "translations": {
+      "en": [
+        "to lose"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 396
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-027",
+    "lang": "hr",
+    "term": "trenirati",
+    "translations": {
+      "en": [
+        "to train",
+        "to practice"
+      ]
+    },
+    "pos": "verb",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 397
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-028",
+    "lang": "hr",
+    "term": "navijač",
+    "translations": {
+      "en": [
+        "fan"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 398
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-029",
+    "lang": "hr",
+    "term": "stadion",
+    "translations": {
+      "en": [
+        "stadium"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 399
+  },
+  {
+    "id": "hr-vocab-sports-hobbies-030",
+    "lang": "hr",
+    "term": "medalja",
+    "translations": {
+      "en": [
+        "medal"
+      ]
+    },
+    "pos": "noun",
+    "tags": [
+      "sports-hobbies"
+    ],
+    "frequencyRank": 400
   }
 ]
