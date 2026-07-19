@@ -28,3 +28,24 @@ export function checkAnswer(exercise: Exercise, userAnswer: UserAnswer): boolean
       return false;
   }
 }
+
+// Human-readable correct answer, shown to the user after an incorrect
+// attempt so they always learn the right answer rather than being left to
+// guess.
+export function formatSolution(exercise: Exercise): string {
+  switch (exercise.type) {
+    case "multiple-choice":
+      return Array.isArray(exercise.answer) ? exercise.answer[0] : exercise.answer;
+    case "fill-blank":
+    case "translate": {
+      const answers = Array.isArray(exercise.answer) ? exercise.answer : [exercise.answer];
+      return answers.join(" / ");
+    }
+    case "reorder": {
+      const tokens = Array.isArray(exercise.answer) ? exercise.answer : [exercise.answer];
+      return tokens.join(" ");
+    }
+    default:
+      return "";
+  }
+}

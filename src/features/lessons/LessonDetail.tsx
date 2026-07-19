@@ -14,6 +14,7 @@ import { MultipleChoice } from "./exercises/MultipleChoice";
 import { FillBlank } from "./exercises/FillBlank";
 import { Reorder } from "./exercises/Reorder";
 import { TranslateExercise } from "./exercises/TranslateExercise";
+import { formatSolution } from "./exercises/checkAnswer";
 import type { Exercise } from "../../types/content";
 
 export function LessonDetail() {
@@ -94,9 +95,20 @@ export function LessonDetail() {
               <TranslateExercise exercise={exercise} onAnswer={(correct) => handleAnswer(exercise, correct)} />
             )}
             {answered && (
-              <p className={`mt-2 text-sm ${results[exercise.id] ? "text-emerald-600 dark:text-emerald-400" : "text-rose-600 dark:text-rose-400"}`}>
-                {results[exercise.id] ? "Correct!" : "Not quite — added to your review deck."}
-              </p>
+              <div className="mt-2 text-sm">
+                <p className={results[exercise.id] ? "text-emerald-600 dark:text-emerald-400" : "text-rose-600 dark:text-rose-400"}>
+                  {results[exercise.id]
+                    ? "Correct!"
+                    : exercise.relatedItemId
+                      ? "Not quite — added to your review deck."
+                      : "Not quite."}
+                </p>
+                {!results[exercise.id] && (
+                  <p className="mt-1 text-slate-600 dark:text-slate-400">
+                    Correct answer: <span className="font-medium">{formatSolution(exercise)}</span>
+                  </p>
+                )}
+              </div>
             )}
           </div>
         );

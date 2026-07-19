@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { checkAnswer } from "./checkAnswer";
+import { checkAnswer, formatSolution } from "./checkAnswer";
 import type { Exercise } from "../../../types/content";
 
 describe("checkAnswer", () => {
@@ -27,5 +27,22 @@ describe("checkAnswer", () => {
     expect(checkAnswer(ex, ["Sono", "le", "tre"])).toBe(true);
     expect(checkAnswer(ex, ["le", "Sono", "tre"])).toBe(false);
     expect(checkAnswer(ex, ["Sono", "le"])).toBe(false);
+  });
+});
+
+describe("formatSolution", () => {
+  it("multiple-choice: shows the single correct option", () => {
+    const ex: Exercise = { id: "1", type: "multiple-choice", prompt: "", answer: "grazie", distractors: ["prego"] };
+    expect(formatSolution(ex)).toBe("grazie");
+  });
+
+  it("fill-blank/translate: joins accepted variants with a slash", () => {
+    const ex: Exercise = { id: "3", type: "translate", prompt: "", answer: ["Lei è insegnante.", "Lei è un'insegnante."] };
+    expect(formatSolution(ex)).toBe("Lei è insegnante. / Lei è un'insegnante.");
+  });
+
+  it("reorder: joins tokens into the full sentence", () => {
+    const ex: Exercise = { id: "4", type: "reorder", prompt: "", answer: ["Sono", "le", "tre"] };
+    expect(formatSolution(ex)).toBe("Sono le tre");
   });
 });
