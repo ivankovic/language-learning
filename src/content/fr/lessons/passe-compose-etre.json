@@ -1,0 +1,38 @@
+{
+  "id": "fr-lesson-passe-compose-etre",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-5",
+  "order": 2,
+  "title": "Passé Composé with Être",
+  "prerequisiteIds": ["fr-lesson-passe-compose-avoir"],
+  "blocks": [
+    { "type": "explanation", "markdown": "A specific set of verbs — mostly motion or state-change verbs like **aller** (to go), **venir** (to come), **arriver** (to arrive), **partir** (to leave) — form the passé composé with **être** instead of avoir: **Je suis allé(e) à la maison** (I went home). This mirrors Italian's essere/avere split, though the exact verb list differs slightly." },
+    { "type": "exercise", "exerciseId": "fr-ex-pc-etre-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-pc-etre-2" },
+    { "type": "explanation", "markdown": "With être, the past participle must **agree in gender and number** with the subject, like an adjective: *elle est **allée***, *ils sont **allés***, *elles sont **allées***." },
+    { "type": "exercise", "exerciseId": "fr-ex-pc-etre-3" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-pc-etre-1",
+      "type": "fill-blank",
+      "prompt": "Elle ___ arrivée à midi. (être — She arrived at noon.)",
+      "answer": "est"
+    },
+    {
+      "id": "fr-ex-pc-etre-2",
+      "type": "multiple-choice",
+      "prompt": "Which auxiliary does \"aller\" (to go) use in the passé composé?",
+      "answer": "être",
+      "distractors": ["avoir", "faire", "aller"]
+    },
+    {
+      "id": "fr-ex-pc-etre-3",
+      "type": "translate",
+      "prompt": "Translate: \"They (feminine) went home.\" (aller — participle agrees: allées)",
+      "answer": ["Elles sont allées à la maison."],
+      "relatedItemId": "fr-vocab-routine-010"
+    }
+  ]
+}

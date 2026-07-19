@@ -134,6 +134,12 @@ describe("content loader", () => {
       "fr-lesson-er-verbs",
       "fr-lesson-word-order",
       "fr-lesson-food-travel",
+      "fr-lesson-reflexive-verbs",
+      "fr-lesson-partitive-articles",
+      "fr-lesson-object-pronouns",
+      "fr-lesson-passe-compose-avoir",
+      "fr-lesson-passe-compose-etre",
+      "fr-lesson-futur-proche",
     ]);
   });
 

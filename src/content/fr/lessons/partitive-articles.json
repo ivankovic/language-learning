@@ -1,0 +1,40 @@
+{
+  "id": "fr-lesson-partitive-articles",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-4",
+  "order": 2,
+  "title": "Partitive Articles",
+  "prerequisiteIds": ["fr-lesson-reflexive-verbs"],
+  "blocks": [
+    { "type": "explanation", "markdown": "French uses a special \"partitive\" article for an unspecified quantity of something — roughly \"some\": **du** (masculine), **de la** (feminine), **de l'** (before a vowel), **des** (plural). *Je mange **du** pain* (I'm eating [some] bread) — Italian and German don't have a direct equivalent; English usually just drops the word entirely." },
+    { "type": "exercise", "exerciseId": "fr-ex-partitive-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-partitive-2" },
+    { "type": "explanation", "markdown": "In a negative sentence, all partitive articles collapse to **de** (or **d'** before a vowel): *Je ne mange pas **de** pain* (I don't eat [any] bread)." },
+    { "type": "exercise", "exerciseId": "fr-ex-partitive-3" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-partitive-1",
+      "type": "multiple-choice",
+      "prompt": "Je bois ___ eau. (I'm drinking [some] water — eau is feminine, starts with a vowel.)",
+      "answer": "de l'",
+      "distractors": ["du", "de la", "des"],
+      "relatedItemId": "fr-vocab-food-002"
+    },
+    {
+      "id": "fr-ex-partitive-2",
+      "type": "fill-blank",
+      "prompt": "Il mange ___ fromage. (du — He's eating [some] cheese — fromage is masculine.)",
+      "answer": "du",
+      "relatedItemId": "fr-vocab-food-006"
+    },
+    {
+      "id": "fr-ex-partitive-3",
+      "type": "translate",
+      "prompt": "Translate: \"I don't eat meat.\" (negative — partitive collapses to de)",
+      "answer": ["Je ne mange pas de viande."],
+      "relatedItemId": "fr-vocab-food-008"
+    }
+  ]
+}

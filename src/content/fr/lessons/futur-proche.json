@@ -1,0 +1,39 @@
+{
+  "id": "fr-lesson-futur-proche",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-5",
+  "order": 3,
+  "title": "Futur Proche (Near Future)",
+  "prerequisiteIds": ["fr-lesson-passe-compose-etre"],
+  "blocks": [
+    { "type": "explanation", "markdown": "For plans and near-future events, French normally uses **aller** (to go) + an infinitive — exactly like English's \"going to\": **Je vais manger** (I'm going to eat). This is far more common in everyday speech than the full future tense." },
+    { "type": "exercise", "exerciseId": "fr-ex-futur-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-futur-2" },
+    { "type": "explanation", "markdown": "Conjugate **aller** to match the subject, and leave the second verb in its plain infinitive form: **Nous allons étudier** (We're going to study), not *Nous allons étudions*." },
+    { "type": "exercise", "exerciseId": "fr-ex-futur-3" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-futur-1",
+      "type": "fill-blank",
+      "prompt": "Je ___ manger. (aller — I'm going to eat.)",
+      "answer": "vais",
+      "relatedItemId": "fr-vocab-routine-004"
+    },
+    {
+      "id": "fr-ex-futur-2",
+      "type": "multiple-choice",
+      "prompt": "Nous ___ étudier ce soir. (aller — We're going to study tonight.)",
+      "answer": "allons",
+      "distractors": ["vais", "va", "vont"],
+      "relatedItemId": "fr-vocab-routine-007"
+    },
+    {
+      "id": "fr-ex-futur-3",
+      "type": "translate",
+      "prompt": "Translate: \"They are going to travel.\"",
+      "answer": ["Ils vont voyager.", "Elles vont voyager."]
+    }
+  ]
+}

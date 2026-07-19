@@ -1,0 +1,40 @@
+{
+  "id": "fr-lesson-reflexive-verbs",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-4",
+  "order": 1,
+  "title": "Reflexive Verbs",
+  "prerequisiteIds": ["fr-lesson-food-travel"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Reflexive verbs like **se laver** (to wash oneself) and **s'habiller** (to get dressed) need a reflexive pronoun that matches the subject: **je me lave**, **tu te laves**, **il/elle/on se lave**, **nous nous lavons**, **vous vous lavez**, **ils/elles se lavent**." },
+    { "type": "exercise", "exerciseId": "fr-ex-reflexive-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-reflexive-2" },
+    { "type": "explanation", "markdown": "Before a vowel sound, **me/te/se** shorten to **m'/t'/s'**: *je m'habille* (I get dressed), not *je me habille*." },
+    { "type": "exercise", "exerciseId": "fr-ex-reflexive-3" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-reflexive-1",
+      "type": "fill-blank",
+      "prompt": "Je ___ lave. (se laver — I wash myself.)",
+      "answer": "me",
+      "relatedItemId": "fr-vocab-routine-002"
+    },
+    {
+      "id": "fr-ex-reflexive-2",
+      "type": "multiple-choice",
+      "prompt": "Nous ___ levons tôt. (se lever — We get up early.)",
+      "answer": "nous",
+      "distractors": ["me", "te", "vous"],
+      "relatedItemId": "fr-vocab-routine-001"
+    },
+    {
+      "id": "fr-ex-reflexive-3",
+      "type": "translate",
+      "prompt": "Translate: \"He gets dressed quickly.\"",
+      "answer": ["Il s'habille rapidement.", "Il s'habille vite."],
+      "relatedItemId": "fr-vocab-routine-003"
+    }
+  ]
+}

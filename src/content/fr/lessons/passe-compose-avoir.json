@@ -1,0 +1,49 @@
+{
+  "id": "fr-lesson-passe-compose-avoir",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-5",
+  "order": 1,
+  "title": "Passé Composé with Avoir",
+  "prerequisiteIds": ["fr-lesson-object-pronouns"],
+  "blocks": [
+    { "type": "explanation", "markdown": "The **passé composé** is French's everyday past tense, similar to Italian's passato prossimo. Most verbs form it with **avoir** (conjugated) + a **past participle**: **J'ai mangé** (I ate). Regular **-er** verbs form their participle with **-é**: *manger* → **mangé**, *parler* → **parlé**." },
+    { "type": "exercise", "exerciseId": "fr-ex-pc-avoir-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-pc-avoir-2" },
+    { "type": "explanation", "markdown": "Some common verbs have irregular participles: *boire* → **bu**, *avoir* → **eu**, *être* → **été**." },
+    { "type": "exercise", "exerciseId": "fr-ex-pc-avoir-3" },
+    { "type": "exercise", "exerciseId": "fr-ex-pc-avoir-4" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-pc-avoir-1",
+      "type": "fill-blank",
+      "prompt": "J'___ mangé une pizza. (avoir — I ate a pizza.)",
+      "answer": "ai",
+      "relatedItemId": "fr-vocab-routine-004"
+    },
+    {
+      "id": "fr-ex-pc-avoir-2",
+      "type": "multiple-choice",
+      "prompt": "What is the past participle of \"parler\" (to speak)?",
+      "answer": "parlé",
+      "distractors": ["parlait", "parler", "parlant"],
+      "relatedItemId": "fr-vocab-routine-009"
+    },
+    {
+      "id": "fr-ex-pc-avoir-3",
+      "type": "multiple-choice",
+      "prompt": "What is the past participle of \"boire\" (to drink)?",
+      "answer": "bu",
+      "distractors": ["boiré", "buvé", "boivé"],
+      "relatedItemId": "fr-vocab-routine-005"
+    },
+    {
+      "id": "fr-ex-pc-avoir-4",
+      "type": "translate",
+      "prompt": "Translate: \"We worked a lot.\"",
+      "answer": ["Nous avons beaucoup travaillé.", "On a beaucoup travaillé."],
+      "relatedItemId": "fr-vocab-routine-006"
+    }
+  ]
+}

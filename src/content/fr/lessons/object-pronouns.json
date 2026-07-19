@@ -1,0 +1,38 @@
+{
+  "id": "fr-lesson-object-pronouns",
+  "lang": "fr",
+  "courseId": "fr-course-a1",
+  "unitId": "fr-unit-4",
+  "order": 3,
+  "title": "Direct Object Pronouns",
+  "prerequisiteIds": ["fr-lesson-partitive-articles"],
+  "blocks": [
+    { "type": "explanation", "markdown": "Direct object pronouns — **le** (him/it, masc.), **la** (her/it, fem.), **les** (them) — replace a noun already mentioned, and go **before** the conjugated verb (unlike English, which keeps the object after the verb): *Je mange **la pizza*** → *Je **la** mange* (I'm eating it)." },
+    { "type": "exercise", "exerciseId": "fr-ex-object-1" },
+    { "type": "exercise", "exerciseId": "fr-ex-object-2" },
+    { "type": "explanation", "markdown": "**Le/la** shorten to **l'** before a vowel sound: *Je l'aime* (I love him/her/it)." },
+    { "type": "exercise", "exerciseId": "fr-ex-object-3" }
+  ],
+  "exercises": [
+    {
+      "id": "fr-ex-object-1",
+      "type": "multiple-choice",
+      "prompt": "Tu vois le train? Oui, je ___ vois. (Do you see the train? Yes, I see it.)",
+      "answer": "le",
+      "distractors": ["la", "les", "l'"],
+      "relatedItemId": "fr-vocab-travel-001"
+    },
+    {
+      "id": "fr-ex-object-2",
+      "type": "fill-blank",
+      "prompt": "Tu aimes la pizza? Oui, je ___ aime. (Do you like pizza? Yes, I like it.)",
+      "answer": "la"
+    },
+    {
+      "id": "fr-ex-object-3",
+      "type": "translate",
+      "prompt": "Translate: \"I love them.\" (les — direct object pronoun, before the verb)",
+      "answer": ["Je les aime."]
+    }
+  ]
+}
