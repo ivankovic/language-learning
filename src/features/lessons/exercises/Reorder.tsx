@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import type { Exercise } from "../../../types/content";
 import { checkAnswer } from "./checkAnswer";
 import { Button } from "../../../components/Button";
+import { useT } from "../../../i18n/useT";
 
 function shuffle<T>(arr: T[]): T[] {
   const copy = [...arr];
@@ -19,6 +20,7 @@ export function Reorder({
   exercise: Exercise;
   onAnswer: (correct: boolean) => void;
 }) {
+  const t = useT();
   const tokens = Array.isArray(exercise.answer) ? exercise.answer : [exercise.answer];
   const bank = useMemo(() => shuffle(tokens.map((t, i) => ({ token: t, key: `${t}-${i}` }))), [exercise]);
 
@@ -61,7 +63,7 @@ export function Reorder({
         ))}
       </div>
       <Button className="w-full" onClick={submit} disabled={submitted || selectedKeys.length !== tokens.length}>
-        Check
+        {t("exercise.check")}
       </Button>
     </div>
   );

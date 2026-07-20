@@ -11,22 +11,26 @@ import { getLanguage } from "../../content/languages";
 import { speak, isTtsAvailable } from "../../speech/tts";
 import { Button } from "../../components/Button";
 import { Screen } from "../../components/Screen";
+import { useT } from "../../i18n/useT";
+import { localizedDeckTitle, resolveVocabTranslation } from "../../content/localize";
 import type { QueueItem } from "../../srs/queue";
 import type { CardState } from "../../types/user";
 import type { Grade } from "../../srs/types";
+import type { TranslationKey } from "../../i18n/dictionary";
 
 type Props =
   | { mode: "extra" }
   | { mode: "embedded"; items: QueueItem[]; onComplete: (stats: { reviewed: number }) => void };
 
-const GRADES: { grade: Grade; label: string; variant: "secondary" | "primary" }[] = [
-  { grade: 1, label: "Again", variant: "secondary" },
-  { grade: 2, label: "Hard", variant: "secondary" },
-  { grade: 3, label: "Good", variant: "primary" },
-  { grade: 4, label: "Easy", variant: "primary" },
+const GRADES: { grade: Grade; key: TranslationKey; variant: "secondary" | "primary" }[] = [
+  { grade: 1, key: "review.gradeAgain", variant: "secondary" },
+  { grade: 2, key: "review.gradeHard", variant: "secondary" },
+  { grade: 3, key: "review.gradeGood", variant: "primary" },
+  { grade: 4, key: "review.gradeEasy", variant: "primary" },
 ];
 
 export function FlashcardReview(props: Props) {
+  const t = useT();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const deckId = props.mode === "extra" ? searchParams.get("deck") : null;
@@ -86,14 +90,15 @@ export function FlashcardReview(props: Props) {
 
   if (!lang || !content || !queue) {
     return (
-      <Screen title="Review">
-        <p className="text-slate-600 dark:text-slate-400">Loading…</p>
+      <Screen title={t("review.title")}>
+        <p className="text-slate-600 dark:text-slate-400">{t("common.loading")}</p>
       </Screen>
     );
   }
 
-  const deckTitle = deckId ? content.decks.find((d) => d.id === deckId)?.title : undefined;
-  const screenTitle = deckTitle ?? "Review";
+  const knownLang = profile?.knownLangs[0] ?? "en";
+  const deck = deckId ? content.decks.find((d) => d.id === deckId) : undefined;
+  const screenTitle = deck ? localizedDeckTitle(deck, knownLang) : t("review.title");
 
   const item = queue[index];
   if (!item || !current) {
@@ -101,9 +106,9 @@ export function FlashcardReview(props: Props) {
       return (
         <Screen title={screenTitle}>
           <p className="mb-4 text-slate-600 dark:text-slate-400">
-            {deckId ? "Nothing in this deck yet." : "Nothing left to review right now."}
+            {deckId ? t("review.nothingInDeck") : t("review.nothingToReview")}
           </p>
-          <Button onClick={() => navigate("/")}>Back to Home</Button>
+          <Button onClick={() => navigate("/")}>{t("review.backToHome")}</Button>
         </Screen>
       );
     }
@@ -118,8 +123,7 @@ export function FlashcardReview(props: Props) {
   }
 
   const language = getLanguage(lang);
-  const knownLang = profile?.knownLangs[0] ?? "en";
-  const back = vocabItem.translations[knownLang]?.join(", ") ?? "(no translation)";
+  const back = resolveVocabTranslation(vocabItem, knownLang);
   const intervals = revealed ? previewIntervals(current) : null;
 
   async function grade(g: Grade) {
@@ -133,7 +137,7 @@ export function FlashcardReview(props: Props) {
   }
 
   return (
-    <Screen title={props.mode === "extra" ? screenTitle : "Warm-up"}>
+    <Screen title={props.mode === "extra" ? screenTitle : t("practice.warmup")}>
       <div className="mb-4 text-sm text-slate-500">
         {index + 1} / {queue.length}
       </div>
@@ -143,7 +147,7 @@ export function FlashcardReview(props: Props) {
           <button
             onClick={() => speak(vocabItem.term, language?.ttsVoiceHint ?? lang)}
             className="mt-3 text-2xl"
-            aria-label="Play pronunciation"
+            aria-label={t("review.playPronunciationAria")}
           >
             🔊
           </button>
@@ -154,13 +158,13 @@ export function FlashcardReview(props: Props) {
       <div className="mt-6">
         {!revealed ? (
           <Button className="w-full" onClick={() => setRevealed(true)}>
-            Reveal
+            {t("review.reveal")}
           </Button>
         ) : (
           <div className="grid grid-cols-4 gap-2">
-            {GRADES.map(({ grade: g, label, variant }) => (
+            {GRADES.map(({ grade: g, key, variant }) => (
               <Button key={g} variant={variant} onClick={() => grade(g)} className="flex flex-col gap-0.5">
-                <span>{label}</span>
+                <span>{t(key)}</span>
                 {intervals && <span className="text-xs opacity-70">{formatInterval(intervals[g])}</span>}
               </Button>
             ))}

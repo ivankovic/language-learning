@@ -9,6 +9,8 @@ import { computeStreak } from "../../db/queries/activity";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
 import { FlashcardReview } from "../review/FlashcardReview";
+import { useT } from "../../i18n/useT";
+import { localizedLessonTitle } from "../../content/localize";
 import {
   loadSession,
   saveSession,
@@ -19,6 +21,9 @@ import {
 
 const WARMUP_SIZE = 6;
 
+// lessonTitle is stored as English here (session state has no known-lang
+// context of its own) and localized where it's displayed, same as every
+// other title in the app.
 async function buildInitialSession(lang: string, content: import("../../content/loader").LoadedLanguageContent, journalIntervalDays: number | null): Promise<PracticeSessionState> {
   const priorityItemIds = await getRecentFlaggedVocabIds(lang, journalIntervalDays ?? 3);
   const full = await assembleQueue(lang, content, { priorityItemIds, limit: 30 });
@@ -53,9 +58,11 @@ async function buildInitialSession(lang: string, content: import("../../content/
 }
 
 export function PracticeSession() {
+  const t = useT();
   const navigate = useNavigate();
   const profile = useProfile();
   const lang = profile?.activeTargetLang;
+  const knownLang = profile?.knownLangs[0] ?? "en";
   const content = useLanguageContent(lang);
 
   const [session, setSession] = useState<PracticeSessionState | null>(null);
@@ -82,13 +89,15 @@ export function PracticeSession() {
 
   if (!session || !content) {
     return (
-      <Screen title="Practice">
-        <p className="text-slate-600 dark:text-slate-400">Preparing your session…</p>
+      <Screen title={t("practice.title")}>
+        <p className="text-slate-600 dark:text-slate-400">{t("practice.preparing")}</p>
       </Screen>
     );
   }
 
   const step = resolveNextStep(session, "start");
+  const sessionLesson = session.lessonId ? content.lessons.find((l) => l.id === session.lessonId) : undefined;
+  const sessionLessonTitle = sessionLesson ? localizedLessonTitle(sessionLesson, knownLang) : session.lessonTitle;
 
   if (step === "warmup") {
     return (
@@ -104,13 +113,13 @@ export function PracticeSession() {
 
   if (step === "lesson") {
     return (
-      <Screen title="Practice">
+      <Screen title={t("practice.title")}>
         <div className="flex min-h-[50vh] flex-col items-center justify-center text-center">
-          <p className="mb-2 text-sm text-slate-500">Next up</p>
-          <h2 className="mb-6 text-2xl font-semibold">{session.lessonTitle}</h2>
-          <Button onClick={() => navigate(`/lessons/${session.lessonId}?practice=1`)}>Start Lesson</Button>
+          <p className="mb-2 text-sm text-slate-500">{t("practice.nextUp")}</p>
+          <h2 className="mb-6 text-2xl font-semibold">{sessionLessonTitle}</h2>
+          <Button onClick={() => navigate(`/lessons/${session.lessonId}?practice=1`)}>{t("practice.startLesson")}</Button>
           <Button variant="ghost" className="mt-2" onClick={() => commit({ ...session, lessonCompleted: true })}>
-            Skip for now
+            {t("practice.skipForNow")}
           </Button>
         </div>
       </Screen>
@@ -119,13 +128,13 @@ export function PracticeSession() {
 
   if (step === "journal") {
     return (
-      <Screen title="Practice">
+      <Screen title={t("practice.title")}>
         <div className="flex min-h-[50vh] flex-col items-center justify-center text-center">
-          <p className="mb-2 text-sm text-slate-500">Time to write</p>
-          <h2 className="mb-6 text-2xl font-semibold">Journal Entry</h2>
-          <Button onClick={() => navigate("/journal/new?practice=1")}>Write Entry</Button>
+          <p className="mb-2 text-sm text-slate-500">{t("practice.timeToWrite")}</p>
+          <h2 className="mb-6 text-2xl font-semibold">{t("practice.journalEntry")}</h2>
+          <Button onClick={() => navigate("/journal/new?practice=1")}>{t("practice.writeEntry")}</Button>
           <Button variant="ghost" className="mt-2" onClick={() => commit({ ...session, journalCompleted: true })}>
-            Skip for now
+            {t("practice.skipForNow")}
           </Button>
         </div>
       </Screen>
@@ -169,23 +178,24 @@ function SessionSummary({
   onLoadStreak: () => void;
   onDone: () => void;
 }) {
+  const t = useT();
   useEffect(() => {
     onLoadStreak();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
-    <Screen title="Session Complete">
+    <Screen title={t("practice.sessionComplete")}>
       <div className="flex min-h-[60vh] flex-col items-center justify-center text-center">
         <p className="mb-2 text-5xl">🎉</p>
-        <p className="mb-6 text-lg text-slate-700 dark:text-slate-300">Nice work!</p>
+        <p className="mb-6 text-lg text-slate-700 dark:text-slate-300">{t("practice.niceWork")}</p>
         <div className="mb-8 grid w-full grid-cols-3 gap-3">
-          <Stat label="Cards" value={session.reviewedCount} />
-          <Stat label="Lesson" value={session.lessonCompleted ? "✅" : "—"} />
-          <Stat label="Streak" value={streak !== null ? `🔥${streak}` : "…"} />
+          <Stat label={t("practice.cards")} value={session.reviewedCount} />
+          <Stat label={t("practice.lesson")} value={session.lessonCompleted ? "✅" : "—"} />
+          <Stat label={t("practice.streak")} value={streak !== null ? `🔥${streak}` : "…"} />
         </div>
         <Button className="w-full" onClick={onDone}>
-          Done
+          {t("practice.done")}
         </Button>
       </div>
     </Screen>

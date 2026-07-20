@@ -5,9 +5,13 @@ import { getRandomCompleteEntry } from "../../db/queries/journal";
 import { getPromptById } from "../../content/journalPrompts";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
+import { useT, useUiLang } from "../../i18n/useT";
+import { localizedLanguageName } from "../../i18n/languageNames";
 import type { JournalEntry } from "../../types/user";
 
 export function RememberScreen() {
+  const t = useT();
+  const uiLang = useUiLang();
   const navigate = useNavigate();
   const profile = useProfile();
   const lang = profile?.activeTargetLang;
@@ -25,18 +29,14 @@ export function RememberScreen() {
   }
 
   return (
-    <Screen title="Remember">
+    <Screen title={t("journal.remember")}>
       <button onClick={() => navigate("/journal")} className="mb-6 text-sm text-slate-600 dark:text-slate-400">
-        ← Back
+        {t("common.back")}
       </button>
 
-      {entry === undefined && <p className="text-slate-600 dark:text-slate-400">Loading…</p>}
+      {entry === undefined && <p className="text-slate-600 dark:text-slate-400">{t("common.loading")}</p>}
 
-      {entry === null && (
-        <p className="text-slate-600 dark:text-slate-400">
-          No journal entries yet — write one first, then come back here to revisit it at random.
-        </p>
-      )}
+      {entry === null && <p className="text-slate-600 dark:text-slate-400">{t("journal.rememberNoEntries")}</p>}
 
       {entry && (
         <div>
@@ -45,12 +45,12 @@ export function RememberScreen() {
             {getPromptById(entry.promptId).text}
           </p>
 
-          <label className="mb-1 block text-xs text-slate-500">{entry.knownLang.toUpperCase()}</label>
+          <label className="mb-1 block text-xs text-slate-500">{localizedLanguageName(entry.knownLang, uiLang)}</label>
           <p className="mb-4 rounded-xl bg-white px-4 py-3 text-slate-900 ring-1 ring-slate-300 dark:bg-slate-900 dark:text-slate-100 dark:ring-slate-800">
             {entry.originalText}
           </p>
 
-          <label className="mb-1 block text-xs text-slate-500">{entry.targetLang.toUpperCase()}</label>
+          <label className="mb-1 block text-xs text-slate-500">{localizedLanguageName(entry.targetLang, uiLang)}</label>
           <p className="mb-4 rounded-xl bg-white px-4 py-3 text-slate-900 ring-1 ring-slate-300 dark:bg-slate-900 dark:text-slate-100 dark:ring-slate-800">
             {entry.translationAttempt}
           </p>
@@ -62,7 +62,7 @@ export function RememberScreen() {
           )}
 
           <Button className="w-full" onClick={shuffle}>
-            Show another
+            {t("journal.showAnother")}
           </Button>
         </div>
       )}

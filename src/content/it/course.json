@@ -2,5 +2,19 @@
   "id": "it-course-a1",
   "lang": "it",
   "title": "Italian Foundations",
-  "unitIds": ["it-unit-1", "it-unit-2", "it-unit-3", "it-unit-4", "it-unit-5", "it-unit-6", "it-unit-7", "it-unit-8", "it-unit-9", "it-unit-10"]
+  "unitIds": [
+    "it-unit-1",
+    "it-unit-2",
+    "it-unit-3",
+    "it-unit-4",
+    "it-unit-5",
+    "it-unit-6",
+    "it-unit-7",
+    "it-unit-8",
+    "it-unit-9",
+    "it-unit-10"
+  ],
+  "titleByLang": {
+    "hr": "Temelji talijanskog jezika"
+  }
 }

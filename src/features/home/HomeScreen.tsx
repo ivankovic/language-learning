@@ -10,8 +10,11 @@ import { Screen, SettingsLink } from "../../components/Screen";
 import { Button } from "../../components/Button";
 import { ContentDisclaimerBanner } from "../../components/ContentDisclaimerBanner";
 import { LanguageSwitcher } from "../../components/LanguageSwitcher";
+import { useT } from "../../i18n/useT";
+import { localizedCourseTitle, localizedDeckTitle, localizedLessonTitle } from "../../content/localize";
 
 export function HomeScreen() {
+  const t = useT();
   const navigate = useNavigate();
   const profile = useProfile();
   const lang = profile?.activeTargetLang;
@@ -34,40 +37,42 @@ export function HomeScreen() {
 
   if (!profile || !content) {
     return (
-      <Screen title="Home">
-        <p className="text-slate-600 dark:text-slate-400">Loading…</p>
+      <Screen title={t("tabs.home")}>
+        <p className="text-slate-600 dark:text-slate-400">{t("common.loading")}</p>
       </Screen>
     );
   }
 
+  const knownLang = profile.knownLangs[0] ?? "en";
   const inProgressLesson = lessonProgress?.find((p) => !p.completedAt);
-  const lessonTitle = inProgressLesson
-    ? content.lessons.find((l) => l.id === inProgressLesson.lessonId)?.title
-    : content.lessons[0]?.title;
+  const inProgressOrFirstLesson = inProgressLesson
+    ? content.lessons.find((l) => l.id === inProgressLesson.lessonId)
+    : content.lessons[0];
+  const lessonTitle = inProgressOrFirstLesson ? localizedLessonTitle(inProgressOrFirstLesson, knownLang) : undefined;
 
   const goalProgress = today ? Math.min(100, Math.round((today.reviewsCount / profile.dailyGoal) * 100)) : 0;
 
   return (
-    <Screen title="Language Learning" action={<SettingsLink />}>
+    <Screen title={t("home.appTitle")} action={<SettingsLink />}>
       <ContentDisclaimerBanner />
       <LanguageSwitcher />
       <div className="mb-6 flex items-center gap-6">
         <div>
           <p className="text-3xl font-semibold">🔥 {streak ?? "…"}</p>
-          <p className="text-xs text-slate-500">day streak</p>
+          <p className="text-xs text-slate-500">{t("home.dayStreak")}</p>
         </div>
         <div className="flex-1">
           <div className="h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
             <div className="h-full bg-sky-500" style={{ width: `${goalProgress}%` }} />
           </div>
           <p className="mt-1 text-xs text-slate-500">
-            {today?.reviewsCount ?? 0} / {profile.dailyGoal} reviews today
+            {t("home.reviewsToday", { count: today?.reviewsCount ?? 0, goal: profile.dailyGoal })}
           </p>
         </div>
       </div>
 
       <Button className="w-full text-base" onClick={() => navigate("/practice")}>
-        Learn
+        {t("home.learn")}
       </Button>
 
       <button
@@ -75,8 +80,10 @@ export function HomeScreen() {
         disabled={dueCount === 0}
         className="mt-3 flex w-full items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-left disabled:cursor-not-allowed disabled:opacity-50 dark:bg-slate-900"
       >
-        <span>Review</span>
-        <span className="text-sm text-slate-600 dark:text-slate-400">{dueCount ?? "…"} due</span>
+        <span>{t("home.review")}</span>
+        <span className="text-sm text-slate-600 dark:text-slate-400">
+          {dueCount === null ? "…" : t("home.dueCount", { count: dueCount })}
+        </span>
       </button>
 
       {lessonTitle && (
@@ -84,14 +91,14 @@ export function HomeScreen() {
           onClick={() => navigate("/lessons")}
           className="mt-3 w-full rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900"
         >
-          <p className="text-xs text-slate-500">{content.course.title}</p>
+          <p className="text-xs text-slate-500">{localizedCourseTitle(content.course, knownLang)}</p>
           <p>{lessonTitle}</p>
         </button>
       )}
 
       {content.decks.length > 0 && (
         <section className="mt-8">
-          <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">Quick vocabulary practice</h2>
+          <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">{t("home.quickVocab")}</h2>
           <div className="flex gap-2 overflow-x-auto pb-1">
             {content.decks.map((deck) => (
               <button
@@ -99,8 +106,8 @@ export function HomeScreen() {
                 onClick={() => navigate(`/review?deck=${deck.id}`)}
                 className="shrink-0 rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900"
               >
-                <p className="text-sm font-medium">{deck.title}</p>
-                <p className="text-xs text-slate-500">{deck.itemIds.length} words</p>
+                <p className="text-sm font-medium">{localizedDeckTitle(deck, knownLang)}</p>
+                <p className="text-xs text-slate-500">{t("home.wordsCount", { count: deck.itemIds.length })}</p>
               </button>
             ))}
           </div>

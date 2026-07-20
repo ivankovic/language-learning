@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useT } from "../i18n/useT";
 
 const DISMISSED_KEY = "content-disclaimer-dismissed";
 const ISSUES_URL = "https://codeberg.org/ivankovic/language-learning/issues";
@@ -13,6 +14,7 @@ function isDismissed(): boolean {
 }
 
 export function ContentDisclaimerBanner() {
+  const t = useT();
   const [dismissed, setDismissed] = useState(isDismissed);
 
   if (dismissed) return null;
@@ -30,20 +32,19 @@ export function ContentDisclaimerBanner() {
     <div className="mb-6 rounded-xl bg-amber-50 px-4 py-3 text-sm text-amber-900 ring-1 ring-amber-200 dark:bg-amber-500/10 dark:text-amber-200 dark:ring-amber-500/20">
       <div className="flex items-start justify-between gap-3">
         <p>
-          ⚠️ This app's vocabulary, translations, and grammar lessons were generated with the help of AI and may
-          contain mistakes. Found an error?{" "}
+          {t("disclaimer.text")}{" "}
           <a href={ISSUES_URL} target="_blank" rel="noreferrer" className="underline">
-            Open an issue
+            {t("disclaimer.openIssue")}
           </a>{" "}
-          or send a{" "}
+          {t("disclaimer.or")}{" "}
           <a href={REPO_URL} target="_blank" rel="noreferrer" className="underline">
-            pull request
+            {t("disclaimer.pullRequest")}
           </a>{" "}
-          on Codeberg.
+          {t("disclaimer.onCodeberg")}
         </p>
         <button
           onClick={dismiss}
-          aria-label="Dismiss"
+          aria-label={t("disclaimer.dismissAria")}
           className="shrink-0 text-lg leading-none text-amber-700 dark:text-amber-300"
         >
           ×

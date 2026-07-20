@@ -5,12 +5,21 @@
   "unitId": "it-unit-1",
   "order": 1,
   "title": "Greetings & Politeness",
+  "titleByLang": { "hr": "Pozdravi i ljubaznost" },
   "prerequisiteIds": [],
   "blocks": [
-    { "type": "explanation", "markdown": "**Ciao** works any time of day, but only with people you know well. For a more formal or time-specific greeting, use **buongiorno** (morning/day), **buonasera** (evening), or **buonanotte** (only when parting for the night, not as a greeting)." },
+    {
+      "type": "explanation",
+      "markdown": "**Ciao** works any time of day, but only with people you know well. For a more formal or time-specific greeting, use **buongiorno** (morning/day), **buonasera** (evening), or **buonanotte** (only when parting for the night, not as a greeting).",
+      "i18n": { "hr": "**Ciao** se koristi u bilo koje doba dana, ali samo s ljudima koje dobro poznaješ. Za formalniji ili vremenski određen pozdrav koristi **buongiorno** (jutro/dan), **buonasera** (večer) ili **buonanotte** (samo kad se opraštaš za noć, ne kao pozdrav pri susretu)." }
+    },
     { "type": "exercise", "exerciseId": "it-ex-greetings-1" },
     { "type": "exercise", "exerciseId": "it-ex-greetings-2" },
-    { "type": "explanation", "markdown": "Politeness words: **per favore** (please), **grazie** (thank you), and **prego** (you're welcome — also used to say \"go ahead\")." },
+    {
+      "type": "explanation",
+      "markdown": "Politeness words: **per favore** (please), **grazie** (thank you), and **prego** (you're welcome — also used to say \"go ahead\").",
+      "i18n": { "hr": "Riječi ljubaznosti: **per favore** (molim), **grazie** (hvala) i **prego** (nema na čemu — koristi se i za \"izvolite\")." }
+    },
     { "type": "exercise", "exerciseId": "it-ex-greetings-3" }
   ],
   "exercises": [
@@ -19,14 +28,16 @@
       "type": "multiple-choice",
       "prompt": "Which greeting would you use in the morning?",
       "answer": "buongiorno",
-      "distractors": ["buonasera", "buonanotte", "arrivederci"]
+      "distractors": ["buonasera", "buonanotte", "arrivederci"],
+      "i18n": { "hr": { "prompt": "Koji pozdrav bi koristio/koristila ujutro?" } }
     },
     {
       "id": "it-ex-greetings-2",
       "type": "fill-blank",
       "prompt": "___, come stai? (informal \"hi\")",
       "answer": "Ciao",
-      "relatedItemId": "it-vocab-greet-001"
+      "relatedItemId": "it-vocab-greet-001",
+      "i18n": { "hr": { "prompt": "___, come stai? (neformalni pozdrav \"bok\")" } }
     },
     {
       "id": "it-ex-greetings-3",
@@ -34,7 +45,8 @@
       "prompt": "How do you say \"thank you\" in Italian?",
       "answer": "grazie",
       "distractors": ["prego", "scusa", "piacere"],
-      "relatedItemId": "it-vocab-greet-007"
+      "relatedItemId": "it-vocab-greet-007",
+      "i18n": { "hr": { "prompt": "Kako se na talijanskom kaže \"hvala\"?" } }
     }
   ]
 }

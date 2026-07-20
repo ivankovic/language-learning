@@ -35,7 +35,10 @@
       "it-vocab-greet-028",
       "it-vocab-greet-029",
       "it-vocab-greet-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Pozdravi i uljudnost"
+    }
   },
   {
     "id": "it-deck-food",

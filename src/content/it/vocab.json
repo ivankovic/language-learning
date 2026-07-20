@@ -7,6 +7,10 @@
       "en": [
         "hi",
         "bye"
+      ],
+      "hr": [
+        "bok",
+        "ćao"
       ]
     },
     "pos": "interjection",
@@ -31,6 +35,10 @@
       "en": [
         "good morning",
         "good day"
+      ],
+      "hr": [
+        "dobro jutro",
+        "dobar dan"
       ]
     },
     "pos": "interjection",
@@ -46,6 +54,9 @@
     "translations": {
       "en": [
         "good evening"
+      ],
+      "hr": [
+        "dobra večer"
       ]
     },
     "pos": "interjection",
@@ -61,6 +72,9 @@
     "translations": {
       "en": [
         "good night"
+      ],
+      "hr": [
+        "laku noć"
       ]
     },
     "pos": "interjection",
@@ -76,6 +90,9 @@
     "translations": {
       "en": [
         "goodbye"
+      ],
+      "hr": [
+        "doviđenja"
       ]
     },
     "pos": "interjection",
@@ -91,6 +108,9 @@
     "translations": {
       "en": [
         "please"
+      ],
+      "hr": [
+        "molim"
       ]
     },
     "pos": "phrase",
@@ -108,6 +128,9 @@
       "en": [
         "thank you",
         "thanks"
+      ],
+      "hr": [
+        "hvala"
       ]
     },
     "pos": "interjection",
@@ -133,6 +156,10 @@
       "en": [
         "you're welcome",
         "please (go ahead)"
+      ],
+      "hr": [
+        "nema na čemu",
+        "izvolite"
       ]
     },
     "pos": "interjection",
@@ -149,6 +176,9 @@
     "translations": {
       "en": [
         "yes"
+      ],
+      "hr": [
+        "da"
       ]
     },
     "pos": "adverb",
@@ -164,6 +194,9 @@
     "translations": {
       "en": [
         "no"
+      ],
+      "hr": [
+        "ne"
       ]
     },
     "pos": "adverb",
@@ -180,6 +213,10 @@
       "en": [
         "sorry",
         "excuse me"
+      ],
+      "hr": [
+        "oprosti",
+        "ispričavam se"
       ]
     },
     "pos": "interjection",
@@ -196,6 +233,9 @@
     "translations": {
       "en": [
         "how are you (informal)"
+      ],
+      "hr": [
+        "kako si (neformalno)"
       ]
     },
     "pos": "phrase",
@@ -212,6 +252,9 @@
       "en": [
         "well",
         "fine"
+      ],
+      "hr": [
+        "dobro"
       ]
     },
     "pos": "adverb",
@@ -228,6 +271,9 @@
       "en": [
         "nice to meet you",
         "pleasure"
+      ],
+      "hr": [
+        "drago mi je"
       ]
     },
     "pos": "noun",
@@ -243,6 +289,9 @@
     "translations": {
       "en": [
         "my name is"
+      ],
+      "hr": [
+        "zovem se"
       ]
     },
     "pos": "phrase",
@@ -1764,6 +1813,9 @@
     "translations": {
       "en": [
         "enjoy your meal"
+      ],
+      "hr": [
+        "dobar tek"
       ]
     },
     "pos": "phrase",
@@ -1779,6 +1831,9 @@
     "translations": {
       "en": [
         "good luck"
+      ],
+      "hr": [
+        "sretno"
       ]
     },
     "pos": "phrase",
@@ -1796,6 +1851,9 @@
       "en": [
         "bless you",
         "cheers"
+      ],
+      "hr": [
+        "nazdravlje"
       ]
     },
     "pos": "interjection",
@@ -1811,6 +1869,9 @@
     "translations": {
       "en": [
         "welcome"
+      ],
+      "hr": [
+        "dobrodošao"
       ]
     },
     "pos": "interjection",
@@ -1826,6 +1887,9 @@
     "translations": {
       "en": [
         "see you"
+      ],
+      "hr": [
+        "vidimo se"
       ]
     },
     "pos": "phrase",
@@ -1841,6 +1905,9 @@
     "translations": {
       "en": [
         "see you soon"
+      ],
+      "hr": [
+        "vidimo se uskoro"
       ]
     },
     "pos": "phrase",
@@ -1856,6 +1923,9 @@
     "translations": {
       "en": [
         "see you later"
+      ],
+      "hr": [
+        "vidimo se poslije"
       ]
     },
     "pos": "phrase",
@@ -1872,6 +1942,9 @@
       "en": [
         "okay",
         "that's fine"
+      ],
+      "hr": [
+        "u redu je"
       ]
     },
     "pos": "phrase",
@@ -1887,6 +1960,9 @@
     "translations": {
       "en": [
         "no problem"
+      ],
+      "hr": [
+        "nema problema"
       ]
     },
     "pos": "phrase",
@@ -1904,6 +1980,10 @@
       "en": [
         "certainly",
         "sure"
+      ],
+      "hr": [
+        "naravno",
+        "sigurno"
       ]
     },
     "pos": "adverb",
@@ -1919,6 +1999,9 @@
     "translations": {
       "en": [
         "maybe"
+      ],
+      "hr": [
+        "možda"
       ]
     },
     "pos": "adverb",
@@ -1935,6 +2018,10 @@
       "en": [
         "if only",
         "maybe"
+      ],
+      "hr": [
+        "kad bi samo",
+        "možda"
       ]
     },
     "pos": "adverb",
@@ -1952,6 +2039,9 @@
       "en": [
         "what a shame",
         "too bad"
+      ],
+      "hr": [
+        "šteta"
       ]
     },
     "pos": "interjection",
@@ -1969,6 +2059,10 @@
       "en": [
         "really",
         "truly"
+      ],
+      "hr": [
+        "stvarno",
+        "zaista"
       ]
     },
     "pos": "adverb",
@@ -1985,6 +2079,10 @@
       "en": [
         "exactly",
         "correct"
+      ],
+      "hr": [
+        "točno",
+        "ispravno"
       ]
     },
     "pos": "adjective",

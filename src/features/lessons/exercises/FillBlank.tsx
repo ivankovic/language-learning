@@ -2,6 +2,7 @@ import { useState } from "react";
 import type { Exercise } from "../../../types/content";
 import { checkAnswer } from "./checkAnswer";
 import { Button } from "../../../components/Button";
+import { useT } from "../../../i18n/useT";
 
 export function FillBlank({
   exercise,
@@ -10,6 +11,7 @@ export function FillBlank({
   exercise: Exercise;
   onAnswer: (correct: boolean) => void;
 }) {
+  const t = useT();
   const [value, setValue] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
@@ -26,11 +28,11 @@ export function FillBlank({
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={(e) => e.key === "Enter" && submit()}
         disabled={submitted}
-        placeholder="Type your answer…"
+        placeholder={t("exercise.typeAnswer")}
         className="w-full rounded-xl bg-white px-4 py-3 text-slate-900 outline-none ring-1 ring-slate-300 focus:ring-sky-500 dark:bg-slate-900 dark:text-slate-100 dark:ring-slate-800"
       />
       <Button className="w-full" onClick={submit} disabled={submitted || !value.trim()}>
-        Check
+        {t("exercise.check")}
       </Button>
     </div>
   );

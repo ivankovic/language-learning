@@ -15,15 +15,19 @@ import { FillBlank } from "./exercises/FillBlank";
 import { Reorder } from "./exercises/Reorder";
 import { TranslateExercise } from "./exercises/TranslateExercise";
 import { formatSolution } from "./exercises/checkAnswer";
+import { useT } from "../../i18n/useT";
+import { localizedLessonTitle, resolveExercise, resolveExplanationMarkdown } from "../../content/localize";
 import type { Exercise } from "../../types/content";
 
 export function LessonDetail() {
+  const t = useT();
   const { lessonId } = useParams<{ lessonId: string }>();
   const [searchParams] = useSearchParams();
   const fromPractice = searchParams.get("practice") === "1";
   const navigate = useNavigate();
   const profile = useProfile();
   const lang = profile?.activeTargetLang;
+  const knownLang = profile?.knownLangs[0] ?? "en";
   const content = useLanguageContent(lang);
   const [results, setResults] = useState<Record<string, boolean>>({});
 
@@ -35,8 +39,8 @@ export function LessonDetail() {
 
   if (!content || !lesson) {
     return (
-      <Screen title="Lesson">
-        <p className="text-slate-600 dark:text-slate-400">Loading…</p>
+      <Screen title={t("lessons.lessonFallbackTitle")}>
+        <p className="text-slate-600 dark:text-slate-400">{t("common.loading")}</p>
       </Screen>
     );
   }
@@ -71,13 +75,14 @@ export function LessonDetail() {
   }
 
   return (
-    <Screen title={lesson.title}>
+    <Screen title={localizedLessonTitle(lesson, knownLang)}>
       {lesson.blocks.map((block, i) => {
         if (block.type === "explanation") {
-          return <MarkdownLite key={i} text={block.markdown} />;
+          return <MarkdownLite key={i} text={resolveExplanationMarkdown(block, knownLang)} />;
         }
-        const exercise = exercisesById.get(block.exerciseId);
-        if (!exercise) return null;
+        const baseExercise = exercisesById.get(block.exerciseId);
+        if (!baseExercise) return null;
+        const exercise = resolveExercise(baseExercise, knownLang);
         const answered = exercise.id in results;
         return (
           <div key={i} className="mb-6 rounded-xl bg-slate-100 dark:bg-slate-900/50 p-4">
@@ -98,14 +103,14 @@ export function LessonDetail() {
               <div className="mt-2 text-sm">
                 <p className={results[exercise.id] ? "text-emerald-600 dark:text-emerald-400" : "text-rose-600 dark:text-rose-400"}>
                   {results[exercise.id]
-                    ? "Correct!"
+                    ? t("lessons.correct")
                     : exercise.relatedItemId
-                      ? "Not quite — added to your review deck."
-                      : "Not quite."}
+                      ? t("lessons.incorrectAddedToReview")
+                      : t("lessons.incorrect")}
                 </p>
                 {!results[exercise.id] && (
                   <p className="mt-1 text-slate-600 dark:text-slate-400">
-                    Correct answer: <span className="font-medium">{formatSolution(exercise)}</span>
+                    {t("lessons.correctAnswer")} <span className="font-medium">{formatSolution(exercise)}</span>
                   </p>
                 )}
               </div>
@@ -115,7 +120,7 @@ export function LessonDetail() {
       })}
 
       <Button className="w-full" disabled={!allAnswered} onClick={finishLesson}>
-        Complete Lesson
+        {t("lessons.completeLesson")}
       </Button>
     </Screen>
   );

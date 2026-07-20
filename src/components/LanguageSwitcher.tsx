@@ -4,9 +4,13 @@ import { languages } from "../content/languages";
 import { hasContentBundle, loadLanguageContent } from "../content/loader";
 import { setActiveTargetLang, addTargetLang } from "../db/queries/profile";
 import { startLesson } from "../db/queries/lessonProgress";
+import { useT, useUiLang } from "../i18n/useT";
+import { localizedLanguageName } from "../i18n/languageNames";
 
 /** Chips for each language the user is learning in parallel, plus "+" to add another. Shown on Home/Lessons/Journal/Progress — not on sub-flow screens (Practice, lesson/journal detail), where switching mid-task would be disruptive. */
 export function LanguageSwitcher() {
+  const t = useT();
+  const uiLang = useUiLang();
   const profile = useProfile();
   const [adding, setAdding] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -45,14 +49,14 @@ export function LanguageSwitcher() {
               }`}
             >
               {lang?.flag ? `${lang.flag} ` : ""}
-              {lang?.name ?? code}
+              {lang ? localizedLanguageName(lang.code, uiLang) : code}
             </button>
           );
         })}
         {addableLanguages.length > 0 && (
           <button
             onClick={() => setAdding((a) => !a)}
-            aria-label="Add a language"
+            aria-label={t("langSwitcher.addLanguageAria")}
             className="rounded-full bg-slate-200 px-3 py-1.5 text-sm text-slate-700 dark:bg-slate-800 dark:text-slate-300"
           >
             +
@@ -69,7 +73,7 @@ export function LanguageSwitcher() {
               onClick={() => addLanguage(l.code)}
               className="block w-full rounded-xl bg-slate-100 px-4 py-2.5 text-left text-sm dark:bg-slate-900"
             >
-              {busy ? "Adding…" : `Learn ${l.flag ? `${l.flag} ` : ""}${l.name}`}
+              {busy ? t("langSwitcher.adding") : t("langSwitcher.learn", { lang: `${l.flag ? `${l.flag} ` : ""}${localizedLanguageName(l.code, uiLang)}` })}
             </button>
           ))}
         </div>

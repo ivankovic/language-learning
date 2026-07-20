@@ -1,13 +1,15 @@
 import { NavLink } from "react-router-dom";
+import { useT } from "../i18n/useT";
 
 const tabs = [
-  { to: "/", label: "Home", icon: "🏠", end: true },
-  { to: "/lessons", label: "Lessons", icon: "📘" },
-  { to: "/journal", label: "Journal", icon: "✍️" },
-  { to: "/progress", label: "Progress", icon: "📈" },
-];
+  { to: "/", key: "tabs.home", icon: "🏠", end: true },
+  { to: "/lessons", key: "tabs.lessons", icon: "📘", end: false },
+  { to: "/journal", key: "tabs.journal", icon: "✍️", end: false },
+  { to: "/progress", key: "tabs.progress", icon: "📈", end: false },
+] as const;
 
 export function BottomTabBar() {
+  const t = useT();
   return (
     <nav
       className="fixed inset-x-0 bottom-0 z-10 flex border-t border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95"
@@ -25,7 +27,7 @@ export function BottomTabBar() {
           }
         >
           <span className="text-lg leading-none">{tab.icon}</span>
-          {tab.label}
+          {t(tab.key)}
         </NavLink>
       ))}
     </nav>

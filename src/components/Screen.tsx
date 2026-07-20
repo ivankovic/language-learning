@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
+import { useT } from "../i18n/useT";
 
 export function Screen({
   title,
@@ -22,11 +23,12 @@ export function Screen({
 }
 
 export function SettingsLink() {
+  const t = useT();
   return (
     <Link
       to="/settings"
       className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-200 text-lg dark:bg-slate-900"
-      aria-label="Settings"
+      aria-label={t("common.settings")}
     >
       ⚙️
     </Link>

@@ -4,69 +4,107 @@
     "courseId": "it-course-a1",
     "title": "Getting Started",
     "order": 1,
-    "lessonIds": ["it-lesson-greetings", "it-lesson-articles"]
+    "lessonIds": [
+      "it-lesson-greetings",
+      "it-lesson-articles"
+    ],
+    "titleByLang": {
+      "hr": "Prvi koraci"
+    }
   },
   {
     "id": "it-unit-2",
     "courseId": "it-course-a1",
     "title": "Essere & Avere",
     "order": 2,
-    "lessonIds": ["it-lesson-essere", "it-lesson-avere", "it-lesson-numbers"]
+    "lessonIds": [
+      "it-lesson-essere",
+      "it-lesson-avere",
+      "it-lesson-numbers"
+    ]
   },
   {
     "id": "it-unit-3",
     "courseId": "it-course-a1",
     "title": "Daily Life",
     "order": 3,
-    "lessonIds": ["it-lesson-are-verbs", "it-lesson-word-order", "it-lesson-food-travel"]
+    "lessonIds": [
+      "it-lesson-are-verbs",
+      "it-lesson-word-order",
+      "it-lesson-food-travel"
+    ]
   },
   {
     "id": "it-unit-4",
     "courseId": "it-course-a1",
     "title": "Verbs in Depth",
     "order": 4,
-    "lessonIds": ["it-lesson-ere-ire-verbs", "it-lesson-modal-verbs", "it-lesson-reflexive-verbs"]
+    "lessonIds": [
+      "it-lesson-ere-ire-verbs",
+      "it-lesson-modal-verbs",
+      "it-lesson-reflexive-verbs"
+    ]
   },
   {
     "id": "it-unit-5",
     "courseId": "it-course-a1",
     "title": "Describing & Connecting",
     "order": 5,
-    "lessonIds": ["it-lesson-adjectives", "it-lesson-prepositions"]
+    "lessonIds": [
+      "it-lesson-adjectives",
+      "it-lesson-prepositions"
+    ]
   },
   {
     "id": "it-unit-6",
     "courseId": "it-course-a1",
     "title": "Talking About the Past",
     "order": 6,
-    "lessonIds": ["it-lesson-passato-prossimo-avere", "it-lesson-passato-prossimo-essere"]
+    "lessonIds": [
+      "it-lesson-passato-prossimo-avere",
+      "it-lesson-passato-prossimo-essere"
+    ]
   },
   {
     "id": "it-unit-7",
     "courseId": "it-course-a1",
     "title": "More Tenses",
     "order": 7,
-    "lessonIds": ["it-lesson-imperfetto", "it-lesson-futuro-semplice"]
+    "lessonIds": [
+      "it-lesson-imperfetto",
+      "it-lesson-futuro-semplice"
+    ]
   },
   {
     "id": "it-unit-8",
     "courseId": "it-course-a1",
     "title": "Comparing & Pronouns",
     "order": 8,
-    "lessonIds": ["it-lesson-comparatives", "it-lesson-direct-object-pronouns", "it-lesson-indirect-object-pronouns"]
+    "lessonIds": [
+      "it-lesson-comparatives",
+      "it-lesson-direct-object-pronouns",
+      "it-lesson-indirect-object-pronouns"
+    ]
   },
   {
     "id": "it-unit-9",
     "courseId": "it-course-a1",
     "title": "Particles & Relative Pronouns",
     "order": 9,
-    "lessonIds": ["it-lesson-ci-ne", "it-lesson-relative-pronouns"]
+    "lessonIds": [
+      "it-lesson-ci-ne",
+      "it-lesson-relative-pronouns"
+    ]
   },
   {
     "id": "it-unit-10",
     "courseId": "it-course-a1",
     "title": "Conditional, Superlatives & Impersonal Si",
     "order": 10,
-    "lessonIds": ["it-lesson-condizionale", "it-lesson-superlative", "it-lesson-impersonal-si"]
+    "lessonIds": [
+      "it-lesson-condizionale",
+      "it-lesson-superlative",
+      "it-lesson-impersonal-si"
+    ]
   }
 ]

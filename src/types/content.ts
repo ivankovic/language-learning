@@ -28,6 +28,10 @@ export type Deck = {
   id: string;
   lang: string;
   title: string;
+  // Per-known-language override of `title`, keyed by known-language code.
+  // Additive/optional: content is translated incrementally, so most decks
+  // only have `title` (English) until a batch fills in `titleByLang`.
+  titleByLang?: Record<string, string>;
   courseId?: string;
   itemIds: string[];
 };
@@ -38,11 +42,24 @@ export type Unit = {
   id: string;
   courseId: string;
   title: string;
+  titleByLang?: Record<string, string>;
   order: number;
   lessonIds: string[];
 };
 
 export type ExerciseType = "multiple-choice" | "fill-blank" | "reorder" | "translate";
+
+// Per-known-language override for an exercise. Fields are all optional and
+// only the ones that need localizing (e.g. the known-language instruction
+// text) are set — anything omitted falls back to the exercise's base
+// (English) field. `answer`/`distractors` are only overridden when they
+// themselves are known-language text (e.g. an English gloss being tested),
+// not when they're target-language content that doesn't change per learner.
+export type ExerciseLocalization = {
+  prompt?: string;
+  answer?: string | string[];
+  distractors?: string[];
+};
 
 export type Exercise = {
   id: string;
@@ -53,10 +70,11 @@ export type Exercise = {
   // Links this exercise to a VocabItem so a wrong answer can surface/create
   // an SRS card for that word ("wrong exercises can spawn review cards").
   relatedItemId?: string;
+  i18n?: Record<string, ExerciseLocalization>;
 };
 
 export type LessonBlock =
-  | { type: "explanation"; markdown: string }
+  | { type: "explanation"; markdown: string; i18n?: Record<string, string> }
   | { type: "exercise"; exerciseId: string };
 
 export type GrammarLesson = {
@@ -66,6 +84,7 @@ export type GrammarLesson = {
   unitId?: string;
   order: number;
   title: string;
+  titleByLang?: Record<string, string>;
   prerequisiteIds?: string[];
   blocks: LessonBlock[];
   exercises: Exercise[]; // referenced by id from `blocks`
@@ -75,6 +94,7 @@ export type Course = {
   id: string;
   lang: string;
   title: string;
+  titleByLang?: Record<string, string>;
   unitIds: string[];
 };
 

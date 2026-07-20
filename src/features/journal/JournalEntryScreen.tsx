@@ -15,6 +15,8 @@ import { generateId } from "../../lib/generateId";
 import { buildDeepLUrl, buildGoogleTranslateUrl } from "../../lib/translateLinks";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
+import { useT, useUiLang } from "../../i18n/useT";
+import { localizedLanguageName } from "../../i18n/languageNames";
 import type { JournalEntry } from "../../types/user";
 import type { VocabItem } from "../../types/content";
 
@@ -33,6 +35,8 @@ function newDraft(knownLang: string, targetLang: string): JournalEntry {
 }
 
 export function JournalEntryScreen() {
+  const t = useT();
+  const uiLang = useUiLang();
   const { entryId } = useParams<{ entryId: string }>();
   const [searchParams] = useSearchParams();
   const fromPractice = searchParams.get("practice") === "1";
@@ -147,15 +151,15 @@ export function JournalEntryScreen() {
 
   async function remove() {
     if (!entry) return;
-    if (!window.confirm("Delete this journal entry? This can't be undone.")) return;
+    if (!window.confirm(t("journal.deleteConfirm"))) return;
     await deleteEntry(entry.id);
     navigate("/journal");
   }
 
   if (!entry || !content) {
     return (
-      <Screen title="Journal">
-        <p className="text-slate-600 dark:text-slate-400">Loading…</p>
+      <Screen title={t("journal.title")}>
+        <p className="text-slate-600 dark:text-slate-400">{t("common.loading")}</p>
       </Screen>
     );
   }
@@ -164,9 +168,11 @@ export function JournalEntryScreen() {
   // in the render body would re-randomize on every keystroke/re-render.
   const prompt = getPromptById(entry.promptId);
   const isComplete = entry.status === "complete";
+  const knownLangName = localizedLanguageName(entry.knownLang, uiLang);
+  const targetLangName = localizedLanguageName(entry.targetLang, uiLang);
 
   return (
-    <Screen title={isNew ? "New Entry" : "Journal Entry"}>
+    <Screen title={isNew ? t("journal.newEntryTitle") : t("journal.entryTitle")}>
       {!isNew && (newerEntry || olderEntry) && (
         <div className="mb-4 flex items-center justify-between text-sm">
           <button
@@ -174,21 +180,21 @@ export function JournalEntryScreen() {
             disabled={!newerEntry}
             className="text-sky-600 disabled:opacity-30 dark:text-sky-400"
           >
-            ← Previous
+            {t("journal.previous")}
           </button>
           <button
             onClick={() => olderEntry && navigate(`/journal/${olderEntry.id}`)}
             disabled={!olderEntry}
             className="text-sky-600 disabled:opacity-30 dark:text-sky-400"
           >
-            Next →
+            {t("journal.next")}
           </button>
         </div>
       )}
 
       <p className="mb-4 rounded-xl bg-slate-100 px-4 py-3 text-sm text-slate-700 dark:bg-slate-900 dark:text-slate-300">{prompt.text}</p>
 
-      <label className="mb-1 block text-xs text-slate-500">Write in {entry.knownLang.toUpperCase()}</label>
+      <label className="mb-1 block text-xs text-slate-500">{t("journal.writeIn", { lang: knownLangName })}</label>
       <textarea
         value={entry.originalText}
         onChange={(e) => updateField({ originalText: e.target.value })}
@@ -199,7 +205,7 @@ export function JournalEntryScreen() {
 
       {recognizedWords.length > 0 && (
         <div className="mb-4">
-          <p className="mb-2 text-xs text-slate-500">Tap a word to add it to your review deck:</p>
+          <p className="mb-2 text-xs text-slate-500">{t("journal.tapToAdd")}</p>
           <div className="flex flex-wrap gap-2">
             {recognizedWords.map(({ word, item }) => (
               <button
@@ -223,7 +229,7 @@ export function JournalEntryScreen() {
       )}
 
       <label className="mb-1 block text-xs text-slate-500">
-        Your {entry.targetLang.toUpperCase()} translation attempt
+        {t("journal.yourTranslationAttempt", { lang: targetLangName })}
       </label>
       <textarea
         value={entry.translationAttempt}
@@ -235,14 +241,12 @@ export function JournalEntryScreen() {
 
       {assistant?.capability === "chrome-builtin" && !isComplete && (
         <Button variant="secondary" className="mb-4 w-full" onClick={getFeedback} disabled={loadingFeedback}>
-          {loadingFeedback ? "Getting feedback…" : "Get AI feedback"}
+          {loadingFeedback ? t("journal.gettingFeedback") : t("journal.getAiFeedback")}
         </Button>
       )}
       {assistant?.capability === "unavailable" && (
         <div className="mb-4">
-          <p className="mb-2 text-xs text-slate-500">
-            On-device AI isn't available in this browser — use the word helper above, or check your attempt with:
-          </p>
+          <p className="mb-2 text-xs text-slate-500">{t("journal.aiUnavailable")}</p>
           <div className="flex gap-2">
             <a
               href={buildDeepLUrl(entry.knownLang, entry.targetLang, entry.originalText)}
@@ -251,7 +255,7 @@ export function JournalEntryScreen() {
               aria-disabled={!entry.originalText.trim()}
               className="flex-1 rounded-xl bg-slate-100 px-4 py-2.5 text-center text-sm text-slate-700 aria-disabled:pointer-events-none aria-disabled:opacity-50 dark:bg-slate-900 dark:text-slate-300"
             >
-              Open in DeepL
+              {t("journal.openInDeepL")}
             </a>
             <a
               href={buildGoogleTranslateUrl(entry.knownLang, entry.targetLang, entry.originalText)}
@@ -260,7 +264,7 @@ export function JournalEntryScreen() {
               aria-disabled={!entry.originalText.trim()}
               className="flex-1 rounded-xl bg-slate-100 px-4 py-2.5 text-center text-sm text-slate-700 aria-disabled:pointer-events-none aria-disabled:opacity-50 dark:bg-slate-900 dark:text-slate-300"
             >
-              Open in Google Translate
+              {t("journal.openInGoogleTranslate")}
             </a>
           </div>
         </div>
@@ -272,7 +276,7 @@ export function JournalEntryScreen() {
 
       {!isComplete && (
         <Button className="w-full" onClick={save} disabled={!entry.originalText.trim() || !entry.translationAttempt.trim()}>
-          Save Entry
+          {t("journal.saveEntry")}
         </Button>
       )}
 
@@ -281,7 +285,7 @@ export function JournalEntryScreen() {
           onClick={remove}
           className="mt-4 w-full text-center text-sm text-rose-600 dark:text-rose-400"
         >
-          Delete entry
+          {t("journal.deleteEntry")}
         </button>
       )}
     </Screen>
