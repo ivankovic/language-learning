@@ -33,3 +33,6 @@ bun-debug.log*
 
 # Testing
 coverage
+
+# Editor/AI-tool local config (per-machine, not project source)
+.serena
