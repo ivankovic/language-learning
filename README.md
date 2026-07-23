@@ -16,6 +16,7 @@ Most language apps want an account, a subscription, and your data. This one does
 - **Quick vocabulary practice** — cram any single deck on demand, independent of the daily spaced-repetition queue
 - **A guided daily "Practice" session** that mixes warm-up review, your next lesson, and journal writing into one flow
 - **Parallel multi-language learning** — study several languages side by side and switch between them with one tap; each has its own independent streak and progress
+- **Fully localized content** — the UI and every course's vocabulary, lesson explanations, and exercises are translated into all supported known languages, not just English
 - **Installable PWA** with offline support
 - **Light/dark theme**, auto-following your system setting
 - **Streaks, mastery heatmaps, and a review forecast** on the Progress tab
@@ -24,10 +25,13 @@ Most language apps want an account, a subscription, and your data. This one does
 
 | Language | Vocabulary | Lessons |
 |---|---|---|
-| 🇮🇹 Italian | 810 words | 25 lessons |
-| 🇫🇷 French | 160 words | 8 lessons |
-| 🇩🇪 German | 160 words | 8 lessons |
-| 🇭🇷 Croatian | 160 words | 8 lessons |
+| 🇮🇹 Italian | 1050 words | 25 lessons |
+| 🇫🇷 French | 1000 words | 14 lessons |
+| 🇩🇪 German | 1000 words | 14 lessons |
+| 🇭🇷 Croatian | 1000 words | 14 lessons |
+| 🇪🇸 Spanish | 1000 words | 8 lessons |
+
+The UI is available in all five of these languages plus English, and every course's vocabulary, lesson explanations, and exercises are fully translated into each of the other known languages — so a Croatian speaker learning French gets French content explained in Croatian, a French speaker learning German gets it explained in French, and so on, for all 20 course/known-language combinations.
 
 All content is generated with the help of LLMs and hand-reviewed for grammatical accuracy — but mistakes can slip through. **Found an error?** [Open an issue](https://codeberg.org/ivankovic/language-learning/issues) or send a pull request; see [Contributing](#contributing) below.
 
