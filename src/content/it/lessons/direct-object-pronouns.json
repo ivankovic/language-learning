@@ -5,34 +5,108 @@
   "unitId": "it-unit-8",
   "order": 2,
   "title": "Direct Object Pronouns: lo, la, li, le",
-  "prerequisiteIds": ["it-lesson-comparatives"],
+  "prerequisiteIds": [
+    "it-lesson-comparatives"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Direct object pronouns replace a noun that directly receives the action, and go **before** the conjugated verb: **lo** (him/it, masc. sing.), **la** (her/it, fem. sing.), **li** (them, masc. plural), **le** (them, fem. plural).\n\n*Vedo il film* → *Lo vedo*. *Compro le scarpe* → *Le compro*." },
-    { "type": "exercise", "exerciseId": "it-ex-dop-1" },
-    { "type": "exercise", "exerciseId": "it-ex-dop-2" },
-    { "type": "exercise", "exerciseId": "it-ex-dop-3" }
+    {
+      "type": "explanation",
+      "markdown": "Direct object pronouns replace a noun that directly receives the action, and go **before** the conjugated verb: **lo** (him/it, masc. sing.), **la** (her/it, fem. sing.), **li** (them, masc. plural), **le** (them, fem. plural).\n\n*Vedo il film* → *Lo vedo*. *Compro le scarpe* → *Le compro*.",
+      "i18n": {
+        "hr": "Zamjenice za izravni objekt zamjenjuju imenicu koja izravno prima radnju i dolaze **ispred** spregnutog glagola: **lo** (njega/to, m. jd.), **la** (nju/to, ž. jd.), **li** (njih, m. množina), **le** (njih, ž. množina).\n\n*Vedo il film* → *Lo vedo*. *Compro le scarpe* → *Le compro*.",
+        "fr": "Les pronoms compléments d'objet direct remplacent un nom qui reçoit directement l'action, et se placent **avant** le verbe conjugué : **lo** (le, masc. sing.), **la** (la, fém. sing.), **li** (les, masc. pluriel), **le** (les, fém. pluriel).\n\n*Vedo il film* → *Lo vedo*. *Compro le scarpe* → *Le compro*.",
+        "de": "Direkte Objektpronomen ersetzen ein Substantiv, das die Handlung direkt empfängt, und stehen **vor** dem konjugierten Verb: **lo** (ihn/es, m. Sing.), **la** (sie/es, f. Sing.), **li** (sie, m. Plural), **le** (sie, f. Plural).\n\n*Vedo il film* → *Lo vedo*. *Compro le scarpe* → *Le compro*.",
+        "es": "Los pronombres de objeto directo reemplazan un sustantivo que recibe directamente la acción, y van **antes** del verbo conjugado: **lo** (lo, m. sing.), **la** (la, f. sing.), **li** (los, m. plural), **le** (las, f. plural).\n\n*Vedo il film* → *Lo vedo*. *Compro le scarpe* → *Le compro*."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-dop-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-dop-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-dop-3"
+    }
   ],
   "exercises": [
     {
       "id": "it-ex-dop-1",
       "type": "fill-blank",
       "prompt": "Vedo il film. ___ vedo. (masculine singular)",
-      "answer": "Lo"
+      "answer": "Lo",
+      "i18n": {
+        "hr": {
+          "prompt": "Vedo il film. ___ vedo. (muški rod, jednina)"
+        },
+        "fr": {
+          "prompt": "Vedo il film. ___ vedo. (masculin singulier)"
+        },
+        "de": {
+          "prompt": "Vedo il film. ___ vedo. (männlich, Singular)"
+        },
+        "es": {
+          "prompt": "Vedo il film. ___ vedo. (masculino singular)"
+        }
+      }
     },
     {
       "id": "it-ex-dop-2",
       "type": "multiple-choice",
       "prompt": "Compro le scarpe. ___ compro. (feminine plural)",
       "answer": "Le",
-      "distractors": ["Lo", "La", "Li"],
-      "relatedItemId": "it-vocab-body-022"
+      "distractors": [
+        "Lo",
+        "La",
+        "Li"
+      ],
+      "relatedItemId": "it-vocab-body-022",
+      "i18n": {
+        "hr": {
+          "prompt": "Compro le scarpe. ___ compro. (ženski rod, množina)"
+        },
+        "fr": {
+          "prompt": "Compro le scarpe. ___ compro. (féminin pluriel)"
+        },
+        "de": {
+          "prompt": "Compro le scarpe. ___ compro. (weiblich, Plural)"
+        },
+        "es": {
+          "prompt": "Compro le scarpe. ___ compro. (femenino plural)"
+        }
+      }
     },
     {
       "id": "it-ex-dop-3",
       "type": "translate",
       "prompt": "Translate: \"I read it.\" (referring to \"il libro\", masculine)",
-      "answer": ["Lo leggo."],
-      "relatedItemId": "it-vocab-work-027"
+      "answer": [
+        "Lo leggo."
+      ],
+      "relatedItemId": "it-vocab-work-027",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Čitam ga.\" (odnosi se na \"il libro\", muški rod)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Je le lis.\" (se référant à \"il libro\", masculin)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Ich lese es.\" (bezieht sich auf \"il libro\", männlich)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Lo leo.\" (refiriéndose a \"il libro\", masculino)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Nenaglašene zamjenice u akuzativu: lo, la, li, le",
+    "fr": "Pronoms compléments d'objet direct : lo, la, li, le",
+    "de": "Direkte Objektpronomen: lo, la, li, le",
+    "es": "Pronombres de objeto directo: lo, la, li, le"
+  }
 }

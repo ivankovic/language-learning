@@ -5,14 +5,46 @@
   "unitId": "de-unit-4",
   "order": 1,
   "title": "Modal Verbs",
-  "prerequisiteIds": ["de-lesson-food-travel"],
+  "prerequisiteIds": [
+    "de-lesson-food-travel"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "German's six modal verbs — **können** (can), **müssen** (must), **wollen** (want to), **dürfen** (may/be allowed to), **sollen** (should), **mögen** (like) — are irregular and change their stem vowel in the singular: ich **kann**, du **kannst**, er/sie/es **kann**, wir **können**, ihr **könnt**, sie/Sie **können**." },
-    { "type": "exercise", "exerciseId": "de-ex-modal-1" },
-    { "type": "exercise", "exerciseId": "de-ex-modal-2" },
-    { "type": "explanation", "markdown": "A modal verb sends the main verb to the **very end** of the sentence, in its plain infinitive form: **Ich muss heute arbeiten** (I have to work today) — *muss* stays in second position, *arbeiten* goes last." },
-    { "type": "exercise", "exerciseId": "de-ex-modal-3" },
-    { "type": "exercise", "exerciseId": "de-ex-modal-4" }
+    {
+      "type": "explanation",
+      "markdown": "German's six modal verbs — **können** (can), **müssen** (must), **wollen** (want to), **dürfen** (may/be allowed to), **sollen** (should), **mögen** (like) — are irregular and change their stem vowel in the singular: ich **kann**, du **kannst**, er/sie/es **kann**, wir **können**, ihr **könnt**, sie/Sie **können**.",
+      "i18n": {
+        "it": "I sei verbi modali del tedesco — **können** (potere), **müssen** (dovere), **wollen** (volere), **dürfen** (avere il permesso di), **sollen** (dovrebbe), **mögen** (piacere) — sono irregolari e cambiano la vocale della radice al singolare: ich **kann**, du **kannst**, er/sie/es **kann**, wir **können**, ihr **könnt**, sie/Sie **können**.",
+        "fr": "Les six verbes modaux allemands — **können** (pouvoir), **müssen** (devoir), **wollen** (vouloir), **dürfen** (avoir la permission de), **sollen** (devrait), **mögen** (aimer) — sont irréguliers et changent la voyelle de leur radical au singulier : ich **kann**, du **kannst**, er/sie/es **kann**, wir **können**, ihr **könnt**, sie/Sie **können**.",
+        "hr": "Šest njemačkih modalnih glagola — **können** (moći), **müssen** (morati), **wollen** (htjeti), **dürfen** (smjeti), **sollen** (trebati), **mögen** (voljeti/svidjeti se) — nepravilni su i mijenjaju samoglasnik korijena u jednini: ich **kann**, du **kannst**, er/sie/es **kann**, wir **können**, ihr **könnt**, sie/Sie **können**.",
+        "es": "Los seis verbos modales del alemán — **können** (poder), **müssen** (deber), **wollen** (querer), **dürfen** (tener permiso de), **sollen** (debería), **mögen** (gustar) — son irregulares y cambian la vocal de la raíz en singular: ich **kann**, du **kannst**, er/sie/es **kann**, wir **können**, ihr **könnt**, sie/Sie **können**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-modal-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-modal-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "A modal verb sends the main verb to the **very end** of the sentence, in its plain infinitive form: **Ich muss heute arbeiten** (I have to work today) — *muss* stays in second position, *arbeiten* goes last.",
+      "i18n": {
+        "it": "Un verbo modale manda il verbo principale alla **fine assoluta** della frase, nella sua forma di infinito semplice: **Ich muss heute arbeiten** (Devo lavorare oggi) — *muss* resta al secondo posto, *arbeiten* va alla fine.",
+        "fr": "Un verbe modal envoie le verbe principal à la **toute fin** de la phrase, sous sa forme d'infinitif simple : **Ich muss heute arbeiten** (Je dois travailler aujourd'hui) — *muss* reste en deuxième position, *arbeiten* va à la fin.",
+        "hr": "Modalni glagol šalje glavni glagol na **sam kraj** rečenice, u običnom infinitivu: **Ich muss heute arbeiten** (Danas moram raditi) — *muss* ostaje na drugom mjestu, *arbeiten* ide na kraj.",
+        "es": "Un verbo modal envía el verbo principal al **final absoluto** de la frase, en su forma de infinitivo simple: **Ich muss heute arbeiten** (Tengo que trabajar hoy) — *muss* se queda en segunda posición, *arbeiten* va al final."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-modal-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-modal-4"
+    }
   ],
   "exercises": [
     {
@@ -20,26 +52,99 @@
       "type": "multiple-choice",
       "prompt": "Ich ___ gut Deutsch sprechen. (können — I can speak German well.)",
       "answer": "kann",
-      "distractors": ["kannst", "könnt", "können"]
+      "distractors": [
+        "kannst",
+        "könnt",
+        "können"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Ich ___ gut Deutsch sprechen. (können — So parlare bene tedesco.)"
+        },
+        "fr": {
+          "prompt": "Ich ___ gut Deutsch sprechen. (können — Je sais bien parler allemand.)"
+        },
+        "hr": {
+          "prompt": "Ich ___ gut Deutsch sprechen. (können — Znam dobro govoriti njemački.)"
+        },
+        "es": {
+          "prompt": "Ich ___ gut Deutsch sprechen. (können — Sé hablar bien alemán.)"
+        }
+      }
     },
     {
       "id": "de-ex-modal-2",
       "type": "fill-blank",
       "prompt": "Du ___ jetzt gehen. (müssen — You have to go now.)",
-      "answer": "musst"
+      "answer": "musst",
+      "i18n": {
+        "it": {
+          "prompt": "Du ___ jetzt gehen. (müssen — Devi andare ora.)"
+        },
+        "fr": {
+          "prompt": "Du ___ jetzt gehen. (müssen — Tu dois partir maintenant.)"
+        },
+        "hr": {
+          "prompt": "Du ___ jetzt gehen. (müssen — Moraš sada ići.)"
+        },
+        "es": {
+          "prompt": "Du ___ jetzt gehen. (müssen — Tienes que irte ahora.)"
+        }
+      }
     },
     {
       "id": "de-ex-modal-3",
       "type": "reorder",
       "prompt": "Put these words in order: arbeiten / heute / muss / Ich",
-      "answer": ["Ich", "muss", "heute", "arbeiten"]
+      "answer": [
+        "Ich",
+        "muss",
+        "heute",
+        "arbeiten"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Metti in ordine queste parole: arbeiten / heute / muss / Ich"
+        },
+        "fr": {
+          "prompt": "Mets ces mots dans l'ordre : arbeiten / heute / muss / Ich"
+        },
+        "hr": {
+          "prompt": "Poredaj ove riječi: arbeiten / heute / muss / Ich"
+        },
+        "es": {
+          "prompt": "Ordena estas palabras: arbeiten / heute / muss / Ich"
+        }
+      }
     },
     {
       "id": "de-ex-modal-4",
       "type": "translate",
       "prompt": "Translate: \"We want to eat pizza.\"",
-      "answer": ["Wir wollen Pizza essen."],
-      "relatedItemId": "de-vocab-routine-004"
+      "answer": [
+        "Wir wollen Pizza essen."
+      ],
+      "relatedItemId": "de-vocab-routine-004",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Vogliamo mangiare la pizza.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Nous voulons manger de la pizza.\""
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Želimo jesti pizzu.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Queremos comer pizza.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Verbi modali",
+    "fr": "Verbes modaux",
+    "hr": "Modalni glagoli",
+    "es": "Verbos modales"
+  }
 }

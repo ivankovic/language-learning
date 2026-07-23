@@ -5,12 +5,32 @@
   "unitId": "it-unit-10",
   "order": 1,
   "title": "Conditional: vorrei, potrei, dovrei",
-  "prerequisiteIds": ["it-lesson-relative-pronouns"],
+  "prerequisiteIds": [
+    "it-lesson-relative-pronouns"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Condizionale presente** is used for polite requests, wishes, and hypotheticals — like English \"would/could/should\". Formed on the future-tense stem, with endings **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\n\n*Vorrei un caffè* (I would like a coffee — much more polite than \"voglio\"). *Potresti aiutarmi?* (Could you help me?). *Dovresti studiare di più* (You should study more)." },
-    { "type": "exercise", "exerciseId": "it-ex-cond-1" },
-    { "type": "exercise", "exerciseId": "it-ex-cond-2" },
-    { "type": "exercise", "exerciseId": "it-ex-cond-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Condizionale presente** is used for polite requests, wishes, and hypotheticals — like English \"would/could/should\". Formed on the future-tense stem, with endings **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\n\n*Vorrei un caffè* (I would like a coffee — much more polite than \"voglio\"). *Potresti aiutarmi?* (Could you help me?). *Dovresti studiare di più* (You should study more).",
+      "i18n": {
+        "hr": "**Condizionale presente** koristi se za uljudne zamolbe, želje i pretpostavke — poput hrvatskog \"bih/bi\". Tvori se na osnovi futura, s nastavcima **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\n\n*Vorrei un caffè* (Htio/htjela bih kavu — puno uljudnije nego \"voglio\"). *Potresti aiutarmi?* (Bi li mi mogao/mogla pomoći?). *Dovresti studiare di più* (Trebao/trebala bi više učiti).",
+        "fr": "Le **condizionale presente** s'utilise pour les demandes polies, les souhaits et les hypothèses — comme le conditionnel français. Il se forme sur le radical du futur, avec les terminaisons **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\n\n*Vorrei un caffè* (Je voudrais un café — bien plus poli que \"voglio\"). *Potresti aiutarmi?* (Pourrais-tu m'aider ?). *Dovresti studiare di più* (Tu devrais étudier plus).",
+        "de": "**Condizionale presente** wird für höfliche Bitten, Wünsche und Hypothesen verwendet — wie der deutsche Konjunktiv II (\"würde/könnte/sollte\"). Gebildet auf dem Futurstamm, mit den Endungen **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\n\n*Vorrei un caffè* (Ich hätte gerne einen Kaffee — viel höflicher als \"voglio\"). *Potresti aiutarmi?* (Könntest du mir helfen?). *Dovresti studiare di più* (Du solltest mehr lernen).",
+        "es": "El **condizionale presente** se usa para peticiones educadas, deseos e hipótesis — como el condicional español. Se forma sobre la raíz del futuro, con las terminaciones **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\n\n*Vorrei un caffè* (Quisiera un café — mucho más educado que \"voglio\"). *Potresti aiutarmi?* (¿Podrías ayudarme?). *Dovresti studiare di più* (Deberías estudiar más)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-cond-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-cond-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-cond-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,76 @@
       "type": "fill-blank",
       "prompt": "___ un caffè, per favore. (volere — I would like, polite)",
       "answer": "Vorrei",
-      "relatedItemId": "it-vocab-food-016"
+      "relatedItemId": "it-vocab-food-016",
+      "i18n": {
+        "hr": {
+          "prompt": "___ un caffè, per favore. (volere — htio/htjela bih, uljudno)"
+        },
+        "fr": {
+          "prompt": "___ un caffè, per favore. (volere — je voudrais, poli)"
+        },
+        "de": {
+          "prompt": "___ un caffè, per favore. (volere — ich hätte gerne, höflich)"
+        },
+        "es": {
+          "prompt": "___ un caffè, per favore. (volere — quisiera, educado)"
+        }
+      }
     },
     {
       "id": "it-ex-cond-2",
       "type": "multiple-choice",
       "prompt": "___ aprire la finestra? (potere — Could you open the window?)",
       "answer": "Potresti",
-      "distractors": ["Puoi", "Potevi", "Potrai"],
-      "relatedItemId": "it-vocab-home-012"
+      "distractors": [
+        "Puoi",
+        "Potevi",
+        "Potrai"
+      ],
+      "relatedItemId": "it-vocab-home-012",
+      "i18n": {
+        "hr": {
+          "prompt": "___ aprire la finestra? (potere — Bi li mogao/mogla otvoriti prozor?)"
+        },
+        "fr": {
+          "prompt": "___ aprire la finestra? (potere — Pourrais-tu ouvrir la fenêtre ?)"
+        },
+        "de": {
+          "prompt": "___ aprire la finestra? (potere — Könntest du das Fenster öffnen?)"
+        },
+        "es": {
+          "prompt": "___ aprire la finestra? (potere — ¿Podrías abrir la ventana?)"
+        }
+      }
     },
     {
       "id": "it-ex-cond-3",
       "type": "translate",
       "prompt": "Translate: \"You should study more.\" (informal \"you\")",
-      "answer": ["Dovresti studiare di più."],
-      "relatedItemId": "it-vocab-routine-007"
+      "answer": [
+        "Dovresti studiare di più."
+      ],
+      "relatedItemId": "it-vocab-routine-007",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Trebao/trebala bi više učiti.\" (neformalno \"ti\")"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Tu devrais étudier plus.\" (tutoiement)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Du solltest mehr lernen.\" (informelles \"du\")"
+        },
+        "es": {
+          "prompt": "Traduce: \"Deberías estudiar más.\" (tuteo)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Kondicional: vorrei, potrei, dovrei",
+    "fr": "Conditionnel : vorrei, potrei, dovrei",
+    "de": "Konditional: vorrei, potrei, dovrei",
+    "es": "Condicional: vorrei, potrei, dovrei"
+  }
 }

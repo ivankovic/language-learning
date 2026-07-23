@@ -5,12 +5,32 @@
   "unitId": "es-unit-2",
   "order": 2,
   "title": "Estar (to be) — Location & Temporary States",
-  "prerequisiteIds": ["es-lesson-ser"],
+  "prerequisiteIds": [
+    "es-lesson-ser"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Estar** covers location and temporary or changeable states — how something *is right now*, not what it fundamentally *is*.\n\nyo **estoy** · tú **estás** · él/ella/usted **está** · nosotros **estamos** · vosotros **estáis** · ellos/ustedes **están**\n\n*Estoy cansado* (I'm tired — a temporary state), *El café está caliente* (The coffee is hot [right now] — compare to *ser* for coffee-as-a-category-being-hot-by-nature), *Madrid está en España* (Madrid is in Spain — location always uses estar, even though \"being in a country\" sounds permanent)." },
-    { "type": "exercise", "exerciseId": "es-ex-estar-1" },
-    { "type": "exercise", "exerciseId": "es-ex-estar-2" },
-    { "type": "exercise", "exerciseId": "es-ex-estar-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Estar** covers location and temporary or changeable states — how something *is right now*, not what it fundamentally *is*.\n\nyo **estoy** · tú **estás** · él/ella/usted **está** · nosotros **estamos** · vosotros **estáis** · ellos/ustedes **están**\n\n*Estoy cansado* (I'm tired — a temporary state), *El café está caliente* (The coffee is hot [right now] — compare to *ser* for coffee-as-a-category-being-hot-by-nature), *Madrid está en España* (Madrid is in Spain — location always uses estar, even though \"being in a country\" sounds permanent).",
+      "i18n": {
+        "it": "**Estar** copre il luogo e gli stati temporanei o mutevoli — come qualcosa *è in questo momento*, non ciò che fondamentalmente *è*.\n\nyo **estoy** · tú **estás** · él/ella/usted **está** · nosotros **estamos** · vosotros **estáis** · ellos/ustedes **están**\n\n*Estoy cansado* (Sono stanco — uno stato temporaneo), *El café está caliente* (Il caffè è caldo [in questo momento] — confronta con *ser* per il caffè-come-categoria che è caldo per natura), *Madrid está en España* (Madrid è in Spagna — il luogo usa sempre estar, anche se \"trovarsi in un paese\" suona permanente).",
+        "fr": "**Estar** couvre le lieu et les états temporaires ou changeants — comment quelque chose *est en ce moment*, pas ce qu'il *est* fondamentalement.\n\nyo **estoy** · tú **estás** · él/ella/usted **está** · nosotros **estamos** · vosotros **estáis** · ellos/ustedes **están**\n\n*Estoy cansado* (Je suis fatigué — un état temporaire), *El café está caliente* (Le café est chaud [en ce moment] — compare avec *ser* pour le café-en-tant-que-catégorie qui est chaud par nature), *Madrid está en España* (Madrid est en Espagne — le lieu utilise toujours estar, même si \"se trouver dans un pays\" semble permanent).",
+        "de": "**Estar** deckt Ort sowie vorübergehende oder veränderliche Zustände ab — wie etwas *gerade jetzt ist*, nicht was es grundsätzlich *ist*.\n\nyo **estoy** · tú **estás** · él/ella/usted **está** · nosotros **estamos** · vosotros **estáis** · ellos/ustedes **están**\n\n*Estoy cansado* (Ich bin müde — ein vorübergehender Zustand), *El café está caliente* (Der Kaffee ist [gerade] heiß — vergleiche mit *ser* für Kaffee-als-Kategorie, der von Natur aus heiß ist), *Madrid está en España* (Madrid liegt in Spanien — für Orte wird immer estar verwendet, auch wenn \"sich in einem Land befinden\" dauerhaft klingt).",
+        "hr": "**Estar** pokriva mjesto te privremena ili promjenjiva stanja — kakvo je nešto *upravo sada*, a ne što ono u biti *jest*.\n\nyo **estoy** · tú **estás** · él/ella/usted **está** · nosotros **estamos** · vosotros **estáis** · ellos/ustedes **están**\n\n*Estoy cansado* (Umoran sam — privremeno stanje), *El café está caliente* (Kava je vruća [upravo sada] — usporedi sa *ser* za kavu-kao-kategoriju koja je vruća po prirodi), *Madrid está en España* (Madrid se nalazi u Španjolskoj — za mjesto se uvijek koristi estar, iako \"nalaziti se u državi\" zvuči trajno)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-estar-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-estar-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-estar-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,78 @@
       "type": "fill-blank",
       "prompt": "Yo ___ cansado. (estar — I am tired.)",
       "answer": "estoy",
-      "relatedItemId": "es-vocab-routine-030"
+      "relatedItemId": "es-vocab-routine-030",
+      "i18n": {
+        "it": {
+          "prompt": "Yo ___ cansado. (estar — Sono stanco.)"
+        },
+        "fr": {
+          "prompt": "Yo ___ cansado. (estar — Je suis fatigué.)"
+        },
+        "de": {
+          "prompt": "Yo ___ cansado. (estar — Ich bin müde.)"
+        },
+        "hr": {
+          "prompt": "Yo ___ cansado. (estar — Umoran sam.)"
+        }
+      }
     },
     {
       "id": "es-ex-estar-2",
       "type": "multiple-choice",
       "prompt": "La playa ___ cerca. (estar — The beach is nearby — location.)",
       "answer": "está",
-      "distractors": ["es", "eres", "están"],
-      "relatedItemId": "es-vocab-travel-028"
+      "distractors": [
+        "es",
+        "eres",
+        "están"
+      ],
+      "relatedItemId": "es-vocab-travel-028",
+      "i18n": {
+        "it": {
+          "prompt": "La playa ___ cerca. (estar — La spiaggia è vicina — luogo.)"
+        },
+        "fr": {
+          "prompt": "La playa ___ cerca. (estar — La plage est proche — lieu.)"
+        },
+        "de": {
+          "prompt": "La playa ___ cerca. (estar — Der Strand ist nah — Ort.)"
+        },
+        "hr": {
+          "prompt": "La playa ___ cerca. (estar — Plaža je blizu — mjesto.)"
+        }
+      }
     },
     {
       "id": "es-ex-estar-3",
       "type": "multiple-choice",
       "prompt": "Which verb would you use to say where a city is located?",
       "answer": "estar",
-      "distractors": ["ser", "tener", "haber"]
+      "distractors": [
+        "ser",
+        "tener",
+        "haber"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Quale verbo useresti per dire dove si trova una città?"
+        },
+        "fr": {
+          "prompt": "Quel verbe utiliserais-tu pour dire où se trouve une ville ?"
+        },
+        "de": {
+          "prompt": "Welches Verb würdest du verwenden, um zu sagen, wo sich eine Stadt befindet?"
+        },
+        "hr": {
+          "prompt": "Koji bi glagol koristio/koristila da kažeš gdje se nalazi grad?"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Estar (essere) — luogo e stati temporanei",
+    "fr": "Estar (être) — lieu et états temporaires",
+    "de": "Estar (sein) — Ort und vorübergehende Zustände",
+    "hr": "Estar (biti) — mjesto i privremena stanja"
+  }
 }

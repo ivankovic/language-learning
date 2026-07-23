@@ -5,13 +5,42 @@
   "unitId": "de-unit-5",
   "order": 3,
   "title": "Reflexive Verbs",
-  "prerequisiteIds": ["de-lesson-perfekt-sein"],
+  "prerequisiteIds": [
+    "de-lesson-perfekt-sein"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Reflexive verbs like **sich waschen** (to wash oneself) and **sich anziehen** (to get dressed) need a reflexive pronoun that matches the subject: **ich wasche mich**, **du wäschst dich**, **er/sie/es wäscht sich**, **wir waschen uns**, **ihr wascht euch**, **sie/Sie waschen sich**." },
-    { "type": "exercise", "exerciseId": "de-ex-reflexive-1" },
-    { "type": "exercise", "exerciseId": "de-ex-reflexive-2" },
-    { "type": "explanation", "markdown": "In the Perfekt, reflexive verbs always take **haben**, and the reflexive pronoun goes right after it: **Ich habe mich gewaschen** (I washed myself)." },
-    { "type": "exercise", "exerciseId": "de-ex-reflexive-3" }
+    {
+      "type": "explanation",
+      "markdown": "Reflexive verbs like **sich waschen** (to wash oneself) and **sich anziehen** (to get dressed) need a reflexive pronoun that matches the subject: **ich wasche mich**, **du wäschst dich**, **er/sie/es wäscht sich**, **wir waschen uns**, **ihr wascht euch**, **sie/Sie waschen sich**.",
+      "i18n": {
+        "it": "I verbi riflessivi come **sich waschen** (lavarsi) e **sich anziehen** (vestirsi) richiedono un pronome riflessivo che concorda con il soggetto: **ich wasche mich**, **du wäschst dich**, **er/sie/es wäscht sich**, **wir waschen uns**, **ihr wascht euch**, **sie/Sie waschen sich**.",
+        "fr": "Les verbes réfléchis comme **sich waschen** (se laver) et **sich anziehen** (s'habiller) ont besoin d'un pronom réfléchi qui s'accorde avec le sujet : **ich wasche mich**, **du wäschst dich**, **er/sie/es wäscht sich**, **wir waschen uns**, **ihr wascht euch**, **sie/Sie waschen sich**.",
+        "hr": "Povratni glagoli poput **sich waschen** (oprati se) i **sich anziehen** (obući se) trebaju povratnu zamjenicu koja se slaže sa subjektom — slično hrvatskom \"se\", ali njemački mijenja zamjenicu ovisno o osobi: **ich wasche mich**, **du wäschst dich**, **er/sie/es wäscht sich**, **wir waschen uns**, **ihr wascht euch**, **sie/Sie waschen sich** (hrvatski uvijek koristi samo \"se\", bez obzira na osobu).",
+        "es": "Los verbos reflexivos como **sich waschen** (lavarse) y **sich anziehen** (vestirse) necesitan un pronombre reflexivo que concuerde con el sujeto: **ich wasche mich**, **du wäschst dich**, **er/sie/es wäscht sich**, **wir waschen uns**, **ihr wascht euch**, **sie/Sie waschen sich**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-reflexive-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-reflexive-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "In the Perfekt, reflexive verbs always take **haben**, and the reflexive pronoun goes right after it: **Ich habe mich gewaschen** (I washed myself).",
+      "i18n": {
+        "it": "Nel Perfekt, i verbi riflessivi prendono sempre **haben**, e il pronome riflessivo va subito dopo: **Ich habe mich gewaschen** (Mi sono lavato/a).",
+        "fr": "Au Perfekt, les verbes réfléchis prennent toujours **haben**, et le pronom réfléchi vient juste après : **Ich habe mich gewaschen** (Je me suis lavé(e)).",
+        "hr": "U Perfektu povratni glagoli uvijek uzimaju **haben**, a povratna zamjenica ide odmah iza njega: **Ich habe mich gewaschen** (Oprao/oprala sam se).",
+        "es": "En el Perfekt, los verbos reflexivos siempre llevan **haben**, y el pronombre reflexivo va justo después: **Ich habe mich gewaschen** (Me lavé)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-reflexive-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,76 @@
       "type": "fill-blank",
       "prompt": "Ich wasche ___. (I wash myself.)",
       "answer": "mich",
-      "relatedItemId": "de-vocab-routine-002"
+      "relatedItemId": "de-vocab-routine-002",
+      "i18n": {
+        "it": {
+          "prompt": "Ich wasche ___. (Mi lavo.)"
+        },
+        "fr": {
+          "prompt": "Ich wasche ___. (Je me lave.)"
+        },
+        "hr": {
+          "prompt": "Ich wasche ___. (Perem se.)"
+        },
+        "es": {
+          "prompt": "Ich wasche ___. (Me lavo.)"
+        }
+      }
     },
     {
       "id": "de-ex-reflexive-2",
       "type": "multiple-choice",
       "prompt": "Wir ziehen ___ an. (We get dressed.)",
       "answer": "uns",
-      "distractors": ["mich", "euch", "sich"],
-      "relatedItemId": "de-vocab-routine-003"
+      "distractors": [
+        "mich",
+        "euch",
+        "sich"
+      ],
+      "relatedItemId": "de-vocab-routine-003",
+      "i18n": {
+        "it": {
+          "prompt": "Wir ziehen ___ an. (Ci vestiamo.)"
+        },
+        "fr": {
+          "prompt": "Wir ziehen ___ an. (Nous nous habillons.)"
+        },
+        "hr": {
+          "prompt": "Wir ziehen ___ an. (Oblačimo se.)"
+        },
+        "es": {
+          "prompt": "Wir ziehen ___ an. (Nos vestimos.)"
+        }
+      }
     },
     {
       "id": "de-ex-reflexive-3",
       "type": "translate",
       "prompt": "Translate: \"She washed herself.\" (Perfekt tense)",
-      "answer": ["Sie hat sich gewaschen."],
-      "relatedItemId": "de-vocab-routine-002"
+      "answer": [
+        "Sie hat sich gewaschen."
+      ],
+      "relatedItemId": "de-vocab-routine-002",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Lei si è lavata.\" (tempo Perfekt)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Elle s'est lavée.\" (au Perfekt)"
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Ona se oprala.\" (u Perfektu)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Ella se lavó.\" (en Perfekt)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Verbi riflessivi",
+    "fr": "Verbes réfléchis",
+    "hr": "Povratni glagoli",
+    "es": "Verbos reflexivos"
+  }
 }

@@ -5,13 +5,42 @@
   "unitId": "hr-unit-5",
   "order": 3,
   "title": "Reflexive Verbs",
-  "prerequisiteIds": ["hr-lesson-numbers-with-nouns"],
+  "prerequisiteIds": [
+    "hr-lesson-numbers-with-nouns"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Some Croatian verbs always appear with the small reflexive particle **se**, which — unlike Italian or French reflexive pronouns — never changes for person or number: **zvati se** (to be called), **igrati se** (to play), **radovati se** (to look forward to / be happy about)." },
-    { "type": "exercise", "exerciseId": "hr-ex-reflexive-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-reflexive-2" },
-    { "type": "explanation", "markdown": "Like other clitics, **se** follows the second-position rule: it sits right after the first stressed word or the verb, not necessarily at the end. **Djeca se igraju** (The children are playing) — *se* comes right after the subject *djeca*." },
-    { "type": "exercise", "exerciseId": "hr-ex-reflexive-3" }
+    {
+      "type": "explanation",
+      "markdown": "Some Croatian verbs always appear with the small reflexive particle **se**, which — unlike Italian or French reflexive pronouns — never changes for person or number: **zvati se** (to be called), **igrati se** (to play), **radovati se** (to look forward to / be happy about).",
+      "i18n": {
+        "it": "Alcuni verbi croati compaiono sempre con la piccola particella riflessiva **se**, che — a differenza dei pronomi riflessivi di italiano, francese, tedesco o spagnolo — non cambia mai per persona o numero: **zvati se** (chiamarsi), **igrati se** (giocare), **radovati se** (non vedere l'ora di / essere felice per).",
+        "fr": "Certains verbes croates apparaissent toujours avec la petite particule réfléchie **se**, qui — contrairement aux pronoms réfléchis de l'italien, du français, de l'allemand ou de l'espagnol — ne change jamais selon la personne ou le nombre : **zvati se** (s'appeler), **igrati se** (jouer), **radovati se** (avoir hâte de / se réjouir de).",
+        "de": "Manche kroatischen Verben stehen immer mit dem kleinen reflexiven Partikel **se**, der sich — anders als die reflexiven Pronomen im Italienischen, Französischen, Deutschen oder Spanischen — nie nach Person oder Zahl ändert: **zvati se** (heißen), **igrati se** (spielen), **radovati se** (sich freuen auf).",
+        "es": "Algunos verbos croatas siempre aparecen con la pequeña partícula reflexiva **se**, que — a diferencia de los pronombres reflexivos del italiano, francés, alemán o español — nunca cambia según la persona o el número: **zvati se** (llamarse), **igrati se** (jugar), **radovati se** (tener ganas de / alegrarse por)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-reflexive-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-reflexive-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Like other clitics, **se** follows the second-position rule: it sits right after the first stressed word or the verb, not necessarily at the end. **Djeca se igraju** (The children are playing) — *se* comes right after the subject *djeca*.",
+      "i18n": {
+        "it": "Come gli altri clitici, **se** segue la regola della seconda posizione: si colloca subito dopo la prima parola accentata o il verbo, non necessariamente alla fine. **Djeca se igraju** (I bambini stanno giocando) — *se* viene subito dopo il soggetto *djeca*.",
+        "fr": "Comme les autres clitiques, **se** suit la règle de la deuxième position : il se place juste après le premier mot accentué ou le verbe, pas nécessairement à la fin. **Djeca se igraju** (Les enfants jouent) — *se* vient juste après le sujet *djeca*.",
+        "de": "Wie andere Klitika folgt **se** der Zweitstellungsregel: es steht direkt nach dem ersten betonten Wort oder dem Verb, nicht zwangsläufig am Ende. **Djeca se igraju** (Die Kinder spielen) — *se* steht direkt nach dem Subjekt *djeca*.",
+        "es": "Como otros clíticos, **se** sigue la regla de la segunda posición: se coloca justo después de la primera palabra tónica o del verbo, no necesariamente al final. **Djeca se igraju** (Los niños están jugando) — *se* va justo después del sujeto *djeca*."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-reflexive-3"
+    }
   ],
   "exercises": [
     {
@@ -19,21 +48,75 @@
       "type": "fill-blank",
       "prompt": "Kako ___ zoveš? (se — What's your name? — informal)",
       "answer": "se",
-      "relatedItemId": "hr-vocab-greet-019"
+      "relatedItemId": "hr-vocab-greet-019",
+      "i18n": {
+        "it": {
+          "prompt": "Kako ___ zoveš? (se — Come ti chiami? — informale)"
+        },
+        "fr": {
+          "prompt": "Kako ___ zoveš? (se — Comment tu t'appelles ? — informel)"
+        },
+        "de": {
+          "prompt": "Kako ___ zoveš? (se — Wie heißt du? — informell)"
+        },
+        "es": {
+          "prompt": "Kako ___ zoveš? (se — ¿Cómo te llamas? — informal)"
+        }
+      }
     },
     {
       "id": "hr-ex-reflexive-2",
       "type": "multiple-choice",
       "prompt": "Which particle never changes form, regardless of the subject?",
       "answer": "se",
-      "distractors": ["sam", "si", "smo"]
+      "distractors": [
+        "sam",
+        "si",
+        "smo"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Quale particella non cambia mai forma, indipendentemente dal soggetto?"
+        },
+        "fr": {
+          "prompt": "Quelle particule ne change jamais de forme, quel que soit le sujet ?"
+        },
+        "de": {
+          "prompt": "Welches Partikel ändert nie seine Form, unabhängig vom Subjekt?"
+        },
+        "es": {
+          "prompt": "¿Qué partícula nunca cambia de forma, sin importar el sujeto?"
+        }
+      }
     },
     {
       "id": "hr-ex-reflexive-3",
       "type": "translate",
       "prompt": "Translate: \"The children are playing.\" (igrati se — se follows the subject)",
-      "answer": ["Djeca se igraju."],
-      "relatedItemId": "hr-vocab-routine-024"
+      "answer": [
+        "Djeca se igraju."
+      ],
+      "relatedItemId": "hr-vocab-routine-024",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"I bambini stanno giocando.\" (igrati se — se segue il soggetto)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Les enfants jouent.\" (igrati se — se suit le sujet)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Die Kinder spielen.\" (igrati se — se folgt dem Subjekt)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Los niños están jugando.\" (igrati se — se sigue al sujeto)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Verbi riflessivi",
+    "fr": "Verbes réfléchis",
+    "de": "Reflexive Verben",
+    "es": "Verbos reflexivos"
+  }
 }

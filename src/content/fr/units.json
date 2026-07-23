@@ -4,34 +4,83 @@
     "courseId": "fr-course-a1",
     "title": "Getting Started",
     "order": 1,
-    "lessonIds": ["fr-lesson-greetings", "fr-lesson-articles"]
+    "lessonIds": [
+      "fr-lesson-greetings",
+      "fr-lesson-articles"
+    ],
+    "titleByLang": {
+      "it": "Primi passi",
+      "de": "Erste Schritte",
+      "hr": "Prvi koraci",
+      "es": "Primeros pasos"
+    }
   },
   {
     "id": "fr-unit-2",
     "courseId": "fr-course-a1",
     "title": "Être & Avoir",
     "order": 2,
-    "lessonIds": ["fr-lesson-etre", "fr-lesson-avoir", "fr-lesson-numbers"]
+    "lessonIds": [
+      "fr-lesson-etre",
+      "fr-lesson-avoir",
+      "fr-lesson-numbers"
+    ],
+    "titleByLang": {
+      "it": "Être e Avoir",
+      "de": "Être und Avoir",
+      "hr": "Être i Avoir",
+      "es": "Être y Avoir"
+    }
   },
   {
     "id": "fr-unit-3",
     "courseId": "fr-course-a1",
     "title": "Daily Life",
     "order": 3,
-    "lessonIds": ["fr-lesson-er-verbs", "fr-lesson-word-order", "fr-lesson-food-travel"]
+    "lessonIds": [
+      "fr-lesson-er-verbs",
+      "fr-lesson-word-order",
+      "fr-lesson-food-travel"
+    ],
+    "titleByLang": {
+      "it": "Vita quotidiana",
+      "de": "Alltag",
+      "hr": "Svakodnevni život",
+      "es": "Vida cotidiana"
+    }
   },
   {
     "id": "fr-unit-4",
     "courseId": "fr-course-a1",
     "title": "Articles & Reflexive Verbs",
     "order": 4,
-    "lessonIds": ["fr-lesson-reflexive-verbs", "fr-lesson-partitive-articles", "fr-lesson-object-pronouns"]
+    "lessonIds": [
+      "fr-lesson-reflexive-verbs",
+      "fr-lesson-partitive-articles",
+      "fr-lesson-object-pronouns"
+    ],
+    "titleByLang": {
+      "it": "Articoli e verbi riflessivi",
+      "de": "Artikel und reflexive Verben",
+      "hr": "Članovi i povratni glagoli",
+      "es": "Artículos y verbos reflexivos"
+    }
   },
   {
     "id": "fr-unit-5",
     "courseId": "fr-course-a1",
     "title": "Passé Composé & Futur Proche",
     "order": 5,
-    "lessonIds": ["fr-lesson-passe-compose-avoir", "fr-lesson-passe-compose-etre", "fr-lesson-futur-proche"]
+    "lessonIds": [
+      "fr-lesson-passe-compose-avoir",
+      "fr-lesson-passe-compose-etre",
+      "fr-lesson-futur-proche"
+    ],
+    "titleByLang": {
+      "it": "Passé Composé e Futur Proche",
+      "de": "Passé Composé und Futur Proche",
+      "hr": "Passé Composé i Futur Proche",
+      "es": "Passé Composé y Futur Proche"
+    }
   }
 ]

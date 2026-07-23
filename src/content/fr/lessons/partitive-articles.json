@@ -5,13 +5,42 @@
   "unitId": "fr-unit-4",
   "order": 2,
   "title": "Partitive Articles",
-  "prerequisiteIds": ["fr-lesson-reflexive-verbs"],
+  "prerequisiteIds": [
+    "fr-lesson-reflexive-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "French uses a special \"partitive\" article for an unspecified quantity of something — roughly \"some\": **du** (masculine), **de la** (feminine), **de l'** (before a vowel), **des** (plural). *Je mange **du** pain* (I'm eating [some] bread) — Italian and German don't have a direct equivalent; English usually just drops the word entirely." },
-    { "type": "exercise", "exerciseId": "fr-ex-partitive-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-partitive-2" },
-    { "type": "explanation", "markdown": "In a negative sentence, all partitive articles collapse to **de** (or **d'** before a vowel): *Je ne mange pas **de** pain* (I don't eat [any] bread)." },
-    { "type": "exercise", "exerciseId": "fr-ex-partitive-3" }
+    {
+      "type": "explanation",
+      "markdown": "French uses a special \"partitive\" article for an unspecified quantity of something — roughly \"some\": **du** (masculine), **de la** (feminine), **de l'** (before a vowel), **des** (plural). *Je mange **du** pain* (I'm eating [some] bread) — Italian and German don't have a direct equivalent; English usually just drops the word entirely.",
+      "i18n": {
+        "it": "Il francese usa un articolo speciale \"partitivo\" per una quantità non specificata di qualcosa — grosso modo \"un po' di\": **du** (maschile), **de la** (femminile), **de l'** (davanti a vocale), **des** (plurale). *Je mange **du** pain* (Mangio [del] pane) — l'italiano ha una costruzione molto simile con **del/della/dello/dell'/dei/degli/delle**, quindi questo concetto ti sarà familiare.",
+        "de": "Das Französische verwendet einen speziellen \"partitiven\" Artikel für eine unbestimmte Menge von etwas — ungefähr \"etwas\": **du** (maskulin), **de la** (feminin), **de l'** (vor Vokal), **des** (Plural). *Je mange **du** pain* (Ich esse [etwas] Brot) — das Deutsche hat wie das Englische keine direkte Entsprechung; man lässt das Wort meist einfach weg: \"Ich esse Brot.\"",
+        "hr": "Francuski koristi poseban \"partitivni\" član za neodređenu količinu nečega — otprilike \"malo\": **du** (muški rod), **de la** (ženski rod), **de l'** (ispred samoglasnika), **des** (množina). *Je mange **du** pain* (Jedem [malo] kruha) — hrvatski, kao ni engleski, nema izravnu istovrijednicu jer uopće nema članove; ta se riječ jednostavno izostavlja: \"Jedem kruh.\"",
+        "es": "El francés usa un artículo especial \"partitivo\" para una cantidad no especificada de algo — más o menos \"un poco de\": **du** (masculino), **de la** (femenino), **de l'** (ante vocal), **des** (plural). *Je mange **du** pain* (Como [un poco de] pan) — el español, como el inglés, no tiene una equivalencia directa; normalmente se omite la palabra por completo: \"Como pan.\""
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-partitive-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-partitive-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "In a negative sentence, all partitive articles collapse to **de** (or **d'** before a vowel): *Je ne mange pas **de** pain* (I don't eat [any] bread).",
+      "i18n": {
+        "it": "In una frase negativa, tutti gli articoli partitivi si riducono a **de** (o **d'** davanti a vocale): *Je ne mange pas **de** pain* (Non mangio pane) — in italiano, invece, l'articolo partitivo di solito scompare del tutto nella negazione.",
+        "de": "In einem negativen Satz reduzieren sich alle Teilungsartikel zu **de** (oder **d'** vor Vokal): *Je ne mange pas **de** pain* (Ich esse kein Brot) — im Deutschen entspricht das einfach der Verwendung von \"kein\".",
+        "hr": "U niječnoj rečenici svi partitivni članovi svode se na **de** (ili **d'** ispred samoglasnika): *Je ne mange pas **de** pain* (Ne jedem kruh) — u hrvatskom se to jednostavno prevodi niječnicom, bez ikakvog člana.",
+        "es": "En una frase negativa, todos los artículos partitivos se reducen a **de** (o **d'** ante vocal): *Je ne mange pas **de** pain* (No como pan) — en español esto se traduce simplemente con la negación, sin ningún artículo."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-partitive-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,76 @@
       "type": "multiple-choice",
       "prompt": "Je bois ___ eau. (I'm drinking [some] water — eau is feminine, starts with a vowel.)",
       "answer": "de l'",
-      "distractors": ["du", "de la", "des"],
-      "relatedItemId": "fr-vocab-food-002"
+      "distractors": [
+        "du",
+        "de la",
+        "des"
+      ],
+      "relatedItemId": "fr-vocab-food-002",
+      "i18n": {
+        "it": {
+          "prompt": "Je bois ___ eau. (Sto bevendo [dell'] acqua — eau è femminile, inizia con vocale.)"
+        },
+        "de": {
+          "prompt": "Je bois ___ eau. (Ich trinke [etwas] Wasser — eau ist feminin, beginnt mit Vokal.)"
+        },
+        "hr": {
+          "prompt": "Je bois ___ eau. (Pijem [malo] vode — eau je ženski rod, počinje samoglasnikom.)"
+        },
+        "es": {
+          "prompt": "Je bois ___ eau. (Bebo [un poco de] agua — eau es femenino, empieza con vocal.)"
+        }
+      }
     },
     {
       "id": "fr-ex-partitive-2",
       "type": "fill-blank",
       "prompt": "Il mange ___ fromage. (du — He's eating [some] cheese — fromage is masculine.)",
       "answer": "du",
-      "relatedItemId": "fr-vocab-food-006"
+      "relatedItemId": "fr-vocab-food-006",
+      "i18n": {
+        "it": {
+          "prompt": "Il mange ___ fromage. (du — Sta mangiando [del] formaggio — fromage è maschile.)"
+        },
+        "de": {
+          "prompt": "Il mange ___ fromage. (du — Er isst [etwas] Käse — fromage ist maskulin.)"
+        },
+        "hr": {
+          "prompt": "Il mange ___ fromage. (du — On jede [malo] sira — fromage je muški rod.)"
+        },
+        "es": {
+          "prompt": "Il mange ___ fromage. (du — Él come [un poco de] queso — fromage es masculino.)"
+        }
+      }
     },
     {
       "id": "fr-ex-partitive-3",
       "type": "translate",
       "prompt": "Translate: \"I don't eat meat.\" (negative — partitive collapses to de)",
-      "answer": ["Je ne mange pas de viande."],
-      "relatedItemId": "fr-vocab-food-008"
+      "answer": [
+        "Je ne mange pas de viande."
+      ],
+      "relatedItemId": "fr-vocab-food-008",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Non mangio carne.\" (negativo — il partitivo si riduce a de)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Ich esse kein Fleisch.\" (negativ — der Partitivartikel reduziert sich zu de)"
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Ne jedem meso.\" (niječno — partitivni član svodi se na de)"
+        },
+        "es": {
+          "prompt": "Traduce: \"No como carne.\" (negativo — el partitivo se reduce a de)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Articoli partitivi",
+    "de": "Teilungsartikel (Partitivartikel)",
+    "hr": "Djelomični (partitivni) članovi",
+    "es": "Artículos partitivos"
+  }
 }

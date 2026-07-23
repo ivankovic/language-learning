@@ -5,12 +5,32 @@
   "unitId": "it-unit-1",
   "order": 2,
   "title": "Definite Articles: il, la, lo, l', i, gli, le",
-  "prerequisiteIds": ["it-lesson-greetings"],
+  "prerequisiteIds": [
+    "it-lesson-greetings"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Italian nouns have gender and number, and the definite article agrees with both: **il** (masc. sing.), **la** (fem. sing.), **lo** (masc. sing. before s+consonant/z), **l'** (before a vowel), **i** (masc. plural), **gli** (masc. plural before vowel/s+consonant/z), **le** (fem. plural)." },
-    { "type": "exercise", "exerciseId": "it-ex-articles-1" },
-    { "type": "exercise", "exerciseId": "it-ex-articles-2" },
-    { "type": "exercise", "exerciseId": "it-ex-articles-3" }
+    {
+      "type": "explanation",
+      "markdown": "Italian nouns have gender and number, and the definite article agrees with both: **il** (masc. sing.), **la** (fem. sing.), **lo** (masc. sing. before s+consonant/z), **l'** (before a vowel), **i** (masc. plural), **gli** (masc. plural before vowel/s+consonant/z), **le** (fem. plural).",
+      "i18n": {
+        "hr": "Talijanske imenice imaju rod i broj, a određeni član se slaže s oboje: **il** (m. jd.), **la** (ž. jd.), **lo** (m. jd. ispred s+suglasnik/z), **l'** (ispred samoglasnika), **i** (m. množina), **gli** (m. množina ispred samoglasnika/s+suglasnik/z), **le** (ž. množina).",
+        "fr": "Les noms italiens ont un genre et un nombre, et l'article défini s'accorde avec les deux : **il** (masc. sing.), **la** (fém. sing.), **lo** (masc. sing. devant s+consonne/z), **l'** (devant une voyelle), **i** (masc. pluriel), **gli** (masc. pluriel devant voyelle/s+consonne/z), **le** (fém. pluriel).",
+        "de": "Italienische Substantive haben ein Geschlecht und eine Zahl, und der bestimmte Artikel stimmt mit beiden überein: **il** (m. Sing.), **la** (f. Sing.), **lo** (m. Sing. vor s+Konsonant/z), **l'** (vor einem Vokal), **i** (m. Plural), **gli** (m. Plural vor Vokal/s+Konsonant/z), **le** (f. Plural).",
+        "es": "Los sustantivos italianos tienen género y número, y el artículo definido concuerda con ambos: **il** (m. sing.), **la** (f. sing.), **lo** (m. sing. antes de s+consonante/z), **l'** (antes de vocal), **i** (m. plural), **gli** (m. plural antes de vocal/s+consonante/z), **le** (f. plural)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-articles-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-articles-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-articles-3"
+    }
   ],
   "exercises": [
     {
@@ -18,23 +38,79 @@
       "type": "multiple-choice",
       "prompt": "Choose the correct article for \"pane\" (bread — masculine).",
       "answer": "il",
-      "distractors": ["la", "lo", "l'"],
-      "relatedItemId": "it-vocab-food-001"
+      "distractors": [
+        "la",
+        "lo",
+        "l'"
+      ],
+      "relatedItemId": "it-vocab-food-001",
+      "i18n": {
+        "hr": {
+          "prompt": "Odaberi ispravan član za \"pane\" (kruh — muški rod)."
+        },
+        "fr": {
+          "prompt": "Choisis le bon article pour \"pane\" (pain — masculin)."
+        },
+        "de": {
+          "prompt": "Wähle den richtigen Artikel für \"pane\" (Brot — männlich)."
+        },
+        "es": {
+          "prompt": "Elige el artículo correcto para \"pane\" (pan — masculino)."
+        }
+      }
     },
     {
       "id": "it-ex-articles-2",
       "type": "multiple-choice",
       "prompt": "Choose the correct article for \"acqua\" (water — feminine, starts with a vowel).",
       "answer": "l'",
-      "distractors": ["il", "la", "lo"],
-      "relatedItemId": "it-vocab-food-002"
+      "distractors": [
+        "il",
+        "la",
+        "lo"
+      ],
+      "relatedItemId": "it-vocab-food-002",
+      "i18n": {
+        "hr": {
+          "prompt": "Odaberi ispravan član za \"acqua\" (voda — ženski rod, počinje samoglasnikom)."
+        },
+        "fr": {
+          "prompt": "Choisis le bon article pour \"acqua\" (eau — féminin, commence par une voyelle)."
+        },
+        "de": {
+          "prompt": "Wähle den richtigen Artikel für \"acqua\" (Wasser — weiblich, beginnt mit einem Vokal)."
+        },
+        "es": {
+          "prompt": "Elige el artículo correcto para \"acqua\" (agua — femenino, empieza con vocal)."
+        }
+      }
     },
     {
       "id": "it-ex-articles-3",
       "type": "fill-blank",
       "prompt": "___ scuola è vicina. (school — feminine)",
       "answer": "La",
-      "relatedItemId": "it-vocab-routine-011"
+      "relatedItemId": "it-vocab-routine-011",
+      "i18n": {
+        "hr": {
+          "prompt": "___ scuola è vicina. (škola — ženski rod)"
+        },
+        "fr": {
+          "prompt": "___ scuola è vicina. (école — féminin)"
+        },
+        "de": {
+          "prompt": "___ scuola è vicina. (Schule — weiblich)"
+        },
+        "es": {
+          "prompt": "___ scuola è vicina. (escuela — femenino)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Određeni članovi: il, la, lo, l', i, gli, le",
+    "fr": "Articles définis : il, la, lo, l', i, gli, le",
+    "de": "Bestimmte Artikel: il, la, lo, l', i, gli, le",
+    "es": "Artículos definidos: il, la, lo, l', i, gli, le"
+  }
 }

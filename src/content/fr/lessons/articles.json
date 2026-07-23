@@ -5,12 +5,32 @@
   "unitId": "fr-unit-1",
   "order": 2,
   "title": "Definite Articles: le, la, l', les",
-  "prerequisiteIds": ["fr-lesson-greetings"],
+  "prerequisiteIds": [
+    "fr-lesson-greetings"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "French nouns have gender, and the definite article agrees: **le** (masc. singular), **la** (fem. singular), **l'** (before a vowel or silent h, either gender), **les** (plural, both genders)." },
-    { "type": "exercise", "exerciseId": "fr-ex-articles-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-articles-2" },
-    { "type": "exercise", "exerciseId": "fr-ex-articles-3" }
+    {
+      "type": "explanation",
+      "markdown": "French nouns have gender, and the definite article agrees: **le** (masc. singular), **la** (fem. singular), **l'** (before a vowel or silent h, either gender), **les** (plural, both genders).",
+      "i18n": {
+        "it": "I sostantivi francesi hanno un genere, e l'articolo determinativo concorda: **le** (m. singolare), **la** (f. singolare), **l'** (davanti a vocale o h muta, entrambi i generi), **les** (plurale, entrambi i generi).",
+        "de": "Französische Substantive haben ein Genus, und der bestimmte Artikel stimmt damit überein: **le** (m. Singular), **la** (f. Singular), **l'** (vor Vokal oder stummem h, beide Genera), **les** (Plural, beide Genera).",
+        "hr": "Francuske imenice imaju rod, a određeni član se s njim slaže: **le** (m. jednina), **la** (ž. jednina), **l'** (ispred samoglasnika ili nijemog h, oba roda), **les** (množina, oba roda). Hrvatski nema članove, pa ovo je potpuno novi koncept.",
+        "es": "Los sustantivos franceses tienen género, y el artículo determinado concuerda: **le** (masc. singular), **la** (fem. singular), **l'** (ante vocal o h muda, ambos géneros), **les** (plural, ambos géneros)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-articles-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-articles-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-articles-3"
+    }
   ],
   "exercises": [
     {
@@ -18,23 +38,79 @@
       "type": "multiple-choice",
       "prompt": "Choose the correct article for \"pain\" (bread — masculine).",
       "answer": "le",
-      "distractors": ["la", "l'", "les"],
-      "relatedItemId": "fr-vocab-food-001"
+      "distractors": [
+        "la",
+        "l'",
+        "les"
+      ],
+      "relatedItemId": "fr-vocab-food-001",
+      "i18n": {
+        "it": {
+          "prompt": "Scegli l'articolo corretto per \"pain\" (pane — maschile)."
+        },
+        "de": {
+          "prompt": "Wähle den richtigen Artikel für \"pain\" (Brot — maskulin)."
+        },
+        "hr": {
+          "prompt": "Odaberi ispravan član za \"pain\" (kruh — muški rod)."
+        },
+        "es": {
+          "prompt": "Elige el artículo correcto para \"pain\" (pan — masculino)."
+        }
+      }
     },
     {
       "id": "fr-ex-articles-2",
       "type": "multiple-choice",
       "prompt": "Choose the correct article for \"eau\" (water — feminine, starts with a vowel).",
       "answer": "l'",
-      "distractors": ["le", "la", "les"],
-      "relatedItemId": "fr-vocab-food-002"
+      "distractors": [
+        "le",
+        "la",
+        "les"
+      ],
+      "relatedItemId": "fr-vocab-food-002",
+      "i18n": {
+        "it": {
+          "prompt": "Scegli l'articolo corretto per \"eau\" (acqua — femminile, inizia con vocale)."
+        },
+        "de": {
+          "prompt": "Wähle den richtigen Artikel für \"eau\" (Wasser — feminin, beginnt mit Vokal)."
+        },
+        "hr": {
+          "prompt": "Odaberi ispravan član za \"eau\" (voda — ženski rod, počinje samoglasnikom)."
+        },
+        "es": {
+          "prompt": "Elige el artículo correcto para \"eau\" (agua — femenino, empieza con vocal)."
+        }
+      }
     },
     {
       "id": "fr-ex-articles-3",
       "type": "fill-blank",
       "prompt": "___ école est proche. (school — feminine, starts with a vowel)",
       "answer": "L'",
-      "relatedItemId": "fr-vocab-routine-011"
+      "relatedItemId": "fr-vocab-routine-011",
+      "i18n": {
+        "it": {
+          "prompt": "___ école est proche. (scuola — femminile, inizia con vocale)"
+        },
+        "de": {
+          "prompt": "___ école est proche. (Schule — feminin, beginnt mit Vokal)"
+        },
+        "hr": {
+          "prompt": "___ école est proche. (škola — ženski rod, počinje samoglasnikom)"
+        },
+        "es": {
+          "prompt": "___ école est proche. (escuela — femenino, empieza con vocal)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Articoli determinativi: le, la, l', les",
+    "de": "Bestimmte Artikel: le, la, l', les",
+    "hr": "Određeni članovi: le, la, l', les",
+    "es": "Artículos determinados: le, la, l', les"
+  }
 }

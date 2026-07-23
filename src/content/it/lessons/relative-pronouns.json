@@ -5,12 +5,32 @@
   "unitId": "it-unit-9",
   "order": 2,
   "title": "Relative Pronouns: che, cui",
-  "prerequisiteIds": ["it-lesson-ci-ne"],
+  "prerequisiteIds": [
+    "it-lesson-ci-ne"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Che** (who/that/which) connects clauses when the relative pronoun is the subject or direct object: *Il libro che leggo è interessante* (The book that I'm reading is interesting).\n\n**Cui** is used instead after a preposition: *La persona a cui scrivo è mia madre* (The person to whom I'm writing is my mother)." },
-    { "type": "exercise", "exerciseId": "it-ex-relpro-1" },
-    { "type": "exercise", "exerciseId": "it-ex-relpro-2" },
-    { "type": "exercise", "exerciseId": "it-ex-relpro-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Che** (who/that/which) connects clauses when the relative pronoun is the subject or direct object: *Il libro che leggo è interessante* (The book that I'm reading is interesting).\n\n**Cui** is used instead after a preposition: *La persona a cui scrivo è mia madre* (The person to whom I'm writing is my mother).",
+      "i18n": {
+        "hr": "**Che** (tko/što/koji) povezuje rečenice kada je odnosna zamjenica subjekt ili izravni objekt: *Il libro che leggo è interessante* (Knjiga koju čitam zanimljiva je).\n\n**Cui** se koristi umjesto toga nakon prijedloga: *La persona a cui scrivo è mia madre* (Osoba kojoj pišem moja je majka).",
+        "fr": "**Che** (qui/que) relie les propositions quand le pronom relatif est sujet ou complément d'objet direct : *Il libro che leggo è interessante* (Le livre que je lis est intéressant).\n\n**Cui** s'utilise à la place après une préposition : *La persona a cui scrivo è mia madre* (La personne à qui j'écris est ma mère).",
+        "de": "**Che** (der/die/das) verbindet Sätze, wenn das Relativpronomen Subjekt oder direktes Objekt ist: *Il libro che leggo è interessante* (Das Buch, das ich lese, ist interessant).\n\n**Cui** wird stattdessen nach einer Präposition benutzt: *La persona a cui scrivo è mia madre* (Die Person, der ich schreibe, ist meine Mutter).",
+        "es": "**Che** (que) conecta oraciones cuando el pronombre relativo es el sujeto o el objeto directo: *Il libro che leggo è interessante* (El libro que leo es interesante).\n\n**Cui** se usa en su lugar después de una preposición: *La persona a cui scrivo è mia madre* (La persona a quien le escribo es mi madre)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-relpro-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-relpro-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-relpro-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,76 @@
       "type": "fill-blank",
       "prompt": "Il libro ___ leggo è interessante. (that)",
       "answer": "che",
-      "relatedItemId": "it-vocab-work-027"
+      "relatedItemId": "it-vocab-work-027",
+      "i18n": {
+        "hr": {
+          "prompt": "Il libro ___ leggo è interessante. (koju)"
+        },
+        "fr": {
+          "prompt": "Il libro ___ leggo è interessante. (que)"
+        },
+        "de": {
+          "prompt": "Il libro ___ leggo è interessante. (das)"
+        },
+        "es": {
+          "prompt": "Il libro ___ leggo è interessante. (que)"
+        }
+      }
     },
     {
       "id": "it-ex-relpro-2",
       "type": "multiple-choice",
       "prompt": "La persona a ___ scrivo è mia madre. (whom — after a preposition)",
       "answer": "cui",
-      "distractors": ["che", "chi", "cosa"],
-      "relatedItemId": "it-vocab-routine-015"
+      "distractors": [
+        "che",
+        "chi",
+        "cosa"
+      ],
+      "relatedItemId": "it-vocab-routine-015",
+      "i18n": {
+        "hr": {
+          "prompt": "La persona a ___ scrivo è mia madre. (kojoj — nakon prijedloga)"
+        },
+        "fr": {
+          "prompt": "La persona a ___ scrivo è mia madre. (qui — après une préposition)"
+        },
+        "de": {
+          "prompt": "La persona a ___ scrivo è mia madre. (der — nach einer Präposition)"
+        },
+        "es": {
+          "prompt": "La persona a ___ scrivo è mia madre. (quien — después de una preposición)"
+        }
+      }
     },
     {
       "id": "it-ex-relpro-3",
       "type": "translate",
       "prompt": "Translate: \"The film that we watched was beautiful.\"",
-      "answer": ["Il film che abbiamo guardato era bello."],
-      "relatedItemId": "it-vocab-tech-016"
+      "answer": [
+        "Il film che abbiamo guardato era bello."
+      ],
+      "relatedItemId": "it-vocab-tech-016",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Film koji smo gledali bio je lijep.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Le film que nous avons regardé était beau.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Der Film, den wir angeschaut haben, war schön.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"La película que vimos era hermosa.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Odnosne zamjenice: che, cui",
+    "fr": "Pronoms relatifs : che, cui",
+    "de": "Relativpronomen: che, cui",
+    "es": "Pronombres relativos: che, cui"
+  }
 }

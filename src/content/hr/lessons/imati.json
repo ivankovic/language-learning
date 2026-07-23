@@ -5,14 +5,46 @@
   "unitId": "hr-unit-2",
   "order": 2,
   "title": "Imati (to have) — Present Tense",
-  "prerequisiteIds": ["hr-lesson-biti"],
+  "prerequisiteIds": [
+    "hr-lesson-biti"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Imati** (to have) is regular in the present tense:\n\nja **imam** · ti **imaš** · on/ona/ono **ima** · mi **imamo** · vi **imate** · oni/one/ona **imaju**\n\nLike Italian **avere** and French **avoir** (and unlike German **sein**), Croatian uses *imati* for age: **Imam ... godina** (I am ... years old — literally \"I have ... years\")." },
-    { "type": "exercise", "exerciseId": "hr-ex-imati-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-imati-2" },
-    { "type": "explanation", "markdown": "One genuine irregularity: negating *imati* isn't \"ne\" + *imam* — the two fuse into a single irregular verb, **nemati**: **nemam, nemaš, nema, nemamo, nemate, nemaju**. **Nemam vremena** means \"I don't have time.\"" },
-    { "type": "exercise", "exerciseId": "hr-ex-imati-3" },
-    { "type": "exercise", "exerciseId": "hr-ex-imati-4" }
+    {
+      "type": "explanation",
+      "markdown": "**Imati** (to have) is regular in the present tense:\n\nja **imam** · ti **imaš** · on/ona/ono **ima** · mi **imamo** · vi **imate** · oni/one/ona **imaju**\n\nLike Italian **avere** and French **avoir** (and unlike German **sein**), Croatian uses *imati* for age: **Imam ... godina** (I am ... years old — literally \"I have ... years\").",
+      "i18n": {
+        "it": "**Imati** (avere) è regolare al presente:\n\nja **imam** · ti **imaš** · on/ona/ono **ima** · mi **imamo** · vi **imate** · oni/one/ona **imaju**\n\nCome l'italiano **avere** (e a differenza del tedesco **sein**), il croato usa *imati* per l'età: **Imam ... godina** (Ho ... anni — letteralmente \"ho ... anni\").",
+        "fr": "**Imati** (avoir) est régulier au présent :\n\nja **imam** · ti **imaš** · on/ona/ono **ima** · mi **imamo** · vi **imate** · oni/one/ona **imaju**\n\nComme le français **avoir** (et contrairement à l'allemand **sein**), le croate utilise *imati* pour l'âge : **Imam ... godina** (J'ai ... ans — littéralement \"j'ai ... ans\").",
+        "de": "**Imati** (haben) ist im Präsens regelmäßig:\n\nja **imam** · ti **imaš** · on/ona/ono **ima** · mi **imamo** · vi **imate** · oni/one/ona **imaju**\n\nAnders als das deutsche **sein** verwendet Kroatisch *imati* für das Alter, ähnlich wie im Italienischen (*avere*) oder Französischen (*avoir*): **Imam ... godina** (Ich bin ... Jahre alt — wörtlich \"ich habe ... Jahre\").",
+        "es": "**Imati** (tener) es regular en presente:\n\nja **imam** · ti **imaš** · on/ona/ono **ima** · mi **imamo** · vi **imate** · oni/one/ona **imaju**\n\nComo el español **tener** (y a diferencia del alemán **sein**), el croata usa *imati* para la edad: **Imam ... godina** (Tengo ... años — literalmente \"tengo ... años\")."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-imati-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-imati-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "One genuine irregularity: negating *imati* isn't \"ne\" + *imam* — the two fuse into a single irregular verb, **nemati**: **nemam, nemaš, nema, nemamo, nemate, nemaju**. **Nemam vremena** means \"I don't have time.\"",
+      "i18n": {
+        "it": "Un'irregolarità genuina: negare *imati* non è \"ne\" + *imam* — i due si fondono in un unico verbo irregolare, **nemati**: **nemam, nemaš, nema, nemamo, nemate, nemaju**. **Nemam vremena** significa \"Non ho tempo\".",
+        "fr": "Une vraie irrégularité : nier *imati* n'est pas \"ne\" + *imam* — les deux fusionnent en un seul verbe irrégulier, **nemati** : **nemam, nemaš, nema, nemamo, nemate, nemaju**. **Nemam vremena** signifie \"Je n'ai pas le temps\".",
+        "de": "Eine echte Unregelmäßigkeit: die Verneinung von *imati* ist nicht \"ne\" + *imam* — die beiden verschmelzen zu einem einzigen unregelmäßigen Verb, **nemati**: **nemam, nemaš, nema, nemamo, nemate, nemaju**. **Nemam vremena** bedeutet \"Ich habe keine Zeit\".",
+        "es": "Una irregularidad genuina: negar *imati* no es \"ne\" + *imam* — los dos se fusionan en un único verbo irregular, **nemati**: **nemam, nemaš, nema, nemamo, nemate, nemaju**. **Nemam vremena** significa \"No tengo tiempo\"."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-imati-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-imati-4"
+    }
   ],
   "exercises": [
     {
@@ -20,28 +52,100 @@
       "type": "fill-blank",
       "prompt": "___ dvadeset godina. (I am 20 years old — literally \"I have 20 years\".)",
       "answer": "Imam",
-      "relatedItemId": "hr-vocab-numtime-016"
+      "relatedItemId": "hr-vocab-numtime-016",
+      "i18n": {
+        "it": {
+          "prompt": "___ dvadeset godina. (Ho 20 anni — letteralmente \"ho 20 anni\".)"
+        },
+        "fr": {
+          "prompt": "___ dvadeset godina. (J'ai 20 ans — littéralement \"j'ai 20 ans\".)"
+        },
+        "de": {
+          "prompt": "___ dvadeset godina. (Ich bin 20 Jahre alt — wörtlich \"ich habe 20 Jahre\".)"
+        },
+        "es": {
+          "prompt": "___ dvadeset godina. (Tengo 20 años — literalmente \"tengo 20 años\".)"
+        }
+      }
     },
     {
       "id": "hr-ex-imati-2",
       "type": "multiple-choice",
       "prompt": "Koliko godina ___? (How old are you? — informal \"ti\")",
       "answer": "imaš",
-      "distractors": ["imam", "ima", "imate"]
+      "distractors": [
+        "imam",
+        "ima",
+        "imate"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Koliko godina ___? (Quanti anni hai? — informale \"ti\")"
+        },
+        "fr": {
+          "prompt": "Koliko godina ___? (Quel âge as-tu ? — informel \"ti\")"
+        },
+        "de": {
+          "prompt": "Koliko godina ___? (Wie alt bist du? — informell \"ti\")"
+        },
+        "es": {
+          "prompt": "Koliko godina ___? (¿Cuántos años tienes? — informal \"ti\")"
+        }
+      }
     },
     {
       "id": "hr-ex-imati-3",
       "type": "multiple-choice",
       "prompt": "How do you say \"I don't have time\"?",
       "answer": "Nemam vremena.",
-      "distractors": ["Ne imam vremena.", "Imam ne vremena.", "Nisam vremena."]
+      "distractors": [
+        "Ne imam vremena.",
+        "Imam ne vremena.",
+        "Nisam vremena."
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Come si dice \"Non ho tempo\"?"
+        },
+        "fr": {
+          "prompt": "Comment dit-on \"Je n'ai pas le temps\" ?"
+        },
+        "de": {
+          "prompt": "Wie sagt man \"Ich habe keine Zeit\"?"
+        },
+        "es": {
+          "prompt": "¿Cómo se dice \"No tengo tiempo\"?"
+        }
+      }
     },
     {
       "id": "hr-ex-imati-4",
       "type": "translate",
       "prompt": "Translate: \"We have a room.\"",
-      "answer": ["Imamo sobu."],
-      "relatedItemId": "hr-vocab-travel-008"
+      "answer": [
+        "Imamo sobu."
+      ],
+      "relatedItemId": "hr-vocab-travel-008",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Abbiamo una stanza.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Nous avons une chambre.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Wir haben ein Zimmer.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Tenemos una habitación.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Imati (avere) — presente",
+    "fr": "Imati (avoir) — présent",
+    "de": "Imati (haben) — Präsens",
+    "es": "Imati (tener) — presente"
+  }
 }

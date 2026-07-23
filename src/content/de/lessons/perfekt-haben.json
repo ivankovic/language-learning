@@ -5,14 +5,46 @@
   "unitId": "de-unit-5",
   "order": 1,
   "title": "Perfekt (Past Tense) with Haben",
-  "prerequisiteIds": ["de-lesson-dative-prepositions"],
+  "prerequisiteIds": [
+    "de-lesson-dative-prepositions"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Germans use the **Perfekt** tense, not a simple past, for almost all spoken-language storytelling — unlike Italian's passato prossimo, which behaves similarly, or English's simple past. It's built from **haben** (conjugated) + a **past participle** at the end of the sentence: **Ich habe Pizza gegessen** (I ate pizza). Most participles follow **ge-...-t**: *machen* → **gemacht**, *lernen* → **gelernt**." },
-    { "type": "exercise", "exerciseId": "de-ex-perfekt-haben-1" },
-    { "type": "exercise", "exerciseId": "de-ex-perfekt-haben-2" },
-    { "type": "explanation", "markdown": "Some common verbs have irregular participles that must be memorized: *essen* → **gegessen**, *trinken* → **getrunken**, *sprechen* → **gesprochen**." },
-    { "type": "exercise", "exerciseId": "de-ex-perfekt-haben-3" },
-    { "type": "exercise", "exerciseId": "de-ex-perfekt-haben-4" }
+    {
+      "type": "explanation",
+      "markdown": "Germans use the **Perfekt** tense, not a simple past, for almost all spoken-language storytelling — unlike Italian's passato prossimo, which behaves similarly, or English's simple past. It's built from **haben** (conjugated) + a **past participle** at the end of the sentence: **Ich habe Pizza gegessen** (I ate pizza). Most participles follow **ge-...-t**: *machen* → **gemacht**, *lernen* → **gelernt**.",
+      "i18n": {
+        "it": "I tedeschi usano il tempo **Perfekt**, non un passato semplice, per quasi tutta la narrazione nel parlato — proprio come il passato prossimo italiano, che si comporta in modo simile. Si forma con **haben** (coniugato) + un **participio passato** alla fine della frase: **Ich habe Pizza gegessen** (Ho mangiato la pizza). La differenza principale rispetto all'italiano è che il participio va sempre all'ultimissimo posto, anche in frasi lunghe. La maggior parte dei participi segue **ge-...-t**: *machen* → **gemacht**, *lernen* → **gelernt**.",
+        "fr": "Les Allemands utilisent le temps **Perfekt**, et non un passé simple, pour presque toute narration à l'oral — un peu comme le passé composé français, qui fonctionne de façon similaire. Il se forme avec **haben** (conjugué) + un **participe passé** à la fin de la phrase : **Ich habe Pizza gegessen** (J'ai mangé de la pizza). La principale différence avec le français est que le participe va toujours à la toute fin, même dans les phrases longues. La plupart des participes suivent **ge-...-t** : *machen* → **gemacht**, *lernen* → **gelernt**.",
+        "hr": "Nijemci koriste vrijeme **Perfekt**, a ne prosto prošlo vrijeme, za gotovo svako pripovijedanje u govoru — slično hrvatskom perfektu, koji se ponaša na sličan način. Tvori se s **haben** (konjugiran) + **particip prošli** na kraju rečenice: **Ich habe Pizza gegessen** (Pojeo/pojela sam pizzu). Glavna razlika u odnosu na hrvatski jest da particip uvijek ide na sam kraj, čak i u dugim rečenicama — hrvatski red riječi je fleksibilniji. Većina participa prati obrazac **ge-...-t**: *machen* → **gemacht**, *lernen* → **gelernt**.",
+        "es": "Los alemanes usan el tiempo **Perfekt**, no un pasado simple, para casi toda la narración en el habla — de forma parecida al pretérito perfecto compuesto español, que se comporta de manera similar. Se forma con **haben** (conjugado) + un **participio pasado** al final de la frase: **Ich habe Pizza gegessen** (He comido pizza). La diferencia principal con el español es que el participio siempre va al final absoluto, incluso en frases largas. La mayoría de los participios siguen **ge-...-t**: *machen* → **gemacht**, *lernen* → **gelernt**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-perfekt-haben-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-perfekt-haben-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Some common verbs have irregular participles that must be memorized: *essen* → **gegessen**, *trinken* → **getrunken**, *sprechen* → **gesprochen**.",
+      "i18n": {
+        "it": "Alcuni verbi comuni hanno participi irregolari da memorizzare: *essen* → **gegessen**, *trinken* → **getrunken**, *sprechen* → **gesprochen**.",
+        "fr": "Certains verbes courants ont des participes irréguliers à mémoriser : *essen* → **gegessen**, *trinken* → **getrunken**, *sprechen* → **gesprochen**.",
+        "hr": "Neki uobičajeni glagoli imaju nepravilne participe koje treba zapamtiti: *essen* → **gegessen**, *trinken* → **getrunken**, *sprechen* → **gesprochen**.",
+        "es": "Algunos verbos comunes tienen participios irregulares que hay que memorizar: *essen* → **gegessen**, *trinken* → **getrunken**, *sprechen* → **gesprochen**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-perfekt-haben-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-perfekt-haben-4"
+    }
   ],
   "exercises": [
     {
@@ -20,29 +52,101 @@
       "type": "fill-blank",
       "prompt": "Ich ___ Deutsch gelernt. (haben — I learned German.)",
       "answer": "habe",
-      "relatedItemId": "de-vocab-routine-007"
+      "relatedItemId": "de-vocab-routine-007",
+      "i18n": {
+        "it": {
+          "prompt": "Ich ___ Deutsch gelernt. (haben — Ho imparato il tedesco.)"
+        },
+        "fr": {
+          "prompt": "Ich ___ Deutsch gelernt. (haben — J'ai appris l'allemand.)"
+        },
+        "hr": {
+          "prompt": "Ich ___ Deutsch gelernt. (haben — Naučio/naučila sam njemački.)"
+        },
+        "es": {
+          "prompt": "Ich ___ Deutsch gelernt. (haben — He aprendido alemán.)"
+        }
+      }
     },
     {
       "id": "de-ex-perfekt-haben-2",
       "type": "multiple-choice",
       "prompt": "What is the past participle of \"machen\" (to do/make)?",
       "answer": "gemacht",
-      "distractors": ["gemacht habe", "machen", "gemachen"]
+      "distractors": [
+        "gemacht habe",
+        "machen",
+        "gemachen"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Qual è il participio passato di \"machen\" (fare)?"
+        },
+        "fr": {
+          "prompt": "Quel est le participe passé de \"machen\" (faire) ?"
+        },
+        "hr": {
+          "prompt": "Koji je particip prošli glagola \"machen\" (raditi)?"
+        },
+        "es": {
+          "prompt": "¿Cuál es el participio pasado de \"machen\" (hacer)?"
+        }
+      }
     },
     {
       "id": "de-ex-perfekt-haben-3",
       "type": "multiple-choice",
       "prompt": "What is the past participle of \"trinken\" (to drink)?",
       "answer": "getrunken",
-      "distractors": ["getrinkt", "trinkt", "gedrunken"],
-      "relatedItemId": "de-vocab-routine-005"
+      "distractors": [
+        "getrinkt",
+        "trinkt",
+        "gedrunken"
+      ],
+      "relatedItemId": "de-vocab-routine-005",
+      "i18n": {
+        "it": {
+          "prompt": "Qual è il participio passato di \"trinken\" (bere)?"
+        },
+        "fr": {
+          "prompt": "Quel est le participe passé de \"trinken\" (boire) ?"
+        },
+        "hr": {
+          "prompt": "Koji je particip prošli glagola \"trinken\" (piti)?"
+        },
+        "es": {
+          "prompt": "¿Cuál es el participio pasado de \"trinken\" (beber)?"
+        }
+      }
     },
     {
       "id": "de-ex-perfekt-haben-4",
       "type": "translate",
       "prompt": "Translate: \"We ate fish.\"",
-      "answer": ["Wir haben Fisch gegessen."],
-      "relatedItemId": "de-vocab-routine-004"
+      "answer": [
+        "Wir haben Fisch gegessen."
+      ],
+      "relatedItemId": "de-vocab-routine-004",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Abbiamo mangiato pesce.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Nous avons mangé du poisson.\""
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Pojeli smo ribu.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Comimos pescado.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Perfekt (passato) con Haben",
+    "fr": "Perfekt (passé) avec Haben",
+    "hr": "Perfekt (prošlo vrijeme) s Haben",
+    "es": "Perfekt (pasado) con Haben"
+  }
 }

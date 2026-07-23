@@ -5,12 +5,32 @@
   "unitId": "it-unit-3",
   "order": 2,
   "title": "Basic Word Order & Questions",
-  "prerequisiteIds": ["it-lesson-are-verbs"],
+  "prerequisiteIds": [
+    "it-lesson-are-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Italian word order is usually Subject-Verb-Object, same as English. Questions often use the same word order as statements, just with rising intonation (in writing, a question mark), or start with a question word like **dove** (where) or the phrase **quanto costa** (how much does it cost)." },
-    { "type": "exercise", "exerciseId": "it-ex-word-order-1" },
-    { "type": "exercise", "exerciseId": "it-ex-word-order-2" },
-    { "type": "exercise", "exerciseId": "it-ex-word-order-3" }
+    {
+      "type": "explanation",
+      "markdown": "Italian word order is usually Subject-Verb-Object, same as English. Questions often use the same word order as statements, just with rising intonation (in writing, a question mark), or start with a question word like **dove** (where) or the phrase **quanto costa** (how much does it cost).",
+      "i18n": {
+        "hr": "Talijanski red riječi obično je Subjekt-Glagol-Objekt, isto kao u hrvatskom. Pitanja često koriste isti red riječi kao izjave, samo s uzlaznom intonacijom (u pismu, upitnik), ili počinju upitnom riječi poput **dove** (gdje) ili izrazom **quanto costa** (koliko košta).",
+        "fr": "L'ordre des mots italien est généralement Sujet-Verbe-Objet, comme en français. Les questions utilisent souvent le même ordre des mots que les affirmations, juste avec une intonation montante (à l'écrit, un point d'interrogation), ou commencent par un mot interrogatif comme **dove** (où) ou l'expression **quanto costa** (combien ça coûte).",
+        "de": "Die italienische Wortstellung ist meist Subjekt-Verb-Objekt, wie im deutschen Hauptsatz. Fragen benutzen oft dieselbe Wortstellung wie Aussagesätze, nur mit steigender Intonation (in der Schrift ein Fragezeichen), oder beginnen mit einem Fragewort wie **dove** (wo) oder dem Ausdruck **quanto costa** (wie viel kostet das).",
+        "es": "El orden de palabras italiano suele ser Sujeto-Verbo-Objeto, igual que en español. Las preguntas a menudo usan el mismo orden de palabras que las afirmaciones, solo con entonación ascendente (por escrito, un signo de interrogación), o empiezan con una palabra interrogativa como **dove** (dónde) o la frase **quanto costa** (cuánto cuesta)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-word-order-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-word-order-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-word-order-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,79 @@
       "type": "multiple-choice",
       "prompt": "How do you ask \"Where is the station?\"",
       "answer": "Dove è la stazione?",
-      "distractors": ["La stazione dove è a?", "È dove la stazione?", "Stazione dove è?"],
-      "relatedItemId": "it-vocab-travel-021"
+      "distractors": [
+        "La stazione dove è a?",
+        "È dove la stazione?",
+        "Stazione dove è?"
+      ],
+      "relatedItemId": "it-vocab-travel-021",
+      "i18n": {
+        "hr": {
+          "prompt": "Kako pitaš \"Gdje je kolodvor?\""
+        },
+        "fr": {
+          "prompt": "Comment demandes-tu \"Où est la gare ?\""
+        },
+        "de": {
+          "prompt": "Wie fragst du \"Wo ist der Bahnhof?\""
+        },
+        "es": {
+          "prompt": "¿Cómo preguntas \"¿Dónde está la estación?\""
+        }
+      }
     },
     {
       "id": "it-ex-word-order-2",
       "type": "fill-blank",
       "prompt": "___ costa questo biglietto? (How much does this ticket cost?)",
       "answer": "Quanto",
-      "relatedItemId": "it-vocab-travel-022"
+      "relatedItemId": "it-vocab-travel-022",
+      "i18n": {
+        "hr": {
+          "prompt": "___ costa questo biglietto? (Koliko košta ova karta?)"
+        },
+        "fr": {
+          "prompt": "___ costa questo biglietto? (Combien coûte ce billet ?)"
+        },
+        "de": {
+          "prompt": "___ costa questo biglietto? (Wie viel kostet dieses Ticket?)"
+        },
+        "es": {
+          "prompt": "___ costa questo biglietto? (¿Cuánto cuesta este billete?)"
+        }
+      }
     },
     {
       "id": "it-ex-word-order-3",
       "type": "reorder",
       "prompt": "Put these words in order: è / Dove / l'aeroporto / ?",
-      "answer": ["Dove", "è", "l'aeroporto", "?"],
-      "relatedItemId": "it-vocab-travel-006"
+      "answer": [
+        "Dove",
+        "è",
+        "l'aeroporto",
+        "?"
+      ],
+      "relatedItemId": "it-vocab-travel-006",
+      "i18n": {
+        "hr": {
+          "prompt": "Poredaj ove riječi: è / Dove / l'aeroporto / ?"
+        },
+        "fr": {
+          "prompt": "Remets ces mots dans l'ordre : è / Dove / l'aeroporto / ?"
+        },
+        "de": {
+          "prompt": "Bringe diese Wörter in die richtige Reihenfolge: è / Dove / l'aeroporto / ?"
+        },
+        "es": {
+          "prompt": "Ordena estas palabras: è / Dove / l'aeroporto / ?"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Osnovni red riječi i pitanja",
+    "fr": "Ordre des mots de base et questions",
+    "de": "Grundlegende Wortstellung und Fragen",
+    "es": "Orden básico de palabras y preguntas"
+  }
 }

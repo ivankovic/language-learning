@@ -5,22 +5,46 @@
   "unitId": "it-unit-1",
   "order": 1,
   "title": "Greetings & Politeness",
-  "titleByLang": { "hr": "Pozdravi i ljubaznost" },
+  "titleByLang": {
+    "hr": "Pozdravi i ljubaznost",
+    "fr": "Salutations et politesse",
+    "de": "Begrüßungen und Höflichkeit",
+    "es": "Saludos y cortesía"
+  },
   "prerequisiteIds": [],
   "blocks": [
     {
       "type": "explanation",
       "markdown": "**Ciao** works any time of day, but only with people you know well. For a more formal or time-specific greeting, use **buongiorno** (morning/day), **buonasera** (evening), or **buonanotte** (only when parting for the night, not as a greeting).",
-      "i18n": { "hr": "**Ciao** se koristi u bilo koje doba dana, ali samo s ljudima koje dobro poznaješ. Za formalniji ili vremenski određen pozdrav koristi **buongiorno** (jutro/dan), **buonasera** (večer) ili **buonanotte** (samo kad se opraštaš za noć, ne kao pozdrav pri susretu)." }
+      "i18n": {
+        "hr": "**Ciao** se koristi u bilo koje doba dana, ali samo s ljudima koje dobro poznaješ. Za formalniji ili vremenski određen pozdrav koristi **buongiorno** (jutro/dan), **buonasera** (večer) ili **buonanotte** (samo kad se opraštaš za noć, ne kao pozdrav pri susretu).",
+        "fr": "**Ciao** s'utilise à n'importe quel moment de la journée, mais seulement avec des personnes que tu connais bien. Pour une salutation plus formelle ou liée au moment de la journée, utilise **buongiorno** (matin/jour), **buonasera** (soir), ou **buonanotte** (seulement en se quittant pour la nuit, pas comme salutation).",
+        "de": "**Ciao** funktioniert zu jeder Tageszeit, aber nur bei Leuten, die du gut kennst. Für eine formellere oder tageszeitspezifische Begrüßung benutze **buongiorno** (Morgen/Tag), **buonasera** (Abend), oder **buonanotte** (nur beim Verabschieden für die Nacht, nicht als Begrüßung).",
+        "es": "**Ciao** funciona a cualquier hora del día, pero solo con personas que conoces bien. Para un saludo más formal o según el momento del día, usa **buongiorno** (mañana/día), **buonasera** (tarde/noche), o **buonanotte** (solo al despedirse por la noche, no como saludo)."
+      }
     },
-    { "type": "exercise", "exerciseId": "it-ex-greetings-1" },
-    { "type": "exercise", "exerciseId": "it-ex-greetings-2" },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-greetings-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-greetings-2"
+    },
     {
       "type": "explanation",
       "markdown": "Politeness words: **per favore** (please), **grazie** (thank you), and **prego** (you're welcome — also used to say \"go ahead\").",
-      "i18n": { "hr": "Riječi ljubaznosti: **per favore** (molim), **grazie** (hvala) i **prego** (nema na čemu — koristi se i za \"izvolite\")." }
+      "i18n": {
+        "hr": "Riječi ljubaznosti: **per favore** (molim), **grazie** (hvala) i **prego** (nema na čemu — koristi se i za \"izvolite\").",
+        "fr": "Mots de politesse : **per favore** (s'il te plaît), **grazie** (merci), et **prego** (je t'en prie — aussi utilisé pour dire \"vas-y\").",
+        "de": "Höflichkeitswörter: **per favore** (bitte), **grazie** (danke), und **prego** (bitte schön/gern geschehen — wird auch verwendet, um \"nur zu\" zu sagen).",
+        "es": "Palabras de cortesía: **per favore** (por favor), **grazie** (gracias), y **prego** (de nada — también se usa para decir \"adelante\")."
+      }
     },
-    { "type": "exercise", "exerciseId": "it-ex-greetings-3" }
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-greetings-3"
+    }
   ],
   "exercises": [
     {
@@ -28,8 +52,25 @@
       "type": "multiple-choice",
       "prompt": "Which greeting would you use in the morning?",
       "answer": "buongiorno",
-      "distractors": ["buonasera", "buonanotte", "arrivederci"],
-      "i18n": { "hr": { "prompt": "Koji pozdrav bi koristio/koristila ujutro?" } }
+      "distractors": [
+        "buonasera",
+        "buonanotte",
+        "arrivederci"
+      ],
+      "i18n": {
+        "hr": {
+          "prompt": "Koji pozdrav bi koristio/koristila ujutro?"
+        },
+        "fr": {
+          "prompt": "Quelle salutation utiliserais-tu le matin ?"
+        },
+        "de": {
+          "prompt": "Welche Begrüßung würdest du morgens benutzen?"
+        },
+        "es": {
+          "prompt": "¿Qué saludo usarías por la mañana?"
+        }
+      }
     },
     {
       "id": "it-ex-greetings-2",
@@ -37,16 +78,46 @@
       "prompt": "___, come stai? (informal \"hi\")",
       "answer": "Ciao",
       "relatedItemId": "it-vocab-greet-001",
-      "i18n": { "hr": { "prompt": "___, come stai? (neformalni pozdrav \"bok\")" } }
+      "i18n": {
+        "hr": {
+          "prompt": "___, come stai? (neformalni pozdrav \"bok\")"
+        },
+        "fr": {
+          "prompt": "___, come stai? (salutation informelle \"salut\")"
+        },
+        "de": {
+          "prompt": "___, come stai? (informelles \"hallo\")"
+        },
+        "es": {
+          "prompt": "___, come stai? (saludo informal \"hola\")"
+        }
+      }
     },
     {
       "id": "it-ex-greetings-3",
       "type": "multiple-choice",
       "prompt": "How do you say \"thank you\" in Italian?",
       "answer": "grazie",
-      "distractors": ["prego", "scusa", "piacere"],
+      "distractors": [
+        "prego",
+        "scusa",
+        "piacere"
+      ],
       "relatedItemId": "it-vocab-greet-007",
-      "i18n": { "hr": { "prompt": "Kako se na talijanskom kaže \"hvala\"?" } }
+      "i18n": {
+        "hr": {
+          "prompt": "Kako se na talijanskom kaže \"hvala\"?"
+        },
+        "fr": {
+          "prompt": "Comment dit-on \"merci\" en italien ?"
+        },
+        "de": {
+          "prompt": "Wie sagt man \"danke\" auf Italienisch?"
+        },
+        "es": {
+          "prompt": "¿Cómo se dice \"gracias\" en italiano?"
+        }
+      }
     }
   ]
 }

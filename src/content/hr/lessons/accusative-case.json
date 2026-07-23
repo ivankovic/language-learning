@@ -5,13 +5,42 @@
   "unitId": "hr-unit-4",
   "order": 1,
   "title": "The Accusative Case",
-  "prerequisiteIds": ["hr-lesson-food-travel"],
+  "prerequisiteIds": [
+    "hr-lesson-food-travel"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Croatian nouns change their ending depending on their role in the sentence — a system of **cases**, unlike Italian, French, or German. The **accusative** marks the direct object. Feminine nouns ending in **-a** change it to **-u**: *voda* → **Pijem vodu** (I'm drinking water). Masculine and neuter nouns usually stay the same in the accusative when they refer to things (not people)." },
-    { "type": "exercise", "exerciseId": "hr-ex-accusative-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-accusative-2" },
-    { "type": "explanation", "markdown": "For masculine nouns referring to a **person or animal**, the accusative adds **-a**: *prijatelj* → **Vidim prijatelj**a (I see a friend). This person/thing distinction (\"animacy\") doesn't exist in Italian, French, or German." },
-    { "type": "exercise", "exerciseId": "hr-ex-accusative-3" }
+    {
+      "type": "explanation",
+      "markdown": "Croatian nouns change their ending depending on their role in the sentence — a system of **cases**, unlike Italian, French, or German. The **accusative** marks the direct object. Feminine nouns ending in **-a** change it to **-u**: *voda* → **Pijem vodu** (I'm drinking water). Masculine and neuter nouns usually stay the same in the accusative when they refer to things (not people).",
+      "i18n": {
+        "it": "I sostantivi croati cambiano desinenza a seconda del loro ruolo nella frase — un sistema di **casi**, sconosciuto all'italiano, al francese o allo spagnolo. L'**accusativo** segna l'oggetto diretto. I sostantivi femminili in **-a** lo cambiano in **-u**: *voda* → **Pijem vodu** (Sto bevendo acqua). I sostantivi maschili e neutri di solito restano invariati all'accusativo quando si riferiscono a cose (non persone).",
+        "fr": "Les noms croates changent de terminaison selon leur rôle dans la phrase — un système de **cas**, inconnu du français, de l'italien ou de l'espagnol. L'**accusatif** marque l'objet direct. Les noms féminins en **-a** le changent en **-u** : *voda* → **Pijem vodu** (Je bois de l'eau). Les noms masculins et neutres restent généralement inchangés à l'accusatif lorsqu'ils désignent des choses (pas des personnes).",
+        "de": "Kroatische Substantive ändern ihre Endung je nach ihrer Rolle im Satz — ein **Kasussystem**, ähnlich dem deutschen, wenn auch mit mehr Fällen (sieben statt vier) und einer breiteren Anwendung. Der **Akkusativ** markiert das direkte Objekt, genau wie im Deutschen. Weibliche Substantive auf **-a** ändern es zu **-u**: *voda* → **Pijem vodu** (Ich trinke Wasser). Männliche und sächliche Substantive bleiben im Akkusativ meist unverändert, wenn sie sich auf Dinge (nicht Personen) beziehen.",
+        "es": "Los sustantivos croatas cambian de terminación según su función en la oración — un sistema de **casos**, desconocido en español, italiano o francés. El **acusativo** marca el objeto directo. Los sustantivos femeninos en **-a** lo cambian a **-u**: *voda* → **Pijem vodu** (Estoy bebiendo agua). Los sustantivos masculinos y neutros suelen permanecer igual en acusativo cuando se refieren a cosas (no personas)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-accusative-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-accusative-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "For masculine nouns referring to a **person or animal**, the accusative adds **-a**: *prijatelj* → **Vidim prijatelj**a (I see a friend). This person/thing distinction (\"animacy\") doesn't exist in Italian, French, or German.",
+      "i18n": {
+        "it": "Per i sostantivi maschili che si riferiscono a una **persona o animale**, l'accusativo aggiunge **-a**: *prijatelj* → **Vidim prijatelj**a (Vedo un amico). Questa distinzione persona/cosa (\"animatezza\") non esiste in italiano, francese o spagnolo.",
+        "fr": "Pour les noms masculins désignant une **personne ou un animal**, l'accusatif ajoute **-a** : *prijatelj* → **Vidim prijatelj**a (Je vois un ami). Cette distinction personne/chose (\"animéité\") n'existe pas en français, en italien ou en espagnol.",
+        "de": "Bei männlichen Substantiven, die sich auf eine **Person oder ein Tier** beziehen, fügt der Akkusativ **-a** an: *prijatelj* → **Vidim prijatelj**a (Ich sehe einen Freund). Diese Person/Ding-Unterscheidung (\"Belebtheit\") gibt es im Deutschen nicht — dort ändert sich \"der\" zu \"den\" unabhängig davon, ob das Substantiv eine Person oder eine Sache bezeichnet.",
+        "es": "Para sustantivos masculinos que se refieren a una **persona o animal**, el acusativo añade **-a**: *prijatelj* → **Vidim prijatelj**a (Veo a un amigo). Esta distinción persona/cosa (\"animacidad\") no existe en español, italiano o francés."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-accusative-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,76 @@
       "type": "fill-blank",
       "prompt": "Pijem ___. (voda → accusative: vodu — I'm drinking water.)",
       "answer": "vodu",
-      "relatedItemId": "hr-vocab-food-001"
+      "relatedItemId": "hr-vocab-food-001",
+      "i18n": {
+        "it": {
+          "prompt": "Pijem ___. (voda → accusativo: vodu — Sto bevendo acqua.)"
+        },
+        "fr": {
+          "prompt": "Pijem ___. (voda → accusatif : vodu — Je bois de l'eau.)"
+        },
+        "de": {
+          "prompt": "Pijem ___. (voda → Akkusativ: vodu — Ich trinke Wasser.)"
+        },
+        "es": {
+          "prompt": "Pijem ___. (voda → acusativo: vodu — Estoy bebiendo agua.)"
+        }
+      }
     },
     {
       "id": "hr-ex-accusative-2",
       "type": "multiple-choice",
       "prompt": "Kupujem ___. (kruh — I'm buying bread. Masculine object noun stays the same in the accusative.)",
       "answer": "kruh",
-      "distractors": ["kruha", "kruhu", "kruhom"],
-      "relatedItemId": "hr-vocab-food-004"
+      "distractors": [
+        "kruha",
+        "kruhu",
+        "kruhom"
+      ],
+      "relatedItemId": "hr-vocab-food-004",
+      "i18n": {
+        "it": {
+          "prompt": "Kupujem ___. (kruh — Sto comprando pane. Il sostantivo maschile oggetto resta invariato all'accusativo.)"
+        },
+        "fr": {
+          "prompt": "Kupujem ___. (kruh — J'achète du pain. Le nom masculin objet reste inchangé à l'accusatif.)"
+        },
+        "de": {
+          "prompt": "Kupujem ___. (kruh — Ich kaufe Brot. Das männliche Objektsubstantiv bleibt im Akkusativ unverändert.)"
+        },
+        "es": {
+          "prompt": "Kupujem ___. (kruh — Estoy comprando pan. El sustantivo masculino objeto permanece igual en acusativo.)"
+        }
+      }
     },
     {
       "id": "hr-ex-accusative-3",
       "type": "translate",
       "prompt": "Translate: \"I see a friend.\" (prijatelj is a person — accusative adds -a)",
-      "answer": ["Vidim prijatelja."],
-      "relatedItemId": "hr-vocab-greet-024"
+      "answer": [
+        "Vidim prijatelja."
+      ],
+      "relatedItemId": "hr-vocab-greet-024",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Vedo un amico.\" (prijatelj è una persona — l'accusativo aggiunge -a)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Je vois un ami.\" (prijatelj est une personne — l'accusatif ajoute -a)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Ich sehe einen Freund.\" (prijatelj ist eine Person — der Akkusativ fügt -a an)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Veo a un amigo.\" (prijatelj es una persona — el acusativo añade -a)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Il caso accusativo",
+    "fr": "Le cas accusatif",
+    "de": "Der Akkusativ",
+    "es": "El caso acusativo"
+  }
 }

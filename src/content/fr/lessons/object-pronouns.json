@@ -5,13 +5,42 @@
   "unitId": "fr-unit-4",
   "order": 3,
   "title": "Direct Object Pronouns",
-  "prerequisiteIds": ["fr-lesson-partitive-articles"],
+  "prerequisiteIds": [
+    "fr-lesson-partitive-articles"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Direct object pronouns — **le** (him/it, masc.), **la** (her/it, fem.), **les** (them) — replace a noun already mentioned, and go **before** the conjugated verb (unlike English, which keeps the object after the verb): *Je mange **la pizza*** → *Je **la** mange* (I'm eating it)." },
-    { "type": "exercise", "exerciseId": "fr-ex-object-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-object-2" },
-    { "type": "explanation", "markdown": "**Le/la** shorten to **l'** before a vowel sound: *Je l'aime* (I love him/her/it)." },
-    { "type": "exercise", "exerciseId": "fr-ex-object-3" }
+    {
+      "type": "explanation",
+      "markdown": "Direct object pronouns — **le** (him/it, masc.), **la** (her/it, fem.), **les** (them) — replace a noun already mentioned, and go **before** the conjugated verb (unlike English, which keeps the object after the verb): *Je mange **la pizza*** → *Je **la** mange* (I'm eating it).",
+      "i18n": {
+        "it": "I pronomi di oggetto diretto — **le** (lui/lo, m.), **la** (lei/la, f.), **les** (li/le) — sostituiscono un nome già menzionato, e vanno **prima** del verbo coniugato, proprio come in italiano: *Je mange **la pizza*** → *Je **la** mange* (La mangio).",
+        "de": "Direkte Objektpronomen — **le** (ihn/es, m.), **la** (sie/es, f.), **les** (sie, Plural) — ersetzen ein bereits genanntes Nomen und stehen **vor** dem konjugierten Verb — anders als im Deutschen, das das Objektpronomen wie im Englischen nach dem Verb belässt: *Je mange **la pizza*** → *Je **la** mange* (Ich esse sie).",
+        "hr": "Zamjenice za izravni objekt — **le** (njega/to, m.), **la** (nju/to, ž.), **les** (njih) — zamjenjuju već spomenutu imenicu i uvijek stoje **prije** konjugiranog glagola. Hrvatski također ima nenaglašene zamjenice (ga/je/ih), ali njihov položaj određuje pravilo drugog mjesta u rečenici, a ne fiksno pravilo \"prije glagola\": *Jedem pizzu* → *Jedem **je*** (zamjenica poslije glagola, jer je glagol prva riječ), ali *Ja **je** jedem* (zamjenica poslije prve riječi, ako je subjekt izrečen).",
+        "es": "Los pronombres de objeto directo — **le** (lo/él, masc.), **la** (la/ella, fem.), **les** (los/las) — reemplazan un sustantivo ya mencionado, y van **antes** del verbo conjugado, igual que en español: *Je mange **la pizza*** → *Je **la** mange* (La como)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-object-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-object-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "**Le/la** shorten to **l'** before a vowel sound: *Je l'aime* (I love him/her/it).",
+      "i18n": {
+        "it": "**Le/la** si accorciano in **l'** davanti a un suono vocalico: *Je l'aime* (Lo/la amo).",
+        "de": "**Le/la** verkürzen sich vor einem Vokallaut zu **l'**: *Je l'aime* (Ich liebe ihn/sie/es).",
+        "hr": "**Le/la** skraćuju se u **l'** ispred vokalskog glasa: *Je l'aime* (Volim ga/je/to).",
+        "es": "**Le/la** se acortan a **l'** ante un sonido vocálico: *Je l'aime* (Lo/la amo)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-object-3"
+    }
   ],
   "exercises": [
     {
@@ -19,20 +48,74 @@
       "type": "multiple-choice",
       "prompt": "Tu vois le train? Oui, je ___ vois. (Do you see the train? Yes, I see it.)",
       "answer": "le",
-      "distractors": ["la", "les", "l'"],
-      "relatedItemId": "fr-vocab-travel-001"
+      "distractors": [
+        "la",
+        "les",
+        "l'"
+      ],
+      "relatedItemId": "fr-vocab-travel-001",
+      "i18n": {
+        "it": {
+          "prompt": "Tu vois le train? Oui, je ___ vois. (Vedi il treno? Sì, lo vedo.)"
+        },
+        "de": {
+          "prompt": "Tu vois le train? Oui, je ___ vois. (Siehst du den Zug? Ja, ich sehe ihn.)"
+        },
+        "hr": {
+          "prompt": "Tu vois le train? Oui, je ___ vois. (Vidiš li vlak? Da, vidim ga.)"
+        },
+        "es": {
+          "prompt": "Tu vois le train? Oui, je ___ vois. (¿Ves el tren? Sí, lo veo.)"
+        }
+      }
     },
     {
       "id": "fr-ex-object-2",
       "type": "fill-blank",
       "prompt": "Tu aimes la pizza? Oui, je ___ aime. (Do you like pizza? Yes, I like it.)",
-      "answer": "la"
+      "answer": "la",
+      "i18n": {
+        "it": {
+          "prompt": "Tu aimes la pizza? Oui, je ___ aime. (Ti piace la pizza? Sì, mi piace.)"
+        },
+        "de": {
+          "prompt": "Tu aimes la pizza? Oui, je ___ aime. (Magst du Pizza? Ja, ich mag sie.)"
+        },
+        "hr": {
+          "prompt": "Tu aimes la pizza? Oui, je ___ aime. (Voliš li pizzu? Da, volim je.)"
+        },
+        "es": {
+          "prompt": "Tu aimes la pizza? Oui, je ___ aime. (¿Te gusta la pizza? Sí, me gusta.)"
+        }
+      }
     },
     {
       "id": "fr-ex-object-3",
       "type": "translate",
       "prompt": "Translate: \"I love them.\" (les — direct object pronoun, before the verb)",
-      "answer": ["Je les aime."]
+      "answer": [
+        "Je les aime."
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Li amo.\" (les — pronome di oggetto diretto, prima del verbo)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Ich liebe sie.\" (les — direktes Objektpronomen, vor dem Verb)"
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Volim ih.\" (les — zamjenica za izravni objekt, prije glagola)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Los amo.\" (les — pronombre de objeto directo, antes del verbo)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Pronomi diretti",
+    "de": "Direkte Objektpronomen",
+    "hr": "Nenaglašene zamjenice za izravni objekt",
+    "es": "Pronombres de objeto directo"
+  }
 }

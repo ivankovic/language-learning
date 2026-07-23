@@ -5,13 +5,42 @@
   "unitId": "hr-unit-4",
   "order": 2,
   "title": "The Genitive Case",
-  "prerequisiteIds": ["hr-lesson-accusative-case"],
+  "prerequisiteIds": [
+    "hr-lesson-accusative-case"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "The **genitive** case marks possession — Croatian has no word for \"of\" or an apostrophe-s; the noun itself changes instead. Feminine **-a** becomes **-e**: *kuća* → **vrata kuće** (the door of the house). Masculine nouns add **-a**: *grad* → **centar grada** (the center of the city)." },
-    { "type": "exercise", "exerciseId": "hr-ex-genitive-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-genitive-2" },
-    { "type": "explanation", "markdown": "The genitive is also used after most negated verbs, instead of the accusative: **Nemam kruha** (I don't have [any] bread) — *kruh* shifts from its plain form to the genitive **kruha** once the sentence is negated." },
-    { "type": "exercise", "exerciseId": "hr-ex-genitive-3" }
+    {
+      "type": "explanation",
+      "markdown": "The **genitive** case marks possession — Croatian has no word for \"of\" or an apostrophe-s; the noun itself changes instead. Feminine **-a** becomes **-e**: *kuća* → **vrata kuće** (the door of the house). Masculine nouns add **-a**: *grad* → **centar grada** (the center of the city).",
+      "i18n": {
+        "it": "Il caso **genitivo** segna il possesso — il croato non ha una parola per \"di\" o un apostrofo-s; è il sostantivo stesso a cambiare. Il femminile **-a** diventa **-e**: *kuća* → **vrata kuće** (la porta della casa). I sostantivi maschili aggiungono **-a**: *grad* → **centar grada** (il centro della città).",
+        "fr": "Le cas **génitif** marque la possession — le croate n'a pas de mot pour \"de\" ni d'apostrophe-s ; c'est le nom lui-même qui change. Le féminin **-a** devient **-e** : *kuća* → **vrata kuće** (la porte de la maison). Les noms masculins ajoutent **-a** : *grad* → **centar grada** (le centre de la ville).",
+        "de": "Der **Genitiv** markiert Besitz — ähnlich dem deutschen Genitiv (\"des Hauses\"), nur dass er im gesprochenen Kroatisch viel lebendiger ist als im heutigen Deutsch, wo er oft durch \"von\" + Dativ ersetzt wird. Kroatisch hat kein Wort für \"von\"; das Substantiv selbst ändert sich stattdessen. Weiblich **-a** wird zu **-e**: *kuća* → **vrata kuće** (die Tür des Hauses). Männliche Substantive fügen **-a** an: *grad* → **centar grada** (das Zentrum der Stadt).",
+        "es": "El caso **genitivo** marca la posesión — el croata no tiene una palabra para \"de\" ni un apóstrofo-s; es el propio sustantivo el que cambia. El femenino **-a** se convierte en **-e**: *kuća* → **vrata kuće** (la puerta de la casa). Los sustantivos masculinos añaden **-a**: *grad* → **centar grada** (el centro de la ciudad)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-genitive-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-genitive-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "The genitive is also used after most negated verbs, instead of the accusative: **Nemam kruha** (I don't have [any] bread) — *kruh* shifts from its plain form to the genitive **kruha** once the sentence is negated.",
+      "i18n": {
+        "it": "Il genitivo si usa anche dopo la maggior parte dei verbi negati, al posto dell'accusativo: **Nemam kruha** (Non ho pane) — *kruh* passa dalla forma semplice al genitivo **kruha** una volta negata la frase.",
+        "fr": "Le génitif s'utilise aussi après la plupart des verbes niés, à la place de l'accusatif : **Nemam kruha** (Je n'ai pas de pain) — *kruh* passe de sa forme simple au génitif **kruha** une fois la phrase niée.",
+        "de": "Der Genitiv wird auch nach den meisten verneinten Verben verwendet, anstelle des Akkusativs: **Nemam kruha** (Ich habe kein Brot) — *kruh* wechselt von seiner einfachen Form zum Genitiv **kruha**, sobald der Satz verneint wird.",
+        "es": "El genitivo también se usa después de la mayoría de los verbos negados, en lugar del acusativo: **Nemam kruha** (No tengo pan) — *kruh* pasa de su forma simple al genitivo **kruha** una vez que la frase se niega."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-genitive-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,76 @@
       "type": "fill-blank",
       "prompt": "vrata ___. (kuća → genitive: kuće — the door of the house)",
       "answer": "kuće",
-      "relatedItemId": "hr-vocab-routine-028"
+      "relatedItemId": "hr-vocab-routine-028",
+      "i18n": {
+        "it": {
+          "prompt": "vrata ___. (kuća → genitivo: kuće — la porta della casa)"
+        },
+        "fr": {
+          "prompt": "vrata ___. (kuća → génitif : kuće — la porte de la maison)"
+        },
+        "de": {
+          "prompt": "vrata ___. (kuća → Genitiv: kuće — die Tür des Hauses)"
+        },
+        "es": {
+          "prompt": "vrata ___. (kuća → genitivo: kuće — la puerta de la casa)"
+        }
+      }
     },
     {
       "id": "hr-ex-genitive-2",
       "type": "multiple-choice",
       "prompt": "centar ___. (grad → genitive — the center of the city)",
       "answer": "grada",
-      "distractors": ["grad", "gradu", "gradom"],
-      "relatedItemId": "hr-vocab-travel-010"
+      "distractors": [
+        "grad",
+        "gradu",
+        "gradom"
+      ],
+      "relatedItemId": "hr-vocab-travel-010",
+      "i18n": {
+        "it": {
+          "prompt": "centar ___. (grad → genitivo — il centro della città)"
+        },
+        "fr": {
+          "prompt": "centar ___. (grad → génitif — le centre de la ville)"
+        },
+        "de": {
+          "prompt": "centar ___. (grad → Genitiv — das Zentrum der Stadt)"
+        },
+        "es": {
+          "prompt": "centar ___. (grad → genitivo — el centro de la ciudad)"
+        }
+      }
     },
     {
       "id": "hr-ex-genitive-3",
       "type": "translate",
       "prompt": "Translate: \"I don't have bread.\" (negation triggers the genitive: kruha)",
-      "answer": ["Nemam kruha."],
-      "relatedItemId": "hr-vocab-food-004"
+      "answer": [
+        "Nemam kruha."
+      ],
+      "relatedItemId": "hr-vocab-food-004",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Non ho pane.\" (la negazione richiede il genitivo: kruha)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Je n'ai pas de pain.\" (la négation déclenche le génitif : kruha)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Ich habe kein Brot.\" (die Verneinung löst den Genitiv aus: kruha)"
+        },
+        "es": {
+          "prompt": "Traduce: \"No tengo pan.\" (la negación desencadena el genitivo: kruha)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Il caso genitivo",
+    "fr": "Le cas génitif",
+    "de": "Der Genitiv",
+    "es": "El caso genitivo"
+  }
 }

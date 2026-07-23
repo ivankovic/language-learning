@@ -5,14 +5,46 @@
   "unitId": "hr-unit-3",
   "order": 3,
   "title": "Ordering Food & Asking Directions",
-  "prerequisiteIds": ["hr-lesson-word-order"],
+  "prerequisiteIds": [
+    "hr-lesson-word-order"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Htio bih...** (\"I would like...\") is the polite way to order or request something. Unlike Italian's *vorrei* or German's *ich möchte*, this phrase changes with the speaker's gender: a man says **htio bih**, a woman says **htjela bih**. Combine it with food vocabulary to order at a restaurant, or with travel vocabulary to ask for directions." },
-    { "type": "exercise", "exerciseId": "hr-ex-food-travel-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-food-travel-2" },
-    { "type": "explanation", "markdown": "Travel words like **dolazak** (arrival) and **odlazak** (departure) show up constantly on station and airport boards." },
-    { "type": "exercise", "exerciseId": "hr-ex-food-travel-3" },
-    { "type": "exercise", "exerciseId": "hr-ex-food-travel-4" }
+    {
+      "type": "explanation",
+      "markdown": "**Htio bih...** (\"I would like...\") is the polite way to order or request something. Unlike Italian's *vorrei* or German's *ich möchte*, this phrase changes with the speaker's gender: a man says **htio bih**, a woman says **htjela bih**. Combine it with food vocabulary to order at a restaurant, or with travel vocabulary to ask for directions.",
+      "i18n": {
+        "it": "**Htio bih...** (\"Vorrei...\") è il modo educato per ordinare o chiedere qualcosa. A differenza dell'italiano *vorrei*, questa frase cambia in base al genere di chi parla: un uomo dice **htio bih**, una donna dice **htjela bih**. Combinala con il vocabolario del cibo per ordinare al ristorante, o con quello dei viaggi per chiedere indicazioni.",
+        "fr": "**Htio bih...** (\"Je voudrais...\") est la façon polie de commander ou de demander quelque chose. Contrairement au français *je voudrais*, cette expression change selon le genre de la personne qui parle : un homme dit **htio bih**, une femme dit **htjela bih**. Combine-la avec le vocabulaire de la nourriture pour commander au restaurant, ou avec celui du voyage pour demander son chemin.",
+        "de": "**Htio bih...** (\"Ich möchte...\") ist die höfliche Art, etwas zu bestellen oder zu erbitten. Anders als das deutsche *ich möchte* ändert sich dieser Ausdruck je nach Geschlecht der sprechenden Person: ein Mann sagt **htio bih**, eine Frau sagt **htjela bih**. Kombiniere ihn mit Essensvokabular, um im Restaurant zu bestellen, oder mit Reisevokabular, um nach dem Weg zu fragen.",
+        "es": "**Htio bih...** (\"Quisiera...\") es la forma educada de pedir o solicitar algo. A diferencia del español *quisiera*, esta expresión cambia según el género de quien habla: un hombre dice **htio bih**, una mujer dice **htjela bih**. Combínala con vocabulario de comida para pedir en un restaurante, o con vocabulario de viajes para preguntar direcciones."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-food-travel-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-food-travel-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Travel words like **dolazak** (arrival) and **odlazak** (departure) show up constantly on station and airport boards.",
+      "i18n": {
+        "it": "Parole di viaggio come **dolazak** (arrivo) e **odlazak** (partenza) compaiono costantemente sui tabelloni di stazioni e aeroporti.",
+        "fr": "Des mots de voyage comme **dolazak** (arrivée) et **odlazak** (départ) apparaissent constamment sur les panneaux des gares et aéroports.",
+        "de": "Reisewörter wie **dolazak** (Ankunft) und **odlazak** (Abfahrt) stehen ständig auf Anzeigetafeln in Bahnhöfen und Flughäfen.",
+        "es": "Palabras de viaje como **dolazak** (llegada) y **odlazak** (salida) aparecen constantemente en los paneles de estaciones y aeropuertos."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-food-travel-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-food-travel-4"
+    }
   ],
   "exercises": [
     {
@@ -20,30 +52,126 @@
       "type": "multiple-choice",
       "prompt": "You're a woman ordering water at a restaurant. What do you say?",
       "answer": "Htjela bih vodu, molim.",
-      "distractors": ["Htio bih vodu, molim.", "Gdje je voda?", "Imam vodu."],
-      "relatedItemId": "hr-vocab-food-001"
+      "distractors": [
+        "Htio bih vodu, molim.",
+        "Gdje je voda?",
+        "Imam vodu."
+      ],
+      "relatedItemId": "hr-vocab-food-001",
+      "i18n": {
+        "it": {
+          "prompt": "Sei una donna e vuoi ordinare dell'acqua al ristorante. Cosa dici?"
+        },
+        "fr": {
+          "prompt": "Tu es une femme et tu veux commander de l'eau au restaurant. Que dis-tu ?"
+        },
+        "de": {
+          "prompt": "Du bist eine Frau und möchtest im Restaurant Wasser bestellen. Was sagst du?"
+        },
+        "es": {
+          "prompt": "Eres una mujer y quieres pedir agua en un restaurante. ¿Qué dices?"
+        }
+      }
     },
     {
       "id": "hr-ex-food-travel-2",
       "type": "multiple-choice",
       "prompt": "Someone asks \"Gdje je hotel?\" What are they asking for?",
       "answer": "hotel",
-      "distractors": ["restaurant", "train station", "airport"],
-      "relatedItemId": "hr-vocab-travel-007"
+      "distractors": [
+        "restaurant",
+        "train station",
+        "airport"
+      ],
+      "relatedItemId": "hr-vocab-travel-007",
+      "i18n": {
+        "it": {
+          "prompt": "Qualcuno chiede \"Gdje je hotel?\" Cosa sta cercando?",
+          "answer": "albergo",
+          "distractors": [
+            "ristorante",
+            "stazione",
+            "aeroporto"
+          ]
+        },
+        "fr": {
+          "prompt": "Quelqu'un demande \"Gdje je hotel?\" Que cherche-t-il ?",
+          "answer": "hôtel",
+          "distractors": [
+            "restaurant",
+            "gare",
+            "aéroport"
+          ]
+        },
+        "de": {
+          "prompt": "Jemand fragt \"Gdje je hotel?\" Wonach fragt er?",
+          "answer": "Hotel",
+          "distractors": [
+            "Restaurant",
+            "Bahnhof",
+            "Flughafen"
+          ]
+        },
+        "es": {
+          "prompt": "Alguien pregunta \"Gdje je hotel?\" ¿Qué está buscando?",
+          "answer": "hotel",
+          "distractors": [
+            "restaurante",
+            "estación de tren",
+            "aeropuerto"
+          ]
+        }
+      }
     },
     {
       "id": "hr-ex-food-travel-3",
       "type": "fill-blank",
       "prompt": "Vlak ima ___ u devet sati. (arrival)",
       "answer": "dolazak",
-      "relatedItemId": "hr-vocab-travel-017"
+      "relatedItemId": "hr-vocab-travel-017",
+      "i18n": {
+        "it": {
+          "prompt": "Vlak ima ___ u devet sati. (arrivo)"
+        },
+        "fr": {
+          "prompt": "Vlak ima ___ u devet sati. (arrivée)"
+        },
+        "de": {
+          "prompt": "Vlak ima ___ u devet sati. (Ankunft)"
+        },
+        "es": {
+          "prompt": "Vlak ima ___ u devet sati. (llegada)"
+        }
+      }
     },
     {
       "id": "hr-ex-food-travel-4",
       "type": "translate",
       "prompt": "Translate: \"The restaurant is near the station.\"",
-      "answer": ["Restoran je blizu kolodvora."],
-      "relatedItemId": "hr-vocab-food-031"
+      "answer": [
+        "Restoran je blizu kolodvora."
+      ],
+      "relatedItemId": "hr-vocab-food-031",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Il ristorante è vicino alla stazione.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Le restaurant est près de la gare.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Das Restaurant ist in der Nähe des Bahnhofs.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"El restaurante está cerca de la estación.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Ordinare da mangiare e chiedere indicazioni",
+    "fr": "Commander à manger et demander son chemin",
+    "de": "Essen bestellen und nach dem Weg fragen",
+    "es": "Pedir comida y preguntar direcciones"
+  }
 }

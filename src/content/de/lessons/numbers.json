@@ -5,12 +5,32 @@
   "unitId": "de-unit-2",
   "order": 3,
   "title": "Numbers 1-10 & Telling Time",
-  "prerequisiteIds": ["de-lesson-haben"],
+  "prerequisiteIds": [
+    "de-lesson-haben"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Numbers 1-10: **eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn**. To tell time, German uses \"Es ist...\" (It is...), e.g. *Es ist drei Uhr* (It's three o'clock)." },
-    { "type": "exercise", "exerciseId": "de-ex-numbers-1" },
-    { "type": "exercise", "exerciseId": "de-ex-numbers-2" },
-    { "type": "exercise", "exerciseId": "de-ex-numbers-3" }
+    {
+      "type": "explanation",
+      "markdown": "Numbers 1-10: **eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn**. To tell time, German uses \"Es ist...\" (It is...), e.g. *Es ist drei Uhr* (It's three o'clock).",
+      "i18n": {
+        "it": "Numeri 1-10: **eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn**. Per dire l'ora, il tedesco usa \"Es ist...\" (È...), es. *Es ist drei Uhr* (Sono le tre).",
+        "fr": "Nombres 1-10 : **eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn**. Pour dire l'heure, l'allemand utilise \"Es ist...\" (Il est...), p. ex. *Es ist drei Uhr* (Il est trois heures).",
+        "hr": "Brojevi 1-10: **eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn**. Za vrijeme njemački koristi \"Es ist...\" (Jest...), npr. *Es ist drei Uhr* (Tri sata je).",
+        "es": "Números 1-10: **eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn**. Para decir la hora, el alemán usa \"Es ist...\" (Son las...), p. ej. *Es ist drei Uhr* (Son las tres)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-numbers-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-numbers-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-numbers-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,107 @@
       "type": "multiple-choice",
       "prompt": "What is \"sieben\" in English?",
       "answer": "seven",
-      "distractors": ["six", "eight", "nine"],
-      "relatedItemId": "de-vocab-numtime-007"
+      "distractors": [
+        "six",
+        "eight",
+        "nine"
+      ],
+      "relatedItemId": "de-vocab-numtime-007",
+      "i18n": {
+        "it": {
+          "prompt": "Cosa significa \"sieben\" in italiano?",
+          "answer": "sette",
+          "distractors": [
+            "sei",
+            "otto",
+            "nove"
+          ]
+        },
+        "fr": {
+          "prompt": "Que signifie \"sieben\" en français ?",
+          "answer": "sept",
+          "distractors": [
+            "six",
+            "huit",
+            "neuf"
+          ]
+        },
+        "hr": {
+          "prompt": "Što znači \"sieben\" na hrvatskom?",
+          "answer": "sedam",
+          "distractors": [
+            "šest",
+            "osam",
+            "devet"
+          ]
+        },
+        "es": {
+          "prompt": "¿Qué significa \"sieben\" en español?",
+          "answer": "siete",
+          "distractors": [
+            "seis",
+            "ocho",
+            "nueve"
+          ]
+        }
+      }
     },
     {
       "id": "de-ex-numbers-2",
       "type": "multiple-choice",
       "prompt": "Which word means \"morning\"?",
       "answer": "Morgen",
-      "distractors": ["Abend", "Nachmittag", "Nacht"],
-      "relatedItemId": "de-vocab-numtime-013"
+      "distractors": [
+        "Abend",
+        "Nachmittag",
+        "Nacht"
+      ],
+      "relatedItemId": "de-vocab-numtime-013",
+      "i18n": {
+        "it": {
+          "prompt": "Quale parola significa \"mattina\"?"
+        },
+        "fr": {
+          "prompt": "Quel mot signifie \"matin\" ?"
+        },
+        "hr": {
+          "prompt": "Koja riječ znači \"jutro\"?"
+        },
+        "es": {
+          "prompt": "¿Qué palabra significa \"mañana\" (por la mañana)?"
+        }
+      }
     },
     {
       "id": "de-ex-numbers-3",
       "type": "reorder",
       "prompt": "Put these words in order: Uhr / drei / ist / Es",
-      "answer": ["Es", "ist", "drei", "Uhr"]
+      "answer": [
+        "Es",
+        "ist",
+        "drei",
+        "Uhr"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Metti in ordine queste parole: Uhr / drei / ist / Es"
+        },
+        "fr": {
+          "prompt": "Mets ces mots dans l'ordre : Uhr / drei / ist / Es"
+        },
+        "hr": {
+          "prompt": "Poredaj ove riječi: Uhr / drei / ist / Es"
+        },
+        "es": {
+          "prompt": "Ordena estas palabras: Uhr / drei / ist / Es"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Numeri 1-10 e l'ora",
+    "fr": "Nombres 1-10 et l'heure",
+    "hr": "Brojevi 1-10 i vrijeme",
+    "es": "Números 1-10 y la hora"
+  }
 }

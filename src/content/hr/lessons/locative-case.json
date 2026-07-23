@@ -5,13 +5,42 @@
   "unitId": "hr-unit-4",
   "order": 3,
   "title": "The Locative Case",
-  "prerequisiteIds": ["hr-lesson-genitive-case"],
+  "prerequisiteIds": [
+    "hr-lesson-genitive-case"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "The **locative** case is used after **u** (in) and **na** (on/at) to describe a fixed location — never motion. Feminine **-a** becomes **-i**: *kuća* → **u kući** (in the house). This case only ever follows a preposition; it's never used on its own." },
-    { "type": "exercise", "exerciseId": "hr-ex-locative-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-locative-2" },
-    { "type": "explanation", "markdown": "The same preposition **u** can also take the **accusative** instead, but with a completely different meaning: **u grad** (into the city — motion, accusative) vs. **u gradu** (in the city — location, locative). The case ending is what signals whether you're going somewhere or already there." },
-    { "type": "exercise", "exerciseId": "hr-ex-locative-3" }
+    {
+      "type": "explanation",
+      "markdown": "The **locative** case is used after **u** (in) and **na** (on/at) to describe a fixed location — never motion. Feminine **-a** becomes **-i**: *kuća* → **u kući** (in the house). This case only ever follows a preposition; it's never used on its own.",
+      "i18n": {
+        "it": "Il caso **locativo** si usa dopo **u** (in) e **na** (su/a) per descrivere una posizione fissa — mai il movimento. Il femminile **-a** diventa **-i**: *kuća* → **u kući** (in casa). Questo caso segue sempre una preposizione; non si usa mai da solo.",
+        "fr": "Le cas **locatif** s'utilise après **u** (dans) et **na** (sur/à) pour décrire une position fixe — jamais un mouvement. Le féminin **-a** devient **-i** : *kuća* → **u kući** (dans la maison). Ce cas suit toujours une préposition ; il ne s'utilise jamais seul.",
+        "de": "Der **Lokativ** wird nach **u** (in) und **na** (auf/an) verwendet, um eine feste Position zu beschreiben — niemals eine Bewegung. Das erinnert dich sofort an die deutschen Wechselpräpositionen! Weiblich **-a** wird zu **-i**: *kuća* → **u kući** (im Haus). Dieser Fall folgt immer einer Präposition; er wird nie allein verwendet.",
+        "es": "El caso **locativo** se usa después de **u** (en) y **na** (sobre/en) para describir una posición fija — nunca movimiento. El femenino **-a** se convierte en **-i**: *kuća* → **u kući** (en la casa). Este caso siempre sigue a una preposición; nunca se usa solo."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-locative-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-locative-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "The same preposition **u** can also take the **accusative** instead, but with a completely different meaning: **u grad** (into the city — motion, accusative) vs. **u gradu** (in the city — location, locative). The case ending is what signals whether you're going somewhere or already there.",
+      "i18n": {
+        "it": "La stessa preposizione **u** può prendere anche l'**accusativo**, ma con un significato completamente diverso: **u grad** (in città — movimento, accusativo) contro **u gradu** (in città — posizione, locativo). La desinenza del caso segnala se ti stai muovendo verso un luogo o se ci sei già.",
+        "fr": "La même préposition **u** peut aussi prendre l'**accusatif**, mais avec un sens complètement différent : **u grad** (vers la ville — mouvement, accusatif) contre **u gradu** (dans la ville — position, locatif). La terminaison du cas indique si tu te déplaces vers un endroit ou si tu y es déjà.",
+        "de": "Dieselbe Präposition **u** kann auch den **Akkusativ** nehmen, aber mit einer völlig anderen Bedeutung — genau wie im Deutschen bei \"in\": **u grad** (in die Stadt hinein — Bewegung, Akkusativ) gegenüber **u gradu** (in der Stadt — Position, Lokativ, vergleichbar mit dem deutschen Dativ). Die Kasusendung zeigt an, ob du dich irgendwohin bewegst oder schon dort bist — dasselbe Prinzip wie bei \"in die Stadt\" (Akkusativ) vs. \"in der Stadt\" (Dativ).",
+        "es": "La misma preposición **u** también puede llevar **acusativo**, pero con un significado completamente distinto: **u grad** (hacia la ciudad — movimiento, acusativo) frente a **u gradu** (en la ciudad — posición, locativo). La terminación del caso indica si te estás moviendo hacia algún sitio o si ya estás allí."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-locative-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,102 @@
       "type": "fill-blank",
       "prompt": "Živim u ___. (kuća → locative: kući — I live in the house.)",
       "answer": "kući",
-      "relatedItemId": "hr-vocab-routine-028"
+      "relatedItemId": "hr-vocab-routine-028",
+      "i18n": {
+        "it": {
+          "prompt": "Živim u ___. (kuća → locativo: kući — Vivo in casa.)"
+        },
+        "fr": {
+          "prompt": "Živim u ___. (kuća → locatif : kući — Je vis dans la maison.)"
+        },
+        "de": {
+          "prompt": "Živim u ___. (kuća → Lokativ: kući — Ich wohne im Haus.)"
+        },
+        "es": {
+          "prompt": "Živim u ___. (kuća → locativo: kući — Vivo en la casa.)"
+        }
+      }
     },
     {
       "id": "hr-ex-locative-2",
       "type": "multiple-choice",
       "prompt": "Radim u ___. (grad → locative — I work in the city.)",
       "answer": "gradu",
-      "distractors": ["grad", "grada", "gradom"],
-      "relatedItemId": "hr-vocab-travel-010"
+      "distractors": [
+        "grad",
+        "grada",
+        "gradom"
+      ],
+      "relatedItemId": "hr-vocab-travel-010",
+      "i18n": {
+        "it": {
+          "prompt": "Radim u ___. (grad → locativo — Lavoro in città.)"
+        },
+        "fr": {
+          "prompt": "Radim u ___. (grad → locatif — Je travaille en ville.)"
+        },
+        "de": {
+          "prompt": "Radim u ___. (grad → Lokativ — Ich arbeite in der Stadt.)"
+        },
+        "es": {
+          "prompt": "Radim u ___. (grad → locativo — Trabajo en la ciudad.)"
+        }
+      }
     },
     {
       "id": "hr-ex-locative-3",
       "type": "multiple-choice",
       "prompt": "\"u gradu\" means location (in the city). What does \"u grad\" (accusative) signal instead?",
       "answer": "motion into the city",
-      "distractors": ["a bigger city", "a past location", "possession of the city"]
+      "distractors": [
+        "a bigger city",
+        "a past location",
+        "possession of the city"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "\"u gradu\" indica posizione (in città). Cosa indica invece \"u grad\" (accusativo)?",
+          "answer": "movimento verso la città",
+          "distractors": [
+            "una città più grande",
+            "una posizione passata",
+            "il possesso della città"
+          ]
+        },
+        "fr": {
+          "prompt": "\"u gradu\" indique une position (en ville). Que signifie \"u grad\" (accusatif) à la place ?",
+          "answer": "un mouvement vers la ville",
+          "distractors": [
+            "une ville plus grande",
+            "une position passée",
+            "la possession de la ville"
+          ]
+        },
+        "de": {
+          "prompt": "\"u gradu\" bedeutet Position (in der Stadt). Was bedeutet stattdessen \"u grad\" (Akkusativ)?",
+          "answer": "Bewegung in die Stadt hinein",
+          "distractors": [
+            "eine größere Stadt",
+            "eine frühere Position",
+            "Besitz der Stadt"
+          ]
+        },
+        "es": {
+          "prompt": "\"u gradu\" indica posición (en la ciudad). ¿Qué indica en cambio \"u grad\" (acusativo)?",
+          "answer": "movimiento hacia la ciudad",
+          "distractors": [
+            "una ciudad más grande",
+            "una posición pasada",
+            "la posesión de la ciudad"
+          ]
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Il caso locativo",
+    "fr": "Le cas locatif",
+    "de": "Der Lokativ",
+    "es": "El caso locativo"
+  }
 }

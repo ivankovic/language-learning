@@ -5,14 +5,46 @@
   "unitId": "hr-unit-2",
   "order": 1,
   "title": "Biti (to be) — Present Tense",
-  "prerequisiteIds": ["hr-lesson-gender"],
+  "prerequisiteIds": [
+    "hr-lesson-gender"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Biti** (to be) is irregular and one of the most-used verbs in Croatian:\n\nja **sam** · ti **si** · on/ona/ono **je** · mi **smo** · vi **ste** · oni/one/ona **su**\n\nLike Italian and French (and unlike German), Croatian pronouns are usually dropped since the verb ending already shows who's doing the action — you'd normally just say **Umoran sam** (I'm tired), not **Ja sam umoran**, unless you want to emphasize \"I\"." },
-    { "type": "exercise", "exerciseId": "hr-ex-biti-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-biti-2" },
-    { "type": "explanation", "markdown": "**Drago mi je** literally means \"[it] is pleasing to me\" and is what you say when meeting someone for the first time." },
-    { "type": "exercise", "exerciseId": "hr-ex-biti-3" },
-    { "type": "exercise", "exerciseId": "hr-ex-biti-4" }
+    {
+      "type": "explanation",
+      "markdown": "**Biti** (to be) is irregular and one of the most-used verbs in Croatian:\n\nja **sam** · ti **si** · on/ona/ono **je** · mi **smo** · vi **ste** · oni/one/ona **su**\n\nLike Italian and French (and unlike German), Croatian pronouns are usually dropped since the verb ending already shows who's doing the action — you'd normally just say **Umoran sam** (I'm tired), not **Ja sam umoran**, unless you want to emphasize \"I\".",
+      "i18n": {
+        "it": "**Biti** (essere) è irregolare ed è uno dei verbi più usati in croato:\n\nja **sam** · ti **si** · on/ona/ono **je** · mi **smo** · vi **ste** · oni/one/ona **su**\n\nCome in italiano, i pronomi croati vengono di solito omessi perché la desinenza del verbo già indica chi compie l'azione — normalmente si dice solo **Umoran sam** (Sono stanco), non **Ja sam umoran**, a meno che tu non voglia enfatizzare \"io\".",
+        "fr": "**Biti** (être) est irrégulier et l'un des verbes les plus utilisés en croate :\n\nja **sam** · ti **si** · on/ona/ono **je** · mi **smo** · vi **ste** · oni/one/ona **su**\n\nÀ la différence du français (mais comme l'italien ou l'espagnol), les pronoms croates sont généralement omis car la terminaison du verbe indique déjà qui fait l'action — on dit normalement juste **Umoran sam** (Je suis fatigué), pas **Ja sam umoran**, sauf pour insister sur \"je\".",
+        "de": "**Biti** (sein) ist unregelmäßig und eines der meistgebrauchten Verben im Kroatischen:\n\nja **sam** · ti **si** · on/ona/ono **je** · mi **smo** · vi **ste** · oni/one/ona **su**\n\nAnders als im Deutschen werden kroatische Pronomen meist weggelassen, da die Verbendung schon zeigt, wer handelt — man sagt normalerweise einfach **Umoran sam** (Ich bin müde), nicht **Ja sam umoran**, außer man will \"ich\" betonen.",
+        "es": "**Biti** (ser/estar) es irregular y uno de los verbos más usados en croata:\n\nja **sam** · ti **si** · on/ona/ono **je** · mi **smo** · vi **ste** · oni/one/ona **su**\n\nComo en español, los pronombres croatas normalmente se omiten porque la terminación del verbo ya indica quién realiza la acción — normalmente se dice solo **Umoran sam** (Estoy cansado), no **Ja sam umoran**, salvo que quieras enfatizar \"yo\". Además, a diferencia del español, el croata no distingue ser/estar — **biti** cubre ambos usos."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-biti-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-biti-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "**Drago mi je** literally means \"[it] is pleasing to me\" and is what you say when meeting someone for the first time.",
+      "i18n": {
+        "it": "**Drago mi je** significa letteralmente \"[mi] fa piacere\" ed è ciò che si dice quando si incontra qualcuno per la prima volta.",
+        "fr": "**Drago mi je** signifie littéralement \"[cela] me fait plaisir\" et c'est ce qu'on dit en rencontrant quelqu'un pour la première fois.",
+        "de": "**Drago mi je** bedeutet wörtlich \"[es] erfreut mich\" und sagt man, wenn man jemanden zum ersten Mal trifft.",
+        "es": "**Drago mi je** significa literalmente \"[eso] me complace\" y es lo que se dice al conocer a alguien por primera vez."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-biti-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-biti-4"
+    }
   ],
   "exercises": [
     {
@@ -20,30 +52,103 @@
       "type": "fill-blank",
       "prompt": "Umoran ___. (I am tired.)",
       "answer": "sam",
-      "relatedItemId": "hr-vocab-routine-030"
+      "relatedItemId": "hr-vocab-routine-030",
+      "i18n": {
+        "it": {
+          "prompt": "Umoran ___. (Sono stanco.)"
+        },
+        "fr": {
+          "prompt": "Umoran ___. (Je suis fatigué.)"
+        },
+        "de": {
+          "prompt": "Umoran ___. (Ich bin müde.)"
+        },
+        "es": {
+          "prompt": "Umoran ___. (Estoy cansado.)"
+        }
+      }
     },
     {
       "id": "hr-ex-biti-2",
       "type": "multiple-choice",
       "prompt": "Kako ___ ti? (How are you? — informal)",
       "answer": "si",
-      "distractors": ["sam", "je", "ste"],
-      "relatedItemId": "hr-vocab-greet-015"
+      "distractors": [
+        "sam",
+        "je",
+        "ste"
+      ],
+      "relatedItemId": "hr-vocab-greet-015",
+      "i18n": {
+        "it": {
+          "prompt": "Kako ___ ti? (Come stai? — informale)"
+        },
+        "fr": {
+          "prompt": "Kako ___ ti? (Comment vas-tu ? — informel)"
+        },
+        "de": {
+          "prompt": "Kako ___ ti? (Wie geht's dir? — informell)"
+        },
+        "es": {
+          "prompt": "Kako ___ ti? (¿Cómo estás? — informal)"
+        }
+      }
     },
     {
       "id": "hr-ex-biti-3",
       "type": "multiple-choice",
       "prompt": "How do you respond when meeting someone for the first time?",
       "answer": "Drago mi je",
-      "distractors": ["Nema na čemu", "Oprostite", "Dobro sam"],
-      "relatedItemId": "hr-vocab-greet-018"
+      "distractors": [
+        "Nema na čemu",
+        "Oprostite",
+        "Dobro sam"
+      ],
+      "relatedItemId": "hr-vocab-greet-018",
+      "i18n": {
+        "it": {
+          "prompt": "Come rispondi quando incontri qualcuno per la prima volta?"
+        },
+        "fr": {
+          "prompt": "Comment réponds-tu en rencontrant quelqu'un pour la première fois ?"
+        },
+        "de": {
+          "prompt": "Wie antwortest du, wenn du jemanden zum ersten Mal triffst?"
+        },
+        "es": {
+          "prompt": "¿Cómo respondes al conocer a alguien por primera vez?"
+        }
+      }
     },
     {
       "id": "hr-ex-biti-4",
       "type": "translate",
       "prompt": "Translate: \"We are friends.\"",
-      "answer": ["Mi smo prijatelji.", "Prijatelji smo."],
-      "relatedItemId": "hr-vocab-greet-024"
+      "answer": [
+        "Mi smo prijatelji.",
+        "Prijatelji smo."
+      ],
+      "relatedItemId": "hr-vocab-greet-024",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Siamo amici.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Nous sommes amis.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Wir sind Freunde.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Somos amigos.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Biti (essere) — presente",
+    "fr": "Biti (être) — présent",
+    "de": "Biti (sein) — Präsens",
+    "es": "Biti (ser/estar) — presente"
+  }
 }

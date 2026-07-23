@@ -5,34 +5,117 @@
   "unitId": "de-unit-5",
   "order": 2,
   "title": "Perfekt (Past Tense) with Sein",
-  "prerequisiteIds": ["de-lesson-perfekt-haben"],
+  "prerequisiteIds": [
+    "de-lesson-perfekt-haben"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Verbs of **motion or change of state** — like *gehen* (to go), *fahren* (to drive/travel), *kommen* (to come) — form the Perfekt with **sein** instead of haben: **Ich bin nach Hause gegangen** (I went home). This is a genuine two-auxiliary system, similar to Italian's essere/avere split for passato prossimo, but the specific verb list differs between the two languages." },
-    { "type": "exercise", "exerciseId": "de-ex-perfekt-sein-1" },
-    { "type": "exercise", "exerciseId": "de-ex-perfekt-sein-2" },
-    { "type": "explanation", "markdown": "Separable verbs of motion keep both rules at once: **aufstehen** → **Ich bin früh aufgestanden** (I got up early) — sein as the auxiliary, and the participle **aufgestanden** keeps the prefix attached at the front, unlike in the present tense where it detaches." },
-    { "type": "exercise", "exerciseId": "de-ex-perfekt-sein-3" }
+    {
+      "type": "explanation",
+      "markdown": "Verbs of **motion or change of state** — like *gehen* (to go), *fahren* (to drive/travel), *kommen* (to come) — form the Perfekt with **sein** instead of haben: **Ich bin nach Hause gegangen** (I went home). This is a genuine two-auxiliary system, similar to Italian's essere/avere split for passato prossimo, but the specific verb list differs between the two languages.",
+      "i18n": {
+        "it": "I verbi di **movimento o cambiamento di stato** — come *gehen* (andare), *fahren* (guidare/viaggiare), *kommen* (venire) — formano il Perfekt con **sein** invece di haben: **Ich bin nach Hause gegangen** (Sono andato/a a casa). Questo è un vero sistema a due ausiliari, simile alla distinzione essere/avere dell'italiano per il passato prossimo, ma la lista esatta dei verbi differisce tra le due lingue. A differenza dell'italiano, però, il participio tedesco **non** concorda mai in genere o numero con il soggetto.",
+        "fr": "Les verbes de **mouvement ou de changement d'état** — comme *gehen* (aller), *fahren* (conduire/voyager), *kommen* (venir) — forment le Perfekt avec **sein** au lieu de haben : **Ich bin nach Hause gegangen** (Je suis allé(e) à la maison). C'est un véritable système à deux auxiliaires, semblable à la distinction être/avoir du français pour le passé composé, mais la liste exacte des verbes diffère entre les deux langues. Contrairement au français, cependant, le participe allemand ne s'accorde **jamais** en genre ou en nombre avec le sujet.",
+        "hr": "Glagoli **kretanja ili promjene stanja** — poput *gehen* (ići), *fahren* (voziti/putovati), *kommen* (doći) — tvore Perfekt sa **sein** umjesto haben: **Ich bin nach Hause gegangen** (Otišao/otišla sam kući). Hrvatski nema ovu podjelu na dva pomoćna glagola — perfekt se uvijek tvori s **biti**, za sve glagole bez iznimke. Ali za razliku od hrvatskog, njemački particip **nikad** ne mijenja oblik prema rodu ili broju subjekta — uvijek ostaje isti.",
+        "es": "Los verbos de **movimiento o cambio de estado** — como *gehen* (ir), *fahren* (conducir/viajar), *kommen* (venir) — forman el Perfekt con **sein** en lugar de haben: **Ich bin nach Hause gegangen** (Fui a casa). El español perdió por completo esa distinción entre dos auxiliares — el pretérito perfecto compuesto siempre se forma con **haber**, sin excepción, para todos los verbos. En eso el alemán y el español coinciden en un punto: en ninguno de los dos idiomas el participio en estos tiempos compuestos concuerda en género o número con el sujeto."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-perfekt-sein-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-perfekt-sein-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Separable verbs of motion keep both rules at once: **aufstehen** → **Ich bin früh aufgestanden** (I got up early) — sein as the auxiliary, and the participle **aufgestanden** keeps the prefix attached at the front, unlike in the present tense where it detaches.",
+      "i18n": {
+        "it": "I verbi separabili di movimento seguono entrambe le regole insieme: **aufstehen** → **Ich bin früh aufgestanden** (Mi sono alzato/a presto) — sein come ausiliare, e il participio **aufgestanden** mantiene il prefisso attaccato davanti, a differenza del presente dove si stacca.",
+        "fr": "Les verbes à particule séparable de mouvement suivent les deux règles à la fois : **aufstehen** → **Ich bin früh aufgestanden** (Je me suis levé(e) tôt) — sein comme auxiliaire, et le participe **aufgestanden** garde le préfixe attaché devant, contrairement au présent où il se détache.",
+        "hr": "Rastavljivi glagoli kretanja slijede oba pravila istovremeno: **aufstehen** → **Ich bin früh aufgestanden** (Rano sam ustao/ustala) — sein kao pomoćni glagol, a particip **aufgestanden** zadržava prefiks spojen sprijeda, za razliku od prezenta gdje se odvaja.",
+        "es": "Los verbos separables de movimiento siguen ambas reglas a la vez: **aufstehen** → **Ich bin früh aufgestanden** (Me levanté temprano) — sein como auxiliar, y el participio **aufgestanden** mantiene el prefijo unido al principio, a diferencia del presente, donde se separa."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-perfekt-sein-3"
+    }
   ],
   "exercises": [
     {
       "id": "de-ex-perfekt-sein-1",
       "type": "fill-blank",
       "prompt": "Sie ___ nach Berlin gefahren. (sein — She traveled to Berlin.)",
-      "answer": "ist"
+      "answer": "ist",
+      "i18n": {
+        "it": {
+          "prompt": "Sie ___ nach Berlin gefahren. (sein — Lei è andata a Berlino.)"
+        },
+        "fr": {
+          "prompt": "Sie ___ nach Berlin gefahren. (sein — Elle est allée à Berlin.)"
+        },
+        "hr": {
+          "prompt": "Sie ___ nach Berlin gefahren. (sein — Ona je otputovala u Berlin.)"
+        },
+        "es": {
+          "prompt": "Sie ___ nach Berlin gefahren. (sein — Ella viajó a Berlín.)"
+        }
+      }
     },
     {
       "id": "de-ex-perfekt-sein-2",
       "type": "multiple-choice",
       "prompt": "Which auxiliary does \"gehen\" (to go) use in the Perfekt?",
       "answer": "sein",
-      "distractors": ["haben", "werden", "können"]
+      "distractors": [
+        "haben",
+        "werden",
+        "können"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Quale ausiliare usa \"gehen\" (andare) nel Perfekt?"
+        },
+        "fr": {
+          "prompt": "Quel auxiliaire utilise \"gehen\" (aller) au Perfekt ?"
+        },
+        "hr": {
+          "prompt": "Koji pomoćni glagol koristi \"gehen\" (ići) u Perfektu?"
+        },
+        "es": {
+          "prompt": "¿Qué auxiliar usa \"gehen\" (ir) en el Perfekt?"
+        }
+      }
     },
     {
       "id": "de-ex-perfekt-sein-3",
       "type": "translate",
       "prompt": "Translate: \"I got up early.\" (aufstehen — uses sein)",
-      "answer": ["Ich bin früh aufgestanden."],
-      "relatedItemId": "de-vocab-routine-001"
+      "answer": [
+        "Ich bin früh aufgestanden."
+      ],
+      "relatedItemId": "de-vocab-routine-001",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Mi sono alzato/a presto.\" (aufstehen — usa sein)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Je me suis levé(e) tôt.\" (aufstehen — utilise sein)"
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Rano sam ustao/ustala.\" (aufstehen — koristi sein)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Me levanté temprano.\" (aufstehen — usa sein)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Perfekt (passato) con Sein",
+    "fr": "Perfekt (passé) avec Sein",
+    "hr": "Perfekt (prošlo vrijeme) sa Sein",
+    "es": "Perfekt (pasado) con Sein"
+  }
 }

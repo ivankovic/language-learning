@@ -8,5 +8,11 @@
     "hr-unit-3",
     "hr-unit-4",
     "hr-unit-5"
-  ]
+  ],
+  "titleByLang": {
+    "it": "Fondamenti di croato",
+    "fr": "Fondamentaux du croate",
+    "de": "Grundlagen des Kroatischen",
+    "es": "Fundamentos de croata"
+  }
 }

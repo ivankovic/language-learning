@@ -4,34 +4,64 @@
     "courseId": "de-course-a1",
     "title": "Getting Started",
     "order": 1,
-    "lessonIds": ["de-lesson-greetings", "de-lesson-articles"]
+    "lessonIds": ["de-lesson-greetings", "de-lesson-articles"],
+    "titleByLang": {
+      "it": "Primi passi",
+      "fr": "Premiers pas",
+      "hr": "Prvi koraci",
+      "es": "Primeros pasos"
+    }
   },
   {
     "id": "de-unit-2",
     "courseId": "de-course-a1",
     "title": "Sein & Haben",
     "order": 2,
-    "lessonIds": ["de-lesson-sein", "de-lesson-haben", "de-lesson-numbers"]
+    "lessonIds": ["de-lesson-sein", "de-lesson-haben", "de-lesson-numbers"],
+    "titleByLang": {
+      "it": "Sein e Haben",
+      "fr": "Sein et Haben",
+      "hr": "Sein i Haben",
+      "es": "Sein y Haben"
+    }
   },
   {
     "id": "de-unit-3",
     "courseId": "de-course-a1",
     "title": "Daily Life",
     "order": 3,
-    "lessonIds": ["de-lesson-en-verbs", "de-lesson-word-order", "de-lesson-food-travel"]
+    "lessonIds": ["de-lesson-en-verbs", "de-lesson-word-order", "de-lesson-food-travel"],
+    "titleByLang": {
+      "it": "Vita quotidiana",
+      "fr": "Vie quotidienne",
+      "hr": "Svakodnevni život",
+      "es": "Vida cotidiana"
+    }
   },
   {
     "id": "de-unit-4",
     "courseId": "de-course-a1",
     "title": "Modal Verbs & Cases",
     "order": 4,
-    "lessonIds": ["de-lesson-modal-verbs", "de-lesson-separable-verbs", "de-lesson-dative-prepositions"]
+    "lessonIds": ["de-lesson-modal-verbs", "de-lesson-separable-verbs", "de-lesson-dative-prepositions"],
+    "titleByLang": {
+      "it": "Verbi modali e casi",
+      "fr": "Verbes modaux et cas",
+      "hr": "Modalni glagoli i padeži",
+      "es": "Verbos modales y casos"
+    }
   },
   {
     "id": "de-unit-5",
     "courseId": "de-course-a1",
     "title": "Past Tense & Reflexives",
     "order": 5,
-    "lessonIds": ["de-lesson-perfekt-haben", "de-lesson-perfekt-sein", "de-lesson-reflexive-verbs"]
+    "lessonIds": ["de-lesson-perfekt-haben", "de-lesson-perfekt-sein", "de-lesson-reflexive-verbs"],
+    "titleByLang": {
+      "it": "Tempo passato e verbi riflessivi",
+      "fr": "Temps passé et verbes réfléchis",
+      "hr": "Prošlo vrijeme i povratni glagoli",
+      "es": "Tiempo pasado y verbos reflexivos"
+    }
   }
 ]

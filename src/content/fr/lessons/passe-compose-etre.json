@@ -5,34 +5,117 @@
   "unitId": "fr-unit-5",
   "order": 2,
   "title": "Passé Composé with Être",
-  "prerequisiteIds": ["fr-lesson-passe-compose-avoir"],
+  "prerequisiteIds": [
+    "fr-lesson-passe-compose-avoir"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "A specific set of verbs — mostly motion or state-change verbs like **aller** (to go), **venir** (to come), **arriver** (to arrive), **partir** (to leave) — form the passé composé with **être** instead of avoir: **Je suis allé(e) à la maison** (I went home). This mirrors Italian's essere/avere split, though the exact verb list differs slightly." },
-    { "type": "exercise", "exerciseId": "fr-ex-pc-etre-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-pc-etre-2" },
-    { "type": "explanation", "markdown": "With être, the past participle must **agree in gender and number** with the subject, like an adjective: *elle est **allée***, *ils sont **allés***, *elles sont **allées***." },
-    { "type": "exercise", "exerciseId": "fr-ex-pc-etre-3" }
+    {
+      "type": "explanation",
+      "markdown": "A specific set of verbs — mostly motion or state-change verbs like **aller** (to go), **venir** (to come), **arriver** (to arrive), **partir** (to leave) — form the passé composé with **être** instead of avoir: **Je suis allé(e) à la maison** (I went home). This mirrors Italian's essere/avere split, though the exact verb list differs slightly.",
+      "i18n": {
+        "it": "Un gruppo specifico di verbi — perlopiù verbi di movimento o cambiamento di stato come **aller** (andare), **venir** (venire), **arriver** (arrivare), **partir** (partire) — formano il passé composé con **être** invece di avoir: **Je suis allé(e) à la maison** (Sono andato/a a casa). Questo rispecchia la distinzione essere/avere dell'italiano, anche se la lista esatta dei verbi differisce leggermente.",
+        "de": "Eine bestimmte Gruppe von Verben — meist Bewegungs- oder Zustandswechselverben wie **aller** (gehen), **venir** (kommen), **arriver** (ankommen), **partir** (abfahren) — bildet das passé composé mit **être** statt avoir: **Je suis allé(e) à la maison** (Ich bin nach Hause gegangen). Das ähnelt der deutschen sein/haben-Unterscheidung im Perfekt, auch wenn die genaue Verbliste leicht abweicht.",
+        "hr": "Određena skupina glagola — uglavnom glagoli kretanja ili promjene stanja poput **aller** (ići), **venir** (doći), **arriver** (stići), **partir** (otići) — tvori passé composé s **être** umjesto avoir: **Je suis allé(e) à la maison** (Otišao/otišla sam kući). Hrvatski nema tu podjelu na dva pomoćna glagola — perfekt se uvijek tvori s **biti**, za sve glagole bez iznimke.",
+        "es": "Un grupo específico de verbos — sobre todo verbos de movimiento o cambio de estado como **aller** (ir), **venir** (venir), **arriver** (llegar), **partir** (partir) — forman el passé composé con **être** en lugar de avoir: **Je suis allé(e) à la maison** (Fui a casa). El español perdió por completo esa distinción entre dos auxiliares — el pretérito perfecto compuesto siempre se forma con **haber**, sin excepción, para todos los verbos."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-pc-etre-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-pc-etre-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "With être, the past participle must **agree in gender and number** with the subject, like an adjective: *elle est **allée***, *ils sont **allés***, *elles sont **allées***.",
+      "i18n": {
+        "it": "Con être, il participio passato deve **concordare in genere e numero** con il soggetto, come un aggettivo: *elle est **allée***, *ils sont **allés***, *elles sont **allées***.",
+        "de": "Mit être muss das Partizip Perfekt in **Genus und Numerus mit dem Subjekt übereinstimmen**, wie ein Adjektiv: *elle est **allée***, *ils sont **allés***, *elles sont **allées***. Das deutsche Partizip Perfekt bleibt dagegen immer unverändert: \"sie ist gegangen\", \"sie sind gegangen\" — keine Anpassung nötig.",
+        "hr": "S être, particip prošli mora se **slagati u rodu i broju** sa subjektom, poput pridjeva: *elle est **allée***, *ils sont **allés***, *elles sont **allées***. To će ti biti poznato — hrvatski glagolski pridjev radni uvijek se slaže u rodu i broju sa subjektom, za sve glagole (\"otišao\", \"otišla\", \"otišli\", \"otišle\"), ne samo za tu posebnu skupinu kao u francuskom.",
+        "es": "Con être, el participio pasado debe **concordar en género y número** con el sujeto, como un adjetivo: *elle est **allée***, *ils sont **allés***, *elles sont **allées***. Esto es justo lo contrario de lo que ocurre en español, donde el participio en los tiempos compuestos es siempre invariable: \"ha ido\", \"han ido\", sin importar el género o número del sujeto."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-pc-etre-3"
+    }
   ],
   "exercises": [
     {
       "id": "fr-ex-pc-etre-1",
       "type": "fill-blank",
       "prompt": "Elle ___ arrivée à midi. (être — She arrived at noon.)",
-      "answer": "est"
+      "answer": "est",
+      "i18n": {
+        "it": {
+          "prompt": "Elle ___ arrivée à midi. (être — È arrivata a mezzogiorno.)"
+        },
+        "de": {
+          "prompt": "Elle ___ arrivée à midi. (être — Sie ist um Mittag angekommen.)"
+        },
+        "hr": {
+          "prompt": "Elle ___ arrivée à midi. (être — Stigla je u podne.)"
+        },
+        "es": {
+          "prompt": "Elle ___ arrivée à midi. (être — Ella llegó al mediodía.)"
+        }
+      }
     },
     {
       "id": "fr-ex-pc-etre-2",
       "type": "multiple-choice",
       "prompt": "Which auxiliary does \"aller\" (to go) use in the passé composé?",
       "answer": "être",
-      "distractors": ["avoir", "faire", "aller"]
+      "distractors": [
+        "avoir",
+        "faire",
+        "aller"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Quale ausiliare usa \"aller\" (andare) nel passé composé?"
+        },
+        "de": {
+          "prompt": "Welches Hilfsverb verwendet \"aller\" (gehen) im passé composé?"
+        },
+        "hr": {
+          "prompt": "Koji pomoćni glagol koristi \"aller\" (ići) u passé composé?"
+        },
+        "es": {
+          "prompt": "¿Qué auxiliar usa \"aller\" (ir) en el passé composé?"
+        }
+      }
     },
     {
       "id": "fr-ex-pc-etre-3",
       "type": "translate",
       "prompt": "Translate: \"They (feminine) went home.\" (aller — participle agrees: allées)",
-      "answer": ["Elles sont allées à la maison."],
-      "relatedItemId": "fr-vocab-routine-010"
+      "answer": [
+        "Elles sont allées à la maison."
+      ],
+      "relatedItemId": "fr-vocab-routine-010",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Loro (femminile) sono andate a casa.\" (aller — il participio concorda: allées)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie (feminin, Plural) sind nach Hause gegangen.\" (aller — das Partizip stimmt überein: allées)"
+        },
+        "hr": {
+          "prompt": "Prevedi: \"One (ženski rod) su otišle kući.\" (aller — particip se slaže: allées)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Ellas fueron a casa.\" (aller — el participio concuerda: allées)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Passé Composé con Être",
+    "de": "Passé Composé mit Être",
+    "hr": "Passé Composé s Être",
+    "es": "Passé Composé con Être"
+  }
 }

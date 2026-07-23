@@ -5,12 +5,32 @@
   "unitId": "it-unit-10",
   "order": 2,
   "title": "Superlatives: il più, -issimo",
-  "prerequisiteIds": ["it-lesson-condizionale"],
+  "prerequisiteIds": [
+    "it-lesson-condizionale"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "The **relative superlative** (\"the most ...\") uses **il/la/i/le più** + adjective + **di**: *Il libro più interessante della biblioteca* (The most interesting book in the library).\n\nThe **absolute superlative** (\"very ...\", no comparison) drops the final vowel of the adjective and adds **-issimo/-issima/-issimi/-issime**: *bello → bellissimo*, *buona → buonissima*." },
-    { "type": "exercise", "exerciseId": "it-ex-superl-1" },
-    { "type": "exercise", "exerciseId": "it-ex-superl-2" },
-    { "type": "exercise", "exerciseId": "it-ex-superl-3" }
+    {
+      "type": "explanation",
+      "markdown": "The **relative superlative** (\"the most ...\") uses **il/la/i/le più** + adjective + **di**: *Il libro più interessante della biblioteca* (The most interesting book in the library).\n\nThe **absolute superlative** (\"very ...\", no comparison) drops the final vowel of the adjective and adds **-issimo/-issima/-issimi/-issime**: *bello → bellissimo*, *buona → buonissima*.",
+      "i18n": {
+        "hr": "**Relativni superlativ** (\"naj... od svih\") koristi **il/la/i/le più** + pridjev + **di**: *Il libro più interessante della biblioteca* (Najzanimljivija knjiga u knjižnici).\n\n**Apsolutni superlativ** (\"vrlo...\", bez usporedbe) ispušta zadnji samoglasnik pridjeva i dodaje **-issimo/-issima/-issimi/-issime**: *bello → bellissimo*, *buona → buonissima*.",
+        "fr": "Le **superlatif relatif** (\"le plus ...\") utilise **il/la/i/le più** + adjectif + **di** : *Il libro più interessante della biblioteca* (Le livre le plus intéressant de la bibliothèque).\n\nLe **superlatif absolu** (\"très ...\", sans comparaison) supprime la voyelle finale de l'adjectif et ajoute **-issimo/-issima/-issimi/-issime** : *bello → bellissimo*, *buona → buonissima*.",
+        "de": "Der **relative Superlativ** (\"der/die/das ...ste\") benutzt **il/la/i/le più** + Adjektiv + **di**: *Il libro più interessante della biblioteca* (Das interessanteste Buch der Bibliothek).\n\nDer **absolute Superlativ** (\"sehr ...\", ohne Vergleich) lässt den letzten Vokal des Adjektivs weg und fügt **-issimo/-issima/-issimi/-issime** hinzu: *bello → bellissimo*, *buona → buonissima*.",
+        "es": "El **superlativo relativo** (\"el/la más ...\") usa **il/la/i/le più** + adjetivo + **di**: *Il libro più interessante della biblioteca* (El libro más interesante de la biblioteca).\n\nEl **superlativo absoluto** (\"muy ...\", sin comparación) elimina la vocal final del adjetivo y añade **-issimo/-issima/-issimi/-issime**: *bello → bellissimo*, *buona → buonissima*."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-superl-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-superl-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-superl-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,76 @@
       "type": "fill-blank",
       "prompt": "Questo è il ristorante più ___ della città. (buono — the best, relative superlative form: buono)",
       "answer": "buono",
-      "relatedItemId": "it-vocab-food-024"
+      "relatedItemId": "it-vocab-food-024",
+      "i18n": {
+        "hr": {
+          "prompt": "Questo è il ristorante più ___ della città. (buono — najbolji, oblik relativnog superlativa: buono)"
+        },
+        "fr": {
+          "prompt": "Questo è il ristorante più ___ della città. (buono — le meilleur, forme du superlatif relatif : buono)"
+        },
+        "de": {
+          "prompt": "Questo è il ristorante più ___ della città. (buono — der beste, Form des relativen Superlativs: buono)"
+        },
+        "es": {
+          "prompt": "Questo è il ristorante più ___ della città. (buono — el mejor, forma del superlativo relativo: buono)"
+        }
+      }
     },
     {
       "id": "it-ex-superl-2",
       "type": "multiple-choice",
       "prompt": "Questa torta è ___ ! (bello — absolute superlative: \"very beautiful/great\")",
       "answer": "bellissima",
-      "distractors": ["bella", "più bella", "meno bella"],
-      "relatedItemId": "it-vocab-holidays-007"
+      "distractors": [
+        "bella",
+        "più bella",
+        "meno bella"
+      ],
+      "relatedItemId": "it-vocab-holidays-007",
+      "i18n": {
+        "hr": {
+          "prompt": "Questa torta è ___ ! (bello — apsolutni superlativ: \"vrlo lijepa/izvrsna\")"
+        },
+        "fr": {
+          "prompt": "Questa torta è ___ ! (bello — superlatif absolu : \"très beau/magnifique\")"
+        },
+        "de": {
+          "prompt": "Questa torta è ___ ! (bello — absoluter Superlativ: \"sehr schön/großartig\")"
+        },
+        "es": {
+          "prompt": "Questa torta è ___ ! (bello — superlativo absoluto: \"muy bonito/estupendo\")"
+        }
+      }
     },
     {
       "id": "it-ex-superl-3",
       "type": "translate",
       "prompt": "Translate: \"This is the tallest mountain in Italy.\" (alto — tall)",
-      "answer": ["Questa è la montagna più alta d'Italia."],
-      "relatedItemId": "it-vocab-adj-015"
+      "answer": [
+        "Questa è la montagna più alta d'Italia."
+      ],
+      "relatedItemId": "it-vocab-adj-015",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Ovo je najviša planina u Italiji.\" (alto — visok)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"C'est la montagne la plus haute d'Italie.\" (alto — haut)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Das ist der höchste Berg Italiens.\" (alto — hoch)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Esta es la montaña más alta de Italia.\" (alto — alto)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Superlativi: il più, -issimo",
+    "fr": "Superlatifs : il più, -issimo",
+    "de": "Superlative: il più, -issimo",
+    "es": "Superlativos: il più, -issimo"
+  }
 }

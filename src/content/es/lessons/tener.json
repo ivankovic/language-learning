@@ -5,13 +5,42 @@
   "unitId": "es-unit-2",
   "order": 3,
   "title": "Tener (to have) — Present Tense",
-  "prerequisiteIds": ["es-lesson-estar"],
+  "prerequisiteIds": [
+    "es-lesson-estar"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Tener** (to have) is irregular:\n\nyo **tengo** · tú **tienes** · él/ella/usted **tiene** · nosotros **tenemos** · vosotros **tenéis** · ellos/ustedes **tienen**\n\nLike Italian **avere**, French **avoir**, and Croatian **imati** — and unlike German's **sein** — Spanish uses *tener* for age: **Tengo ... años** (I am ... years old — literally \"I have ... years\")." },
-    { "type": "exercise", "exerciseId": "es-ex-tener-1" },
-    { "type": "exercise", "exerciseId": "es-ex-tener-2" },
-    { "type": "explanation", "markdown": "*Tener* also covers hunger and thirst, which English expresses with \"to be\": **tener hambre** (to be hungry — literally \"to have hunger\"), **tener sed** (to be thirsty)." },
-    { "type": "exercise", "exerciseId": "es-ex-tener-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Tener** (to have) is irregular:\n\nyo **tengo** · tú **tienes** · él/ella/usted **tiene** · nosotros **tenemos** · vosotros **tenéis** · ellos/ustedes **tienen**\n\nLike Italian **avere**, French **avoir**, and Croatian **imati** — and unlike German's **sein** — Spanish uses *tener* for age: **Tengo ... años** (I am ... years old — literally \"I have ... years\").",
+      "i18n": {
+        "it": "**Tener** (avere) è irregolare:\n\nyo **tengo** · tú **tienes** · él/ella/usted **tiene** · nosotros **tenemos** · vosotros **tenéis** · ellos/ustedes **tienen**\n\nCome l'italiano **avere**, il francese **avoir** e il croato **imati** — e a differenza del tedesco **sein** — lo spagnolo usa *tener* per l'età: **Tengo ... años** (Ho ... anni — letteralmente \"ho ... anni\").",
+        "fr": "**Tener** (avoir) est irrégulier :\n\nyo **tengo** · tú **tienes** · él/ella/usted **tiene** · nosotros **tenemos** · vosotros **tenéis** · ellos/ustedes **tienen**\n\nComme le français **avoir**, l'italien **avere** et le croate **imati** — et contrairement à l'allemand **sein** — l'espagnol utilise *tener* pour l'âge : **Tengo ... años** (J'ai ... ans — littéralement \"j'ai ... ans\").",
+        "de": "**Tener** (haben) ist unregelmäßig:\n\nyo **tengo** · tú **tienes** · él/ella/usted **tiene** · nosotros **tenemos** · vosotros **tenéis** · ellos/ustedes **tienen**\n\nWie das italienische **avere**, das französische **avoir** und das kroatische **imati** — und anders als das deutsche **sein** — verwendet das Spanische *tener* für das Alter: **Tengo ... años** (Ich bin ... Jahre alt — wörtlich \"ich habe ... Jahre\").",
+        "hr": "**Tener** (imati) je nepravilan:\n\nyo **tengo** · tú **tienes** · él/ella/usted **tiene** · nosotros **tenemos** · vosotros **tenéis** · ellos/ustedes **tienen**\n\nKao talijanski **avere**, francuski **avoir** i hrvatski **imati** — a za razliku od njemačkog **sein** — španjolski koristi *tener* za dob: **Tengo ... años** (Imam ... godina — doslovno \"imam ... godina\")."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-tener-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-tener-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "*Tener* also covers hunger and thirst, which English expresses with \"to be\": **tener hambre** (to be hungry — literally \"to have hunger\"), **tener sed** (to be thirsty).",
+      "i18n": {
+        "it": "*Tener* copre anche fame e sete, che l'italiano esprime allo stesso modo con \"avere\": **tener hambre** (avere fame), **tener sed** (avere sete).",
+        "fr": "*Tener* couvre aussi la faim et la soif, que le français exprime de la même façon avec \"avoir\" : **tener hambre** (avoir faim), **tener sed** (avoir soif).",
+        "de": "*Tener* deckt auch Hunger und Durst ab, die im Deutschen anders als im Spanischen mit einem eigenen Adjektiv ausgedrückt werden, nicht mit \"haben\": **tener hambre** (hungrig sein — wörtlich \"Hunger haben\"), **tener sed** (durstig sein).",
+        "hr": "*Tener* pokriva i glad i žeđ, što hrvatski izražava pridjevom, ne glagolom \"imati\": **tener hambre** (biti gladan — doslovno \"imati glad\"), **tener sed** (biti žedan)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-tener-3"
+    }
   ],
   "exercises": [
     {
@@ -19,21 +48,75 @@
       "type": "fill-blank",
       "prompt": "___ veinte años. (tener — I am 20 years old — literally \"I have 20 years\".)",
       "answer": "Tengo",
-      "relatedItemId": "es-vocab-numtime-016"
+      "relatedItemId": "es-vocab-numtime-016",
+      "i18n": {
+        "it": {
+          "prompt": "___ veinte años. (tener — Ho 20 anni — letteralmente \"ho 20 anni\".)"
+        },
+        "fr": {
+          "prompt": "___ veinte años. (tener — J'ai 20 ans — littéralement \"j'ai 20 ans\".)"
+        },
+        "de": {
+          "prompt": "___ veinte años. (tener — Ich bin 20 Jahre alt — wörtlich \"ich habe 20 Jahre\".)"
+        },
+        "hr": {
+          "prompt": "___ veinte años. (tener — Imam 20 godina — doslovno \"imam 20 godina\".)"
+        }
+      }
     },
     {
       "id": "es-ex-tener-2",
       "type": "multiple-choice",
       "prompt": "¿Cuántos años ___? (tener — How old are you? — informal \"tú\")",
       "answer": "tienes",
-      "distractors": ["tengo", "tiene", "tenemos"]
+      "distractors": [
+        "tengo",
+        "tiene",
+        "tenemos"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "¿Cuántos años ___? (tener — Quanti anni hai? — informale \"tú\")"
+        },
+        "fr": {
+          "prompt": "¿Cuántos años ___? (tener — Quel âge as-tu ? — informel \"tú\")"
+        },
+        "de": {
+          "prompt": "¿Cuántos años ___? (tener — Wie alt bist du? — informell \"tú\")"
+        },
+        "hr": {
+          "prompt": "¿Cuántos años ___? (tener — Koliko imaš godina? — neformalno \"tú\")"
+        }
+      }
     },
     {
       "id": "es-ex-tener-3",
       "type": "translate",
       "prompt": "Translate: \"I am hungry.\" (literally \"I have hunger\")",
-      "answer": ["Tengo hambre."],
-      "relatedItemId": "es-vocab-food-035"
+      "answer": [
+        "Tengo hambre."
+      ],
+      "relatedItemId": "es-vocab-food-035",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Ho fame.\" (letteralmente \"ho fame\")"
+        },
+        "fr": {
+          "prompt": "Traduis : \"J'ai faim.\" (littéralement \"j'ai faim\")"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Ich habe Hunger.\" (wörtlich \"ich habe Hunger\")"
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Gladan sam.\" (doslovno \"imam glad\")"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Tener (avere) — presente",
+    "fr": "Tener (avoir) — présent",
+    "de": "Tener (haben) — Präsens",
+    "hr": "Tener (imati) — prezent"
+  }
 }

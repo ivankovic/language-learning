@@ -5,12 +5,32 @@
   "unitId": "fr-unit-3",
   "order": 2,
   "title": "Basic Word Order & Questions",
-  "prerequisiteIds": ["fr-lesson-er-verbs"],
+  "prerequisiteIds": [
+    "fr-lesson-er-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "French word order is usually Subject-Verb-Object, same as English. Questions can be formed by adding **est-ce que** before a statement, by rising intonation, or by starting with a question word like **où** (where) or the phrase **combien ça coûte** (how much does it cost)." },
-    { "type": "exercise", "exerciseId": "fr-ex-word-order-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-word-order-2" },
-    { "type": "exercise", "exerciseId": "fr-ex-word-order-3" }
+    {
+      "type": "explanation",
+      "markdown": "French word order is usually Subject-Verb-Object, same as English. Questions can be formed by adding **est-ce que** before a statement, by rising intonation, or by starting with a question word like **où** (where) or the phrase **combien ça coûte** (how much does it cost).",
+      "i18n": {
+        "it": "L'ordine delle parole francese è di solito Soggetto-Verbo-Oggetto, come in italiano. Le domande possono formarsi aggiungendo **est-ce que** prima di un'affermazione, con un'intonazione ascendente, oppure iniziando con una parola interrogativa come **où** (dove) o l'espressione **combien ça coûte** (quanto costa).",
+        "de": "Die französische Wortstellung ist meist Subjekt-Verb-Objekt, wie im Englischen — anders als das Deutsche, das im Hauptsatz die \"Verb-zweit\"-Regel befolgt. Fragen bildet man, indem man **est-ce que** vor eine Aussage stellt, mit steigender Intonation, oder indem man mit einem Fragewort wie **où** (wo) oder der Wendung **combien ça coûte** (was kostet das) beginnt.",
+        "hr": "Red riječi u francuskom obično je Subjekt-Glagol-Objekt — hrvatski je u tom pogledu fleksibilniji zbog padeža, pa red riječi nije uvijek tako strog. Pitanja se tvore dodavanjem **est-ce que** ispred izjave, uzlaznom intonacijom, ili počinjanjem s upitnom riječi poput **où** (gdje) ili izrazom **combien ça coûte** (koliko to košta).",
+        "es": "El orden de las palabras en francés suele ser Sujeto-Verbo-Objeto, como en español. Las preguntas se forman añadiendo **est-ce que** antes de una afirmación, con entonación ascendente, o empezando con una palabra interrogativa como **où** (dónde) o la expresión **combien ça coûte** (cuánto cuesta)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-word-order-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-word-order-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-word-order-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,79 @@
       "type": "multiple-choice",
       "prompt": "How do you ask \"Where is the station?\"",
       "answer": "Où est la gare ?",
-      "distractors": ["La gare où est ?", "Est où la gare ?", "Gare où est ?"],
-      "relatedItemId": "fr-vocab-travel-021"
+      "distractors": [
+        "La gare où est ?",
+        "Est où la gare ?",
+        "Gare où est ?"
+      ],
+      "relatedItemId": "fr-vocab-travel-021",
+      "i18n": {
+        "it": {
+          "prompt": "Come chiedi \"Dov'è la stazione?\""
+        },
+        "de": {
+          "prompt": "Wie fragst du \"Wo ist der Bahnhof?\""
+        },
+        "hr": {
+          "prompt": "Kako pitaš \"Gdje je kolodvor?\""
+        },
+        "es": {
+          "prompt": "¿Cómo preguntas \"¿Dónde está la estación?\"?"
+        }
+      }
     },
     {
       "id": "fr-ex-word-order-2",
       "type": "fill-blank",
       "prompt": "___ ça coûte, ce billet ? (How much does this ticket cost?)",
       "answer": "Combien",
-      "relatedItemId": "fr-vocab-travel-022"
+      "relatedItemId": "fr-vocab-travel-022",
+      "i18n": {
+        "it": {
+          "prompt": "___ ça coûte, ce billet ? (Quanto costa questo biglietto?)"
+        },
+        "de": {
+          "prompt": "___ ça coûte, ce billet ? (Was kostet diese Fahrkarte?)"
+        },
+        "hr": {
+          "prompt": "___ ça coûte, ce billet ? (Koliko košta ova karta?)"
+        },
+        "es": {
+          "prompt": "___ ça coûte, ce billet ? (¿Cuánto cuesta este billete?)"
+        }
+      }
     },
     {
       "id": "fr-ex-word-order-3",
       "type": "reorder",
       "prompt": "Put these words in order: est / l'aéroport / où / ?",
-      "answer": ["Où", "est", "l'aéroport", "?"],
-      "relatedItemId": "fr-vocab-travel-006"
+      "answer": [
+        "Où",
+        "est",
+        "l'aéroport",
+        "?"
+      ],
+      "relatedItemId": "fr-vocab-travel-006",
+      "i18n": {
+        "it": {
+          "prompt": "Metti in ordine queste parole: est / l'aéroport / où / ?"
+        },
+        "de": {
+          "prompt": "Bringe diese Wörter in die richtige Reihenfolge: est / l'aéroport / où / ?"
+        },
+        "hr": {
+          "prompt": "Poredaj ove riječi: est / l'aéroport / où / ?"
+        },
+        "es": {
+          "prompt": "Ordena estas palabras: est / l'aéroport / où / ?"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Ordine base delle parole e domande",
+    "de": "Grundlegende Wortstellung und Fragen",
+    "hr": "Osnovni red riječi i pitanja",
+    "es": "Orden básico de las palabras y preguntas"
+  }
 }

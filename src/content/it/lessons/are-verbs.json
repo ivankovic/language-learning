@@ -5,13 +5,36 @@
   "unitId": "it-unit-3",
   "order": 1,
   "title": "Regular -are Verbs",
-  "prerequisiteIds": ["it-lesson-numbers"],
+  "prerequisiteIds": [
+    "it-lesson-numbers"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Most Italian verbs ending in **-are** (like *parlare*, *lavorare*, *studiare*, *mangiare*) follow a regular pattern:\n\nio **-o** · tu **-i** · lui/lei **-a** · noi **-iamo** · voi **-ate** · loro **-ano**\n\ne.g. *parlare* → parl**o**, parl**i**, parl**a**, parl**iamo**, parl**ate**, parl**ano**." },
-    { "type": "exercise", "exerciseId": "it-ex-are-1" },
-    { "type": "exercise", "exerciseId": "it-ex-are-2" },
-    { "type": "exercise", "exerciseId": "it-ex-are-3" },
-    { "type": "exercise", "exerciseId": "it-ex-are-4" }
+    {
+      "type": "explanation",
+      "markdown": "Most Italian verbs ending in **-are** (like *parlare*, *lavorare*, *studiare*, *mangiare*) follow a regular pattern:\n\nio **-o** · tu **-i** · lui/lei **-a** · noi **-iamo** · voi **-ate** · loro **-ano**\n\ne.g. *parlare* → parl**o**, parl**i**, parl**a**, parl**iamo**, parl**ate**, parl**ano**.",
+      "i18n": {
+        "hr": "Većina talijanskih glagola koji završavaju na **-are** (poput *parlare*, *lavorare*, *studiare*, *mangiare*) prati pravilan obrazac:\n\nio **-o** · tu **-i** · lui/lei **-a** · noi **-iamo** · voi **-ate** · loro **-ano**\n\nnpr. *parlare* → parl**o**, parl**i**, parl**a**, parl**iamo**, parl**ate**, parl**ano**.",
+        "fr": "La plupart des verbes italiens en **-are** (comme *parlare*, *lavorare*, *studiare*, *mangiare*) suivent un schéma régulier :\n\nio **-o** · tu **-i** · lui/lei **-a** · noi **-iamo** · voi **-ate** · loro **-ano**\n\nex. *parlare* → parl**o**, parl**i**, parl**a**, parl**iamo**, parl**ate**, parl**ano**.",
+        "de": "Die meisten italienischen Verben auf **-are** (wie *parlare*, *lavorare*, *studiare*, *mangiare*) folgen einem regelmäßigen Muster:\n\nio **-o** · tu **-i** · lui/lei **-a** · noi **-iamo** · voi **-ate** · loro **-ano**\n\nz.B. *parlare* → parl**o**, parl**i**, parl**a**, parl**iamo**, parl**ate**, parl**ano**.",
+        "es": "La mayoría de los verbos italianos que terminan en **-are** (como *parlare*, *lavorare*, *studiare*, *mangiare*) siguen un patrón regular:\n\nio **-o** · tu **-i** · lui/lei **-a** · noi **-iamo** · voi **-ate** · loro **-ano**\n\nej. *parlare* → parl**o**, parl**i**, parl**a**, parl**iamo**, parl**ate**, parl**ano**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-are-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-are-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-are-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-are-4"
+    }
   ],
   "exercises": [
     {
@@ -19,29 +42,98 @@
       "type": "fill-blank",
       "prompt": "Io ___ italiano. (parlare — I speak Italian.)",
       "answer": "parlo",
-      "relatedItemId": "it-vocab-routine-009"
+      "relatedItemId": "it-vocab-routine-009",
+      "i18n": {
+        "hr": {
+          "prompt": "Io ___ italiano. (parlare — Ja govorim talijanski.)"
+        },
+        "fr": {
+          "prompt": "Io ___ italiano. (parlare — Je parle italien.)"
+        },
+        "de": {
+          "prompt": "Io ___ italiano. (parlare — Ich spreche Italienisch.)"
+        },
+        "es": {
+          "prompt": "Io ___ italiano. (parlare — Hablo italiano.)"
+        }
+      }
     },
     {
       "id": "it-ex-are-2",
       "type": "multiple-choice",
       "prompt": "Noi ___ la pizza. (mangiare — We eat pizza.)",
       "answer": "mangiamo",
-      "distractors": ["mangio", "mangi", "mangiano"],
-      "relatedItemId": "it-vocab-routine-004"
+      "distractors": [
+        "mangio",
+        "mangi",
+        "mangiano"
+      ],
+      "relatedItemId": "it-vocab-routine-004",
+      "i18n": {
+        "hr": {
+          "prompt": "Noi ___ la pizza. (mangiare — Mi jedemo picu.)"
+        },
+        "fr": {
+          "prompt": "Noi ___ la pizza. (mangiare — Nous mangeons de la pizza.)"
+        },
+        "de": {
+          "prompt": "Noi ___ la pizza. (mangiare — Wir essen Pizza.)"
+        },
+        "es": {
+          "prompt": "Noi ___ la pizza. (mangiare — Comemos pizza.)"
+        }
+      }
     },
     {
       "id": "it-ex-are-3",
       "type": "fill-blank",
       "prompt": "Tu ___ molto. (studiare — You study a lot.)",
       "answer": "studi",
-      "relatedItemId": "it-vocab-routine-007"
+      "relatedItemId": "it-vocab-routine-007",
+      "i18n": {
+        "hr": {
+          "prompt": "Tu ___ molto. (studiare — Ti puno učiš.)"
+        },
+        "fr": {
+          "prompt": "Tu ___ molto. (studiare — Tu étudies beaucoup.)"
+        },
+        "de": {
+          "prompt": "Tu ___ molto. (studiare — Du lernst viel.)"
+        },
+        "es": {
+          "prompt": "Tu ___ molto. (studiare — Estudias mucho.)"
+        }
+      }
     },
     {
       "id": "it-ex-are-4",
       "type": "translate",
       "prompt": "Translate: \"They work in the city.\"",
-      "answer": ["Loro lavorano in città.", "Lavorano in città."],
-      "relatedItemId": "it-vocab-routine-006"
+      "answer": [
+        "Loro lavorano in città.",
+        "Lavorano in città."
+      ],
+      "relatedItemId": "it-vocab-routine-006",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Oni rade u gradu.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Ils travaillent en ville.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie arbeiten in der Stadt.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Ellos trabajan en la ciudad.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Pravilni glagoli na -are",
+    "fr": "Verbes réguliers en -are",
+    "de": "Regelmäßige Verben auf -are",
+    "es": "Verbos regulares en -are"
+  }
 }

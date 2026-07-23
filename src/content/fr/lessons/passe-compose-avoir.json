@@ -5,14 +5,46 @@
   "unitId": "fr-unit-5",
   "order": 1,
   "title": "Passé Composé with Avoir",
-  "prerequisiteIds": ["fr-lesson-object-pronouns"],
+  "prerequisiteIds": [
+    "fr-lesson-object-pronouns"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "The **passé composé** is French's everyday past tense, similar to Italian's passato prossimo. Most verbs form it with **avoir** (conjugated) + a **past participle**: **J'ai mangé** (I ate). Regular **-er** verbs form their participle with **-é**: *manger* → **mangé**, *parler* → **parlé**." },
-    { "type": "exercise", "exerciseId": "fr-ex-pc-avoir-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-pc-avoir-2" },
-    { "type": "explanation", "markdown": "Some common verbs have irregular participles: *boire* → **bu**, *avoir* → **eu**, *être* → **été**." },
-    { "type": "exercise", "exerciseId": "fr-ex-pc-avoir-3" },
-    { "type": "exercise", "exerciseId": "fr-ex-pc-avoir-4" }
+    {
+      "type": "explanation",
+      "markdown": "The **passé composé** is French's everyday past tense, similar to Italian's passato prossimo. Most verbs form it with **avoir** (conjugated) + a **past participle**: **J'ai mangé** (I ate). Regular **-er** verbs form their participle with **-é**: *manger* → **mangé**, *parler* → **parlé**.",
+      "i18n": {
+        "it": "Il **passé composé** è il tempo passato quotidiano del francese, simile al passato prossimo italiano. La maggior parte dei verbi lo forma con **avoir** (coniugato) + un **participio passato**: **J'ai mangé** (Ho mangiato). I verbi regolari in **-er** formano il participio con **-é**: *manger* → **mangé**, *parler* → **parlé**.",
+        "de": "Das **passé composé** ist die alltägliche Vergangenheitsform des Französischen, ähnlich dem deutschen Perfekt. Die meisten Verben bilden es mit **avoir** (konjugiert) + einem **Partizip Perfekt**: **J'ai mangé** (Ich habe gegessen). Regelmäßige **-er**-Verben bilden ihr Partizip mit **-é**: *manger* → **mangé**, *parler* → **parlé**.",
+        "hr": "**Passé composé** je svakodnevno francusko prošlo vrijeme. Većina glagola tvori ga s **avoir** (konjugiran) + **particip prošli**: **J'ai mangé** (Jeo/jela sam). Hrvatski perfekt tvori se slično — pomoćnim glagolom (u hrvatskom uvijek **biti**, ne \"imati\") + glagolskim pridjevom radnim: \"Jeo sam\". Redoviti glagoli na **-er** tvore particip s **-é**: *manger* → **mangé**, *parler* → **parlé**.",
+        "es": "El **passé composé** es el tiempo pasado cotidiano del francés, similar al pretérito perfecto compuesto del español. La mayoría de los verbos lo forman con **avoir** (conjugado) + un **participio pasado**: **J'ai mangé** (He comido). Los verbos regulares en **-er** forman su participio con **-é**: *manger* → **mangé**, *parler* → **parlé**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-pc-avoir-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-pc-avoir-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Some common verbs have irregular participles: *boire* → **bu**, *avoir* → **eu**, *être* → **été**.",
+      "i18n": {
+        "it": "Alcuni verbi comuni hanno participi irregolari: *boire* → **bu**, *avoir* → **eu**, *être* → **été**.",
+        "de": "Einige gebräuchliche Verben haben unregelmäßige Partizipien: *boire* → **bu**, *avoir* → **eu**, *être* → **été**.",
+        "hr": "Neki uobičajeni glagoli imaju nepravilne participe: *boire* → **bu**, *avoir* → **eu**, *être* → **été**.",
+        "es": "Algunos verbos comunes tienen participios irregulares: *boire* → **bu**, *avoir* → **eu**, *être* → **été**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-pc-avoir-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-pc-avoir-4"
+    }
   ],
   "exercises": [
     {
@@ -20,30 +52,103 @@
       "type": "fill-blank",
       "prompt": "J'___ mangé une pizza. (avoir — I ate a pizza.)",
       "answer": "ai",
-      "relatedItemId": "fr-vocab-routine-004"
+      "relatedItemId": "fr-vocab-routine-004",
+      "i18n": {
+        "it": {
+          "prompt": "J'___ mangé une pizza. (avoir — Ho mangiato una pizza.)"
+        },
+        "de": {
+          "prompt": "J'___ mangé une pizza. (avoir — Ich habe eine Pizza gegessen.)"
+        },
+        "hr": {
+          "prompt": "J'___ mangé une pizza. (avoir — Pojeo/pojela sam pizzu.)"
+        },
+        "es": {
+          "prompt": "J'___ mangé une pizza. (avoir — He comido una pizza.)"
+        }
+      }
     },
     {
       "id": "fr-ex-pc-avoir-2",
       "type": "multiple-choice",
       "prompt": "What is the past participle of \"parler\" (to speak)?",
       "answer": "parlé",
-      "distractors": ["parlait", "parler", "parlant"],
-      "relatedItemId": "fr-vocab-routine-009"
+      "distractors": [
+        "parlait",
+        "parler",
+        "parlant"
+      ],
+      "relatedItemId": "fr-vocab-routine-009",
+      "i18n": {
+        "it": {
+          "prompt": "Qual è il participio passato di \"parler\" (parlare)?"
+        },
+        "de": {
+          "prompt": "Wie lautet das Partizip Perfekt von \"parler\" (sprechen)?"
+        },
+        "hr": {
+          "prompt": "Koji je particip prošli glagola \"parler\" (govoriti)?"
+        },
+        "es": {
+          "prompt": "¿Cuál es el participio pasado de \"parler\" (hablar)?"
+        }
+      }
     },
     {
       "id": "fr-ex-pc-avoir-3",
       "type": "multiple-choice",
       "prompt": "What is the past participle of \"boire\" (to drink)?",
       "answer": "bu",
-      "distractors": ["boiré", "buvé", "boivé"],
-      "relatedItemId": "fr-vocab-routine-005"
+      "distractors": [
+        "boiré",
+        "buvé",
+        "boivé"
+      ],
+      "relatedItemId": "fr-vocab-routine-005",
+      "i18n": {
+        "it": {
+          "prompt": "Qual è il participio passato di \"boire\" (bere)?"
+        },
+        "de": {
+          "prompt": "Wie lautet das Partizip Perfekt von \"boire\" (trinken)?"
+        },
+        "hr": {
+          "prompt": "Koji je particip prošli glagola \"boire\" (piti)?"
+        },
+        "es": {
+          "prompt": "¿Cuál es el participio pasado de \"boire\" (beber)?"
+        }
+      }
     },
     {
       "id": "fr-ex-pc-avoir-4",
       "type": "translate",
       "prompt": "Translate: \"We worked a lot.\"",
-      "answer": ["Nous avons beaucoup travaillé.", "On a beaucoup travaillé."],
-      "relatedItemId": "fr-vocab-routine-006"
+      "answer": [
+        "Nous avons beaucoup travaillé.",
+        "On a beaucoup travaillé."
+      ],
+      "relatedItemId": "fr-vocab-routine-006",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Abbiamo lavorato molto.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Wir haben viel gearbeitet.\""
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Puno smo radili.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Trabajamos mucho.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Passé Composé con Avoir",
+    "de": "Passé Composé mit Avoir",
+    "hr": "Passé Composé s Avoir",
+    "es": "Passé Composé con Avoir"
+  }
 }

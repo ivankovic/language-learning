@@ -5,12 +5,32 @@
   "unitId": "de-unit-3",
   "order": 2,
   "title": "Basic Word Order & Questions",
-  "prerequisiteIds": ["de-lesson-en-verbs"],
+  "prerequisiteIds": [
+    "de-lesson-en-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "German's key rule: the conjugated verb is always the **second element** of a statement, even if something other than the subject comes first. In a question with a question word like **wo** (where), the verb comes immediately after it, then the subject: *Wo ist der Bahnhof?* (Where is the station? — literally \"Where is the station\", verb second)." },
-    { "type": "exercise", "exerciseId": "de-ex-word-order-1" },
-    { "type": "exercise", "exerciseId": "de-ex-word-order-2" },
-    { "type": "exercise", "exerciseId": "de-ex-word-order-3" }
+    {
+      "type": "explanation",
+      "markdown": "German's key rule: the conjugated verb is always the **second element** of a statement, even if something other than the subject comes first. In a question with a question word like **wo** (where), the verb comes immediately after it, then the subject: *Wo ist der Bahnhof?* (Where is the station? — literally \"Where is the station\", verb second).",
+      "i18n": {
+        "it": "Regola chiave del tedesco: il verbo coniugato è sempre il **secondo elemento** di una frase affermativa, anche se qualcosa di diverso dal soggetto viene prima. In una domanda con una parola interrogativa come **wo** (dove), il verbo viene subito dopo, poi il soggetto: *Wo ist der Bahnhof?* (Dov'è la stazione? — letteralmente \"Dove è la stazione\", verbo al secondo posto). Questo è diverso dall'italiano, che non ha questa regola rigida.",
+        "fr": "Règle clé de l'allemand : le verbe conjugué est toujours le **deuxième élément** d'une phrase affirmative, même si autre chose que le sujet vient en premier. Dans une question avec un mot interrogatif comme **wo** (où), le verbe vient juste après, puis le sujet : *Wo ist der Bahnhof?* (Où est la gare ? — littéralement \"Où est la gare\", verbe en deuxième position). C'est différent du français, qui n'a pas cette règle stricte.",
+        "hr": "Ključno pravilo njemačkog: konjugirani glagol uvijek je **drugi element** izjavne rečenice, čak i kad na prvom mjestu nije subjekt. U pitanju s upitnom riječi poput **wo** (gdje), glagol dolazi odmah iza nje, a zatim subjekt: *Wo ist der Bahnhof?* (Gdje je kolodvor? — doslovno \"Gdje je kolodvor\", glagol na drugom mjestu). Hrvatski nema ovo strogo pravilo — red riječi je fleksibilniji zahvaljujući padežima.",
+        "es": "Regla clave del alemán: el verbo conjugado es siempre el **segundo elemento** de una frase afirmativa, incluso si algo distinto del sujeto va primero. En una pregunta con una palabra interrogativa como **wo** (dónde), el verbo va justo después, y luego el sujeto: *Wo ist der Bahnhof?* (¿Dónde está la estación? — literalmente \"Dónde está la estación\", verbo en segunda posición). Esto es distinto del español, que no tiene esta regla estricta."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-word-order-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-word-order-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-word-order-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,80 @@
       "type": "multiple-choice",
       "prompt": "How do you ask \"Where is the station?\"",
       "answer": "Wo ist der Bahnhof?",
-      "distractors": ["Der Bahnhof wo ist?", "Ist wo der Bahnhof?", "Bahnhof ist wo?"],
-      "relatedItemId": "de-vocab-travel-005"
+      "distractors": [
+        "Der Bahnhof wo ist?",
+        "Ist wo der Bahnhof?",
+        "Bahnhof ist wo?"
+      ],
+      "relatedItemId": "de-vocab-travel-005",
+      "i18n": {
+        "it": {
+          "prompt": "Come chiedi \"Dov'è la stazione?\""
+        },
+        "fr": {
+          "prompt": "Comment demandes-tu \"Où est la gare ?\""
+        },
+        "hr": {
+          "prompt": "Kako pitaš \"Gdje je kolodvor?\""
+        },
+        "es": {
+          "prompt": "¿Cómo preguntas \"¿Dónde está la estación?\"?"
+        }
+      }
     },
     {
       "id": "de-ex-word-order-2",
       "type": "fill-blank",
       "prompt": "___ kostet das? (How much does that cost?)",
       "answer": "Wie viel",
-      "relatedItemId": "de-vocab-travel-022"
+      "relatedItemId": "de-vocab-travel-022",
+      "i18n": {
+        "it": {
+          "prompt": "___ kostet das? (Quanto costa?)"
+        },
+        "fr": {
+          "prompt": "___ kostet das? (Combien ça coûte ?)"
+        },
+        "hr": {
+          "prompt": "___ kostet das? (Koliko to košta?)"
+        },
+        "es": {
+          "prompt": "___ kostet das? (¿Cuánto cuesta?)"
+        }
+      }
     },
     {
       "id": "de-ex-word-order-3",
       "type": "reorder",
       "prompt": "Put these words in order: ist / der / wo / Flughafen / ?",
-      "answer": ["Wo", "ist", "der", "Flughafen", "?"],
-      "relatedItemId": "de-vocab-travel-006"
+      "answer": [
+        "Wo",
+        "ist",
+        "der",
+        "Flughafen",
+        "?"
+      ],
+      "relatedItemId": "de-vocab-travel-006",
+      "i18n": {
+        "it": {
+          "prompt": "Metti in ordine queste parole: ist / der / wo / Flughafen / ?"
+        },
+        "fr": {
+          "prompt": "Mets ces mots dans l'ordre : ist / der / wo / Flughafen / ?"
+        },
+        "hr": {
+          "prompt": "Poredaj ove riječi: ist / der / wo / Flughafen / ?"
+        },
+        "es": {
+          "prompt": "Ordena estas palabras: ist / der / wo / Flughafen / ?"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Ordine base delle parole e domande",
+    "fr": "Ordre de base des mots et questions",
+    "hr": "Osnovni red riječi i pitanja",
+    "es": "Orden básico de las palabras y preguntas"
+  }
 }

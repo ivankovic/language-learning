@@ -5,34 +5,108 @@
   "unitId": "it-unit-10",
   "order": 3,
   "title": "Impersonal Si: si dice, si fa",
-  "prerequisiteIds": ["it-lesson-superlative"],
+  "prerequisiteIds": [
+    "it-lesson-superlative"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Si** + a verb in the third person expresses a general, impersonal statement — like English \"one says\", \"people say\", \"you do\" (generic \"you\"). *Si dice che...* (People say that...). *In Italia si mangia bene* (In Italy, people eat well / the food is good). If the following noun is plural, the verb becomes plural too: *Si vendono i biglietti qui* (Tickets are sold here)." },
-    { "type": "exercise", "exerciseId": "it-ex-si-1" },
-    { "type": "exercise", "exerciseId": "it-ex-si-2" },
-    { "type": "exercise", "exerciseId": "it-ex-si-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Si** + a verb in the third person expresses a general, impersonal statement — like English \"one says\", \"people say\", \"you do\" (generic \"you\"). *Si dice che...* (People say that...). *In Italia si mangia bene* (In Italy, people eat well / the food is good). If the following noun is plural, the verb becomes plural too: *Si vendono i biglietti qui* (Tickets are sold here).",
+      "i18n": {
+        "hr": "**Si** + glagol u trećem licu izražava opću, bezličnu izjavu — poput hrvatskog \"kaže se\", \"jede se\". *Si dice che...* (Kaže se da...). *In Italia si mangia bene* (U Italiji se dobro jede / hrana je dobra). Ako je sljedeća imenica u množini, glagol također ide u množinu: *Si vendono i biglietti qui* (Karte se prodaju ovdje).",
+        "fr": "**Si** + un verbe à la troisième personne exprime une affirmation générale et impersonnelle — comme le \"on\" français. *Si dice che...* (On dit que...). *In Italia si mangia bene* (En Italie, on mange bien / la nourriture est bonne). Si le nom qui suit est au pluriel, le verbe se met aussi au pluriel : *Si vendono i biglietti qui* (Les billets se vendent ici).",
+        "de": "**Si** + ein Verb in der dritten Person drückt eine allgemeine, unpersönliche Aussage aus — wie das deutsche \"man\". *Si dice che...* (Man sagt, dass...). *In Italia si mangia bene* (In Italien isst man gut / das Essen ist gut). Wenn das folgende Substantiv im Plural steht, wird auch das Verb zum Plural: *Si vendono i biglietti qui* (Hier werden Tickets verkauft).",
+        "es": "**Si** + un verbo en tercera persona expresa una afirmación general e impersonal — como el \"se\" impersonal español. *Si dice che...* (Se dice que...). *In Italia si mangia bene* (En Italia se come bien / la comida es buena). Si el sustantivo siguiente está en plural, el verbo también pasa a plural: *Si vendono i biglietti qui* (Aquí se venden entradas)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-si-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-si-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-si-3"
+    }
   ],
   "exercises": [
     {
       "id": "it-ex-si-1",
       "type": "fill-blank",
       "prompt": "In Italia ___ mangia molto bene. (impersonal si)",
-      "answer": "si"
+      "answer": "si",
+      "i18n": {
+        "hr": {
+          "prompt": "In Italia ___ mangia molto bene. (bezlično si)"
+        },
+        "fr": {
+          "prompt": "In Italia ___ mangia molto bene. (si impersonnel)"
+        },
+        "de": {
+          "prompt": "In Italia ___ mangia molto bene. (unpersönliches si)"
+        },
+        "es": {
+          "prompt": "In Italia ___ mangia molto bene. (si impersonal)"
+        }
+      }
     },
     {
       "id": "it-ex-si-2",
       "type": "multiple-choice",
       "prompt": "Come ___ dice \"thank you\" in italiano? (impersonal — How does one say ...?)",
       "answer": "si",
-      "distractors": ["ci", "ne", "lo"],
-      "relatedItemId": "it-vocab-greet-007"
+      "distractors": [
+        "ci",
+        "ne",
+        "lo"
+      ],
+      "relatedItemId": "it-vocab-greet-007",
+      "i18n": {
+        "hr": {
+          "prompt": "Come ___ dice \"hvala\" in italiano? (bezlično — Kako se kaže ...?)"
+        },
+        "fr": {
+          "prompt": "Come ___ dice \"merci\" in italiano? (impersonnel — Comment dit-on ...?)"
+        },
+        "de": {
+          "prompt": "Come ___ dice \"danke\" in italiano? (unpersönlich — Wie sagt man ...?)"
+        },
+        "es": {
+          "prompt": "Come ___ dice \"gracias\" in italiano? (impersonal — ¿Cómo se dice ...?)"
+        }
+      }
     },
     {
       "id": "it-ex-si-3",
       "type": "translate",
       "prompt": "Translate: \"Tickets are sold here.\" (impersonal si, plural agreement)",
-      "answer": ["Si vendono i biglietti qui."],
-      "relatedItemId": "it-vocab-travel-007"
+      "answer": [
+        "Si vendono i biglietti qui."
+      ],
+      "relatedItemId": "it-vocab-travel-007",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Karte se ovdje prodaju.\" (bezlično si, slaganje u množini)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Les billets se vendent ici.\" (si impersonnel, accord au pluriel)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Hier werden Tickets verkauft.\" (unpersönliches si, Plural-Übereinstimmung)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Aquí se venden entradas.\" (si impersonal, concordancia en plural)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Bezlično Si: si dice, si fa",
+    "fr": "Si impersonnel : si dice, si fa",
+    "de": "Unpersönliches Si: si dice, si fa",
+    "es": "Si impersonal: si dice, si fa"
+  }
 }

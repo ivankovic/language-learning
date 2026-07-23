@@ -5,13 +5,42 @@
   "unitId": "hr-unit-3",
   "order": 2,
   "title": "Word Order & Clitics",
-  "prerequisiteIds": ["hr-lesson-verbs"],
+  "prerequisiteIds": [
+    "hr-lesson-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Croatian word order is fairly flexible (usually subject-verb-object), but short unstressed \"clitic\" words — like **sam/si/je** (forms of *biti*), or the yes/no question word **li** — have a strict rule: they must sit in the **second position** of the clause, no matter what comes first. *Danas sam umoran* (Today I'm tired) puts **sam** right after *Danas*, not at the end." },
-    { "type": "exercise", "exerciseId": "hr-ex-word-order-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-word-order-2" },
-    { "type": "explanation", "markdown": "To turn a statement into a yes/no question, add **li** right after the verb: *Jesi li umoran?* (Are you tired?). **Gdje** (where) works like other question words — it simply starts the sentence, with the verb right behind it: *Gdje je kolodvor?* (Where is the station?)." },
-    { "type": "exercise", "exerciseId": "hr-ex-word-order-3" }
+    {
+      "type": "explanation",
+      "markdown": "Croatian word order is fairly flexible (usually subject-verb-object), but short unstressed \"clitic\" words — like **sam/si/je** (forms of *biti*), or the yes/no question word **li** — have a strict rule: they must sit in the **second position** of the clause, no matter what comes first. *Danas sam umoran* (Today I'm tired) puts **sam** right after *Danas*, not at the end.",
+      "i18n": {
+        "it": "L'ordine delle parole in croato è piuttosto flessibile (di solito soggetto-verbo-oggetto), ma le brevi parole non accentate \"clitiche\" — come **sam/si/je** (forme di *biti*), o la particella interrogativa sì/no **li** — hanno una regola rigida: devono stare nella **seconda posizione** della frase, indipendentemente da cosa viene prima. *Danas sam umoran* (Oggi sono stanco) mette **sam** subito dopo *Danas*, non alla fine.",
+        "fr": "L'ordre des mots en croate est assez flexible (généralement sujet-verbe-objet), mais les petits mots non accentués \"clitiques\" — comme **sam/si/je** (formes de *biti*), ou la particule interrogative oui/non **li** — obéissent à une règle stricte : ils doivent se trouver en **deuxième position** de la proposition, quel que soit ce qui vient en premier. *Danas sam umoran* (Aujourd'hui je suis fatigué) place **sam** juste après *Danas*, pas à la fin.",
+        "de": "Die kroatische Wortstellung ist recht flexibel (meist Subjekt-Verb-Objekt), aber kurze unbetonte \"klitische\" Wörter — wie **sam/si/je** (Formen von *biti*) oder das Ja/Nein-Fragepartikel **li** — folgen einer strikten Regel: sie müssen an **zweiter Stelle** des Satzes stehen, egal was zuerst kommt. Das erinnert an die deutsche Verb-zweit-Regel, gilt hier aber nur für diese bestimmten Klitika, nicht für jedes finite Verb. *Danas sam umoran* (Heute bin ich müde) setzt **sam** direkt nach *Danas*, nicht ans Ende.",
+        "es": "El orden de las palabras en croata es bastante flexible (normalmente sujeto-verbo-objeto), pero las palabras átonas breves \"clíticas\" — como **sam/si/je** (formas de *biti*), o la partícula interrogativa de sí/no **li** — tienen una regla estricta: deben estar en la **segunda posición** de la oración, sin importar lo que venga primero. *Danas sam umoran* (Hoy estoy cansado) coloca **sam** justo después de *Danas*, no al final."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-word-order-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-word-order-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "To turn a statement into a yes/no question, add **li** right after the verb: *Jesi li umoran?* (Are you tired?). **Gdje** (where) works like other question words — it simply starts the sentence, with the verb right behind it: *Gdje je kolodvor?* (Where is the station?).",
+      "i18n": {
+        "it": "Per trasformare un'affermazione in una domanda sì/no, aggiungi **li** subito dopo il verbo: *Jesi li umoran?* (Sei stanco?). **Gdje** (dove) funziona come le altre parole interrogative — inizia semplicemente la frase, con il verbo subito dopo: *Gdje je kolodvor?* (Dov'è la stazione?).",
+        "fr": "Pour transformer une affirmation en question oui/non, ajoute **li** juste après le verbe : *Jesi li umoran?* (Es-tu fatigué ?). **Gdje** (où) fonctionne comme les autres mots interrogatifs — il commence simplement la phrase, avec le verbe juste derrière : *Gdje je kolodvor?* (Où est la gare ?).",
+        "de": "Um eine Aussage in eine Ja/Nein-Frage zu verwandeln, füge **li** direkt nach dem Verb ein: *Jesi li umoran?* (Bist du müde?). **Gdje** (wo) funktioniert wie andere Fragewörter — es steht einfach am Satzanfang, mit dem Verb direkt danach: *Gdje je kolodvor?* (Wo ist der Bahnhof?).",
+        "es": "Para convertir una afirmación en una pregunta de sí/no, añade **li** justo después del verbo: *Jesi li umoran?* (¿Estás cansado?). **Gdje** (dónde) funciona como otras palabras interrogativas — simplemente empieza la frase, con el verbo justo detrás: *Gdje je kolodvor?* (¿Dónde está la estación?)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-word-order-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,79 @@
       "type": "multiple-choice",
       "prompt": "How do you ask \"Where is the station?\"",
       "answer": "Gdje je kolodvor?",
-      "distractors": ["Kolodvor gdje je?", "Je gdje kolodvor?", "Kolodvor je gdje?"],
-      "relatedItemId": "hr-vocab-travel-001"
+      "distractors": [
+        "Kolodvor gdje je?",
+        "Je gdje kolodvor?",
+        "Kolodvor je gdje?"
+      ],
+      "relatedItemId": "hr-vocab-travel-001",
+      "i18n": {
+        "it": {
+          "prompt": "Come chiedi \"Dov'è la stazione?\""
+        },
+        "fr": {
+          "prompt": "Comment demandes-tu \"Où est la gare ?\""
+        },
+        "de": {
+          "prompt": "Wie fragst du \"Wo ist der Bahnhof?\""
+        },
+        "es": {
+          "prompt": "¿Cómo preguntas \"¿Dónde está la estación?\"?"
+        }
+      }
     },
     {
       "id": "hr-ex-word-order-2",
       "type": "fill-blank",
       "prompt": "Koliko ___? (How much does it cost?)",
       "answer": "košta",
-      "relatedItemId": "hr-vocab-travel-022"
+      "relatedItemId": "hr-vocab-travel-022",
+      "i18n": {
+        "it": {
+          "prompt": "Koliko ___? (Quanto costa?)"
+        },
+        "fr": {
+          "prompt": "Koliko ___? (Combien ça coûte ?)"
+        },
+        "de": {
+          "prompt": "Koliko ___? (Was kostet das?)"
+        },
+        "es": {
+          "prompt": "Koliko ___? (¿Cuánto cuesta?)"
+        }
+      }
     },
     {
       "id": "hr-ex-word-order-3",
       "type": "reorder",
       "prompt": "Put these words in order: li / umoran / Jesi / ?",
-      "answer": ["Jesi", "li", "umoran", "?"],
-      "relatedItemId": "hr-vocab-routine-030"
+      "answer": [
+        "Jesi",
+        "li",
+        "umoran",
+        "?"
+      ],
+      "relatedItemId": "hr-vocab-routine-030",
+      "i18n": {
+        "it": {
+          "prompt": "Metti in ordine queste parole: li / umoran / Jesi / ?"
+        },
+        "fr": {
+          "prompt": "Mets ces mots dans l'ordre : li / umoran / Jesi / ?"
+        },
+        "de": {
+          "prompt": "Bringe diese Wörter in die richtige Reihenfolge: li / umoran / Jesi / ?"
+        },
+        "es": {
+          "prompt": "Ordena estas palabras: li / umoran / Jesi / ?"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Ordine delle parole e clitici",
+    "fr": "Ordre des mots et clitiques",
+    "de": "Wortstellung und Klitika",
+    "es": "Orden de las palabras y clíticos"
+  }
 }

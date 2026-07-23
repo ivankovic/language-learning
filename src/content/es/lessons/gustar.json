@@ -5,13 +5,42 @@
   "unitId": "es-unit-3",
   "order": 2,
   "title": "Gustar (\"to like\") — A Backwards Verb",
-  "prerequisiteIds": ["es-lesson-ar-verbs"],
+  "prerequisiteIds": [
+    "es-lesson-ar-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Spanish doesn't have a normal verb \"to like\" — instead, **gustar** literally means \"to be pleasing to\", and the grammatical subject is the *thing liked*, not the person. **Me gusta el café** literally means \"Coffee is pleasing to me\", even though it translates as \"I like coffee\". The pronoun in front (**me**, **te**, **le**, **nos**, **os**, **les**) marks *who* is doing the liking." },
-    { "type": "exercise", "exerciseId": "es-ex-gustar-1" },
-    { "type": "exercise", "exerciseId": "es-ex-gustar-2" },
-    { "type": "explanation", "markdown": "The verb itself only ever agrees with the *thing liked*: **gusta** for one thing (*Me gusta el café*), **gustan** for more than one (*Me gustan las manzanas* — \"Apples are pleasing to me\"/\"I like apples\")." },
-    { "type": "exercise", "exerciseId": "es-ex-gustar-3" }
+    {
+      "type": "explanation",
+      "markdown": "Spanish doesn't have a normal verb \"to like\" — instead, **gustar** literally means \"to be pleasing to\", and the grammatical subject is the *thing liked*, not the person. **Me gusta el café** literally means \"Coffee is pleasing to me\", even though it translates as \"I like coffee\". The pronoun in front (**me**, **te**, **le**, **nos**, **os**, **les**) marks *who* is doing the liking.",
+      "i18n": {
+        "it": "Come l'italiano **piacere**, lo spagnolo non ha un normale verbo \"piacere\" nel senso di un verbo che prende la persona come soggetto — invece, **gustar** significa letteralmente \"essere gradito a\", e il soggetto grammaticale è la *cosa che piace*, non la persona. **Me gusta el café** significa letteralmente \"Il caffè è gradito a me\", esattamente come l'italiano \"Mi piace il caffè\" — questa costruzione ti sarà quindi molto familiare. Il pronome davanti (**me**, **te**, **le**, **nos**, **os**, **les**) indica *chi* prova il gradimento.",
+        "fr": "Contrairement au français, où \"aimer\" prend la personne comme sujet, l'espagnol n'a pas de verbe normal pour \"aimer\" — **gustar** signifie littéralement \"être plaisant à\", et le sujet grammatical est la *chose aimée*, pas la personne. **Me gusta el café** signifie littéralement \"Le café est plaisant à moi\", même si cela se traduit par \"J'aime le café\". Le pronom placé devant (**me**, **te**, **le**, **nos**, **os**, **les**) indique *qui* éprouve ce plaisir.",
+        "de": "Anders als im Deutschen, wo \"mögen\" die Person als Subjekt nimmt, hat Spanisch kein normales Verb für \"mögen\" — **gustar** bedeutet wörtlich \"angenehm sein für\", und das grammatische Subjekt ist die *Sache, die gefällt*, nicht die Person. **Me gusta el café** bedeutet wörtlich \"Kaffee ist mir angenehm\", auch wenn es sich als \"Ich mag Kaffee\" übersetzt. Das vorangestellte Pronomen (**me**, **te**, **le**, **nos**, **os**, **les**) markiert, *wer* die Vorliebe empfindet.",
+        "hr": "Za razliku od hrvatskog, gdje \"voljeti/sviđati se\" može uzeti osobu kao subjekt, španjolski nema običan glagol za \"sviđati se\" u tom smislu — **gustar** doslovno znači \"biti ugodan nekome\", a gramatički subjekt je *stvar koja se sviđa*, ne osoba. **Me gusta el café** doslovno znači \"Kava mi je ugodna\", iako se prevodi kao \"Volim kavu\". Zamjenica ispred (**me**, **te**, **le**, **nos**, **os**, **les**) označava *tko* osjeća sviđanje."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-gustar-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-gustar-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "The verb itself only ever agrees with the *thing liked*: **gusta** for one thing (*Me gusta el café*), **gustan** for more than one (*Me gustan las manzanas* — \"Apples are pleasing to me\"/\"I like apples\").",
+      "i18n": {
+        "it": "Il verbo stesso concorda sempre solo con la *cosa che piace*: **gusta** per una cosa sola (*Me gusta el café*), **gustan** per più di una (*Me gustan las manzanas* — \"Le mele sono gradite a me\"/\"Mi piacciono le mele\").",
+        "fr": "Le verbe lui-même s'accorde toujours uniquement avec la *chose aimée* : **gusta** pour une seule chose (*Me gusta el café*), **gustan** pour plusieurs (*Me gustan las manzanas* — \"Les pommes sont plaisantes à moi\"/\"J'aime les pommes\").",
+        "de": "Das Verb selbst richtet sich immer nur nach der *Sache, die gefällt*: **gusta** für eine Sache (*Me gusta el café*), **gustan** für mehrere (*Me gustan las manzanas* — \"Äpfel sind mir angenehm\"/\"Ich mag Äpfel\").",
+        "hr": "Sam glagol slaže se uvijek samo sa *stvari koja se sviđa*: **gusta** za jednu stvar (*Me gusta el café*), **gustan** za više njih (*Me gustan las manzanas* — \"Jabuke su mi ugodne\"/\"Volim jabuke\")."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-gustar-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,76 @@
       "type": "fill-blank",
       "prompt": "___ gusta el café. (me — I like coffee.)",
       "answer": "Me",
-      "relatedItemId": "es-vocab-food-002"
+      "relatedItemId": "es-vocab-food-002",
+      "i18n": {
+        "it": {
+          "prompt": "___ gusta el café. (me — Mi piace il caffè.)"
+        },
+        "fr": {
+          "prompt": "___ gusta el café. (me — J'aime le café.)"
+        },
+        "de": {
+          "prompt": "___ gusta el café. (me — Ich mag Kaffee.)"
+        },
+        "hr": {
+          "prompt": "___ gusta el café. (me — Volim kavu.)"
+        }
+      }
     },
     {
       "id": "es-ex-gustar-2",
       "type": "multiple-choice",
       "prompt": "¿Te ___ el vino? (gustar — Do you like wine? — singular thing liked)",
       "answer": "gusta",
-      "distractors": ["gustan", "gustas", "gusto"],
-      "relatedItemId": "es-vocab-food-025"
+      "distractors": [
+        "gustan",
+        "gustas",
+        "gusto"
+      ],
+      "relatedItemId": "es-vocab-food-025",
+      "i18n": {
+        "it": {
+          "prompt": "¿Te ___ el vino? (gustar — Ti piace il vino? — cosa singolare)"
+        },
+        "fr": {
+          "prompt": "¿Te ___ el vino? (gustar — Tu aimes le vin ? — chose au singulier)"
+        },
+        "de": {
+          "prompt": "¿Te ___ el vino? (gustar — Magst du Wein? — Sache im Singular)"
+        },
+        "hr": {
+          "prompt": "¿Te ___ el vino? (gustar — Voliš li vino? — jedna stvar)"
+        }
+      }
     },
     {
       "id": "es-ex-gustar-3",
       "type": "translate",
       "prompt": "Translate: \"I like apples.\" (plural thing liked — gustan)",
-      "answer": ["Me gustan las manzanas."],
-      "relatedItemId": "es-vocab-food-014"
+      "answer": [
+        "Me gustan las manzanas."
+      ],
+      "relatedItemId": "es-vocab-food-014",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Mi piacciono le mele.\" (cosa plurale — gustan)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"J'aime les pommes.\" (chose au pluriel — gustan)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Ich mag Äpfel.\" (Sache im Plural — gustan)"
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Volim jabuke.\" (više stvari — gustan)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Gustar (\"piacere\") — un verbo alla rovescia",
+    "fr": "Gustar (\"aimer\") — un verbe à l'envers",
+    "de": "Gustar (\"mögen\") — ein umgekehrtes Verb",
+    "hr": "Gustar (\"sviđati se\") — obrnuti glagol"
+  }
 }

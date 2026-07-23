@@ -35,7 +35,13 @@
       "de-vocab-greet-028",
       "de-vocab-greet-029",
       "de-vocab-greet-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Saluti e cortesia",
+      "hr": "Pozdravi i uljudnost",
+      "es": "Saludos y cortesía",
+      "fr": "Salutations et politesse"
+    }
   },
   {
     "id": "de-deck-food",
@@ -78,7 +84,13 @@
       "de-vocab-food-033",
       "de-vocab-food-034",
       "de-vocab-food-035"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Cibo e pasti",
+      "hr": "Hrana i piće",
+      "es": "Comida y bebida",
+      "fr": "Nourriture et repas"
+    }
   },
   {
     "id": "de-deck-travel",
@@ -121,7 +133,13 @@
       "de-vocab-travel-033",
       "de-vocab-travel-034",
       "de-vocab-travel-035"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Viaggi e indicazioni",
+      "hr": "Putovanja i upute",
+      "es": "Viajes y direcciones",
+      "fr": "Voyages et directions"
+    }
   },
   {
     "id": "de-deck-daily-routine",
@@ -159,7 +177,13 @@
       "de-vocab-routine-028",
       "de-vocab-routine-029",
       "de-vocab-routine-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Routine quotidiana e famiglia",
+      "hr": "Svakodnevna rutina i obitelj",
+      "es": "Rutina diaria y familia",
+      "fr": "Routine quotidienne et famille"
+    }
   },
   {
     "id": "de-deck-numbers-time",
@@ -197,7 +221,13 @@
       "de-vocab-numtime-028",
       "de-vocab-numtime-029",
       "de-vocab-numtime-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Numeri e ora",
+      "hr": "Brojevi i vrijeme",
+      "es": "Números y hora",
+      "fr": "Nombres et heure"
+    }
   },
   {
     "id": "de-deck-home",
@@ -235,7 +265,13 @@
       "de-vocab-home-028",
       "de-vocab-home-029",
       "de-vocab-home-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Casa e abitazione",
+      "hr": "Dom i stanovanje",
+      "es": "Hogar y vivienda",
+      "fr": "Maison et logement"
+    }
   },
   {
     "id": "de-deck-body",
@@ -273,7 +309,13 @@
       "de-vocab-body-028",
       "de-vocab-body-029",
       "de-vocab-body-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Corpo e salute",
+      "hr": "Tijelo i zdravlje",
+      "es": "Cuerpo y salud",
+      "fr": "Corps et santé"
+    }
   },
   {
     "id": "de-deck-weather",
@@ -311,7 +353,13 @@
       "de-vocab-weather-028",
       "de-vocab-weather-029",
       "de-vocab-weather-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Tempo e natura",
+      "hr": "Vrijeme i priroda",
+      "es": "Clima y naturaleza",
+      "fr": "Météo et nature"
+    }
   },
   {
     "id": "de-deck-work",
@@ -349,7 +397,13 @@
       "de-vocab-work-028",
       "de-vocab-work-029",
       "de-vocab-work-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Lavoro e istruzione",
+      "hr": "Posao i obrazovanje",
+      "es": "Trabajo y educación",
+      "fr": "Travail et éducation"
+    }
   },
   {
     "id": "de-deck-music-arts",
@@ -387,7 +441,13 @@
       "de-vocab-music-arts-028",
       "de-vocab-music-arts-029",
       "de-vocab-music-arts-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Musica e arte",
+      "hr": "Glazba i umjetnost",
+      "es": "Música y arte",
+      "fr": "Musique et art"
+    }
   },
   {
     "id": "de-deck-technology",
@@ -425,7 +485,13 @@
       "de-vocab-technology-028",
       "de-vocab-technology-029",
       "de-vocab-technology-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Tecnologia e comunicazione",
+      "hr": "Tehnologija i komunikacija",
+      "es": "Tecnología y comunicación",
+      "fr": "Technologie et communication"
+    }
   },
   {
     "id": "de-deck-shopping",
@@ -463,7 +529,13 @@
       "de-vocab-shopping-028",
       "de-vocab-shopping-029",
       "de-vocab-shopping-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Acquisti e denaro",
+      "hr": "Kupovina i novac",
+      "es": "Compras y dinero",
+      "fr": "Achats et argent"
+    }
   },
   {
     "id": "de-deck-sports-hobbies",
@@ -501,7 +573,13 @@
       "de-vocab-sports-hobbies-028",
       "de-vocab-sports-hobbies-029",
       "de-vocab-sports-hobbies-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Sport e hobby",
+      "hr": "Sport i hobiji",
+      "es": "Deportes y aficiones",
+      "fr": "Sports et loisirs"
+    }
   },
   {
     "id": "de-deck-emotions",
@@ -539,7 +617,13 @@
       "de-vocab-emotions-028",
       "de-vocab-emotions-029",
       "de-vocab-emotions-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Emozioni e personalità",
+      "hr": "Emocije i osobnost",
+      "es": "Emociones y personalidad",
+      "fr": "Émotions et personnalité"
+    }
   },
   {
     "id": "de-deck-city-transport",
@@ -577,7 +661,13 @@
       "de-vocab-city-transport-028",
       "de-vocab-city-transport-029",
       "de-vocab-city-transport-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Città e trasporti",
+      "hr": "Grad i prijevoz",
+      "es": "Ciudad y transporte",
+      "fr": "Ville et transports"
+    }
   },
   {
     "id": "de-deck-holidays",
@@ -615,7 +705,13 @@
       "de-vocab-holidays-028",
       "de-vocab-holidays-029",
       "de-vocab-holidays-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Festività e celebrazioni",
+      "hr": "Praznici i proslave",
+      "es": "Fiestas y celebraciones",
+      "fr": "Fêtes et célébrations"
+    }
   },
   {
     "id": "de-deck-cooking",
@@ -653,7 +749,13 @@
       "de-vocab-cooking-028",
       "de-vocab-cooking-029",
       "de-vocab-cooking-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Cucina e utensili",
+      "hr": "Kuhanje i kuhinja",
+      "es": "Cocina y gastronomía",
+      "fr": "Cuisine"
+    }
   },
   {
     "id": "de-deck-society",
@@ -691,7 +793,13 @@
       "de-vocab-society-028",
       "de-vocab-society-029",
       "de-vocab-society-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Società e governo",
+      "hr": "Društvo i vlada",
+      "es": "Sociedad y gobierno",
+      "fr": "Société et gouvernement"
+    }
   },
   {
     "id": "de-deck-countries",
@@ -729,7 +837,13 @@
       "de-vocab-countries-028",
       "de-vocab-countries-029",
       "de-vocab-countries-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Paesi e nazionalità",
+      "hr": "Zemlje i nacionalnosti",
+      "es": "Países y nacionalidades",
+      "fr": "Pays et nationalités"
+    }
   },
   {
     "id": "de-deck-materials",
@@ -767,7 +881,13 @@
       "de-vocab-materials-028",
       "de-vocab-materials-029",
       "de-vocab-materials-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Materiali e forme",
+      "hr": "Materijali i oblici",
+      "es": "Materiales y formas",
+      "fr": "Matériaux et formes"
+    }
   },
   {
     "id": "de-deck-business",
@@ -805,7 +925,13 @@
       "de-vocab-business-028",
       "de-vocab-business-029",
       "de-vocab-business-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Economia e finanza",
+      "hr": "Poslovanje i financije",
+      "es": "Negocios y finanzas",
+      "fr": "Affaires et finances"
+    }
   },
   {
     "id": "de-deck-idioms",
@@ -843,7 +969,13 @@
       "de-vocab-idioms-028",
       "de-vocab-idioms-029",
       "de-vocab-idioms-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Espressioni comuni",
+      "hr": "Uobičajeni izrazi",
+      "es": "Expresiones comunes",
+      "fr": "Expressions courantes"
+    }
   },
   {
     "id": "de-deck-connectors",
@@ -881,7 +1013,13 @@
       "de-vocab-connectors-028",
       "de-vocab-connectors-029",
       "de-vocab-connectors-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Congiunzioni e connettivi",
+      "hr": "Veznici i poveznice",
+      "es": "Conjunciones y conectores",
+      "fr": "Conjonctions et connecteurs"
+    }
   },
   {
     "id": "de-deck-clothing",
@@ -919,7 +1057,13 @@
       "de-vocab-clothing-028",
       "de-vocab-clothing-029",
       "de-vocab-clothing-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Abbigliamento e moda",
+      "hr": "Odjeća i moda",
+      "es": "Ropa y moda",
+      "fr": "Vêtements et mode"
+    }
   },
   {
     "id": "de-deck-weather-disasters",
@@ -957,7 +1101,13 @@
       "de-vocab-weather-disasters-028",
       "de-vocab-weather-disasters-029",
       "de-vocab-weather-disasters-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Fenomeni meteorologici e catastrofi naturali",
+      "hr": "Vremenske pojave i prirodne katastrofe",
+      "es": "Fenómenos meteorológicos y desastres naturales",
+      "fr": "Phénomènes météorologiques et catastrophes naturelles"
+    }
   },
   {
     "id": "de-deck-farming",
@@ -995,7 +1145,13 @@
       "de-vocab-farming-028",
       "de-vocab-farming-029",
       "de-vocab-farming-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Agricoltura",
+      "hr": "Poljoprivreda",
+      "es": "Agricultura",
+      "fr": "Agriculture"
+    }
   },
   {
     "id": "de-deck-diy",
@@ -1033,7 +1189,13 @@
       "de-vocab-diy-028",
       "de-vocab-diy-029",
       "de-vocab-diy-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Ristrutturazione e fai da te",
+      "hr": "Popravci i majstorski radovi",
+      "es": "Bricolaje",
+      "fr": "Bricolage"
+    }
   },
   {
     "id": "de-deck-banking",
@@ -1071,7 +1233,13 @@
       "de-vocab-banking-028",
       "de-vocab-banking-029",
       "de-vocab-banking-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Banche e assicurazioni",
+      "hr": "Bankarstvo i osiguranje",
+      "es": "Banca y seguros",
+      "fr": "Banque et assurance"
+    }
   },
   {
     "id": "de-deck-public-services",
@@ -1109,7 +1277,13 @@
       "de-vocab-public-services-028",
       "de-vocab-public-services-029",
       "de-vocab-public-services-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Servizi pubblici e utenze",
+      "hr": "Javne usluge i komunalije",
+      "es": "Servicios públicos",
+      "fr": "Services publics"
+    }
   },
   {
     "id": "de-deck-relationships",
@@ -1147,7 +1321,13 @@
       "de-vocab-relationships-028",
       "de-vocab-relationships-029",
       "de-vocab-relationships-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Relazioni ed eventi della vita",
+      "hr": "Veze i životni događaji",
+      "es": "Relaciones y eventos de la vida",
+      "fr": "Relations et événements de la vie"
+    }
   },
   {
     "id": "de-deck-media-news",
@@ -1185,7 +1365,13 @@
       "de-vocab-media-news-028",
       "de-vocab-media-news-029",
       "de-vocab-media-news-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Media e notizie",
+      "hr": "Mediji i vijesti",
+      "es": "Medios y noticias",
+      "fr": "Médias et actualités"
+    }
   },
   {
     "id": "de-deck-science-space",
@@ -1223,7 +1409,13 @@
       "de-vocab-science-space-028",
       "de-vocab-science-space-029",
       "de-vocab-science-space-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Scienza e spazio",
+      "hr": "Znanost i svemir",
+      "es": "Ciencia y espacio",
+      "fr": "Science et espace"
+    }
   },
   {
     "id": "de-deck-law-crime",
@@ -1261,6 +1453,12 @@
       "de-vocab-law-crime-028",
       "de-vocab-law-crime-029",
       "de-vocab-law-crime-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Diritto e criminalità",
+      "hr": "Pravo i kriminal",
+      "es": "Derecho y crimen",
+      "fr": "Droit et criminalité"
+    }
   }
 ]

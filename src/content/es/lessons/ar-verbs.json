@@ -5,42 +5,134 @@
   "unitId": "es-unit-3",
   "order": 1,
   "title": "Regular Verbs (-ar)",
-  "prerequisiteIds": ["es-lesson-tener"],
+  "prerequisiteIds": [
+    "es-lesson-tener"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Most Spanish verbs ending in **-ar** (like *trabajar*, *estudiar*, *hablar*) follow a regular pattern in the present tense:\n\nyo **-o** · tú **-as** · él/ella/usted **-a** · nosotros **-amos** · vosotros **-áis** · ellos/ustedes **-an**\n\ne.g. *hablar* → habl**o**, habl**as**, habl**a**, habl**amos**, habl**áis**, habl**an**." },
-    { "type": "exercise", "exerciseId": "es-ex-ar-1" },
-    { "type": "exercise", "exerciseId": "es-ex-ar-2" },
-    { "type": "exercise", "exerciseId": "es-ex-ar-3" },
-    { "type": "exercise", "exerciseId": "es-ex-ar-4" }
+    {
+      "type": "explanation",
+      "markdown": "Most Spanish verbs ending in **-ar** (like *trabajar*, *estudiar*, *hablar*) follow a regular pattern in the present tense:\n\nyo **-o** · tú **-as** · él/ella/usted **-a** · nosotros **-amos** · vosotros **-áis** · ellos/ustedes **-an**\n\ne.g. *hablar* → habl**o**, habl**as**, habl**a**, habl**amos**, habl**áis**, habl**an**.",
+      "i18n": {
+        "it": "La maggior parte dei verbi spagnoli che terminano in **-ar** (come *trabajar*, *estudiar*, *hablar*) seguono un modello regolare al presente:\n\nyo **-o** · tú **-as** · él/ella/usted **-a** · nosotros **-amos** · vosotros **-áis** · ellos/ustedes **-an**\n\nes. *hablar* → habl**o**, habl**as**, habl**a**, habl**amos**, habl**áis**, habl**an**.",
+        "fr": "La plupart des verbes espagnols qui se terminent en **-ar** (comme *trabajar*, *estudiar*, *hablar*) suivent un modèle régulier au présent :\n\nyo **-o** · tú **-as** · él/ella/usted **-a** · nosotros **-amos** · vosotros **-áis** · ellos/ustedes **-an**\n\np. ex. *hablar* → habl**o**, habl**as**, habl**a**, habl**amos**, habl**áis**, habl**an**.",
+        "de": "Die meisten spanischen Verben, die auf **-ar** enden (wie *trabajar*, *estudiar*, *hablar*), folgen im Präsens einem regelmäßigen Muster:\n\nyo **-o** · tú **-as** · él/ella/usted **-a** · nosotros **-amos** · vosotros **-áis** · ellos/ustedes **-an**\n\nz.B. *hablar* → habl**o**, habl**as**, habl**a**, habl**amos**, habl**áis**, habl**an**.",
+        "hr": "Većina španjolskih glagola koji završavaju na **-ar** (kao *trabajar*, *estudiar*, *hablar*) prati pravilan obrazac u prezentu:\n\nyo **-o** · tú **-as** · él/ella/usted **-a** · nosotros **-amos** · vosotros **-áis** · ellos/ustedes **-an**\n\nnpr. *hablar* → habl**o**, habl**as**, habl**a**, habl**amos**, habl**áis**, habl**an**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-ar-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-ar-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-ar-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-ar-4"
+    }
   ],
   "exercises": [
     {
       "id": "es-ex-ar-1",
       "type": "fill-blank",
       "prompt": "Yo ___ español. (hablar — I speak Spanish.)",
-      "answer": "hablo"
+      "answer": "hablo",
+      "i18n": {
+        "it": {
+          "prompt": "Yo ___ español. (hablar — Parlo spagnolo.)"
+        },
+        "fr": {
+          "prompt": "Yo ___ español. (hablar — Je parle espagnol.)"
+        },
+        "de": {
+          "prompt": "Yo ___ español. (hablar — Ich spreche Spanisch.)"
+        },
+        "hr": {
+          "prompt": "Yo ___ español. (hablar — Govorim španjolski.)"
+        }
+      }
     },
     {
       "id": "es-ex-ar-2",
       "type": "multiple-choice",
       "prompt": "Nosotros ___ en Madrid. (trabajar — We work in Madrid.)",
       "answer": "trabajamos",
-      "distractors": ["trabajo", "trabajas", "trabajan"],
-      "relatedItemId": "es-vocab-routine-011"
+      "distractors": [
+        "trabajo",
+        "trabajas",
+        "trabajan"
+      ],
+      "relatedItemId": "es-vocab-routine-011",
+      "i18n": {
+        "it": {
+          "prompt": "Nosotros ___ en Madrid. (trabajar — Lavoriamo a Madrid.)"
+        },
+        "fr": {
+          "prompt": "Nosotros ___ en Madrid. (trabajar — Nous travaillons à Madrid.)"
+        },
+        "de": {
+          "prompt": "Nosotros ___ en Madrid. (trabajar — Wir arbeiten in Madrid.)"
+        },
+        "hr": {
+          "prompt": "Nosotros ___ en Madrid. (trabajar — Radimo u Madridu.)"
+        }
+      }
     },
     {
       "id": "es-ex-ar-3",
       "type": "fill-blank",
       "prompt": "Tú ___ español. (estudiar — You study Spanish.)",
       "answer": "estudias",
-      "relatedItemId": "es-vocab-routine-012"
+      "relatedItemId": "es-vocab-routine-012",
+      "i18n": {
+        "it": {
+          "prompt": "Tú ___ español. (estudiar — Studi spagnolo.)"
+        },
+        "fr": {
+          "prompt": "Tú ___ español. (estudiar — Tu étudies l'espagnol.)"
+        },
+        "de": {
+          "prompt": "Tú ___ español. (estudiar — Du lernst Spanisch.)"
+        },
+        "hr": {
+          "prompt": "Tú ___ español. (estudiar — Učiš španjolski.)"
+        }
+      }
     },
     {
       "id": "es-ex-ar-4",
       "type": "translate",
       "prompt": "Translate: \"They buy bread.\"",
-      "answer": ["Ellos compran pan.", "Compran pan."],
-      "relatedItemId": "es-vocab-food-004"
+      "answer": [
+        "Ellos compran pan.",
+        "Compran pan."
+      ],
+      "relatedItemId": "es-vocab-food-004",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Loro comprano pane.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Ils achètent du pain.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie kaufen Brot.\""
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Oni kupuju kruh.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Verbi regolari (-ar)",
+    "fr": "Verbes réguliers (-ar)",
+    "de": "Regelmäßige Verben (-ar)",
+    "hr": "Pravilni glagoli (-ar)"
+  }
 }

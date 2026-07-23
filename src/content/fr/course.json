@@ -2,5 +2,17 @@
   "id": "fr-course-a1",
   "lang": "fr",
   "title": "French Foundations",
-  "unitIds": ["fr-unit-1", "fr-unit-2", "fr-unit-3", "fr-unit-4", "fr-unit-5"]
+  "unitIds": [
+    "fr-unit-1",
+    "fr-unit-2",
+    "fr-unit-3",
+    "fr-unit-4",
+    "fr-unit-5"
+  ],
+  "titleByLang": {
+    "it": "Fondamenti di francese",
+    "de": "Grundlagen des Französischen",
+    "hr": "Temelji francuskog jezika",
+    "es": "Fundamentos de francés"
+  }
 }

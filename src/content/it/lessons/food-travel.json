@@ -5,14 +5,46 @@
   "unitId": "it-unit-3",
   "order": 3,
   "title": "Ordering Food & Asking Directions",
-  "prerequisiteIds": ["it-lesson-word-order"],
+  "prerequisiteIds": [
+    "it-lesson-word-order"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Vorrei...** (\"I would like...\") is the polite way to order or request something, much softer than \"voglio\" (I want). Combine it with food vocabulary to order at a restaurant, or with travel vocabulary to ask for directions and information." },
-    { "type": "exercise", "exerciseId": "it-ex-food-travel-1" },
-    { "type": "exercise", "exerciseId": "it-ex-food-travel-2" },
-    { "type": "explanation", "markdown": "Travel words like **arrivo** (arrival) and **partenza** (departure) show up constantly on station and airport boards." },
-    { "type": "exercise", "exerciseId": "it-ex-food-travel-3" },
-    { "type": "exercise", "exerciseId": "it-ex-food-travel-4" }
+    {
+      "type": "explanation",
+      "markdown": "**Vorrei...** (\"I would like...\") is the polite way to order or request something, much softer than \"voglio\" (I want). Combine it with food vocabulary to order at a restaurant, or with travel vocabulary to ask for directions and information.",
+      "i18n": {
+        "hr": "**Vorrei...** (\"Htio/htjela bih...\") uljudan je način naručivanja ili traženja nečega, puno blaži od \"voglio\" (želim). Kombiniraj ga s vokabularom o hrani za naručivanje u restoranu, ili s vokabularom o putovanjima za traženje smjerova i informacija.",
+        "fr": "**Vorrei...** (\"Je voudrais...\") est la façon polie de commander ou de demander quelque chose, bien plus douce que \"voglio\" (je veux). Combine-le avec le vocabulaire de la nourriture pour commander au restaurant, ou avec le vocabulaire du voyage pour demander son chemin et des informations.",
+        "de": "**Vorrei...** (\"Ich hätte gerne...\") ist die höfliche Art, etwas zu bestellen oder zu erbitten, viel sanfter als \"voglio\" (ich will). Kombiniere es mit Essens-Vokabular, um im Restaurant zu bestellen, oder mit Reise-Vokabular, um nach dem Weg und Informationen zu fragen.",
+        "es": "**Vorrei...** (\"Quisiera...\") es la forma educada de pedir o solicitar algo, mucho más suave que \"voglio\" (quiero). Combínalo con vocabulario de comida para pedir en un restaurante, o con vocabulario de viajes para pedir direcciones e información."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-food-travel-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-food-travel-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Travel words like **arrivo** (arrival) and **partenza** (departure) show up constantly on station and airport boards.",
+      "i18n": {
+        "hr": "Riječi vezane uz putovanja poput **arrivo** (dolazak) i **partenza** (polazak) stalno se pojavljuju na pločama na kolodvorima i u zračnim lukama.",
+        "fr": "Des mots de voyage comme **arrivo** (arrivée) et **partenza** (départ) apparaissent constamment sur les panneaux des gares et des aéroports.",
+        "de": "Reisewörter wie **arrivo** (Ankunft) und **partenza** (Abfahrt) tauchen ständig auf Anzeigetafeln in Bahnhöfen und Flughäfen auf.",
+        "es": "Palabras de viaje como **arrivo** (llegada) y **partenza** (salida) aparecen constantemente en los tableros de estaciones y aeropuertos."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-food-travel-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-food-travel-4"
+    }
   ],
   "exercises": [
     {
@@ -20,30 +52,126 @@
       "type": "multiple-choice",
       "prompt": "You want to order water at a restaurant. What do you say?",
       "answer": "Vorrei dell'acqua, per favore.",
-      "distractors": ["Dov'è l'acqua?", "L'acqua è buona.", "Ho l'acqua."],
-      "relatedItemId": "it-vocab-food-002"
+      "distractors": [
+        "Dov'è l'acqua?",
+        "L'acqua è buona.",
+        "Ho l'acqua."
+      ],
+      "relatedItemId": "it-vocab-food-002",
+      "i18n": {
+        "hr": {
+          "prompt": "Želiš naručiti vodu u restoranu. Što kažeš?"
+        },
+        "fr": {
+          "prompt": "Tu veux commander de l'eau au restaurant. Que dis-tu ?"
+        },
+        "de": {
+          "prompt": "Du möchtest im Restaurant Wasser bestellen. Was sagst du?"
+        },
+        "es": {
+          "prompt": "Quieres pedir agua en un restaurante. ¿Qué dices?"
+        }
+      }
     },
     {
       "id": "it-ex-food-travel-2",
       "type": "multiple-choice",
       "prompt": "Someone asks \"Dove è l'albergo?\" What are they asking for?",
       "answer": "hotel",
-      "distractors": ["restaurant", "train station", "airport"],
-      "relatedItemId": "it-vocab-travel-010"
+      "distractors": [
+        "restaurant",
+        "train station",
+        "airport"
+      ],
+      "relatedItemId": "it-vocab-travel-010",
+      "i18n": {
+        "hr": {
+          "prompt": "Netko pita \"Dove è l'albergo?\" Što traži?",
+          "answer": "hotel",
+          "distractors": [
+            "restoran",
+            "kolodvor",
+            "zračna luka"
+          ]
+        },
+        "fr": {
+          "prompt": "Quelqu'un demande \"Dove è l'albergo?\" Que cherche-t-il ?",
+          "answer": "hôtel",
+          "distractors": [
+            "restaurant",
+            "gare",
+            "aéroport"
+          ]
+        },
+        "de": {
+          "prompt": "Jemand fragt \"Dove è l'albergo?\" Wonach fragt er?",
+          "answer": "Hotel",
+          "distractors": [
+            "Restaurant",
+            "Bahnhof",
+            "Flughafen"
+          ]
+        },
+        "es": {
+          "prompt": "Alguien pregunta \"Dove è l'albergo?\" ¿Qué está buscando?",
+          "answer": "hotel",
+          "distractors": [
+            "restaurante",
+            "estación de tren",
+            "aeropuerto"
+          ]
+        }
+      }
     },
     {
       "id": "it-ex-food-travel-3",
       "type": "fill-blank",
       "prompt": "Il treno è in ___ alle nove. (arrival)",
       "answer": "arrivo",
-      "relatedItemId": "it-vocab-travel-024"
+      "relatedItemId": "it-vocab-travel-024",
+      "i18n": {
+        "hr": {
+          "prompt": "Il treno è in ___ alle nove. (dolazak)"
+        },
+        "fr": {
+          "prompt": "Il treno è in ___ alle nove. (arrivée)"
+        },
+        "de": {
+          "prompt": "Il treno è in ___ alle nove. (Ankunft)"
+        },
+        "es": {
+          "prompt": "Il treno è in ___ alle nove. (llegada)"
+        }
+      }
     },
     {
       "id": "it-ex-food-travel-4",
       "type": "translate",
       "prompt": "Translate: \"The restaurant is near the station.\"",
-      "answer": ["Il ristorante è vicino alla stazione."],
-      "relatedItemId": "it-vocab-food-024"
+      "answer": [
+        "Il ristorante è vicino alla stazione."
+      ],
+      "relatedItemId": "it-vocab-food-024",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Restoran je blizu kolodvora.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Le restaurant est près de la gare.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Das Restaurant ist in der Nähe des Bahnhofs.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"El restaurante está cerca de la estación.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Naručivanje hrane i traženje smjera",
+    "fr": "Commander à manger et demander son chemin",
+    "de": "Essen bestellen und nach dem Weg fragen",
+    "es": "Pedir comida y preguntar direcciones"
+  }
 }

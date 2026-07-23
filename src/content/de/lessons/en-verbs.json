@@ -5,13 +5,36 @@
   "unitId": "de-unit-3",
   "order": 1,
   "title": "Regular Verbs",
-  "prerequisiteIds": ["de-lesson-numbers"],
+  "prerequisiteIds": [
+    "de-lesson-numbers"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Most German verbs ending in **-en** (like *lernen*, *arbeiten*, *machen*) follow a regular pattern:\n\nich **-e** · du **-st** · er/sie/es **-t** · wir **-en** · ihr **-t** · sie/Sie **-en**\n\ne.g. *lernen* → lern**e**, lern**st**, lern**t**, lern**en**, lern**t**, lern**en**." },
-    { "type": "exercise", "exerciseId": "de-ex-en-1" },
-    { "type": "exercise", "exerciseId": "de-ex-en-2" },
-    { "type": "exercise", "exerciseId": "de-ex-en-3" },
-    { "type": "exercise", "exerciseId": "de-ex-en-4" }
+    {
+      "type": "explanation",
+      "markdown": "Most German verbs ending in **-en** (like *lernen*, *arbeiten*, *machen*) follow a regular pattern:\n\nich **-e** · du **-st** · er/sie/es **-t** · wir **-en** · ihr **-t** · sie/Sie **-en**\n\ne.g. *lernen* → lern**e**, lern**st**, lern**t**, lern**en**, lern**t**, lern**en**.",
+      "i18n": {
+        "it": "La maggior parte dei verbi tedeschi che terminano in **-en** (come *lernen*, *arbeiten*, *machen*) segue un modello regolare:\n\nich **-e** · du **-st** · er/sie/es **-t** · wir **-en** · ihr **-t** · sie/Sie **-en**\n\nes. *lernen* → lern**e**, lern**st**, lern**t**, lern**en**, lern**t**, lern**en**.",
+        "fr": "La plupart des verbes allemands qui se terminent en **-en** (comme *lernen*, *arbeiten*, *machen*) suivent un modèle régulier :\n\nich **-e** · du **-st** · er/sie/es **-t** · wir **-en** · ihr **-t** · sie/Sie **-en**\n\np. ex. *lernen* → lern**e**, lern**st**, lern**t**, lern**en**, lern**t**, lern**en**.",
+        "hr": "Većina njemačkih glagola koji završavaju na **-en** (kao *lernen*, *arbeiten*, *machen*) prati pravilan obrazac:\n\nich **-e** · du **-st** · er/sie/es **-t** · wir **-en** · ihr **-t** · sie/Sie **-en**\n\nnpr. *lernen* → lern**e**, lern**st**, lern**t**, lern**en**, lern**t**, lern**en**.",
+        "es": "La mayoría de los verbos alemanes que terminan en **-en** (como *lernen*, *arbeiten*, *machen*) siguen un patrón regular:\n\nich **-e** · du **-st** · er/sie/es **-t** · wir **-en** · ihr **-t** · sie/Sie **-en**\n\np. ej. *lernen* → lern**e**, lern**st**, lern**t**, lern**en**, lern**t**, lern**en**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-en-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-en-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-en-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-en-4"
+    }
   ],
   "exercises": [
     {
@@ -19,29 +42,97 @@
       "type": "fill-blank",
       "prompt": "Ich ___ Deutsch. (lernen — I'm learning German.)",
       "answer": "lerne",
-      "relatedItemId": "de-vocab-routine-007"
+      "relatedItemId": "de-vocab-routine-007",
+      "i18n": {
+        "it": {
+          "prompt": "Ich ___ Deutsch. (lernen — Sto imparando il tedesco.)"
+        },
+        "fr": {
+          "prompt": "Ich ___ Deutsch. (lernen — J'apprends l'allemand.)"
+        },
+        "hr": {
+          "prompt": "Ich ___ Deutsch. (lernen — Učim njemački.)"
+        },
+        "es": {
+          "prompt": "Ich ___ Deutsch. (lernen — Estoy aprendiendo alemán.)"
+        }
+      }
     },
     {
       "id": "de-ex-en-2",
       "type": "multiple-choice",
       "prompt": "Wir ___ in Berlin. (arbeiten — We work in Berlin.)",
       "answer": "arbeiten",
-      "distractors": ["arbeite", "arbeitest", "arbeitet"],
-      "relatedItemId": "de-vocab-routine-006"
+      "distractors": [
+        "arbeite",
+        "arbeitest",
+        "arbeitet"
+      ],
+      "relatedItemId": "de-vocab-routine-006",
+      "i18n": {
+        "it": {
+          "prompt": "Wir ___ in Berlin. (arbeiten — Lavoriamo a Berlino.)"
+        },
+        "fr": {
+          "prompt": "Wir ___ in Berlin. (arbeiten — Nous travaillons à Berlin.)"
+        },
+        "hr": {
+          "prompt": "Wir ___ in Berlin. (arbeiten — Radimo u Berlinu.)"
+        },
+        "es": {
+          "prompt": "Wir ___ in Berlin. (arbeiten — Trabajamos en Berlín.)"
+        }
+      }
     },
     {
       "id": "de-ex-en-3",
       "type": "fill-blank",
       "prompt": "Du ___ Wasser. (trinken — You drink water.)",
       "answer": "trinkst",
-      "relatedItemId": "de-vocab-routine-005"
+      "relatedItemId": "de-vocab-routine-005",
+      "i18n": {
+        "it": {
+          "prompt": "Du ___ Wasser. (trinken — Bevi acqua.)"
+        },
+        "fr": {
+          "prompt": "Du ___ Wasser. (trinken — Tu bois de l'eau.)"
+        },
+        "hr": {
+          "prompt": "Du ___ Wasser. (trinken — Piješ vodu.)"
+        },
+        "es": {
+          "prompt": "Du ___ Wasser. (trinken — Bebes agua.)"
+        }
+      }
     },
     {
       "id": "de-ex-en-4",
       "type": "translate",
       "prompt": "Translate: \"They speak German.\"",
-      "answer": ["Sie sprechen Deutsch."],
-      "relatedItemId": "de-vocab-routine-009"
+      "answer": [
+        "Sie sprechen Deutsch."
+      ],
+      "relatedItemId": "de-vocab-routine-009",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Loro parlano tedesco.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Ils parlent allemand.\""
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Oni govore njemački.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Ellos hablan alemán.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Verbi regolari",
+    "fr": "Verbes réguliers",
+    "hr": "Pravilni glagoli",
+    "es": "Verbos regulares"
+  }
 }

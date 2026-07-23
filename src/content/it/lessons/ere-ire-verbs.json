@@ -5,12 +5,32 @@
   "unitId": "it-unit-4",
   "order": 1,
   "title": "Regular -ere and -ire Verbs",
-  "prerequisiteIds": ["it-lesson-are-verbs"],
+  "prerequisiteIds": [
+    "it-lesson-are-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**-ere verbs** (like *leggere*, *scrivere*) conjugate: io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ete** · loro **-ono**.\n\n**-ire verbs** mostly follow io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ite** · loro **-ono** (like *dormire*), but some — like *capire* — insert **-isc-** before the ending in all forms except noi/voi: cap**isco**, cap**isci**, cap**isce**, capiamo, capite, cap**iscono**." },
-    { "type": "exercise", "exerciseId": "it-ex-ere-ire-1" },
-    { "type": "exercise", "exerciseId": "it-ex-ere-ire-2" },
-    { "type": "exercise", "exerciseId": "it-ex-ere-ire-3" }
+    {
+      "type": "explanation",
+      "markdown": "**-ere verbs** (like *leggere*, *scrivere*) conjugate: io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ete** · loro **-ono**.\n\n**-ire verbs** mostly follow io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ite** · loro **-ono** (like *dormire*), but some — like *capire* — insert **-isc-** before the ending in all forms except noi/voi: cap**isco**, cap**isci**, cap**isce**, capiamo, capite, cap**iscono**.",
+      "i18n": {
+        "hr": "**Glagoli na -ere** (poput *leggere*, *scrivere*) sprežu se: io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ete** · loro **-ono**.\n\n**Glagoli na -ire** uglavnom prate io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ite** · loro **-ono** (poput *dormire*), ali neki — poput *capire* — umeću **-isc-** prije nastavka u svim oblicima osim noi/voi: cap**isco**, cap**isci**, cap**isce**, capiamo, capite, cap**iscono**.",
+        "fr": "**Les verbes en -ere** (comme *leggere*, *scrivere*) se conjuguent : io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ete** · loro **-ono**.\n\n**Les verbes en -ire** suivent généralement io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ite** · loro **-ono** (comme *dormire*), mais certains — comme *capire* — insèrent **-isc-** avant la terminaison dans toutes les formes sauf noi/voi : cap**isco**, cap**isci**, cap**isce**, capiamo, capite, cap**iscono**.",
+        "de": "**Verben auf -ere** (wie *leggere*, *scrivere*) werden konjugiert: io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ete** · loro **-ono**.\n\n**Verben auf -ire** folgen meist io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ite** · loro **-ono** (wie *dormire*), aber manche — wie *capire* — fügen **-isc-** vor der Endung ein, in allen Formen außer noi/voi: cap**isco**, cap**isci**, cap**isce**, capiamo, capite, cap**iscono**.",
+        "es": "**Los verbos en -ere** (como *leggere*, *scrivere*) se conjugan: io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ete** · loro **-ono**.\n\n**Los verbos en -ire** generalmente siguen io **-o** · tu **-i** · lui/lei **-e** · noi **-iamo** · voi **-ite** · loro **-ono** (como *dormire*), pero algunos — como *capire* — insertan **-isc-** antes de la terminación en todas las formas excepto noi/voi: cap**isco**, cap**isci**, cap**isce**, capiamo, capite, cap**iscono**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-ere-ire-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-ere-ire-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-ere-ire-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,74 @@
       "type": "fill-blank",
       "prompt": "Io ___ un libro. (leggere — I read a book.)",
       "answer": "leggo",
-      "relatedItemId": "it-vocab-verbs-029"
+      "relatedItemId": "it-vocab-verbs-029",
+      "i18n": {
+        "hr": {
+          "prompt": "Io ___ un libro. (leggere — Ja čitam knjigu.)"
+        },
+        "fr": {
+          "prompt": "Io ___ un libro. (leggere — Je lis un livre.)"
+        },
+        "de": {
+          "prompt": "Io ___ un libro. (leggere — Ich lese ein Buch.)"
+        },
+        "es": {
+          "prompt": "Io ___ un libro. (leggere — Leo un libro.)"
+        }
+      }
     },
     {
       "id": "it-ex-ere-ire-2",
       "type": "multiple-choice",
       "prompt": "Noi ___ una lettera. (scrivere — We write a letter.)",
       "answer": "scriviamo",
-      "distractors": ["scrivo", "scrivi", "scrivono"],
-      "relatedItemId": "it-vocab-verbs-030"
+      "distractors": [
+        "scrivo",
+        "scrivi",
+        "scrivono"
+      ],
+      "relatedItemId": "it-vocab-verbs-030",
+      "i18n": {
+        "hr": {
+          "prompt": "Noi ___ una lettera. (scrivere — Mi pišemo pismo.)"
+        },
+        "fr": {
+          "prompt": "Noi ___ una lettera. (scrivere — Nous écrivons une lettre.)"
+        },
+        "de": {
+          "prompt": "Noi ___ una lettera. (scrivere — Wir schreiben einen Brief.)"
+        },
+        "es": {
+          "prompt": "Noi ___ una lettera. (scrivere — Escribimos una carta.)"
+        }
+      }
     },
     {
       "id": "it-ex-ere-ire-3",
       "type": "fill-blank",
       "prompt": "Lei non ___ l'italiano. (capire — She doesn't understand Italian.)",
       "answer": "capisce",
-      "relatedItemId": "it-vocab-verbs-012"
+      "relatedItemId": "it-vocab-verbs-012",
+      "i18n": {
+        "hr": {
+          "prompt": "Lei non ___ l'italiano. (capire — Ona ne razumije talijanski.)"
+        },
+        "fr": {
+          "prompt": "Lei non ___ l'italiano. (capire — Elle ne comprend pas l'italien.)"
+        },
+        "de": {
+          "prompt": "Lei non ___ l'italiano. (capire — Sie versteht kein Italienisch.)"
+        },
+        "es": {
+          "prompt": "Lei non ___ l'italiano. (capire — Ella no entiende italiano.)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Pravilni glagoli na -ere i -ire",
+    "fr": "Verbes réguliers en -ere et -ire",
+    "de": "Regelmäßige Verben auf -ere und -ire",
+    "es": "Verbos regulares en -ere e -ire"
+  }
 }

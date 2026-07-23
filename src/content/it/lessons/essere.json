@@ -5,42 +5,147 @@
   "unitId": "it-unit-2",
   "order": 1,
   "title": "Essere (to be) — Present Tense",
-  "prerequisiteIds": ["it-lesson-articles"],
+  "prerequisiteIds": [
+    "it-lesson-articles"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Essere** (to be) is irregular and one of the most-used verbs in Italian:\n\nio **sono** · tu **sei** · lui/lei **è** · noi **siamo** · voi **siete** · loro **sono**" },
-    { "type": "exercise", "exerciseId": "it-ex-essere-1" },
-    { "type": "exercise", "exerciseId": "it-ex-essere-2" },
-    { "type": "explanation", "markdown": "**Piacere** literally means \"pleasure\" and is what you say when meeting someone for the first time." },
-    { "type": "exercise", "exerciseId": "it-ex-essere-3" },
-    { "type": "exercise", "exerciseId": "it-ex-essere-4" }
+    {
+      "type": "explanation",
+      "markdown": "**Essere** (to be) is irregular and one of the most-used verbs in Italian:\n\nio **sono** · tu **sei** · lui/lei **è** · noi **siamo** · voi **siete** · loro **sono**",
+      "i18n": {
+        "hr": "**Essere** (biti) nepravilan je i jedan od najkorištenijih glagola u talijanskom:\n\nio **sono** · tu **sei** · lui/lei **è** · noi **siamo** · voi **siete** · loro **sono**",
+        "fr": "**Essere** (être) est irrégulier et l'un des verbes les plus utilisés en italien :\n\nio **sono** · tu **sei** · lui/lei **è** · noi **siamo** · voi **siete** · loro **sono**",
+        "de": "**Essere** (sein) ist unregelmäßig und eines der meistgenutzten Verben im Italienischen:\n\nio **sono** · tu **sei** · lui/lei **è** · noi **siamo** · voi **siete** · loro **sono**",
+        "es": "**Essere** (ser/estar) es irregular y uno de los verbos más usados en italiano. A diferencia del español, el italiano no distingue entre \"ser\" y \"estar\" — **essere** cubre ambos:\n\nio **sono** · tu **sei** · lui/lei **è** · noi **siamo** · voi **siete** · loro **sono**"
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-essere-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-essere-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "**Piacere** literally means \"pleasure\" and is what you say when meeting someone for the first time.",
+      "i18n": {
+        "hr": "**Piacere** doslovno znači \"zadovoljstvo\" i to se kaže kad prvi put upoznaješ nekoga.",
+        "fr": "**Piacere** signifie littéralement \"plaisir\" et c'est ce qu'on dit en rencontrant quelqu'un pour la première fois.",
+        "de": "**Piacere** bedeutet wörtlich \"Vergnügen\" und sagt man, wenn man jemanden zum ersten Mal trifft.",
+        "es": "**Piacere** significa literalmente \"placer\" y es lo que se dice al conocer a alguien por primera vez."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-essere-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-essere-4"
+    }
   ],
   "exercises": [
     {
       "id": "it-ex-essere-1",
       "type": "fill-blank",
       "prompt": "Io ___ italiano. (I am Italian.)",
-      "answer": "sono"
+      "answer": "sono",
+      "i18n": {
+        "hr": {
+          "prompt": "Io ___ italiano. (Ja sam Talijan.)"
+        },
+        "fr": {
+          "prompt": "Io ___ italiano. (Je suis italien.)"
+        },
+        "de": {
+          "prompt": "Io ___ italiano. (Ich bin Italiener.)"
+        },
+        "es": {
+          "prompt": "Io ___ italiano. (Soy italiano.)"
+        }
+      }
     },
     {
       "id": "it-ex-essere-2",
       "type": "multiple-choice",
       "prompt": "Tu ___ stanco. (You are tired.)",
       "answer": "sei",
-      "distractors": ["sono", "è", "siamo"]
+      "distractors": [
+        "sono",
+        "è",
+        "siamo"
+      ],
+      "i18n": {
+        "hr": {
+          "prompt": "Tu ___ stanco. (Ti si umoran.)"
+        },
+        "fr": {
+          "prompt": "Tu ___ stanco. (Tu es fatigué.)"
+        },
+        "de": {
+          "prompt": "Tu ___ stanco. (Du bist müde.)"
+        },
+        "es": {
+          "prompt": "Tu ___ stanco. (Estás cansado.)"
+        }
+      }
     },
     {
       "id": "it-ex-essere-3",
       "type": "multiple-choice",
       "prompt": "How do you respond when meeting someone for the first time?",
       "answer": "Piacere",
-      "distractors": ["Prego", "Scusa", "Bene"],
-      "relatedItemId": "it-vocab-greet-014"
+      "distractors": [
+        "Prego",
+        "Scusa",
+        "Bene"
+      ],
+      "relatedItemId": "it-vocab-greet-014",
+      "i18n": {
+        "hr": {
+          "prompt": "Kako odgovaraš kad prvi put upoznaješ nekoga?"
+        },
+        "fr": {
+          "prompt": "Que réponds-tu en rencontrant quelqu'un pour la première fois ?"
+        },
+        "de": {
+          "prompt": "Wie antwortest du, wenn du jemanden zum ersten Mal triffst?"
+        },
+        "es": {
+          "prompt": "¿Cómo respondes al conocer a alguien por primera vez?"
+        }
+      }
     },
     {
       "id": "it-ex-essere-4",
       "type": "translate",
       "prompt": "Translate: \"She is a teacher.\"",
-      "answer": ["Lei è insegnante.", "Lei è un'insegnante."]
+      "answer": [
+        "Lei è insegnante.",
+        "Lei è un'insegnante."
+      ],
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Ona je učiteljica.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Elle est enseignante.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie ist Lehrerin.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Ella es profesora.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Essere (biti) — sadašnje vrijeme",
+    "fr": "Essere (être) — présent",
+    "de": "Essere (sein) — Präsens",
+    "es": "Essere (ser/estar) — presente"
+  }
 }

@@ -5,12 +5,32 @@
   "unitId": "it-unit-6",
   "order": 1,
   "title": "Past Tense: Passato Prossimo with Avere",
-  "prerequisiteIds": ["it-lesson-prepositions"],
+  "prerequisiteIds": [
+    "it-lesson-prepositions"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Passato prossimo** (the everyday past tense) is formed with the present tense of **avere** or **essere** plus a **past participle**. Most verbs use **avere**. Regular past participles: **-are → -ato** (parlare → parl**ato**), **-ere → -uto** (potere → pot**uto**), **-ire → -ito** (dormire → dorm**ito**).\n\n*Ho mangiato la pizza* (I ate pizza). *Hai parlato con lui?* (Did you talk to him?). The participle doesn't change for gender/number with avere." },
-    { "type": "exercise", "exerciseId": "it-ex-pp-avere-1" },
-    { "type": "exercise", "exerciseId": "it-ex-pp-avere-2" },
-    { "type": "exercise", "exerciseId": "it-ex-pp-avere-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Passato prossimo** (the everyday past tense) is formed with the present tense of **avere** or **essere** plus a **past participle**. Most verbs use **avere**. Regular past participles: **-are → -ato** (parlare → parl**ato**), **-ere → -uto** (potere → pot**uto**), **-ire → -ito** (dormire → dorm**ito**).\n\n*Ho mangiato la pizza* (I ate pizza). *Hai parlato con lui?* (Did you talk to him?). The participle doesn't change for gender/number with avere.",
+      "i18n": {
+        "hr": "**Passato prossimo** (svakodnevno prošlo vrijeme) tvori se sadašnjim vremenom glagola **avere** ili **essere** i **prošlim participom**. Većina glagola koristi **avere**. Pravilni prošli participi: **-are → -ato** (parlare → parl**ato**), **-ere → -uto** (potere → pot**uto**), **-ire → -ito** (dormire → dorm**ito**).\n\n*Ho mangiato la pizza* (Pojeo/pojela sam picu). *Hai parlato con lui?* (Jesi li razgovarao/razgovarala s njim?). Particip se ne mijenja po rodu/broju uz avere.",
+        "fr": "**Passato prossimo** (le temps du passé courant) se forme avec le présent de **avere** ou **essere** plus un **participe passé** — exactement comme le passé composé français avec avoir/être. La plupart des verbes utilisent **avere**. Participes passés réguliers : **-are → -ato** (parlare → parl**ato**), **-ere → -uto** (potere → pot**uto**), **-ire → -ito** (dormire → dorm**ito**).\n\n*Ho mangiato la pizza* (J'ai mangé la pizza). *Hai parlato con lui?* (As-tu parlé avec lui ?). Le participe ne change pas de genre/nombre avec avere — comme en français.",
+        "de": "**Passato prossimo** (die alltägliche Vergangenheitsform) wird mit dem Präsens von **avere** oder **essere** plus einem **Partizip Perfekt** gebildet — genau wie das deutsche Perfekt mit haben/sein. Die meisten Verben benutzen **avere**. Regelmäßige Partizipien: **-are → -ato** (parlare → parl**ato**), **-ere → -uto** (potere → pot**uto**), **-ire → -ito** (dormire → dorm**ito**).\n\n*Ho mangiato la pizza* (Ich habe Pizza gegessen). *Hai parlato con lui?* (Hast du mit ihm gesprochen?). Das Partizip ändert sich bei avere nicht nach Geschlecht/Zahl — wie im Deutschen.",
+        "es": "**Passato prossimo** (el tiempo pasado cotidiano) se forma con el presente de **avere** o **essere** más un **participio pasado** — igual que el pretérito perfecto compuesto español con haber. La mayoría de los verbos usan **avere**. Participios regulares: **-are → -ato** (parlare → parl**ato**), **-ere → -uto** (potere → pot**uto**), **-ire → -ito** (dormire → dorm**ito**).\n\n*Ho mangiato la pizza* (He comido pizza). *Hai parlato con lui?* (¿Has hablado con él?). El participio no cambia de género/número con avere — como en español."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-pp-avere-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-pp-avere-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-pp-avere-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,77 @@
       "type": "fill-blank",
       "prompt": "Ieri io ho ___ la pizza. (mangiare — past participle)",
       "answer": "mangiato",
-      "relatedItemId": "it-vocab-routine-004"
+      "relatedItemId": "it-vocab-routine-004",
+      "i18n": {
+        "hr": {
+          "prompt": "Ieri io ho ___ la pizza. (mangiare — prošli particip)"
+        },
+        "fr": {
+          "prompt": "Ieri io ho ___ la pizza. (mangiare — participe passé)"
+        },
+        "de": {
+          "prompt": "Ieri io ho ___ la pizza. (mangiare — Partizip Perfekt)"
+        },
+        "es": {
+          "prompt": "Ieri io ho ___ la pizza. (mangiare — participio pasado)"
+        }
+      }
     },
     {
       "id": "it-ex-pp-avere-2",
       "type": "multiple-choice",
       "prompt": "Noi abbiamo ___ italiano per due anni. (studiare — We studied Italian for two years.)",
       "answer": "studiato",
-      "distractors": ["studiare", "studio", "studiando"],
-      "relatedItemId": "it-vocab-routine-007"
+      "distractors": [
+        "studiare",
+        "studio",
+        "studiando"
+      ],
+      "relatedItemId": "it-vocab-routine-007",
+      "i18n": {
+        "hr": {
+          "prompt": "Noi abbiamo ___ italiano per due anni. (studiare — Učili smo talijanski dvije godine.)"
+        },
+        "fr": {
+          "prompt": "Noi abbiamo ___ italiano per due anni. (studiare — Nous avons étudié l'italien pendant deux ans.)"
+        },
+        "de": {
+          "prompt": "Noi abbiamo ___ italiano per due anni. (studiare — Wir haben zwei Jahre lang Italienisch gelernt.)"
+        },
+        "es": {
+          "prompt": "Noi abbiamo ___ italiano per due anni. (studiare — Estudiamos italiano durante dos años.)"
+        }
+      }
     },
     {
       "id": "it-ex-pp-avere-3",
       "type": "translate",
       "prompt": "Translate: \"They read the book.\" (past tense)",
-      "answer": ["Loro hanno letto il libro.", "Hanno letto il libro."],
-      "relatedItemId": "it-vocab-verbs-029"
+      "answer": [
+        "Loro hanno letto il libro.",
+        "Hanno letto il libro."
+      ],
+      "relatedItemId": "it-vocab-verbs-029",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Oni su pročitali knjigu.\" (prošlo vrijeme)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Ils ont lu le livre.\" (passé)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie haben das Buch gelesen.\" (Vergangenheit)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Ellos leyeron el libro.\" (pasado)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Prošlo vrijeme: Passato Prossimo s Avere",
+    "fr": "Passé composé : Passato Prossimo avec Avere",
+    "de": "Perfekt: Passato Prossimo mit Avere",
+    "es": "Pretérito perfecto: Passato Prossimo con Avere"
+  }
 }

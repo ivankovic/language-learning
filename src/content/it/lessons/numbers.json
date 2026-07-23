@@ -5,12 +5,32 @@
   "unitId": "it-unit-2",
   "order": 3,
   "title": "Numbers 1-10 & Telling Time",
-  "prerequisiteIds": ["it-lesson-avere"],
+  "prerequisiteIds": [
+    "it-lesson-avere"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Numbers 1-10: **uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci**. To tell time, Italian uses \"Sono le...\" (It is... o'clock), e.g. *Sono le tre* (It's three o'clock)." },
-    { "type": "exercise", "exerciseId": "it-ex-numbers-1" },
-    { "type": "exercise", "exerciseId": "it-ex-numbers-2" },
-    { "type": "exercise", "exerciseId": "it-ex-numbers-3" }
+    {
+      "type": "explanation",
+      "markdown": "Numbers 1-10: **uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci**. To tell time, Italian uses \"Sono le...\" (It is... o'clock), e.g. *Sono le tre* (It's three o'clock).",
+      "i18n": {
+        "hr": "Brojevi 1-10: **uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci**. Za kazivanje vremena talijanski koristi \"Sono le...\", npr. *Sono le tre* (Tri su sata).",
+        "fr": "Nombres 1-10 : **uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci**. Pour donner l'heure, l'italien utilise \"Sono le...\", ex. *Sono le tre* (Il est trois heures).",
+        "de": "Zahlen 1-10: **uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci**. Um die Uhrzeit anzugeben, benutzt das Italienische \"Sono le...\", z.B. *Sono le tre* (Es ist drei Uhr).",
+        "es": "Números 1-10: **uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci**. Para decir la hora, el italiano usa \"Sono le...\", ej. *Sono le tre* (Son las tres)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-numbers-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-numbers-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-numbers-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,108 @@
       "type": "multiple-choice",
       "prompt": "What is \"sette\" in English?",
       "answer": "seven",
-      "distractors": ["six", "eight", "nine"],
-      "relatedItemId": "it-vocab-numtime-007"
+      "distractors": [
+        "six",
+        "eight",
+        "nine"
+      ],
+      "relatedItemId": "it-vocab-numtime-007",
+      "i18n": {
+        "hr": {
+          "prompt": "Što znači \"sette\" na hrvatskom?",
+          "answer": "sedam",
+          "distractors": [
+            "šest",
+            "osam",
+            "devet"
+          ]
+        },
+        "fr": {
+          "prompt": "Que signifie \"sette\" en français ?",
+          "answer": "sept",
+          "distractors": [
+            "six",
+            "huit",
+            "neuf"
+          ]
+        },
+        "de": {
+          "prompt": "Was bedeutet \"sette\" auf Deutsch?",
+          "answer": "sieben",
+          "distractors": [
+            "sechs",
+            "acht",
+            "neun"
+          ]
+        },
+        "es": {
+          "prompt": "¿Qué significa \"sette\" en español?",
+          "answer": "siete",
+          "distractors": [
+            "seis",
+            "ocho",
+            "nueve"
+          ]
+        }
+      }
     },
     {
       "id": "it-ex-numbers-2",
       "type": "multiple-choice",
       "prompt": "Which word means \"morning\"?",
       "answer": "mattina",
-      "distractors": ["sera", "pomeriggio", "notte"],
-      "relatedItemId": "it-vocab-numtime-013"
+      "distractors": [
+        "sera",
+        "pomeriggio",
+        "notte"
+      ],
+      "relatedItemId": "it-vocab-numtime-013",
+      "i18n": {
+        "hr": {
+          "prompt": "Koja riječ znači \"jutro\"?"
+        },
+        "fr": {
+          "prompt": "Quel mot signifie \"matin\" ?"
+        },
+        "de": {
+          "prompt": "Welches Wort bedeutet \"Morgen\"?"
+        },
+        "es": {
+          "prompt": "¿Qué palabra significa \"la mañana\" (parte del día)?"
+        }
+      }
     },
     {
       "id": "it-ex-numbers-3",
       "type": "reorder",
       "prompt": "Put these words in order: le / tre / Sono / del / pomeriggio",
-      "answer": ["Sono", "le", "tre", "del", "pomeriggio"]
+      "answer": [
+        "Sono",
+        "le",
+        "tre",
+        "del",
+        "pomeriggio"
+      ],
+      "i18n": {
+        "hr": {
+          "prompt": "Poredaj ove riječi: le / tre / Sono / del / pomeriggio"
+        },
+        "fr": {
+          "prompt": "Remets ces mots dans l'ordre : le / tre / Sono / del / pomeriggio"
+        },
+        "de": {
+          "prompt": "Bringe diese Wörter in die richtige Reihenfolge: le / tre / Sono / del / pomeriggio"
+        },
+        "es": {
+          "prompt": "Ordena estas palabras: le / tre / Sono / del / pomeriggio"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Brojevi 1-10 i kazivanje vremena",
+    "fr": "Nombres 1-10 et l'heure",
+    "de": "Zahlen 1-10 und Uhrzeit",
+    "es": "Números 1-10 y la hora"
+  }
 }

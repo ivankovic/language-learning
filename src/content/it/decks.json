@@ -37,7 +37,10 @@
       "it-vocab-greet-030"
     ],
     "titleByLang": {
-      "hr": "Pozdravi i uljudnost"
+      "hr": "Pozdravi i uljudnost",
+      "fr": "Salutations et politesse",
+      "de": "Begrüßungen und Höflichkeit",
+      "es": "Saludos y cortesía"
     }
   },
   {
@@ -81,7 +84,13 @@
       "it-vocab-food-033",
       "it-vocab-food-034",
       "it-vocab-food-035"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Hrana i objedovanje",
+      "fr": "Nourriture et repas",
+      "de": "Essen und Trinken",
+      "es": "Comida y bebida"
+    }
   },
   {
     "id": "it-deck-travel",
@@ -124,7 +133,13 @@
       "it-vocab-travel-033",
       "it-vocab-travel-034",
       "it-vocab-travel-035"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Putovanja i smjerovi",
+      "fr": "Voyages et directions",
+      "de": "Reisen und Wegbeschreibungen",
+      "es": "Viajes y direcciones"
+    }
   },
   {
     "id": "it-deck-daily-routine",
@@ -162,7 +177,13 @@
       "it-vocab-routine-028",
       "it-vocab-routine-029",
       "it-vocab-routine-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Svakodnevna rutina i obitelj",
+      "fr": "Routine quotidienne et famille",
+      "de": "Alltagsroutine und Familie",
+      "es": "Rutina diaria y familia"
+    }
   },
   {
     "id": "it-deck-numbers-time",
@@ -200,7 +221,13 @@
       "it-vocab-numtime-028",
       "it-vocab-numtime-029",
       "it-vocab-numtime-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Brojevi i vrijeme",
+      "fr": "Nombres et heure",
+      "de": "Zahlen und Uhrzeit",
+      "es": "Números y hora"
+    }
   },
   {
     "id": "it-deck-home",
@@ -238,7 +265,13 @@
       "it-vocab-home-028",
       "it-vocab-home-029",
       "it-vocab-home-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Dom i namještaj",
+      "fr": "Maison et mobilier",
+      "de": "Wohnung und Möbel",
+      "es": "Casa y muebles"
+    }
   },
   {
     "id": "it-deck-body-clothing",
@@ -276,7 +309,13 @@
       "it-vocab-body-028",
       "it-vocab-body-029",
       "it-vocab-body-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Tijelo i odjeća",
+      "fr": "Corps et vêtements",
+      "de": "Körper und Kleidung",
+      "es": "Cuerpo y ropa"
+    }
   },
   {
     "id": "it-deck-nature-weather",
@@ -314,7 +353,13 @@
       "it-vocab-nature-028",
       "it-vocab-nature-029",
       "it-vocab-nature-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Vrijeme, boje i priroda",
+      "fr": "Météo, couleurs et nature",
+      "de": "Wetter, Farben und Natur",
+      "es": "Clima, colores y naturaleza"
+    }
   },
   {
     "id": "it-deck-work-education",
@@ -352,7 +397,13 @@
       "it-vocab-work-028",
       "it-vocab-work-029",
       "it-vocab-work-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Posao i obrazovanje",
+      "fr": "Travail et éducation",
+      "de": "Arbeit und Bildung",
+      "es": "Trabajo y educación"
+    }
   },
   {
     "id": "it-deck-verbs",
@@ -390,7 +441,13 @@
       "it-vocab-verbs-028",
       "it-vocab-verbs-029",
       "it-vocab-verbs-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Uobičajeni glagoli",
+      "fr": "Verbes courants",
+      "de": "Häufige Verben",
+      "es": "Verbos comunes"
+    }
   },
   {
     "id": "it-deck-adjectives",
@@ -418,7 +475,13 @@
       "it-vocab-adj-018",
       "it-vocab-adj-019",
       "it-vocab-adj-020"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Uobičajeni pridjevi",
+      "fr": "Adjectifs courants",
+      "de": "Häufige Adjektive",
+      "es": "Adjetivos comunes"
+    }
   },
   {
     "id": "it-deck-shopping",
@@ -456,7 +519,13 @@
       "it-vocab-shop-028",
       "it-vocab-shop-029",
       "it-vocab-shop-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Kupovina i novac",
+      "fr": "Achats et argent",
+      "de": "Einkaufen und Geld",
+      "es": "Compras y dinero"
+    }
   },
   {
     "id": "it-deck-more-verbs",
@@ -494,7 +563,13 @@
       "it-vocab-verbsmore-028",
       "it-vocab-verbsmore-029",
       "it-vocab-verbsmore-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Više uobičajenih glagola",
+      "fr": "Autres verbes courants",
+      "de": "Weitere häufige Verben",
+      "es": "Más verbos comunes"
+    }
   },
   {
     "id": "it-deck-technology",
@@ -532,7 +607,13 @@
       "it-vocab-tech-028",
       "it-vocab-tech-029",
       "it-vocab-tech-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Tehnologija i komunikacija",
+      "fr": "Technologie et communication",
+      "de": "Technologie und Kommunikation",
+      "es": "Tecnología y comunicación"
+    }
   },
   {
     "id": "it-deck-sports-hobbies",
@@ -570,7 +651,13 @@
       "it-vocab-sports-028",
       "it-vocab-sports-029",
       "it-vocab-sports-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Sport i hobiji",
+      "fr": "Sport et loisirs",
+      "de": "Sport und Hobbys",
+      "es": "Deporte y aficiones"
+    }
   },
   {
     "id": "it-deck-emotions",
@@ -608,7 +695,13 @@
       "it-vocab-emotions-028",
       "it-vocab-emotions-029",
       "it-vocab-emotions-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Emocije i osobnost",
+      "fr": "Émotions et personnalité",
+      "de": "Emotionen und Persönlichkeit",
+      "es": "Emociones y personalidad"
+    }
   },
   {
     "id": "it-deck-city",
@@ -646,7 +739,13 @@
       "it-vocab-city-028",
       "it-vocab-city-029",
       "it-vocab-city-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Grad i prijevoz",
+      "fr": "Ville et transports",
+      "de": "Stadt und Verkehr",
+      "es": "Ciudad y transporte"
+    }
   },
   {
     "id": "it-deck-holidays",
@@ -684,7 +783,13 @@
       "it-vocab-holidays-028",
       "it-vocab-holidays-029",
       "it-vocab-holidays-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Praznici i slavlja",
+      "fr": "Fêtes et célébrations",
+      "de": "Feiertage und Feiern",
+      "es": "Fiestas y celebraciones"
+    }
   },
   {
     "id": "it-deck-cooking",
@@ -722,7 +827,13 @@
       "it-vocab-cooking-028",
       "it-vocab-cooking-029",
       "it-vocab-cooking-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Kuhanje i kuhinja",
+      "fr": "Cuisine et ustensiles",
+      "de": "Kochen und Küche",
+      "es": "Cocina y utensilios"
+    }
   },
   {
     "id": "it-deck-animals",
@@ -760,7 +871,13 @@
       "it-vocab-animals-028",
       "it-vocab-animals-029",
       "it-vocab-animals-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Životinje",
+      "fr": "Animaux",
+      "de": "Tiere",
+      "es": "Animales"
+    }
   },
   {
     "id": "it-deck-outdoors",
@@ -798,7 +915,13 @@
       "it-vocab-outdoors-028",
       "it-vocab-outdoors-029",
       "it-vocab-outdoors-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Priroda i vanjski svijet",
+      "fr": "Nature et plein air",
+      "de": "Natur im Freien",
+      "es": "Naturaleza al aire libre"
+    }
   },
   {
     "id": "it-deck-society",
@@ -836,7 +959,13 @@
       "it-vocab-society-028",
       "it-vocab-society-029",
       "it-vocab-society-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Društvo i vlada",
+      "fr": "Société et gouvernement",
+      "de": "Gesellschaft und Regierung",
+      "es": "Sociedad y gobierno"
+    }
   },
   {
     "id": "it-deck-idioms",
@@ -874,7 +1003,13 @@
       "it-vocab-idioms-028",
       "it-vocab-idioms-029",
       "it-vocab-idioms-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Uobičajeni izrazi",
+      "fr": "Expressions courantes",
+      "de": "Gängige Ausdrücke",
+      "es": "Expresiones comunes"
+    }
   },
   {
     "id": "it-deck-countries",
@@ -912,7 +1047,13 @@
       "it-vocab-countries-028",
       "it-vocab-countries-029",
       "it-vocab-countries-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Zemlje i narodnosti",
+      "fr": "Pays et nationalités",
+      "de": "Länder und Nationalitäten",
+      "es": "Países y nacionalidades"
+    }
   },
   {
     "id": "it-deck-materials",
@@ -950,7 +1091,13 @@
       "it-vocab-materials-028",
       "it-vocab-materials-029",
       "it-vocab-materials-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Materijali i oblici",
+      "fr": "Matériaux et formes",
+      "de": "Materialien und Formen",
+      "es": "Materiales y formas"
+    }
   },
   {
     "id": "it-deck-business",
@@ -988,7 +1135,13 @@
       "it-vocab-business-028",
       "it-vocab-business-029",
       "it-vocab-business-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Poslovanje i financije",
+      "fr": "Affaires et finance",
+      "de": "Wirtschaft und Finanzen",
+      "es": "Negocios y finanzas"
+    }
   },
   {
     "id": "it-deck-connectors",
@@ -1026,7 +1179,13 @@
       "it-vocab-connectors-028",
       "it-vocab-connectors-029",
       "it-vocab-connectors-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Veznici i poveznice",
+      "fr": "Conjonctions et connecteurs",
+      "de": "Konjunktionen und Bindewörter",
+      "es": "Conjunciones y conectores"
+    }
   },
   {
     "id": "it-deck-health",
@@ -1064,7 +1223,13 @@
       "it-vocab-health-028",
       "it-vocab-health-029",
       "it-vocab-health-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Zdravlje i medicina",
+      "fr": "Santé et médecine",
+      "de": "Gesundheit und Medizin",
+      "es": "Salud y medicina"
+    }
   },
   {
     "id": "it-deck-music-arts",
@@ -1102,7 +1267,13 @@
       "it-vocab-music-arts-028",
       "it-vocab-music-arts-029",
       "it-vocab-music-arts-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Glazba i umjetnost",
+      "fr": "Musique et arts",
+      "de": "Musik und Kunst",
+      "es": "Música y arte"
+    }
   },
   {
     "id": "it-deck-environment",
@@ -1140,7 +1311,13 @@
       "it-vocab-environment-028",
       "it-vocab-environment-029",
       "it-vocab-environment-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Okoliš i održivost",
+      "fr": "Environnement et durabilité",
+      "de": "Umwelt und Nachhaltigkeit",
+      "es": "Medio ambiente y sostenibilidad"
+    }
   },
   {
     "id": "it-deck-law-crime",
@@ -1178,7 +1355,13 @@
       "it-vocab-law-crime-028",
       "it-vocab-law-crime-029",
       "it-vocab-law-crime-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Pravo i kriminal",
+      "fr": "Droit et criminalité",
+      "de": "Recht und Kriminalität",
+      "es": "Derecho y delincuencia"
+    }
   },
   {
     "id": "it-deck-relationships",
@@ -1216,7 +1399,13 @@
       "it-vocab-relationships-028",
       "it-vocab-relationships-029",
       "it-vocab-relationships-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Veze i životni događaji",
+      "fr": "Relations et événements de vie",
+      "de": "Beziehungen und Lebensereignisse",
+      "es": "Relaciones y eventos de la vida"
+    }
   },
   {
     "id": "it-deck-media-news",
@@ -1254,7 +1443,13 @@
       "it-vocab-media-news-028",
       "it-vocab-media-news-029",
       "it-vocab-media-news-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Mediji i vijesti",
+      "fr": "Médias et actualités",
+      "de": "Medien und Nachrichten",
+      "es": "Medios y noticias"
+    }
   },
   {
     "id": "it-deck-science-space",
@@ -1292,7 +1487,13 @@
       "it-vocab-science-space-028",
       "it-vocab-science-space-029",
       "it-vocab-science-space-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Znanost i svemir",
+      "fr": "Science et espace",
+      "de": "Wissenschaft und Weltraum",
+      "es": "Ciencia y espacio"
+    }
   },
   {
     "id": "it-deck-cars-driving",
@@ -1330,6 +1531,12 @@
       "it-vocab-cars-driving-028",
       "it-vocab-cars-driving-029",
       "it-vocab-cars-driving-030"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Automobili i vožnja",
+      "fr": "Voitures et conduite",
+      "de": "Autos und Fahren",
+      "es": "Coches y conducción"
+    }
   }
 ]

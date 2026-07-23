@@ -5,33 +5,107 @@
   "unitId": "es-unit-2",
   "order": 1,
   "title": "Ser (to be) — Permanent Traits",
-  "prerequisiteIds": ["es-lesson-articles"],
+  "prerequisiteIds": [
+    "es-lesson-articles"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Spanish has **two** verbs for \"to be\" — a genuine split that Italian, French, German, and Croatian don't have. **Ser** covers things that are stable or defining: identity, origin, profession, and inherent characteristics.\n\nyo **soy** · tú **eres** · él/ella/usted **es** · nosotros **somos** · vosotros **sois** · ellos/ustedes **son**\n\n*Soy de España* (I'm from Spain), *Ella es médica* (She is a doctor), *El café es caliente* (Coffee [as a category] is hot)." },
-    { "type": "exercise", "exerciseId": "es-ex-ser-1" },
-    { "type": "exercise", "exerciseId": "es-ex-ser-2" },
-    { "type": "exercise", "exerciseId": "es-ex-ser-3" }
+    {
+      "type": "explanation",
+      "markdown": "Spanish has **two** verbs for \"to be\" — a genuine split that Italian, French, German, and Croatian don't have. **Ser** covers things that are stable or defining: identity, origin, profession, and inherent characteristics.\n\nyo **soy** · tú **eres** · él/ella/usted **es** · nosotros **somos** · vosotros **sois** · ellos/ustedes **son**\n\n*Soy de España* (I'm from Spain), *Ella es médica* (She is a doctor), *El café es caliente* (Coffee [as a category] is hot).",
+      "i18n": {
+        "it": "Lo spagnolo ha **due** verbi per \"essere\" — una divisione autentica che italiano, francese, tedesco e croato non hanno. **Ser** copre ciò che è stabile o distintivo: identità, origine, professione e caratteristiche intrinseche.\n\nyo **soy** · tú **eres** · él/ella/usted **es** · nosotros **somos** · vosotros **sois** · ellos/ustedes **son**\n\n*Soy de España* (Sono spagnolo/dalla Spagna), *Ella es médica* (Lei è medico), *El café es caliente* (Il caffè [come categoria] è caldo).",
+        "fr": "L'espagnol a **deux** verbes pour \"être\" — une véritable distinction que l'italien, le français, l'allemand et le croate n'ont pas. **Ser** couvre ce qui est stable ou caractéristique : identité, origine, profession et caractéristiques intrinsèques.\n\nyo **soy** · tú **eres** · él/ella/usted **es** · nosotros **somos** · vosotros **sois** · ellos/ustedes **son**\n\n*Soy de España* (Je suis d'Espagne), *Ella es médica* (Elle est médecin), *El café es caliente* (Le café [en tant que catégorie] est chaud).",
+        "de": "Spanisch hat **zwei** Verben für \"sein\" — eine echte Aufspaltung, die es im Italienischen, Französischen, Deutschen und Kroatischen nicht gibt. **Ser** deckt Stabiles oder Charakteristisches ab: Identität, Herkunft, Beruf und wesenhafte Eigenschaften.\n\nyo **soy** · tú **eres** · él/ella/usted **es** · nosotros **somos** · vosotros **sois** · ellos/ustedes **son**\n\n*Soy de España* (Ich bin aus Spanien), *Ella es médica* (Sie ist Ärztin), *El café es caliente* (Kaffee [als Kategorie] ist heiß).",
+        "hr": "Španjolski ima **dva** glagola za \"biti\" — pravu podjelu koju talijanski, francuski, njemački i hrvatski nemaju. **Ser** pokriva ono što je stabilno ili karakteristično: identitet, podrijetlo, zanimanje i urođene osobine.\n\nyo **soy** · tú **eres** · él/ella/usted **es** · nosotros **somos** · vosotros **sois** · ellos/ustedes **son**\n\n*Soy de España* (Ja sam iz Španjolske), *Ella es médica* (Ona je liječnica), *El café es caliente* (Kava [kao kategorija] je vruća)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-ser-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-ser-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-ser-3"
+    }
   ],
   "exercises": [
     {
       "id": "es-ex-ser-1",
       "type": "fill-blank",
       "prompt": "Yo ___ de Italia. (ser — I am from Italy.)",
-      "answer": "soy"
+      "answer": "soy",
+      "i18n": {
+        "it": {
+          "prompt": "Yo ___ de Italia. (ser — Sono dall'Italia.)"
+        },
+        "fr": {
+          "prompt": "Yo ___ de Italia. (ser — Je suis d'Italie.)"
+        },
+        "de": {
+          "prompt": "Yo ___ de Italia. (ser — Ich bin aus Italien.)"
+        },
+        "hr": {
+          "prompt": "Yo ___ de Italia. (ser — Ja sam iz Italije.)"
+        }
+      }
     },
     {
       "id": "es-ex-ser-2",
       "type": "multiple-choice",
       "prompt": "¿De dónde ___ tú? (ser — Where are you from?)",
       "answer": "eres",
-      "distractors": ["soy", "es", "son"]
+      "distractors": [
+        "soy",
+        "es",
+        "son"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "¿De dónde ___ tú? (ser — Di dove sei?)"
+        },
+        "fr": {
+          "prompt": "¿De dónde ___ tú? (ser — D'où viens-tu ?)"
+        },
+        "de": {
+          "prompt": "¿De dónde ___ tú? (ser — Woher kommst du?)"
+        },
+        "hr": {
+          "prompt": "¿De dónde ___ tú? (ser — Odakle si?)"
+        }
+      }
     },
     {
       "id": "es-ex-ser-3",
       "type": "translate",
       "prompt": "Translate: \"We are friends.\" (ser — a stable, defining relationship)",
-      "answer": ["Somos amigos."],
-      "relatedItemId": "es-vocab-greet-025"
+      "answer": [
+        "Somos amigos."
+      ],
+      "relatedItemId": "es-vocab-greet-025",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Siamo amici.\" (ser — una relazione stabile e distintiva)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Nous sommes amis.\" (ser — une relation stable et caractéristique)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Wir sind Freunde.\" (ser — eine stabile, charakteristische Beziehung)"
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Mi smo prijatelji.\" (ser — stabilan, karakterističan odnos)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Ser (essere) — caratteristiche permanenti",
+    "fr": "Ser (être) — caractéristiques permanentes",
+    "de": "Ser (sein) — dauerhafte Eigenschaften",
+    "hr": "Ser (biti) — trajna svojstva"
+  }
 }

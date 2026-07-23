@@ -5,12 +5,32 @@
   "unitId": "it-unit-7",
   "order": 2,
   "title": "Future Tense: Futuro Semplice",
-  "prerequisiteIds": ["it-lesson-imperfetto"],
+  "prerequisiteIds": [
+    "it-lesson-imperfetto"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Regular futuro semplice endings are **-ò, -ai, -à, -emo, -ete, -anno**, added to the infinitive stem (**-are** verbs also change their **a** to **e**): *parlare → parlerò*, *dormire → dormirò*.\n\nSome common verbs have irregular stems: **essere → sarò**, **avere → avrò**, **andare → andrò**, **fare → farò**." },
-    { "type": "exercise", "exerciseId": "it-ex-futuro-1" },
-    { "type": "exercise", "exerciseId": "it-ex-futuro-2" },
-    { "type": "exercise", "exerciseId": "it-ex-futuro-3" }
+    {
+      "type": "explanation",
+      "markdown": "Regular futuro semplice endings are **-ò, -ai, -à, -emo, -ete, -anno**, added to the infinitive stem (**-are** verbs also change their **a** to **e**): *parlare → parlerò*, *dormire → dormirò*.\n\nSome common verbs have irregular stems: **essere → sarò**, **avere → avrò**, **andare → andrò**, **fare → farò**.",
+      "i18n": {
+        "hr": "Pravilni nastavci futuro semplice su **-ò, -ai, -à, -emo, -ete, -anno**, dodaju se na infinitivnu osnovu (glagoli na **-are** mijenjaju i svoje **a** u **e**): *parlare → parlerò*, *dormire → dormirò*.\n\nNeki uobičajeni glagoli imaju nepravilnu osnovu: **essere → sarò**, **avere → avrò**, **andare → andrò**, **fare → farò**.",
+        "fr": "Les terminaisons régulières du futuro semplice sont **-ò, -ai, -à, -emo, -ete, -anno**, ajoutées au radical de l'infinitif (les verbes en **-are** changent aussi leur **a** en **e**) : *parlare → parlerò*, *dormire → dormirò*.\n\nCertains verbes courants ont un radical irrégulier : **essere → sarò**, **avere → avrò**, **andare → andrò**, **fare → farò**.",
+        "de": "Die regelmäßigen Futuro-semplice-Endungen sind **-ò, -ai, -à, -emo, -ete, -anno**, angehängt an den Infinitivstamm (Verben auf **-are** ändern auch ihr **a** zu **e**): *parlare → parlerò*, *dormire → dormirò*.\n\nEinige gebräuchliche Verben haben einen unregelmäßigen Stamm: **essere → sarò**, **avere → avrò**, **andare → andrò**, **fare → farò**.",
+        "es": "Las terminaciones regulares del futuro semplice son **-ò, -ai, -à, -emo, -ete, -anno**, añadidas a la raíz del infinitivo (los verbos en **-are** también cambian su **a** a **e**): *parlare → parlerò*, *dormire → dormirò*.\n\nAlgunos verbos comunes tienen raíz irregular: **essere → sarò**, **avere → avrò**, **andare → andrò**, **fare → farò**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-futuro-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-futuro-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-futuro-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,77 @@
       "type": "fill-blank",
       "prompt": "Domani io ___ con il professore. (parlare — Tomorrow I will speak with the professor.)",
       "answer": "parlerò",
-      "relatedItemId": "it-vocab-routine-009"
+      "relatedItemId": "it-vocab-routine-009",
+      "i18n": {
+        "hr": {
+          "prompt": "Domani io ___ con il professore. (parlare — Sutra ću razgovarati s profesorom.)"
+        },
+        "fr": {
+          "prompt": "Domani io ___ con il professore. (parlare — Demain je parlerai avec le professeur.)"
+        },
+        "de": {
+          "prompt": "Domani io ___ con il professore. (parlare — Morgen werde ich mit dem Professor sprechen.)"
+        },
+        "es": {
+          "prompt": "Domani io ___ con il professore. (parlare — Mañana hablaré con el profesor.)"
+        }
+      }
     },
     {
       "id": "it-ex-futuro-2",
       "type": "multiple-choice",
       "prompt": "Noi ___ in Italia il prossimo anno. (andare — irregular stem)",
       "answer": "andremo",
-      "distractors": ["andiamo", "andavamo", "andrebbero"],
-      "relatedItemId": "it-vocab-verbs-001"
+      "distractors": [
+        "andiamo",
+        "andavamo",
+        "andrebbero"
+      ],
+      "relatedItemId": "it-vocab-verbs-001",
+      "i18n": {
+        "hr": {
+          "prompt": "Noi ___ in Italia il prossimo anno. (andare — nepravilna osnova)"
+        },
+        "fr": {
+          "prompt": "Noi ___ in Italia il prossimo anno. (andare — radical irrégulier)"
+        },
+        "de": {
+          "prompt": "Noi ___ in Italia il prossimo anno. (andare — unregelmäßiger Stamm)"
+        },
+        "es": {
+          "prompt": "Noi ___ in Italia il prossimo anno. (andare — raíz irregular)"
+        }
+      }
     },
     {
       "id": "it-ex-futuro-3",
       "type": "translate",
       "prompt": "Translate: \"They will arrive tomorrow.\"",
-      "answer": ["Loro arriveranno domani.", "Arriveranno domani."],
-      "relatedItemId": "it-vocab-verbsmore-009"
+      "answer": [
+        "Loro arriveranno domani.",
+        "Arriveranno domani."
+      ],
+      "relatedItemId": "it-vocab-verbsmore-009",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Oni će stići sutra.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Ils arriveront demain.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie werden morgen ankommen.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Ellos llegarán mañana.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Buduće vrijeme: Futuro Semplice",
+    "fr": "Futur : Futuro Semplice",
+    "de": "Futur: Futuro Semplice",
+    "es": "Futuro: Futuro Semplice"
+  }
 }

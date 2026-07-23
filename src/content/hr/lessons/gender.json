@@ -5,14 +5,46 @@
   "unitId": "hr-unit-1",
   "order": 2,
   "title": "Noun Gender & Plurals",
-  "prerequisiteIds": ["hr-lesson-greetings"],
+  "prerequisiteIds": [
+    "hr-lesson-greetings"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Croatian has **no articles at all** — no \"the\" or \"a\". Instead, every noun has one of three genders, usually predictable from its ending: a noun ending in a **consonant** is masculine (**grad**, city), ending in **-a** is feminine (**kuća**, house), and ending in **-o** or **-e** is neuter (**more**, sea)." },
-    { "type": "exercise", "exerciseId": "hr-ex-gender-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-gender-2" },
-    { "type": "explanation", "markdown": "Plurals follow the gender: masculine nouns usually add **-i** (**prijatelj → prijatelji**), feminine nouns ending in **-a** change it to **-e** (**kuća → kuće**), and neuter nouns ending in **-o/-e** change to **-a** (**more → mora**)." },
-    { "type": "exercise", "exerciseId": "hr-ex-gender-3" },
-    { "type": "exercise", "exerciseId": "hr-ex-gender-4" }
+    {
+      "type": "explanation",
+      "markdown": "Croatian has **no articles at all** — no \"the\" or \"a\". Instead, every noun has one of three genders, usually predictable from its ending: a noun ending in a **consonant** is masculine (**grad**, city), ending in **-a** is feminine (**kuća**, house), and ending in **-o** or **-e** is neuter (**more**, sea).",
+      "i18n": {
+        "it": "Il croato **non ha alcun articolo** — niente \"il/lo/la\" o \"un/una\". Invece, ogni sostantivo ha uno dei tre generi, di solito prevedibile dalla sua desinenza: un sostantivo che termina in **consonante** è maschile (**grad**, città), uno che termina in **-a** è femminile (**kuća**, casa), e uno che termina in **-o** o **-e** è neutro (**more**, mare).",
+        "fr": "Le croate **n'a aucun article** — pas de \"le/la\" ni de \"un/une\". Au lieu de cela, chaque nom a l'un des trois genres, généralement prévisible d'après sa terminaison : un nom se terminant par une **consonne** est masculin (**grad**, ville), un nom se terminant par **-a** est féminin (**kuća**, maison), et un nom se terminant par **-o** ou **-e** est neutre (**more**, mer).",
+        "de": "Kroatisch hat **überhaupt keine Artikel** — kein \"der/die/das\" oder \"ein/eine\". Stattdessen hat jedes Substantiv eines von drei Geschlechtern, meist an der Endung erkennbar: ein Substantiv, das auf einen **Konsonanten** endet, ist männlich (**grad**, Stadt), eines, das auf **-a** endet, ist weiblich (**kuća**, Haus), und eines, das auf **-o** oder **-e** endet, ist sächlich (**more**, Meer). Das Drei-Geschlechter-System selbst wird dir bekannt vorkommen, auch wenn die Zuordnung pro Wort anders ist als im Deutschen.",
+        "es": "El croata **no tiene ningún artículo** — ni \"el/la\" ni \"un/una\". En cambio, cada sustantivo tiene uno de tres géneros, normalmente predecible por su terminación: un sustantivo que termina en **consonante** es masculino (**grad**, ciudad), uno que termina en **-a** es femenino (**kuća**, casa), y uno que termina en **-o** o **-e** es neutro (**more**, mar)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-gender-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-gender-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Plurals follow the gender: masculine nouns usually add **-i** (**prijatelj → prijatelji**), feminine nouns ending in **-a** change it to **-e** (**kuća → kuće**), and neuter nouns ending in **-o/-e** change to **-a** (**more → mora**).",
+      "i18n": {
+        "it": "I plurali seguono il genere: i sostantivi maschili di solito aggiungono **-i** (**prijatelj → prijatelji**), i sostantivi femminili in **-a** lo cambiano in **-e** (**kuća → kuće**), e i sostantivi neutri in **-o/-e** cambiano in **-a** (**more → mora**).",
+        "fr": "Le pluriel suit le genre : les noms masculins ajoutent généralement **-i** (**prijatelj → prijatelji**), les noms féminins en **-a** le changent en **-e** (**kuća → kuće**), et les noms neutres en **-o/-e** changent en **-a** (**more → mora**).",
+        "de": "Der Plural richtet sich nach dem Geschlecht: männliche Substantive fügen meist **-i** an (**prijatelj → prijatelji**), weibliche Substantive auf **-a** ändern es zu **-e** (**kuća → kuće**), und sächliche Substantive auf **-o/-e** ändern es zu **-a** (**more → mora**).",
+        "es": "El plural sigue el género: los sustantivos masculinos suelen añadir **-i** (**prijatelj → prijatelji**), los sustantivos femeninos en **-a** lo cambian a **-e** (**kuća → kuće**), y los sustantivos neutros en **-o/-e** cambian a **-a** (**more → mora**)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-gender-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-gender-4"
+    }
   ],
   "exercises": [
     {
@@ -20,31 +52,162 @@
       "type": "multiple-choice",
       "prompt": "What gender is \"grad\" (city — ends in a consonant)?",
       "answer": "masculine",
-      "distractors": ["feminine", "neuter"],
-      "relatedItemId": "hr-vocab-travel-010"
+      "distractors": [
+        "feminine",
+        "neuter"
+      ],
+      "relatedItemId": "hr-vocab-travel-010",
+      "i18n": {
+        "it": {
+          "prompt": "Che genere ha \"grad\" (città — termina in consonante)?",
+          "answer": "maschile",
+          "distractors": [
+            "femminile",
+            "neutro"
+          ]
+        },
+        "fr": {
+          "prompt": "Quel est le genre de \"grad\" (ville — se termine par une consonne) ?",
+          "answer": "masculin",
+          "distractors": [
+            "féminin",
+            "neutre"
+          ]
+        },
+        "de": {
+          "prompt": "Welches Geschlecht hat \"grad\" (Stadt — endet auf Konsonant)?",
+          "answer": "männlich",
+          "distractors": [
+            "weiblich",
+            "sächlich"
+          ]
+        },
+        "es": {
+          "prompt": "¿Qué género tiene \"grad\" (ciudad — termina en consonante)?",
+          "answer": "masculino",
+          "distractors": [
+            "femenino",
+            "neutro"
+          ]
+        }
+      }
     },
     {
       "id": "hr-ex-gender-2",
       "type": "multiple-choice",
       "prompt": "What gender is \"kuća\" (house — ends in -a)?",
       "answer": "feminine",
-      "distractors": ["masculine", "neuter"],
-      "relatedItemId": "hr-vocab-routine-028"
+      "distractors": [
+        "masculine",
+        "neuter"
+      ],
+      "relatedItemId": "hr-vocab-routine-028",
+      "i18n": {
+        "it": {
+          "prompt": "Che genere ha \"kuća\" (casa — termina in -a)?",
+          "answer": "femminile",
+          "distractors": [
+            "maschile",
+            "neutro"
+          ]
+        },
+        "fr": {
+          "prompt": "Quel est le genre de \"kuća\" (maison — se termine par -a) ?",
+          "answer": "féminin",
+          "distractors": [
+            "masculin",
+            "neutre"
+          ]
+        },
+        "de": {
+          "prompt": "Welches Geschlecht hat \"kuća\" (Haus — endet auf -a)?",
+          "answer": "weiblich",
+          "distractors": [
+            "männlich",
+            "sächlich"
+          ]
+        },
+        "es": {
+          "prompt": "¿Qué género tiene \"kuća\" (casa — termina en -a)?",
+          "answer": "femenino",
+          "distractors": [
+            "masculino",
+            "neutro"
+          ]
+        }
+      }
     },
     {
       "id": "hr-ex-gender-3",
       "type": "multiple-choice",
       "prompt": "What gender is \"more\" (sea — ends in -e)?",
       "answer": "neuter",
-      "distractors": ["masculine", "feminine"],
-      "relatedItemId": "hr-vocab-travel-030"
+      "distractors": [
+        "masculine",
+        "feminine"
+      ],
+      "relatedItemId": "hr-vocab-travel-030",
+      "i18n": {
+        "it": {
+          "prompt": "Che genere ha \"more\" (mare — termina in -e)?",
+          "answer": "neutro",
+          "distractors": [
+            "maschile",
+            "femminile"
+          ]
+        },
+        "fr": {
+          "prompt": "Quel est le genre de \"more\" (mer — se termine par -e) ?",
+          "answer": "neutre",
+          "distractors": [
+            "masculin",
+            "féminin"
+          ]
+        },
+        "de": {
+          "prompt": "Welches Geschlecht hat \"more\" (Meer — endet auf -e)?",
+          "answer": "sächlich",
+          "distractors": [
+            "männlich",
+            "weiblich"
+          ]
+        },
+        "es": {
+          "prompt": "¿Qué género tiene \"more\" (mar — termina en -e)?",
+          "answer": "neutro",
+          "distractors": [
+            "masculino",
+            "femenino"
+          ]
+        }
+      }
     },
     {
       "id": "hr-ex-gender-4",
       "type": "fill-blank",
       "prompt": "What is the plural of \"prijatelj\" (friend)?",
       "answer": "prijatelji",
-      "relatedItemId": "hr-vocab-greet-024"
+      "relatedItemId": "hr-vocab-greet-024",
+      "i18n": {
+        "it": {
+          "prompt": "Qual è il plurale di \"prijatelj\" (amico)?"
+        },
+        "fr": {
+          "prompt": "Quel est le pluriel de \"prijatelj\" (ami) ?"
+        },
+        "de": {
+          "prompt": "Wie lautet der Plural von \"prijatelj\" (Freund)?"
+        },
+        "es": {
+          "prompt": "¿Cuál es el plural de \"prijatelj\" (amigo)?"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Genere dei sostantivi e plurali",
+    "fr": "Genre des noms et pluriels",
+    "de": "Substantivgeschlecht und Plural",
+    "es": "Género de los sustantivos y plurales"
+  }
 }

@@ -5,12 +5,32 @@
   "unitId": "it-unit-4",
   "order": 3,
   "title": "Reflexive Verbs",
-  "prerequisiteIds": ["it-lesson-modal-verbs"],
+  "prerequisiteIds": [
+    "it-lesson-modal-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Reflexive verbs (ending in **-si** in the infinitive, like *alzarsi* — to get (oneself) up) describe actions you do to yourself. They need a reflexive pronoun before the verb: **mi** (myself), **ti**, **si**, **ci**, **vi**, **si**.\n\n*Alzarsi*: **mi alzo**, **ti alzi**, **si alza**, **ci alziamo**, **vi alzate**, **si alzano**." },
-    { "type": "exercise", "exerciseId": "it-ex-reflexive-1" },
-    { "type": "exercise", "exerciseId": "it-ex-reflexive-2" },
-    { "type": "exercise", "exerciseId": "it-ex-reflexive-3" }
+    {
+      "type": "explanation",
+      "markdown": "Reflexive verbs (ending in **-si** in the infinitive, like *alzarsi* — to get (oneself) up) describe actions you do to yourself. They need a reflexive pronoun before the verb: **mi** (myself), **ti**, **si**, **ci**, **vi**, **si**.\n\n*Alzarsi*: **mi alzo**, **ti alzi**, **si alza**, **ci alziamo**, **vi alzate**, **si alzano**.",
+      "i18n": {
+        "hr": "Povratni glagoli (koji u infinitivu završavaju na **-si**, poput *alzarsi* — ustati) opisuju radnje koje činiš samom sebi. Trebaju povratnu zamjenicu ispred glagola: **mi** (sebe), **ti**, **si**, **ci**, **vi**, **si**.\n\n*Alzarsi*: **mi alzo**, **ti alzi**, **si alza**, **ci alziamo**, **vi alzate**, **si alzano**.",
+        "fr": "Les verbes pronominaux (se terminant par **-si** à l'infinitif, comme *alzarsi* — se lever) décrivent des actions que tu fais à toi-même. Ils ont besoin d'un pronom réfléchi avant le verbe : **mi** (moi-même), **ti**, **si**, **ci**, **vi**, **si**.\n\n*Alzarsi* : **mi alzo**, **ti alzi**, **si alza**, **ci alziamo**, **vi alzate**, **si alzano**.",
+        "de": "Reflexive Verben (die im Infinitiv auf **-si** enden, wie *alzarsi* — aufstehen) beschreiben Handlungen, die du an dir selbst vollziehst. Sie brauchen ein Reflexivpronomen vor dem Verb: **mi** (mich), **ti**, **si**, **ci**, **vi**, **si**.\n\n*Alzarsi*: **mi alzo**, **ti alzi**, **si alza**, **ci alziamo**, **vi alzate**, **si alzano**.",
+        "es": "Los verbos reflexivos (que terminan en **-si** en el infinitivo, como *alzarsi* — levantarse) describen acciones que haces a ti mismo. Necesitan un pronombre reflexivo antes del verbo: **mi** (a mí mismo), **ti**, **si**, **ci**, **vi**, **si**.\n\n*Alzarsi*: **mi alzo**, **ti alzi**, **si alza**, **ci alziamo**, **vi alzate**, **si alzano**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-reflexive-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-reflexive-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-reflexive-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,77 @@
       "type": "fill-blank",
       "prompt": "Io ___ alzo alle sette. (I get up at seven.)",
       "answer": "mi",
-      "relatedItemId": "it-vocab-routine-001"
+      "relatedItemId": "it-vocab-routine-001",
+      "i18n": {
+        "hr": {
+          "prompt": "Io ___ alzo alle sette. (Ustajem u sedam sati.)"
+        },
+        "fr": {
+          "prompt": "Io ___ alzo alle sette. (Je me lève à sept heures.)"
+        },
+        "de": {
+          "prompt": "Io ___ alzo alle sette. (Ich stehe um sieben Uhr auf.)"
+        },
+        "es": {
+          "prompt": "Io ___ alzo alle sette. (Me levanto a las siete.)"
+        }
+      }
     },
     {
       "id": "it-ex-reflexive-2",
       "type": "multiple-choice",
       "prompt": "Noi ___ laviamo le mani. (We wash our hands.)",
       "answer": "ci",
-      "distractors": ["mi", "ti", "si"],
-      "relatedItemId": "it-vocab-routine-002"
+      "distractors": [
+        "mi",
+        "ti",
+        "si"
+      ],
+      "relatedItemId": "it-vocab-routine-002",
+      "i18n": {
+        "hr": {
+          "prompt": "Noi ___ laviamo le mani. (Peremo ruke.)"
+        },
+        "fr": {
+          "prompt": "Noi ___ laviamo le mani. (Nous nous lavons les mains.)"
+        },
+        "de": {
+          "prompt": "Noi ___ laviamo le mani. (Wir waschen uns die Hände.)"
+        },
+        "es": {
+          "prompt": "Noi ___ laviamo le mani. (Nos lavamos las manos.)"
+        }
+      }
     },
     {
       "id": "it-ex-reflexive-3",
       "type": "translate",
       "prompt": "Translate: \"She gets dressed quickly.\"",
-      "answer": ["Lei si veste velocemente.", "Si veste velocemente."],
-      "relatedItemId": "it-vocab-routine-003"
+      "answer": [
+        "Lei si veste velocemente.",
+        "Si veste velocemente."
+      ],
+      "relatedItemId": "it-vocab-routine-003",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Ona se brzo oblači.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Elle s'habille rapidement.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie zieht sich schnell an.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Ella se viste rápidamente.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Povratni glagoli",
+    "fr": "Verbes pronominaux",
+    "de": "Reflexive Verben",
+    "es": "Verbos reflexivos"
+  }
 }

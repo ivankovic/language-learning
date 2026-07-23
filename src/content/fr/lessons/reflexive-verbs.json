@@ -5,13 +5,42 @@
   "unitId": "fr-unit-4",
   "order": 1,
   "title": "Reflexive Verbs",
-  "prerequisiteIds": ["fr-lesson-food-travel"],
+  "prerequisiteIds": [
+    "fr-lesson-food-travel"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Reflexive verbs like **se laver** (to wash oneself) and **s'habiller** (to get dressed) need a reflexive pronoun that matches the subject: **je me lave**, **tu te laves**, **il/elle/on se lave**, **nous nous lavons**, **vous vous lavez**, **ils/elles se lavent**." },
-    { "type": "exercise", "exerciseId": "fr-ex-reflexive-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-reflexive-2" },
-    { "type": "explanation", "markdown": "Before a vowel sound, **me/te/se** shorten to **m'/t'/s'**: *je m'habille* (I get dressed), not *je me habille*." },
-    { "type": "exercise", "exerciseId": "fr-ex-reflexive-3" }
+    {
+      "type": "explanation",
+      "markdown": "Reflexive verbs like **se laver** (to wash oneself) and **s'habiller** (to get dressed) need a reflexive pronoun that matches the subject: **je me lave**, **tu te laves**, **il/elle/on se lave**, **nous nous lavons**, **vous vous lavez**, **ils/elles se lavent**.",
+      "i18n": {
+        "it": "I verbi riflessivi come **se laver** (lavarsi) e **s'habiller** (vestirsi) richiedono un pronome riflessivo che concorda con il soggetto: **je me lave**, **tu te laves**, **il/elle/on se lave**, **nous nous lavons**, **vous vous lavez**, **ils/elles se lavent**.",
+        "de": "Reflexive Verben wie **se laver** (sich waschen) und **s'habiller** (sich anziehen) brauchen ein Reflexivpronomen, das zum Subjekt passt — genau wie im Deutschen: **je me lave**, **tu te laves**, **il/elle/on se lave**, **nous nous lavons**, **vous vous lavez**, **ils/elles se lavent**.",
+        "hr": "Povratni glagoli poput **se laver** (oprati se) i **s'habiller** (obući se) trebaju povratnu zamjenicu koja se slaže sa subjektom — slično hrvatskom \"se\", ali francuski mijenja zamjenicu ovisno o osobi: **je me lave**, **tu te laves**, **il/elle/on se lave**, **nous nous lavons**, **vous vous lavez**, **ils/elles se lavent** (hrvatski uvijek koristi samo \"se\", bez obzira na osobu).",
+        "es": "Los verbos reflexivos como **se laver** (lavarse) y **s'habiller** (vestirse) necesitan un pronombre reflexivo que concuerde con el sujeto — igual que en español, pero el francés cambia el pronombre según la persona: **je me lave**, **tu te laves**, **il/elle/on se lave**, **nous nous lavons**, **vous vous lavez**, **ils/elles se lavent**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-reflexive-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-reflexive-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Before a vowel sound, **me/te/se** shorten to **m'/t'/s'**: *je m'habille* (I get dressed), not *je me habille*.",
+      "i18n": {
+        "it": "Davanti a un suono vocalico, **me/te/se** si accorciano in **m'/t'/s'**: *je m'habille* (mi vesto), non *je me habille*.",
+        "de": "Vor einem Vokal verkürzen sich **me/te/se** zu **m'/t'/s'**: *je m'habille* (ich ziehe mich an), nicht *je me habille*. Das Deutsche kennt diese Verkürzung nicht — \"ich ziehe mich an\" bleibt immer unverändert.",
+        "hr": "Ispred samoglasnika, **me/te/se** skraćuju se u **m'/t'/s'**: *je m'habille* (oblačim se), a ne *je me habille*.",
+        "es": "Ante un sonido vocálico, **me/te/se** se acortan a **m'/t'/s'**: *je m'habille* (me visto), no *je me habille*."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-reflexive-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,77 @@
       "type": "fill-blank",
       "prompt": "Je ___ lave. (se laver — I wash myself.)",
       "answer": "me",
-      "relatedItemId": "fr-vocab-routine-002"
+      "relatedItemId": "fr-vocab-routine-002",
+      "i18n": {
+        "it": {
+          "prompt": "Je ___ lave. (se laver — Mi lavo.)"
+        },
+        "de": {
+          "prompt": "Je ___ lave. (se laver — Ich wasche mich.)"
+        },
+        "hr": {
+          "prompt": "Je ___ lave. (se laver — Perem se.)"
+        },
+        "es": {
+          "prompt": "Je ___ lave. (se laver — Me lavo.)"
+        }
+      }
     },
     {
       "id": "fr-ex-reflexive-2",
       "type": "multiple-choice",
       "prompt": "Nous ___ levons tôt. (se lever — We get up early.)",
       "answer": "nous",
-      "distractors": ["me", "te", "vous"],
-      "relatedItemId": "fr-vocab-routine-001"
+      "distractors": [
+        "me",
+        "te",
+        "vous"
+      ],
+      "relatedItemId": "fr-vocab-routine-001",
+      "i18n": {
+        "it": {
+          "prompt": "Nous ___ levons tôt. (se lever — Ci alziamo presto.)"
+        },
+        "de": {
+          "prompt": "Nous ___ levons tôt. (se lever — Wir stehen früh auf.)"
+        },
+        "hr": {
+          "prompt": "Nous ___ levons tôt. (se lever — Ustajemo rano.)"
+        },
+        "es": {
+          "prompt": "Nous ___ levons tôt. (se lever — Nos levantamos temprano.)"
+        }
+      }
     },
     {
       "id": "fr-ex-reflexive-3",
       "type": "translate",
       "prompt": "Translate: \"He gets dressed quickly.\"",
-      "answer": ["Il s'habille rapidement.", "Il s'habille vite."],
-      "relatedItemId": "fr-vocab-routine-003"
+      "answer": [
+        "Il s'habille rapidement.",
+        "Il s'habille vite."
+      ],
+      "relatedItemId": "fr-vocab-routine-003",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Lui si veste velocemente.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Er zieht sich schnell an.\""
+        },
+        "hr": {
+          "prompt": "Prevedi: \"On se brzo oblači.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Él se viste rápidamente.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Verbi riflessivi",
+    "de": "Reflexive Verben",
+    "hr": "Povratni glagoli",
+    "es": "Verbos reflexivos"
+  }
 }

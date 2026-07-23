@@ -6,5 +6,11 @@
     "es-unit-1",
     "es-unit-2",
     "es-unit-3"
-  ]
+  ],
+  "titleByLang": {
+    "it": "Fondamenti di spagnolo",
+    "fr": "Fondamentaux de l'espagnol",
+    "de": "Grundlagen des Spanischen",
+    "hr": "Temelji španjolskog jezika"
+  }
 }

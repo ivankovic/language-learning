@@ -5,42 +5,147 @@
   "unitId": "fr-unit-2",
   "order": 1,
   "title": "Être (to be) — Present Tense",
-  "prerequisiteIds": ["fr-lesson-articles"],
+  "prerequisiteIds": [
+    "fr-lesson-articles"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Être** (to be) is irregular and one of the most-used verbs in French:\n\nje **suis** · tu **es** · il/elle **est** · nous **sommes** · vous **êtes** · ils/elles **sont**" },
-    { "type": "exercise", "exerciseId": "fr-ex-etre-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-etre-2" },
-    { "type": "explanation", "markdown": "**Enchanté** literally means \"delighted\" and is what you say when meeting someone for the first time." },
-    { "type": "exercise", "exerciseId": "fr-ex-etre-3" },
-    { "type": "exercise", "exerciseId": "fr-ex-etre-4" }
+    {
+      "type": "explanation",
+      "markdown": "**Être** (to be) is irregular and one of the most-used verbs in French:\n\nje **suis** · tu **es** · il/elle **est** · nous **sommes** · vous **êtes** · ils/elles **sont**",
+      "i18n": {
+        "it": "**Être** (essere) è irregolare ed è uno dei verbi più usati in francese:\n\nje **suis** · tu **es** · il/elle **est** · nous **sommes** · vous **êtes** · ils/elles **sont**",
+        "de": "**Être** (sein) ist unregelmäßig und eines der meistgebrauchten Verben im Französischen:\n\nje **suis** · tu **es** · il/elle **est** · nous **sommes** · vous **êtes** · ils/elles **sont**",
+        "hr": "**Être** (biti) je nepravilan i jedan je od najčešće korištenih glagola u francuskom:\n\nje **suis** · tu **es** · il/elle **est** · nous **sommes** · vous **êtes** · ils/elles **sont**",
+        "es": "**Être** (ser/estar) es irregular y uno de los verbos más usados en francés:\n\nje **suis** · tu **es** · il/elle **est** · nous **sommes** · vous **êtes** · ils/elles **sont**\n\nA diferencia del español, el francés no distingue ser/estar — **être** cubre ambos usos."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-etre-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-etre-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "**Enchanté** literally means \"delighted\" and is what you say when meeting someone for the first time.",
+      "i18n": {
+        "it": "**Enchanté** significa letteralmente \"felice\" ed è ciò che si dice quando si incontra qualcuno per la prima volta.",
+        "de": "**Enchanté** bedeutet wörtlich \"erfreut\" und sagt man, wenn man jemanden zum ersten Mal trifft.",
+        "hr": "**Enchanté** doslovno znači \"oduševljen\" i kaže se kad prvi put upoznaješ nekoga.",
+        "es": "**Enchanté** significa literalmente \"encantado\" y es lo que se dice al conocer a alguien por primera vez."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-etre-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-etre-4"
+    }
   ],
   "exercises": [
     {
       "id": "fr-ex-etre-1",
       "type": "fill-blank",
       "prompt": "Je ___ française. (I am French — feminine speaker)",
-      "answer": "suis"
+      "answer": "suis",
+      "i18n": {
+        "it": {
+          "prompt": "Je ___ française. (Sono francese — parlante donna.)"
+        },
+        "de": {
+          "prompt": "Je ___ française. (Ich bin Französin.)"
+        },
+        "hr": {
+          "prompt": "Je ___ française. (Ja sam Francuskinja.)"
+        },
+        "es": {
+          "prompt": "Je ___ française. (Soy francesa.)"
+        }
+      }
     },
     {
       "id": "fr-ex-etre-2",
       "type": "multiple-choice",
       "prompt": "Tu ___ fatigué. (You are tired.)",
       "answer": "es",
-      "distractors": ["suis", "est", "sommes"]
+      "distractors": [
+        "suis",
+        "est",
+        "sommes"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Tu ___ fatigué. (Sei stanco.)"
+        },
+        "de": {
+          "prompt": "Tu ___ fatigué. (Du bist müde.)"
+        },
+        "hr": {
+          "prompt": "Tu ___ fatigué. (Ti si umoran.)"
+        },
+        "es": {
+          "prompt": "Tu ___ fatigué. (Estás cansado.)"
+        }
+      }
     },
     {
       "id": "fr-ex-etre-3",
       "type": "multiple-choice",
       "prompt": "How do you respond when meeting someone for the first time?",
       "answer": "Enchanté",
-      "distractors": ["Je vous en prie", "Pardon", "Bien"],
-      "relatedItemId": "fr-vocab-greet-014"
+      "distractors": [
+        "Je vous en prie",
+        "Pardon",
+        "Bien"
+      ],
+      "relatedItemId": "fr-vocab-greet-014",
+      "i18n": {
+        "it": {
+          "prompt": "Come rispondi quando incontri qualcuno per la prima volta?"
+        },
+        "de": {
+          "prompt": "Wie antwortest du, wenn du jemanden zum ersten Mal triffst?"
+        },
+        "hr": {
+          "prompt": "Kako odgovaraš kad prvi put upoznaješ nekoga?"
+        },
+        "es": {
+          "prompt": "¿Cómo respondes al conocer a alguien por primera vez?"
+        }
+      }
     },
     {
       "id": "fr-ex-etre-4",
       "type": "translate",
       "prompt": "Translate: \"She is a teacher.\"",
-      "answer": ["Elle est professeure.", "Elle est enseignante."]
+      "answer": [
+        "Elle est professeure.",
+        "Elle est enseignante."
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Lei è un'insegnante.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie ist Lehrerin.\""
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Ona je učiteljica.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Ella es profesora.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Être (essere) — presente",
+    "de": "Être (sein) — Präsens",
+    "hr": "Être (biti) — prezent",
+    "es": "Être (ser/estar) — presente"
+  }
 }

@@ -5,12 +5,32 @@
   "unitId": "fr-unit-2",
   "order": 2,
   "title": "Avoir (to have) — Present Tense",
-  "prerequisiteIds": ["fr-lesson-etre"],
+  "prerequisiteIds": [
+    "fr-lesson-etre"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Avoir** (to have) is also irregular:\n\nj'**ai** · tu **as** · il/elle **a** · nous **avons** · vous **avez** · ils/elles **ont**\n\nFrench uses *avoir* idiomatically where English uses \"to be\": **avoir faim** (to be hungry), **avoir soif** (to be thirsty), **avoir chaud/froid** (to be hot/cold), and **avoir ... ans** (to be ... years old)." },
-    { "type": "exercise", "exerciseId": "fr-ex-avoir-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-avoir-2" },
-    { "type": "exercise", "exerciseId": "fr-ex-avoir-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Avoir** (to have) is also irregular:\n\nj'**ai** · tu **as** · il/elle **a** · nous **avons** · vous **avez** · ils/elles **ont**\n\nFrench uses *avoir* idiomatically where English uses \"to be\": **avoir faim** (to be hungry), **avoir soif** (to be thirsty), **avoir chaud/froid** (to be hot/cold), and **avoir ... ans** (to be ... years old).",
+      "i18n": {
+        "it": "**Avoir** (avere) è anch'esso irregolare:\n\nj'**ai** · tu **as** · il/elle **a** · nous **avons** · vous **avez** · ils/elles **ont**\n\nCome in italiano, il francese usa *avoir* in modo idiomatico: **avoir faim** (avere fame), **avoir soif** (avere sete), **avoir chaud/froid** (avere caldo/freddo), e **avoir ... ans** (avere ... anni) — queste costruzioni ti risulteranno quindi molto naturali.",
+        "de": "**Avoir** (haben) ist ebenfalls unregelmäßig:\n\nj'**ai** · tu **as** · il/elle **a** · nous **avons** · vous **avez** · ils/elles **ont**\n\nDas Französische verwendet *avoir* idiomatisch teils wie das Deutsche mit \"haben\": **avoir faim** (Hunger haben), **avoir soif** (Durst haben) — das kennst du schon. Aber Achtung: wo Französisch weiter *avoir* benutzt, wechselt Deutsch die Konstruktion — **avoir chaud/froid** heißt nicht \"Hitze/Kälte haben\", sondern entspricht \"mir ist warm/kalt\"; und **avoir ... ans** heißt nicht \"... Jahre haben\", sondern \"... Jahre alt sein\".",
+        "hr": "**Avoir** (imati) također je nepravilan:\n\nj'**ai** · tu **as** · il/elle **a** · nous **avons** · vous **avez** · ils/elles **ont**\n\nFrancuski koristi *avoir* idiomatski tamo gdje hrvatski to ne bi očekivao: **avoir faim** (doslovno \"imati glad\", ali hrvatski kaže **biti gladan**), **avoir soif** (doslovno \"imati žeđ\", hrvatski **biti žedan**), **avoir chaud/froid** (hrvatski **biti vruće/hladno**). Ali za dob se francuski i hrvatski slažu: **avoir ... ans** odgovara točno hrvatskom **imati ... godina** — to ćeš odmah prepoznati.",
+        "es": "**Avoir** (tener) también es irregular:\n\nj'**ai** · tu **as** · il/elle **a** · nous **avons** · vous **avez** · ils/elles **ont**\n\nEl francés usa *avoir* de forma idiomática igual que el español usa \"tener\": **avoir faim** (tener hambre), **avoir soif** (tener sed), **avoir chaud/froid** (tener calor/frío), y **avoir ... ans** (tener ... años) — estas construcciones te resultarán muy naturales."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-avoir-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-avoir-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-avoir-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,74 @@
       "type": "fill-blank",
       "prompt": "J'___ faim. (I'm hungry.)",
       "answer": "ai",
-      "relatedItemId": "fr-vocab-routine-026"
+      "relatedItemId": "fr-vocab-routine-026",
+      "i18n": {
+        "it": {
+          "prompt": "J'___ faim. (Ho fame.)"
+        },
+        "de": {
+          "prompt": "J'___ faim. (Ich habe Hunger.)"
+        },
+        "hr": {
+          "prompt": "J'___ faim. (Gladan/gladna sam.)"
+        },
+        "es": {
+          "prompt": "J'___ faim. (Tengo hambre.)"
+        }
+      }
     },
     {
       "id": "fr-ex-avoir-2",
       "type": "multiple-choice",
       "prompt": "How do you say \"I am 20 years old\" (literally \"I have 20 years\")?",
       "answer": "J'ai vingt ans.",
-      "distractors": ["Je suis vingt ans.", "J'ai vingt an.", "Je suis vingt an."],
-      "relatedItemId": "fr-vocab-routine-030"
+      "distractors": [
+        "Je suis vingt ans.",
+        "J'ai vingt an.",
+        "Je suis vingt an."
+      ],
+      "relatedItemId": "fr-vocab-routine-030",
+      "i18n": {
+        "it": {
+          "prompt": "Come si dice \"Ho 20 anni\" (letteralmente \"ho 20 anni\")?"
+        },
+        "de": {
+          "prompt": "Wie sagt man \"Ich bin 20 Jahre alt\" (wörtlich \"ich habe 20 Jahre\")?"
+        },
+        "hr": {
+          "prompt": "Kako se kaže \"Imam 20 godina\" (doslovno \"imam 20 godina\")?"
+        },
+        "es": {
+          "prompt": "¿Cómo se dice \"Tengo 20 años\" (literalmente \"tengo 20 años\")?"
+        }
+      }
     },
     {
       "id": "fr-ex-avoir-3",
       "type": "fill-blank",
       "prompt": "Nous ___ soif. (We're thirsty.)",
       "answer": "avons",
-      "relatedItemId": "fr-vocab-routine-027"
+      "relatedItemId": "fr-vocab-routine-027",
+      "i18n": {
+        "it": {
+          "prompt": "Nous ___ soif. (Abbiamo sete.)"
+        },
+        "de": {
+          "prompt": "Nous ___ soif. (Wir haben Durst.)"
+        },
+        "hr": {
+          "prompt": "Nous ___ soif. (Žedni smo.)"
+        },
+        "es": {
+          "prompt": "Nous ___ soif. (Tenemos sed.)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Avoir (avere) — presente",
+    "de": "Avoir (haben) — Präsens",
+    "hr": "Avoir (imati) — prezent",
+    "es": "Avoir (tener) — presente"
+  }
 }

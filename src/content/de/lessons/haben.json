@@ -5,12 +5,32 @@
   "unitId": "de-unit-2",
   "order": 2,
   "title": "Haben (to have) — Present Tense",
-  "prerequisiteIds": ["de-lesson-sein"],
+  "prerequisiteIds": [
+    "de-lesson-sein"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Haben** (to have) is also irregular:\n\nich **habe** · du **hast** · er/sie/es **hat** · wir **haben** · ihr **habt** · sie/Sie **haben**\n\nGerman uses *haben* idiomatically for hunger and thirst — **Hunger haben** (to be hungry), **Durst haben** (to be thirsty) — but *not* for age, unlike Italian or French (German uses **sein** for that instead, as you saw in the previous lesson)." },
-    { "type": "exercise", "exerciseId": "de-ex-haben-1" },
-    { "type": "exercise", "exerciseId": "de-ex-haben-2" },
-    { "type": "exercise", "exerciseId": "de-ex-haben-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Haben** (to have) is also irregular:\n\nich **habe** · du **hast** · er/sie/es **hat** · wir **haben** · ihr **habt** · sie/Sie **haben**\n\nGerman uses *haben* idiomatically for hunger and thirst — **Hunger haben** (to be hungry), **Durst haben** (to be thirsty) — but *not* for age, unlike Italian or French (German uses **sein** for that instead, as you saw in the previous lesson).",
+      "i18n": {
+        "it": "**Haben** (avere) è anch'esso irregolare:\n\nich **habe** · du **hast** · er/sie/es **hat** · wir **haben** · ihr **habt** · sie/Sie **haben**\n\nIl tedesco usa *haben* in modo idiomatico per fame e sete — **Hunger haben** (avere fame), **Durst haben** (avere sete) — ma *non* per l'età, a differenza dell'italiano (il tedesco usa **sein** per quello, come hai visto nella lezione precedente).",
+        "fr": "**Haben** (avoir) est également irrégulier :\n\nich **habe** · du **hast** · er/sie/es **hat** · wir **haben** · ihr **habt** · sie/Sie **haben**\n\nL'allemand utilise *haben* de façon idiomatique pour la faim et la soif — **Hunger haben** (avoir faim), **Durst haben** (avoir soif) — mais *pas* pour l'âge, contrairement au français (l'allemand utilise **sein** pour cela, comme tu l'as vu dans la leçon précédente).",
+        "hr": "**Haben** (imati) također je nepravilan:\n\nich **habe** · du **hast** · er/sie/es **hat** · wir **haben** · ihr **habt** · sie/Sie **haben**\n\nNjemački koristi *haben* idiomatski za glad i žeđ — **Hunger haben** (biti gladan, doslovno \"imati glad\") — ovdje je konstrukcija ista kao hrvatska \"imati glad/žeđ\" u neformalnom govoru, iako je standardni hrvatski izraz pridjevski (\"gladan sam\"). Ali *ne* za dob, za razliku od hrvatskog (njemački za to koristi **sein**, kao što si vidio/vidjela u prethodnoj lekciji).",
+        "es": "**Haben** (tener) también es irregular:\n\nich **habe** · du **hast** · er/sie/es **hat** · wir **haben** · ihr **habt** · sie/Sie **haben**\n\nEl alemán usa *haben* de forma idiomática para el hambre y la sed — **Hunger haben** (tener hambre), **Durst haben** (tener sed) — pero *no* para la edad, a diferencia del español (el alemán usa **sein** para eso, como viste en la lección anterior)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-haben-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-haben-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-haben-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,74 @@
       "type": "fill-blank",
       "prompt": "Ich ___ Hunger. (I'm hungry.)",
       "answer": "habe",
-      "relatedItemId": "de-vocab-routine-026"
+      "relatedItemId": "de-vocab-routine-026",
+      "i18n": {
+        "it": {
+          "prompt": "Ich ___ Hunger. (Ho fame.)"
+        },
+        "fr": {
+          "prompt": "Ich ___ Hunger. (J'ai faim.)"
+        },
+        "hr": {
+          "prompt": "Ich ___ Hunger. (Gladan/gladna sam.)"
+        },
+        "es": {
+          "prompt": "Ich ___ Hunger. (Tengo hambre.)"
+        }
+      }
     },
     {
       "id": "de-ex-haben-2",
       "type": "multiple-choice",
       "prompt": "___ du Durst? (Are you thirsty? — informal)",
       "answer": "Hast",
-      "distractors": ["Habe", "Hat", "Habt"],
-      "relatedItemId": "de-vocab-routine-027"
+      "distractors": [
+        "Habe",
+        "Hat",
+        "Habt"
+      ],
+      "relatedItemId": "de-vocab-routine-027",
+      "i18n": {
+        "it": {
+          "prompt": "___ du Durst? (Hai sete? — informale)"
+        },
+        "fr": {
+          "prompt": "___ du Durst? (As-tu soif ? — informel)"
+        },
+        "hr": {
+          "prompt": "___ du Durst? (Jesi li žedan/žedna? — neformalno)"
+        },
+        "es": {
+          "prompt": "___ du Durst? (¿Tienes sed? — informal)"
+        }
+      }
     },
     {
       "id": "de-ex-haben-3",
       "type": "fill-blank",
       "prompt": "Wir ___ ein Zimmer. (We have a room.)",
       "answer": "haben",
-      "relatedItemId": "de-vocab-travel-011"
+      "relatedItemId": "de-vocab-travel-011",
+      "i18n": {
+        "it": {
+          "prompt": "Wir ___ ein Zimmer. (Abbiamo una stanza.)"
+        },
+        "fr": {
+          "prompt": "Wir ___ ein Zimmer. (Nous avons une chambre.)"
+        },
+        "hr": {
+          "prompt": "Wir ___ ein Zimmer. (Imamo sobu.)"
+        },
+        "es": {
+          "prompt": "Wir ___ ein Zimmer. (Tenemos una habitación.)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Haben (avere) — presente",
+    "fr": "Haben (avoir) — présent",
+    "hr": "Haben (imati) — prezent",
+    "es": "Haben (tener) — presente"
+  }
 }

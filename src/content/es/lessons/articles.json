@@ -5,12 +5,32 @@
   "unitId": "es-unit-1",
   "order": 2,
   "title": "Definite Articles: el, la, los, las",
-  "prerequisiteIds": ["es-lesson-greetings"],
+  "prerequisiteIds": [
+    "es-lesson-greetings"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Spanish nouns have two genders — masculine and feminine — each with a singular and plural article: **el** (masc. singular), **la** (fem. singular), **los** (masc. plural), **las** (fem. plural). Most nouns ending in **-o** are masculine and most ending in **-a** are feminine, though there are exceptions worth learning individually." },
-    { "type": "exercise", "exerciseId": "es-ex-articles-1" },
-    { "type": "exercise", "exerciseId": "es-ex-articles-2" },
-    { "type": "exercise", "exerciseId": "es-ex-articles-3" }
+    {
+      "type": "explanation",
+      "markdown": "Spanish nouns have two genders — masculine and feminine — each with a singular and plural article: **el** (masc. singular), **la** (fem. singular), **los** (masc. plural), **las** (fem. plural). Most nouns ending in **-o** are masculine and most ending in **-a** are feminine, though there are exceptions worth learning individually.",
+      "i18n": {
+        "it": "I sostantivi spagnoli hanno due generi — maschile e femminile — ciascuno con un articolo singolare e plurale: **el** (m. singolare), **la** (f. singolare), **los** (m. plurale), **las** (f. plurale). Come in italiano, la maggior parte dei sostantivi che terminano in **-o** sono maschili e la maggior parte di quelli in **-a** sono femminili, anche se ci sono eccezioni da imparare singolarmente.",
+        "fr": "Les noms espagnols ont deux genres — masculin et féminin — chacun avec un article singulier et pluriel : **el** (m. singulier), **la** (f. singulier), **los** (m. pluriel), **las** (f. pluriel). Comme en français, la plupart des noms se terminant par **-o** sont masculins et la plupart de ceux en **-a** sont féminins, bien qu'il y ait des exceptions à apprendre individuellement.",
+        "de": "Spanische Substantive haben zwei Geschlechter — männlich und weiblich — jeweils mit einem Singular- und Pluralartikel: **el** (m. Singular), **la** (f. Singular), **los** (m. Plural), **las** (f. Plural). Anders als im Deutschen mit seinen drei Geschlechtern gibt es hier nur zwei. Die meisten Substantive auf **-o** sind männlich und die meisten auf **-a** sind weiblich, auch wenn es Ausnahmen gibt, die man einzeln lernen sollte.",
+        "hr": "Španjolske imenice imaju dva roda — muški i ženski — svaki s jedninskim i množinskim članom: **el** (m. jednina), **la** (ž. jednina), **los** (m. množina), **las** (ž. množina). Za razliku od hrvatskog, koji ima tri roda, ovdje ih je samo dva. Većina imenica koje završavaju na **-o** muškog je roda, a većina onih na **-a** ženskog roda, iako postoje iznimke koje treba naučiti pojedinačno."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-articles-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-articles-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-articles-3"
+    }
   ],
   "exercises": [
     {
@@ -18,23 +38,79 @@
       "type": "multiple-choice",
       "prompt": "Choose the correct article for \"pan\" (bread — masculine: el pan).",
       "answer": "el",
-      "distractors": ["la", "los", "las"],
-      "relatedItemId": "es-vocab-food-004"
+      "distractors": [
+        "la",
+        "los",
+        "las"
+      ],
+      "relatedItemId": "es-vocab-food-004",
+      "i18n": {
+        "it": {
+          "prompt": "Scegli l'articolo corretto per \"pan\" (pane — maschile: el pan)."
+        },
+        "fr": {
+          "prompt": "Choisis l'article correct pour \"pan\" (pain — masculin : el pan)."
+        },
+        "de": {
+          "prompt": "Wähle den richtigen Artikel für \"pan\" (Brot — maskulin: el pan)."
+        },
+        "hr": {
+          "prompt": "Odaberi ispravan član za \"pan\" (kruh — muški rod: el pan)."
+        }
+      }
     },
     {
       "id": "es-ex-articles-2",
       "type": "multiple-choice",
       "prompt": "Choose the correct article for \"ciudad\" (city — feminine: la ciudad).",
       "answer": "la",
-      "distractors": ["el", "los", "las"],
-      "relatedItemId": "es-vocab-travel-010"
+      "distractors": [
+        "el",
+        "los",
+        "las"
+      ],
+      "relatedItemId": "es-vocab-travel-010",
+      "i18n": {
+        "it": {
+          "prompt": "Scegli l'articolo corretto per \"ciudad\" (città — femminile: la ciudad)."
+        },
+        "fr": {
+          "prompt": "Choisis l'article correct pour \"ciudad\" (ville — féminin : la ciudad)."
+        },
+        "de": {
+          "prompt": "Wähle den richtigen Artikel für \"ciudad\" (Stadt — feminin: la ciudad)."
+        },
+        "hr": {
+          "prompt": "Odaberi ispravan član za \"ciudad\" (grad — ženski rod: la ciudad)."
+        }
+      }
     },
     {
       "id": "es-ex-articles-3",
       "type": "fill-blank",
       "prompt": "___ amigos son simpáticos. (friends — masculine plural: los amigos)",
       "answer": "Los",
-      "relatedItemId": "es-vocab-greet-025"
+      "relatedItemId": "es-vocab-greet-025",
+      "i18n": {
+        "it": {
+          "prompt": "___ amigos son simpáticos. (amici — maschile plurale: los amigos)"
+        },
+        "fr": {
+          "prompt": "___ amigos son simpáticos. (amis — masculin pluriel : los amigos)"
+        },
+        "de": {
+          "prompt": "___ amigos son simpáticos. (Freunde — maskulin Plural: los amigos)"
+        },
+        "hr": {
+          "prompt": "___ amigos son simpáticos. (prijatelji — muški rod množina: los amigos)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Articoli determinativi: el, la, los, las",
+    "fr": "Articles définis : el, la, los, las",
+    "de": "Bestimmte Artikel: el, la, los, las",
+    "hr": "Određeni članovi: el, la, los, las"
+  }
 }

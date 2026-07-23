@@ -5,13 +5,42 @@
   "unitId": "hr-unit-5",
   "order": 2,
   "title": "Numbers with Nouns",
-  "prerequisiteIds": ["hr-lesson-past-tense"],
+  "prerequisiteIds": [
+    "hr-lesson-past-tense"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "The noun after a number changes form depending on the number itself — a rule with no equivalent in Italian, French, or German. **Jedan** (1) takes the plain form: *jedna knjiga* (one book). **Dva/tri/četiri** (2-4) take a special \"paucal\" form, usually identical to the genitive singular: *dvije knjige* (two books)." },
-    { "type": "exercise", "exerciseId": "hr-ex-numnoun-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-numnoun-2" },
-    { "type": "explanation", "markdown": "**Pet** and higher (5+) take the **genitive plural**: *pet knjiga* (five books) — note that for many feminine nouns like *knjiga*, the genitive plural looks identical to the singular form you already know, so *pet knjiga* and *jedna knjiga* share a spelling despite meaning \"five\" vs. \"one\"." },
-    { "type": "exercise", "exerciseId": "hr-ex-numnoun-3" }
+    {
+      "type": "explanation",
+      "markdown": "The noun after a number changes form depending on the number itself — a rule with no equivalent in Italian, French, or German. **Jedan** (1) takes the plain form: *jedna knjiga* (one book). **Dva/tri/četiri** (2-4) take a special \"paucal\" form, usually identical to the genitive singular: *dvije knjige* (two books).",
+      "i18n": {
+        "it": "Il sostantivo dopo un numero cambia forma a seconda del numero stesso — una regola senza equivalente in italiano, francese, tedesco o spagnolo. **Jedan** (1) prende la forma semplice: *jedna knjiga* (un libro). **Dva/tri/četiri** (2-4) prendono una forma speciale \"paucale\", di solito identica al genitivo singolare: *dvije knjige* (due libri).",
+        "fr": "Le nom qui suit un nombre change de forme selon le nombre lui-même — une règle sans équivalent en français, en italien, en allemand ou en espagnol. **Jedan** (1) prend la forme simple : *jedna knjiga* (un livre). **Dva/tri/četiri** (2-4) prennent une forme spéciale \"paucale\", généralement identique au génitif singulier : *dvije knjige* (deux livres).",
+        "de": "Das Substantiv nach einer Zahl ändert seine Form je nach der Zahl selbst — eine Regel ohne Entsprechung im Deutschen, Italienischen, Französischen oder Spanischen. **Jedan** (1) nimmt die einfache Form: *jedna knjiga* (ein Buch). **Dva/tri/četiri** (2-4) nehmen eine besondere \"paukale\" Form, meist identisch mit dem Genitiv Singular: *dvije knjige* (zwei Bücher).",
+        "es": "El sustantivo que sigue a un número cambia de forma según el número mismo — una regla sin equivalente en español, italiano, francés o alemán. **Jedan** (1) toma la forma simple: *jedna knjiga* (un libro). **Dva/tri/četiri** (2-4) toman una forma especial \"paucal\", normalmente idéntica al genitivo singular: *dvije knjige* (dos libros)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-numnoun-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-numnoun-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "**Pet** and higher (5+) take the **genitive plural**: *pet knjiga* (five books) — note that for many feminine nouns like *knjiga*, the genitive plural looks identical to the singular form you already know, so *pet knjiga* and *jedna knjiga* share a spelling despite meaning \"five\" vs. \"one\".",
+      "i18n": {
+        "it": "**Pet** e numeri superiori (5+) prendono il **genitivo plurale**: *pet knjiga* (cinque libri) — nota che per molti sostantivi femminili come *knjiga*, il genitivo plurale ha la stessa forma del singolare che già conosci, quindi *pet knjiga* e *jedna knjiga* condividono la grafia pur significando \"cinque\" contro \"uno\".",
+        "fr": "**Pet** et les nombres supérieurs (5+) prennent le **génitif pluriel** : *pet knjiga* (cinq livres) — remarque que pour de nombreux noms féminins comme *knjiga*, le génitif pluriel a la même forme que le singulier que tu connais déjà, donc *pet knjiga* et *jedna knjiga* partagent l'orthographe malgré \"cinq\" contre \"un\".",
+        "de": "**Pet** und höhere Zahlen (5+) nehmen den **Genitiv Plural**: *pet knjiga* (fünf Bücher) — beachte, dass bei vielen weiblichen Substantiven wie *knjiga* der Genitiv Plural genauso aussieht wie die dir schon bekannte Singularform, sodass *pet knjiga* und *jedna knjiga* trotz \"fünf\" gegenüber \"eins\" gleich geschrieben werden.",
+        "es": "**Pet** y números superiores (5+) toman el **genitivo plural**: *pet knjiga* (cinco libros) — nota que para muchos sustantivos femeninos como *knjiga*, el genitivo plural tiene la misma forma que el singular que ya conoces, así que *pet knjiga* y *jedna knjiga* comparten grafía a pesar de significar \"cinco\" frente a \"uno\"."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-numnoun-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,76 @@
       "type": "multiple-choice",
       "prompt": "How do you say \"two cities\"? (grad → paucal: grada)",
       "answer": "dva grada",
-      "distractors": ["dva grad", "dva gradova", "dva gradu"],
-      "relatedItemId": "hr-vocab-travel-010"
+      "distractors": [
+        "dva grad",
+        "dva gradova",
+        "dva gradu"
+      ],
+      "relatedItemId": "hr-vocab-travel-010",
+      "i18n": {
+        "it": {
+          "prompt": "Come si dice \"due città\"? (grad → paucale: grada)"
+        },
+        "fr": {
+          "prompt": "Comment dit-on \"deux villes\" ? (grad → paucal : grada)"
+        },
+        "de": {
+          "prompt": "Wie sagt man \"zwei Städte\"? (grad → paukal: grada)"
+        },
+        "es": {
+          "prompt": "¿Cómo se dice \"dos ciudades\"? (grad → paucal: grada)"
+        }
+      }
     },
     {
       "id": "hr-ex-numnoun-2",
       "type": "fill-blank",
       "prompt": "pet ___. (grad → genitive plural: gradova — five cities)",
       "answer": "gradova",
-      "relatedItemId": "hr-vocab-travel-010"
+      "relatedItemId": "hr-vocab-travel-010",
+      "i18n": {
+        "it": {
+          "prompt": "pet ___. (grad → genitivo plurale: gradova — cinque città)"
+        },
+        "fr": {
+          "prompt": "pet ___. (grad → génitif pluriel : gradova — cinq villes)"
+        },
+        "de": {
+          "prompt": "pet ___. (grad → Genitiv Plural: gradova — fünf Städte)"
+        },
+        "es": {
+          "prompt": "pet ___. (grad → genitivo plural: gradova — cinco ciudades)"
+        }
+      }
     },
     {
       "id": "hr-ex-numnoun-3",
       "type": "translate",
       "prompt": "Translate: \"five books\" (knjiga → genitive plural, same spelling as the singular)",
-      "answer": ["pet knjiga"],
-      "relatedItemId": "hr-vocab-work-026"
+      "answer": [
+        "pet knjiga"
+      ],
+      "relatedItemId": "hr-vocab-work-026",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"cinque libri\" (knjiga → genitivo plurale, stessa grafia del singolare)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"cinq livres\" (knjiga → génitif pluriel, même orthographe que le singulier)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"fünf Bücher\" (knjiga → Genitiv Plural, gleiche Schreibweise wie der Singular)"
+        },
+        "es": {
+          "prompt": "Traduce: \"cinco libros\" (knjiga → genitivo plural, misma grafía que el singular)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Numeri con i sostantivi",
+    "fr": "Nombres avec les noms",
+    "de": "Zahlen mit Substantiven",
+    "es": "Números con sustantivos"
+  }
 }

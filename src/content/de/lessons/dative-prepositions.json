@@ -5,13 +5,42 @@
   "unitId": "de-unit-4",
   "order": 3,
   "title": "Dative Prepositions",
-  "prerequisiteIds": ["de-lesson-separable-verbs"],
+  "prerequisiteIds": [
+    "de-lesson-separable-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Unlike Italian or French, German nouns change form (\"case\") depending on their role in the sentence. A fixed set of prepositions always take the **dative case**: **mit** (with), **bei** (at/near), **nach** (after/to), **aus** (from/out of), **von** (from/of), **zu** (to). In the dative, **der/das** becomes **dem** and **die** becomes **der**: *der Arzt* → **mit dem Arzt** (with the doctor)." },
-    { "type": "exercise", "exerciseId": "de-ex-dative-1" },
-    { "type": "exercise", "exerciseId": "de-ex-dative-2" },
-    { "type": "explanation", "markdown": "**Nach** means \"to\" for cities and countries without an article (*nach Berlin*), while **zu** is used for people and specific places (*zum Arzt* — a fusion of *zu dem*)." },
-    { "type": "exercise", "exerciseId": "de-ex-dative-3" }
+    {
+      "type": "explanation",
+      "markdown": "Unlike Italian or French, German nouns change form (\"case\") depending on their role in the sentence. A fixed set of prepositions always take the **dative case**: **mit** (with), **bei** (at/near), **nach** (after/to), **aus** (from/out of), **von** (from/of), **zu** (to). In the dative, **der/das** becomes **dem** and **die** becomes **der**: *der Arzt* → **mit dem Arzt** (with the doctor).",
+      "i18n": {
+        "it": "A differenza dell'italiano o del francese, i sostantivi tedeschi cambiano forma (\"caso\") a seconda del loro ruolo nella frase. Un gruppo fisso di preposizioni richiede sempre il **caso dativo**: **mit** (con), **bei** (presso/vicino a), **nach** (dopo/verso), **aus** (da/fuori da), **von** (da/di), **zu** (verso/a). Al dativo, **der/das** diventa **dem** e **die** diventa **der**: *der Arzt* → **mit dem Arzt** (con il medico).",
+        "fr": "Contrairement à l'italien ou au français, les noms allemands changent de forme (\"cas\") selon leur rôle dans la phrase. Un ensemble fixe de prépositions exige toujours le **cas datif** : **mit** (avec), **bei** (chez/près de), **nach** (après/vers), **aus** (de/hors de), **von** (de), **zu** (vers/à). Au datif, **der/das** devient **dem** et **die** devient **der** : *der Arzt* → **mit dem Arzt** (avec le médecin).",
+        "hr": "Njemačke imenice mijenjaju oblik (\"padež\") ovisno o ulozi u rečenici — ovo ti neće biti strano, jer hrvatski ima čak sedam padeža. Fiksna skupina prijedloga uvijek zahtijeva **dativ**: **mit** (s), **bei** (kod/blizu), **nach** (nakon/prema), **aus** (iz), **von** (od), **zu** (prema/k). U dativu, **der/das** postaje **dem**, a **die** postaje **der**: *der Arzt* → **mit dem Arzt** (s liječnikom) — sličan sustav kao hrvatske padežne promjene, iako se pravila i primjena razlikuju.",
+        "es": "A diferencia del italiano o el francés, los sustantivos alemanes cambian de forma (\"caso\") según su función en la frase. Un conjunto fijo de preposiciones siempre exige el **caso dativo**: **mit** (con), **bei** (en casa de/cerca de), **nach** (después/hacia), **aus** (de/desde dentro de), **von** (de), **zu** (hacia/a). En dativo, **der/das** se convierte en **dem** y **die** se convierte en **der**: *der Arzt* → **mit dem Arzt** (con el médico)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-dative-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-dative-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "**Nach** means \"to\" for cities and countries without an article (*nach Berlin*), while **zu** is used for people and specific places (*zum Arzt* — a fusion of *zu dem*).",
+      "i18n": {
+        "it": "**Nach** significa \"verso\" per città e paesi senza articolo (*nach Berlin*), mentre **zu** si usa per persone e luoghi specifici (*zum Arzt* — fusione di *zu dem*).",
+        "fr": "**Nach** signifie \"vers\" pour les villes et pays sans article (*nach Berlin*), tandis que **zu** s'utilise pour les personnes et lieux spécifiques (*zum Arzt* — fusion de *zu dem*).",
+        "hr": "**Nach** znači \"prema\" za gradove i zemlje bez člana (*nach Berlin*), dok se **zu** koristi za osobe i određena mjesta (*zum Arzt* — stapanje od *zu dem*).",
+        "es": "**Nach** significa \"hacia\" para ciudades y países sin artículo (*nach Berlin*), mientras que **zu** se usa para personas y lugares específicos (*zum Arzt* — fusión de *zu dem*)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-dative-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,76 @@
       "type": "multiple-choice",
       "prompt": "Ich gehe ___ Arzt. (zu + dem → I'm going to the doctor.)",
       "answer": "zum",
-      "distractors": ["zur", "nach", "bei"],
-      "relatedItemId": "de-vocab-body-025"
+      "distractors": [
+        "zur",
+        "nach",
+        "bei"
+      ],
+      "relatedItemId": "de-vocab-body-025",
+      "i18n": {
+        "it": {
+          "prompt": "Ich gehe ___ Arzt. (zu + dem → Vado dal medico.)"
+        },
+        "fr": {
+          "prompt": "Ich gehe ___ Arzt. (zu + dem → Je vais chez le médecin.)"
+        },
+        "hr": {
+          "prompt": "Ich gehe ___ Arzt. (zu + dem → Idem liječniku.)"
+        },
+        "es": {
+          "prompt": "Ich gehe ___ Arzt. (zu + dem → Voy al médico.)"
+        }
+      }
     },
     {
       "id": "de-ex-dative-2",
       "type": "fill-blank",
       "prompt": "Er arbeitet ___ meiner Kollegin. (mit — He works with my colleague.)",
       "answer": "mit",
-      "relatedItemId": "de-vocab-work-002"
+      "relatedItemId": "de-vocab-work-002",
+      "i18n": {
+        "it": {
+          "prompt": "Er arbeitet ___ meiner Kollegin. (mit — Lavora con la mia collega.)"
+        },
+        "fr": {
+          "prompt": "Er arbeitet ___ meiner Kollegin. (mit — Il travaille avec ma collègue.)"
+        },
+        "hr": {
+          "prompt": "Er arbeitet ___ meiner Kollegin. (mit — On radi s mojom kolegicom.)"
+        },
+        "es": {
+          "prompt": "Er arbeitet ___ meiner Kollegin. (mit — Él trabaja con mi colega.)"
+        }
+      }
     },
     {
       "id": "de-ex-dative-3",
       "type": "translate",
       "prompt": "Translate: \"I'm coming from the office.\"",
-      "answer": ["Ich komme aus dem Büro."],
-      "relatedItemId": "de-vocab-work-007"
+      "answer": [
+        "Ich komme aus dem Büro."
+      ],
+      "relatedItemId": "de-vocab-work-007",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Vengo dall'ufficio.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Je viens du bureau.\""
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Dolazim iz ureda.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Vengo de la oficina.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Preposizioni con il dativo",
+    "fr": "Prépositions avec le datif",
+    "hr": "Prijedlozi s dativom",
+    "es": "Preposiciones con dativo"
+  }
 }

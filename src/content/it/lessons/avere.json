@@ -5,12 +5,32 @@
   "unitId": "it-unit-2",
   "order": 2,
   "title": "Avere (to have) — Present Tense",
-  "prerequisiteIds": ["it-lesson-essere"],
+  "prerequisiteIds": [
+    "it-lesson-essere"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Avere** (to have) is also irregular:\n\nio **ho** · tu **hai** · lui/lei **ha** · noi **abbiamo** · voi **avete** · loro **hanno**\n\nItalian uses *avere* idiomatically where English uses \"to be\": **avere fame** (to be hungry), **avere sete** (to be thirsty), **avere caldo/freddo** (to be hot/cold), and **avere ... anni** (to be ... years old)." },
-    { "type": "exercise", "exerciseId": "it-ex-avere-1" },
-    { "type": "exercise", "exerciseId": "it-ex-avere-2" },
-    { "type": "exercise", "exerciseId": "it-ex-avere-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Avere** (to have) is also irregular:\n\nio **ho** · tu **hai** · lui/lei **ha** · noi **abbiamo** · voi **avete** · loro **hanno**\n\nItalian uses *avere* idiomatically where English uses \"to be\": **avere fame** (to be hungry), **avere sete** (to be thirsty), **avere caldo/freddo** (to be hot/cold), and **avere ... anni** (to be ... years old).",
+      "i18n": {
+        "hr": "**Avere** (imati) također je nepravilan:\n\nio **ho** · tu **hai** · lui/lei **ha** · noi **abbiamo** · voi **avete** · loro **hanno**\n\nTalijanski idiomatski koristi *avere* ondje gdje hrvatski koristi \"biti\": **avere fame** (biti gladan), **avere sete** (biti žedan), **avere caldo/freddo** (biti vruće/hladno), i **avere ... anni** (imati ... godina).",
+        "fr": "**Avere** (avoir) est aussi irrégulier :\n\nio **ho** · tu **hai** · lui/lei **ha** · noi **abbiamo** · voi **avete** · loro **hanno**\n\nComme en français, l'italien utilise *avere* dans des expressions idiomatiques : **avere fame** (avoir faim), **avere sete** (avoir soif), **avere caldo/freddo** (avoir chaud/froid), et **avere ... anni** (avoir ... ans) — ces constructions te seront donc très naturelles.",
+        "de": "**Avere** (haben) ist ebenfalls unregelmäßig:\n\nio **ho** · tu **hai** · lui/lei **ha** · noi **abbiamo** · voi **avete** · loro **hanno**\n\nDas Italienische verwendet *avere* idiomatisch teils wie das Deutsche mit \"haben\": **avere fame** (Hunger haben), **avere sete** (Durst haben) — das kennst du schon. Aber Achtung: wo Italienisch weiter *avere* benutzt, wechselt Deutsch die Konstruktion — **avere caldo/freddo** heißt nicht \"Hitze/Kälte haben\", sondern entspricht \"mir ist warm/kalt\"; und **avere ... anni** heißt nicht \"... Jahre haben\", sondern \"... Jahre alt sein\".",
+        "es": "**Avere** (tener) también es irregular:\n\nio **ho** · tu **hai** · lui/lei **ha** · noi **abbiamo** · voi **avete** · loro **hanno**\n\nComo en español, el italiano usa *avere* de forma idiomática: **avere fame** (tener hambre), **avere sete** (tener sed), **avere caldo/freddo** (tener calor/frío), y **avere ... anni** (tener ... años) — estas construcciones te resultarán muy naturales."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-avere-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-avere-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-avere-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,74 @@
       "type": "fill-blank",
       "prompt": "Io ___ fame. (I'm hungry.)",
       "answer": "ho",
-      "relatedItemId": "it-vocab-routine-026"
+      "relatedItemId": "it-vocab-routine-026",
+      "i18n": {
+        "hr": {
+          "prompt": "Io ___ fame. (Ja sam gladan.)"
+        },
+        "fr": {
+          "prompt": "Io ___ fame. (J'ai faim.)"
+        },
+        "de": {
+          "prompt": "Io ___ fame. (Ich habe Hunger.)"
+        },
+        "es": {
+          "prompt": "Io ___ fame. (Tengo hambre.)"
+        }
+      }
     },
     {
       "id": "it-ex-avere-2",
       "type": "multiple-choice",
       "prompt": "How do you say \"I am 20 years old\" (literally \"I have 20 years\")?",
       "answer": "Ho vent'anni.",
-      "distractors": ["Sono vent'anni.", "Ho vent'anno.", "Sono vent'anno."],
-      "relatedItemId": "it-vocab-routine-030"
+      "distractors": [
+        "Sono vent'anni.",
+        "Ho vent'anno.",
+        "Sono vent'anno."
+      ],
+      "relatedItemId": "it-vocab-routine-030",
+      "i18n": {
+        "hr": {
+          "prompt": "Kako se kaže \"Imam 20 godina\" (doslovno \"imam 20 godina\")?"
+        },
+        "fr": {
+          "prompt": "Comment dit-on \"J'ai 20 ans\" (littéralement \"j'ai 20 ans\") ?"
+        },
+        "de": {
+          "prompt": "Wie sagt man \"Ich bin 20 Jahre alt\" (wörtlich \"ich habe 20 Jahre\")?"
+        },
+        "es": {
+          "prompt": "¿Cómo se dice \"Tengo 20 años\" (literalmente \"tengo 20 años\")?"
+        }
+      }
     },
     {
       "id": "it-ex-avere-3",
       "type": "fill-blank",
       "prompt": "Noi ___ sete. (We're thirsty.)",
       "answer": "abbiamo",
-      "relatedItemId": "it-vocab-routine-027"
+      "relatedItemId": "it-vocab-routine-027",
+      "i18n": {
+        "hr": {
+          "prompt": "Noi ___ sete. (Mi smo žedni.)"
+        },
+        "fr": {
+          "prompt": "Noi ___ sete. (Nous avons soif.)"
+        },
+        "de": {
+          "prompt": "Noi ___ sete. (Wir haben Durst.)"
+        },
+        "es": {
+          "prompt": "Noi ___ sete. (Tenemos sed.)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Avere (imati) — sadašnje vrijeme",
+    "fr": "Avere (avoir) — présent",
+    "de": "Avere (haben) — Präsens",
+    "es": "Avere (tener) — presente"
+  }
 }

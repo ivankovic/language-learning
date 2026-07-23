@@ -5,13 +5,42 @@
   "unitId": "hr-unit-5",
   "order": 1,
   "title": "Past Tense (Perfekt)",
-  "prerequisiteIds": ["hr-lesson-locative-case"],
+  "prerequisiteIds": [
+    "hr-lesson-locative-case"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Croatian's everyday past tense combines a short form of **biti** (sam, si, je, smo, ste, su) with an **l-participle** that agrees with the subject's gender: **radio** (masc.), **radila** (fem.), **radilo** (neut.), **radili** (masc./mixed plural), **radile** (fem. plural). *Radio sam* (I worked — said by a man) vs. *Radila sam* (I worked — said by a woman)." },
-    { "type": "exercise", "exerciseId": "hr-ex-past-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-past-2" },
-    { "type": "explanation", "markdown": "The l-participle comes from the infinitive stem: *raditi* → **radio/radila**, *učiti* → **učio/učila**. The **biti** clitic (sam/si/je...) follows Croatian's second-position rule, just like in statements with *biti* alone." },
-    { "type": "exercise", "exerciseId": "hr-ex-past-3" }
+    {
+      "type": "explanation",
+      "markdown": "Croatian's everyday past tense combines a short form of **biti** (sam, si, je, smo, ste, su) with an **l-participle** that agrees with the subject's gender: **radio** (masc.), **radila** (fem.), **radilo** (neut.), **radili** (masc./mixed plural), **radile** (fem. plural). *Radio sam* (I worked — said by a man) vs. *Radila sam* (I worked — said by a woman).",
+      "i18n": {
+        "it": "Il tempo passato quotidiano del croato combina una forma breve di **biti** (sam, si, je, smo, ste, su) con un **participio in -l** che concorda con il genere del soggetto: **radio** (m.), **radila** (f.), **radilo** (n.), **radili** (m./plurale misto), **radile** (f. plurale). *Radio sam* (Ho lavorato — detto da un uomo) contro *Radila sam* (Ho lavorato — detto da una donna). Questa concordanza di genere ti sarà familiare: è lo stesso principio del passato prossimo italiano con essere.",
+        "fr": "Le temps passé quotidien du croate combine une forme courte de **biti** (sam, si, je, smo, ste, su) avec un **participe en -l** qui s'accorde avec le genre du sujet : **radio** (m.), **radila** (f.), **radilo** (n.), **radili** (m./pluriel mixte), **radile** (f. pluriel). *Radio sam* (J'ai travaillé — dit par un homme) contre *Radila sam* (J'ai travaillé — dit par une femme). Contrairement au français, où seul le groupe être du passé composé s'accorde en genre, ici tous les verbes s'accordent.",
+        "de": "Die kroatische Alltagsvergangenheit kombiniert eine Kurzform von **biti** (sam, si, je, smo, ste, su) mit einem **l-Partizip**, das sich nach dem Geschlecht des Subjekts richtet: **radio** (m.), **radila** (f.), **radilo** (n.), **radili** (m./gemischter Plural), **radile** (f. Plural). *Radio sam* (Ich habe gearbeitet — von einem Mann gesagt) gegenüber *Radila sam* (Ich habe gearbeitet — von einer Frau gesagt). Das Hilfsverb **biti** entspricht hier dem deutschen *sein*-Perfekt, aber anders als im Deutschen (wo das Partizip nie das Geschlecht markiert) stimmt das kroatische Partizip immer mit dem Geschlecht des Subjekts überein.",
+        "es": "El tiempo pasado cotidiano del croata combina una forma corta de **biti** (sam, si, je, smo, ste, su) con un **participio en -l** que concuerda con el género del sujeto: **radio** (m.), **radila** (f.), **radilo** (n.), **radili** (m./plural mixto), **radile** (f. plural). *Radio sam* (Trabajé — dicho por un hombre) frente a *Radila sam* (Trabajé — dicho por una mujer). El español perdió por completo esta concordancia de género en los tiempos compuestos — el participio con *haber* es siempre invariable."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-past-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-past-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "The l-participle comes from the infinitive stem: *raditi* → **radio/radila**, *učiti* → **učio/učila**. The **biti** clitic (sam/si/je...) follows Croatian's second-position rule, just like in statements with *biti* alone.",
+      "i18n": {
+        "it": "Il participio in -l deriva dal tema dell'infinito: *raditi* → **radio/radila**, *učiti* → **učio/učila**. Il clitico di **biti** (sam/si/je...) segue la regola croata della seconda posizione, proprio come nelle frasi con *biti* da solo.",
+        "fr": "Le participe en -l vient du radical de l'infinitif : *raditi* → **radio/radila**, *učiti* → **učio/učila**. Le clitique de **biti** (sam/si/je...) suit la règle croate de la deuxième position, tout comme dans les phrases avec *biti* seul.",
+        "de": "Das l-Partizip kommt vom Infinitivstamm: *raditi* → **radio/radila**, *učiti* → **učio/učila**. Das **biti**-Klitikum (sam/si/je...) folgt der kroatischen Zweitstellungsregel, genau wie in Sätzen mit *biti* allein.",
+        "es": "El participio en -l viene de la raíz del infinitivo: *raditi* → **radio/radila**, *učiti* → **učio/učila**. El clítico de **biti** (sam/si/je...) sigue la regla croata de la segunda posición, igual que en las frases con *biti* solo."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-past-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +48,76 @@
       "type": "fill-blank",
       "prompt": "A woman says: Cijeli dan ___ radila. (biti — She worked all day.)",
       "answer": "je",
-      "relatedItemId": "hr-vocab-routine-011"
+      "relatedItemId": "hr-vocab-routine-011",
+      "i18n": {
+        "it": {
+          "prompt": "Una donna dice: Cijeli dan ___ radila. (biti — Ha lavorato tutto il giorno.)"
+        },
+        "fr": {
+          "prompt": "Une femme dit : Cijeli dan ___ radila. (biti — Elle a travaillé toute la journée.)"
+        },
+        "de": {
+          "prompt": "Eine Frau sagt: Cijeli dan ___ radila. (biti — Sie hat den ganzen Tag gearbeitet.)"
+        },
+        "es": {
+          "prompt": "Una mujer dice: Cijeli dan ___ radila. (biti — Trabajó todo el día.)"
+        }
+      }
     },
     {
       "id": "hr-ex-past-2",
       "type": "multiple-choice",
       "prompt": "A man says \"I worked\". Which form is correct?",
       "answer": "Radio sam.",
-      "distractors": ["Radila sam.", "Radilo sam.", "Radili sam."],
-      "relatedItemId": "hr-vocab-routine-011"
+      "distractors": [
+        "Radila sam.",
+        "Radilo sam.",
+        "Radili sam."
+      ],
+      "relatedItemId": "hr-vocab-routine-011",
+      "i18n": {
+        "it": {
+          "prompt": "Un uomo dice \"Ho lavorato\". Quale forma è corretta?"
+        },
+        "fr": {
+          "prompt": "Un homme dit \"J'ai travaillé\". Quelle forme est correcte ?"
+        },
+        "de": {
+          "prompt": "Ein Mann sagt \"Ich habe gearbeitet\". Welche Form ist richtig?"
+        },
+        "es": {
+          "prompt": "Un hombre dice \"Trabajé\". ¿Qué forma es correcta?"
+        }
+      }
     },
     {
       "id": "hr-ex-past-3",
       "type": "translate",
       "prompt": "Translate: \"We studied.\" (učiti — plural, mixed/masculine group)",
-      "answer": ["Učili smo."],
-      "relatedItemId": "hr-vocab-routine-012"
+      "answer": [
+        "Učili smo."
+      ],
+      "relatedItemId": "hr-vocab-routine-012",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Abbiamo studiato.\" (učiti — plurale, gruppo misto/maschile)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Nous avons étudié.\" (učiti — pluriel, groupe mixte/masculin)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Wir haben gelernt.\" (učiti — Plural, gemischte/männliche Gruppe)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Estudiamos.\" (učiti — plural, grupo mixto/masculino)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Tempo passato (Perfekt)",
+    "fr": "Temps passé (Perfekt)",
+    "de": "Vergangenheit (Perfekt)",
+    "es": "Tiempo pasado (Perfekt)"
+  }
 }

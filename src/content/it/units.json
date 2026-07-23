@@ -9,7 +9,10 @@
       "it-lesson-articles"
     ],
     "titleByLang": {
-      "hr": "Prvi koraci"
+      "hr": "Prvi koraci",
+      "fr": "Premiers pas",
+      "de": "Erste Schritte",
+      "es": "Primeros pasos"
     }
   },
   {
@@ -21,7 +24,13 @@
       "it-lesson-essere",
       "it-lesson-avere",
       "it-lesson-numbers"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Essere i Avere",
+      "fr": "Essere et Avere",
+      "de": "Essere und Avere",
+      "es": "Essere y Avere"
+    }
   },
   {
     "id": "it-unit-3",
@@ -32,7 +41,13 @@
       "it-lesson-are-verbs",
       "it-lesson-word-order",
       "it-lesson-food-travel"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Svakodnevni život",
+      "fr": "Vie quotidienne",
+      "de": "Alltagsleben",
+      "es": "Vida cotidiana"
+    }
   },
   {
     "id": "it-unit-4",
@@ -43,7 +58,13 @@
       "it-lesson-ere-ire-verbs",
       "it-lesson-modal-verbs",
       "it-lesson-reflexive-verbs"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Glagoli detaljnije",
+      "fr": "Verbes en détail",
+      "de": "Verben im Detail",
+      "es": "Verbos en detalle"
+    }
   },
   {
     "id": "it-unit-5",
@@ -53,7 +74,13 @@
     "lessonIds": [
       "it-lesson-adjectives",
       "it-lesson-prepositions"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Opisivanje i povezivanje",
+      "fr": "Décrire et relier",
+      "de": "Beschreiben und Verbinden",
+      "es": "Describir y conectar"
+    }
   },
   {
     "id": "it-unit-6",
@@ -63,7 +90,13 @@
     "lessonIds": [
       "it-lesson-passato-prossimo-avere",
       "it-lesson-passato-prossimo-essere"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Govor o prošlosti",
+      "fr": "Parler du passé",
+      "de": "Über die Vergangenheit sprechen",
+      "es": "Hablar del pasado"
+    }
   },
   {
     "id": "it-unit-7",
@@ -73,7 +106,13 @@
     "lessonIds": [
       "it-lesson-imperfetto",
       "it-lesson-futuro-semplice"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Više glagolskih vremena",
+      "fr": "Plus de temps verbaux",
+      "de": "Weitere Zeitformen",
+      "es": "Más tiempos verbales"
+    }
   },
   {
     "id": "it-unit-8",
@@ -84,7 +123,13 @@
       "it-lesson-comparatives",
       "it-lesson-direct-object-pronouns",
       "it-lesson-indirect-object-pronouns"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Uspoređivanje i zamjenice",
+      "fr": "Comparer et pronoms",
+      "de": "Vergleichen und Pronomen",
+      "es": "Comparar y pronombres"
+    }
   },
   {
     "id": "it-unit-9",
@@ -94,7 +139,13 @@
     "lessonIds": [
       "it-lesson-ci-ne",
       "it-lesson-relative-pronouns"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Čestice i odnosne zamjenice",
+      "fr": "Particules et pronoms relatifs",
+      "de": "Partikel und Relativpronomen",
+      "es": "Partículas y pronombres relativos"
+    }
   },
   {
     "id": "it-unit-10",
@@ -105,6 +156,12 @@
       "it-lesson-condizionale",
       "it-lesson-superlative",
       "it-lesson-impersonal-si"
-    ]
+    ],
+    "titleByLang": {
+      "hr": "Kondicional, superlativi i bezlično si",
+      "fr": "Conditionnel, superlatifs et si impersonnel",
+      "de": "Konditional, Superlative und unpersönliches Si",
+      "es": "Condicional, superlativos y si impersonal"
+    }
   }
 ]

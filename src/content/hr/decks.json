@@ -35,7 +35,13 @@
       "hr-vocab-greet-028",
       "hr-vocab-greet-029",
       "hr-vocab-greet-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Saluti e cortesia",
+      "de": "Begrüßungen und Höflichkeit",
+      "es": "Saludos y cortesía",
+      "fr": "Salutations et politesse"
+    }
   },
   {
     "id": "hr-deck-food",
@@ -78,7 +84,13 @@
       "hr-vocab-food-033",
       "hr-vocab-food-034",
       "hr-vocab-food-035"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Cibo e pasti",
+      "de": "Essen und Trinken",
+      "es": "Comida y bebida",
+      "fr": "Nourriture et repas"
+    }
   },
   {
     "id": "hr-deck-travel",
@@ -121,7 +133,13 @@
       "hr-vocab-travel-033",
       "hr-vocab-travel-034",
       "hr-vocab-travel-035"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Viaggi e indicazioni",
+      "de": "Reisen und Wegbeschreibungen",
+      "es": "Viajes y direcciones",
+      "fr": "Voyages et directions"
+    }
   },
   {
     "id": "hr-deck-routine",
@@ -159,7 +177,13 @@
       "hr-vocab-routine-028",
       "hr-vocab-routine-029",
       "hr-vocab-routine-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Routine quotidiana e famiglia",
+      "de": "Alltagsroutine und Familie",
+      "es": "Rutina diaria y familia",
+      "fr": "Routine quotidienne et famille"
+    }
   },
   {
     "id": "hr-deck-numtime",
@@ -197,7 +221,13 @@
       "hr-vocab-numtime-028",
       "hr-vocab-numtime-029",
       "hr-vocab-numtime-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Numeri e ora",
+      "de": "Zahlen und Uhrzeit",
+      "es": "Números y hora",
+      "fr": "Nombres et heure"
+    }
   },
   {
     "id": "hr-deck-home",
@@ -235,7 +265,13 @@
       "hr-vocab-home-028",
       "hr-vocab-home-029",
       "hr-vocab-home-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Casa e abitazione",
+      "de": "Wohnung",
+      "es": "Hogar y vivienda",
+      "fr": "Maison et logement"
+    }
   },
   {
     "id": "hr-deck-body",
@@ -273,7 +309,13 @@
       "hr-vocab-body-028",
       "hr-vocab-body-029",
       "hr-vocab-body-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Corpo e salute",
+      "de": "Körper und Gesundheit",
+      "es": "Cuerpo y salud",
+      "fr": "Corps et santé"
+    }
   },
   {
     "id": "hr-deck-weather",
@@ -311,7 +353,13 @@
       "hr-vocab-weather-028",
       "hr-vocab-weather-029",
       "hr-vocab-weather-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Tempo e natura",
+      "de": "Wetter und Natur",
+      "es": "Clima y naturaleza",
+      "fr": "Météo et nature"
+    }
   },
   {
     "id": "hr-deck-work",
@@ -349,7 +397,13 @@
       "hr-vocab-work-028",
       "hr-vocab-work-029",
       "hr-vocab-work-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Lavoro e istruzione",
+      "de": "Arbeit und Bildung",
+      "es": "Trabajo y educación",
+      "fr": "Travail et éducation"
+    }
   },
   {
     "id": "hr-deck-music-arts",
@@ -387,7 +441,13 @@
       "hr-vocab-music-arts-028",
       "hr-vocab-music-arts-029",
       "hr-vocab-music-arts-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Musica e arte",
+      "de": "Musik und Kunst",
+      "es": "Música y arte",
+      "fr": "Musique et art"
+    }
   },
   {
     "id": "hr-deck-technology",
@@ -425,7 +485,13 @@
       "hr-vocab-technology-028",
       "hr-vocab-technology-029",
       "hr-vocab-technology-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Tecnologia e comunicazione",
+      "de": "Technologie und Kommunikation",
+      "es": "Tecnología y comunicación",
+      "fr": "Technologie et communication"
+    }
   },
   {
     "id": "hr-deck-shopping",
@@ -463,7 +529,13 @@
       "hr-vocab-shopping-028",
       "hr-vocab-shopping-029",
       "hr-vocab-shopping-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Acquisti e denaro",
+      "de": "Einkaufen und Geld",
+      "es": "Compras y dinero",
+      "fr": "Achats et argent"
+    }
   },
   {
     "id": "hr-deck-sports-hobbies",
@@ -501,7 +573,13 @@
       "hr-vocab-sports-hobbies-028",
       "hr-vocab-sports-hobbies-029",
       "hr-vocab-sports-hobbies-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Sport e hobby",
+      "de": "Sport und Hobbys",
+      "es": "Deportes y aficiones",
+      "fr": "Sports et loisirs"
+    }
   },
   {
     "id": "hr-deck-emotions",
@@ -539,7 +617,13 @@
       "hr-vocab-emotions-028",
       "hr-vocab-emotions-029",
       "hr-vocab-emotions-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Emozioni e personalità",
+      "de": "Emotionen und Persönlichkeit",
+      "es": "Emociones y personalidad",
+      "fr": "Émotions et personnalité"
+    }
   },
   {
     "id": "hr-deck-city-transport",
@@ -577,7 +661,13 @@
       "hr-vocab-city-transport-028",
       "hr-vocab-city-transport-029",
       "hr-vocab-city-transport-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Città e trasporti",
+      "de": "Stadt und Verkehr",
+      "es": "Ciudad y transporte",
+      "fr": "Ville et transports"
+    }
   },
   {
     "id": "hr-deck-holidays",
@@ -615,7 +705,13 @@
       "hr-vocab-holidays-028",
       "hr-vocab-holidays-029",
       "hr-vocab-holidays-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Festività e celebrazioni",
+      "de": "Feiertage und Feiern",
+      "es": "Fiestas y celebraciones",
+      "fr": "Fêtes et célébrations"
+    }
   },
   {
     "id": "hr-deck-cooking",
@@ -653,7 +749,13 @@
       "hr-vocab-cooking-028",
       "hr-vocab-cooking-029",
       "hr-vocab-cooking-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Cucina e utensili",
+      "de": "Kochen und Küche",
+      "es": "Cocina y gastronomía",
+      "fr": "Cuisine"
+    }
   },
   {
     "id": "hr-deck-society",
@@ -691,7 +793,13 @@
       "hr-vocab-society-028",
       "hr-vocab-society-029",
       "hr-vocab-society-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Società e governo",
+      "de": "Gesellschaft und Regierung",
+      "es": "Sociedad y gobierno",
+      "fr": "Société et gouvernement"
+    }
   },
   {
     "id": "hr-deck-countries",
@@ -729,7 +837,13 @@
       "hr-vocab-countries-028",
       "hr-vocab-countries-029",
       "hr-vocab-countries-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Paesi e nazionalità",
+      "de": "Länder und Nationalitäten",
+      "es": "Países y nacionalidades",
+      "fr": "Pays et nationalités"
+    }
   },
   {
     "id": "hr-deck-materials",
@@ -767,7 +881,13 @@
       "hr-vocab-materials-028",
       "hr-vocab-materials-029",
       "hr-vocab-materials-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Materiali e forme",
+      "de": "Materialien und Formen",
+      "es": "Materiales y formas",
+      "fr": "Matériaux et formes"
+    }
   },
   {
     "id": "hr-deck-business",
@@ -805,7 +925,13 @@
       "hr-vocab-business-028",
       "hr-vocab-business-029",
       "hr-vocab-business-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Economia e finanza",
+      "de": "Wirtschaft und Finanzen",
+      "es": "Negocios y finanzas",
+      "fr": "Affaires et finances"
+    }
   },
   {
     "id": "hr-deck-idioms",
@@ -843,7 +969,13 @@
       "hr-vocab-idioms-028",
       "hr-vocab-idioms-029",
       "hr-vocab-idioms-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Espressioni comuni",
+      "de": "Gängige Ausdrücke",
+      "es": "Expresiones comunes",
+      "fr": "Expressions courantes"
+    }
   },
   {
     "id": "hr-deck-connectors",
@@ -881,7 +1013,13 @@
       "hr-vocab-connectors-028",
       "hr-vocab-connectors-029",
       "hr-vocab-connectors-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Congiunzioni e connettivi",
+      "de": "Konjunktionen und Bindewörter",
+      "es": "Conjunciones y conectores",
+      "fr": "Conjonctions et connecteurs"
+    }
   },
   {
     "id": "hr-deck-clothing",
@@ -919,7 +1057,13 @@
       "hr-vocab-clothing-028",
       "hr-vocab-clothing-029",
       "hr-vocab-clothing-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Abbigliamento e moda",
+      "de": "Kleidung und Mode",
+      "es": "Ropa y moda",
+      "fr": "Vêtements et mode"
+    }
   },
   {
     "id": "hr-deck-weather-disasters",
@@ -957,7 +1101,13 @@
       "hr-vocab-weather-disasters-028",
       "hr-vocab-weather-disasters-029",
       "hr-vocab-weather-disasters-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Fenomeni meteorologici e catastrofi naturali",
+      "de": "Wetterphänomene und Naturkatastrophen",
+      "es": "Fenómenos meteorológicos y desastres naturales",
+      "fr": "Phénomènes météorologiques et catastrophes naturelles"
+    }
   },
   {
     "id": "hr-deck-farming",
@@ -995,7 +1145,13 @@
       "hr-vocab-farming-028",
       "hr-vocab-farming-029",
       "hr-vocab-farming-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Agricoltura",
+      "de": "Landwirtschaft",
+      "es": "Agricultura",
+      "fr": "Agriculture"
+    }
   },
   {
     "id": "hr-deck-diy",
@@ -1033,7 +1189,13 @@
       "hr-vocab-diy-028",
       "hr-vocab-diy-029",
       "hr-vocab-diy-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Ristrutturazione e fai da te",
+      "de": "Heimwerken",
+      "es": "Bricolaje",
+      "fr": "Bricolage"
+    }
   },
   {
     "id": "hr-deck-banking",
@@ -1071,7 +1233,13 @@
       "hr-vocab-banking-028",
       "hr-vocab-banking-029",
       "hr-vocab-banking-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Banche e assicurazioni",
+      "de": "Banken und Versicherungen",
+      "es": "Banca y seguros",
+      "fr": "Banque et assurance"
+    }
   },
   {
     "id": "hr-deck-public-services",
@@ -1109,7 +1277,13 @@
       "hr-vocab-public-services-028",
       "hr-vocab-public-services-029",
       "hr-vocab-public-services-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Servizi pubblici e utenze",
+      "de": "Öffentliche Dienste",
+      "es": "Servicios públicos",
+      "fr": "Services publics"
+    }
   },
   {
     "id": "hr-deck-relationships",
@@ -1147,7 +1321,13 @@
       "hr-vocab-relationships-028",
       "hr-vocab-relationships-029",
       "hr-vocab-relationships-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Relazioni ed eventi della vita",
+      "de": "Beziehungen und Lebensereignisse",
+      "es": "Relaciones y eventos de la vida",
+      "fr": "Relations et événements de la vie"
+    }
   },
   {
     "id": "hr-deck-media-news",
@@ -1185,7 +1365,13 @@
       "hr-vocab-media-news-028",
       "hr-vocab-media-news-029",
       "hr-vocab-media-news-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Media e notizie",
+      "de": "Medien und Nachrichten",
+      "es": "Medios y noticias",
+      "fr": "Médias et actualités"
+    }
   },
   {
     "id": "hr-deck-science-space",
@@ -1223,7 +1409,13 @@
       "hr-vocab-science-space-028",
       "hr-vocab-science-space-029",
       "hr-vocab-science-space-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Scienza e spazio",
+      "de": "Wissenschaft und Weltraum",
+      "es": "Ciencia y espacio",
+      "fr": "Science et espace"
+    }
   },
   {
     "id": "hr-deck-law-crime",
@@ -1261,6 +1453,12 @@
       "hr-vocab-law-crime-028",
       "hr-vocab-law-crime-029",
       "hr-vocab-law-crime-030"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Diritto e criminalità",
+      "de": "Recht und Kriminalität",
+      "es": "Derecho y crimen",
+      "fr": "Droit et criminalité"
+    }
   }
 ]

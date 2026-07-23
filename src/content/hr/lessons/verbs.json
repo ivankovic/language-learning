@@ -5,13 +5,36 @@
   "unitId": "hr-unit-3",
   "order": 1,
   "title": "Regular Verbs (-ati)",
-  "prerequisiteIds": ["hr-lesson-numbers"],
+  "prerequisiteIds": [
+    "hr-lesson-numbers"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Most Croatian verbs ending in **-ati** (like *gledati*, *slušati*, *kuhati*) follow a regular pattern in the present tense:\n\nja **-am** · ti **-aš** · on/ona/ono **-a** · mi **-amo** · vi **-ate** · oni/one/ona **-aju**\n\ne.g. *gledati* → gled**am**, gled**aš**, gled**a**, gled**amo**, gled**ate**, gled**aju**." },
-    { "type": "exercise", "exerciseId": "hr-ex-verbs-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-verbs-2" },
-    { "type": "exercise", "exerciseId": "hr-ex-verbs-3" },
-    { "type": "exercise", "exerciseId": "hr-ex-verbs-4" }
+    {
+      "type": "explanation",
+      "markdown": "Most Croatian verbs ending in **-ati** (like *gledati*, *slušati*, *kuhati*) follow a regular pattern in the present tense:\n\nja **-am** · ti **-aš** · on/ona/ono **-a** · mi **-amo** · vi **-ate** · oni/one/ona **-aju**\n\ne.g. *gledati* → gled**am**, gled**aš**, gled**a**, gled**amo**, gled**ate**, gled**aju**.",
+      "i18n": {
+        "it": "La maggior parte dei verbi croati che terminano in **-ati** (come *gledati*, *slušati*, *kuhati*) seguono un modello regolare al presente:\n\nja **-am** · ti **-aš** · on/ona/ono **-a** · mi **-amo** · vi **-ate** · oni/one/ona **-aju**\n\nes. *gledati* → gled**am**, gled**aš**, gled**a**, gled**amo**, gled**ate**, gled**aju**.",
+        "fr": "La plupart des verbes croates qui se terminent en **-ati** (comme *gledati*, *slušati*, *kuhati*) suivent un modèle régulier au présent :\n\nja **-am** · ti **-aš** · on/ona/ono **-a** · mi **-amo** · vi **-ate** · oni/one/ona **-aju**\n\np. ex. *gledati* → gled**am**, gled**aš**, gled**a**, gled**amo**, gled**ate**, gled**aju**.",
+        "de": "Die meisten kroatischen Verben, die auf **-ati** enden (wie *gledati*, *slušati*, *kuhati*), folgen im Präsens einem regelmäßigen Muster:\n\nja **-am** · ti **-aš** · on/ona/ono **-a** · mi **-amo** · vi **-ate** · oni/one/ona **-aju**\n\nz.B. *gledati* → gled**am**, gled**aš**, gled**a**, gled**amo**, gled**ate**, gled**aju**.",
+        "es": "La mayoría de los verbos croatas que terminan en **-ati** (como *gledati*, *slušati*, *kuhati*) siguen un patrón regular en presente:\n\nja **-am** · ti **-aš** · on/ona/ono **-a** · mi **-amo** · vi **-ate** · oni/one/ona **-aju**\n\np. ej. *gledati* → gled**am**, gled**aš**, gled**a**, gled**amo**, gled**ate**, gled**aju**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-verbs-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-verbs-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-verbs-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-verbs-4"
+    }
   ],
   "exercises": [
     {
@@ -19,29 +42,98 @@
       "type": "fill-blank",
       "prompt": "Ja ___ televiziju. (gledati — I watch TV.)",
       "answer": "gledam",
-      "relatedItemId": "hr-vocab-routine-019"
+      "relatedItemId": "hr-vocab-routine-019",
+      "i18n": {
+        "it": {
+          "prompt": "Ja ___ televiziju. (gledati — Guardo la TV.)"
+        },
+        "fr": {
+          "prompt": "Ja ___ televiziju. (gledati — Je regarde la télé.)"
+        },
+        "de": {
+          "prompt": "Ja ___ televiziju. (gledati — Ich sehe fern.)"
+        },
+        "es": {
+          "prompt": "Ja ___ televiziju. (gledati — Veo la televisión.)"
+        }
+      }
     },
     {
       "id": "hr-ex-verbs-2",
       "type": "multiple-choice",
       "prompt": "Mi ___ večeru. (kuhati — We cook dinner.)",
       "answer": "kuhamo",
-      "distractors": ["kuham", "kuhaš", "kuhaju"],
-      "relatedItemId": "hr-vocab-routine-021"
+      "distractors": [
+        "kuham",
+        "kuhaš",
+        "kuhaju"
+      ],
+      "relatedItemId": "hr-vocab-routine-021",
+      "i18n": {
+        "it": {
+          "prompt": "Mi ___ večeru. (kuhati — Cuciniamo la cena.)"
+        },
+        "fr": {
+          "prompt": "Mi ___ večeru. (kuhati — Nous cuisinons le dîner.)"
+        },
+        "de": {
+          "prompt": "Mi ___ večeru. (kuhati — Wir kochen das Abendessen.)"
+        },
+        "es": {
+          "prompt": "Mi ___ večeru. (kuhati — Cocinamos la cena.)"
+        }
+      }
     },
     {
       "id": "hr-ex-verbs-3",
       "type": "fill-blank",
       "prompt": "Ti ___ osam sati. (spavati — You sleep eight hours.)",
       "answer": "spavaš",
-      "relatedItemId": "hr-vocab-routine-013"
+      "relatedItemId": "hr-vocab-routine-013",
+      "i18n": {
+        "it": {
+          "prompt": "Ti ___ osam sati. (spavati — Dormi otto ore.)"
+        },
+        "fr": {
+          "prompt": "Ti ___ osam sati. (spavati — Tu dors huit heures.)"
+        },
+        "de": {
+          "prompt": "Ti ___ osam sati. (spavati — Du schläfst acht Stunden.)"
+        },
+        "es": {
+          "prompt": "Ti ___ osam sati. (spavati — Duermes ocho horas.)"
+        }
+      }
     },
     {
       "id": "hr-ex-verbs-4",
       "type": "translate",
       "prompt": "Translate: \"They speak Croatian.\"",
-      "answer": ["Oni govore hrvatski.", "Govore hrvatski."],
-      "relatedItemId": "hr-vocab-routine-016"
+      "answer": [
+        "Oni govore hrvatski.",
+        "Govore hrvatski."
+      ],
+      "relatedItemId": "hr-vocab-routine-016",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Loro parlano croato.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Ils parlent croate.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie sprechen Kroatisch.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Ellos hablan croata.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Verbi regolari (-ati)",
+    "fr": "Verbes réguliers (-ati)",
+    "de": "Regelmäßige Verben (-ati)",
+    "es": "Verbos regulares (-ati)"
+  }
 }

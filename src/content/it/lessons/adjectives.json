@@ -5,12 +5,32 @@
   "unitId": "it-unit-5",
   "order": 1,
   "title": "Adjective Agreement",
-  "prerequisiteIds": ["it-lesson-reflexive-verbs"],
+  "prerequisiteIds": [
+    "it-lesson-reflexive-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Italian adjectives agree in **gender** and **number** with the noun they describe, and usually come **after** the noun. Most adjectives ending in **-o** change to **-a** (feminine), **-i** (masc. plural), **-e** (fem. plural): *piccolo → piccola, piccoli, piccole*. Adjectives ending in **-e** (like *grande*, *veloce*) only change for plural: **-e → -i** for both genders." },
-    { "type": "exercise", "exerciseId": "it-ex-adj-1" },
-    { "type": "exercise", "exerciseId": "it-ex-adj-2" },
-    { "type": "exercise", "exerciseId": "it-ex-adj-3" }
+    {
+      "type": "explanation",
+      "markdown": "Italian adjectives agree in **gender** and **number** with the noun they describe, and usually come **after** the noun. Most adjectives ending in **-o** change to **-a** (feminine), **-i** (masc. plural), **-e** (fem. plural): *piccolo → piccola, piccoli, piccole*. Adjectives ending in **-e** (like *grande*, *veloce*) only change for plural: **-e → -i** for both genders.",
+      "i18n": {
+        "hr": "Talijanski pridjevi slažu se u **rodu** i **broju** s imenicom koju opisuju, i obično dolaze **iza** imenice. Većina pridjeva koji završavaju na **-o** mijenja se u **-a** (ženski rod), **-i** (m. množina), **-e** (ž. množina): *piccolo → piccola, piccoli, piccole*. Pridjevi koji završavaju na **-e** (poput *grande*, *veloce*) mijenjaju se samo za množinu: **-e → -i** za oba roda.",
+        "fr": "Les adjectifs italiens s'accordent en **genre** et en **nombre** avec le nom qu'ils décrivent, et se placent généralement **après** le nom. La plupart des adjectifs en **-o** deviennent **-a** (féminin), **-i** (masc. pluriel), **-e** (fém. pluriel) : *piccolo → piccola, piccoli, piccole*. Les adjectifs en **-e** (comme *grande*, *veloce*) ne changent que pour le pluriel : **-e → -i** pour les deux genres.",
+        "de": "Italienische Adjektive stimmen in **Geschlecht** und **Zahl** mit dem Substantiv überein, das sie beschreiben, und stehen meist **nach** dem Substantiv. Die meisten Adjektive auf **-o** werden zu **-a** (weiblich), **-i** (m. Plural), **-e** (f. Plural): *piccolo → piccola, piccoli, piccole*. Adjektive auf **-e** (wie *grande*, *veloce*) ändern sich nur im Plural: **-e → -i** für beide Geschlechter.",
+        "es": "Los adjetivos italianos concuerdan en **género** y **número** con el sustantivo que describen, y normalmente van **después** del sustantivo. La mayoría de los adjetivos que terminan en **-o** cambian a **-a** (femenino), **-i** (m. plural), **-e** (f. plural): *piccolo → piccola, piccoli, piccole*. Los adjetivos que terminan en **-e** (como *grande*, *veloce*) solo cambian para el plural: **-e → -i** para ambos géneros."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-adj-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-adj-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-adj-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,76 @@
       "type": "fill-blank",
       "prompt": "La casa è ___ . (piccolo, agreeing with \"casa\" — feminine)",
       "answer": "piccola",
-      "relatedItemId": "it-vocab-adj-002"
+      "relatedItemId": "it-vocab-adj-002",
+      "i18n": {
+        "hr": {
+          "prompt": "La casa è ___ . (piccolo, slaže se s \"casa\" — ženski rod)"
+        },
+        "fr": {
+          "prompt": "La casa è ___ . (piccolo, s'accorde avec \"casa\" — féminin)"
+        },
+        "de": {
+          "prompt": "La casa è ___ . (piccolo, stimmt mit \"casa\" überein — weiblich)"
+        },
+        "es": {
+          "prompt": "La casa è ___ . (piccolo, concuerda con \"casa\" — femenino)"
+        }
+      }
     },
     {
       "id": "it-ex-adj-2",
       "type": "multiple-choice",
       "prompt": "I libri sono ___ . (nuovo, agreeing with \"libri\" — masculine plural)",
       "answer": "nuovi",
-      "distractors": ["nuovo", "nuova", "nuove"],
-      "relatedItemId": "it-vocab-adj-007"
+      "distractors": [
+        "nuovo",
+        "nuova",
+        "nuove"
+      ],
+      "relatedItemId": "it-vocab-adj-007",
+      "i18n": {
+        "hr": {
+          "prompt": "I libri sono ___ . (nuovo, slaže se s \"libri\" — muški rod, množina)"
+        },
+        "fr": {
+          "prompt": "I libri sono ___ . (nuovo, s'accorde avec \"libri\" — masculin pluriel)"
+        },
+        "de": {
+          "prompt": "I libri sono ___ . (nuovo, stimmt mit \"libri\" überein — männlich, Plural)"
+        },
+        "es": {
+          "prompt": "I libri sono ___ . (nuovo, concuerda con \"libri\" — masculino plural)"
+        }
+      }
     },
     {
       "id": "it-ex-adj-3",
       "type": "translate",
       "prompt": "Translate: \"The mountains are tall.\" (montagne — feminine plural)",
-      "answer": ["Le montagne sono alte."],
-      "relatedItemId": "it-vocab-adj-015"
+      "answer": [
+        "Le montagne sono alte."
+      ],
+      "relatedItemId": "it-vocab-adj-015",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Planine su visoke.\" (montagne — ženski rod, množina)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Les montagnes sont hautes.\" (montagne — féminin pluriel)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Die Berge sind hoch.\" (montagne — weiblich, Plural)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Las montañas son altas.\" (montagne — femenino plural)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Slaganje pridjeva",
+    "fr": "Accord des adjectifs",
+    "de": "Adjektivkongruenz",
+    "es": "Concordancia de adjetivos"
+  }
 }

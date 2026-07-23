@@ -7,7 +7,13 @@
     "lessonIds": [
       "hr-lesson-greetings",
       "hr-lesson-gender"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Primi passi",
+      "fr": "Premiers pas",
+      "de": "Erste Schritte",
+      "es": "Primeros pasos"
+    }
   },
   {
     "id": "hr-unit-2",
@@ -18,7 +24,13 @@
       "hr-lesson-biti",
       "hr-lesson-imati",
       "hr-lesson-numbers"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Biti e Imati",
+      "fr": "Biti et Imati",
+      "de": "Biti und Imati",
+      "es": "Biti y Imati"
+    }
   },
   {
     "id": "hr-unit-3",
@@ -29,7 +41,13 @@
       "hr-lesson-verbs",
       "hr-lesson-word-order",
       "hr-lesson-food-travel"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Vita quotidiana",
+      "fr": "Vie quotidienne",
+      "de": "Alltag",
+      "es": "Vida cotidiana"
+    }
   },
   {
     "id": "hr-unit-4",
@@ -40,7 +58,13 @@
       "hr-lesson-accusative-case",
       "hr-lesson-genitive-case",
       "hr-lesson-locative-case"
-    ]
+    ],
+    "titleByLang": {
+      "it": "I casi",
+      "fr": "Les cas",
+      "de": "Die Fälle",
+      "es": "Los casos"
+    }
   },
   {
     "id": "hr-unit-5",
@@ -51,6 +75,12 @@
       "hr-lesson-past-tense",
       "hr-lesson-numbers-with-nouns",
       "hr-lesson-reflexive-verbs"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Tempo passato e altra grammatica",
+      "fr": "Temps passé et autres notions de grammaire",
+      "de": "Vergangenheit und weitere Grammatik",
+      "es": "Tiempo pasado y más gramática"
+    }
   }
 ]

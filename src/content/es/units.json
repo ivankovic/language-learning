@@ -7,7 +7,13 @@
     "lessonIds": [
       "es-lesson-greetings",
       "es-lesson-articles"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Primi passi",
+      "fr": "Premiers pas",
+      "de": "Erste Schritte",
+      "hr": "Prvi koraci"
+    }
   },
   {
     "id": "es-unit-2",
@@ -18,7 +24,13 @@
       "es-lesson-ser",
       "es-lesson-estar",
       "es-lesson-tener"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Ser, Estar e Tener",
+      "fr": "Ser, Estar et Tener",
+      "de": "Ser, Estar und Tener",
+      "hr": "Ser, Estar i Tener"
+    }
   },
   {
     "id": "es-unit-3",
@@ -29,6 +41,12 @@
       "es-lesson-ar-verbs",
       "es-lesson-gustar",
       "es-lesson-food-travel"
-    ]
+    ],
+    "titleByLang": {
+      "it": "Vita quotidiana",
+      "fr": "Vie quotidienne",
+      "de": "Alltag",
+      "hr": "Svakodnevni život"
+    }
   }
 ]

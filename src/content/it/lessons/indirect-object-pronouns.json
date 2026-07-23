@@ -5,12 +5,32 @@
   "unitId": "it-unit-8",
   "order": 3,
   "title": "Indirect Object Pronouns: mi, ti, gli, le, ci, vi",
-  "prerequisiteIds": ["it-lesson-direct-object-pronouns"],
+  "prerequisiteIds": [
+    "it-lesson-direct-object-pronouns"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Indirect object pronouns replace \"to/for someone\" and also go before the conjugated verb: **mi** (to me), **ti** (to you), **gli** (to him), **le** (to her), **ci** (to us), **vi** (to you plural), **gli** (to them, standard in modern spoken Italian).\n\n*Scrivo una lettera a mia madre* → *Le scrivo una lettera*. *Do le chiavi a loro* → *Gli do le chiavi*." },
-    { "type": "exercise", "exerciseId": "it-ex-iop-1" },
-    { "type": "exercise", "exerciseId": "it-ex-iop-2" },
-    { "type": "exercise", "exerciseId": "it-ex-iop-3" }
+    {
+      "type": "explanation",
+      "markdown": "Indirect object pronouns replace \"to/for someone\" and also go before the conjugated verb: **mi** (to me), **ti** (to you), **gli** (to him), **le** (to her), **ci** (to us), **vi** (to you plural), **gli** (to them, standard in modern spoken Italian).\n\n*Scrivo una lettera a mia madre* → *Le scrivo una lettera*. *Do le chiavi a loro* → *Gli do le chiavi*.",
+      "i18n": {
+        "hr": "Zamjenice za neizravni objekt zamjenjuju izraz \"nekome/za nekoga\" i također dolaze ispred spregnutog glagola: **mi** (meni), **ti** (tebi), **gli** (njemu), **le** (njoj), **ci** (nama), **vi** (vama), **gli** (njima, standardno u suvremenom govornom talijanskom).\n\n*Scrivo una lettera a mia madre* → *Le scrivo una lettera*. *Do le chiavi a loro* → *Gli do le chiavi*.",
+        "fr": "Les pronoms compléments d'objet indirect remplacent \"à quelqu'un\" et se placent aussi avant le verbe conjugué : **mi** (à moi), **ti** (à toi), **gli** (à lui), **le** (à elle), **ci** (à nous), **vi** (à vous), **gli** (à eux/elles, standard en italien parlé moderne).\n\n*Scrivo una lettera a mia madre* → *Le scrivo una lettera*. *Do le chiavi a loro* → *Gli do le chiavi*.",
+        "de": "Indirekte Objektpronomen ersetzen \"jemandem/für jemanden\" und stehen ebenfalls vor dem konjugierten Verb: **mi** (mir), **ti** (dir), **gli** (ihm), **le** (ihr), **ci** (uns), **vi** (euch), **gli** (ihnen, im modernen gesprochenen Italienisch üblich).\n\n*Scrivo una lettera a mia madre* → *Le scrivo una lettera*. *Do le chiavi a loro* → *Gli do le chiavi*.",
+        "es": "Los pronombres de objeto indirecto reemplazan \"a/para alguien\" y también van antes del verbo conjugado: **mi** (a mí), **ti** (a ti), **gli** (a él), **le** (a ella), **ci** (a nosotros), **vi** (a vosotros), **gli** (a ellos/ellas, estándar en el italiano hablado moderno).\n\n*Scrivo una lettera a mia madre* → *Le scrivo una lettera*. *Do le chiavi a loro* → *Gli do le chiavi*."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-iop-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-iop-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-iop-3"
+    }
   ],
   "exercises": [
     {
@@ -18,21 +38,75 @@
       "type": "fill-blank",
       "prompt": "___ scrivo una lettera a mia madre. (to her)",
       "answer": "Le",
-      "relatedItemId": "it-vocab-routine-015"
+      "relatedItemId": "it-vocab-routine-015",
+      "i18n": {
+        "hr": {
+          "prompt": "___ scrivo una lettera a mia madre. (njoj)"
+        },
+        "fr": {
+          "prompt": "___ scrivo una lettera a mia madre. (à elle)"
+        },
+        "de": {
+          "prompt": "___ scrivo una lettera a mia madre. (ihr)"
+        },
+        "es": {
+          "prompt": "___ scrivo una lettera a mia madre. (a ella)"
+        }
+      }
     },
     {
       "id": "it-ex-iop-2",
       "type": "multiple-choice",
       "prompt": "Marco ___ dice la verità. (a me — to me)",
       "answer": "mi",
-      "distractors": ["ti", "gli", "le"]
+      "distractors": [
+        "ti",
+        "gli",
+        "le"
+      ],
+      "i18n": {
+        "hr": {
+          "prompt": "Marco ___ dice la verità. (a me — meni)"
+        },
+        "fr": {
+          "prompt": "Marco ___ dice la verità. (a me — à moi)"
+        },
+        "de": {
+          "prompt": "Marco ___ dice la verità. (a me — mir)"
+        },
+        "es": {
+          "prompt": "Marco ___ dice la verità. (a me — a mí)"
+        }
+      }
     },
     {
       "id": "it-ex-iop-3",
       "type": "translate",
       "prompt": "Translate: \"I give them the keys.\"",
-      "answer": ["Gli do le chiavi."],
-      "relatedItemId": "it-vocab-home-014"
+      "answer": [
+        "Gli do le chiavi."
+      ],
+      "relatedItemId": "it-vocab-home-014",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Dajem im ključeve.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Je leur donne les clés.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Ich gebe ihnen die Schlüssel.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Les doy las llaves.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Nenaglašene zamjenice u dativu: mi, ti, gli, le, ci, vi",
+    "fr": "Pronoms compléments d'objet indirect : mi, ti, gli, le, ci, vi",
+    "de": "Indirekte Objektpronomen: mi, ti, gli, le, ci, vi",
+    "es": "Pronombres de objeto indirecto: mi, ti, gli, le, ci, vi"
+  }
 }

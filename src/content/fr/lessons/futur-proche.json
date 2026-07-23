@@ -5,13 +5,42 @@
   "unitId": "fr-unit-5",
   "order": 3,
   "title": "Futur Proche (Near Future)",
-  "prerequisiteIds": ["fr-lesson-passe-compose-etre"],
+  "prerequisiteIds": [
+    "fr-lesson-passe-compose-etre"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "For plans and near-future events, French normally uses **aller** (to go) + an infinitive — exactly like English's \"going to\": **Je vais manger** (I'm going to eat). This is far more common in everyday speech than the full future tense." },
-    { "type": "exercise", "exerciseId": "fr-ex-futur-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-futur-2" },
-    { "type": "explanation", "markdown": "Conjugate **aller** to match the subject, and leave the second verb in its plain infinitive form: **Nous allons étudier** (We're going to study), not *Nous allons étudions*." },
-    { "type": "exercise", "exerciseId": "fr-ex-futur-3" }
+    {
+      "type": "explanation",
+      "markdown": "For plans and near-future events, French normally uses **aller** (to go) + an infinitive — exactly like English's \"going to\": **Je vais manger** (I'm going to eat). This is far more common in everyday speech than the full future tense.",
+      "i18n": {
+        "it": "Per programmi ed eventi nel prossimo futuro, il francese usa normalmente **aller** (andare) + un infinito — esattamente come l'italiano \"stare per\" o semplicemente il presente con valore di futuro: **Je vais manger** (Sto per mangiare / Mangio tra poco). Questo è molto più comune nel parlato quotidiano rispetto al tempo futuro vero e proprio.",
+        "de": "Für Pläne und Ereignisse in naher Zukunft verwendet das Französische normalerweise **aller** (gehen) + Infinitiv — ähnlich dem englischen \"going to\", aber anders als im Deutschen, das dafür meist einfach das Präsens mit einer Zeitangabe nutzt: **Je vais manger** (Ich werde gleich essen). Diese Konstruktion ist in der Alltagssprache viel gebräuchlicher als das eigentliche Futur.",
+        "hr": "Za planove i događaje u bliskoj budućnosti francuski obično koristi **aller** (ići) + infinitiv — poput engleskog \"going to\". Hrvatski nema posebnu konstrukciju za blisku budućnost; koristi se isto buduće vrijeme (**ću/ćeš/će** + infinitiv) za sve, bilo da je nešto za minutu ili za godinu dana: **Je vais manger** (Jest ću uskoro / Idem jesti). Ova francuska konstrukcija mnogo je češća u svakodnevnom govoru nego pravo futursko vrijeme.",
+        "es": "Para planes y eventos en un futuro cercano, el francés normalmente usa **aller** (ir) + infinitivo — igual que el español \"ir a\": **Je vais manger** (Voy a comer). Esta construcción es mucho más común en el habla cotidiana que el tiempo futuro propiamente dicho."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-futur-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-futur-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Conjugate **aller** to match the subject, and leave the second verb in its plain infinitive form: **Nous allons étudier** (We're going to study), not *Nous allons étudions*.",
+      "i18n": {
+        "it": "Coniuga **aller** in base al soggetto, e lascia il secondo verbo all'infinito semplice: **Nous allons étudier** (Stiamo per studiare), non *Nous allons étudions*.",
+        "de": "Konjugiere **aller** passend zum Subjekt, und lasse das zweite Verb im einfachen Infinitiv: **Nous allons étudier** (Wir werden gleich lernen), nicht *Nous allons étudions*.",
+        "hr": "Konjugiraj **aller** prema subjektu, a drugi glagol ostavi u običnom infinitivu: **Nous allons étudier** (Uskoro ćemo učiti), ne *Nous allons étudions*.",
+        "es": "Conjuga **aller** según el sujeto, y deja el segundo verbo en infinitivo simple: **Nous allons étudier** (Vamos a estudiar), no *Nous allons étudions*."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-futur-3"
+    }
   ],
   "exercises": [
     {
@@ -19,21 +48,76 @@
       "type": "fill-blank",
       "prompt": "Je ___ manger. (aller — I'm going to eat.)",
       "answer": "vais",
-      "relatedItemId": "fr-vocab-routine-004"
+      "relatedItemId": "fr-vocab-routine-004",
+      "i18n": {
+        "it": {
+          "prompt": "Je ___ manger. (aller — Sto per mangiare.)"
+        },
+        "de": {
+          "prompt": "Je ___ manger. (aller — Ich werde gleich essen.)"
+        },
+        "hr": {
+          "prompt": "Je ___ manger. (aller — Uskoro ću jesti.)"
+        },
+        "es": {
+          "prompt": "Je ___ manger. (aller — Voy a comer.)"
+        }
+      }
     },
     {
       "id": "fr-ex-futur-2",
       "type": "multiple-choice",
       "prompt": "Nous ___ étudier ce soir. (aller — We're going to study tonight.)",
       "answer": "allons",
-      "distractors": ["vais", "va", "vont"],
-      "relatedItemId": "fr-vocab-routine-007"
+      "distractors": [
+        "vais",
+        "va",
+        "vont"
+      ],
+      "relatedItemId": "fr-vocab-routine-007",
+      "i18n": {
+        "it": {
+          "prompt": "Nous ___ étudier ce soir. (aller — Stiamo per studiare stasera.)"
+        },
+        "de": {
+          "prompt": "Nous ___ étudier ce soir. (aller — Wir werden heute Abend lernen.)"
+        },
+        "hr": {
+          "prompt": "Nous ___ étudier ce soir. (aller — Večeras ćemo učiti.)"
+        },
+        "es": {
+          "prompt": "Nous ___ étudier ce soir. (aller — Vamos a estudiar esta noche.)"
+        }
+      }
     },
     {
       "id": "fr-ex-futur-3",
       "type": "translate",
       "prompt": "Translate: \"They are going to travel.\"",
-      "answer": ["Ils vont voyager.", "Elles vont voyager."]
+      "answer": [
+        "Ils vont voyager.",
+        "Elles vont voyager."
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Stanno per viaggiare.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie werden verreisen.\""
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Oni će putovati.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Ellos van a viajar.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Futur Proche (futuro prossimo)",
+    "de": "Futur Proche (nahe Zukunft)",
+    "hr": "Futur Proche (bliska budućnost)",
+    "es": "Futur Proche (futuro próximo)"
+  }
 }

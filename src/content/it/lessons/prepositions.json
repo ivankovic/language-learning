@@ -5,34 +5,109 @@
   "unitId": "it-unit-5",
   "order": 2,
   "title": "Prepositions: di, a, da, in, con, su, per, tra/fra",
-  "prerequisiteIds": ["it-lesson-adjectives"],
+  "prerequisiteIds": [
+    "it-lesson-adjectives"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Common prepositions: **di** (of/from), **a** (to/at), **da** (from/since/at someone's place), **in** (in/into), **con** (with), **su** (on), **per** (for), **tra/fra** (between/among — interchangeable). Several combine with definite articles (*a + il → al*, *in + la → nella*), but the plain forms are the building blocks to learn first." },
-    { "type": "exercise", "exerciseId": "it-ex-prep-1" },
-    { "type": "exercise", "exerciseId": "it-ex-prep-2" },
-    { "type": "exercise", "exerciseId": "it-ex-prep-3" }
+    {
+      "type": "explanation",
+      "markdown": "Common prepositions: **di** (of/from), **a** (to/at), **da** (from/since/at someone's place), **in** (in/into), **con** (with), **su** (on), **per** (for), **tra/fra** (between/among — interchangeable). Several combine with definite articles (*a + il → al*, *in + la → nella*), but the plain forms are the building blocks to learn first.",
+      "i18n": {
+        "hr": "Uobičajeni prijedlozi: **di** (od/iz), **a** (u/na, prema), **da** (od/otkad/kod nekoga), **in** (u/unutar), **con** (s), **su** (na), **per** (za), **tra/fra** (između/među — mogu se zamijeniti). Nekoliko se spaja s određenim članovima (*a + il → al*, *in + la → nella*), ali osnovne oblike treba naučiti prve.",
+        "fr": "Prépositions courantes : **di** (de), **a** (à), **da** (de/depuis/chez quelqu'un), **in** (dans), **con** (avec), **su** (sur), **per** (pour), **tra/fra** (entre/parmi — interchangeables). Plusieurs se combinent avec les articles définis (*a + il → al*, *in + la → nella*), mais les formes simples sont les bases à apprendre en premier.",
+        "de": "Häufige Präpositionen: **di** (von), **a** (zu/an), **da** (von/seit/bei jemandem), **in** (in), **con** (mit), **su** (auf), **per** (für), **tra/fra** (zwischen/unter — austauschbar). Mehrere verschmelzen mit bestimmten Artikeln (*a + il → al*, *in + la → nella*), aber die einfachen Formen sind die Bausteine, die man zuerst lernen sollte.",
+        "es": "Preposiciones comunes: **di** (de), **a** (a), **da** (de/desde/en casa de alguien), **in** (en), **con** (con), **su** (sobre), **per** (para), **tra/fra** (entre — intercambiables). Varias se combinan con artículos definidos (*a + il → al*, *in + la → nella*), pero las formas simples son la base que hay que aprender primero."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-prep-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-prep-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-prep-3"
+    }
   ],
   "exercises": [
     {
       "id": "it-ex-prep-1",
       "type": "fill-blank",
       "prompt": "Vado ___ scuola. (to school)",
-      "answer": "a"
+      "answer": "a",
+      "i18n": {
+        "hr": {
+          "prompt": "Vado ___ scuola. (u školu)"
+        },
+        "fr": {
+          "prompt": "Vado ___ scuola. (à l'école)"
+        },
+        "de": {
+          "prompt": "Vado ___ scuola. (zur Schule)"
+        },
+        "es": {
+          "prompt": "Vado ___ scuola. (a la escuela)"
+        }
+      }
     },
     {
       "id": "it-ex-prep-2",
       "type": "multiple-choice",
       "prompt": "Il libro è ___ tavolo. (on the table)",
       "answer": "su",
-      "distractors": ["di", "da", "per"],
-      "relatedItemId": "it-vocab-home-008"
+      "distractors": [
+        "di",
+        "da",
+        "per"
+      ],
+      "relatedItemId": "it-vocab-home-008",
+      "i18n": {
+        "hr": {
+          "prompt": "Il libro è ___ tavolo. (na stolu)"
+        },
+        "fr": {
+          "prompt": "Il libro è ___ tavolo. (sur la table)"
+        },
+        "de": {
+          "prompt": "Il libro è ___ tavolo. (auf dem Tisch)"
+        },
+        "es": {
+          "prompt": "Il libro è ___ tavolo. (sobre la mesa)"
+        }
+      }
     },
     {
       "id": "it-ex-prep-3",
       "type": "translate",
       "prompt": "Translate: \"I'm studying with my friend.\"",
-      "answer": ["Studio con il mio amico.", "Sto studiando con il mio amico."],
-      "relatedItemId": "it-vocab-routine-013"
+      "answer": [
+        "Studio con il mio amico.",
+        "Sto studiando con il mio amico."
+      ],
+      "relatedItemId": "it-vocab-routine-013",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Učim sa svojim prijateljem.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"J'étudie avec mon ami.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Ich lerne mit meinem Freund.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Estoy estudiando con mi amigo.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Prijedlozi: di, a, da, in, con, su, per, tra/fra",
+    "fr": "Prépositions : di, a, da, in, con, su, per, tra/fra",
+    "de": "Präpositionen: di, a, da, in, con, su, per, tra/fra",
+    "es": "Preposiciones: di, a, da, in, con, su, per, tra/fra"
+  }
 }

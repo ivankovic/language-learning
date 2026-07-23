@@ -5,44 +5,148 @@
   "unitId": "de-unit-2",
   "order": 1,
   "title": "Sein (to be) — Present Tense",
-  "prerequisiteIds": ["de-lesson-articles"],
+  "prerequisiteIds": [
+    "de-lesson-articles"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Sein** (to be) is irregular and one of the most-used verbs in German:\n\nich **bin** · du **bist** · er/sie/es **ist** · wir **sind** · ihr **seid** · sie/Sie **sind**\n\nUnlike Italian or French, German uses **sein** (not \"to have\") for age: **Ich bin ... Jahre alt** (I am ... years old — literally \"I am ... years old\")." },
-    { "type": "exercise", "exerciseId": "de-ex-sein-1" },
-    { "type": "exercise", "exerciseId": "de-ex-sein-2" },
-    { "type": "explanation", "markdown": "**Freut mich** literally means \"[it] pleases me\" and is what you say when meeting someone for the first time." },
-    { "type": "exercise", "exerciseId": "de-ex-sein-3" },
-    { "type": "exercise", "exerciseId": "de-ex-sein-4" }
+    {
+      "type": "explanation",
+      "markdown": "**Sein** (to be) is irregular and one of the most-used verbs in German:\n\nich **bin** · du **bist** · er/sie/es **ist** · wir **sind** · ihr **seid** · sie/Sie **sind**\n\nUnlike Italian or French, German uses **sein** (not \"to have\") for age: **Ich bin ... Jahre alt** (I am ... years old — literally \"I am ... years old\").",
+      "i18n": {
+        "it": "**Sein** (essere) è irregolare ed è uno dei verbi più usati in tedesco:\n\nich **bin** · du **bist** · er/sie/es **ist** · wir **sind** · ihr **seid** · sie/Sie **sind**\n\nA differenza dell'italiano, il tedesco usa **sein** (non \"avere\") per l'età: **Ich bin ... Jahre alt** (Ho ... anni — letteralmente \"sono ... anni vecchio\").",
+        "fr": "**Sein** (être) est irrégulier et l'un des verbes les plus utilisés en allemand :\n\nich **bin** · du **bist** · er/sie/es **ist** · wir **sind** · ihr **seid** · sie/Sie **sind**\n\nContrairement au français, l'allemand utilise **sein** (pas \"avoir\") pour l'âge : **Ich bin ... Jahre alt** (J'ai ... ans — littéralement \"je suis ... ans vieux\").",
+        "hr": "**Sein** (biti) je nepravilan i jedan je od najčešće korištenih glagola u njemačkom:\n\nich **bin** · du **bist** · er/sie/es **ist** · wir **sind** · ihr **seid** · sie/Sie **sind**\n\nZa razliku od hrvatskog, njemački koristi **sein** (a ne \"imati\") za dob: **Ich bin ... Jahre alt** (Imam ... godina — doslovno \"star sam ... godina\").",
+        "es": "**Sein** (ser/estar) es irregular y uno de los verbos más usados en alemán:\n\nich **bin** · du **bist** · er/sie/es **ist** · wir **sind** · ihr **seid** · sie/Sie **sind**\n\nA diferencia del español, el alemán no distingue ser/estar — **sein** cubre ambos usos. Además, a diferencia del español, el alemán usa **sein** (no \"tener\") para la edad: **Ich bin ... Jahre alt** (Tengo ... años — literalmente \"soy ... años viejo\")."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-sein-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-sein-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "**Freut mich** literally means \"[it] pleases me\" and is what you say when meeting someone for the first time.",
+      "i18n": {
+        "it": "**Freut mich** significa letteralmente \"[mi] fa piacere\" ed è ciò che si dice quando si incontra qualcuno per la prima volta.",
+        "fr": "**Freut mich** signifie littéralement \"[cela] me fait plaisir\" et c'est ce qu'on dit en rencontrant quelqu'un pour la première fois.",
+        "hr": "**Freut mich** doslovno znači \"[to] me raduje\" i kaže se kad prvi put upoznaješ nekoga.",
+        "es": "**Freut mich** significa literalmente \"[eso] me alegra\" y es lo que se dice al conocer a alguien por primera vez."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-sein-3"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-sein-4"
+    }
   ],
   "exercises": [
     {
       "id": "de-ex-sein-1",
       "type": "fill-blank",
       "prompt": "Ich ___ müde. (I am tired.)",
-      "answer": "bin"
+      "answer": "bin",
+      "i18n": {
+        "it": {
+          "prompt": "Ich ___ müde. (Sono stanco/a.)"
+        },
+        "fr": {
+          "prompt": "Ich ___ müde. (Je suis fatigué(e).)"
+        },
+        "hr": {
+          "prompt": "Ich ___ müde. (Umoran/umorna sam.)"
+        },
+        "es": {
+          "prompt": "Ich ___ müde. (Estoy cansado/a.)"
+        }
+      }
     },
     {
       "id": "de-ex-sein-2",
       "type": "multiple-choice",
       "prompt": "Wie alt ___ du? (How old are you?)",
       "answer": "bist",
-      "distractors": ["bin", "ist", "sind"],
-      "relatedItemId": "de-vocab-routine-030"
+      "distractors": [
+        "bin",
+        "ist",
+        "sind"
+      ],
+      "relatedItemId": "de-vocab-routine-030",
+      "i18n": {
+        "it": {
+          "prompt": "Wie alt ___ du? (Quanti anni hai?)"
+        },
+        "fr": {
+          "prompt": "Wie alt ___ du? (Quel âge as-tu ?)"
+        },
+        "hr": {
+          "prompt": "Wie alt ___ du? (Koliko imaš godina?)"
+        },
+        "es": {
+          "prompt": "Wie alt ___ du? (¿Cuántos años tienes?)"
+        }
+      }
     },
     {
       "id": "de-ex-sein-3",
       "type": "multiple-choice",
       "prompt": "How do you respond when meeting someone for the first time?",
       "answer": "Freut mich",
-      "distractors": ["Bitte schön", "Entschuldigung", "Gut"],
-      "relatedItemId": "de-vocab-greet-014"
+      "distractors": [
+        "Bitte schön",
+        "Entschuldigung",
+        "Gut"
+      ],
+      "relatedItemId": "de-vocab-greet-014",
+      "i18n": {
+        "it": {
+          "prompt": "Come rispondi quando incontri qualcuno per la prima volta?"
+        },
+        "fr": {
+          "prompt": "Comment réponds-tu en rencontrant quelqu'un pour la première fois ?"
+        },
+        "hr": {
+          "prompt": "Kako odgovaraš kad prvi put upoznaješ nekoga?"
+        },
+        "es": {
+          "prompt": "¿Cómo respondes al conocer a alguien por primera vez?"
+        }
+      }
     },
     {
       "id": "de-ex-sein-4",
       "type": "translate",
       "prompt": "Translate: \"I am 20 years old.\"",
-      "answer": ["Ich bin zwanzig Jahre alt."],
-      "relatedItemId": "de-vocab-numtime-019"
+      "answer": [
+        "Ich bin zwanzig Jahre alt."
+      ],
+      "relatedItemId": "de-vocab-numtime-019",
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Ho 20 anni.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"J'ai 20 ans.\""
+        },
+        "hr": {
+          "prompt": "Prevedi: \"Imam 20 godina.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Tengo 20 años.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Sein (essere) — presente",
+    "fr": "Sein (être) — présent",
+    "hr": "Sein (biti) — prezent",
+    "es": "Sein (ser/estar) — presente"
+  }
 }

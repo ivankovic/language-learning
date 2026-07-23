@@ -5,13 +5,42 @@
   "unitId": "de-unit-4",
   "order": 2,
   "title": "Separable Verbs",
-  "prerequisiteIds": ["de-lesson-modal-verbs"],
+  "prerequisiteIds": [
+    "de-lesson-modal-verbs"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Many German verbs have a detachable prefix that carries most of the meaning — like **aufstehen** (auf + stehen, \"to get up\"). In a simple present-tense sentence, the prefix breaks off and moves to the **very end**: **Ich stehe um sieben Uhr auf** (I get up at seven o'clock) — *stehe* stays in second position, *auf* goes last. In the infinitive (e.g. after a modal verb), the two stay joined: **Ich muss früh aufstehen**." },
-    { "type": "exercise", "exerciseId": "de-ex-separable-1" },
-    { "type": "exercise", "exerciseId": "de-ex-separable-2" },
-    { "type": "explanation", "markdown": "Other common separable verbs: **anrufen** (an + rufen, to call [someone]), **einkaufen** (ein + kaufen, to shop), **fernsehen** (fern + sehen, to watch TV)." },
-    { "type": "exercise", "exerciseId": "de-ex-separable-3" }
+    {
+      "type": "explanation",
+      "markdown": "Many German verbs have a detachable prefix that carries most of the meaning — like **aufstehen** (auf + stehen, \"to get up\"). In a simple present-tense sentence, the prefix breaks off and moves to the **very end**: **Ich stehe um sieben Uhr auf** (I get up at seven o'clock) — *stehe* stays in second position, *auf* goes last. In the infinitive (e.g. after a modal verb), the two stay joined: **Ich muss früh aufstehen**.",
+      "i18n": {
+        "it": "Molti verbi tedeschi hanno un prefisso separabile che porta gran parte del significato — come **aufstehen** (auf + stehen, \"alzarsi\"). In una semplice frase al presente, il prefisso si stacca e va alla **fine assoluta**: **Ich stehe um sieben Uhr auf** (Mi alzo alle sette) — *stehe* resta al secondo posto, *auf* va alla fine. All'infinito (es. dopo un verbo modale), i due restano uniti: **Ich muss früh aufstehen**.",
+        "fr": "Beaucoup de verbes allemands ont un préfixe détachable qui porte l'essentiel du sens — comme **aufstehen** (auf + stehen, \"se lever\"). Dans une phrase simple au présent, le préfixe se détache et va à la **toute fin** : **Ich stehe um sieben Uhr auf** (Je me lève à sept heures) — *stehe* reste en deuxième position, *auf* va à la fin. À l'infinitif (p. ex. après un verbe modal), les deux restent unis : **Ich muss früh aufstehen**.",
+        "hr": "Mnogi njemački glagoli imaju odvojivi prefiks koji nosi većinu značenja — poput **aufstehen** (auf + stehen, \"ustati\"). U jednostavnoj rečenici u prezentu, prefiks se odvaja i ide na **sam kraj**: **Ich stehe um sieben Uhr auf** (Ustajem u sedam sati) — *stehe* ostaje na drugom mjestu, *auf* ide na kraj. U infinitivu (npr. iza modalnog glagola), njih dvoje ostaju spojeni: **Ich muss früh aufstehen**.",
+        "es": "Muchos verbos alemanes tienen un prefijo separable que lleva gran parte del significado — como **aufstehen** (auf + stehen, \"levantarse\"). En una frase simple en presente, el prefijo se separa y va al **final absoluto**: **Ich stehe um sieben Uhr auf** (Me levanto a las siete) — *stehe* se queda en segunda posición, *auf* va al final. En infinitivo (p. ej. tras un verbo modal), los dos permanecen unidos: **Ich muss früh aufstehen**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-separable-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-separable-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Other common separable verbs: **anrufen** (an + rufen, to call [someone]), **einkaufen** (ein + kaufen, to shop), **fernsehen** (fern + sehen, to watch TV).",
+      "i18n": {
+        "it": "Altri verbi separabili comuni: **anrufen** (an + rufen, chiamare [qualcuno]), **einkaufen** (ein + kaufen, fare la spesa), **fernsehen** (fern + sehen, guardare la TV).",
+        "fr": "Autres verbes à particule séparable courants : **anrufen** (an + rufen, appeler [quelqu'un]), **einkaufen** (ein + kaufen, faire les courses), **fernsehen** (fern + sehen, regarder la télé).",
+        "hr": "Drugi česti rastavljivi glagoli: **anrufen** (an + rufen, nazvati [nekoga]), **einkaufen** (ein + kaufen, ići u kupovinu), **fernsehen** (fern + sehen, gledati televiziju).",
+        "es": "Otros verbos separables comunes: **anrufen** (an + rufen, llamar [a alguien]), **einkaufen** (ein + kaufen, ir de compras), **fernsehen** (fern + sehen, ver la televisión)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-separable-3"
+    }
   ],
   "exercises": [
     {
@@ -19,20 +48,75 @@
       "type": "fill-blank",
       "prompt": "Ich stehe um sieben Uhr ___. (aufstehen — I get up at seven o'clock.)",
       "answer": "auf",
-      "relatedItemId": "de-vocab-routine-001"
+      "relatedItemId": "de-vocab-routine-001",
+      "i18n": {
+        "it": {
+          "prompt": "Ich stehe um sieben Uhr ___. (aufstehen — Mi alzo alle sette.)"
+        },
+        "fr": {
+          "prompt": "Ich stehe um sieben Uhr ___. (aufstehen — Je me lève à sept heures.)"
+        },
+        "hr": {
+          "prompt": "Ich stehe um sieben Uhr ___. (aufstehen — Ustajem u sedam sati.)"
+        },
+        "es": {
+          "prompt": "Ich stehe um sieben Uhr ___. (aufstehen — Me levanto a las siete.)"
+        }
+      }
     },
     {
       "id": "de-ex-separable-2",
       "type": "reorder",
       "prompt": "Put these words in order: auf / früh / Sie / steht",
-      "answer": ["Sie", "steht", "früh", "auf"],
-      "relatedItemId": "de-vocab-routine-001"
+      "answer": [
+        "Sie",
+        "steht",
+        "früh",
+        "auf"
+      ],
+      "relatedItemId": "de-vocab-routine-001",
+      "i18n": {
+        "it": {
+          "prompt": "Metti in ordine queste parole: auf / früh / Sie / steht"
+        },
+        "fr": {
+          "prompt": "Mets ces mots dans l'ordre : auf / früh / Sie / steht"
+        },
+        "hr": {
+          "prompt": "Poredaj ove riječi: auf / früh / Sie / steht"
+        },
+        "es": {
+          "prompt": "Ordena estas palabras: auf / früh / Sie / steht"
+        }
+      }
     },
     {
       "id": "de-ex-separable-3",
       "type": "translate",
       "prompt": "Translate: \"He calls his mother.\" (anrufen — separates: ruft ... an)",
-      "answer": ["Er ruft seine Mutter an."]
+      "answer": [
+        "Er ruft seine Mutter an."
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Traduci: \"Lui chiama sua madre.\" (anrufen — si separa: ruft ... an)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Il appelle sa mère.\" (anrufen — se sépare : ruft ... an)"
+        },
+        "hr": {
+          "prompt": "Prevedi: \"On zove svoju majku.\" (anrufen — rastavlja se: ruft ... an)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Él llama a su madre.\" (anrufen — se separa: ruft ... an)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Verbi separabili",
+    "fr": "Verbes à particule séparable",
+    "hr": "Rastavljivi glagoli",
+    "es": "Verbos separables"
+  }
 }

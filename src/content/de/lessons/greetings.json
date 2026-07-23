@@ -7,11 +7,38 @@
   "title": "Greetings & Politeness",
   "prerequisiteIds": [],
   "blocks": [
-    { "type": "explanation", "markdown": "**Hallo** works any time of day and in most settings. For time-of-day greetings, use **guten Morgen** (morning), **guten Abend** (evening). **Gute Nacht** is only said when parting for the night, never as a greeting." },
-    { "type": "exercise", "exerciseId": "de-ex-greetings-1" },
-    { "type": "exercise", "exerciseId": "de-ex-greetings-2" },
-    { "type": "explanation", "markdown": "Politeness words: **bitte** (please), **danke** (thank you), and **bitte schön** (you're welcome — also used to say \"here you go\")." },
-    { "type": "exercise", "exerciseId": "de-ex-greetings-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Hallo** works any time of day and in most settings. For time-of-day greetings, use **guten Morgen** (morning), **guten Abend** (evening). **Gute Nacht** is only said when parting for the night, never as a greeting.",
+      "i18n": {
+        "it": "**Hallo** funziona a qualsiasi ora del giorno e nella maggior parte dei contesti. Per saluti legati al momento della giornata, usa **guten Morgen** (mattina), **guten Abend** (sera). **Gute Nacht** si dice solo quando ci si separa per la notte, mai come saluto.",
+        "fr": "**Hallo** convient à n'importe quel moment de la journée et dans la plupart des contextes. Pour les salutations liées au moment de la journée, utilise **guten Morgen** (matin), **guten Abend** (soir). **Gute Nacht** se dit uniquement en se quittant pour la nuit, jamais comme salutation.",
+        "hr": "**Hallo** odgovara u bilo koje doba dana i u većini situacija. Za pozdrave prema dobu dana koristi **guten Morgen** (ujutro), **guten Abend** (navečer). **Gute Nacht** kaže se samo pri rastanku za noć, nikad kao pozdrav pri susretu.",
+        "es": "**Hallo** sirve a cualquier hora del día y en la mayoría de contextos. Para saludos según la hora del día, usa **guten Morgen** (por la mañana), **guten Abend** (por la noche). **Gute Nacht** se dice solo al despedirse para dormir, nunca como saludo."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-greetings-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-greetings-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Politeness words: **bitte** (please), **danke** (thank you), and **bitte schön** (you're welcome — also used to say \"here you go\").",
+      "i18n": {
+        "it": "Parole di cortesia: **bitte** (per favore), **danke** (grazie), e **bitte schön** (prego — usato anche per dire \"ecco a te\").",
+        "fr": "Mots de politesse : **bitte** (s'il te plaît), **danke** (merci), et **bitte schön** (de rien — aussi utilisé pour dire \"voilà\").",
+        "hr": "Riječi uljudnosti: **bitte** (molim), **danke** (hvala), i **bitte schön** (nema na čemu — koristi se i za \"izvoli\").",
+        "es": "Palabras de cortesía: **bitte** (por favor), **danke** (gracias), y **bitte schön** (de nada — también se usa para decir \"aquí tienes\")."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-greetings-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +46,78 @@
       "type": "multiple-choice",
       "prompt": "Which greeting would you use in the evening?",
       "answer": "guten Abend",
-      "distractors": ["guten Morgen", "gute Nacht", "auf Wiedersehen"]
+      "distractors": [
+        "guten Morgen",
+        "gute Nacht",
+        "auf Wiedersehen"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Quale saluto useresti la sera?"
+        },
+        "fr": {
+          "prompt": "Quel salut utiliserais-tu le soir ?"
+        },
+        "hr": {
+          "prompt": "Koji bi pozdrav koristio/koristila navečer?"
+        },
+        "es": {
+          "prompt": "¿Qué saludo usarías por la noche?"
+        }
+      }
     },
     {
       "id": "de-ex-greetings-2",
       "type": "fill-blank",
       "prompt": "___, wie geht's? (informal \"hi\")",
       "answer": "Hallo",
-      "relatedItemId": "de-vocab-greet-001"
+      "relatedItemId": "de-vocab-greet-001",
+      "i18n": {
+        "it": {
+          "prompt": "___, wie geht's? (\"ciao\" informale)"
+        },
+        "fr": {
+          "prompt": "___, wie geht's? (\"salut\" informel)"
+        },
+        "hr": {
+          "prompt": "___, wie geht's? (neformalno \"bok\")"
+        },
+        "es": {
+          "prompt": "___, wie geht's? (\"hola\" informal)"
+        }
+      }
     },
     {
       "id": "de-ex-greetings-3",
       "type": "multiple-choice",
       "prompt": "How do you say \"thank you\" in German?",
       "answer": "danke",
-      "distractors": ["bitte schön", "Entschuldigung", "freut mich"],
-      "relatedItemId": "de-vocab-greet-007"
+      "distractors": [
+        "bitte schön",
+        "Entschuldigung",
+        "freut mich"
+      ],
+      "relatedItemId": "de-vocab-greet-007",
+      "i18n": {
+        "it": {
+          "prompt": "Come si dice \"grazie\" in tedesco?"
+        },
+        "fr": {
+          "prompt": "Comment dit-on \"merci\" en allemand ?"
+        },
+        "hr": {
+          "prompt": "Kako se kaže \"hvala\" na njemačkom?"
+        },
+        "es": {
+          "prompt": "¿Cómo se dice \"gracias\" en alemán?"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Saluti e cortesia",
+    "fr": "Salutations et politesse",
+    "hr": "Pozdravi i uljudnost",
+    "es": "Saludos y cortesía"
+  }
 }

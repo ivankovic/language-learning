@@ -5,34 +5,108 @@
   "unitId": "it-unit-9",
   "order": 1,
   "title": "The Particles Ci and Ne",
-  "prerequisiteIds": ["it-lesson-indirect-object-pronouns"],
+  "prerequisiteIds": [
+    "it-lesson-indirect-object-pronouns"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Ci** replaces \"to/in/at a place\" already mentioned: *Vai al mercato? Sì, ci vado* (Are you going to the market? Yes, I'm going there).\n\n**Ne** replaces \"of/about something\", especially with quantities: *Quanti libri hai? Ne ho tre* (How many books do you have? I have three of them)." },
-    { "type": "exercise", "exerciseId": "it-ex-cine-1" },
-    { "type": "exercise", "exerciseId": "it-ex-cine-2" },
-    { "type": "exercise", "exerciseId": "it-ex-cine-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Ci** replaces \"to/in/at a place\" already mentioned: *Vai al mercato? Sì, ci vado* (Are you going to the market? Yes, I'm going there).\n\n**Ne** replaces \"of/about something\", especially with quantities: *Quanti libri hai? Ne ho tre* (How many books do you have? I have three of them).",
+      "i18n": {
+        "hr": "**Ci** zamjenjuje \"u/na/kod mjesta\" koje je već spomenuto: *Vai al mercato? Sì, ci vado* (Ideš li na tržnicu? Da, idem tamo).\n\n**Ne** zamjenjuje \"od/o nečemu\", posebno uz količine: *Quanti libri hai? Ne ho tre* (Koliko knjiga imaš? Imam ih tri).",
+        "fr": "**Ci** remplace \"à/dans/chez un lieu\" déjà mentionné : *Vai al mercato? Sì, ci vado* (Tu vas au marché ? Oui, j'y vais).\n\n**Ne** remplace \"de/à propos de quelque chose\", surtout avec les quantités : *Quanti libri hai? Ne ho tre* (Combien de livres as-tu ? J'en ai trois).",
+        "de": "**Ci** ersetzt \"zu/in/an einen bereits erwähnten Ort\": *Vai al mercato? Sì, ci vado* (Gehst du zum Markt? Ja, ich gehe dorthin).\n\n**Ne** ersetzt \"von/über etwas\", besonders bei Mengenangaben: *Quanti libri hai? Ne ho tre* (Wie viele Bücher hast du? Ich habe drei davon).",
+        "es": "**Ci** reemplaza \"a/en un lugar\" ya mencionado: *Vai al mercato? Sì, ci vado* (¿Vas al mercado? Sí, voy allí).\n\n**Ne** reemplaza \"de/sobre algo\", especialmente con cantidades: *Quanti libri hai? Ne ho tre* (¿Cuántos libros tienes? Tengo tres)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-cine-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-cine-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-cine-3"
+    }
   ],
   "exercises": [
     {
       "id": "it-ex-cine-1",
       "type": "fill-blank",
       "prompt": "Vai in Italia quest'estate? Sì, ___ vado a luglio. (there)",
-      "answer": "ci"
+      "answer": "ci",
+      "i18n": {
+        "hr": {
+          "prompt": "Vai in Italia quest'estate? Sì, ___ vado a luglio. (tamo)"
+        },
+        "fr": {
+          "prompt": "Vai in Italia quest'estate? Sì, ___ vado a luglio. (y)"
+        },
+        "de": {
+          "prompt": "Vai in Italia quest'estate? Sì, ___ vado a luglio. (dorthin)"
+        },
+        "es": {
+          "prompt": "Vai in Italia quest'estate? Sì, ___ vado a luglio. (allí)"
+        }
+      }
     },
     {
       "id": "it-ex-cine-2",
       "type": "multiple-choice",
       "prompt": "Quanti fratelli hai? ___ ho due. (of them)",
       "answer": "Ne",
-      "distractors": ["Ci", "Lo", "Li"],
-      "relatedItemId": "it-vocab-routine-017"
+      "distractors": [
+        "Ci",
+        "Lo",
+        "Li"
+      ],
+      "relatedItemId": "it-vocab-routine-017",
+      "i18n": {
+        "hr": {
+          "prompt": "Quanti fratelli hai? ___ ho due. (njih)"
+        },
+        "fr": {
+          "prompt": "Quanti fratelli hai? ___ ho due. (en, d'eux)"
+        },
+        "de": {
+          "prompt": "Quanti fratelli hai? ___ ho due. (davon)"
+        },
+        "es": {
+          "prompt": "Quanti fratelli hai? ___ ho due. (de ellos)"
+        }
+      }
     },
     {
       "id": "it-ex-cine-3",
       "type": "translate",
       "prompt": "Translate: \"I go there every day.\"",
-      "answer": ["Ci vado ogni giorno."],
-      "relatedItemId": "it-vocab-routine-025"
+      "answer": [
+        "Ci vado ogni giorno."
+      ],
+      "relatedItemId": "it-vocab-routine-025",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Idem tamo svaki dan.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"J'y vais tous les jours.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Ich gehe jeden Tag dorthin.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Voy allí todos los días.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Čestice Ci i Ne",
+    "fr": "Les particules Ci et Ne",
+    "de": "Die Partikel Ci und Ne",
+    "es": "Las partículas Ci y Ne"
+  }
 }

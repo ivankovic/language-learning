@@ -7,11 +7,38 @@
   "title": "Greetings & Politeness",
   "prerequisiteIds": [],
   "blocks": [
-    { "type": "explanation", "markdown": "**Salut** is casual — hi or bye, only with people you know well. For time-of-day greetings, use **bonjour** (morning/day) or **bonsoir** (evening). **Bonne nuit** is only said when parting for the night, never as a greeting." },
-    { "type": "exercise", "exerciseId": "fr-ex-greetings-1" },
-    { "type": "exercise", "exerciseId": "fr-ex-greetings-2" },
-    { "type": "explanation", "markdown": "Politeness words: **s'il vous plaît** (please), **merci** (thank you), and **je vous en prie** (you're welcome — also used to say \"please, go ahead\")." },
-    { "type": "exercise", "exerciseId": "fr-ex-greetings-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Salut** is casual — hi or bye, only with people you know well. For time-of-day greetings, use **bonjour** (morning/day) or **bonsoir** (evening). **Bonne nuit** is only said when parting for the night, never as a greeting.",
+      "i18n": {
+        "it": "**Salut** è informale — ciao o arrivederci, solo con persone che conosci bene. Per saluti legati al momento della giornata, usa **bonjour** (mattina/giorno) o **bonsoir** (sera). **Bonne nuit** si dice solo quando ci si separa per la notte, mai come saluto.",
+        "de": "**Salut** ist informell — hallo oder tschüss, nur mit Leuten, die man gut kennt. Für Grüße nach Tageszeit verwendet man **bonjour** (morgens/tagsüber) oder **bonsoir** (abends). **Bonne nuit** sagt man nur beim Abschied für die Nacht, niemals als Begrüßung.",
+        "hr": "**Salut** je neformalno — bok ili ćao, samo s ljudima koje dobro poznaješ. Za pozdrave prema dobu dana koristi **bonjour** (ujutro/danju) ili **bonsoir** (navečer). **Bonne nuit** kaže se samo pri rastanku za noć, nikad kao pozdrav pri susretu.",
+        "es": "**Salut** es informal — hola o adiós, solo con gente que conoces bien. Para saludos según la hora del día, usa **bonjour** (mañana/día) o **bonsoir** (noche). **Bonne nuit** se dice solo al despedirse para dormir, nunca como saludo."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-greetings-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-greetings-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Politeness words: **s'il vous plaît** (please), **merci** (thank you), and **je vous en prie** (you're welcome — also used to say \"please, go ahead\").",
+      "i18n": {
+        "it": "Parole di cortesia: **s'il vous plaît** (per favore), **merci** (grazie), e **je vous en prie** (prego — usato anche per dire \"prego, vai pure\").",
+        "de": "Höflichkeitswörter: **s'il vous plaît** (bitte), **merci** (danke) und **je vous en prie** (gern geschehen — wird auch verwendet, um \"bitte, nur zu\" zu sagen).",
+        "hr": "Riječi uljudnosti: **s'il vous plaît** (molim), **merci** (hvala) i **je vous en prie** (nema na čemu — koristi se i za \"izvolite, samo naprijed\").",
+        "es": "Palabras de cortesía: **s'il vous plaît** (por favor), **merci** (gracias), y **je vous en prie** (de nada — también se usa para decir \"por favor, adelante\")."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "fr-ex-greetings-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +46,78 @@
       "type": "multiple-choice",
       "prompt": "Which greeting would you use in the evening?",
       "answer": "bonsoir",
-      "distractors": ["bonjour", "bonne nuit", "au revoir"]
+      "distractors": [
+        "bonjour",
+        "bonne nuit",
+        "au revoir"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Quale saluto useresti la sera?"
+        },
+        "de": {
+          "prompt": "Welchen Gruß würdest du am Abend verwenden?"
+        },
+        "hr": {
+          "prompt": "Koji bi pozdrav koristio/koristila navečer?"
+        },
+        "es": {
+          "prompt": "¿Qué saludo usarías por la noche?"
+        }
+      }
     },
     {
       "id": "fr-ex-greetings-2",
       "type": "fill-blank",
       "prompt": "___, comment ça va ? (informal \"hi\")",
       "answer": "Salut",
-      "relatedItemId": "fr-vocab-greet-001"
+      "relatedItemId": "fr-vocab-greet-001",
+      "i18n": {
+        "it": {
+          "prompt": "___, comment ça va ? (ciao informale)"
+        },
+        "de": {
+          "prompt": "___, comment ça va ? (informelles \"hallo\")"
+        },
+        "hr": {
+          "prompt": "___, comment ça va ? (neformalno \"bok\")"
+        },
+        "es": {
+          "prompt": "___, comment ça va ? (\"hola\" informal)"
+        }
+      }
     },
     {
       "id": "fr-ex-greetings-3",
       "type": "multiple-choice",
       "prompt": "How do you say \"thank you\" in French?",
       "answer": "merci",
-      "distractors": ["je vous en prie", "pardon", "enchanté"],
-      "relatedItemId": "fr-vocab-greet-007"
+      "distractors": [
+        "je vous en prie",
+        "pardon",
+        "enchanté"
+      ],
+      "relatedItemId": "fr-vocab-greet-007",
+      "i18n": {
+        "it": {
+          "prompt": "Come si dice \"grazie\" in francese?"
+        },
+        "de": {
+          "prompt": "Wie sagt man \"danke\" auf Französisch?"
+        },
+        "hr": {
+          "prompt": "Kako se kaže \"hvala\" na francuskom?"
+        },
+        "es": {
+          "prompt": "¿Cómo se dice \"gracias\" en francés?"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Saluti e cortesia",
+    "de": "Begrüßungen und Höflichkeit",
+    "hr": "Pozdravi i uljudnost",
+    "es": "Saludos y cortesía"
+  }
 }

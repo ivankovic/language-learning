@@ -7,11 +7,38 @@
   "title": "Greetings & Politeness",
   "prerequisiteIds": [],
   "blocks": [
-    { "type": "explanation", "markdown": "**Hola** works any time of day and in almost any setting. For time-of-day greetings, use **buenos días** (morning), **buenas tardes** (afternoon), or **buenas noches** (evening/night — also used as \"good night\" when parting)." },
-    { "type": "exercise", "exerciseId": "es-ex-greetings-1" },
-    { "type": "exercise", "exerciseId": "es-ex-greetings-2" },
-    { "type": "explanation", "markdown": "Politeness words: **por favor** (please), **gracias** (thank you), and **de nada** (you're welcome)." },
-    { "type": "exercise", "exerciseId": "es-ex-greetings-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Hola** works any time of day and in almost any setting. For time-of-day greetings, use **buenos días** (morning), **buenas tardes** (afternoon), or **buenas noches** (evening/night — also used as \"good night\" when parting).",
+      "i18n": {
+        "it": "**Hola** funziona a qualsiasi ora del giorno e in quasi tutti i contesti. Per saluti legati al momento della giornata, usa **buenos días** (mattina), **buenas tardes** (pomeriggio), o **buenas noches** (sera/notte — usato anche per dire \"buonanotte\" al momento di separarsi).",
+        "fr": "**Hola** convient à n'importe quel moment de la journée et dans presque tous les contextes. Pour les salutations liées au moment de la journée, utilise **buenos días** (matin), **buenas tardes** (après-midi), ou **buenas noches** (soir/nuit — aussi utilisé pour dire \"bonne nuit\" en se quittant).",
+        "de": "**Hola** funktioniert zu jeder Tageszeit und in fast jedem Kontext. Für tageszeitbezogene Grüße verwende **buenos días** (morgens), **buenas tardes** (nachmittags), oder **buenas noches** (abends/nachts — wird auch als \"gute Nacht\" beim Abschied verwendet).",
+        "hr": "**Hola** odgovara u bilo koje doba dana i u gotovo svim situacijama. Za pozdrave prema dobu dana koristi **buenos días** (ujutro), **buenas tardes** (poslijepodne), ili **buenas noches** (navečer/noću — koristi se i za \"laku noć\" pri rastanku)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-greetings-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-greetings-2"
+    },
+    {
+      "type": "explanation",
+      "markdown": "Politeness words: **por favor** (please), **gracias** (thank you), and **de nada** (you're welcome).",
+      "i18n": {
+        "it": "Parole di cortesia: **por favor** (per favore), **gracias** (grazie), e **de nada** (prego).",
+        "fr": "Mots de politesse : **por favor** (s'il te plaît), **gracias** (merci), et **de nada** (de rien).",
+        "de": "Höflichkeitswörter: **por favor** (bitte), **gracias** (danke), und **de nada** (gern geschehen).",
+        "hr": "Riječi uljudnosti: **por favor** (molim), **gracias** (hvala), i **de nada** (nema na čemu)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "es-ex-greetings-3"
+    }
   ],
   "exercises": [
     {
@@ -19,22 +46,78 @@
       "type": "multiple-choice",
       "prompt": "Which greeting would you use in the morning?",
       "answer": "buenos días",
-      "distractors": ["buenas tardes", "buenas noches", "adiós"]
+      "distractors": [
+        "buenas tardes",
+        "buenas noches",
+        "adiós"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Quale saluto useresti al mattino?"
+        },
+        "fr": {
+          "prompt": "Quel salut utiliserais-tu le matin ?"
+        },
+        "de": {
+          "prompt": "Welchen Gruß würdest du morgens verwenden?"
+        },
+        "hr": {
+          "prompt": "Koji bi pozdrav koristio/koristila ujutro?"
+        }
+      }
     },
     {
       "id": "es-ex-greetings-2",
       "type": "fill-blank",
       "prompt": "___, ¿cómo estás? (informal \"hi\")",
       "answer": "Hola",
-      "relatedItemId": "es-vocab-greet-001"
+      "relatedItemId": "es-vocab-greet-001",
+      "i18n": {
+        "it": {
+          "prompt": "___, ¿cómo estás? (\"ciao\" informale)"
+        },
+        "fr": {
+          "prompt": "___, ¿cómo estás? (\"salut\" informel)"
+        },
+        "de": {
+          "prompt": "___, ¿cómo estás? (informelles \"hallo\")"
+        },
+        "hr": {
+          "prompt": "___, ¿cómo estás? (neformalno \"bok\")"
+        }
+      }
     },
     {
       "id": "es-ex-greetings-3",
       "type": "multiple-choice",
       "prompt": "How do you say \"thank you\" in Spanish?",
       "answer": "gracias",
-      "distractors": ["por favor", "de nada", "perdón"],
-      "relatedItemId": "es-vocab-greet-009"
+      "distractors": [
+        "por favor",
+        "de nada",
+        "perdón"
+      ],
+      "relatedItemId": "es-vocab-greet-009",
+      "i18n": {
+        "it": {
+          "prompt": "Come si dice \"grazie\" in spagnolo?"
+        },
+        "fr": {
+          "prompt": "Comment dit-on \"merci\" en espagnol ?"
+        },
+        "de": {
+          "prompt": "Wie sagt man \"danke\" auf Spanisch?"
+        },
+        "hr": {
+          "prompt": "Kako se kaže \"hvala\" na španjolskom?"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Saluti e cortesia",
+    "fr": "Salutations et politesse",
+    "de": "Begrüßungen und Höflichkeit",
+    "hr": "Pozdravi i uljudnost"
+  }
 }

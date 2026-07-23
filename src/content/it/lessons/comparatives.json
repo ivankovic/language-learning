@@ -5,12 +5,32 @@
   "unitId": "it-unit-8",
   "order": 1,
   "title": "Comparatives: più...di, meno...di, come",
-  "prerequisiteIds": ["it-lesson-futuro-semplice"],
+  "prerequisiteIds": [
+    "it-lesson-futuro-semplice"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "**Più ... di** = more ... than: *Il treno è più veloce dell'autobus* (The train is faster than the bus). **Meno ... di** = less ... than. To say two things are equal, use **(così) ... come** or **(tanto) ... quanto** = as ... as: *Questo esame è difficile come quello* (This exam is as difficult as that one)." },
-    { "type": "exercise", "exerciseId": "it-ex-comp-1" },
-    { "type": "exercise", "exerciseId": "it-ex-comp-2" },
-    { "type": "exercise", "exerciseId": "it-ex-comp-3" }
+    {
+      "type": "explanation",
+      "markdown": "**Più ... di** = more ... than: *Il treno è più veloce dell'autobus* (The train is faster than the bus). **Meno ... di** = less ... than. To say two things are equal, use **(così) ... come** or **(tanto) ... quanto** = as ... as: *Questo esame è difficile come quello* (This exam is as difficult as that one).",
+      "i18n": {
+        "hr": "**Più ... di** = više ... nego: *Il treno è più veloce dell'autobus* (Vlak je brži od autobusa). **Meno ... di** = manje ... nego. Za izražavanje jednakosti koristi se **(così) ... come** ili **(tanto) ... quanto** = jednako ... kao: *Questo esame è difficile come quello* (Ovaj ispit je jednako težak kao onaj).",
+        "fr": "**Più ... di** = plus ... que : *Il treno è più veloce dell'autobus* (Le train est plus rapide que le bus). **Meno ... di** = moins ... que. Pour dire que deux choses sont égales, utilise **(così) ... come** ou **(tanto) ... quanto** = aussi ... que : *Questo esame è difficile come quello* (Cet examen est aussi difficile que celui-là).",
+        "de": "**Più ... di** = mehr ... als: *Il treno è più veloce dell'autobus* (Der Zug ist schneller als der Bus). **Meno ... di** = weniger ... als. Um zu sagen, dass zwei Dinge gleich sind, benutze **(così) ... come** oder **(tanto) ... quanto** = so ... wie: *Questo esame è difficile come quello* (Diese Prüfung ist so schwer wie jene).",
+        "es": "**Più ... di** = más ... que: *Il treno è più veloce dell'autobus* (El tren es más rápido que el autobús). **Meno ... di** = menos ... que. Para decir que dos cosas son iguales, usa **(così) ... come** o **(tanto) ... quanto** = tan ... como: *Questo esame è difficile come quello* (Este examen es tan difícil como aquel)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-comp-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-comp-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-comp-3"
+    }
   ],
   "exercises": [
     {
@@ -18,21 +38,75 @@
       "type": "fill-blank",
       "prompt": "Il treno è più ___ dell'autobus. (veloce — faster)",
       "answer": "veloce",
-      "relatedItemId": "it-vocab-adj-013"
+      "relatedItemId": "it-vocab-adj-013",
+      "i18n": {
+        "hr": {
+          "prompt": "Il treno è più ___ dell'autobus. (veloce — brži)"
+        },
+        "fr": {
+          "prompt": "Il treno è più ___ dell'autobus. (veloce — plus rapide)"
+        },
+        "de": {
+          "prompt": "Il treno è più ___ dell'autobus. (veloce — schneller)"
+        },
+        "es": {
+          "prompt": "Il treno è più ___ dell'autobus. (veloce — más rápido)"
+        }
+      }
     },
     {
       "id": "it-ex-comp-2",
       "type": "multiple-choice",
       "prompt": "La mia casa è ___ grande della tua. (My house is less big than yours.)",
       "answer": "meno",
-      "distractors": ["più", "come", "tanto"]
+      "distractors": [
+        "più",
+        "come",
+        "tanto"
+      ],
+      "i18n": {
+        "hr": {
+          "prompt": "La mia casa è ___ grande della tua. (Moja kuća je manja od tvoje.)"
+        },
+        "fr": {
+          "prompt": "La mia casa è ___ grande della tua. (Ma maison est moins grande que la tienne.)"
+        },
+        "de": {
+          "prompt": "La mia casa è ___ grande della tua. (Mein Haus ist kleiner als deins.)"
+        },
+        "es": {
+          "prompt": "La mia casa è ___ grande della tua. (Mi casa es menos grande que la tuya.)"
+        }
+      }
     },
     {
       "id": "it-ex-comp-3",
       "type": "translate",
       "prompt": "Translate: \"This exam is as difficult as that one.\"",
-      "answer": ["Questo esame è difficile come quello."],
-      "relatedItemId": "it-vocab-work-022"
+      "answer": [
+        "Questo esame è difficile come quello."
+      ],
+      "relatedItemId": "it-vocab-work-022",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Ovaj ispit je jednako težak kao onaj.\""
+        },
+        "fr": {
+          "prompt": "Traduis : \"Cet examen est aussi difficile que celui-là.\""
+        },
+        "de": {
+          "prompt": "Übersetze: \"Diese Prüfung ist so schwer wie jene.\""
+        },
+        "es": {
+          "prompt": "Traduce: \"Este examen es tan difícil como aquel.\""
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Komparativi: più...di, meno...di, come",
+    "fr": "Comparatifs : più...di, meno...di, come",
+    "de": "Komparative: più...di, meno...di, come",
+    "es": "Comparativos: più...di, meno...di, come"
+  }
 }

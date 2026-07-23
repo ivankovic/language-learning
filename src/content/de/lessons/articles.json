@@ -5,12 +5,32 @@
   "unitId": "de-unit-1",
   "order": 2,
   "title": "Definite Articles: der, die, das",
-  "prerequisiteIds": ["de-lesson-greetings"],
+  "prerequisiteIds": [
+    "de-lesson-greetings"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "German nouns have **three** genders (more than Italian or French): **der** (masculine), **die** (feminine), **das** (neuter). The plural article is **die** for all genders. There's no reliable shortcut for guessing gender — it's worth learning each noun together with its article." },
-    { "type": "exercise", "exerciseId": "de-ex-articles-1" },
-    { "type": "exercise", "exerciseId": "de-ex-articles-2" },
-    { "type": "exercise", "exerciseId": "de-ex-articles-3" }
+    {
+      "type": "explanation",
+      "markdown": "German nouns have **three** genders (more than Italian or French): **der** (masculine), **die** (feminine), **das** (neuter). The plural article is **die** for all genders. There's no reliable shortcut for guessing gender — it's worth learning each noun together with its article.",
+      "i18n": {
+        "it": "I sostantivi tedeschi hanno **tre** generi (più dell'italiano o del francese): **der** (maschile), **die** (femminile), **das** (neutro). L'articolo plurale è **die** per tutti i generi. Non c'è una scorciatoia affidabile per indovinare il genere — conviene imparare ogni sostantivo insieme al suo articolo.",
+        "fr": "Les noms allemands ont **trois** genres (plus que l'italien ou le français) : **der** (masculin), **die** (féminin), **das** (neutre). L'article au pluriel est **die** pour tous les genres. Il n'existe pas de raccourci fiable pour deviner le genre — mieux vaut apprendre chaque nom avec son article.",
+        "hr": "Njemačke imenice imaju **tri** roda — baš kao i hrvatski: **der** (muški), **die** (ženski), **das** (srednji). Ovaj koncept trodijelnog roda bit će ti odmah poznat, iako se raspodjela roda po riječima često ne poklapa s hrvatskom. Množinski član je **die** za sve rodove. Ne postoji pouzdan način pogađanja roda — najbolje je učiti svaku imenicu zajedno s njezinim članom.",
+        "es": "Los sustantivos alemanes tienen **tres** géneros (más que el italiano o el francés): **der** (masculino), **die** (femenino), **das** (neutro). El artículo plural es **die** para todos los géneros. No hay un atajo fiable para adivinar el género — conviene aprender cada sustantivo junto con su artículo."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-articles-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-articles-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "de-ex-articles-3"
+    }
   ],
   "exercises": [
     {
@@ -18,23 +38,79 @@
       "type": "multiple-choice",
       "prompt": "Choose the correct article for \"Brot\" (bread — neuter: das Brot).",
       "answer": "das",
-      "distractors": ["der", "die", "den"],
-      "relatedItemId": "de-vocab-food-001"
+      "distractors": [
+        "der",
+        "die",
+        "den"
+      ],
+      "relatedItemId": "de-vocab-food-001",
+      "i18n": {
+        "it": {
+          "prompt": "Scegli l'articolo corretto per \"Brot\" (pane — neutro: das Brot)."
+        },
+        "fr": {
+          "prompt": "Choisis l'article correct pour \"Brot\" (pain — neutre : das Brot)."
+        },
+        "hr": {
+          "prompt": "Odaberi ispravan član za \"Brot\" (kruh — srednji rod: das Brot)."
+        },
+        "es": {
+          "prompt": "Elige el artículo correcto para \"Brot\" (pan — neutro: das Brot)."
+        }
+      }
     },
     {
       "id": "de-ex-articles-2",
       "type": "multiple-choice",
       "prompt": "Choose the correct article for \"Schule\" (school — feminine: die Schule).",
       "answer": "die",
-      "distractors": ["der", "das", "dem"],
-      "relatedItemId": "de-vocab-routine-011"
+      "distractors": [
+        "der",
+        "das",
+        "dem"
+      ],
+      "relatedItemId": "de-vocab-routine-011",
+      "i18n": {
+        "it": {
+          "prompt": "Scegli l'articolo corretto per \"Schule\" (scuola — femminile: die Schule)."
+        },
+        "fr": {
+          "prompt": "Choisis l'article correct pour \"Schule\" (école — féminin : die Schule)."
+        },
+        "hr": {
+          "prompt": "Odaberi ispravan član za \"Schule\" (škola — ženski rod: die Schule)."
+        },
+        "es": {
+          "prompt": "Elige el artículo correcto para \"Schule\" (escuela — femenino: die Schule)."
+        }
+      }
     },
     {
       "id": "de-ex-articles-3",
       "type": "fill-blank",
       "prompt": "___ Zug ist da. (train — masculine: der Zug)",
       "answer": "Der",
-      "relatedItemId": "de-vocab-travel-001"
+      "relatedItemId": "de-vocab-travel-001",
+      "i18n": {
+        "it": {
+          "prompt": "___ Zug ist da. (treno — maschile: der Zug)"
+        },
+        "fr": {
+          "prompt": "___ Zug ist da. (train — masculin : der Zug)"
+        },
+        "hr": {
+          "prompt": "___ Zug ist da. (vlak — muški rod: der Zug)"
+        },
+        "es": {
+          "prompt": "___ Zug ist da. (tren — masculino: der Zug)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Articoli determinativi: der, die, das",
+    "fr": "Articles définis : der, die, das",
+    "hr": "Određeni članovi: der, die, das",
+    "es": "Artículos determinados: der, die, das"
+  }
 }

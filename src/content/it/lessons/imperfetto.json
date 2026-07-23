@@ -5,12 +5,32 @@
   "unitId": "it-unit-7",
   "order": 1,
   "title": "Past Tense: Imperfetto",
-  "prerequisiteIds": ["it-lesson-passato-prossimo-essere"],
+  "prerequisiteIds": [
+    "it-lesson-passato-prossimo-essere"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "While **passato prossimo** describes a completed action, **imperfetto** describes habitual, ongoing, or descriptive actions in the past — \"used to\" or \"was ...ing\" in English.\n\nRegular endings: **-are → -avo, -avi, -ava, -avamo, -avate, -avano**; **-ere/-ire → -evo/-ivo, -evi/-ivi, -eva/-iva, -evamo/-ivamo, -evate/-ivate, -evano/-ivano**. **Essere** is irregular: **ero, eri, era, eravamo, eravate, erano**." },
-    { "type": "exercise", "exerciseId": "it-ex-imperfetto-1" },
-    { "type": "exercise", "exerciseId": "it-ex-imperfetto-2" },
-    { "type": "exercise", "exerciseId": "it-ex-imperfetto-3" }
+    {
+      "type": "explanation",
+      "markdown": "While **passato prossimo** describes a completed action, **imperfetto** describes habitual, ongoing, or descriptive actions in the past — \"used to\" or \"was ...ing\" in English.\n\nRegular endings: **-are → -avo, -avi, -ava, -avamo, -avate, -avano**; **-ere/-ire → -evo/-ivo, -evi/-ivi, -eva/-iva, -evamo/-ivamo, -evate/-ivate, -evano/-ivano**. **Essere** is irregular: **ero, eri, era, eravamo, eravate, erano**.",
+      "i18n": {
+        "hr": "Dok **passato prossimo** opisuje završenu radnju, **imperfetto** opisuje uobičajene, trajne ili opisne radnje u prošlosti — u hrvatskom se često prevodi nesvršenim glagolskim vidom ili izrazom \"običavao sam\".\n\nPravilni nastavci: **-are → -avo, -avi, -ava, -avamo, -avate, -avano**; **-ere/-ire → -evo/-ivo, -evi/-ivi, -eva/-iva, -evamo/-ivamo, -evate/-ivate, -evano/-ivano**. **Essere** je nepravilan: **ero, eri, era, eravamo, eravate, erano**.",
+        "fr": "Alors que le **passato prossimo** décrit une action terminée, l'**imperfetto** décrit des actions habituelles, continues ou descriptives dans le passé — comme l'imparfait français.\n\nTerminaisons régulières : **-are → -avo, -avi, -ava, -avamo, -avate, -avano** ; **-ere/-ire → -evo/-ivo, -evi/-ivi, -eva/-iva, -evamo/-ivamo, -evate/-ivate, -evano/-ivano**. **Essere** est irrégulier : **ero, eri, era, eravamo, eravate, erano**.",
+        "de": "Während das **passato prossimo** eine abgeschlossene Handlung beschreibt, beschreibt das **imperfetto** gewohnheitsmäßige, andauernde oder beschreibende Handlungen in der Vergangenheit — ähnlich dem deutschen Präteritum bei Zuständen und Gewohnheiten (\"ich spielte immer draußen\") oder Ausdrücken wie \"ich pflegte zu...\".\n\nRegelmäßige Endungen: **-are → -avo, -avi, -ava, -avamo, -avate, -avano**; **-ere/-ire → -evo/-ivo, -evi/-ivi, -eva/-iva, -evamo/-ivamo, -evate/-ivate, -evano/-ivano**. **Essere** ist unregelmäßig: **ero, eri, era, eravamo, eravate, erano**.",
+        "es": "Mientras el **passato prossimo** describe una acción terminada, el **imperfetto** describe acciones habituales, continuas o descriptivas en el pasado — igual que el pretérito imperfecto español.\n\nTerminaciones regulares: **-are → -avo, -avi, -ava, -avamo, -avate, -avano**; **-ere/-ire → -evo/-ivo, -evi/-ivi, -eva/-iva, -evamo/-ivamo, -evate/-ivate, -evano/-ivano**. **Essere** es irregular: **ero, eri, era, eravamo, eravate, erano**."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-imperfetto-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-imperfetto-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-imperfetto-3"
+    }
   ],
   "exercises": [
     {
@@ -18,20 +38,75 @@
       "type": "fill-blank",
       "prompt": "Da bambino, io ___ sempre fuori. (giocare — As a child, I always used to play outside.)",
       "answer": "giocavo",
-      "relatedItemId": "it-vocab-verbs-025"
+      "relatedItemId": "it-vocab-verbs-025",
+      "i18n": {
+        "hr": {
+          "prompt": "Da bambino, io ___ sempre fuori. (giocare — Kao dijete, uvijek sam se igrao/igrala vani.)"
+        },
+        "fr": {
+          "prompt": "Da bambino, io ___ sempre fuori. (giocare — Enfant, je jouais toujours dehors.)"
+        },
+        "de": {
+          "prompt": "Da bambino, io ___ sempre fuori. (giocare — Als Kind spielte ich immer draußen.)"
+        },
+        "es": {
+          "prompt": "Da bambino, io ___ sempre fuori. (giocare — De niño, siempre jugaba afuera.)"
+        }
+      }
     },
     {
       "id": "it-ex-imperfetto-2",
       "type": "multiple-choice",
       "prompt": "Da giovane, lei ___ molto timida. (essere — When she was young, she used to be very shy.)",
       "answer": "era",
-      "distractors": ["è", "sarà", "fu"]
+      "distractors": [
+        "è",
+        "sarà",
+        "fu"
+      ],
+      "i18n": {
+        "hr": {
+          "prompt": "Da giovane, lei ___ molto timida. (essere — Kad je bila mlada, bila je vrlo stidljiva.)"
+        },
+        "fr": {
+          "prompt": "Da giovane, lei ___ molto timida. (essere — Quand elle était jeune, elle était très timide.)"
+        },
+        "de": {
+          "prompt": "Da giovane, lei ___ molto timida. (essere — Als sie jung war, war sie sehr schüchtern.)"
+        },
+        "es": {
+          "prompt": "Da giovane, lei ___ molto timida. (essere — Cuando era joven, era muy tímida.)"
+        }
+      }
     },
     {
       "id": "it-ex-imperfetto-3",
       "type": "translate",
       "prompt": "Translate: \"We used to live in Rome.\" (abitare — to live)",
-      "answer": ["Abitavamo a Roma.", "Noi abitavamo a Roma."]
+      "answer": [
+        "Abitavamo a Roma.",
+        "Noi abitavamo a Roma."
+      ],
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Živjeli smo u Rimu.\" (abitare — živjeti)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Nous habitions à Rome.\" (abitare — habiter)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Wir wohnten in Rom.\" (abitare — wohnen)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Vivíamos en Roma.\" (abitare — vivir)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Prošlo vrijeme: Imperfetto",
+    "fr": "Passé : Imperfetto",
+    "de": "Vergangenheit: Imperfetto",
+    "es": "Pasado: Imperfetto"
+  }
 }

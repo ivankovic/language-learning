@@ -5,12 +5,32 @@
   "unitId": "hr-unit-2",
   "order": 3,
   "title": "Numbers 1-10 & Telling Time",
-  "prerequisiteIds": ["hr-lesson-imati"],
+  "prerequisiteIds": [
+    "hr-lesson-imati"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Numbers 1-10: **jedan, dva, tri, četiri, pet, šest, sedam, osam, devet, deset**. To tell time, Croatian says \"Sada je...\" (It is now...), e.g. *Sada je tri sata* (It's three o'clock now)." },
-    { "type": "exercise", "exerciseId": "hr-ex-numbers-1" },
-    { "type": "exercise", "exerciseId": "hr-ex-numbers-2" },
-    { "type": "exercise", "exerciseId": "hr-ex-numbers-3" }
+    {
+      "type": "explanation",
+      "markdown": "Numbers 1-10: **jedan, dva, tri, četiri, pet, šest, sedam, osam, devet, deset**. To tell time, Croatian says \"Sada je...\" (It is now...), e.g. *Sada je tri sata* (It's three o'clock now).",
+      "i18n": {
+        "it": "Numeri 1-10: **jedan, dva, tri, četiri, pet, šest, sedam, osam, devet, deset**. Per dire l'ora, il croato usa \"Sada je...\" (Ora è...), es. *Sada je tri sata* (Sono le tre).",
+        "fr": "Nombres 1-10 : **jedan, dva, tri, četiri, pet, šest, sedam, osam, devet, deset**. Pour dire l'heure, le croate utilise \"Sada je...\" (Il est maintenant...), p. ex. *Sada je tri sata* (Il est trois heures).",
+        "de": "Zahlen 1-10: **jedan, dva, tri, četiri, pet, šest, sedam, osam, devet, deset**. Für die Uhrzeit sagt das Kroatische \"Sada je...\" (Jetzt ist es...), z.B. *Sada je tri sata* (Es ist jetzt drei Uhr).",
+        "es": "Números 1-10: **jedan, dva, tri, četiri, pet, šest, sedam, osam, devet, deset**. Para decir la hora, el croata usa \"Sada je...\" (Ahora son...), p. ej. *Sada je tri sata* (Ahora son las tres)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-numbers-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-numbers-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "hr-ex-numbers-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,107 @@
       "type": "multiple-choice",
       "prompt": "What is \"sedam\" in English?",
       "answer": "seven",
-      "distractors": ["six", "eight", "nine"],
-      "relatedItemId": "hr-vocab-numtime-007"
+      "distractors": [
+        "six",
+        "eight",
+        "nine"
+      ],
+      "relatedItemId": "hr-vocab-numtime-007",
+      "i18n": {
+        "it": {
+          "prompt": "Cosa significa \"sedam\" in italiano?",
+          "answer": "sette",
+          "distractors": [
+            "sei",
+            "otto",
+            "nove"
+          ]
+        },
+        "fr": {
+          "prompt": "Que signifie \"sedam\" en français ?",
+          "answer": "sept",
+          "distractors": [
+            "six",
+            "huit",
+            "neuf"
+          ]
+        },
+        "de": {
+          "prompt": "Was bedeutet \"sedam\" auf Deutsch?",
+          "answer": "sieben",
+          "distractors": [
+            "sechs",
+            "acht",
+            "neun"
+          ]
+        },
+        "es": {
+          "prompt": "¿Qué significa \"sedam\" en español?",
+          "answer": "siete",
+          "distractors": [
+            "seis",
+            "ocho",
+            "nueve"
+          ]
+        }
+      }
     },
     {
       "id": "hr-ex-numbers-2",
       "type": "multiple-choice",
       "prompt": "Which word means \"morning\"?",
       "answer": "jutro",
-      "distractors": ["večer", "popodne", "noć"],
-      "relatedItemId": "hr-vocab-numtime-020"
+      "distractors": [
+        "večer",
+        "popodne",
+        "noć"
+      ],
+      "relatedItemId": "hr-vocab-numtime-020",
+      "i18n": {
+        "it": {
+          "prompt": "Quale parola significa \"mattina\"?"
+        },
+        "fr": {
+          "prompt": "Quel mot signifie \"matin\" ?"
+        },
+        "de": {
+          "prompt": "Welches Wort bedeutet \"Morgen\"?"
+        },
+        "es": {
+          "prompt": "¿Qué palabra significa \"mañana\" (por la mañana)?"
+        }
+      }
     },
     {
       "id": "hr-ex-numbers-3",
       "type": "reorder",
       "prompt": "Put these words in order: sata / tri / je / Sada",
-      "answer": ["Sada", "je", "tri", "sata"]
+      "answer": [
+        "Sada",
+        "je",
+        "tri",
+        "sata"
+      ],
+      "i18n": {
+        "it": {
+          "prompt": "Metti in ordine queste parole: sata / tri / je / Sada"
+        },
+        "fr": {
+          "prompt": "Mets ces mots dans l'ordre : sata / tri / je / Sada"
+        },
+        "de": {
+          "prompt": "Bringe diese Wörter in die richtige Reihenfolge: sata / tri / je / Sada"
+        },
+        "es": {
+          "prompt": "Ordena estas palabras: sata / tri / je / Sada"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "it": "Numeri 1-10 e l'ora",
+    "fr": "Nombres 1-10 et l'heure",
+    "de": "Zahlen 1-10 und die Uhrzeit",
+    "es": "Números 1-10 y la hora"
+  }
 }

@@ -5,12 +5,32 @@
   "unitId": "it-unit-6",
   "order": 2,
   "title": "Past Tense: Passato Prossimo with Essere",
-  "prerequisiteIds": ["it-lesson-passato-prossimo-avere"],
+  "prerequisiteIds": [
+    "it-lesson-passato-prossimo-avere"
+  ],
   "blocks": [
-    { "type": "explanation", "markdown": "Verbs of motion or state (**andare**, **venire**, **partire**, **arrivare**, **tornare**, **uscire**, **entrare**) and all **reflexive verbs** use **essere** instead of avere in the passato prossimo — and with essere, the past participle **agrees in gender and number** with the subject, like an adjective.\n\n*Sono andato al mercato* (I went to the market — masculine speaker) / *Sono andata al mercato* (feminine speaker). *Mi sono alzato/alzata alle sette* (I got up at seven)." },
-    { "type": "exercise", "exerciseId": "it-ex-pp-essere-1" },
-    { "type": "exercise", "exerciseId": "it-ex-pp-essere-2" },
-    { "type": "exercise", "exerciseId": "it-ex-pp-essere-3" }
+    {
+      "type": "explanation",
+      "markdown": "Verbs of motion or state (**andare**, **venire**, **partire**, **arrivare**, **tornare**, **uscire**, **entrare**) and all **reflexive verbs** use **essere** instead of avere in the passato prossimo — and with essere, the past participle **agrees in gender and number** with the subject, like an adjective.\n\n*Sono andato al mercato* (I went to the market — masculine speaker) / *Sono andata al mercato* (feminine speaker). *Mi sono alzato/alzata alle sette* (I got up at seven).",
+      "i18n": {
+        "hr": "Glagoli kretanja ili stanja (**andare**, **venire**, **partire**, **arrivare**, **tornare**, **uscire**, **entrare**) i svi **povratni glagoli** koriste **essere** umjesto avere u passato prossimo — a uz essere, prošli particip **slaže se u rodu i broju** sa subjektom, poput pridjeva.\n\n*Sono andato al mercato* (Otišao sam na tržnicu — muški govornik) / *Sono andata al mercato* (ženski govornik). *Mi sono alzato/alzata alle sette* (Ustao/ustala sam u sedam sati).",
+        "fr": "Les verbes de mouvement ou d'état (**andare**, **venire**, **partire**, **arrivare**, **tornare**, **uscire**, **entrare**) et tous les **verbes pronominaux** utilisent **essere** au lieu de avere au passato prossimo — exactement comme en français avec être. Et avec essere, le participe passé **s'accorde en genre et en nombre** avec le sujet, comme un adjectif — là aussi comme en français.\n\n*Sono andato al mercato* (Je suis allé au marché — locuteur masculin) / *Sono andata al mercato* (locutrice féminine). *Mi sono alzato/alzata alle sette* (Je me suis levé(e) à sept heures).",
+        "de": "Verben der Bewegung oder des Zustands (**andare**, **venire**, **partire**, **arrivare**, **tornare**, **uscire**, **entrare**) und alle **reflexiven Verben** benutzen **essere** statt avere im passato prossimo — ganz ähnlich wie im Deutschen, wo bestimmte Verben (wie *gehen*, *kommen*, *aufstehen*) das Perfekt mit *sein* statt *haben* bilden. Und mit essere stimmt das Partizip **in Geschlecht und Zahl** mit dem Subjekt überein, wie ein Adjektiv — das ist allerdings anders als im Deutschen, wo das Partizip unverändert bleibt.\n\n*Sono andato al mercato* (Ich bin zum Markt gegangen — männlicher Sprecher) / *Sono andata al mercato* (weibliche Sprecherin). *Mi sono alzato/alzata alle sette* (Ich bin um sieben Uhr aufgestanden).",
+        "es": "Los verbos de movimiento o estado (**andare**, **venire**, **partire**, **arrivare**, **tornare**, **uscire**, **entrare**) y todos los **verbos reflexivos** usan **essere** en lugar de avere en el passato prossimo. Esto es diferente al español, que siempre usa \"haber\" para el pretérito perfecto compuesto, sin importar el verbo. Además, con essere el participio pasado **concuerda en género y número** con el sujeto, como un adjetivo — algo que tampoco ocurre en español.\n\n*Sono andato al mercato* (Fui al mercado — hablante masculino) / *Sono andata al mercato* (hablante femenina). *Mi sono alzato/alzata alle sette* (Me levanté a las siete)."
+      }
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-pp-essere-1"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-pp-essere-2"
+    },
+    {
+      "type": "exercise",
+      "exerciseId": "it-ex-pp-essere-3"
+    }
   ],
   "exercises": [
     {
@@ -18,22 +38,77 @@
       "type": "multiple-choice",
       "prompt": "Maria è ___ a casa presto. (tornare — Maria came home early. Participle must agree: feminine subject.)",
       "answer": "tornata",
-      "distractors": ["tornato", "tornati", "tornate"],
-      "relatedItemId": "it-vocab-home-001"
+      "distractors": [
+        "tornato",
+        "tornati",
+        "tornate"
+      ],
+      "relatedItemId": "it-vocab-home-001",
+      "i18n": {
+        "hr": {
+          "prompt": "Maria è ___ a casa presto. (tornare — Marija se rano vratila kući. Particip se mora slagati: ženski subjekt.)"
+        },
+        "fr": {
+          "prompt": "Maria è ___ a casa presto. (tornare — Maria est rentrée tôt à la maison. Le participe doit s'accorder : sujet féminin.)"
+        },
+        "de": {
+          "prompt": "Maria è ___ a casa presto. (tornare — Maria ist früh nach Hause zurückgekehrt. Das Partizip muss übereinstimmen: weibliches Subjekt.)"
+        },
+        "es": {
+          "prompt": "Maria è ___ a casa presto. (tornare — María volvió temprano a casa. El participio debe concordar: sujeto femenino.)"
+        }
+      }
     },
     {
       "id": "it-ex-pp-essere-2",
       "type": "fill-blank",
       "prompt": "I ragazzi sono ___ tardi. (arrivare — masculine plural subject)",
       "answer": "arrivati",
-      "relatedItemId": "it-vocab-travel-024"
+      "relatedItemId": "it-vocab-travel-024",
+      "i18n": {
+        "hr": {
+          "prompt": "I ragazzi sono ___ tardi. (arrivare — muški rod, množina)"
+        },
+        "fr": {
+          "prompt": "I ragazzi sono ___ tardi. (arrivare — sujet masculin pluriel)"
+        },
+        "de": {
+          "prompt": "I ragazzi sono ___ tardi. (arrivare — männliches Subjekt, Plural)"
+        },
+        "es": {
+          "prompt": "I ragazzi sono ___ tardi. (arrivare — sujeto masculino plural)"
+        }
+      }
     },
     {
       "id": "it-ex-pp-essere-3",
       "type": "translate",
       "prompt": "Translate: \"She got up at eight.\" (reflexive, passato prossimo)",
-      "answer": ["Si è alzata alle otto.", "Lei si è alzata alle otto."],
-      "relatedItemId": "it-vocab-routine-001"
+      "answer": [
+        "Si è alzata alle otto.",
+        "Lei si è alzata alle otto."
+      ],
+      "relatedItemId": "it-vocab-routine-001",
+      "i18n": {
+        "hr": {
+          "prompt": "Prevedi: \"Ustala je u osam.\" (povratni glagol, passato prossimo)"
+        },
+        "fr": {
+          "prompt": "Traduis : \"Elle s'est levée à huit heures.\" (pronominal, passato prossimo)"
+        },
+        "de": {
+          "prompt": "Übersetze: \"Sie ist um acht Uhr aufgestanden.\" (reflexiv, passato prossimo)"
+        },
+        "es": {
+          "prompt": "Traduce: \"Ella se levantó a las ocho.\" (reflexivo, passato prossimo)"
+        }
+      }
     }
-  ]
+  ],
+  "titleByLang": {
+    "hr": "Prošlo vrijeme: Passato Prossimo s Essere",
+    "fr": "Passé composé : Passato Prossimo avec Essere",
+    "de": "Perfekt: Passato Prossimo mit Essere",
+    "es": "Pretérito perfecto: Passato Prossimo con Essere"
+  }
 }
