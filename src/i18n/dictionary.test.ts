@@ -16,7 +16,7 @@ describe("translate", () => {
 
   it("interpolates {var} placeholders from the vars map", () => {
     expect(translate("en", "home.reviewsToday", { count: 3, goal: 20 })).toBe("3 / 20 reviews today");
-    expect(translate("de", "onboarding.stepOf", { n: 2 })).toBe("Schritt 2 von 4");
+    expect(translate("de", "onboarding.stepOf", { n: 2 })).toBe("Schritt 2 von 3");
   });
 
   it("leaves unmatched placeholders untouched rather than throwing", () => {
