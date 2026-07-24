@@ -105,7 +105,8 @@ export function OnboardingFlow() {
         {step === "explainer" && (
           <div>
             <h1 className="mb-2 text-2xl font-semibold">{t("onboarding.dataStaysTitle")}</h1>
-            <p className="text-sm text-slate-600 dark:text-slate-400">{t("onboarding.dataStaysDesc")}</p>
+            <p className="mb-4 text-sm text-slate-600 dark:text-slate-400">{t("onboarding.dataStaysDesc")}</p>
+            <p className="text-sm font-medium text-red-600 dark:text-red-400">{t("onboarding.dataStaysWarning")}</p>
           </div>
         )}
       </div>

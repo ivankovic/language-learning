@@ -111,6 +111,7 @@ export const fr: Record<TranslationKey, string> = {
   "onboarding.noTargetAvailable": "Aucune langue à apprendre disponible pour la langue que vous avez sélectionnée.",
   "onboarding.dataStaysTitle": "Vos données restent sur cet appareil",
   "onboarding.dataStaysDesc": "Il n'y a ni compte ni serveur — tout ce que vous faites est stocké localement dans ce navigateur. Sauvegardez vos progrès à tout moment depuis les Paramètres en les exportant vers un fichier, et restaurez-les de la même façon sur un autre appareil.",
+  "onboarding.dataStaysWarning": "Si vous ne sauvegardez pas vos données et que vous perdez cet appareil, il n'y aura aucun moyen de les récupérer. Assurez-vous de sauvegarder vos données si cela compte pour vous.",
   "onboarding.back": "Retour",
   "onboarding.next": "Suivant",
   "onboarding.settingUp": "Configuration en cours…",

@@ -111,6 +111,7 @@ export const hr: Record<TranslationKey, string> = {
   "onboarding.noTargetAvailable": "Nema dostupnih jezika za učenje s obzirom na odabrani jezik.",
   "onboarding.dataStaysTitle": "Tvoji podaci ostaju na ovom uređaju",
   "onboarding.dataStaysDesc": "Nema računa ni poslužitelja — sve što radiš pohranjuje se lokalno u ovom pregledniku. Napravi sigurnosnu kopiju napretka bilo kada u Postavkama izvozom u datoteku, i vrati je na isti način na drugom uređaju.",
+  "onboarding.dataStaysWarning": "Ako ne napraviš sigurnosnu kopiju svojih podataka i izgubiš ovaj uređaj, nema načina da ih vratiš. Svakako napravi sigurnosnu kopiju podataka ako ti je to važno.",
   "onboarding.back": "Natrag",
   "onboarding.next": "Dalje",
   "onboarding.settingUp": "Postavljanje u tijeku…",

@@ -112,6 +112,7 @@ export const en = {
   "onboarding.noTargetAvailable": "No target languages available for the language you selected.",
   "onboarding.dataStaysTitle": "Your data stays on this device",
   "onboarding.dataStaysDesc": "There's no account and no server — everything you do is stored locally in this browser. Back up your progress anytime from Settings by exporting it to a file, and restore it the same way on another device.",
+  "onboarding.dataStaysWarning": "If you don't back up your data and you lose this device, there is no way to recover it. Please make sure to back up your data if this is something you care about.",
   "onboarding.back": "Back",
   "onboarding.next": "Next",
   "onboarding.settingUp": "Setting up…",
