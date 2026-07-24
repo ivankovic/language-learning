@@ -5,8 +5,8 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // `base` is per-deploy-target: "/" works for a custom domain or a host that
 // serves from the root (Netlify, Vercel, Cloudflare Pages). A project page on
-// GitHub Pages or Codeberg Pages serves from "/<repo-name>/" instead. Only
-// applied for production builds — `bun run dev` (including LAN access) stays
+// GitHub Pages serves from "/<repo-name>/" instead. Only applied for
+// production builds — `bun run dev` (including LAN access) stays
 // at "/" for local convenience, since the subpath only matters once deployed.
 // Single source of truth here — start_url/icon paths below derive from it so
 // they can't drift out of sync with a subpath deploy.

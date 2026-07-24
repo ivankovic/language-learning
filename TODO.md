@@ -97,7 +97,7 @@ Previously `activeTargetLang` was set once at onboarding with no way to change i
 
 ## About page (complete)
 
-- [x] New `/about` route, reachable from Settings — explains the app is free (no cost/account, AGPLv3), private (no server, on-device only), and LLM-assisted (with a pointer to open an issue/PR for corrections), plus a link to the Codeberg repo
+- [x] New `/about` route, reachable from Settings — explains the app is free (no cost/account, AGPLv3), private (no server, on-device only), and LLM-assisted (with a pointer to open an issue/PR for corrections), plus a link to the GitHub repo
 
 ## Quick vocabulary practice by deck (complete)
 

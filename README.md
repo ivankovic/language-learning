@@ -2,7 +2,7 @@
 
 A free, private, no-account language-learning web app. Flashcards with spaced repetition, structured grammar lessons, and a daily journal-writing practice — all running entirely in your browser, with **no server and no tracking**.
 
-**🔗 Live app: https://ivankovic.codeberg.page/language-learning/**
+**🔗 Live app: https://ivankovic.github.io/language-learning/**
 
 ## Why
 
@@ -33,7 +33,7 @@ Most language apps want an account, a subscription, and your data. This one does
 
 The UI is available in all five of these languages plus English, and every course's vocabulary, lesson explanations, and exercises are fully translated into each of the other known languages — so a Croatian speaker learning French gets French content explained in Croatian, a French speaker learning German gets it explained in French, and so on, for all 20 course/known-language combinations.
 
-All content is generated with the help of LLMs and hand-reviewed for grammatical accuracy — but mistakes can slip through. **Found an error?** [Open an issue](https://codeberg.org/ivankovic/language-learning/issues) or send a pull request; see [Contributing](#contributing) below.
+All content is generated with the help of LLMs and hand-reviewed for grammatical accuracy — but mistakes can slip through. **Found an error?** [Open an issue](https://github.com/ivankovic/language-learning/issues) or send a pull request; see [Contributing](#contributing) below.
 
 ## Tech stack
 
@@ -73,13 +73,13 @@ Or via `make`: `make dev`, `make build`, `make test`, `make typecheck`.
 
 ## Deployment
 
-The app is a fully static site — the `dist/` folder from `bun run build` can be hosted anywhere (GitHub Pages, Cloudflare Pages, Netlify, Vercel, Codeberg Pages, ...) with no server-side configuration. This repo deploys to [Codeberg Pages](https://codeberg.page/) via:
+The app is a fully static site — the `dist/` folder from `bun run build` can be hosted anywhere (GitHub Pages, Cloudflare Pages, Netlify, Vercel, ...) with no server-side configuration. This repo deploys to [GitHub Pages](https://pages.github.com/) via:
 
 ```sh
 make deploy
 ```
 
-which builds the app and pushes `dist/` to the `pages` branch.
+which builds the app and pushes `dist/` to the `gh-pages` branch (configured in the repo's Settings → Pages as the deploy source).
 
 ## Design notes
 
@@ -87,7 +87,7 @@ See [`SPECS.md`](SPECS.md) for the full design doc (data model, SRS algorithm de
 
 ## Contributing
 
-Corrections to vocabulary, translations, or grammar explanations are especially welcome, since the content is LLM-assisted and imperfect. Open an issue or send a pull request on [Codeberg](https://codeberg.org/ivankovic/language-learning).
+Corrections to vocabulary, translations, or grammar explanations are especially welcome, since the content is LLM-assisted and imperfect. Open an issue or send a pull request on [GitHub](https://github.com/ivankovic/language-learning).
 
 ## License
 

@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Screen } from "../../components/Screen";
 import { useT } from "../../i18n/useT";
 
-const REPO_URL = "https://codeberg.org/ivankovic/language-learning";
+const REPO_URL = "https://github.com/ivankovic/language-learning";
 
 export function AboutScreen() {
   const t = useT();

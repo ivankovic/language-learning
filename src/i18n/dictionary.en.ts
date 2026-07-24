@@ -128,7 +128,7 @@ export const en = {
   "disclaimer.openIssue": "Open an issue",
   "disclaimer.or": "or send a",
   "disclaimer.pullRequest": "pull request",
-  "disclaimer.onCodeberg": "on Codeberg.",
+  "disclaimer.onGithub": "on GitHub.",
   "disclaimer.dismissAria": "Dismiss",
 
   "practice.title": "Practice",

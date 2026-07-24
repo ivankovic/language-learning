@@ -127,7 +127,7 @@ export const hr: Record<TranslationKey, string> = {
   "disclaimer.openIssue": "Otvori prijavu",
   "disclaimer.or": "ili pošalji",
   "disclaimer.pullRequest": "pull request",
-  "disclaimer.onCodeberg": "na Codebergu.",
+  "disclaimer.onGithub": "na GitHubu.",
   "disclaimer.dismissAria": "Zatvori",
 
   "practice.title": "Vježba",

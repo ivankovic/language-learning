@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useT } from "../i18n/useT";
 
 const DISMISSED_KEY = "content-disclaimer-dismissed";
-const ISSUES_URL = "https://codeberg.org/ivankovic/language-learning/issues";
-const REPO_URL = "https://codeberg.org/ivankovic/language-learning";
+const ISSUES_URL = "https://github.com/ivankovic/language-learning/issues";
+const REPO_URL = "https://github.com/ivankovic/language-learning";
 
 function isDismissed(): boolean {
   try {
@@ -40,7 +40,7 @@ export function ContentDisclaimerBanner() {
           <a href={REPO_URL} target="_blank" rel="noreferrer" className="underline">
             {t("disclaimer.pullRequest")}
           </a>{" "}
-          {t("disclaimer.onCodeberg")}
+          {t("disclaimer.onGithub")}
         </p>
         <button
           onClick={dismiss}

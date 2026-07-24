@@ -127,7 +127,7 @@ export const fr: Record<TranslationKey, string> = {
   "disclaimer.openIssue": "Ouvrir un signalement",
   "disclaimer.or": "ou envoyez une",
   "disclaimer.pullRequest": "pull request",
-  "disclaimer.onCodeberg": "sur Codeberg.",
+  "disclaimer.onGithub": "sur GitHub.",
   "disclaimer.dismissAria": "Fermer",
 
   "practice.title": "Pratique",

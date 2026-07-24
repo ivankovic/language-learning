@@ -12,7 +12,7 @@ describe("ContentDisclaimerBanner", () => {
     expect(screen.getByText(/generated with the help of AI/)).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Open an issue" })).toHaveAttribute(
       "href",
-      "https://codeberg.org/ivankovic/language-learning/issues",
+      "https://github.com/ivankovic/language-learning/issues",
     );
   });
 
