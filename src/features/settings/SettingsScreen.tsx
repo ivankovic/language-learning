@@ -54,12 +54,12 @@ export function SettingsScreen() {
     detectAssistant().then((a) => setAiStatus(a.capability === "chrome-builtin" ? "available" : "unavailable"));
   }, []);
 
-  // Moves `code` to the front of knownLangs (adding it if new) — index 0 is
-  // what drives the UI language and vocab/lesson translation lookups.
+  // Known language is single-select — replaces knownLangs outright rather
+  // than prepending, so a stale multi-entry array (from older versions of
+  // onboarding) can't linger and leak into the "Learning X from Y, Z" text.
   async function setPrimaryKnownLang(code: string) {
     if (!profile) return;
-    const rest = profile.knownLangs.filter((c) => c !== code);
-    await updateProfile({ knownLangs: [code, ...rest] });
+    await updateProfile({ knownLangs: [code] });
   }
 
   async function exportData() {
@@ -148,7 +148,7 @@ export function SettingsScreen() {
         <p className="mb-3 text-slate-700 dark:text-slate-300">
           {t("settings.learningFrom", {
             target: profile.targetLangs.map((code) => localizedLanguageName(code, uiLang)).join(", "),
-            known: profile.knownLangs.map((code) => localizedLanguageName(code, uiLang)).join(", "),
+            known: localizedLanguageName(profile.knownLangs[0], uiLang),
           })}
         </p>
         <LanguageSwitcher />
