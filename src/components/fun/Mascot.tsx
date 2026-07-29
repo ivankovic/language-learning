@@ -1,4 +1,4 @@
-/** Fun Mode's mascot: a friendly owl. Pure inline SVG (no image assets) so it scales crisply and themes via currentColor/Tailwind classes. */
+/** Fun Mode's mascot: a friendly ladybug. Pure inline SVG (no image assets) so it scales crisply and themes via currentColor/Tailwind classes. */
 export function Mascot({
   expression = "happy",
   className = "h-20 w-20",
@@ -12,50 +12,70 @@ export function Mascot({
       viewBox="0 0 100 100"
       className={`${className} ${celebrating ? "" : "fun-bob"}`}
       role="img"
-      aria-label="Owl mascot"
+      aria-label="Ladybug mascot"
     >
-      {/* wings */}
+      {/* legs */}
       <ellipse
-        cx="20"
-        cy={celebrating ? "45" : "60"}
-        rx="10"
-        ry="16"
-        fill="#f59e0b"
-        transform={celebrating ? "rotate(-25 20 45)" : undefined}
+        cx="16"
+        cy={celebrating ? "52" : "64"}
+        rx="7"
+        ry={celebrating ? "12" : "11"}
+        fill="#1f2937"
+        transform={celebrating ? "rotate(-30 16 52)" : undefined}
       />
       <ellipse
-        cx="80"
-        cy={celebrating ? "45" : "60"}
-        rx="10"
-        ry="16"
-        fill="#f59e0b"
-        transform={celebrating ? "rotate(25 80 45)" : undefined}
+        cx="84"
+        cy={celebrating ? "52" : "64"}
+        rx="7"
+        ry={celebrating ? "12" : "11"}
+        fill="#1f2937"
+        transform={celebrating ? "rotate(30 84 52)" : undefined}
       />
-      {/* body */}
-      <ellipse cx="50" cy="58" rx="34" ry="32" fill="#fbbf24" />
-      <ellipse cx="50" cy="64" rx="22" ry="20" fill="#fff7ed" />
-      {/* ear tufts */}
-      <path d="M28 30 L34 12 L42 28 Z" fill="#f59e0b" />
-      <path d="M72 30 L66 12 L58 28 Z" fill="#f59e0b" />
-      {/* eyes */}
-      <circle cx="38" cy="50" r="14" fill="white" />
-      <circle cx="62" cy="50" r="14" fill="white" />
+      {/* shell */}
+      <ellipse cx="50" cy="60" rx="33" ry="30" fill="#dc2626" />
+      {/* wing split */}
+      <path d="M50,34 L50,88" stroke="#1f2937" strokeWidth="2.5" strokeLinecap="round" />
+      {/* spots */}
+      <circle cx="36" cy="44" r="4.2" fill="#1f2937" />
+      <circle cx="64" cy="44" r="4.2" fill="#1f2937" />
+      <circle cx="30" cy="60" r="5.2" fill="#1f2937" />
+      <circle cx="70" cy="60" r="5.2" fill="#1f2937" />
+      <circle cx="38" cy="78" r="4.6" fill="#1f2937" />
+      <circle cx="62" cy="78" r="4.6" fill="#1f2937" />
+      {/* antennae */}
       {celebrating ? (
         <>
-          <path d="M32 50 L38 44 L44 50" stroke="#1e293b" strokeWidth="3.5" strokeLinecap="round" fill="none" />
-          <path d="M56 50 L62 44 L68 50" stroke="#1e293b" strokeWidth="3.5" strokeLinecap="round" fill="none" />
+          <path d="M40,16 Q30,6 24,12" stroke="#1f2937" strokeWidth="3" strokeLinecap="round" fill="none" />
+          <path d="M60,16 Q70,6 76,12" stroke="#1f2937" strokeWidth="3" strokeLinecap="round" fill="none" />
+          <circle cx="24" cy="12" r="2.6" fill="#1f2937" />
+          <circle cx="76" cy="12" r="2.6" fill="#1f2937" />
         </>
       ) : (
         <>
-          <circle cx="39" cy="51" r="5" fill="#1e293b" />
-          <circle cx="63" cy="51" r="5" fill="#1e293b" />
+          <path d="M40,16 Q34,4 26,6" stroke="#1f2937" strokeWidth="3" strokeLinecap="round" fill="none" />
+          <path d="M60,16 Q66,4 74,6" stroke="#1f2937" strokeWidth="3" strokeLinecap="round" fill="none" />
+          <circle cx="26" cy="6" r="2.6" fill="#1f2937" />
+          <circle cx="74" cy="6" r="2.6" fill="#1f2937" />
         </>
       )}
-      {/* beak */}
-      <path d="M46 62 L54 62 L50 70 Z" fill="#fb923c" />
-      {/* feet */}
-      <path d="M40 88 L40 80 M36 88 L44 88" stroke="#f59e0b" strokeWidth="4" strokeLinecap="round" />
-      <path d="M60 88 L60 80 M56 88 L64 88" stroke="#f59e0b" strokeWidth="4" strokeLinecap="round" />
+      {/* head */}
+      <ellipse cx="50" cy="27" rx="18" ry="16" fill="#1f2937" />
+      {/* eyes */}
+      {celebrating ? (
+        <>
+          <path d="M35,27 Q42,20 49,27" stroke="white" strokeWidth="3.2" strokeLinecap="round" fill="none" />
+          <path d="M51,27 Q58,20 65,27" stroke="white" strokeWidth="3.2" strokeLinecap="round" fill="none" />
+        </>
+      ) : (
+        <>
+          <circle cx="42" cy="27" r="8.5" fill="white" />
+          <circle cx="58" cy="27" r="8.5" fill="white" />
+          <circle cx="43" cy="28" r="4.2" fill="#1f2937" />
+          <circle cx="57" cy="28" r="4.2" fill="#1f2937" />
+          <circle cx="41.5" cy="26" r="1.4" fill="white" />
+          <circle cx="55.5" cy="26" r="1.4" fill="white" />
+        </>
+      )}
     </svg>
   );
 }
