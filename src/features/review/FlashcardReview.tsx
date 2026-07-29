@@ -11,6 +11,8 @@ import { getLanguage } from "../../content/languages";
 import { speak, isTtsAvailable } from "../../speech/tts";
 import { Button } from "../../components/Button";
 import { Screen } from "../../components/Screen";
+import { Confetti } from "../../components/fun/Confetti";
+import { useFunMode } from "../../theme/useFunMode";
 import { useT } from "../../i18n/useT";
 import { localizedDeckTitle, resolveVocabTranslation } from "../../content/localize";
 import type { QueueItem } from "../../srs/queue";
@@ -22,16 +24,17 @@ type Props =
   | { mode: "extra" }
   | { mode: "embedded"; items: QueueItem[]; onComplete: (stats: { reviewed: number }) => void };
 
-const GRADES: { grade: Grade; key: TranslationKey; variant: "secondary" | "primary" }[] = [
-  { grade: 1, key: "review.gradeAgain", variant: "secondary" },
-  { grade: 2, key: "review.gradeHard", variant: "secondary" },
-  { grade: 3, key: "review.gradeGood", variant: "primary" },
-  { grade: 4, key: "review.gradeEasy", variant: "primary" },
+const GRADES: { grade: Grade; key: TranslationKey; variant: "secondary" | "primary"; emoji: string }[] = [
+  { grade: 1, key: "review.gradeAgain", variant: "secondary", emoji: "😖" },
+  { grade: 2, key: "review.gradeHard", variant: "secondary", emoji: "🤔" },
+  { grade: 3, key: "review.gradeGood", variant: "primary", emoji: "🙂" },
+  { grade: 4, key: "review.gradeEasy", variant: "primary", emoji: "😄" },
 ];
 
 export function FlashcardReview(props: Props) {
   const t = useT();
   const navigate = useNavigate();
+  const [funMode] = useFunMode();
   const [searchParams] = useSearchParams();
   const deckId = props.mode === "extra" ? searchParams.get("deck") : null;
   const profile = useProfile();
@@ -43,6 +46,7 @@ export function FlashcardReview(props: Props) {
   const [current, setCurrent] = useState<CardState | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [reviewedCount, setReviewedCount] = useState(0);
+  const [celebrateKey, setCelebrateKey] = useState(0);
 
   useEffect(() => {
     if (props.mode !== "extra" || !content) return;
@@ -133,6 +137,7 @@ export function FlashcardReview(props: Props) {
     await upsertCardState(updated);
     await incrementToday(lang, { reviewsCount: 1, newCardsIntroduced: wasNew ? 1 : 0 });
     setReviewedCount((c) => c + 1);
+    if (funMode && g >= 3) setCelebrateKey((k) => k + 1);
     setIndex((i) => i + 1);
   }
 
@@ -141,7 +146,8 @@ export function FlashcardReview(props: Props) {
       <div className="mb-4 text-sm text-slate-500">
         {index + 1} / {queue.length}
       </div>
-      <div className="flex min-h-[40vh] flex-col items-center justify-center rounded-2xl bg-slate-100 p-8 dark:bg-slate-900 text-center">
+      <div className="relative flex min-h-[40vh] flex-col items-center justify-center rounded-2xl bg-slate-100 p-8 dark:bg-slate-900 text-center fun:rounded-3xl fun:bg-white/70 dark:fun:bg-slate-900/70">
+        {funMode && celebrateKey > 0 && <Confetti key={celebrateKey} />}
         <p className="text-3xl font-semibold">{vocabItem.term}</p>
         {isTtsAvailable() && (
           <button
@@ -162,9 +168,12 @@ export function FlashcardReview(props: Props) {
           </Button>
         ) : (
           <div className="grid grid-cols-4 gap-2">
-            {GRADES.map(({ grade: g, key, variant }) => (
+            {GRADES.map(({ grade: g, key, variant, emoji }) => (
               <Button key={g} variant={variant} onClick={() => grade(g)} className="flex flex-col gap-0.5">
-                <span>{t(key)}</span>
+                <span>
+                  {funMode && <span className="mr-1">{emoji}</span>}
+                  {t(key)}
+                </span>
                 {intervals && <span className="text-xs opacity-70">{formatInterval(intervals[g])}</span>}
               </Button>
             ))}

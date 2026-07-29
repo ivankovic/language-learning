@@ -8,6 +8,9 @@ import { getLessonProgressByLang } from "../../db/queries/lessonProgress";
 import { computeStreak } from "../../db/queries/activity";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
+import { Mascot } from "../../components/fun/Mascot";
+import { Confetti } from "../../components/fun/Confetti";
+import { useFunMode } from "../../theme/useFunMode";
 import { FlashcardReview } from "../review/FlashcardReview";
 import { useT } from "../../i18n/useT";
 import { localizedLessonTitle } from "../../content/localize";
@@ -179,6 +182,7 @@ function SessionSummary({
   onDone: () => void;
 }) {
   const t = useT();
+  const [funMode] = useFunMode();
   useEffect(() => {
     onLoadStreak();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -186,8 +190,13 @@ function SessionSummary({
 
   return (
     <Screen title={t("practice.sessionComplete")}>
-      <div className="flex min-h-[60vh] flex-col items-center justify-center text-center">
-        <p className="mb-2 text-5xl">🎉</p>
+      <div className="relative flex min-h-[60vh] flex-col items-center justify-center text-center">
+        {funMode && <Confetti />}
+        {funMode ? (
+          <Mascot expression="celebrate" className="mb-2 h-24 w-24" />
+        ) : (
+          <p className="mb-2 text-5xl">🎉</p>
+        )}
         <p className="mb-6 text-lg text-slate-700 dark:text-slate-300">{t("practice.niceWork")}</p>
         <div className="mb-8 grid w-full grid-cols-3 gap-3">
           <Stat label={t("practice.cards")} value={session.reviewedCount} />
@@ -204,8 +213,8 @@ function SessionSummary({
 
 function Stat({ label, value }: { label: string; value: string | number }) {
   return (
-    <div className="rounded-xl bg-slate-100 py-4 dark:bg-slate-900">
-      <p className="text-xl font-semibold">{value}</p>
+    <div className="rounded-xl bg-slate-100 py-4 dark:bg-slate-900 fun:rounded-2xl fun:bg-white/70 fun:shadow-sm dark:fun:bg-slate-900/70">
+      <p className="text-xl font-semibold fun:text-2xl">{value}</p>
       <p className="text-xs text-slate-500">{label}</p>
     </div>
   );

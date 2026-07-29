@@ -18,6 +18,7 @@
             pref === "dark" ||
             (pref === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
           document.documentElement.classList.toggle("dark", isDark);
+          document.documentElement.classList.toggle("fun", localStorage.getItem("fun-mode-preference") === "on");
         } catch (e) {}
       })();
     </script>

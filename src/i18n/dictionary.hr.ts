@@ -19,6 +19,7 @@ export const hr: Record<TranslationKey, string> = {
   "home.dueCount": "{count} za ponoviti",
   "home.quickVocab": "Brzo ponavljanje vokabulara",
   "home.wordsCount": "{count} riječi",
+  "home.funGreeting": "Bok! Spreman za igru i učenje?",
 
   "lessons.title": "Lekcije",
   "lessons.grammar": "Gramatika",
@@ -74,6 +75,10 @@ export const hr: Record<TranslationKey, string> = {
   "settings.themeSystem": "Sustav",
   "settings.themeLight": "Svijetla",
   "settings.themeDark": "Tamna",
+  "settings.funMode": "Zabavni način",
+  "settings.funModeDesc": "Veće ikone, vesele boje, maskota i slavlja — napravljeno za djecu.",
+  "settings.funModeOn": "Uključeno 🎉",
+  "settings.funModeOff": "Isključeno",
   "settings.journalFrequency": "Učestalost prijedloga za dnevnik",
   "settings.everyDay": "Svaki dan",
   "settings.every3Days": "Svaka 3 dana",

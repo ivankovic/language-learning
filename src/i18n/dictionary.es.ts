@@ -19,6 +19,7 @@ export const es: Record<TranslationKey, string> = {
   "home.dueCount": "{count} pendientes",
   "home.quickVocab": "Repaso rápido de vocabulario",
   "home.wordsCount": "{count} palabras",
+  "home.funGreeting": "¡Hola! ¿Listo para jugar y aprender?",
 
   "lessons.title": "Lecciones",
   "lessons.grammar": "Gramática",
@@ -74,6 +75,10 @@ export const es: Record<TranslationKey, string> = {
   "settings.themeSystem": "Sistema",
   "settings.themeLight": "Claro",
   "settings.themeDark": "Oscuro",
+  "settings.funMode": "Modo Divertido",
+  "settings.funModeDesc": "Iconos más grandes, colores alegres, una mascota y celebraciones — pensado para niños.",
+  "settings.funModeOn": "Activado 🎉",
+  "settings.funModeOff": "Desactivado",
   "settings.journalFrequency": "Frecuencia de sugerencias del diario",
   "settings.everyDay": "Cada día",
   "settings.every3Days": "Cada 3 días",

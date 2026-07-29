@@ -21,13 +21,25 @@ export function BottomTabBar() {
           to={tab.to}
           end={tab.end}
           className={({ isActive }) =>
-            `flex flex-1 flex-col items-center gap-0.5 py-2 text-xs ${
-              isActive ? "text-sky-600 dark:text-sky-400" : "text-slate-500"
+            `flex flex-1 flex-col items-center gap-0.5 py-2 text-xs fun:gap-1 fun:py-2.5 fun:text-sm fun:font-bold ${
+              isActive
+                ? "text-sky-600 dark:text-sky-400 fun:text-white"
+                : "text-slate-500 fun:text-slate-500 dark:fun:text-slate-400"
             }`
           }
         >
-          <span className="text-lg leading-none">{tab.icon}</span>
-          {t(tab.key)}
+          {({ isActive }) => (
+            <>
+              <span
+                className={`text-lg leading-none fun:text-2xl fun:rounded-2xl fun:px-3 fun:py-1 ${
+                  isActive ? "fun:bg-gradient-to-br fun:from-amber-400 fun:to-pink-500" : ""
+                }`}
+              >
+                {tab.icon}
+              </span>
+              {t(tab.key)}
+            </>
+          )}
         </NavLink>
       ))}
     </nav>

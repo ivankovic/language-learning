@@ -20,6 +20,7 @@ export const en = {
   "home.dueCount": "{count} due",
   "home.quickVocab": "Quick vocabulary practice",
   "home.wordsCount": "{count} words",
+  "home.funGreeting": "Hi! Ready to play and learn?",
 
   "lessons.title": "Lessons",
   "lessons.grammar": "Grammar",
@@ -75,6 +76,10 @@ export const en = {
   "settings.themeSystem": "System",
   "settings.themeLight": "Light",
   "settings.themeDark": "Dark",
+  "settings.funMode": "Fun Mode",
+  "settings.funModeDesc": "Bigger icons, playful colors, a mascot, and celebrations — made for kids.",
+  "settings.funModeOn": "On 🎉",
+  "settings.funModeOff": "Off",
   "settings.journalFrequency": "Journal prompt frequency",
   "settings.everyDay": "Every day",
   "settings.every3Days": "Every 3 days",

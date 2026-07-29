@@ -10,12 +10,15 @@ import { Screen, SettingsLink } from "../../components/Screen";
 import { Button } from "../../components/Button";
 import { ContentDisclaimerBanner } from "../../components/ContentDisclaimerBanner";
 import { LanguageSwitcher } from "../../components/LanguageSwitcher";
+import { Mascot } from "../../components/fun/Mascot";
+import { useFunMode } from "../../theme/useFunMode";
 import { useT } from "../../i18n/useT";
 import { localizedCourseTitle, localizedDeckTitle, localizedLessonTitle } from "../../content/localize";
 
 export function HomeScreen() {
   const t = useT();
   const navigate = useNavigate();
+  const [funMode] = useFunMode();
   const profile = useProfile();
   const lang = profile?.activeTargetLang;
   const content = useLanguageContent(lang);
@@ -55,6 +58,12 @@ export function HomeScreen() {
   return (
     <Screen title={t("home.appTitle")} action={<SettingsLink />}>
       <ContentDisclaimerBanner />
+      {funMode && (
+        <div className="mb-4 flex items-center gap-3 rounded-2xl bg-white/60 p-3 shadow-sm dark:bg-slate-900/60">
+          <Mascot className="h-16 w-16 shrink-0" />
+          <p className="text-sm font-bold text-slate-700 dark:text-slate-200">{t("home.funGreeting")}</p>
+        </div>
+      )}
       <LanguageSwitcher />
       <div className="mb-6 flex items-center gap-6">
         <div>

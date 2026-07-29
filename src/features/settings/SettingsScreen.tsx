@@ -6,6 +6,7 @@ import { db } from "../../db";
 import { detectAssistant } from "../../ai/assistant";
 import { useTheme } from "../../theme/useTheme";
 import type { ThemePreference } from "../../theme/theme";
+import { useFunMode } from "../../theme/useFunMode";
 import { languages } from "../../content/languages";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
@@ -46,6 +47,7 @@ export function SettingsScreen() {
   const navigate = useNavigate();
   const profile = useProfile();
   const [theme, setTheme] = useTheme();
+  const [funMode, setFunMode] = useFunMode();
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [importStatus, setImportStatus] = useState<ImportStatus>(null);
   const [aiStatus, setAiStatus] = useState<AiStatus>("checking");
@@ -184,6 +186,29 @@ export function SettingsScreen() {
               onClick={() => setTheme(opt.value)}
               className={`flex-1 rounded-xl px-4 py-3 text-center ${
                 theme === opt.value
+                  ? "bg-sky-50 ring-1 ring-sky-500 text-sky-700 dark:bg-sky-500/10 dark:text-sky-300"
+                  : "bg-slate-100 dark:bg-slate-900"
+              }`}
+            >
+              {t(opt.key)}
+            </button>
+          ))}
+        </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">{t("settings.funMode")}</h2>
+        <p className="mb-3 text-xs text-slate-500">{t("settings.funModeDesc")}</p>
+        <div className="flex gap-2">
+          {[
+            { value: true, key: "settings.funModeOn" as const },
+            { value: false, key: "settings.funModeOff" as const },
+          ].map((opt) => (
+            <button
+              key={String(opt.value)}
+              onClick={() => setFunMode(opt.value)}
+              className={`flex-1 rounded-xl px-4 py-3 text-center ${
+                funMode === opt.value
                   ? "bg-sky-50 ring-1 ring-sky-500 text-sky-700 dark:bg-sky-500/10 dark:text-sky-300"
                   : "bg-slate-100 dark:bg-slate-900"
               }`}
