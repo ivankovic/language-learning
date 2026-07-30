@@ -18,11 +18,12 @@
             pref === "dark" ||
             (pref === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
           document.documentElement.classList.toggle("dark", isDark);
+          document.documentElement.classList.toggle("fun", localStorage.getItem("fun-mode-preference") === "on");
         } catch (e) {}
       })();
     </script>
-    <script type="module" crossorigin src="/language-learning/assets/index-B1jMQZSM.js"></script>
-    <link rel="stylesheet" crossorigin href="/language-learning/assets/index-1qBF0M0q.css">
+    <script type="module" crossorigin src="/language-learning/assets/index-CSirRcKS.js"></script>
+    <link rel="stylesheet" crossorigin href="/language-learning/assets/index-CV5Nmm84.css">
   <link rel="manifest" href="/language-learning/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/language-learning/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
