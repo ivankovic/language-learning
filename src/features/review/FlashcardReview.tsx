@@ -131,14 +131,12 @@ export function FlashcardReview(props: Props) {
   const back = resolveVocabTranslation(vocabItem, knownLang);
   const intervals = revealed ? previewIntervals(current) : null;
 
-  // Bail out before the queue is exhausted, without losing credit for what's
-  // already been graded: each grade() call already persisted its card and
-  // incremented today's stats, so jumping straight to the "queue exhausted"
-  // state is enough — the effect above picks it up and hands control back
-  // (onComplete for embedded, Home for standalone) using the reviewedCount
-  // already accumulated.
+  // Bail out before the queue is exhausted, straight to Home rather than
+  // wherever the caller would normally send us next (the rest of a Practice
+  // session, in the embedded case). No credit is lost: each grade() call
+  // already persisted its card and incremented today's stats immediately.
   function endEarly() {
-    setIndex(totalCount);
+    navigate("/");
   }
 
   async function grade(g: Grade) {
