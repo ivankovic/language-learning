@@ -63,6 +63,7 @@ async function buildInitialSession(lang: string, content: import("../../content/
 export function PracticeSession() {
   const t = useT();
   const navigate = useNavigate();
+  const [funMode] = useFunMode();
   const profile = useProfile();
   const lang = profile?.activeTargetLang;
   const knownLang = profile?.knownLangs[0] ?? "en";
@@ -118,8 +119,9 @@ export function PracticeSession() {
     return (
       <Screen title={t("practice.title")}>
         <div className="flex min-h-[50vh] flex-col items-center justify-center text-center">
+          {funMode && <Mascot className="fun-pop-in mb-2 h-20 w-20" />}
           <p className="mb-2 text-sm text-slate-500">{t("practice.nextUp")}</p>
-          <h2 className="mb-6 text-2xl font-semibold">{sessionLessonTitle}</h2>
+          <h2 className="mb-6 text-2xl font-semibold fun:text-3xl fun:font-extrabold">{sessionLessonTitle}</h2>
           <Button onClick={() => navigate(`/lessons/${session.lessonId}?practice=1`)}>{t("practice.startLesson")}</Button>
           <Button variant="ghost" className="mt-2" onClick={() => commit({ ...session, lessonCompleted: true })}>
             {t("practice.skipForNow")}
@@ -133,8 +135,9 @@ export function PracticeSession() {
     return (
       <Screen title={t("practice.title")}>
         <div className="flex min-h-[50vh] flex-col items-center justify-center text-center">
+          {funMode && <Mascot className="fun-pop-in mb-2 h-20 w-20" />}
           <p className="mb-2 text-sm text-slate-500">{t("practice.timeToWrite")}</p>
-          <h2 className="mb-6 text-2xl font-semibold">{t("practice.journalEntry")}</h2>
+          <h2 className="mb-6 text-2xl font-semibold fun:text-3xl fun:font-extrabold">{t("practice.journalEntry")}</h2>
           <Button onClick={() => navigate("/journal/new?practice=1")}>{t("practice.writeEntry")}</Button>
           <Button variant="ghost" className="mt-2" onClick={() => commit({ ...session, journalCompleted: true })}>
             {t("practice.skipForNow")}

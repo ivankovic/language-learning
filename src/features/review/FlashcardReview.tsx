@@ -12,6 +12,7 @@ import { speak, isTtsAvailable } from "../../speech/tts";
 import { Button } from "../../components/Button";
 import { Screen } from "../../components/Screen";
 import { Confetti } from "../../components/fun/Confetti";
+import { Mascot } from "../../components/fun/Mascot";
 import { useFunMode } from "../../theme/useFunMode";
 import { useT } from "../../i18n/useT";
 import { localizedDeckTitle, resolveVocabTranslation } from "../../content/localize";
@@ -110,6 +111,7 @@ export function FlashcardReview(props: Props) {
     if (props.mode === "extra") {
       return (
         <Screen title={screenTitle}>
+          {funMode && <Mascot className="fun-pop-in mb-3 h-20 w-20" />}
           <p className="mb-4 text-slate-600 dark:text-slate-400">
             {deckId ? t("review.nothingInDeck") : t("review.nothingToReview")}
           </p>
@@ -167,6 +169,7 @@ export function FlashcardReview(props: Props) {
       </div>
       <div className="relative flex min-h-[40vh] flex-col items-center justify-center rounded-2xl bg-slate-100 p-8 dark:bg-slate-900 text-center fun:rounded-3xl fun:bg-white/70 dark:fun:bg-slate-900/70">
         {funMode && celebrateKey > 0 && <Confetti key={celebrateKey} />}
+        {funMode && <Mascot className="mb-3 h-14 w-14" />}
         <p className="text-3xl font-semibold">{vocabItem.term}</p>
         {isTtsAvailable() && (
           <button

@@ -10,6 +10,7 @@ import { useFunMode } from "../../theme/useFunMode";
 import { languages } from "../../content/languages";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
+import { Mascot } from "../../components/fun/Mascot";
 import { LanguageSwitcher } from "../../components/LanguageSwitcher";
 import { useT, useUiLang } from "../../i18n/useT";
 import { localizedLanguageName } from "../../i18n/languageNames";
@@ -164,7 +165,7 @@ export function SettingsScreen() {
             <button
               key={l.code}
               onClick={() => setPrimaryKnownLang(l.code)}
-              className={`rounded-full px-3 py-1.5 text-sm ${
+              className={`rounded-full px-3 py-1.5 text-sm fun:font-bold fun:shadow-sm ${
                 profile.knownLangs[0] === l.code
                   ? "bg-sky-500 text-slate-950"
                   : "bg-slate-200 text-slate-700 dark:bg-slate-800 dark:text-slate-300"
@@ -184,7 +185,7 @@ export function SettingsScreen() {
             <button
               key={opt.value}
               onClick={() => setTheme(opt.value)}
-              className={`flex-1 rounded-xl px-4 py-3 text-center ${
+              className={`flex-1 rounded-xl px-4 py-3 text-center fun:rounded-2xl fun:font-bold ${
                 theme === opt.value
                   ? "bg-sky-50 ring-1 ring-sky-500 text-sky-700 dark:bg-sky-500/10 dark:text-sky-300"
                   : "bg-slate-100 dark:bg-slate-900"
@@ -199,6 +200,7 @@ export function SettingsScreen() {
       <section className="mb-8">
         <h2 className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-400">{t("settings.funMode")}</h2>
         <p className="mb-3 text-xs text-slate-500">{t("settings.funModeDesc")}</p>
+        {funMode && <Mascot className="fun-pop-in mb-3 h-16 w-16" />}
         <div className="flex gap-2">
           {[
             { value: true, key: "settings.funModeOn" as const },
@@ -207,7 +209,7 @@ export function SettingsScreen() {
             <button
               key={String(opt.value)}
               onClick={() => setFunMode(opt.value)}
-              className={`flex-1 rounded-xl px-4 py-3 text-center ${
+              className={`flex-1 rounded-xl px-4 py-3 text-center fun:rounded-2xl fun:font-bold ${
                 funMode === opt.value
                   ? "bg-sky-50 ring-1 ring-sky-500 text-sky-700 dark:bg-sky-500/10 dark:text-sky-300"
                   : "bg-slate-100 dark:bg-slate-900"
@@ -226,7 +228,7 @@ export function SettingsScreen() {
             <button
               key={String(opt.value)}
               onClick={() => updateProfile({ journalIntervalDays: opt.value })}
-              className={`w-full rounded-xl px-4 py-3 text-left ${
+              className={`w-full rounded-xl px-4 py-3 text-left fun:rounded-2xl fun:font-bold ${
                 profile.journalIntervalDays === opt.value
                   ? "bg-sky-50 ring-1 ring-sky-500 text-sky-700 dark:bg-sky-500/10 dark:text-sky-300"
                   : "bg-slate-100 dark:bg-slate-900"

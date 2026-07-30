@@ -67,14 +67,17 @@ export function HomeScreen() {
       <LanguageSwitcher />
       <div className="mb-6 flex items-center gap-6">
         <div>
-          <p className="text-3xl font-semibold">🔥 {streak ?? "…"}</p>
-          <p className="text-xs text-slate-500">{t("home.dayStreak")}</p>
+          <p className="text-3xl font-semibold fun:text-4xl">🔥 {streak ?? "…"}</p>
+          <p className="text-xs text-slate-500 fun:font-bold">{t("home.dayStreak")}</p>
         </div>
         <div className="flex-1">
           <div className="h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
-            <div className="h-full bg-sky-500" style={{ width: `${goalProgress}%` }} />
+            <div
+              className="h-full bg-sky-500 fun:bg-gradient-to-r fun:from-amber-400 fun:to-pink-500"
+              style={{ width: `${goalProgress}%` }}
+            />
           </div>
-          <p className="mt-1 text-xs text-slate-500">
+          <p className="mt-1 text-xs text-slate-500 fun:font-bold">
             {t("home.reviewsToday", { count: today?.reviewsCount ?? 0, goal: profile.dailyGoal })}
           </p>
         </div>
@@ -87,7 +90,7 @@ export function HomeScreen() {
       <button
         onClick={() => navigate("/review")}
         disabled={dueCount === 0}
-        className="mt-3 flex w-full items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-left disabled:cursor-not-allowed disabled:opacity-50 dark:bg-slate-900"
+        className="mt-3 flex w-full items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-left disabled:cursor-not-allowed disabled:opacity-50 dark:bg-slate-900 fun:rounded-2xl fun:bg-white/70 fun:font-bold fun:shadow-sm dark:fun:bg-slate-900/70"
       >
         <span>{t("home.review")}</span>
         <span className="text-sm text-slate-600 dark:text-slate-400">
@@ -98,7 +101,7 @@ export function HomeScreen() {
       {lessonTitle && (
         <button
           onClick={() => navigate("/lessons")}
-          className="mt-3 w-full rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900"
+          className="mt-3 w-full rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900 fun:rounded-2xl fun:bg-white/70 fun:font-bold fun:shadow-sm dark:fun:bg-slate-900/70"
         >
           <p className="text-xs text-slate-500">{localizedCourseTitle(content.course, knownLang)}</p>
           <p>{lessonTitle}</p>
@@ -113,7 +116,7 @@ export function HomeScreen() {
               <button
                 key={deck.id}
                 onClick={() => navigate(`/review?deck=${deck.id}`)}
-                className="shrink-0 rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900"
+                className="shrink-0 rounded-xl bg-slate-100 px-4 py-3 text-left dark:bg-slate-900 fun:rounded-2xl fun:bg-white/70 fun:font-bold fun:shadow-sm dark:fun:bg-slate-900/70"
               >
                 <p className="text-sm font-medium">{localizedDeckTitle(deck, knownLang)}</p>
                 <p className="text-xs text-slate-500">{t("home.wordsCount", { count: deck.itemIds.length })}</p>

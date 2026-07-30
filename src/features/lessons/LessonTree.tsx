@@ -48,7 +48,7 @@ export function LessonTree() {
                   <button
                     key={lessonId}
                     onClick={() => navigate(`/lessons/${lessonId}`)}
-                    className="flex w-full items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-left hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800"
+                    className="flex w-full items-center justify-between rounded-xl bg-slate-100 px-4 py-3 text-left hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800 fun:rounded-2xl fun:bg-white/70 fun:font-bold fun:shadow-sm dark:fun:bg-slate-900/70"
                   >
                     <span>{localizedLessonTitle(lesson, knownLang)}</span>
                     <span>{done ? "✅" : ""}</span>

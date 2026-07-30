@@ -9,6 +9,9 @@ import { incrementToday } from "../../db/queries/activity";
 import { loadSession, saveSession } from "../practice/sessionState";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
+import { Mascot } from "../../components/fun/Mascot";
+import { Confetti } from "../../components/fun/Confetti";
+import { useFunMode } from "../../theme/useFunMode";
 import { MarkdownLite } from "./MarkdownLite";
 import { GlossedText } from "./GlossedText";
 import { buildDictionaryFallback } from "../../ai/dictionaryFallback";
@@ -23,6 +26,7 @@ import type { Exercise } from "../../types/content";
 
 export function LessonDetail() {
   const t = useT();
+  const [funMode] = useFunMode();
   const { lessonId } = useParams<{ lessonId: string }>();
   const [searchParams] = useSearchParams();
   const fromPractice = searchParams.get("practice") === "1";
@@ -132,6 +136,17 @@ export function LessonDetail() {
           </div>
         );
       })}
+
+      {/* Celebrates finishing the lesson, not acing it — every exercise is
+          answered either way, and a wrong one already spawned a review card,
+          so completion itself is the milestone worth marking here. */}
+      {allAnswered && funMode && (
+        <div className="relative mb-4 flex flex-col items-center justify-center rounded-2xl bg-white/60 p-4 text-center dark:bg-slate-900/60">
+          <Confetti />
+          <Mascot expression="celebrate" className="fun-pop-in h-20 w-20" />
+          <p className="mt-2 text-sm font-bold text-slate-700 dark:text-slate-200">{t("practice.niceWork")}</p>
+        </div>
+      )}
 
       <Button className="w-full" disabled={!allAnswered} onClick={finishLesson}>
         {t("lessons.completeLesson")}
