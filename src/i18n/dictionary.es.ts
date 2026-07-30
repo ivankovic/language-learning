@@ -150,6 +150,7 @@ export const es: Record<TranslationKey, string> = {
   "practice.done": "Hecho",
 
   "review.title": "Repaso",
+  "review.endSession": "Terminar repaso",
   "review.nothingInDeck": "Aún no hay nada en este mazo.",
   "review.nothingToReview": "No hay nada que repasar por ahora.",
   "review.backToHome": "Volver al inicio",

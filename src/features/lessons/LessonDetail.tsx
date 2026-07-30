@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useProfile } from "../../hooks/useProfile";
 import { useLanguageContent } from "../../hooks/useLanguageContent";
@@ -10,6 +10,8 @@ import { loadSession, saveSession } from "../practice/sessionState";
 import { Screen } from "../../components/Screen";
 import { Button } from "../../components/Button";
 import { MarkdownLite } from "./MarkdownLite";
+import { GlossedText } from "./GlossedText";
+import { buildDictionaryFallback } from "../../ai/dictionaryFallback";
 import { MultipleChoice } from "./exercises/MultipleChoice";
 import { FillBlank } from "./exercises/FillBlank";
 import { Reorder } from "./exercises/Reorder";
@@ -32,6 +34,13 @@ export function LessonDetail() {
   const [results, setResults] = useState<Record<string, boolean>>({});
 
   const lesson = content?.lessons.find((l) => l.id === lessonId);
+
+  // Target-language word -> known-language gloss, for tap-to-translate on
+  // exercise text. Same lookup Journal mode's word helper uses.
+  const dictionary = useMemo(
+    () => buildDictionaryFallback(content ? [...content.vocabById.values()] : [], knownLang),
+    [content, knownLang],
+  );
 
   useEffect(() => {
     if (lessonId && lang) startLesson(lessonId, lang);
@@ -86,7 +95,9 @@ export function LessonDetail() {
         const answered = exercise.id in results;
         return (
           <div key={i} className="mb-6 rounded-xl bg-slate-100 dark:bg-slate-900/50 p-4">
-            <p className="mb-3 font-medium">{exercise.prompt}</p>
+            <p className="mb-3 font-medium">
+              <GlossedText text={exercise.prompt} dictionary={dictionary} />
+            </p>
             {exercise.type === "multiple-choice" && (
               <MultipleChoice exercise={exercise} onAnswer={(correct) => handleAnswer(exercise, correct)} />
             )}
@@ -110,7 +121,10 @@ export function LessonDetail() {
                 </p>
                 {!results[exercise.id] && (
                   <p className="mt-1 text-slate-600 dark:text-slate-400">
-                    {t("lessons.correctAnswer")} <span className="font-medium">{formatSolution(exercise)}</span>
+                    {t("lessons.correctAnswer")}{" "}
+                    <span className="font-medium">
+                      <GlossedText text={formatSolution(exercise)} dictionary={dictionary} />
+                    </span>
                   </p>
                 )}
               </div>

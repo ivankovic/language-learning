@@ -151,6 +151,7 @@ export const en = {
   "practice.done": "Done",
 
   "review.title": "Review",
+  "review.endSession": "End session",
   "review.nothingInDeck": "Nothing in this deck yet.",
   "review.nothingToReview": "Nothing left to review right now.",
   "review.backToHome": "Back to Home",

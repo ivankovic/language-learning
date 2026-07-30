@@ -100,6 +100,7 @@ export function FlashcardReview(props: Props) {
     );
   }
 
+  const totalCount = queue.length;
   const knownLang = profile?.knownLangs[0] ?? "en";
   const deck = deckId ? content.decks.find((d) => d.id === deckId) : undefined;
   const screenTitle = deck ? localizedDeckTitle(deck, knownLang) : t("review.title");
@@ -130,6 +131,16 @@ export function FlashcardReview(props: Props) {
   const back = resolveVocabTranslation(vocabItem, knownLang);
   const intervals = revealed ? previewIntervals(current) : null;
 
+  // Bail out before the queue is exhausted, without losing credit for what's
+  // already been graded: each grade() call already persisted its card and
+  // incremented today's stats, so jumping straight to the "queue exhausted"
+  // state is enough — the effect above picks it up and hands control back
+  // (onComplete for embedded, Home for standalone) using the reviewedCount
+  // already accumulated.
+  function endEarly() {
+    setIndex(totalCount);
+  }
+
   async function grade(g: Grade) {
     if (!current || !lang) return;
     const wasNew = current.state === "new" && current.reps === 0;
@@ -142,9 +153,19 @@ export function FlashcardReview(props: Props) {
   }
 
   return (
-    <Screen title={props.mode === "extra" ? screenTitle : t("practice.warmup")}>
+    <Screen
+      title={props.mode === "extra" ? screenTitle : t("practice.warmup")}
+      action={
+        <button
+          onClick={endEarly}
+          className="rounded-full bg-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 dark:bg-slate-900 dark:text-slate-300"
+        >
+          {t("review.endSession")}
+        </button>
+      }
+    >
       <div className="mb-4 text-sm text-slate-500">
-        {index + 1} / {queue.length}
+        {index + 1} / {totalCount}
       </div>
       <div className="relative flex min-h-[40vh] flex-col items-center justify-center rounded-2xl bg-slate-100 p-8 dark:bg-slate-900 text-center fun:rounded-3xl fun:bg-white/70 dark:fun:bg-slate-900/70">
         {funMode && celebrateKey > 0 && <Confetti key={celebrateKey} />}

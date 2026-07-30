@@ -150,6 +150,7 @@ export const hr: Record<TranslationKey, string> = {
   "practice.done": "Gotovo",
 
   "review.title": "Ponavljanje",
+  "review.endSession": "Završi ponavljanje",
   "review.nothingInDeck": "Još ništa u ovom špilu.",
   "review.nothingToReview": "Trenutačno nema ničega za ponoviti.",
   "review.backToHome": "Natrag na početnu",
