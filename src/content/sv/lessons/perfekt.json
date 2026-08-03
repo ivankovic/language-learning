@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-perfekt",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-5",
+  "order": 2,
+  "title": "Perfekt (Present Perfect)",
+  "prerequisiteIds": ["sv-lesson-modal-verbs"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "The perfekt tense (\"have done something\") is built from **har** plus the verb's supine form: *Jag har ätit* (I have eaten), *Vi har jobbat* (We have worked). Regular -ar verbs form the supine with **-at** (jobba → jobbat); many other verbs use **-t** or **-it** (äta → ätit, se → sett) — these supine forms are usually memorized alongside the verb.",
+      "i18n": {
+        "it": "Il tempo perfekt (\"aver fatto qualcosa\") si forma con **har** più la forma supina del verbo: *Jag har ätit* (Ho mangiato), *Vi har jobbat* (Abbiamo lavorato). I verbi regolari in -ar formano il supino con **-at** (jobba → jobbat); molti altri verbi usano **-t** o **-it** (äta → ätit, se → sett) — queste forme supine si memorizzano di solito insieme al verbo.",
+        "fr": "Le temps perfekt (\"avoir fait quelque chose\") se forme avec **har** plus le supin du verbe : *Jag har ätit* (J'ai mangé), *Vi har jobbat* (Nous avons travaillé). Les verbes réguliers en -ar forment le supin avec **-at** (jobba → jobbat) ; beaucoup d'autres verbes utilisent **-t** ou **-it** (äta → ätit, se → sett) — ces formes de supin se mémorisent généralement avec le verbe.",
+        "de": "Das Perfekt (\"etwas getan haben\") wird mit **har** plus dem Supinum des Verbs gebildet: *Jag har ätit* (Ich habe gegessen), *Vi har jobbat* (Wir haben gearbeitet). Regelmäßige -ar-Verben bilden das Supinum mit **-at** (jobba → jobbat); viele andere Verben nutzen **-t** oder **-it** (äta → ätit, se → sett) — diese Supinumformen lernt man meist zusammen mit dem Verb auswendig.",
+        "es": "El tiempo perfekt (\"haber hecho algo\") se forma con **har** más el supino del verbo: *Jag har ätit* (He comido), *Vi har jobbat* (Hemos trabajado). Los verbos regulares en -ar forman el supino con **-at** (jobba → jobbat); muchos otros verbos usan **-t** o **-it** (äta → ätit, se → sett) — estas formas de supino se memorizan normalmente junto con el verbo.",
+        "hr": "Vrijeme perfekt (\"učiniti nešto\") tvori se s **har** plus supin glagola: *Jag har ätit* (Jeo/jela sam), *Vi har jobbat* (Radili smo). Pravilni -ar glagoli tvore supin s **-at** (jobba → jobbat); mnogi drugi glagoli koriste **-t** ili **-it** (äta → ätit, se → sett) — ovi oblici supina obično se pamte zajedno s glagolom."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-perfekt-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-perfekt-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-perfekt-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-perfekt-1",
+      "type": "fill-blank",
+      "prompt": "Jag ___ ätit. (I have eaten.)",
+      "answer": "har",
+      "relatedItemId": "sv-vocab-verbs-011",
+      "i18n": {
+        "it": { "prompt": "Jag ___ ätit. (Ho mangiato.)" },
+        "fr": { "prompt": "Jag ___ ätit. (J'ai mangé.)" },
+        "de": { "prompt": "Jag ___ ätit. (Ich habe gegessen.)" },
+        "es": { "prompt": "Jag ___ ätit. (He comido.)" },
+        "hr": { "prompt": "Jag ___ ätit. (Jeo/jela sam.)" }
+      }
+    },
+    {
+      "id": "sv-ex-perfekt-2",
+      "type": "multiple-choice",
+      "prompt": "What is the supine of \"äta\" (to eat)?",
+      "answer": "ätit",
+      "distractors": ["äter", "åt", "ätat"],
+      "relatedItemId": "sv-vocab-verbs-011",
+      "i18n": {
+        "it": { "prompt": "Qual è il supino di \"äta\" (mangiare)?" },
+        "fr": { "prompt": "Quel est le supin de \"äta\" (manger) ?" },
+        "de": { "prompt": "Was ist das Supinum von \"äta\" (essen)?" },
+        "es": { "prompt": "¿Cuál es el supino de \"äta\" (comer)?" },
+        "hr": { "prompt": "Koji je supin glagola \"äta\" (jesti)?" }
+      }
+    },
+    {
+      "id": "sv-ex-perfekt-3",
+      "type": "translate",
+      "prompt": "Translate: \"We have eaten breakfast.\"",
+      "answer": ["Vi har ätit frukost."],
+      "relatedItemId": "sv-vocab-food-029",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Abbiamo fatto colazione.\"" },
+        "fr": { "prompt": "Traduis : \"Nous avons pris le petit-déjeuner.\"" },
+        "de": { "prompt": "Übersetze: \"Wir haben gefrühstückt.\"" },
+        "es": { "prompt": "Traduce: \"Hemos desayunado.\"" },
+        "hr": { "prompt": "Prevedi: \"Doručkovali smo.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Perfekt (passato prossimo)",
+    "fr": "Perfekt (passé composé)",
+    "de": "Perfekt",
+    "es": "Perfekt (pretérito perfecto)",
+    "hr": "Perfekt"
+  }
+}

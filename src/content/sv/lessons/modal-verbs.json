@@ -1,0 +1,75 @@
+{
+  "id": "sv-lesson-modal-verbs",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-5",
+  "order": 1,
+  "title": "Modal Verbs",
+  "prerequisiteIds": ["sv-lesson-possessives"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Modal verbs like **vilja** (want), **kunna** (can), **måste** (must), and **ska** (will/shall) are followed directly by a bare infinitive — no \"att\" (to) in between, unlike some other verb pairs: *Jag kan simma* (I can swim), *Jag måste jobba* (I must work). **Måste** doesn't change form at all, in any tense.",
+      "i18n": {
+        "it": "I verbi modali come **vilja** (volere), **kunna** (potere), **måste** (dovere) e **ska** (volontà futura) sono seguiti direttamente da un infinito senza preposizione — niente \"att\" (di) in mezzo, a differenza di altre coppie di verbi: *Jag kan simma* (So nuotare), *Jag måste jobba* (Devo lavorare). **Måste** non cambia mai forma, in nessun tempo.",
+        "fr": "Les verbes modaux comme **vilja** (vouloir), **kunna** (pouvoir), **måste** (devoir) et **ska** (futur/intention) sont suivis directement d'un infinitif sans préposition — pas de \"att\" (de) entre les deux, contrairement à d'autres paires de verbes : *Jag kan simma* (Je sais nager), *Jag måste jobba* (Je dois travailler). **Måste** ne change jamais de forme, à aucun temps.",
+        "de": "Modalverben wie **vilja** (wollen), **kunna** (können), **måste** (müssen) und **ska** (werden/Zukunft) werden direkt von einem bloßen Infinitiv gefolgt — kein \"att\" (zu) dazwischen, anders als bei manchen anderen Verbpaaren: *Jag kan simma* (Ich kann schwimmen), *Jag måste jobba* (Ich muss arbeiten). **Måste** ändert seine Form nie, in keiner Zeitform.",
+        "es": "Los verbos modales como **vilja** (querer), **kunna** (poder), **måste** (deber) y **ska** (futuro/intención) van seguidos directamente de un infinitivo sin preposición — sin \"att\" (de) en medio, a diferencia de otros pares de verbos: *Jag kan simma* (Sé nadar), *Jag måste jobba* (Debo trabajar). **Måste** nunca cambia de forma, en ningún tiempo.",
+        "hr": "Modalni glagoli poput **vilja** (htjeti), **kunna** (moći), **måste** (morati) i **ska** (budućnost/namjera) izravno su praćeni golim infinitivom — bez \"att\" (da) između njih, za razliku od nekih drugih parova glagola: *Jag kan simma* (Znam plivati), *Jag måste jobba* (Moram raditi). **Måste** nikad ne mijenja oblik, ni u jednom vremenu."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-modal-verbs-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-modal-verbs-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-modal-verbs-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-modal-verbs-1",
+      "type": "fill-blank",
+      "prompt": "Jag ___ simma. (kunna — I can swim.)",
+      "answer": "kan",
+      "i18n": {
+        "it": { "prompt": "Jag ___ simma. (kunna — So nuotare.)" },
+        "fr": { "prompt": "Jag ___ simma. (kunna — Je sais nager.)" },
+        "de": { "prompt": "Jag ___ simma. (kunna — Ich kann schwimmen.)" },
+        "es": { "prompt": "Jag ___ simma. (kunna — Sé nadar.)" },
+        "hr": { "prompt": "Jag ___ simma. (kunna — Znam plivati.)" }
+      }
+    },
+    {
+      "id": "sv-ex-modal-verbs-2",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"must\"?",
+      "answer": "måste",
+      "distractors": ["ska", "får", "vill"],
+      "i18n": {
+        "it": { "prompt": "Quale parola significa \"dovere\" (obbligo)?" },
+        "fr": { "prompt": "Quel mot signifie \"devoir\" (obligation) ?" },
+        "de": { "prompt": "Welches Wort bedeutet \"müssen\"?" },
+        "es": { "prompt": "¿Qué palabra significa \"deber\" (obligación)?" },
+        "hr": { "prompt": "Koja riječ znači \"morati\"?" }
+      }
+    },
+    {
+      "id": "sv-ex-modal-verbs-3",
+      "type": "translate",
+      "prompt": "Translate: \"I must work today.\"",
+      "answer": ["Jag måste jobba idag."],
+      "relatedItemId": "sv-vocab-verbs-019",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Devo lavorare oggi.\"" },
+        "fr": { "prompt": "Traduis : \"Je dois travailler aujourd'hui.\"" },
+        "de": { "prompt": "Übersetze: \"Ich muss heute arbeiten.\"" },
+        "es": { "prompt": "Traduce: \"Debo trabajar hoy.\"" },
+        "hr": { "prompt": "Prevedi: \"Moram raditi danas.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Verbi modali",
+    "fr": "Verbes modaux",
+    "de": "Modalverben",
+    "es": "Verbos modales",
+    "hr": "Modalni glagoli"
+  }
+}

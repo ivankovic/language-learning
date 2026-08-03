@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-adjectives",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-4",
+  "order": 2,
+  "title": "Adjective Agreement",
+  "prerequisiteIds": ["sv-lesson-plural-nouns"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Swedish adjectives agree with the noun they describe. With an **en**-word, the adjective stays in its base form: *en stor bil* (a big car). With an **ett**-word, add **-t**: *ett stort hus* (a big house). With any plural noun, add **-a**: *stora bilar*, *stora hus* (big cars, big houses). The same endings apply when the adjective comes after **vara**: *Bilen är stor. Huset är stort. Bilarna är stora.*",
+      "i18n": {
+        "it": "Gli aggettivi svedesi concordano con il sostantivo che descrivono. Con una parola in **en**, l'aggettivo resta nella forma base: *en stor bil* (un'auto grande). Con una parola in **ett**, si aggiunge **-t**: *ett stort hus* (una casa grande). Con qualsiasi sostantivo plurale, si aggiunge **-a**: *stora bilar*, *stora hus* (auto grandi, case grandi). Le stesse desinenze si applicano quando l'aggettivo segue **vara**: *Bilen är stor. Huset är stort. Bilarna är stora.*",
+        "fr": "Les adjectifs suédois s'accordent avec le nom qu'ils décrivent. Avec un mot en **en**, l'adjectif reste sous sa forme de base : *en stor bil* (une grande voiture). Avec un mot en **ett**, on ajoute **-t** : *ett stort hus* (une grande maison). Avec tout nom au pluriel, on ajoute **-a** : *stora bilar*, *stora hus* (grandes voitures, grandes maisons). Les mêmes terminaisons s'appliquent quand l'adjectif suit **vara** : *Bilen är stor. Huset är stort. Bilarna är stora.*",
+        "de": "Schwedische Adjektive stimmen mit dem Substantiv überein, das sie beschreiben. Bei einem **en**-Wort bleibt das Adjektiv in der Grundform: *en stor bil* (ein großes Auto). Bei einem **ett**-Wort wird **-t** angehängt: *ett stort hus* (ein großes Haus). Bei jedem Substantiv im Plural wird **-a** angehängt: *stora bilar*, *stora hus* (große Autos, große Häuser). Dieselben Endungen gelten, wenn das Adjektiv nach **vara** steht: *Bilen är stor. Huset är stort. Bilarna är stora.*",
+        "es": "Los adjetivos suecos concuerdan con el sustantivo que describen. Con una palabra en **en**, el adjetivo se queda en su forma base: *en stor bil* (un coche grande). Con una palabra en **ett**, se añade **-t**: *ett stort hus* (una casa grande). Con cualquier sustantivo en plural, se añade **-a**: *stora bilar*, *stora hus* (coches grandes, casas grandes). Las mismas terminaciones se aplican cuando el adjetivo va después de **vara**: *Bilen är stor. Huset är stort. Bilarna är stora.*",
+        "hr": "Švedski pridjevi slažu se s imenicom koju opisuju. Uz **en**-riječ, pridjev ostaje u osnovnom obliku: *en stor bil* (velik auto). Uz **ett**-riječ, dodaje se **-t**: *ett stort hus* (velika kuća). Uz bilo koju imenicu u množini, dodaje se **-a**: *stora bilar*, *stora hus* (veliki automobili, velike kuće). Isti nastavci vrijede kad pridjev dolazi iza **vara**: *Bilen är stor. Huset är stort. Bilarna är stora.*"
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-adjectives-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-adjectives-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-adjectives-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-adjectives-1",
+      "type": "fill-blank",
+      "prompt": "Huset är ___. (stor — The house is big.)",
+      "answer": "stort",
+      "relatedItemId": "sv-vocab-life-001",
+      "i18n": {
+        "it": { "prompt": "Huset är ___. (stor — La casa è grande.)" },
+        "fr": { "prompt": "Huset är ___. (stor — La maison est grande.)" },
+        "de": { "prompt": "Huset är ___. (stor — Das Haus ist groß.)" },
+        "es": { "prompt": "Huset är ___. (stor — La casa es grande.)" },
+        "hr": { "prompt": "Huset är ___. (stor — Kuća je velika.)" }
+      }
+    },
+    {
+      "id": "sv-ex-adjectives-2",
+      "type": "multiple-choice",
+      "prompt": "Which form goes with \"bilar\" (cars, plural)?",
+      "answer": "stora",
+      "distractors": ["stor", "stort", "storar"],
+      "relatedItemId": "sv-vocab-life-003",
+      "i18n": {
+        "it": { "prompt": "Quale forma va con \"bilar\" (auto, plurale)?" },
+        "fr": { "prompt": "Quelle forme va avec \"bilar\" (voitures, pluriel) ?" },
+        "de": { "prompt": "Welche Form gehört zu \"bilar\" (Autos, Plural)?" },
+        "es": { "prompt": "¿Qué forma va con \"bilar\" (coches, plural)?" },
+        "hr": { "prompt": "Koji oblik ide uz \"bilar\" (automobili, množina)?" }
+      }
+    },
+    {
+      "id": "sv-ex-adjectives-3",
+      "type": "translate",
+      "prompt": "Translate: \"The car is big.\"",
+      "answer": ["Bilen är stor."],
+      "relatedItemId": "sv-vocab-life-003",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"L'auto è grande.\"" },
+        "fr": { "prompt": "Traduis : \"La voiture est grande.\"" },
+        "de": { "prompt": "Übersetze: \"Das Auto ist groß.\"" },
+        "es": { "prompt": "Traduce: \"El coche es grande.\"" },
+        "hr": { "prompt": "Prevedi: \"Auto je velik.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Concordanza degli aggettivi",
+    "fr": "Accord des adjectifs",
+    "de": "Adjektivkongruenz",
+    "es": "Concordancia de adjetivos",
+    "hr": "Slaganje pridjeva"
+  }
+}

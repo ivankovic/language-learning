@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-numbers",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-2",
+  "order": 3,
+  "title": "Numbers",
+  "prerequisiteIds": ["sv-lesson-ha"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Counting in Swedish: **noll, ett, två, tre, fyra, fem, sex, sju, åtta, nio, tio** (0–10). The number \"one\" is special — it changes form to match the noun's gender, just like the indefinite article: **en** bil (one car, en-word), but **ett** hus (one house, ett-word). The other numbers never change.",
+      "i18n": {
+        "it": "Contare in svedese: **noll, ett, två, tre, fyra, fem, sex, sju, åtta, nio, tio** (0–10). Il numero \"uno\" è speciale — cambia forma per accordarsi al genere del sostantivo, proprio come l'articolo indeterminativo: **en** bil (un'auto, parola in en), ma **ett** hus (una casa, parola in ett). Gli altri numeri non cambiano mai.",
+        "fr": "Compter en suédois : **noll, ett, två, tre, fyra, fem, sex, sju, åtta, nio, tio** (0–10). Le nombre \"un\" est particulier — il change de forme pour s'accorder au genre du nom, tout comme l'article indéfini : **en** bil (une voiture, mot en en), mais **ett** hus (une maison, mot en ett). Les autres nombres ne changent jamais.",
+        "de": "Zählen auf Schwedisch: **noll, ett, två, tre, fyra, fem, sex, sju, åtta, nio, tio** (0–10). Die Zahl \"eins\" ist besonders — sie ändert ihre Form passend zum Genus des Substantivs, genau wie der unbestimmte Artikel: **en** bil (ein Auto, en-Wort), aber **ett** hus (ein Haus, ett-Wort). Die anderen Zahlen ändern sich nie.",
+        "es": "Contar en sueco: **noll, ett, två, tre, fyra, fem, sex, sju, åtta, nio, tio** (0–10). El número \"uno\" es especial — cambia de forma para concordar con el género del sustantivo, igual que el artículo indefinido: **en** bil (un coche, palabra en en), pero **ett** hus (una casa, palabra en ett). Los demás números nunca cambian.",
+        "hr": "Brojanje na švedskom: **noll, ett, två, tre, fyra, fem, sex, sju, åtta, nio, tio** (0–10). Broj \"jedan\" je poseban — mijenja oblik da bi se slagao s rodom imenice, baš kao neodređeni član: **en** bil (jedan auto, en-riječ), ali **ett** hus (jedna kuća, ett-riječ). Ostali brojevi nikad se ne mijenjaju."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-numbers-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-numbers-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-numbers-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-numbers-1",
+      "type": "fill-blank",
+      "prompt": "___ hus (one house)",
+      "answer": "Ett",
+      "relatedItemId": "sv-vocab-life-001",
+      "i18n": {
+        "it": { "prompt": "___ hus (una casa)" },
+        "fr": { "prompt": "___ hus (une maison)" },
+        "de": { "prompt": "___ hus (ein Haus)" },
+        "es": { "prompt": "___ hus (una casa)" },
+        "hr": { "prompt": "___ hus (jedna kuća)" }
+      }
+    },
+    {
+      "id": "sv-ex-numbers-2",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"three\" in Swedish?",
+      "answer": "tre",
+      "distractors": ["två", "fyra", "sju"],
+      "relatedItemId": "sv-vocab-numbers-004",
+      "i18n": {
+        "it": { "prompt": "Come si dice \"tre\" in svedese?" },
+        "fr": { "prompt": "Comment dit-on \"trois\" en suédois ?" },
+        "de": { "prompt": "Wie sagt man \"drei\" auf Schwedisch?" },
+        "es": { "prompt": "¿Cómo se dice \"tres\" en sueco?" },
+        "hr": { "prompt": "Kako se kaže \"tri\" na švedskom?" }
+      }
+    },
+    {
+      "id": "sv-ex-numbers-3",
+      "type": "fill-blank",
+      "prompt": "Klockan är ___. (It's ten o'clock.)",
+      "answer": "tio",
+      "relatedItemId": "sv-vocab-numbers-011",
+      "i18n": {
+        "it": { "prompt": "Klockan är ___. (Sono le dieci.)" },
+        "fr": { "prompt": "Klockan är ___. (Il est dix heures.)" },
+        "de": { "prompt": "Klockan är ___. (Es ist zehn Uhr.)" },
+        "es": { "prompt": "Klockan är ___. (Son las diez.)" },
+        "hr": { "prompt": "Klockan är ___. (Deset je sati.)" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Numeri",
+    "fr": "Nombres",
+    "de": "Zahlen",
+    "es": "Números",
+    "hr": "Brojevi"
+  }
+}

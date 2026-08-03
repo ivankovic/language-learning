@@ -1,0 +1,89 @@
+{
+  "id": "sv-lesson-nouns",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-1",
+  "order": 2,
+  "title": "En-words & Ett-words",
+  "prerequisiteIds": ["sv-lesson-greetings"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Every Swedish noun belongs to one of two genders: **en**-words (common gender, about 75% of nouns) or **ett**-words (neuter). The indefinite article comes before the noun, just like English \"a\": **en bil** (a car), **ett hus** (a house). There's no rule to predict which gender a noun is — it's memorized along with the word itself.",
+      "i18n": {
+        "it": "Ogni sostantivo svedese appartiene a uno di due generi: parole in **en** (genere comune, circa il 75% dei sostantivi) o parole in **ett** (neutro). L'articolo indeterminativo precede il sostantivo, proprio come l'italiano \"un/una\": **en bil** (un'auto), **ett hus** (una casa). Non c'è una regola per prevedere il genere di un sostantivo — si memorizza insieme alla parola stessa.",
+        "fr": "Chaque nom suédois appartient à l'un de deux genres : les mots en **en** (genre commun, environ 75 % des noms) ou les mots en **ett** (neutre). L'article indéfini précède le nom, comme en français \"un/une\" : **en bil** (une voiture), **ett hus** (une maison). Il n'y a pas de règle pour prédire le genre d'un nom — il se mémorise avec le mot lui-même.",
+        "de": "Jedes schwedische Substantiv gehört zu einem von zwei Genera: **en**-Wörter (Utrum, etwa 75 % der Substantive) oder **ett**-Wörter (Neutrum). Der unbestimmte Artikel steht vor dem Substantiv, genau wie im Deutschen \"ein/eine\": **en bil** (ein Auto), **ett hus** (ein Haus). Es gibt keine Regel, um das Genus eines Substantivs vorherzusagen — man lernt es zusammen mit dem Wort selbst auswendig.",
+        "es": "Cada sustantivo sueco pertenece a uno de dos géneros: palabras en **en** (género común, alrededor del 75% de los sustantivos) o palabras en **ett** (neutro). El artículo indefinido va antes del sustantivo, igual que en español \"un/una\": **en bil** (un coche), **ett hus** (una casa). No hay una regla para predecir el género de un sustantivo — se memoriza junto con la palabra misma.",
+        "hr": "Svaka švedska imenica pripada jednom od dva roda: riječi s **en** (zajednički rod, oko 75% imenica) ili riječi s **ett** (srednji rod). Neodređeni član dolazi ispred imenice: **en bil** (auto), **ett hus** (kuća). Ne postoji pravilo po kojem se može predvidjeti rod imenice — pamti se zajedno sa samom riječi."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-nouns-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-nouns-2" },
+    {
+      "type": "explanation",
+      "markdown": "The definite article (\"the\") isn't a separate word in Swedish — it's a suffix attached to the end of the noun. **En**-words add **-en**: *bil* → *bil**en*** (the car). **Ett**-words add **-et**: *hus* → *hus**et*** (the house). This suffixed article is one of the most distinctive features of Swedish.",
+      "i18n": {
+        "it": "L'articolo determinativo (\"il/lo/la\") non è una parola separata in svedese — è un suffisso attaccato alla fine del sostantivo. Le parole in **en** aggiungono **-en**: *bil* → *bil**en*** (l'auto). Le parole in **ett** aggiungono **-et**: *hus* → *hus**et*** (la casa). Questo articolo suffisso è una delle caratteristiche più distintive dello svedese.",
+        "fr": "L'article défini (\"le/la\") n'est pas un mot séparé en suédois — c'est un suffixe attaché à la fin du nom. Les mots en **en** ajoutent **-en** : *bil* → *bil**en*** (la voiture). Les mots en **ett** ajoutent **-et** : *hus* → *hus**et*** (la maison). Cet article suffixé est l'une des caractéristiques les plus distinctives du suédois.",
+        "de": "Der bestimmte Artikel (\"der/die/das\") ist im Schwedischen kein eigenes Wort — er ist eine Endung, die an das Substantiv angehängt wird. **En**-Wörter fügen **-en** an: *bil* → *bil**en*** (das Auto). **Ett**-Wörter fügen **-et** an: *hus* → *hus**et*** (das Haus). Dieser angehängte Artikel ist eines der auffälligsten Merkmale des Schwedischen.",
+        "es": "El artículo determinado (\"el/la\") no es una palabra separada en sueco — es un sufijo que se añade al final del sustantivo. Las palabras en **en** añaden **-en**: *bil* → *bil**en*** (el coche). Las palabras en **ett** añaden **-et**: *hus* → *hus**et*** (la casa). Este artículo sufijado es uno de los rasgos más distintivos del sueco.",
+        "hr": "Određeni član (\"taj/ta/to\") u švedskom nije zasebna riječ — to je nastavak dodan na kraj imenice. Riječi s **en** dodaju **-en**: *bil* → *bil**en*** (auto, konkretno). Riječi s **ett** dodaju **-et**: *hus* → *hus**et*** (kuća, konkretno). Ovaj dodani član jedna je od najprepoznatljivijih osobina švedskog jezika."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-nouns-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-nouns-1",
+      "type": "multiple-choice",
+      "prompt": "Which article goes with \"hus\" (house)?",
+      "answer": "ett",
+      "distractors": ["en", "den", "det"],
+      "relatedItemId": "sv-vocab-life-001",
+      "i18n": {
+        "it": { "prompt": "Quale articolo si usa con \"hus\" (casa)?" },
+        "fr": { "prompt": "Quel article va avec \"hus\" (maison) ?" },
+        "de": { "prompt": "Welcher Artikel gehört zu \"hus\" (Haus)?" },
+        "es": { "prompt": "¿Qué artículo va con \"hus\" (casa)?" },
+        "hr": { "prompt": "Koji član ide uz \"hus\" (kuća)?" }
+      }
+    },
+    {
+      "id": "sv-ex-nouns-2",
+      "type": "fill-blank",
+      "prompt": "___ bil (a car)",
+      "answer": "En",
+      "relatedItemId": "sv-vocab-life-003",
+      "i18n": {
+        "it": { "prompt": "___ bil (un'auto)" },
+        "fr": { "prompt": "___ bil (une voiture)" },
+        "de": { "prompt": "___ bil (ein Auto)" },
+        "es": { "prompt": "___ bil (un coche)" },
+        "hr": { "prompt": "___ bil (jedan auto)" }
+      }
+    },
+    {
+      "id": "sv-ex-nouns-3",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"the house\" in Swedish?",
+      "answer": "huset",
+      "distractors": ["ett hus", "husen", "den hus"],
+      "relatedItemId": "sv-vocab-life-001",
+      "i18n": {
+        "it": { "prompt": "Come si dice \"la casa\" (determinativo) in svedese?" },
+        "fr": { "prompt": "Comment dit-on \"la maison\" (défini) en suédois ?" },
+        "de": { "prompt": "Wie sagt man \"das Haus\" (bestimmt) auf Schwedisch?" },
+        "es": { "prompt": "¿Cómo se dice \"la casa\" (determinado) en sueco?" },
+        "hr": { "prompt": "Kako se kaže \"ta kuća\" (određeno) na švedskom?" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Parole in en e in ett",
+    "fr": "Mots en en et en ett",
+    "de": "En-Wörter und Ett-Wörter",
+    "es": "Palabras en en y en ett",
+    "hr": "En-riječi i ett-riječi"
+  }
+}

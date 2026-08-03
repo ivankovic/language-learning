@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-plural-nouns",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-4",
+  "order": 1,
+  "title": "Plural Nouns",
+  "prerequisiteIds": ["sv-lesson-food-travel"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Swedish plurals follow a handful of patterns based on the noun's ending. Most **en**-words that end in a consonant add **-ar**: *bil* → *bil**ar*** (cars). Most **ett**-words that end in a vowel add **-n**: *äpple* → *äpple**n*** (apples). Most **ett**-words that end in a consonant don't change at all: *hus* → *hus* (houses, same word for one or many). There are more patterns (and irregulars) beyond these three, but they cover a large share of everyday nouns.",
+      "i18n": {
+        "it": "I plurali svedesi seguono alcuni schemi in base alla desinenza del sostantivo. La maggior parte delle parole in **en** che finiscono in consonante aggiunge **-ar**: *bil* → *bil**ar*** (auto). La maggior parte delle parole in **ett** che finiscono in vocale aggiunge **-n**: *äpple* → *äpple**n*** (mele). La maggior parte delle parole in **ett** che finiscono in consonante non cambia affatto: *hus* → *hus* (case, stessa parola al singolare e al plurale). Ci sono altri schemi (ed eccezioni) oltre a questi tre, ma coprono gran parte dei sostantivi di uso quotidiano.",
+        "fr": "Les pluriels suédois suivent quelques schémas selon la terminaison du nom. La plupart des mots en **en** qui se terminent par une consonne ajoutent **-ar** : *bil* → *bil**ar*** (voitures). La plupart des mots en **ett** qui se terminent par une voyelle ajoutent **-n** : *äpple* → *äpple**n*** (pommes). La plupart des mots en **ett** qui se terminent par une consonne ne changent pas du tout : *hus* → *hus* (maisons, même mot au singulier et au pluriel). Il existe d'autres schémas (et irréguliers) au-delà de ces trois-là, mais ils couvrent une grande part des noms courants.",
+        "de": "Schwedische Pluralformen folgen je nach Endung des Substantivs einigen Mustern. Die meisten **en**-Wörter, die auf einen Konsonanten enden, fügen **-ar** an: *bil* → *bil**ar*** (Autos). Die meisten **ett**-Wörter, die auf einen Vokal enden, fügen **-n** an: *äpple* → *äpple**n*** (Äpfel). Die meisten **ett**-Wörter, die auf einen Konsonanten enden, ändern sich überhaupt nicht: *hus* → *hus* (Häuser, gleiches Wort im Singular und Plural). Es gibt weitere Muster (und Unregelmäßigkeiten) über diese drei hinaus, aber sie decken einen großen Teil der alltäglichen Substantive ab.",
+        "es": "Los plurales suecos siguen algunos patrones según la terminación del sustantivo. La mayoría de las palabras en **en** que terminan en consonante añaden **-ar**: *bil* → *bil**ar*** (coches). La mayoría de las palabras en **ett** que terminan en vocal añaden **-n**: *äpple* → *äpple**n*** (manzanas). La mayoría de las palabras en **ett** que terminan en consonante no cambian en absoluto: *hus* → *hus* (casas, la misma palabra en singular y plural). Hay más patrones (e irregulares) además de estos tres, pero cubren buena parte de los sustantivos cotidianos.",
+        "hr": "Švedska množina prati nekoliko obrazaca ovisno o završetku imenice. Većina **en**-riječi koje završavaju na suglasnik dodaje **-ar**: *bil* → *bil**ar*** (automobili). Većina **ett**-riječi koje završavaju na samoglasnik dodaje **-n**: *äpple* → *äpple**n*** (jabuke). Većina **ett**-riječi koje završavaju na suglasnik uopće se ne mijenja: *hus* → *hus* (kuće, ista riječ u jednini i množini). Postoje i drugi obrasci (i nepravilnosti) osim ova tri, no oni pokrivaju velik dio svakodnevnih imenica."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-plural-nouns-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-plural-nouns-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-plural-nouns-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-plural-nouns-1",
+      "type": "multiple-choice",
+      "prompt": "What is the plural of \"hus\" (house)?",
+      "answer": "hus",
+      "distractors": ["huser", "husar", "husor"],
+      "relatedItemId": "sv-vocab-life-001",
+      "i18n": {
+        "it": { "prompt": "Qual è il plurale di \"hus\" (casa)?" },
+        "fr": { "prompt": "Quel est le pluriel de \"hus\" (maison) ?" },
+        "de": { "prompt": "Was ist der Plural von \"hus\" (Haus)?" },
+        "es": { "prompt": "¿Cuál es el plural de \"hus\" (casa)?" },
+        "hr": { "prompt": "Koja je množina od \"hus\" (kuća)?" }
+      }
+    },
+    {
+      "id": "sv-ex-plural-nouns-2",
+      "type": "fill-blank",
+      "prompt": "Jag har tre ___. (bil — I have three cars.)",
+      "answer": "bilar",
+      "relatedItemId": "sv-vocab-life-003",
+      "i18n": {
+        "it": { "prompt": "Jag har tre ___. (bil — Ho tre auto.)" },
+        "fr": { "prompt": "Jag har tre ___. (bil — J'ai trois voitures.)" },
+        "de": { "prompt": "Jag har tre ___. (bil — Ich habe drei Autos.)" },
+        "es": { "prompt": "Jag har tre ___. (bil — Tengo tres coches.)" },
+        "hr": { "prompt": "Jag har tre ___. (bil — Imam tri auta.)" }
+      }
+    },
+    {
+      "id": "sv-ex-plural-nouns-3",
+      "type": "fill-blank",
+      "prompt": "Två ___. (äpple — Two apples.)",
+      "answer": "äpplen",
+      "relatedItemId": "sv-vocab-food-019",
+      "i18n": {
+        "it": { "prompt": "Två ___. (äpple — Due mele.)" },
+        "fr": { "prompt": "Två ___. (äpple — Deux pommes.)" },
+        "de": { "prompt": "Två ___. (äpple — Zwei Äpfel.)" },
+        "es": { "prompt": "Två ___. (äpple — Dos manzanas.)" },
+        "hr": { "prompt": "Två ___. (äpple — Dvije jabuke.)" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Sostantivi al plurale",
+    "fr": "Noms au pluriel",
+    "de": "Substantive im Plural",
+    "es": "Sustantivos en plural",
+    "hr": "Imenice u množini"
+  }
+}

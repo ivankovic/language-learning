@@ -1,0 +1,88 @@
+{
+  "id": "sv-lesson-greetings",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-1",
+  "order": 1,
+  "title": "Greetings & Politeness",
+  "prerequisiteIds": [],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "**Hej** is the all-purpose Swedish greeting — casual or polite, morning or night. For time-specific greetings, use **god morgon** (morning), **god kväll** (evening), or **god natt** only when parting for the night, never as a greeting. **Hej då** is the everyday word for \"bye\".",
+      "i18n": {
+        "it": "**Hej** è il saluto svedese universale — informale o formale, mattina o sera. Per saluti legati al momento della giornata, usa **god morgon** (mattina), **god kväll** (sera), oppure **god natt** solo quando ci si separa per la notte, mai come saluto. **Hej då** è la parola di tutti i giorni per \"ciao\" (nel senso di arrivederci).",
+        "fr": "**Hej** est le salut suédois universel — informel ou poli, matin ou soir. Pour des salutations liées au moment de la journée, utilise **god morgon** (matin), **god kväll** (soir), ou **god natt** uniquement en se quittant pour la nuit, jamais comme salutation. **Hej då** est le mot courant pour \"au revoir\".",
+        "de": "**Hej** ist der universelle schwedische Gruß — locker oder höflich, morgens oder abends. Für tageszeitbezogene Grüße verwende **god morgon** (morgens), **god kväll** (abends), oder **god natt** nur beim Abschied für die Nacht, niemals als Begrüßung. **Hej då** ist das alltägliche Wort für \"tschüss\".",
+        "es": "**Hej** es el saludo universal sueco — informal o educado, mañana o noche. Para saludos según el momento del día, usa **god morgon** (mañana), **god kväll** (noche), o **god natt** solo al despedirse para dormir, nunca como saludo. **Hej då** es la palabra cotidiana para \"adiós\".",
+        "hr": "**Hej** je univerzalni švedski pozdrav — neformalan ili uljudan, jutro ili večer. Za pozdrave vezane uz doba dana koristi **god morgon** (jutro), **god kväll** (večer), ili **god natt** samo kad se rastajete za noć, nikad kao pozdrav. **Hej då** je svakodnevna riječ za \"bok\" (pri odlasku)."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-greetings-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-greetings-2" },
+    {
+      "type": "explanation",
+      "markdown": "Politeness words: **tack** (thank you), **varsågod** (you're welcome / here you go — also said when handing something to someone), and **snälla** (please — usually added at the end or start of a request, e.g. *Hjälp mig, snälla*).",
+      "i18n": {
+        "it": "Parole di cortesia: **tack** (grazie), **varsågod** (prego / ecco a te — si dice anche porgendo qualcosa a qualcuno), e **snälla** (per favore — di solito aggiunta alla fine o all'inizio di una richiesta, es. *Hjälp mig, snälla*).",
+        "fr": "Mots de politesse : **tack** (merci), **varsågod** (je t'en prie / voici — se dit aussi en tendant quelque chose à quelqu'un), et **snälla** (s'il te plaît — généralement ajouté à la fin ou au début d'une demande, ex. *Hjälp mig, snälla*).",
+        "de": "Höflichkeitswörter: **tack** (danke), **varsågod** (bitte schön / hier bitte — wird auch gesagt, wenn man jemandem etwas reicht), und **snälla** (bitte — meist am Ende oder Anfang einer Bitte angehängt, z. B. *Hjälp mig, snälla*).",
+        "es": "Palabras de cortesía: **tack** (gracias), **varsågod** (de nada / aquí tienes — también se dice al entregarle algo a alguien), y **snälla** (por favor — normalmente se añade al final o al principio de una petición, p. ej. *Hjälp mig, snälla*).",
+        "hr": "Riječi pristojnosti: **tack** (hvala), **varsågod** (nema na čemu / izvoli — kaže se i kad nekome nešto pružate), i **snälla** (molim — obično se dodaje na kraju ili početku molbe, npr. *Hjälp mig, snälla*)."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-greetings-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-greetings-1",
+      "type": "multiple-choice",
+      "prompt": "Which greeting would you use in the evening?",
+      "answer": "god kväll",
+      "distractors": ["god morgon", "god natt", "hej då"],
+      "i18n": {
+        "it": { "prompt": "Quale saluto useresti la sera?" },
+        "fr": { "prompt": "Quel salut utiliserais-tu le soir ?" },
+        "de": { "prompt": "Welchen Gruß würdest du am Abend verwenden?" },
+        "es": { "prompt": "¿Qué saludo usarías por la noche?" },
+        "hr": { "prompt": "Koji pozdrav biste koristili navečer?" }
+      }
+    },
+    {
+      "id": "sv-ex-greetings-2",
+      "type": "fill-blank",
+      "prompt": "___, hur mår du? (informal \"hi\")",
+      "answer": "Hej",
+      "relatedItemId": "sv-vocab-greet-001",
+      "i18n": {
+        "it": { "prompt": "___, hur mår du? (\"ciao\" informale)" },
+        "fr": { "prompt": "___, hur mår du? (\"salut\" informel)" },
+        "de": { "prompt": "___, hur mår du? (informelles \"hallo\")" },
+        "es": { "prompt": "___, hur mår du? (\"hola\" informal)" },
+        "hr": { "prompt": "___, hur mår du? (neformalno \"bok\")" }
+      }
+    },
+    {
+      "id": "sv-ex-greetings-3",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"thank you\" in Swedish?",
+      "answer": "tack",
+      "distractors": ["varsågod", "förlåt", "ursäkta"],
+      "relatedItemId": "sv-vocab-greet-006",
+      "i18n": {
+        "it": { "prompt": "Come si dice \"grazie\" in svedese?" },
+        "fr": { "prompt": "Comment dit-on \"merci\" en suédois ?" },
+        "de": { "prompt": "Wie sagt man \"danke\" auf Schwedisch?" },
+        "es": { "prompt": "¿Cómo se dice \"gracias\" en sueco?" },
+        "hr": { "prompt": "Kako se kaže \"hvala\" na švedskom?" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Saluti e cortesia",
+    "fr": "Salutations et politesse",
+    "de": "Begrüßungen und Höflichkeit",
+    "es": "Saludos y cortesía",
+    "hr": "Pozdravi i pristojnost"
+  }
+}

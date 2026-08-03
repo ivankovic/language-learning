@@ -1,0 +1,76 @@
+{
+  "id": "sv-lesson-relative-pronouns",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-6",
+  "order": 3,
+  "title": "Relative Pronouns (Som)",
+  "prerequisiteIds": ["sv-lesson-object-pronouns"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "**Som** is Swedish's all-purpose relative pronoun — it covers \"that\", \"which\", and \"who\" all at once, and it never changes form: *Boken som jag läser* (The book that I'm reading), *Mannen som bor här* (The man who lives here). English sometimes drops \"that\"/\"which\" entirely; Swedish never drops **som**.",
+      "i18n": {
+        "it": "**Som** è il pronome relativo universale dello svedese — copre \"che\", \"il quale\" e \"chi\" tutti insieme, e non cambia mai forma: *Boken som jag läser* (Il libro che sto leggendo), *Mannen som bor här* (L'uomo che vive qui). L'italiano a volte può omettere il pronome relativo in certe costruzioni; lo svedese non omette mai **som**.",
+        "fr": "**Som** est le pronom relatif universel du suédois — il couvre \"que\", \"qui\" et \"lequel\" à la fois, et il ne change jamais de forme : *Boken som jag läser* (Le livre que je lis), *Mannen som bor här* (L'homme qui habite ici). Le français omet parfois le pronom relatif dans certaines tournures ; le suédois n'omet jamais **som**.",
+        "de": "**Som** ist das schwedische Allround-Relativpronomen — es deckt \"das\", \"die\", \"der\" und \"wer\" gleichzeitig ab und ändert nie seine Form: *Boken som jag läser* (Das Buch, das ich lese), *Mannen som bor här* (Der Mann, der hier wohnt). Im Englischen wird das Relativpronomen manchmal weggelassen; im Schwedischen wird **som** nie weggelassen.",
+        "es": "**Som** es el pronombre relativo universal del sueco — cubre \"que\", \"quien\" y \"el cual\" todo a la vez, y nunca cambia de forma: *Boken som jag läser* (El libro que estoy leyendo), *Mannen som bor här* (El hombre que vive aquí). El inglés a veces omite el pronombre relativo; el sueco nunca omite **som**.",
+        "hr": "**Som** je švedska univerzalna odnosna zamjenica — pokriva \"koji\", \"koja\", \"koje\" i \"tko\" odjednom, i nikad ne mijenja oblik: *Boken som jag läser* (Knjiga koju čitam), *Mannen som bor här* (Čovjek koji živi ovdje). Engleski ponekad izostavlja odnosnu zamjenicu; švedski nikad ne izostavlja **som**."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-relative-pronouns-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-relative-pronouns-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-relative-pronouns-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-relative-pronouns-1",
+      "type": "fill-blank",
+      "prompt": "Boken ___ jag läser är bra. (The book that I'm reading is good.)",
+      "answer": "som",
+      "relatedItemId": "sv-vocab-musicarts-020",
+      "i18n": {
+        "it": { "prompt": "Boken ___ jag läser är bra. (Il libro che sto leggendo è bello.)" },
+        "fr": { "prompt": "Boken ___ jag läser är bra. (Le livre que je lis est bon.)" },
+        "de": { "prompt": "Boken ___ jag läser är bra. (Das Buch, das ich lese, ist gut.)" },
+        "es": { "prompt": "Boken ___ jag läser är bra. (El libro que estoy leyendo es bueno.)" },
+        "hr": { "prompt": "Boken ___ jag läser är bra. (Knjiga koju čitam je dobra.)" }
+      }
+    },
+    {
+      "id": "sv-ex-relative-pronouns-2",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"that/which/who\" as a relative pronoun?",
+      "answer": "som",
+      "distractors": ["vad", "vilken", "den"],
+      "i18n": {
+        "it": { "prompt": "Quale parola significa \"che/il quale/chi\" come pronome relativo?" },
+        "fr": { "prompt": "Quel mot signifie \"que/qui/lequel\" comme pronom relatif ?" },
+        "de": { "prompt": "Welches Wort bedeutet \"das/die/der\" als Relativpronomen?" },
+        "es": { "prompt": "¿Qué palabra significa \"que/quien/el cual\" como pronombre relativo?" },
+        "hr": { "prompt": "Koja riječ znači \"koji/koja/tko\" kao odnosna zamjenica?" }
+      }
+    },
+    {
+      "id": "sv-ex-relative-pronouns-3",
+      "type": "translate",
+      "prompt": "Translate: \"The film that we watched was beautiful.\"",
+      "answer": ["Filmen som vi tittade på var vacker."],
+      "relatedItemId": "sv-vocab-medianews-008",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Il film che abbiamo guardato era bello.\"" },
+        "fr": { "prompt": "Traduis : \"Le film que nous avons regardé était beau.\"" },
+        "de": { "prompt": "Übersetze: \"Der Film, den wir gesehen haben, war schön.\"" },
+        "es": { "prompt": "Traduce: \"La película que vimos era hermosa.\"" },
+        "hr": { "prompt": "Prevedi: \"Film koji smo gledali bio je lijep.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Pronomi relativi (Som)",
+    "fr": "Pronoms relatifs (Som)",
+    "de": "Relativpronomen (Som)",
+    "es": "Pronombres relativos (Som)",
+    "hr": "Odnosne zamjenice (Som)"
+  }
+}

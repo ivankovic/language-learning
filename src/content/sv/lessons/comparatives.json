@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-comparatives",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-7",
+  "order": 1,
+  "title": "Comparatives & Superlatives",
+  "prerequisiteIds": ["sv-lesson-questions"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Most Swedish adjectives add **-are** (comparative, \"more...\") and **-ast** (superlative, \"most...\"): *ny* → *nyare* → *nyast* (new, newer, newest). Some common short adjectives shift instead: *stor* → *större* → *störst* (big, bigger, biggest). A few are simply irregular and have to be memorized: *bra* → *bättre* → *bäst* (good, better, best).",
+      "i18n": {
+        "it": "La maggior parte degli aggettivi svedesi aggiunge **-are** (comparativo, \"più...\") e **-ast** (superlativo, \"il più...\"): *ny* → *nyare* → *nyast* (nuovo, più nuovo, il più nuovo). Alcuni aggettivi corti comuni cambiano invece vocale: *stor* → *större* → *störst* (grande, più grande, il più grande). Alcuni sono semplicemente irregolari e vanno memorizzati: *bra* → *bättre* → *bäst* (buono, migliore, il migliore).",
+        "fr": "La plupart des adjectifs suédois ajoutent **-are** (comparatif, \"plus...\") et **-ast** (superlatif, \"le plus...\") : *ny* → *nyare* → *nyast* (neuf, plus neuf, le plus neuf). Certains adjectifs courts courants changent de voyelle à la place : *stor* → *större* → *störst* (grand, plus grand, le plus grand). Quelques-uns sont simplement irréguliers et doivent être mémorisés : *bra* → *bättre* → *bäst* (bon, meilleur, le meilleur).",
+        "de": "Die meisten schwedischen Adjektive fügen **-are** (Komparativ, \"mehr...\") und **-ast** (Superlativ, \"am meisten...\") an: *ny* → *nyare* → *nyast* (neu, neuer, neuester). Manche gebräuchliche kurze Adjektive ändern stattdessen den Vokal: *stor* → *större* → *störst* (groß, größer, am größten). Einige sind einfach unregelmäßig und müssen auswendig gelernt werden: *bra* → *bättre* → *bäst* (gut, besser, am besten).",
+        "es": "La mayoría de los adjetivos suecos añaden **-are** (comparativo, \"más...\") y **-ast** (superlativo, \"el más...\"): *ny* → *nyare* → *nyast* (nuevo, más nuevo, el más nuevo). Algunos adjetivos cortos comunes cambian de vocal en su lugar: *stor* → *större* → *störst* (grande, más grande, el más grande). Unos pocos son simplemente irregulares y hay que memorizarlos: *bra* → *bättre* → *bäst* (bueno, mejor, el mejor).",
+        "hr": "Većina švedskih pridjeva dodaje **-are** (komparativ, \"više...\") i **-ast** (superlativ, \"naj...\"): *ny* → *nyare* → *nyast* (nov, noviji, najnoviji). Neki uobičajeni kratki pridjevi umjesto toga mijenjaju samoglasnik: *stor* → *större* → *störst* (velik, veći, najveći). Neki su jednostavno nepravilni i moraju se zapamtiti: *bra* → *bättre* → *bäst* (dobar, bolji, najbolji)."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-comparatives-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-comparatives-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-comparatives-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-comparatives-1",
+      "type": "fill-blank",
+      "prompt": "Den här bilen är ___ än den andra. (This car is bigger than the other.)",
+      "answer": "större",
+      "relatedItemId": "sv-vocab-life-021",
+      "i18n": {
+        "it": { "prompt": "Den här bilen är ___ än den andra. (Questa auto è più grande dell'altra.)" },
+        "fr": { "prompt": "Den här bilen är ___ än den andra. (Cette voiture est plus grande que l'autre.)" },
+        "de": { "prompt": "Den här bilen är ___ än den andra. (Dieses Auto ist größer als das andere.)" },
+        "es": { "prompt": "Den här bilen är ___ än den andra. (Este coche es más grande que el otro.)" },
+        "hr": { "prompt": "Den här bilen är ___ än den andra. (Ovaj auto je veći od drugoga.)" }
+      }
+    },
+    {
+      "id": "sv-ex-comparatives-2",
+      "type": "multiple-choice",
+      "prompt": "What is the superlative of \"bra\" (good)?",
+      "answer": "bäst",
+      "distractors": ["bättre", "godast", "braast"],
+      "relatedItemId": "sv-vocab-greet-016",
+      "i18n": {
+        "it": { "prompt": "Qual è il superlativo di \"bra\" (buono)?" },
+        "fr": { "prompt": "Quel est le superlatif de \"bra\" (bon) ?" },
+        "de": { "prompt": "Was ist der Superlativ von \"bra\" (gut)?" },
+        "es": { "prompt": "¿Cuál es el superlativo de \"bra\" (bueno)?" },
+        "hr": { "prompt": "Koji je superlativ od \"bra\" (dobar)?" }
+      }
+    },
+    {
+      "id": "sv-ex-comparatives-3",
+      "type": "translate",
+      "prompt": "Translate: \"This house is newer.\"",
+      "answer": ["Det här huset är nyare."],
+      "relatedItemId": "sv-vocab-life-023",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Questa casa è più nuova.\"" },
+        "fr": { "prompt": "Traduis : \"Cette maison est plus récente.\"" },
+        "de": { "prompt": "Übersetze: \"Dieses Haus ist neuer.\"" },
+        "es": { "prompt": "Traduce: \"Esta casa es más nueva.\"" },
+        "hr": { "prompt": "Prevedi: \"Ova kuća je novija.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Comparativi e superlativi",
+    "fr": "Comparatifs et superlatifs",
+    "de": "Komparativ und Superlativ",
+    "es": "Comparativos y superlativos",
+    "hr": "Komparativi i superlativi"
+  }
+}

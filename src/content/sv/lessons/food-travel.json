@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-food-travel",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-3",
+  "order": 2,
+  "title": "Food & Everyday Phrases",
+  "prerequisiteIds": ["sv-lesson-word-order"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "**Jag vill ha...** (literally \"I want to have...\") is the everyday way to order or ask for something, much softer than a bare demand: **Jag vill ha kaffe, tack.** (I'd like coffee, please.) It combines two verbs you already know — **vilja** (to want) and **ha** (to have).",
+      "i18n": {
+        "it": "**Jag vill ha...** (letteralmente \"voglio avere...\") è il modo quotidiano per ordinare o chiedere qualcosa, molto più gentile di una richiesta secca: **Jag vill ha kaffe, tack.** (Vorrei un caffè, per favore.) Combina due verbi che già conosci — **vilja** (volere) e **ha** (avere).",
+        "fr": "**Jag vill ha...** (littéralement \"je veux avoir...\") est la façon courante de commander ou demander quelque chose, bien plus douce qu'une demande brute : **Jag vill ha kaffe, tack.** (Je voudrais un café, s'il vous plaît.) Elle combine deux verbes que tu connais déjà — **vilja** (vouloir) et **ha** (avoir).",
+        "de": "**Jag vill ha...** (wörtlich \"ich will haben...\") ist die alltägliche Art, etwas zu bestellen oder zu erbitten, viel höflicher als eine reine Forderung: **Jag vill ha kaffe, tack.** (Ich hätte gerne Kaffee, bitte.) Es kombiniert zwei Verben, die du schon kennst — **vilja** (wollen) und **ha** (haben).",
+        "es": "**Jag vill ha...** (literalmente \"quiero tener...\") es la forma cotidiana de pedir algo, mucho más suave que una petición directa: **Jag vill ha kaffe, tack.** (Quisiera un café, por favor.) Combina dos verbos que ya conoces — **vilja** (querer) y **ha** (tener).",
+        "hr": "**Jag vill ha...** (doslovno \"želim imati...\") svakodnevni je način naručivanja ili traženja nečega, puno blaži od gole zapovijedi: **Jag vill ha kaffe, tack.** (Htio/htjela bih kavu, molim.) Kombinira dva glagola koje već znate — **vilja** (htjeti) i **ha** (imati)."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-food-travel-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-food-travel-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-food-travel-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-food-travel-1",
+      "type": "translate",
+      "prompt": "Translate: \"I want coffee and bread.\"",
+      "answer": ["Jag vill ha kaffe och bröd.", "Jag skulle vilja ha kaffe och bröd."],
+      "relatedItemId": "sv-vocab-food-007",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Voglio caffè e pane.\"" },
+        "fr": { "prompt": "Traduis : \"Je veux du café et du pain.\"" },
+        "de": { "prompt": "Übersetze: \"Ich möchte Kaffee und Brot.\"" },
+        "es": { "prompt": "Traduce: \"Quiero café y pan.\"" },
+        "hr": { "prompt": "Prevedi: \"Želim kavu i kruh.\"" }
+      }
+    },
+    {
+      "id": "sv-ex-food-travel-2",
+      "type": "fill-blank",
+      "prompt": "Jag äter ett ___. (I eat an apple.)",
+      "answer": "äpple",
+      "relatedItemId": "sv-vocab-food-019",
+      "i18n": {
+        "it": { "prompt": "Jag äter ett ___. (Mangio una mela.)" },
+        "fr": { "prompt": "Jag äter ett ___. (Je mange une pomme.)" },
+        "de": { "prompt": "Jag äter ett ___. (Ich esse einen Apfel.)" },
+        "es": { "prompt": "Jag äter ett ___. (Como una manzana.)" },
+        "hr": { "prompt": "Jag äter ett ___. (Jedem jabuku.)" }
+      }
+    },
+    {
+      "id": "sv-ex-food-travel-3",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"restaurant\"?",
+      "answer": "restaurang",
+      "distractors": ["frukost", "middag", "kök"],
+      "relatedItemId": "sv-vocab-food-028",
+      "i18n": {
+        "it": { "prompt": "Quale parola significa \"ristorante\"?" },
+        "fr": { "prompt": "Quel mot signifie \"restaurant\" ?" },
+        "de": { "prompt": "Welches Wort bedeutet \"Restaurant\"?" },
+        "es": { "prompt": "¿Qué palabra significa \"restaurante\"?" },
+        "hr": { "prompt": "Koja riječ znači \"restoran\"?" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Cibo e frasi quotidiane",
+    "fr": "Nourriture et phrases du quotidien",
+    "de": "Essen und Alltagsphrasen",
+    "es": "Comida y frases cotidianas",
+    "hr": "Hrana i svakodnevne fraze"
+  }
+}

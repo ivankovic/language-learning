@@ -9,6 +9,7 @@ describe("content loader", () => {
     expect(hasContentBundle("de")).toBe(true);
     expect(hasContentBundle("hr")).toBe(true);
     expect(hasContentBundle("es")).toBe(true);
+    expect(hasContentBundle("sv")).toBe(true);
   });
 
   it("resolves the Italian bundle with the expected shape", async () => {
@@ -51,6 +52,14 @@ describe("content loader", () => {
     expect(content.course.id).toBe("es-course-a1");
   });
 
+  it("resolves the Swedish bundle with the expected shape", async () => {
+    const content = await loadLanguageContent("sv");
+    expect(content.vocabById.size).toBeGreaterThanOrEqual(100);
+    expect(content.decks.length).toBeGreaterThanOrEqual(4);
+    expect(content.lessons.length).toBeGreaterThanOrEqual(5);
+    expect(content.course.id).toBe("sv-course-a1");
+  });
+
   it("caches the bundle across repeated loads", async () => {
     const a = await loadLanguageContent("it");
     const b = await loadLanguageContent("it");
@@ -91,8 +100,14 @@ describe("content loader", () => {
     expect(issues).toEqual([]);
   });
 
+  it("the Swedish seed content passes referential-integrity validation", async () => {
+    const content = await loadLanguageContent("sv");
+    const issues = validateContentBundle(content);
+    expect(issues).toEqual([]);
+  });
+
   it("every lesson's prerequisite chain terminates (no cycles) and unit->course wiring is complete", async () => {
-    for (const lang of ["it", "fr", "de", "hr", "es"]) {
+    for (const lang of ["it", "fr", "de", "hr", "es", "sv"]) {
       const content = await loadLanguageContent(lang);
       expect(content.units.every((u) => content.course.unitIds.includes(u.id))).toBe(true);
       const allLessonIdsInUnits = content.units.flatMap((u) => u.lessonIds);
@@ -212,6 +227,38 @@ describe("content loader", () => {
       "es-lesson-ar-verbs",
       "es-lesson-gustar",
       "es-lesson-food-travel",
+    ]);
+  });
+
+  it("Swedish lessons are ordered globally by course -> unit -> lesson", async () => {
+    const content = await loadLanguageContent("sv");
+    const order = content.lessons.map((l) => l.id);
+    expect(order).toEqual([
+      "sv-lesson-greetings",
+      "sv-lesson-nouns",
+      "sv-lesson-vara",
+      "sv-lesson-ha",
+      "sv-lesson-numbers",
+      "sv-lesson-word-order",
+      "sv-lesson-food-travel",
+      "sv-lesson-plural-nouns",
+      "sv-lesson-adjectives",
+      "sv-lesson-possessives",
+      "sv-lesson-modal-verbs",
+      "sv-lesson-perfekt",
+      "sv-lesson-imperfekt",
+      "sv-lesson-reflexive-verbs",
+      "sv-lesson-subordinate-clauses",
+      "sv-lesson-object-pronouns",
+      "sv-lesson-relative-pronouns",
+      "sv-lesson-questions",
+      "sv-lesson-comparatives",
+      "sv-lesson-clothing",
+      "sv-lesson-weather",
+      "sv-lesson-prepositions",
+      "sv-lesson-time-clock",
+      "sv-lesson-imperative",
+      "sv-lesson-particle-verbs",
     ]);
   });
 });

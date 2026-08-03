@@ -1,0 +1,76 @@
+{
+  "id": "sv-lesson-possessives",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-4",
+  "order": 3,
+  "title": "Possessives",
+  "prerequisiteIds": ["sv-lesson-adjectives"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Like adjectives, most Swedish possessives change form to match the noun: **min/mitt/mina** (my), **din/ditt/dina** (your), **vår/vårt/våra** (our), **er/ert/era** (your, plural) — all use the en-word/ett-word/plural pattern (*min bil*, *mitt hus*, *mina bilar*). **Hans** (his), **hennes** (her), and **deras** (their) are the exception: they never change, no matter what they're attached to.",
+      "i18n": {
+        "it": "Come gli aggettivi, la maggior parte dei possessivi svedesi cambia forma per accordarsi al sostantivo: **min/mitt/mina** (mio), **din/ditt/dina** (tuo), **vår/vårt/våra** (nostro), **er/ert/era** (vostro) — seguono tutti lo schema parola in en/parola in ett/plurale (*min bil*, *mitt hus*, *mina bilar*). **Hans** (suo, di lui), **hennes** (suo, di lei) e **deras** (loro) sono l'eccezione: non cambiano mai, qualunque cosa accompagnino.",
+        "fr": "Comme les adjectifs, la plupart des possessifs suédois changent de forme pour s'accorder au nom : **min/mitt/mina** (mon/ma/mes), **din/ditt/dina** (ton/ta/tes), **vår/vårt/våra** (notre/nos), **er/ert/era** (votre/vos) — tous suivent le schéma mot en en/mot en ett/pluriel (*min bil*, *mitt hus*, *mina bilar*). **Hans** (son, à lui), **hennes** (son, à elle) et **deras** (leur) sont l'exception : ils ne changent jamais, peu importe ce qu'ils accompagnent.",
+        "de": "Wie Adjektive ändern die meisten schwedischen Possessivpronomen ihre Form passend zum Substantiv: **min/mitt/mina** (mein), **din/ditt/dina** (dein), **vår/vårt/våra** (unser), **er/ert/era** (euer) — alle folgen dem en-Wort/ett-Wort/Plural-Muster (*min bil*, *mitt hus*, *mina bilar*). **Hans** (sein), **hennes** (ihr) und **deras** (ihr, Plural) sind die Ausnahme: Sie ändern sich nie, egal wozu sie gehören.",
+        "es": "Como los adjetivos, la mayoría de los posesivos suecos cambian de forma para concordar con el sustantivo: **min/mitt/mina** (mi), **din/ditt/dina** (tu), **vår/vårt/våra** (nuestro), **er/ert/era** (vuestro) — todos siguen el patrón palabra en en/palabra en ett/plural (*min bil*, *mitt hus*, *mina bilar*). **Hans** (su, de él), **hennes** (su, de ella) y **deras** (su, de ellos) son la excepción: nunca cambian, sin importar a qué acompañen.",
+        "hr": "Kao i pridjevi, većina švedskih posvojnih zamjenica mijenja oblik da bi se slagala s imenicom: **min/mitt/mina** (moj), **din/ditt/dina** (tvoj), **vår/vårt/våra** (naš), **er/ert/era** (vaš) — svi prate obrazac en-riječ/ett-riječ/množina (*min bil*, *mitt hus*, *mina bilar*). **Hans** (njegov), **hennes** (njezin) i **deras** (njihov) su iznimka: nikad se ne mijenjaju, bez obzira uz što stoje."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-possessives-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-possessives-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-possessives-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-possessives-1",
+      "type": "fill-blank",
+      "prompt": "___ hus (my house)",
+      "answer": "Mitt",
+      "relatedItemId": "sv-vocab-life-001",
+      "i18n": {
+        "it": { "prompt": "___ hus (la mia casa)" },
+        "fr": { "prompt": "___ hus (ma maison)" },
+        "de": { "prompt": "___ hus (mein Haus)" },
+        "es": { "prompt": "___ hus (mi casa)" },
+        "hr": { "prompt": "___ hus (moja kuća)" }
+      }
+    },
+    {
+      "id": "sv-ex-possessives-2",
+      "type": "multiple-choice",
+      "prompt": "Which possessive never changes form, no matter the noun?",
+      "answer": "hans",
+      "distractors": ["min", "vår", "er"],
+      "i18n": {
+        "it": { "prompt": "Quale possessivo non cambia mai forma, qualunque sia il sostantivo?" },
+        "fr": { "prompt": "Quel possessif ne change jamais de forme, quel que soit le nom ?" },
+        "de": { "prompt": "Welches Possessivpronomen ändert sich nie, egal welches Substantiv?" },
+        "es": { "prompt": "¿Qué posesivo nunca cambia de forma, sea cual sea el sustantivo?" },
+        "hr": { "prompt": "Koja posvojna zamjenica nikad ne mijenja oblik, bez obzira na imenicu?" }
+      }
+    },
+    {
+      "id": "sv-ex-possessives-3",
+      "type": "translate",
+      "prompt": "Translate: \"Our car is new.\"",
+      "answer": ["Vår bil är ny."],
+      "relatedItemId": "sv-vocab-life-003",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"La nostra auto è nuova.\"" },
+        "fr": { "prompt": "Traduis : \"Notre voiture est neuve.\"" },
+        "de": { "prompt": "Übersetze: \"Unser Auto ist neu.\"" },
+        "es": { "prompt": "Traduce: \"Nuestro coche es nuevo.\"" },
+        "hr": { "prompt": "Prevedi: \"Naš auto je nov.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Possessivi",
+    "fr": "Possessifs",
+    "de": "Possessivpronomen",
+    "es": "Posesivos",
+    "hr": "Posvojne zamjenice"
+  }
+}

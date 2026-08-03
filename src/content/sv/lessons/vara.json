@@ -1,0 +1,76 @@
+{
+  "id": "sv-lesson-vara",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-2",
+  "order": 1,
+  "title": "Vara (To Be)",
+  "prerequisiteIds": ["sv-lesson-nouns"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "**Vara** (\"to be\") is one of the most important verbs. Swedish present-tense verbs have just **one form for every subject** — no matter if it's jag (I), du (you), han/hon (he/she), vi (we), ni (you-plural), or de (they), the present tense of *vara* is always **är**: jag är, du är, hon är, vi är, de är.",
+      "i18n": {
+        "it": "**Vara** (\"essere\") è uno dei verbi più importanti. I verbi svedesi al presente hanno **una sola forma per ogni soggetto** — che sia jag (io), du (tu), han/hon (lui/lei), vi (noi), ni (voi), o de (loro), il presente di *vara* è sempre **är**: jag är, du är, hon är, vi är, de är.",
+        "fr": "**Vara** (\"être\") est l'un des verbes les plus importants. Les verbes suédois au présent ont **une seule forme pour chaque sujet** — que ce soit jag (je), du (tu), han/hon (il/elle), vi (nous), ni (vous), ou de (ils/elles), le présent de *vara* est toujours **är** : jag är, du är, hon är, vi är, de är.",
+        "de": "**Vara** (\"sein\") ist eines der wichtigsten Verben. Schwedische Verben im Präsens haben **nur eine Form für jedes Subjekt** — egal ob jag (ich), du (du), han/hon (er/sie), vi (wir), ni (ihr), oder de (sie), das Präsens von *vara* ist immer **är**: jag är, du är, hon är, vi är, de är.",
+        "es": "**Vara** (\"ser/estar\") es uno de los verbos más importantes. Los verbos suecos en presente tienen **una sola forma para cada sujeto** — ya sea jag (yo), du (tú), han/hon (él/ella), vi (nosotros), ni (vosotros), o de (ellos), el presente de *vara* siempre es **är**: jag är, du är, hon är, vi är, de är.",
+        "hr": "**Vara** (\"biti\") jedan je od najvažnijih glagola. Švedski glagoli u prezentu imaju **samo jedan oblik za svaki subjekt** — bilo da je riječ o jag (ja), du (ti), han/hon (on/ona), vi (mi), ni (vi), ili de (oni), prezent glagola *vara* uvijek je **är**: jag är, du är, hon är, vi är, de är."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-vara-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-vara-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-vara-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-vara-1",
+      "type": "fill-blank",
+      "prompt": "Jag ___ glad. (vara — I am happy.)",
+      "answer": "är",
+      "relatedItemId": "sv-vocab-life-027",
+      "i18n": {
+        "it": { "prompt": "Jag ___ glad. (vara — Sono felice.)" },
+        "fr": { "prompt": "Jag ___ glad. (vara — Je suis content.)" },
+        "de": { "prompt": "Jag ___ glad. (vara — Ich bin froh.)" },
+        "es": { "prompt": "Jag ___ glad. (vara — Estoy feliz.)" },
+        "hr": { "prompt": "Jag ___ glad. (vara — Sretan sam.)" }
+      }
+    },
+    {
+      "id": "sv-ex-vara-2",
+      "type": "translate",
+      "prompt": "Translate: \"We are friends.\"",
+      "answer": ["Vi är vänner.", "Vi är kompisar."],
+      "relatedItemId": "sv-vocab-life-012",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Siamo amici.\"" },
+        "fr": { "prompt": "Traduis : \"Nous sommes amis.\"" },
+        "de": { "prompt": "Übersetze: \"Wir sind Freunde.\"" },
+        "es": { "prompt": "Traduce: \"Somos amigos.\"" },
+        "hr": { "prompt": "Prevedi: \"Mi smo prijatelji.\"" }
+      }
+    },
+    {
+      "id": "sv-ex-vara-3",
+      "type": "multiple-choice",
+      "prompt": "Which form of \"vara\" goes with \"de\" (they)?",
+      "answer": "är",
+      "distractors": ["vara", "varit", "var"],
+      "i18n": {
+        "it": { "prompt": "Quale forma di \"vara\" va con \"de\" (loro)?" },
+        "fr": { "prompt": "Quelle forme de \"vara\" va avec \"de\" (ils/elles) ?" },
+        "de": { "prompt": "Welche Form von \"vara\" gehört zu \"de\" (sie)?" },
+        "es": { "prompt": "¿Qué forma de \"vara\" va con \"de\" (ellos)?" },
+        "hr": { "prompt": "Koji oblik glagola \"vara\" ide uz \"de\" (oni)?" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Vara (Essere)",
+    "fr": "Vara (Être)",
+    "de": "Vara (Sein)",
+    "es": "Vara (Ser/Estar)",
+    "hr": "Vara (Biti)"
+  }
+}

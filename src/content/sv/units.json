@@ -1,0 +1,114 @@
+[
+  {
+    "id": "sv-unit-1",
+    "courseId": "sv-course-a1",
+    "title": "Getting Started",
+    "order": 1,
+    "lessonIds": ["sv-lesson-greetings", "sv-lesson-nouns"],
+    "titleByLang": {
+      "it": "Primi passi",
+      "fr": "Premiers pas",
+      "de": "Erste Schritte",
+      "es": "Primeros pasos",
+      "hr": "Prvi koraci"
+    }
+  },
+  {
+    "id": "sv-unit-2",
+    "courseId": "sv-course-a1",
+    "title": "Vara & Ha",
+    "order": 2,
+    "lessonIds": ["sv-lesson-vara", "sv-lesson-ha", "sv-lesson-numbers"],
+    "titleByLang": {
+      "it": "Vara e Ha",
+      "fr": "Vara et Ha",
+      "de": "Vara und Ha",
+      "es": "Vara y Ha",
+      "hr": "Vara i Ha"
+    }
+  },
+  {
+    "id": "sv-unit-3",
+    "courseId": "sv-course-a1",
+    "title": "Everyday Swedish",
+    "order": 3,
+    "lessonIds": ["sv-lesson-word-order", "sv-lesson-food-travel"],
+    "titleByLang": {
+      "it": "Svedese quotidiano",
+      "fr": "Suédois du quotidien",
+      "de": "Alltagsschwedisch",
+      "es": "Sueco cotidiano",
+      "hr": "Svakodnevni švedski"
+    }
+  },
+  {
+    "id": "sv-unit-4",
+    "courseId": "sv-course-a1",
+    "title": "Nouns in Depth",
+    "order": 4,
+    "lessonIds": ["sv-lesson-plural-nouns", "sv-lesson-adjectives", "sv-lesson-possessives"],
+    "titleByLang": {
+      "it": "I sostantivi in dettaglio",
+      "fr": "Les noms en détail",
+      "de": "Substantive im Detail",
+      "es": "Los sustantivos en detalle",
+      "hr": "Imenice detaljnije"
+    }
+  },
+  {
+    "id": "sv-unit-5",
+    "courseId": "sv-course-a1",
+    "title": "More Verbs",
+    "order": 5,
+    "lessonIds": ["sv-lesson-modal-verbs", "sv-lesson-perfekt", "sv-lesson-imperfekt", "sv-lesson-reflexive-verbs"],
+    "titleByLang": {
+      "it": "Altri verbi",
+      "fr": "Plus de verbes",
+      "de": "Weitere Verben",
+      "es": "Más verbos",
+      "hr": "Još glagola"
+    }
+  },
+  {
+    "id": "sv-unit-6",
+    "courseId": "sv-course-a1",
+    "title": "Sentence Structure",
+    "order": 6,
+    "lessonIds": ["sv-lesson-subordinate-clauses", "sv-lesson-object-pronouns", "sv-lesson-relative-pronouns", "sv-lesson-questions"],
+    "titleByLang": {
+      "it": "Struttura della frase",
+      "fr": "Structure de la phrase",
+      "de": "Satzstruktur",
+      "es": "Estructura de la oración",
+      "hr": "Struktura rečenice"
+    }
+  },
+  {
+    "id": "sv-unit-7",
+    "courseId": "sv-course-a1",
+    "title": "Describing Things",
+    "order": 7,
+    "lessonIds": ["sv-lesson-comparatives", "sv-lesson-clothing", "sv-lesson-weather", "sv-lesson-prepositions"],
+    "titleByLang": {
+      "it": "Descrivere le cose",
+      "fr": "Décrire les choses",
+      "de": "Dinge beschreiben",
+      "es": "Describir cosas",
+      "hr": "Opisivanje stvari"
+    }
+  },
+  {
+    "id": "sv-unit-8",
+    "courseId": "sv-course-a1",
+    "title": "Daily Life & Idioms",
+    "order": 8,
+    "lessonIds": ["sv-lesson-time-clock", "sv-lesson-imperative", "sv-lesson-particle-verbs"],
+    "titleByLang": {
+      "it": "Vita quotidiana e modi di dire",
+      "fr": "Vie quotidienne et expressions",
+      "de": "Alltag und Redewendungen",
+      "es": "Vida cotidiana y modismos",
+      "hr": "Svakodnevica i izrazi"
+    }
+  }
+]

@@ -12,6 +12,7 @@ const LANGUAGE_NAMES: Record<string, Record<UiLang, string>> = {
   de: { en: "German", it: "Tedesco", fr: "Allemand", de: "Deutsch", hr: "Njemački", es: "Alemán" },
   hr: { en: "Croatian", it: "Croato", fr: "Croate", de: "Kroatisch", hr: "Hrvatski", es: "Croata" },
   es: { en: "Spanish", it: "Spagnolo", fr: "Espagnol", de: "Spanisch", hr: "Španjolski", es: "Español" },
+  sv: { en: "Swedish", it: "Svedese", fr: "Suédois", de: "Schwedisch", hr: "Švedski", es: "Sueco" },
 };
 
 export function localizedLanguageName(code: string, uiLang: UiLang): string {

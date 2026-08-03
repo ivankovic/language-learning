@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-clothing",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-7",
+  "order": 2,
+  "title": "Clothes You Wear",
+  "prerequisiteIds": ["sv-lesson-comparatives"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "To talk about putting clothes on and taking them off, Swedish uses the reflexive phrasal verbs **ta på sig** (to put on) and **ta av sig** (to take off) — the reflexive pronoun changes with the subject just like you learned earlier: *jag tar på mig*, *du tar på dig*, *hon tar på sig*.",
+      "i18n": {
+        "it": "Per parlare di mettersi e togliersi i vestiti, lo svedese usa i verbi frasali riflessivi **ta på sig** (mettersi) e **ta av sig** (togliersi) — il pronome riflessivo cambia con il soggetto proprio come hai imparato prima: *jag tar på mig*, *du tar på dig*, *hon tar på sig*.",
+        "fr": "Pour parler du fait de mettre et d'enlever des vêtements, le suédois utilise les verbes à particule réfléchis **ta på sig** (mettre) et **ta av sig** (enlever) — le pronom réfléchi change avec le sujet, exactement comme tu l'as appris plus tôt : *jag tar på mig*, *du tar på dig*, *hon tar på sig*.",
+        "de": "Um übers An- und Ausziehen zu sprechen, verwendet das Schwedische die reflexiven Partikelverben **ta på sig** (anziehen) und **ta av sig** (ausziehen) — das Reflexivpronomen ändert sich mit dem Subjekt, genau wie du es zuvor gelernt hast: *jag tar på mig*, *du tar på dig*, *hon tar på sig*.",
+        "es": "Para hablar de ponerse y quitarse ropa, el sueco usa los verbos reflexivos con partícula **ta på sig** (ponerse) y **ta av sig** (quitarse) — el pronombre reflexivo cambia con el sujeto, igual que aprendiste antes: *jag tar på mig*, *du tar på dig*, *hon tar på sig*.",
+        "hr": "Za govor o oblačenju i skidanju odjeće, švedski koristi povratne glagole s česticom **ta på sig** (obući) i **ta av sig** (skinuti) — povratna zamjenica mijenja se sa subjektom, baš kao što ste ranije naučili: *jag tar på mig*, *du tar på dig*, *hon tar på sig*."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-clothing-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-clothing-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-clothing-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-clothing-1",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"shoe\"?",
+      "answer": "sko",
+      "distractors": ["strumpa", "hatt", "väska"],
+      "relatedItemId": "sv-vocab-clothing-009",
+      "i18n": {
+        "it": { "prompt": "Quale parola significa \"scarpa\"?" },
+        "fr": { "prompt": "Quel mot signifie \"chaussure\" ?" },
+        "de": { "prompt": "Welches Wort bedeutet \"Schuh\"?" },
+        "es": { "prompt": "¿Qué palabra significa \"zapato\"?" },
+        "hr": { "prompt": "Koja riječ znači \"cipela\"?" }
+      }
+    },
+    {
+      "id": "sv-ex-clothing-2",
+      "type": "fill-blank",
+      "prompt": "Jag ___ jackan. (ta på sig — I put on the jacket.)",
+      "answer": "tar på mig",
+      "relatedItemId": "sv-vocab-clothing-025",
+      "i18n": {
+        "it": { "prompt": "Jag ___ jackan. (ta på sig — Mi metto la giacca.)" },
+        "fr": { "prompt": "Jag ___ jackan. (ta på sig — Je mets la veste.)" },
+        "de": { "prompt": "Jag ___ jackan. (ta på sig — Ich ziehe die Jacke an.)" },
+        "es": { "prompt": "Jag ___ jackan. (ta på sig — Me pongo la chaqueta.)" },
+        "hr": { "prompt": "Jag ___ jackan. (ta på sig — Oblačim jaknu.)" }
+      }
+    },
+    {
+      "id": "sv-ex-clothing-3",
+      "type": "translate",
+      "prompt": "Translate: \"I have a hat and gloves.\"",
+      "answer": ["Jag har en hatt och handskar."],
+      "relatedItemId": "sv-vocab-clothing-011",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Ho un cappello e dei guanti.\"" },
+        "fr": { "prompt": "Traduis : \"J'ai un chapeau et des gants.\"" },
+        "de": { "prompt": "Übersetze: \"Ich habe einen Hut und Handschuhe.\"" },
+        "es": { "prompt": "Traduce: \"Tengo un sombrero y guantes.\"" },
+        "hr": { "prompt": "Prevedi: \"Imam šešir i rukavice.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "I vestiti che indossi",
+    "fr": "Les vêtements que tu portes",
+    "de": "Kleidung, die du trägst",
+    "es": "La ropa que llevas",
+    "hr": "Odjeća koju nosite"
+  }
+}

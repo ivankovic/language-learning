@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-imperfekt",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-5",
+  "order": 3,
+  "title": "Imperfekt (Past Tense)",
+  "prerequisiteIds": ["sv-lesson-perfekt"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "The imperfekt (simple past) is used for completed actions at a specific past time. Regular -ar verbs add **-ade**: *jobba* → *jobbade* (worked). Many other verbs add **-de** or **-te** instead: *läsa* → *läste* (read). Some very common verbs are irregular and just have to be memorized: *vara* → *var* (was), *göra* → *gjorde* (did). Like every Swedish tense, there's only one past-tense form per verb — it doesn't change with the subject.",
+      "i18n": {
+        "it": "L'imperfekt (passato semplice) si usa per azioni concluse in un momento passato specifico. I verbi regolari in -ar aggiungono **-ade**: *jobba* → *jobbade* (ha lavorato). Molti altri verbi aggiungono **-de** o **-te**: *läsa* → *läste* (ha letto). Alcuni verbi molto comuni sono irregolari e vanno semplicemente memorizzati: *vara* → *var* (era), *göra* → *gjorde* (ha fatto). Come ogni tempo svedese, esiste una sola forma di passato per verbo — non cambia con il soggetto.",
+        "fr": "L'imperfekt (passé simple) s'utilise pour des actions terminées à un moment précis du passé. Les verbes réguliers en -ar ajoutent **-ade** : *jobba* → *jobbade* (a travaillé). Beaucoup d'autres verbes ajoutent **-de** ou **-te** : *läsa* → *läste* (a lu). Certains verbes très courants sont irréguliers et doivent simplement être mémorisés : *vara* → *var* (était), *göra* → *gjorde* (a fait). Comme pour chaque temps suédois, il n'existe qu'une seule forme de passé par verbe — elle ne change pas selon le sujet.",
+        "de": "Das Imperfekt (einfache Vergangenheit) wird für abgeschlossene Handlungen zu einem bestimmten Zeitpunkt in der Vergangenheit verwendet. Regelmäßige -ar-Verben fügen **-ade** an: *jobba* → *jobbade* (arbeitete). Viele andere Verben fügen **-de** oder **-te** an: *läsa* → *läste* (las). Manche sehr gebräuchliche Verben sind unregelmäßig und müssen einfach auswendig gelernt werden: *vara* → *var* (war), *göra* → *gjorde* (tat). Wie bei jeder schwedischen Zeitform gibt es nur eine Vergangenheitsform pro Verb — sie ändert sich nicht mit dem Subjekt.",
+        "es": "El imperfekt (pasado simple) se usa para acciones completadas en un momento pasado específico. Los verbos regulares en -ar añaden **-ade**: *jobba* → *jobbade* (trabajó). Muchos otros verbos añaden **-de** o **-te**: *läsa* → *läste* (leyó). Algunos verbos muy comunes son irregulares y simplemente hay que memorizarlos: *vara* → *var* (era/fue), *göra* → *gjorde* (hizo). Como en cada tiempo verbal sueco, solo hay una forma de pasado por verbo — no cambia según el sujeto.",
+        "hr": "Imperfekt (prošlo vrijeme) koristi se za završene radnje u određenom trenutku u prošlosti. Pravilni -ar glagoli dodaju **-ade**: *jobba* → *jobbade* (radio je). Mnogi drugi glagoli dodaju **-de** ili **-te**: *läsa* → *läste* (čitao je). Neki vrlo česti glagoli su nepravilni i jednostavno se moraju zapamtiti: *vara* → *var* (bio je), *göra* → *gjorde* (učinio je). Kao i svako švedsko vrijeme, postoji samo jedan prošli oblik po glagolu — ne mijenja se ovisno o subjektu."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-imperfekt-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-imperfekt-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-imperfekt-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-imperfekt-1",
+      "type": "fill-blank",
+      "prompt": "Igår ___ jag hemma. (vara — Yesterday I was at home.)",
+      "answer": "var",
+      "relatedItemId": "sv-vocab-time-014",
+      "i18n": {
+        "it": { "prompt": "Igår ___ jag hemma. (vara — Ieri ero a casa.)" },
+        "fr": { "prompt": "Igår ___ jag hemma. (vara — Hier j'étais à la maison.)" },
+        "de": { "prompt": "Igår ___ jag hemma. (vara — Gestern war ich zu Hause.)" },
+        "es": { "prompt": "Igår ___ jag hemma. (vara — Ayer estuve en casa.)" },
+        "hr": { "prompt": "Igår ___ jag hemma. (vara — Jučer sam bio/bila kod kuće.)" }
+      }
+    },
+    {
+      "id": "sv-ex-imperfekt-2",
+      "type": "multiple-choice",
+      "prompt": "What is the past tense of \"jobba\" (to work)?",
+      "answer": "jobbade",
+      "distractors": ["jobbar", "jobbat", "jobba"],
+      "relatedItemId": "sv-vocab-verbs-019",
+      "i18n": {
+        "it": { "prompt": "Qual è il passato di \"jobba\" (lavorare)?" },
+        "fr": { "prompt": "Quel est le passé de \"jobba\" (travailler) ?" },
+        "de": { "prompt": "Was ist die Vergangenheitsform von \"jobba\" (arbeiten)?" },
+        "es": { "prompt": "¿Cuál es el pasado de \"jobba\" (trabajar)?" },
+        "hr": { "prompt": "Koji je prošli oblik glagola \"jobba\" (raditi)?" }
+      }
+    },
+    {
+      "id": "sv-ex-imperfekt-3",
+      "type": "translate",
+      "prompt": "Translate: \"We read yesterday.\"",
+      "answer": ["Vi läste igår."],
+      "relatedItemId": "sv-vocab-verbs-017",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Ieri abbiamo letto.\"" },
+        "fr": { "prompt": "Traduis : \"Nous avons lu hier.\"" },
+        "de": { "prompt": "Übersetze: \"Wir haben gestern gelesen.\"" },
+        "es": { "prompt": "Traduce: \"Ayer leímos.\"" },
+        "hr": { "prompt": "Prevedi: \"Jučer smo čitali.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Imperfekt (passato)",
+    "fr": "Imperfekt (passé)",
+    "de": "Imperfekt",
+    "es": "Imperfekt (pasado)",
+    "hr": "Imperfekt (prošlo vrijeme)"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "sv-lesson-questions",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-6",
+  "order": 4,
+  "title": "Question Words",
+  "prerequisiteIds": ["sv-lesson-relative-pronouns"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Swedish question words — **vad** (what), **vem** (who), **var** (where), **när** (when), **hur** (how), **varför** (why) — start the sentence, and the V2 rule still applies: the verb comes right after the question word, then the subject. *Var bor du?* (Where do you live?) *När kommer du?* (When are you coming?)",
+      "i18n": {
+        "it": "Le parole interrogative svedesi — **vad** (cosa), **vem** (chi), **var** (dove), **när** (quando), **hur** (come), **varför** (perché) — iniziano la frase, e la regola V2 si applica comunque: il verbo viene subito dopo la parola interrogativa, poi il soggetto. *Var bor du?* (Dove abiti?) *När kommer du?* (Quando vieni?)",
+        "fr": "Les mots interrogatifs suédois — **vad** (quoi), **vem** (qui), **var** (où), **när** (quand), **hur** (comment), **varför** (pourquoi) — ouvrent la phrase, et la règle V2 s'applique toujours : le verbe vient juste après le mot interrogatif, puis le sujet. *Var bor du?* (Où habites-tu ?) *När kommer du?* (Quand viens-tu ?)",
+        "de": "Schwedische Fragewörter — **vad** (was), **vem** (wer), **var** (wo), **när** (wann), **hur** (wie), **varför** (warum) — eröffnen den Satz, und die V2-Regel gilt weiterhin: Das Verb kommt direkt nach dem Fragewort, dann das Subjekt. *Var bor du?* (Wo wohnst du?) *När kommer du?* (Wann kommst du?)",
+        "es": "Las palabras interrogativas suecas — **vad** (qué), **vem** (quién), **var** (dónde), **när** (cuándo), **hur** (cómo), **varför** (por qué) — abren la oración, y la regla V2 sigue aplicándose: el verbo va justo después de la palabra interrogativa, luego el sujeto. *Var bor du?* (¿Dónde vives?) *När kommer du?* (¿Cuándo vienes?)",
+        "hr": "Švedske upitne riječi — **vad** (što), **vem** (tko), **var** (gdje), **när** (kada), **hur** (kako), **varför** (zašto) — otvaraju rečenicu, a V2 pravilo i dalje vrijedi: glagol dolazi odmah iza upitne riječi, a zatim subjekt. *Var bor du?* (Gdje živiš?) *När kommer du?* (Kada dolaziš?)"
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-questions-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-questions-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-questions-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-questions-1",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"where\"?",
+      "answer": "var",
+      "distractors": ["vad", "när", "hur"],
+      "i18n": {
+        "it": { "prompt": "Quale parola significa \"dove\"?" },
+        "fr": { "prompt": "Quel mot signifie \"où\" ?" },
+        "de": { "prompt": "Welches Wort bedeutet \"wo\"?" },
+        "es": { "prompt": "¿Qué palabra significa \"dónde\"?" },
+        "hr": { "prompt": "Koja riječ znači \"gdje\"?" }
+      }
+    },
+    {
+      "id": "sv-ex-questions-2",
+      "type": "fill-blank",
+      "prompt": "___ bor du? (Where do you live?)",
+      "answer": "Var",
+      "relatedItemId": "sv-vocab-verbs-020",
+      "i18n": {
+        "it": { "prompt": "___ bor du? (Dove abiti?)" },
+        "fr": { "prompt": "___ bor du? (Où habites-tu ?)" },
+        "de": { "prompt": "___ bor du? (Wo wohnst du?)" },
+        "es": { "prompt": "___ bor du? (¿Dónde vives?)" },
+        "hr": { "prompt": "___ bor du? (Gdje živiš?)" }
+      }
+    },
+    {
+      "id": "sv-ex-questions-3",
+      "type": "translate",
+      "prompt": "Translate: \"Why are you sad?\"",
+      "answer": ["Varför är du ledsen?"],
+      "relatedItemId": "sv-vocab-life-028",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Perché sei triste?\"" },
+        "fr": { "prompt": "Traduis : \"Pourquoi es-tu triste ?\"" },
+        "de": { "prompt": "Übersetze: \"Warum bist du traurig?\"" },
+        "es": { "prompt": "Traduce: \"¿Por qué estás triste?\"" },
+        "hr": { "prompt": "Prevedi: \"Zašto si tužan/tužna?\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Parole interrogative",
+    "fr": "Mots interrogatifs",
+    "de": "Fragewörter",
+    "es": "Palabras interrogativas",
+    "hr": "Upitne riječi"
+  }
+}

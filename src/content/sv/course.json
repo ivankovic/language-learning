@@ -1,0 +1,13 @@
+{
+  "id": "sv-course-a1",
+  "lang": "sv",
+  "title": "Swedish Foundations",
+  "unitIds": ["sv-unit-1", "sv-unit-2", "sv-unit-3", "sv-unit-4", "sv-unit-5", "sv-unit-6", "sv-unit-7", "sv-unit-8"],
+  "titleByLang": {
+    "it": "Fondamenti di svedese",
+    "fr": "Fondamentaux du suédois",
+    "de": "Grundlagen des Schwedischen",
+    "es": "Fundamentos de sueco",
+    "hr": "Temelji švedskog jezika"
+  }
+}

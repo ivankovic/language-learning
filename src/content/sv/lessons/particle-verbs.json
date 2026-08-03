@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-particle-verbs",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-8",
+  "order": 3,
+  "title": "Particle Verbs",
+  "prerequisiteIds": ["sv-lesson-imperative"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Like English phrasal verbs, Swedish combines a verb with a particle to build a new meaning: **komma ihåg** (to remember, literally \"come to-memory\"), **ta med** (to bring along), **ge upp** (to give up). The particle carries the stress in speech, and after a modal verb the whole phrase stays as a bare infinitive: *Jag måste ta med mina nycklar* (I must bring my keys).",
+      "i18n": {
+        "it": "Come i phrasal verb inglesi, lo svedese combina un verbo con una particella per creare un nuovo significato: **komma ihåg** (ricordare, letteralmente \"venire alla memoria\"), **ta med** (portare con sé), **ge upp** (arrendersi). La particella porta l'accento nel parlato, e dopo un verbo modale l'intera espressione resta all'infinito semplice: *Jag måste ta med mina nycklar* (Devo portare le mie chiavi).",
+        "fr": "Comme les verbes à particule anglais, le suédois combine un verbe avec une particule pour créer un nouveau sens : **komma ihåg** (se souvenir, littéralement \"venir à-la-mémoire\"), **ta med** (apporter), **ge upp** (abandonner). La particule porte l'accent à l'oral, et après un verbe modal, toute l'expression reste à l'infinitif simple : *Jag måste ta med mina nycklar* (Je dois apporter mes clés).",
+        "de": "Wie englische Partikelverben kombiniert das Schwedische ein Verb mit einer Partikel zu einer neuen Bedeutung: **komma ihåg** (sich erinnern, wörtlich \"zur Erinnerung kommen\"), **ta med** (mitbringen), **ge upp** (aufgeben). Die Partikel trägt beim Sprechen die Betonung, und nach einem Modalverb bleibt der ganze Ausdruck im bloßen Infinitiv: *Jag måste ta med mina nycklar* (Ich muss meine Schlüssel mitbringen).",
+        "es": "Como los verbos con partícula del inglés, el sueco combina un verbo con una partícula para crear un nuevo significado: **komma ihåg** (recordar, literalmente \"venir a la memoria\"), **ta med** (traer), **ge upp** (rendirse). La partícula lleva el acento al hablar, y después de un verbo modal toda la expresión se queda en infinitivo simple: *Jag måste ta med mina nycklar* (Debo traer mis llaves).",
+        "hr": "Poput engleskih glagola s česticom, švedski kombinira glagol s česticom stvarajući novo značenje: **komma ihåg** (sjetiti se, doslovno \"doći do-sjećanja\"), **ta med** (ponijeti), **ge upp** (odustati). Čestica nosi naglasak u govoru, a nakon modalnog glagola cijeli izraz ostaje u golom infinitivu: *Jag måste ta med mina nycklar* (Moram ponijeti svoje ključeve)."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-particle-verbs-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-particle-verbs-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-particle-verbs-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-particle-verbs-1",
+      "type": "multiple-choice",
+      "prompt": "Which phrase means \"to remember\"?",
+      "answer": "komma ihåg",
+      "distractors": ["ge upp", "ta med", "gå igenom"],
+      "relatedItemId": "sv-vocab-idioms-007",
+      "i18n": {
+        "it": { "prompt": "Quale espressione significa \"ricordare\"?" },
+        "fr": { "prompt": "Quelle expression signifie \"se souvenir\" ?" },
+        "de": { "prompt": "Welche Redewendung bedeutet \"sich erinnern\"?" },
+        "es": { "prompt": "¿Qué expresión significa \"recordar\"?" },
+        "hr": { "prompt": "Koji izraz znači \"sjetiti se\"?" }
+      }
+    },
+    {
+      "id": "sv-ex-particle-verbs-2",
+      "type": "fill-blank",
+      "prompt": "Jag måste ___ mina nycklar. (I must bring my keys.)",
+      "answer": "ta med",
+      "relatedItemId": "sv-vocab-idioms-009",
+      "i18n": {
+        "it": { "prompt": "Jag måste ___ mina nycklar. (Devo portare le mie chiavi.)" },
+        "fr": { "prompt": "Jag måste ___ mina nycklar. (Je dois apporter mes clés.)" },
+        "de": { "prompt": "Jag måste ___ mina nycklar. (Ich muss meine Schlüssel mitbringen.)" },
+        "es": { "prompt": "Jag måste ___ mina nycklar. (Debo traer mis llaves.)" },
+        "hr": { "prompt": "Jag måste ___ mina nycklar. (Moram ponijeti svoje ključeve.)" }
+      }
+    },
+    {
+      "id": "sv-ex-particle-verbs-3",
+      "type": "translate",
+      "prompt": "Translate: \"Don't give up!\"",
+      "answer": ["Ge inte upp!"],
+      "relatedItemId": "sv-vocab-idioms-012",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Non arrenderti!\"" },
+        "fr": { "prompt": "Traduis : \"N'abandonne pas !\"" },
+        "de": { "prompt": "Übersetze: \"Gib nicht auf!\"" },
+        "es": { "prompt": "Traduce: \"¡No te rindas!\"" },
+        "hr": { "prompt": "Prevedi: \"Ne odustaj!\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Verbi con particella",
+    "fr": "Verbes à particule",
+    "de": "Partikelverben",
+    "es": "Verbos con partícula",
+    "hr": "Glagoli s česticom"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "sv-lesson-word-order",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-3",
+  "order": 1,
+  "title": "Word Order (V2)",
+  "prerequisiteIds": ["sv-lesson-numbers"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Swedish is a **V2 language**: the finite verb must always be the second element of a main clause. With the subject first, this looks just like English: **Jag äter frukost.** (I eat breakfast.) But if something else opens the sentence — like *idag* (today) — the verb still has to stay in second position, so subject and verb swap places: **Idag äter jag frukost.** (literally \"Today eat I breakfast.\")",
+      "i18n": {
+        "it": "Lo svedese è una **lingua V2**: il verbo finito deve sempre essere il secondo elemento di una proposizione principale. Con il soggetto per primo, è come in italiano: **Jag äter frukost.** (Mangio la colazione.) Ma se qualcos'altro apre la frase — come *idag* (oggi) — il verbo deve comunque restare al secondo posto, quindi soggetto e verbo si scambiano: **Idag äter jag frukost.** (letteralmente \"Oggi mangio io colazione.\")",
+        "fr": "Le suédois est une **langue V2** : le verbe conjugué doit toujours être le deuxième élément d'une proposition principale. Avec le sujet en premier, cela ressemble au français : **Jag äter frukost.** (Je mange le petit-déjeuner.) Mais si autre chose ouvre la phrase — comme *idag* (aujourd'hui) — le verbe doit quand même rester en deuxième position, donc le sujet et le verbe s'inversent : **Idag äter jag frukost.** (littéralement \"Aujourd'hui mange je petit-déjeuner.\")",
+        "de": "Schwedisch ist eine **V2-Sprache**: Das finite Verb muss immer das zweite Element eines Hauptsatzes sein. Steht das Subjekt zuerst, sieht das wie im Deutschen aus: **Jag äter frukost.** (Ich esse Frühstück.) Aber wenn etwas anderes den Satz eröffnet — wie *idag* (heute) — muss das Verb trotzdem an zweiter Stelle bleiben, also tauschen Subjekt und Verb den Platz: **Idag äter jag frukost.** (wörtlich \"Heute esse ich Frühstück.\")",
+        "es": "El sueco es una **lengua V2**: el verbo conjugado siempre debe ser el segundo elemento de una oración principal. Con el sujeto primero, se parece al español: **Jag äter frukost.** (Como el desayuno.) Pero si otra cosa abre la frase — como *idag* (hoy) — el verbo igual debe quedarse en segunda posición, así que el sujeto y el verbo se intercambian: **Idag äter jag frukost.** (literalmente \"Hoy como yo desayuno.\")",
+        "hr": "Švedski je **V2 jezik**: glagol u ličnom obliku uvijek mora biti drugi element glavne rečenice. Kad subjekt dolazi prvi, izgleda slično hrvatskom: **Jag äter frukost.** (Jedem doručak.) No ako rečenicu otvara nešto drugo — poput *idag* (danas) — glagol ipak mora ostati na drugom mjestu, pa subjekt i glagol zamijene mjesta: **Idag äter jag frukost.** (doslovno \"Danas jedem ja doručak.\")"
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-word-order-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-word-order-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-word-order-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-word-order-1",
+      "type": "multiple-choice",
+      "prompt": "Which sentence has correct Swedish word order?",
+      "answer": "Idag äter jag frukost.",
+      "distractors": ["Idag jag äter frukost.", "Jag idag äter frukost.", "Äter idag jag frukost."],
+      "relatedItemId": "sv-vocab-food-029",
+      "i18n": {
+        "it": { "prompt": "Quale frase ha l'ordine delle parole corretto in svedese?" },
+        "fr": { "prompt": "Quelle phrase a le bon ordre des mots en suédois ?" },
+        "de": { "prompt": "Welcher Satz hat die richtige schwedische Wortstellung?" },
+        "es": { "prompt": "¿Qué frase tiene el orden de palabras correcto en sueco?" },
+        "hr": { "prompt": "Koja rečenica ima ispravan švedski red riječi?" }
+      }
+    },
+    {
+      "id": "sv-ex-word-order-2",
+      "type": "reorder",
+      "prompt": "Put these words in order: hem / hon / kommer / morgon / I",
+      "answer": ["I", "morgon", "kommer", "hon", "hem"],
+      "i18n": {
+        "it": { "prompt": "Metti in ordine queste parole: hem / hon / kommer / morgon / I" },
+        "fr": { "prompt": "Mets ces mots dans l'ordre : hem / hon / kommer / morgon / I" },
+        "de": { "prompt": "Bringe diese Wörter in die richtige Reihenfolge: hem / hon / kommer / morgon / I" },
+        "es": { "prompt": "Ordena estas palabras: hem / hon / kommer / morgon / I" },
+        "hr": { "prompt": "Poredaj ove riječi: hem / hon / kommer / morgon / I" }
+      }
+    },
+    {
+      "id": "sv-ex-word-order-3",
+      "type": "fill-blank",
+      "prompt": "Nu ___ vi kaffe. (dricka — Now we drink coffee.)",
+      "answer": "dricker",
+      "relatedItemId": "sv-vocab-verbs-012",
+      "i18n": {
+        "it": { "prompt": "Nu ___ vi kaffe. (dricka — Ora beviamo caffè.)" },
+        "fr": { "prompt": "Nu ___ vi kaffe. (dricka — Maintenant nous buvons du café.)" },
+        "de": { "prompt": "Nu ___ vi kaffe. (dricka — Jetzt trinken wir Kaffee.)" },
+        "es": { "prompt": "Nu ___ vi kaffe. (dricka — Ahora bebemos café.)" },
+        "hr": { "prompt": "Nu ___ vi kaffe. (dricka — Sada pijemo kavu.)" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Ordine delle parole (V2)",
+    "fr": "Ordre des mots (V2)",
+    "de": "Wortstellung (V2)",
+    "es": "Orden de palabras (V2)",
+    "hr": "Red riječi (V2)"
+  }
+}

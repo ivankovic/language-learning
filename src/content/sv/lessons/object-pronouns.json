@@ -1,0 +1,75 @@
+{
+  "id": "sv-lesson-object-pronouns",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-6",
+  "order": 2,
+  "title": "Object Pronouns",
+  "prerequisiteIds": ["sv-lesson-subordinate-clauses"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Swedish pronouns have a different form when they're the object of a verb: **jag** → **mig** (me), **du** → **dig** (you), **han** → **honom** (him), **hon** → **henne** (her), **vi** → **oss** (us), **ni** → **er** (you, plural), **de** → **dem** (them). *Jag ser honom* (I see him) — you can't use *han* here, only the object form *honom*.",
+      "i18n": {
+        "it": "I pronomi svedesi hanno una forma diversa quando sono complemento oggetto di un verbo: **jag** → **mig** (me), **du** → **dig** (te), **han** → **honom** (lui), **hon** → **henne** (lei), **vi** → **oss** (noi), **ni** → **er** (voi), **de** → **dem** (loro). *Jag ser honom* (Lo vedo) — non si può usare *han* qui, solo la forma oggetto *honom*.",
+        "fr": "Les pronoms suédois ont une forme différente lorsqu'ils sont complément d'objet d'un verbe : **jag** → **mig** (moi), **du** → **dig** (toi), **han** → **honom** (lui), **hon** → **henne** (elle), **vi** → **oss** (nous), **ni** → **er** (vous), **de** → **dem** (eux). *Jag ser honom* (Je le vois) — on ne peut pas utiliser *han* ici, seulement la forme objet *honom*.",
+        "de": "Schwedische Pronomen haben eine andere Form, wenn sie Objekt eines Verbs sind: **jag** → **mig** (mich), **du** → **dig** (dich), **han** → **honom** (ihn), **hon** → **henne** (sie), **vi** → **oss** (uns), **ni** → **er** (euch), **de** → **dem** (sie, Plural). *Jag ser honom* (Ich sehe ihn) — hier kann man nicht *han* verwenden, nur die Objektform *honom*.",
+        "es": "Los pronombres suecos tienen una forma distinta cuando son objeto de un verbo: **jag** → **mig** (me), **du** → **dig** (te), **han** → **honom** (lo/le), **hon** → **henne** (la/le), **vi** → **oss** (nos), **ni** → **er** (os), **de** → **dem** (los/las/les). *Jag ser honom* (Lo veo) — no se puede usar *han* aquí, solo la forma objeto *honom*.",
+        "hr": "Švedske zamjenice imaju drukčiji oblik kad su objekt glagola: **jag** → **mig** (mene), **du** → **dig** (tebe), **han** → **honom** (njega), **hon** → **henne** (nju), **vi** → **oss** (nas), **ni** → **er** (vas), **de** → **dem** (njih). *Jag ser honom* (Vidim ga) — ovdje se ne može koristiti *han*, samo objektni oblik *honom*."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-object-pronouns-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-object-pronouns-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-object-pronouns-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-object-pronouns-1",
+      "type": "fill-blank",
+      "prompt": "Jag ser ___. (I see him.)",
+      "answer": "honom",
+      "i18n": {
+        "it": { "prompt": "Jag ser ___. (Lo vedo.)" },
+        "fr": { "prompt": "Jag ser ___. (Je le vois.)" },
+        "de": { "prompt": "Jag ser ___. (Ich sehe ihn.)" },
+        "es": { "prompt": "Jag ser ___. (Lo veo.)" },
+        "hr": { "prompt": "Jag ser ___. (Vidim ga.)" }
+      }
+    },
+    {
+      "id": "sv-ex-object-pronouns-2",
+      "type": "multiple-choice",
+      "prompt": "What is the object form of \"jag\" (I)?",
+      "answer": "mig",
+      "distractors": ["jag", "du", "dig"],
+      "i18n": {
+        "it": { "prompt": "Qual è la forma oggetto di \"jag\" (io)?" },
+        "fr": { "prompt": "Quelle est la forme objet de \"jag\" (je) ?" },
+        "de": { "prompt": "Was ist die Objektform von \"jag\" (ich)?" },
+        "es": { "prompt": "¿Cuál es la forma objeto de \"jag\" (yo)?" },
+        "hr": { "prompt": "Koji je objektni oblik od \"jag\" (ja)?" }
+      }
+    },
+    {
+      "id": "sv-ex-object-pronouns-3",
+      "type": "translate",
+      "prompt": "Translate: \"I love them.\"",
+      "answer": ["Jag älskar dem."],
+      "relatedItemId": "sv-vocab-verbs-010",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Li amo.\"" },
+        "fr": { "prompt": "Traduis : \"Je les aime.\"" },
+        "de": { "prompt": "Übersetze: \"Ich liebe sie.\"" },
+        "es": { "prompt": "Traduce: \"Los amo.\"" },
+        "hr": { "prompt": "Prevedi: \"Volim ih.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Pronomi oggetto",
+    "fr": "Pronoms objets",
+    "de": "Objektpronomen",
+    "es": "Pronombres objeto",
+    "hr": "Objektne zamjenice"
+  }
+}

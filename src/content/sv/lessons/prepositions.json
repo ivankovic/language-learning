@@ -1,0 +1,76 @@
+{
+  "id": "sv-lesson-prepositions",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-7",
+  "order": 4,
+  "title": "Prepositions of Place",
+  "prerequisiteIds": ["sv-lesson-weather"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Common prepositions of place: **i** (in), **på** (on/at), **under** (under), **över** (over/above), **framför** (in front of), **bakom** (behind), **mellan** (between), **bredvid** (next to). *Boken är på bordet* (The book is on the table). Swedish uses **på** far more broadly than English \"on\" — it covers streets, floors of a building, and many surfaces where English might use \"in\" or \"at\".",
+      "i18n": {
+        "it": "Preposizioni di luogo comuni: **i** (in/dentro), **på** (su/a), **under** (sotto), **över** (sopra), **framför** (davanti a), **bakom** (dietro), **mellan** (tra), **bredvid** (accanto a). *Boken är på bordet* (Il libro è sul tavolo). Lo svedese usa **på** molto più ampiamente dell'italiano \"su\" — copre strade, piani di un edificio e molte superfici dove l'italiano userebbe \"in\" o \"a\".",
+        "fr": "Prépositions de lieu courantes : **i** (dans), **på** (sur/à), **under** (sous), **över** (au-dessus de), **framför** (devant), **bakom** (derrière), **mellan** (entre), **bredvid** (à côté de). *Boken är på bordet* (Le livre est sur la table). Le suédois utilise **på** bien plus largement que le français \"sur\" — il couvre les rues, les étages d'un bâtiment et beaucoup de surfaces où le français utiliserait \"dans\" ou \"à\".",
+        "de": "Häufige Ortspräpositionen: **i** (in), **på** (auf/an), **under** (unter), **över** (über), **framför** (vor), **bakom** (hinter), **mellan** (zwischen), **bredvid** (neben). *Boken är på bordet* (Das Buch liegt auf dem Tisch). Schwedisch verwendet **på** viel breiter als das deutsche \"auf\" — es deckt Straßen, Stockwerke eines Gebäudes und viele Oberflächen ab, wo Deutsch \"in\" oder \"an\" verwenden würde.",
+        "es": "Preposiciones de lugar comunes: **i** (en/dentro), **på** (sobre/en), **under** (debajo de), **över** (encima de), **framför** (delante de), **bakom** (detrás de), **mellan** (entre), **bredvid** (al lado de). *Boken är på bordet* (El libro está sobre la mesa). El sueco usa **på** de forma mucho más amplia que el español \"sobre\" — cubre calles, plantas de un edificio y muchas superficies donde el español usaría \"en\".",
+        "hr": "Uobičajeni prijedlozi mjesta: **i** (u), **på** (na), **under** (ispod), **över** (iznad), **framför** (ispred), **bakom** (iza), **mellan** (između), **bredvid** (pored). *Boken är på bordet* (Knjiga je na stolu). Švedski koristi **på** puno šire nego hrvatski \"na\" — pokriva ulice, katove zgrade i mnoge površine gdje bi hrvatski koristio \"u\"."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-prepositions-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-prepositions-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-prepositions-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-prepositions-1",
+      "type": "fill-blank",
+      "prompt": "Boken är ___ bordet. (The book is on the table.)",
+      "answer": "på",
+      "relatedItemId": "sv-vocab-home-011",
+      "i18n": {
+        "it": { "prompt": "Boken är ___ bordet. (Il libro è sul tavolo.)" },
+        "fr": { "prompt": "Boken är ___ bordet. (Le livre est sur la table.)" },
+        "de": { "prompt": "Boken är ___ bordet. (Das Buch liegt auf dem Tisch.)" },
+        "es": { "prompt": "Boken är ___ bordet. (El libro está sobre la mesa.)" },
+        "hr": { "prompt": "Boken är ___ bordet. (Knjiga je na stolu.)" }
+      }
+    },
+    {
+      "id": "sv-ex-prepositions-2",
+      "type": "multiple-choice",
+      "prompt": "Which preposition means \"under\"?",
+      "answer": "under",
+      "distractors": ["över", "bakom", "framför"],
+      "i18n": {
+        "it": { "prompt": "Quale preposizione significa \"sotto\"?" },
+        "fr": { "prompt": "Quelle préposition signifie \"sous\" ?" },
+        "de": { "prompt": "Welche Präposition bedeutet \"unter\"?" },
+        "es": { "prompt": "¿Qué preposición significa \"debajo de\"?" },
+        "hr": { "prompt": "Koji prijedlog znači \"ispod\"?" }
+      }
+    },
+    {
+      "id": "sv-ex-prepositions-3",
+      "type": "translate",
+      "prompt": "Translate: \"The chairs are between the tables.\"",
+      "answer": ["Stolarna är mellan borden."],
+      "relatedItemId": "sv-vocab-connectors-030",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Le sedie sono tra i tavoli.\"" },
+        "fr": { "prompt": "Traduis : \"Les chaises sont entre les tables.\"" },
+        "de": { "prompt": "Übersetze: \"Die Stühle stehen zwischen den Tischen.\"" },
+        "es": { "prompt": "Traduce: \"Las sillas están entre las mesas.\"" },
+        "hr": { "prompt": "Prevedi: \"Stolice su između stolova.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Preposizioni di luogo",
+    "fr": "Prépositions de lieu",
+    "de": "Ortspräpositionen",
+    "es": "Preposiciones de lugar",
+    "hr": "Prijedlozi mjesta"
+  }
+}

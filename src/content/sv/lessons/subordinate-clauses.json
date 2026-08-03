@@ -1,0 +1,75 @@
+{
+  "id": "sv-lesson-subordinate-clauses",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-6",
+  "order": 1,
+  "title": "Negation in Subordinate Clauses",
+  "prerequisiteIds": ["sv-lesson-reflexive-verbs"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "In a main clause, **inte** (not) comes right after the verb: *Jag äter inte fisk* (I don't eat fish). But inside a subordinate clause (one introduced by a word like *att*, *om*, or *när*), **inte** jumps to *before* the verb instead: *...att jag inte äter fisk* (...that I don't eat fish). This flip is common enough in Swedish grammar teaching to have its own nickname: the BIFF rule.",
+      "i18n": {
+        "it": "In una proposizione principale, **inte** (non) viene subito dopo il verbo: *Jag äter inte fisk* (Non mangio pesce). Ma dentro una proposizione subordinata (introdotta da una parola come *att*, *om* o *när*), **inte** salta *prima* del verbo: *...att jag inte äter fisk* (...che non mangio pesce). Questo scambio è abbastanza comune nella grammatica svedese da avere un proprio soprannome: la regola BIFF.",
+        "fr": "Dans une proposition principale, **inte** (ne... pas) vient juste après le verbe : *Jag äter inte fisk* (Je ne mange pas de poisson). Mais dans une proposition subordonnée (introduite par un mot comme *att*, *om* ou *när*), **inte** se déplace *avant* le verbe : *...att jag inte äter fisk* (...que je ne mange pas de poisson). Cette inversion est assez courante dans l'enseignement de la grammaire suédoise pour avoir son propre surnom : la règle BIFF.",
+        "de": "Im Hauptsatz steht **inte** (nicht) direkt nach dem Verb: *Jag äter inte fisk* (Ich esse keinen Fisch). Aber in einem Nebensatz (eingeleitet durch ein Wort wie *att*, *om* oder *när*) springt **inte** *vor* das Verb: *...att jag inte äter fisk* (...dass ich keinen Fisch esse). Dieser Wechsel ist im schwedischen Grammatikunterricht so bekannt, dass er einen eigenen Spitznamen hat: die BIFF-Regel.",
+        "es": "En una oración principal, **inte** (no) va justo después del verbo: *Jag äter inte fisk* (No como pescado). Pero dentro de una oración subordinada (introducida por una palabra como *att*, *om* o *när*), **inte** salta *antes* del verbo: *...att jag inte äter fisk* (...que no como pescado). Este cambio es lo bastante común en la enseñanza de la gramática sueca como para tener su propio apodo: la regla BIFF.",
+        "hr": "U glavnoj rečenici **inte** (ne) dolazi odmah iza glagola: *Jag äter inte fisk* (Ne jedem ribu). No unutar zavisne rečenice (uvedene riječju poput *att*, *om* ili *när*), **inte** skače *ispred* glagola: *...att jag inte äter fisk* (...da ne jedem ribu). Ova zamjena dovoljno je česta u poučavanju švedske gramatike da ima svoj nadimak: BIFF pravilo."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-subordinate-clauses-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-subordinate-clauses-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-subordinate-clauses-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-subordinate-clauses-1",
+      "type": "multiple-choice",
+      "prompt": "Which is correct in the subordinate clause: \"...att jag ___\"?",
+      "answer": "inte äter fisk",
+      "distractors": ["äter inte fisk", "inte fisk äter", "fisk äter inte"],
+      "i18n": {
+        "it": { "prompt": "Qual è corretto nella subordinata: \"...att jag ___\"?" },
+        "fr": { "prompt": "Laquelle est correcte dans la subordonnée : \"...att jag ___\" ?" },
+        "de": { "prompt": "Was ist im Nebensatz richtig: \"...att jag ___\"?" },
+        "es": { "prompt": "¿Cuál es correcta en la subordinada: \"...att jag ___\"?" },
+        "hr": { "prompt": "Što je ispravno u zavisnoj rečenici: \"...att jag ___\"?" }
+      }
+    },
+    {
+      "id": "sv-ex-subordinate-clauses-2",
+      "type": "fill-blank",
+      "prompt": "Han säger att han ___ förstår. (He says that he doesn't understand.)",
+      "answer": "inte",
+      "relatedItemId": "sv-vocab-verbs-016",
+      "i18n": {
+        "it": { "prompt": "Han säger att han ___ förstår. (Dice che non capisce.)" },
+        "fr": { "prompt": "Han säger att han ___ förstår. (Il dit qu'il ne comprend pas.)" },
+        "de": { "prompt": "Han säger att han ___ förstår. (Er sagt, dass er nicht versteht.)" },
+        "es": { "prompt": "Han säger att han ___ förstår. (Dice que no entiende.)" },
+        "hr": { "prompt": "Han säger att han ___ förstår. (Kaže da ne razumije.)" }
+      }
+    },
+    {
+      "id": "sv-ex-subordinate-clauses-3",
+      "type": "reorder",
+      "prompt": "Put these words in order: kommer / hon / att / inte / vet / Jag",
+      "answer": ["Jag", "vet", "att", "hon", "inte", "kommer"],
+      "i18n": {
+        "it": { "prompt": "Metti in ordine queste parole: kommer / hon / att / inte / vet / Jag" },
+        "fr": { "prompt": "Mets ces mots dans l'ordre : kommer / hon / att / inte / vet / Jag" },
+        "de": { "prompt": "Bringe diese Wörter in die richtige Reihenfolge: kommer / hon / att / inte / vet / Jag" },
+        "es": { "prompt": "Ordena estas palabras: kommer / hon / att / inte / vet / Jag" },
+        "hr": { "prompt": "Poredaj ove riječi: kommer / hon / att / inte / vet / Jag" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Negazione nelle subordinate",
+    "fr": "Négation dans les subordonnées",
+    "de": "Verneinung im Nebensatz",
+    "es": "Negación en subordinadas",
+    "hr": "Negacija u zavisnim rečenicama"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "sv-lesson-ha",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-2",
+  "order": 2,
+  "title": "Ha (To Have)",
+  "prerequisiteIds": ["sv-lesson-vara"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Like every Swedish verb, **ha** (\"to have\") also has just one present-tense form regardless of the subject: **har**. Jag har (I have), du har (you have), hon har (she has), vi har (we have), de har (they have) — always the same form.",
+      "i18n": {
+        "it": "Come ogni verbo svedese, anche **ha** (\"avere\") ha una sola forma al presente indipendentemente dal soggetto: **har**. Jag har (io ho), du har (tu hai), hon har (lei ha), vi har (noi abbiamo), de har (loro hanno) — sempre la stessa forma.",
+        "fr": "Comme tout verbe suédois, **ha** (\"avoir\") a lui aussi une seule forme au présent, quel que soit le sujet : **har**. Jag har (j'ai), du har (tu as), hon har (elle a), vi har (nous avons), de har (ils ont) — toujours la même forme.",
+        "de": "Wie jedes schwedische Verb hat auch **ha** (\"haben\") im Präsens nur eine Form, unabhängig vom Subjekt: **har**. Jag har (ich habe), du har (du hast), hon har (sie hat), vi har (wir haben), de har (sie haben) — immer dieselbe Form.",
+        "es": "Como todo verbo sueco, **ha** (\"tener\") también tiene una sola forma en presente sin importar el sujeto: **har**. Jag har (yo tengo), du har (tú tienes), hon har (ella tiene), vi har (nosotros tenemos), de har (ellos tienen) — siempre la misma forma.",
+        "hr": "Kao i svaki švedski glagol, i **ha** (\"imati\") ima samo jedan oblik u prezentu bez obzira na subjekt: **har**. Jag har (ja imam), du har (ti imaš), hon har (ona ima), vi har (mi imamo), de har (oni imaju) — uvijek isti oblik."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-ha-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-ha-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-ha-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-ha-1",
+      "type": "fill-blank",
+      "prompt": "Jag ___ en bil. (ha — I have a car.)",
+      "answer": "har",
+      "relatedItemId": "sv-vocab-life-003",
+      "i18n": {
+        "it": { "prompt": "Jag ___ en bil. (ha — Ho un'auto.)" },
+        "fr": { "prompt": "Jag ___ en bil. (ha — J'ai une voiture.)" },
+        "de": { "prompt": "Jag ___ en bil. (ha — Ich habe ein Auto.)" },
+        "es": { "prompt": "Jag ___ en bil. (ha — Tengo un coche.)" },
+        "hr": { "prompt": "Jag ___ en bil. (ha — Imam auto.)" }
+      }
+    },
+    {
+      "id": "sv-ex-ha-2",
+      "type": "translate",
+      "prompt": "Translate: \"We have a house.\"",
+      "answer": ["Vi har ett hus."],
+      "relatedItemId": "sv-vocab-life-001",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Abbiamo una casa.\"" },
+        "fr": { "prompt": "Traduis : \"Nous avons une maison.\"" },
+        "de": { "prompt": "Übersetze: \"Wir haben ein Haus.\"" },
+        "es": { "prompt": "Traduce: \"Tenemos una casa.\"" },
+        "hr": { "prompt": "Prevedi: \"Imamo kuću.\"" }
+      }
+    },
+    {
+      "id": "sv-ex-ha-3",
+      "type": "multiple-choice",
+      "prompt": "What is the present tense of \"ha\" for \"jag\" (I)?",
+      "answer": "har",
+      "distractors": ["hade", "haft", "ha"],
+      "i18n": {
+        "it": { "prompt": "Qual è il presente di \"ha\" per \"jag\" (io)?" },
+        "fr": { "prompt": "Quel est le présent de \"ha\" pour \"jag\" (je) ?" },
+        "de": { "prompt": "Was ist das Präsens von \"ha\" für \"jag\" (ich)?" },
+        "es": { "prompt": "¿Cuál es el presente de \"ha\" para \"jag\" (yo)?" },
+        "hr": { "prompt": "Koji je prezent glagola \"ha\" za \"jag\" (ja)?" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Ha (Avere)",
+    "fr": "Ha (Avoir)",
+    "de": "Ha (Haben)",
+    "es": "Ha (Tener)",
+    "hr": "Ha (Imati)"
+  }
+}

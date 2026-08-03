@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-weather",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-7",
+  "order": 3,
+  "title": "Talking About Weather",
+  "prerequisiteIds": ["sv-lesson-clothing"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Swedish describes the weather with an impersonal **det är** (\"it is\") plus an adjective: *Det är soligt* (It's sunny), *Det är kallt* (It's cold). For rain and snow, use the verbs directly with **det** as the subject: *Det regnar* (It's raining), *Det snöar* (It's snowing).",
+      "i18n": {
+        "it": "Lo svedese descrive il tempo con un impersonale **det är** (\"è\") più un aggettivo: *Det är soligt* (È soleggiato), *Det är kallt* (Fa freddo). Per pioggia e neve, si usano direttamente i verbi con **det** come soggetto: *Det regnar* (Piove), *Det snöar* (Nevica).",
+        "fr": "Le suédois décrit la météo avec un impersonnel **det är** (\"il fait\") plus un adjectif : *Det är soligt* (Il fait soleil), *Det är kallt* (Il fait froid). Pour la pluie et la neige, on utilise directement les verbes avec **det** comme sujet : *Det regnar* (Il pleut), *Det snöar* (Il neige).",
+        "de": "Schwedisch beschreibt das Wetter mit einem unpersönlichen **det är** (\"es ist\") plus Adjektiv: *Det är soligt* (Es ist sonnig), *Det är kallt* (Es ist kalt). Für Regen und Schnee werden die Verben direkt mit **det** als Subjekt verwendet: *Det regnar* (Es regnet), *Det snöar* (Es schneit).",
+        "es": "El sueco describe el clima con un impersonal **det är** (\"hace/está\") más un adjetivo: *Det är soligt* (Hace sol), *Det är kallt* (Hace frío). Para la lluvia y la nieve, se usan los verbos directamente con **det** como sujeto: *Det regnar* (Está lloviendo), *Det snöar* (Está nevando).",
+        "hr": "Švedski opisuje vrijeme bezličnim **det är** (\"vrijeme je\") plus pridjev: *Det är soligt* (Sunčano je), *Det är kallt* (Hladno je). Za kišu i snijeg, glagoli se koriste izravno s **det** kao subjektom: *Det regnar* (Kiši), *Det snöar* (Sniježi)."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-weather-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-weather-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-weather-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-weather-1",
+      "type": "fill-blank",
+      "prompt": "Det är ___. (It's sunny.)",
+      "answer": "soligt",
+      "relatedItemId": "sv-vocab-weather-016",
+      "i18n": {
+        "it": { "prompt": "Det är ___. (È soleggiato.)" },
+        "fr": { "prompt": "Det är ___. (Il fait soleil.)" },
+        "de": { "prompt": "Det är ___. (Es ist sonnig.)" },
+        "es": { "prompt": "Det är ___. (Hace sol.)" },
+        "hr": { "prompt": "Det är ___. (Sunčano je.)" }
+      }
+    },
+    {
+      "id": "sv-ex-weather-2",
+      "type": "multiple-choice",
+      "prompt": "Which verb means \"to rain\"?",
+      "answer": "regna",
+      "distractors": ["snöa", "blåsa", "vara"],
+      "relatedItemId": "sv-vocab-weather-026",
+      "i18n": {
+        "it": { "prompt": "Quale verbo significa \"piovere\"?" },
+        "fr": { "prompt": "Quel verbe signifie \"pleuvoir\" ?" },
+        "de": { "prompt": "Welches Verb bedeutet \"regnen\"?" },
+        "es": { "prompt": "¿Qué verbo significa \"llover\"?" },
+        "hr": { "prompt": "Koji glagol znači \"kišiti\"?" }
+      }
+    },
+    {
+      "id": "sv-ex-weather-3",
+      "type": "translate",
+      "prompt": "Translate: \"It's cold and windy.\"",
+      "answer": ["Det är kallt och blåsigt."],
+      "relatedItemId": "sv-vocab-weather-013",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Fa freddo e c'è vento.\"" },
+        "fr": { "prompt": "Traduis : \"Il fait froid et il y a du vent.\"" },
+        "de": { "prompt": "Übersetze: \"Es ist kalt und windig.\"" },
+        "es": { "prompt": "Traduce: \"Hace frío y viento.\"" },
+        "hr": { "prompt": "Prevedi: \"Hladno je i vjetrovito.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Parlare del tempo",
+    "fr": "Parler de la météo",
+    "de": "Über das Wetter sprechen",
+    "es": "Hablar del clima",
+    "hr": "Govoriti o vremenu"
+  }
+}

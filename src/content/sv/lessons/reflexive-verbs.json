@@ -1,0 +1,74 @@
+{
+  "id": "sv-lesson-reflexive-verbs",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-5",
+  "order": 4,
+  "title": "Reflexive Verbs",
+  "prerequisiteIds": ["sv-lesson-imperfekt"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Reflexive verbs like **tvätta sig** (to wash oneself) need a reflexive pronoun that matches the subject: **mig** (myself), **dig** (yourself), **sig** (himself/herself/itself/themselves), **oss** (ourselves), **er** (yourselves). Notice that **sig** covers both singular *and* plural third person — *han tvättar sig* and *de tvättar sig* use the exact same word.",
+      "i18n": {
+        "it": "I verbi riflessivi come **tvätta sig** (lavarsi) richiedono un pronome riflessivo che si accorda con il soggetto: **mig** (me stesso), **dig** (te stesso), **sig** (se stesso/a, se stessi), **oss** (noi stessi), **er** (voi stessi). Nota che **sig** copre sia la terza persona singolare che plurale — *han tvättar sig* e *de tvättar sig* usano esattamente la stessa parola.",
+        "fr": "Les verbes réfléchis comme **tvätta sig** (se laver) ont besoin d'un pronom réfléchi qui s'accorde avec le sujet : **mig** (moi-même), **dig** (toi-même), **sig** (lui-même/elle-même/eux-mêmes), **oss** (nous-mêmes), **er** (vous-mêmes). Remarque que **sig** couvre à la fois la troisième personne du singulier *et* du pluriel — *han tvättar sig* et *de tvättar sig* utilisent exactement le même mot.",
+        "de": "Reflexive Verben wie **tvätta sig** (sich waschen) brauchen ein Reflexivpronomen, das zum Subjekt passt: **mig** (mich), **dig** (dich), **sig** (sich, 3. Person), **oss** (uns), **er** (euch). Beachte, dass **sig** sowohl die 3. Person Singular *als auch* Plural abdeckt — *han tvättar sig* und *de tvättar sig* verwenden genau dasselbe Wort.",
+        "es": "Los verbos reflexivos como **tvätta sig** (lavarse) necesitan un pronombre reflexivo que concuerde con el sujeto: **mig** (a mí mismo), **dig** (a ti mismo), **sig** (a él/ella/ellos mismos), **oss** (a nosotros mismos), **er** (a vosotros mismos). Fíjate en que **sig** cubre tanto la tercera persona singular *como* la plural — *han tvättar sig* y *de tvättar sig* usan exactamente la misma palabra.",
+        "hr": "Povratni glagoli poput **tvätta sig** (oprati se) trebaju povratnu zamjenicu koja odgovara subjektu: **mig** (sebe, ja), **dig** (sebe, ti), **sig** (sebe, on/ona/oni), **oss** (sebe, mi), **er** (sebe, vi). Uočite da **sig** pokriva i jedninu *i* množinu trećeg lica — *han tvättar sig* i *de tvättar sig* koriste potpuno istu riječ."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-reflexive-verbs-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-reflexive-verbs-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-reflexive-verbs-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-reflexive-verbs-1",
+      "type": "fill-blank",
+      "prompt": "Jag tvättar ___. (I wash myself.)",
+      "answer": "mig",
+      "i18n": {
+        "it": { "prompt": "Jag tvättar ___. (Mi lavo.)" },
+        "fr": { "prompt": "Jag tvättar ___. (Je me lave.)" },
+        "de": { "prompt": "Jag tvättar ___. (Ich wasche mich.)" },
+        "es": { "prompt": "Jag tvättar ___. (Me lavo.)" },
+        "hr": { "prompt": "Jag tvättar ___. (Perem se.)" }
+      }
+    },
+    {
+      "id": "sv-ex-reflexive-verbs-2",
+      "type": "multiple-choice",
+      "prompt": "Which reflexive pronoun goes with \"de\" (they)?",
+      "answer": "sig",
+      "distractors": ["dem", "dom", "den"],
+      "i18n": {
+        "it": { "prompt": "Quale pronome riflessivo va con \"de\" (loro)?" },
+        "fr": { "prompt": "Quel pronom réfléchi va avec \"de\" (ils/elles) ?" },
+        "de": { "prompt": "Welches Reflexivpronomen gehört zu \"de\" (sie)?" },
+        "es": { "prompt": "¿Qué pronombre reflexivo va con \"de\" (ellos)?" },
+        "hr": { "prompt": "Koja povratna zamjenica ide uz \"de\" (oni)?" }
+      }
+    },
+    {
+      "id": "sv-ex-reflexive-verbs-3",
+      "type": "translate",
+      "prompt": "Translate: \"He washes himself.\"",
+      "answer": ["Han tvättar sig."],
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Lui si lava.\"" },
+        "fr": { "prompt": "Traduis : \"Il se lave.\"" },
+        "de": { "prompt": "Übersetze: \"Er wäscht sich.\"" },
+        "es": { "prompt": "Traduce: \"Él se lava.\"" },
+        "hr": { "prompt": "Prevedi: \"On se pere.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Verbi riflessivi",
+    "fr": "Verbes réfléchis",
+    "de": "Reflexive Verben",
+    "es": "Verbos reflexivos",
+    "hr": "Povratni glagoli"
+  }
+}

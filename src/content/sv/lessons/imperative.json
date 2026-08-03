@@ -1,0 +1,77 @@
+{
+  "id": "sv-lesson-imperative",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-8",
+  "order": 2,
+  "title": "The Imperative",
+  "prerequisiteIds": ["sv-lesson-time-clock"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "For most -ar verbs (Group 1), the imperative is identical to the infinitive: *öppna* → *Öppna dörren!* (Open the door!), *jobba* → *Jobba!* (Work!). For most other verbs, drop the final **-a** from the infinitive: *äta* → *Ät!* (Eat!), *hjälpa* → *Hjälp!* (Help!).",
+      "i18n": {
+        "it": "Per la maggior parte dei verbi in -ar (gruppo 1), l'imperativo è identico all'infinito: *öppna* → *Öppna dörren!* (Apri la porta!), *jobba* → *Jobba!* (Lavora!). Per la maggior parte degli altri verbi, si toglie la **-a** finale dall'infinito: *äta* → *Ät!* (Mangia!), *hjälpa* → *Hjälp!* (Aiuta!).",
+        "fr": "Pour la plupart des verbes en -ar (groupe 1), l'impératif est identique à l'infinitif : *öppna* → *Öppna dörren!* (Ouvre la porte !), *jobba* → *Jobba!* (Travaille !). Pour la plupart des autres verbes, on enlève le **-a** final de l'infinitif : *äta* → *Ät!* (Mange !), *hjälpa* → *Hjälp!* (Aide !).",
+        "de": "Bei den meisten -ar-Verben (Gruppe 1) ist der Imperativ identisch mit dem Infinitiv: *öppna* → *Öppna dörren!* (Öffne die Tür!), *jobba* → *Jobba!* (Arbeite!). Bei den meisten anderen Verben wird das abschließende **-a** vom Infinitiv entfernt: *äta* → *Ät!* (Iss!), *hjälpa* → *Hjälp!* (Hilf!).",
+        "es": "Para la mayoría de los verbos en -ar (grupo 1), el imperativo es idéntico al infinitivo: *öppna* → *Öppna dörren!* (¡Abre la puerta!), *jobba* → *Jobba!* (¡Trabaja!). Para la mayoría de los demás verbos, se quita la **-a** final del infinitivo: *äta* → *Ät!* (¡Come!), *hjälpa* → *Hjälp!* (¡Ayuda!).",
+        "hr": "Kod većine -ar glagola (skupina 1), imperativ je identičan infinitivu: *öppna* → *Öppna dörren!* (Otvori vrata!), *jobba* → *Jobba!* (Radi!). Kod većine ostalih glagola, uklanja se završno **-a** iz infinitiva: *äta* → *Ät!* (Jedi!), *hjälpa* → *Hjälp!* (Pomozi!)."
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-imperative-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-imperative-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-imperative-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-imperative-1",
+      "type": "fill-blank",
+      "prompt": "___ dörren! (Open the door!)",
+      "answer": "Öppna",
+      "relatedItemId": "sv-vocab-verbs-023",
+      "i18n": {
+        "it": { "prompt": "___ dörren! (Apri la porta!)" },
+        "fr": { "prompt": "___ dörren! (Ouvre la porte !)" },
+        "de": { "prompt": "___ dörren! (Öffne die Tür!)" },
+        "es": { "prompt": "___ dörren! (¡Abre la puerta!)" },
+        "hr": { "prompt": "___ dörren! (Otvori vrata!)" }
+      }
+    },
+    {
+      "id": "sv-ex-imperative-2",
+      "type": "multiple-choice",
+      "prompt": "What is the imperative of \"äta\" (to eat)?",
+      "answer": "Ät",
+      "distractors": ["Äta", "Äter", "Åt"],
+      "relatedItemId": "sv-vocab-verbs-011",
+      "i18n": {
+        "it": { "prompt": "Qual è l'imperativo di \"äta\" (mangiare)?" },
+        "fr": { "prompt": "Quel est l'impératif de \"äta\" (manger) ?" },
+        "de": { "prompt": "Was ist der Imperativ von \"äta\" (essen)?" },
+        "es": { "prompt": "¿Cuál es el imperativo de \"äta\" (comer)?" },
+        "hr": { "prompt": "Koji je imperativ glagola \"äta\" (jesti)?" }
+      }
+    },
+    {
+      "id": "sv-ex-imperative-3",
+      "type": "translate",
+      "prompt": "Translate: \"Help me!\"",
+      "answer": ["Hjälp mig!"],
+      "relatedItemId": "sv-vocab-verbs-028",
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Aiutami!\"" },
+        "fr": { "prompt": "Traduis : \"Aide-moi !\"" },
+        "de": { "prompt": "Übersetze: \"Hilf mir!\"" },
+        "es": { "prompt": "Traduce: \"¡Ayúdame!\"" },
+        "hr": { "prompt": "Prevedi: \"Pomozi mi!\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "L'imperativo",
+    "fr": "L'impératif",
+    "de": "Der Imperativ",
+    "es": "El imperativo",
+    "hr": "Imperativ"
+  }
+}

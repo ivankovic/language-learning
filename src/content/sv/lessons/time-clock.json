@@ -1,0 +1,75 @@
+{
+  "id": "sv-lesson-time-clock",
+  "lang": "sv",
+  "courseId": "sv-course-a1",
+  "unitId": "sv-unit-8",
+  "order": 1,
+  "title": "Telling Time",
+  "prerequisiteIds": ["sv-lesson-prepositions"],
+  "blocks": [
+    {
+      "type": "explanation",
+      "markdown": "Swedish tells time with **klockan är** (\"the clock is\") plus the hour: *Klockan är tio* (It's ten o'clock). Minutes past the hour use **över**: *fem över tio* (five past ten). Minutes before use **i**: *kvart i två* (quarter to two). Watch out for **halv**: *halv tre* means \"half **to** three\" — that's 2:30, not 3:30!",
+      "i18n": {
+        "it": "Lo svedese dice l'ora con **klockan är** (\"l'orologio è\") più l'ora: *Klockan är tio* (Sono le dieci). I minuti dopo l'ora usano **över**: *fem över tio* (le dieci e cinque). I minuti prima usano **i**: *kvart i två* (l'una e tre quarti / le due meno un quarto). Attenzione a **halv**: *halv tre* significa \"mezza **verso** le tre\" — cioè le 2:30, non le 3:30!",
+        "fr": "Le suédois dit l'heure avec **klockan är** (\"l'horloge est\") plus l'heure : *Klockan är tio* (Il est dix heures). Les minutes après l'heure utilisent **över** : *fem över tio* (dix heures cinq). Les minutes avant utilisent **i** : *kvart i två* (deux heures moins le quart). Attention à **halv** : *halv tre* signifie \"la demie **vers** trois heures\" — c'est-à-dire 2h30, pas 3h30 !",
+        "de": "Schwedisch sagt die Uhrzeit mit **klockan är** (\"die Uhr ist\") plus der Stunde: *Klockan är tio* (Es ist zehn Uhr). Minuten nach der Stunde verwenden **över**: *fem över tio* (fünf nach zehn). Minuten davor verwenden **i**: *kvart i två* (Viertel vor zwei). Vorsicht bei **halv**: *halv tre* bedeutet \"halb **bis** drei\" — das ist 2:30, nicht 3:30! (Genau wie im Deutschen \"halb drei\".)",
+        "es": "El sueco dice la hora con **klockan är** (\"el reloj es\") más la hora: *Klockan är tio* (Son las diez). Los minutos después de la hora usan **över**: *fem över tio* (las diez y cinco). Los minutos antes usan **i**: *kvart i två* (las dos menos cuarto). Cuidado con **halv**: *halv tre* significa \"media hacia las tres\" — es decir, las 2:30, ¡no las 3:30!",
+        "hr": "Švedski govori vrijeme s **klockan är** (\"sat je\") plus broj sata: *Klockan är tio* (Deset je sati). Minute poslije punog sata koriste **över**: *fem över tio* (deset i pet). Minute prije koriste **i**: *kvart i två* (dva manje četvrt). Pazite na **halv**: *halv tre* znači \"pola **do** tri\" — to je 2:30, ne 3:30!"
+      }
+    },
+    { "type": "exercise", "exerciseId": "sv-ex-time-clock-1" },
+    { "type": "exercise", "exerciseId": "sv-ex-time-clock-2" },
+    { "type": "exercise", "exerciseId": "sv-ex-time-clock-3" }
+  ],
+  "exercises": [
+    {
+      "id": "sv-ex-time-clock-1",
+      "type": "multiple-choice",
+      "prompt": "What time does \"halv tre\" mean?",
+      "answer": "2:30",
+      "distractors": ["3:30", "3:00", "2:00"],
+      "i18n": {
+        "it": { "prompt": "Che ora indica \"halv tre\"?" },
+        "fr": { "prompt": "Quelle heure indique \"halv tre\" ?" },
+        "de": { "prompt": "Welche Uhrzeit bedeutet \"halv tre\"?" },
+        "es": { "prompt": "¿Qué hora significa \"halv tre\"?" },
+        "hr": { "prompt": "Koje vrijeme znači \"halv tre\"?" }
+      }
+    },
+    {
+      "id": "sv-ex-time-clock-2",
+      "type": "fill-blank",
+      "prompt": "Klockan är ___ över tio. (It's five past ten.)",
+      "answer": "fem",
+      "relatedItemId": "sv-vocab-numbers-006",
+      "i18n": {
+        "it": { "prompt": "Klockan är ___ över tio. (Sono le dieci e cinque.)" },
+        "fr": { "prompt": "Klockan är ___ över tio. (Il est dix heures cinq.)" },
+        "de": { "prompt": "Klockan är ___ över tio. (Es ist fünf nach zehn.)" },
+        "es": { "prompt": "Klockan är ___ över tio. (Son las diez y cinco.)" },
+        "hr": { "prompt": "Klockan är ___ över tio. (Deset je i pet.)" }
+      }
+    },
+    {
+      "id": "sv-ex-time-clock-3",
+      "type": "translate",
+      "prompt": "Translate: \"It's quarter to two.\"",
+      "answer": ["Den är kvart i två.", "Klockan är kvart i två."],
+      "i18n": {
+        "it": { "prompt": "Traduci: \"Sono le due meno un quarto.\"" },
+        "fr": { "prompt": "Traduis : \"Il est deux heures moins le quart.\"" },
+        "de": { "prompt": "Übersetze: \"Es ist Viertel vor zwei.\"" },
+        "es": { "prompt": "Traduce: \"Son las dos menos cuarto.\"" },
+        "hr": { "prompt": "Prevedi: \"Dva manje četvrt je.\"" }
+      }
+    }
+  ],
+  "titleByLang": {
+    "it": "Dire l'ora",
+    "fr": "Dire l'heure",
+    "de": "Die Uhrzeit sagen",
+    "es": "Decir la hora",
+    "hr": "Govoriti vrijeme"
+  }
+}
