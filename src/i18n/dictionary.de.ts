@@ -125,6 +125,7 @@ export const de: Record<TranslationKey, string> = {
   "langSwitcher.addLanguageAria": "Sprache hinzufügen",
   "langSwitcher.adding": "Wird hinzugefügt…",
   "langSwitcher.learn": "{lang} lernen",
+"langSwitcher.addError": "Sprache konnte nicht hinzugefügt werden — überprüfe deine Verbindung und versuche es erneut.",
 
   "disclaimer.text": "⚠️ Der Wortschatz, die Übersetzungen und die Grammatiklektionen dieser App wurden mit Hilfe von KI erstellt und können Fehler enthalten. Einen Fehler gefunden?",
   "disclaimer.openIssue": "Ein Issue eröffnen",

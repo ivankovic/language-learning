@@ -28,7 +28,14 @@ export function loadLanguageContent(lang: string): Promise<LoadedLanguageContent
     return Promise.reject(new Error(`No content bundle for language "${lang}"`));
   }
   if (!cache.has(lang)) {
-    cache.set(lang, registry[lang]());
+    const promise = registry[lang]().catch((err) => {
+      // Don't let a transient failure (e.g. a flaky chunk load) permanently
+      // poison this language for the rest of the session — evict so the next
+      // attempt gets a fresh load instead of the same cached rejection.
+      cache.delete(lang);
+      throw err;
+    });
+    cache.set(lang, promise);
   }
   return cache.get(lang)!;
 }

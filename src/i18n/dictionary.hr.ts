@@ -125,6 +125,7 @@ export const hr: Record<TranslationKey, string> = {
   "langSwitcher.addLanguageAria": "Dodaj jezik",
   "langSwitcher.adding": "Dodavanje…",
   "langSwitcher.learn": "Uči {lang}",
+"langSwitcher.addError": "Nije moguće dodati taj jezik — provjeri vezu i pokušaj ponovno.",
 
   "disclaimer.text": "⚠️ Vokabular, prijevodi i gramatičke lekcije ove aplikacije generirani su uz pomoć AI-ja i mogu sadržavati pogreške. Pronašao/pronašla si grešku?",
   "disclaimer.openIssue": "Otvori prijavu",

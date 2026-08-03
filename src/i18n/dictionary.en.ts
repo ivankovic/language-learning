@@ -126,6 +126,7 @@ export const en = {
   "langSwitcher.addLanguageAria": "Add a language",
   "langSwitcher.adding": "Adding…",
   "langSwitcher.learn": "Learn {lang}",
+"langSwitcher.addError": "Couldn't add that language — check your connection and try again.",
 
   "disclaimer.text": "⚠️ This app's vocabulary, translations, and grammar lessons were generated with the help of AI and may contain mistakes. Found an error?",
   "disclaimer.openIssue": "Open an issue",

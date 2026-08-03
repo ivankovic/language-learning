@@ -14,6 +14,7 @@ export function LanguageSwitcher() {
   const profile = useProfile();
   const [adding, setAdding] = useState(false);
   const [busy, setBusy] = useState(false);
+  const [error, setError] = useState(false);
 
   if (!profile) return null;
 
@@ -23,13 +24,19 @@ export function LanguageSwitcher() {
 
   async function addLanguage(code: string) {
     setBusy(true);
-    const content = await loadLanguageContent(code);
-    const firstUnit = content.units.find((u) => u.id === content.course.unitIds[0]);
-    const firstLessonId = firstUnit?.lessonIds[0];
-    await addTargetLang(code);
-    if (firstLessonId) await startLesson(firstLessonId, code);
-    setBusy(false);
-    setAdding(false);
+    setError(false);
+    try {
+      const content = await loadLanguageContent(code);
+      const firstUnit = content.units.find((u) => u.id === content.course.unitIds[0]);
+      const firstLessonId = firstUnit?.lessonIds[0];
+      await addTargetLang(code);
+      if (firstLessonId) await startLesson(firstLessonId, code);
+      setAdding(false);
+    } catch {
+      setError(true);
+    } finally {
+      setBusy(false);
+    }
   }
 
   return (
@@ -66,6 +73,7 @@ export function LanguageSwitcher() {
 
       {adding && (
         <div className="mt-2 space-y-1.5">
+          {error && <p className="text-sm text-rose-600 dark:text-rose-400">{t("langSwitcher.addError")}</p>}
           {addableLanguages.map((l) => (
             <button
               key={l.code}
